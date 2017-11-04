@@ -50,6 +50,17 @@ return array(
                     ),
                 ),
             ),
+        /*    'application' => array(
+                'type'    => 'segment',                
+                'options' => array(
+                    'route'    => '/signup',
+                    'defaults' => array(
+                        '__NAMESPACE__' => 'Application\Controller',
+                        'controller'    => 'Index',
+                        'action'        => 'signup',
+                    ),
+                ),
+            ),*/            
         ),
     ),
     'service_manager' => array(
