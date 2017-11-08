@@ -79,7 +79,7 @@ class common  {
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
-                $data[] = $value;
+                $data[$value['id']] = $value;
             }
             $response = array('status' => 'succes', 'data' => $data);
         }
