@@ -29,8 +29,8 @@ class IndexController extends AbstractActionController {
                 case 'addEditCategory':
                     $params = array();
                     $params['category_name'] = $parameters['category_name'];
-                    $params['parent_category_id'] = $parameters['parent_category_id'];
-                    $params['category_des'] = $parameters['category_des'];
+                    $params['parent_category_id'] = !empty($parameters['parent_category_id']) ? $parameters['parent_category_id']:0;
+                    $params['category_des'] = !empty($parameters['category_des']) ? $parameters['category_des'] : '';
                     if (!empty($parameters['id'])) {
                         $params['id'] = $parameters['id'];
                     }
