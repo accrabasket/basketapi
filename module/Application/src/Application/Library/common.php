@@ -41,7 +41,7 @@ class common  {
                 if (!empty($parameters['attribute_id'])) {
                     $attribute = array();
                     $attribute['product_id'] = $result;
-                    $attribute['attribute_type'] = $parameters['attribute_type'];
+                    $attribute['attribute_type'] = $parameters['name'];
                     $attribute['quantity'] = $parameters['quantity'];
                     $attribute['unit'] = $parameters['unit'];
                     $attribute['status'] = 1;
@@ -55,21 +55,26 @@ class common  {
             $response = array('status' => 'succes', 'msg' => 'product updated ');
             return $response;
         }
-
+//        print_r($parameters);die;
+        $data = array();
         $result = $this->commonModel->addProduct($parameters);
-        if(!empty($result)){
+        $data['product_id'] = $result;
+        if (!empty($result) && !empty($optional['attribute'])) {
+            foreach ($optional['attribute'] as $key => $value) {
                 $attribute = array();
                 $attribute['product_id'] = $result;
-                $attribute['attribute_type'] = $parameters['attribute_type'];
-                $attribute['quantity'] = $parameters['quantity'];
-                $attribute['unit'] = $parameters['unit'];
+                $attribute['name'] = $value['name'];
+                $attribute['quantity'] = $value['quantity'];
+                $attribute['unit'] = $value['unit'];
                 $attribute['status'] = 1;
-                
+
                 $returnAttr = $this->commonModel->addAttribute($attribute);
-                if(!empty($returnAttr)){
-                    $response = array('status'=>'succes','msg'=>'product created ');
-                }
+                $data['attribute'][$key] = $returnAttr;
             }
+            if (!empty($returnAttr)) {
+                $response = array('status' => 'succes', 'data' => $data);
+            }
+        }
         return $response;
     }
     

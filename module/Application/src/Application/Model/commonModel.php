@@ -103,7 +103,7 @@ class commonModel  {
                         ->values($parameters);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
-            return $result;
+            return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (Exception $ex) {
             return false;
         }
@@ -116,7 +116,7 @@ class commonModel  {
                         ->where(array('id'=>$opation['id']));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
-            return $result;
+            return $opation['id'];
         } catch (Exception $ex) {
             return false;
         }
