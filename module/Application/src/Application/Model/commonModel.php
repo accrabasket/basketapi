@@ -21,7 +21,7 @@ class commonModel  {
             'driver' => 'Mysqli',
             'database' => 'accrabasket',
             'username' => 'root',
-            'password' => 'pramod',
+            'password' => '',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
