@@ -32,47 +32,105 @@ class common  {
         return $response;
     }
     
-    public function addEditProduct($parameters , $optional =array()) {
+    public function addEditProduct($parameters) {
         $response = array('status'=>'fail','msg'=>'fail ');
-       // $validate  = $this->validation($parameters);
-       if (!empty($parameters['id'])) {
-            $result = $this->commonModel->updateProduct($parameters);
-            if (!empty($result)) {
-                if (!empty($parameters['attribute_id'])) {
-                    $attribute = array();
-                    $attribute['product_id'] = $result;
-                    $attribute['attribute_type'] = $parameters['name'];
-                    $attribute['quantity'] = $parameters['quantity'];
-                    $attribute['unit'] = $parameters['unit'];
-                    $attribute['status'] = 1;
-                    $optional['id'] = $parameters['attribute_id'];
+        $productParams = array();
+        $productRules = array();
+        if (!empty($parameters['id'])) {
+            $productWhere = array();
+            $productWhere['id'] = $parameters['id'];
+            if(isset($parameters['product_name'])) {
+                $productParams['product_name'] = $parameters['product_name'];
+                $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
+            }
+            if(isset($parameters['category_id'])) {
+                $productParams['category_id'] = (int)$parameters['category_id'];
+                $productRules['category_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
+            if(isset($parameters['status'])) {
+                $productParams['status'] = $parameters['status'];
+            }
+            if(isset($parameters['product_desc'])) {
+                $productParams['product_desc'] = $parameters['product_desc'];
+                $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);
+            }
+            $response = $this->isValid($productRules, $productParams);
+            if(empty($response)) {
+                $result = $this->commonModel->updateProduct($productParams, $productWhere);
+                if (!empty($result)) {
+                    if (!empty($parameters['attribute_id'])) {
+                        $attributeWhere = array();
+                        $attributeRules = array();
+                        $attributeParams = array();
+                        if(isset($parameters['name'])) {
+                            $attributeParams['name'] = $parameters['name'];
+                            $attributeRules['name'] = array('type'=>'string', 'is_required'=>true);
+                        }
+                        if(isset($parameters['quantity'])) {
+                            $attributeParams['quantity'] = (int)$parameters['quantity'];
+                            $attributeRules['quantity'] = array('type'=>'numeric', 'is_required'=>true);
+                        }
+                        if(isset($parameters['unit'])) {
+                            $attributeParams['unit'] = $parameters['unit'];
+                            $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
+                        }
+                        $response = $this->isValid($attributeRules, $attributeParams);
+                        if(empty($response)) {
+                            $attributeWhere['id'] = $parameters['attribute_id'];
+                            $returnAttr = $this->commonModel->updateAttribute($attributeParams, $attributeWhere);
+                        }
+                    }
 
-                    $returnAttr = $this->commonModel->updateAttribute($attribute, $optional);
-                   
                 }
-                
+                $response = array('status' => 'success', 'msg' => 'product updated successfully');
             }
-            $response = array('status' => 'success', 'msg' => 'product updated ');
             return $response;
-        }
-//        print_r($parameters);die;
-        $data = array();
-        $result = $this->commonModel->addProduct($parameters);
-        $data['product_id'] = $result;
-        if (!empty($result) && !empty($optional['attribute'])) {
-            foreach ($optional['attribute'] as $key => $value) {
-                $attribute = array();
-                $attribute['product_id'] = $result;
-                $attribute['name'] = $value['name'];
-                $attribute['quantity'] = $value['quantity'];
-                $attribute['unit'] = $value['unit'];
-                $attribute['status'] = 1;
+        }else {
+            $data = array();
+            
+            $productParams['product_name'] = $parameters['product_name'];
+            $productParams['category_id'] = (int)$parameters['category_id'];
+            $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
+            $productParams['product_desc'] = $parameters['product_desc'];
+            $productParams['created_date'] = date('Y-m-d H:i:s');
 
-                $returnAttr = $this->commonModel->addAttribute($attribute);
-                $data['attribute'][$key] = $returnAttr;
-            }
-            if (!empty($returnAttr)) {
-                $response = array('status' => 'success', 'data' => $data);
+            $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
+            $productRules['category_id'] = array('type'=>'integer', 'is_required'=>true);
+            $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);            
+            
+            $response = $this->isValid($productRules, $productParams);
+            
+            if(empty($response)) {
+                $productId = $this->commonModel->addProduct($productParams);
+                if(!empty($productId)) {
+                    $data['product_id'] = $productId;
+                    if (!empty($productId) && !empty($parameters['attribute'])) {
+                        foreach ($parameters['attribute'] as $key => $value) {
+                            $attributeWhere = array();
+                            $attributeRules = array();
+                            
+                            $attributeParams = array();  
+                            $attributeParams['product_id'] = $productId;
+                            $attributeParams['name'] = $value['name'];
+                            $attributeParams['quantity'] = $value['quantity'];
+                            $attributeParams['unit'] = $value['unit'];
+                            $attributeParams['status'] = 1;
+                            $attributeParams['created_date'] = date('Y-m-d H:i:s');
+                            
+                            $attributeRules['name'] = array('type'=>'string', 'is_required'=>true);
+                            $attributeRules['quantity'] = array('type'=>'numeric', 'is_required'=>true);
+                            $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
+                            
+                            $response = $this->isValid($attributeRules, $attributeParams);
+                            if(empty($response)) {
+                                $commonModel = new commonModel();
+                                $returnAttr = $commonModel->addAttribute($attributeParams);
+                                $data['attribute'][$key] = $returnAttr;
+                            }
+                        }
+                        $response = array('status' => 'success', 'data' => $data);
+                    }
+                }
             }
         }
         return $response;

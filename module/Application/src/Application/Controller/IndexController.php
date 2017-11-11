@@ -39,14 +39,7 @@ class IndexController extends AbstractActionController {
                     break;
 
                 case 'addEditProduct':
-                    $params = array();
-                    $params['product_name'] = !empty($parameters['product_name']) ? $parameters['product_name'] : '';
-                    $params['category_id'] = !empty($parameters['category_id']) ? $parameters['category_id']:'';
-                    if (!empty($parameters['id'])) {
-                        $params['id'] = $parameters['id'];
-                    }
-                    $params['status'] = $parameters['status'];
-                    $response = $this->commonLib->addEditProduct($params,$parameters);
+                    $response = $this->commonLib->addEditProduct($parameters);
                     break;
                     
                 case 'categoryList':

@@ -67,16 +67,11 @@ class commonModel  {
         }
     }
     
-    public function updateProduct($parameters) {
+    public function updateProduct($data, $where) {
         try {
-            $params = array();
-            $params['product_name'] = $parameters['product_name'];
-            $params['category_id'] = $parameters['category_id'];
-            $params['product_des'] = $parameters['product_des'];
-            
             $query = $this->sql->update('product_master')
-                        ->set($params)
-                        ->where(array('id'=>$parameters['id']));
+                        ->set($data)
+                        ->where($where);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $parameters['id'];
