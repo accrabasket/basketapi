@@ -206,7 +206,7 @@ class commonModel  {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
             }
-            $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','attribute_type','unit','quantity'))
+            $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
                         ;
             $query = $query->join('category_master', 'category_master.id = product_master.category_id',array('category_name'))
                         ;
