@@ -28,6 +28,7 @@ class commonModel  {
         try {
             $query = $this->sql->insert('category_master')
                         ->values($parameters);
+            //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $result;
@@ -140,5 +141,31 @@ class commonModel  {
             return false;
         }
     }
+    public function addLocation($parameters) {
+        try {
+            $query = $this->sql->insert('location_master')
+                        ->values($parameters);
+           // print_r($parameters);die;
+            //print $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }
+    
+    public function updateLocation($parameters, $where) {
+        try {            
+            $query = $this->sql->update('location_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }    
 
 }

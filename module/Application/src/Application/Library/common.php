@@ -20,14 +20,14 @@ class common  {
         if(!empty($parameters['id'])){
             $result = $this->commonModel->updateCategory($parameters);
             if(!empty($result)){
-                $response = array('status'=>'succes','msg'=>'category updated ');
+                $response = array('status'=>'success','msg'=>'category updated ');
             }
             return $response;
         }
         
         $result = $this->commonModel->addCategory($parameters);
         if(!empty($result)){
-                $response = array('status'=>'succes','msg'=>'category created ');
+                $response = array('status'=>'success','msg'=>'category created ');
             }
         return $response;
     }
@@ -52,7 +52,7 @@ class common  {
                 }
                 
             }
-            $response = array('status' => 'succes', 'msg' => 'product updated ');
+            $response = array('status' => 'success', 'msg' => 'product updated ');
             return $response;
         }
 //        print_r($parameters);die;
@@ -72,7 +72,7 @@ class common  {
                 $data['attribute'][$key] = $returnAttr;
             }
             if (!empty($returnAttr)) {
-                $response = array('status' => 'succes', 'data' => $data);
+                $response = array('status' => 'success', 'data' => $data);
             }
         }
         return $response;
@@ -86,7 +86,7 @@ class common  {
             foreach ($result as $key => $value) {
                 $data[$value['id']] = $value;
             }
-            $response = array('status' => 'succes', 'data' => $data);
+            $response = array('status' => 'success', 'data' => $data);
         }
         return $response;
     }
@@ -99,9 +99,93 @@ class common  {
             foreach ($result as $key => $value) {
                 $data[] = $value;
             }
-            $response = array('status' => 'succes', 'data' => $data);
+            $response = array('status' => 'success', 'data' => $data);
         }
         return $response;
     }
-
+    
+    public function addEditLocation($parameters) {
+        $params = array();
+        $rule = array();
+        if(!empty($parameters['id'])){
+            $where = array('id'=>$parameters['id']);
+            if(isset($parameters['googlelocation'])) {
+                $params['googlelocation'] = $parameters['googlelocation'];
+                $params['lat'] = $parameters['lat'];
+                $params['lng'] = $parameters['lng'];
+                $rule['googlelocation'] = array('type'=>'string', 'is_required'=>true); 
+                $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
+                $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
+            }
+            if(isset($parameters['address'])) {
+                $params['address'] = $parameters['address'];
+                $rule['address'] = array('type'=>'string', 'is_required'=>true);                
+            }
+            if(isset($parameters['country_id'])) {
+                $params['country_id'] = $parameters['country_id'];
+                $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
+            if(isset($parameters['active'])) {
+                $params['active'] = $parameters['active'];                
+            }         
+        }else{
+            $params['googlelocation'] = $parameters['googlelocation'];
+            $params['address'] = $parameters['address'];
+            $params['country_id'] = (int)$parameters['country_id'];
+            $params['active'] = $parameters['active'];
+            $params['lat'] = $parameters['lat'];
+            $params['lng'] = $parameters['lng'];
+            
+            $rule['googlelocation'] = array('type'=>'string', 'is_required'=>true);
+            $rule['address'] = array('type'=>'string', 'is_required'=>true);
+            $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
+            $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
+            $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
+        }
+        $response = $this->isValid($rule, $params);
+        if(empty($response)){
+            $response = array('status' => 'fail', 'msg' => 'No Record Saved ');
+            if(!empty($parameters['id'])){
+                $result = $this->commonModel->updateLocation($params, $where);
+            }else {
+                $params['created_date'] = date('Y-m-d H:i:s');
+                $result = $this->commonModel->addLocation($params);
+            }
+            if(!empty($result)){
+                $response = array('status'=>'success','msg'=>'Record Saved');
+            }            
+        }
+        
+        return $response;
+    }
+    
+    public function isValid($rules, $parameters) {
+        $return = array();
+        foreach($rules as $key=>$rule) {
+            if($rule['type']=='string' && is_string($parameters[$key])) {
+                if(!($rule['is_required'] && !empty($parameters[$key]))) {
+                    $return = array('status'=>'fail', 'msg'=>$key.' not supplied');
+                    break;
+                }
+            }
+            else if($rule['type']=='integer' && is_int($parameters[$key])) {
+                if(!($rule['is_required'] && !empty($parameters[$key]))) {
+                    $return = array('status'=>'fail', 'msg'=>$key.' not supplied');
+                    break;
+                }
+            }            
+            else if($rule['type']=='numeric' && is_numeric($parameters[$key])) {
+                if(!($rule['is_required'] && !empty($parameters[$key]))) {
+                    $return = array('status'=>'fail', 'msg'=>$key.' not supplied');
+                    break;
+                }
+            }else{
+                $return = array('status'=>'fail', 'msg'=>$key.' not '.$rule['type']);
+                break;
+            }            
+        }
+        
+        return $return;
+    }
+    
 }

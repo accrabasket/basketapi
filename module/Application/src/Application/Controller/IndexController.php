@@ -50,12 +50,12 @@ class IndexController extends AbstractActionController {
                     break;
                     
                 case 'categoryList':
-                    $option = array();
+                    $optional = array();
                     if (!empty($parameters['id'])) {
-                        $option['id'] = $parameters['id'];
+                        $optional['id'] = $parameters['id'];
                     }
 
-                    $response = $this->commonLib->categoryList($parameters ,$option );
+                    $response = $this->commonLib->categoryList($parameters ,$optional );
                     break;
                 case 'getMarchantList':
                     $option = array();
@@ -64,7 +64,12 @@ class IndexController extends AbstractActionController {
                     }
                     $response = $this->commonLib->getMarchantList($parameters ,$option );
                     break;
+                    
+                case 'addEditLocation':
+                    $response = $this->commonLib->addEditLocation($parameters);
+                    break;
             }
+            
             echo json_encode($response);
             exit;
         }
