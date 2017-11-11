@@ -216,4 +216,30 @@ class common  {
         return $response;        
     }
     
+    function getProductList($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $optional = array();        
+        if(!empty($parameters['id'])) {
+            $optional['id'] = $parameters['id'];
+        }        
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = $parameters['pagination'];
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }
+        
+        if(isset($parameters['active'])) {
+            $optional['active'] = $parameters['active'];
+        }        
+        
+        $result = $this->commonModel->getProductList($optional);
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;        
+    }
+    
 }
