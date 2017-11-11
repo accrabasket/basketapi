@@ -68,6 +68,9 @@ class IndexController extends AbstractActionController {
                 case 'addEditLocation':
                     $response = $this->commonLib->addEditLocation($parameters);
                     break;
+                case 'getLocationList':
+                    $response = $this->commonLib->getLocationList($parameters);
+                    break;                    
             }
             
             echo json_encode($response);

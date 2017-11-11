@@ -12,6 +12,7 @@ namespace Application\Model;
 
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Sql;
+define('PER_PAGE_LIMIT', 20);
 class commonModel  {
     public $adapter;
     public $sql;
@@ -167,5 +168,31 @@ class commonModel  {
             return false;
         }
     }    
+    
+    public function locationList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('location_master', array('*'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('id' => $optional['id']));
+            }
+            if(!empty($optional['address'])) {
+                $query = $query->where($where->like('address', "%".$optional['address']."%"));
+            }            
+            if(isset($optional['active'])) {
+                $query = $query->where(array('active'=>$optional['active']));
+            } 
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }        
+    }
 
 }
