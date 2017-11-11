@@ -70,7 +70,10 @@ class IndexController extends AbstractActionController {
                     break;
                 case 'getLocationList':
                     $response = $this->commonLib->getLocationList($parameters);
-                    break;                    
+                    break; 
+                case 'getProductList':
+                    $response = $this->commonLib->getProductList($parameters);
+                    break; 
             }
             
             echo json_encode($response);
