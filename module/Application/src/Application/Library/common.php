@@ -242,4 +242,17 @@ class common  {
         return $response;        
     }
     
+    function deleteCategory($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Category Not Deleted '); 
+        $rule['id'] = array('type'=>'integer', 'is_required'=>true);
+        if(!empty($parameters['id'])) {
+            $result = $this->commonModel->deleteCategory($parameters);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Category deleted ');
+            }
+        }        
+        
+        return $response;        
+    }
+    
 }
