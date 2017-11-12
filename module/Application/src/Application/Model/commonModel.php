@@ -43,7 +43,7 @@ class commonModel  {
             $params = array();
             $params['category_name'] = $parameters['category_name'];
             $params['category_des'] = $parameters['category_des'];
-            
+            $params['parent_category_id'] = $parameters['parent_category_id'];
             $query = $this->sql->update('category_master')
                         ->set($params)
                         ->where(array('id'=>$parameters['id']));
