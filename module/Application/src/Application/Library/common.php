@@ -397,4 +397,50 @@ class common  {
         }
         return $response;        
     }   
+    public function saveMerchant($parameters) {
+        $response = array('status'=>'fail','msg'=>'Nothing to update.');
+        $params = array();
+        $rule = array();
+        if(!empty($parameters['id'])){
+            $where = array('id'=>$parameters['id']);
+            if(isset($parameters['name'])) {
+                $params['name'] = $parameters['name'];
+                $rule['name'] = array('type'=>'string', 'is_required'=>true);
+            }
+            if(isset($parameters['email'])) {
+                $params['email'] = $parameters['email'];
+                $rule['email'] = array('type'=>'string', 'is_required'=>true);               
+            }
+            if(isset($parameters['ic_number'])) {
+                $params['ic_number'] = $parameters['ic_number'];
+                $rule['ic_number'] = array('type'=>'string', 'is_required'=>true);
+            }
+            if(isset($parameters['phone_number'])) {
+                $params['phone_number'] = (int)$parameters['phone_number'];
+                $rule['phone_number'] = array('type'=>'numeric', 'is_required'=>true);
+            }  
+            if(isset($parameters['bank_name'])) {
+                $params['bank_name'] = $parameters['bank_name'];
+                $rule['bank_name'] = array('type'=>'string', 'is_required'=>true);
+            } 
+            if(isset($parameters['bank_account_number'])) {
+                $params['bank_account_number'] = (int)$parameters['bank_account_number'];
+                $rule['bank_account_number'] = array('type'=>'numeric', 'is_required'=>true);
+            }            
+            if(isset($parameters['status'])) {
+                $params['status'] = $parameters['status'];                
+            }
+            $response = $this->isValid($rule, $params);
+            if(empty($response)) {
+                $result = $this->commonModel->saveMerchant($params, $where);
+                if(!empty($result)){
+                    $response = array('status'=>'success','msg'=>'Record Saved Successfully.');
+                }else{
+                    $response = array('status'=>'fail','msg'=>'nothing to update');
+                }                
+            }
+        }
+        
+        return $response;
+    }
 }
