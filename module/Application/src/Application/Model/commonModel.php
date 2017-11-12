@@ -218,4 +218,16 @@ class commonModel  {
         }        
     }
     
+    public function deleteCategory($parameters) {
+        try {            
+            $query = $this->sql->delete('category_master')
+                        ->where(array('id'=>$parameters['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }
+    
 }
