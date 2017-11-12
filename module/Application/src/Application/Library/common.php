@@ -400,12 +400,12 @@ class common  {
     public function saveMerchant($parameters) {
         $response = array('status'=>'fail','msg'=>'Nothing to update.');
         $params = array();
-        $rule = array();
+        $rule = array();        
         if(!empty($parameters['id'])){
             $where = array('id'=>$parameters['id']);
             if(isset($parameters['name'])) {
-                $params['name'] = $parameters['name'];
-                $rule['name'] = array('type'=>'string', 'is_required'=>true);
+                $params['first_name'] = $parameters['first_name'];
+                $rule['first_name'] = array('type'=>'string', 'is_required'=>true);
             }
             if(isset($parameters['email'])) {
                 $params['email'] = $parameters['email'];
@@ -416,7 +416,7 @@ class common  {
                 $rule['ic_number'] = array('type'=>'string', 'is_required'=>true);
             }
             if(isset($parameters['phone_number'])) {
-                $params['phone_number'] = (int)$parameters['phone_number'];
+                $params['phone_number'] = $parameters['phone_number'];
                 $rule['phone_number'] = array('type'=>'numeric', 'is_required'=>true);
             }  
             if(isset($parameters['bank_name'])) {
@@ -424,7 +424,7 @@ class common  {
                 $rule['bank_name'] = array('type'=>'string', 'is_required'=>true);
             } 
             if(isset($parameters['bank_account_number'])) {
-                $params['bank_account_number'] = (int)$parameters['bank_account_number'];
+                $params['bank_account_number'] = $parameters['bank_account_number'];
                 $rule['bank_account_number'] = array('type'=>'numeric', 'is_required'=>true);
             }            
             if(isset($parameters['status'])) {
