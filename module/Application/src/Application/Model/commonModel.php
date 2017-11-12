@@ -123,12 +123,13 @@ class commonModel  {
         try {
             
             $query = $this->sql->select('user_master');
-            $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id')
-                        ->where(array('role_id' => 2));
-
             if (!empty($optional['id'])) {
                 $query = $query->where(array('id' => $optional['id']));
+            }else{
+                $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id')
+                        ->where(array('role_id' => 2));
             }
+            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
