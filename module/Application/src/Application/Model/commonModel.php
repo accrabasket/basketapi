@@ -283,4 +283,17 @@ class commonModel  {
             return false;
         }
     }
+    
+    function saveMerchant($parameters, $where) {
+        try {            
+            $query = $this->sql->update('user_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }
