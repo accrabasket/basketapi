@@ -1,0 +1,87 @@
+<div class="register-box" ng-app="marchantapp" ng-controller="marchantController" ng-cloak="true">
+  <div class="register-logo">
+    <a href="index.html"><img src="<?=$this->basePath()?>/public/css/dist/img/logo-big.png" class="" alt="Logo"></a>
+  </div>
+
+  <div class="register-box-body">
+    <p class="login-box-msg">Register A New Merchant</p>
+    <p class="danger" style="color:red" ng-show="errorShow">{{errorMsg}}</p>
+    <p class="danger" style="color:green" ng-show="successShow">{{successMsg}}</p>
+    <form  method="post">
+      <div class="form-group has-feedback">
+          <input type="text" class="form-control" placeholder="Onwer name" name="name" ng-model="name">
+        <span class="fa fa-user form-control-feedback"></span>
+      </div>
+	  <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="IC Number" name="ic_number" ng-model="ic_number">
+        <span class="fa fa-user form-control-feedback"></span>
+      </div>
+	  <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="Phone Numbmer"  name="phone_number" ng-model="phone_number" maxlength="10" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+        <span class="fa fa-user form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input type="email" class="form-control" placeholder="Email" name="email_id" ng-model="email_id">
+        <span class="fa fa-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+          <input type="password" class="form-control" placeholder="Password" name="password" ng-model="password">
+        <span class="fa fa-lock form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input type="password" class="form-control" placeholder="Retype password" name="confirm_password" ng-model="confirm_password">
+        <span class="fa fa-sign-in form-control-feedback"></span>
+      </div>
+	  <div class="form-group has-feedback">
+              <input type="text" class="form-control" placeholder="Address" name="address" ng-model="address">
+        <span class="fa fa-newspaper-o form-control-feedback"></span>
+      </div>
+	  <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="Company Bank name" name="bank_name" ng-model="bank_name">
+        <span class="fa fa-bank form-control-feedback"></span>
+      </div>
+	  <div class="form-group has-feedback">
+        <input type="text" class="form-control" placeholder="Company Bank Account Number" name="bank_account_number" ng-model="bank_account_number">
+        <span class="fa fa-bank form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label>
+              <input type="checkbox"> I agree to the <a href="#">terms</a>
+            </label>
+          </div>
+        </div>
+        <!-- /.col -->
+        <div class="col-xs-4">
+            <button type="submit" class="btn btn-primary btn-block btn-flat" ng-click="register()">Register</button>
+        </div>
+        <!-- /.col -->
+      </div>
+    </form>
+
+    <!--<div class="social-auth-links text-center">
+      <p>- OR -</p>
+      <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign up using
+        Facebook</a>
+      <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign up using
+        Google+</a>
+    </div> -->
+
+    <a href="<?php echo $this->basePath()?>/admin/index/login" class="text-center">I already have a Merchant</a>
+  </div>
+  <!-- /.form-box -->
+</div>
+<!-- /.register-box -->
+
+<script src="<?php echo $this->basePath().'/public/js/marchantsignup.js'?>">
+</script>
+<script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'iradio_square-blue',
+      increaseArea: '20%' /* optional */
+    });
+  });
+</script>
