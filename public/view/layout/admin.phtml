@@ -1,0 +1,44 @@
+<?php 
+echo $this->doctype(); ?>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <?php echo $this->headMeta()
+            ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+            ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+        ?>
+
+        <!-- Le styles -->
+        <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))?>
+
+        <!-- Scripts -->
+        <?php 
+        echo $this->headScript()
+            ->prependFile($this->basePath().'/public/js/common.js')
+            ->prependFile($this->basePath().'/public/css/dist/js/adminlte.min.js')    
+            ->prependFile($this->basePath().'/public/css/bower_components/jquery-slimscroll/jquery.slimscroll.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/jquery-slimscroll/jquery.slimscroll.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/bootstrap-daterangepicker/daterangepicker.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/moment/min/moment.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/select2/dist/js/select2.full.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/iCheck/icheck.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/bootstrap/dist/js/bootstrap.min.js')
+            ->prependFile($this->basePath().'/public/js/angular.min.js')
+            ->prependFile($this->basePath().'/public/css/bower_components/jquery/dist/jquery.min.js');
+        ; ?>
+    </head>
+   
+    <?php
+    echo $this->partial('layout/adminlayout/header');
+    ?>
+       
+            <?php echo $this->content; ?>
+            <?php
+    echo $this->partial('layout/adminlayout/footer');
+    ?>        
+               
+        <?php echo $this->inlineScript() ?>
+ 
+</html>

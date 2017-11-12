@@ -300,4 +300,90 @@ class common  {
         return $response;        
     }
     
+    public function addEditRider($parameters) {
+        $params = array();
+        $rule = array();
+        if(!empty($parameters['id'])){
+            $where = array('id'=>$parameters['id']);
+            if(isset($parameters['name'])) {
+                $params['name'] = $parameters['name'];
+                $rule['name'] = array('type'=>'string', 'is_required'=>true);
+            }
+            if(isset($parameters['email'])) {
+                $params['email'] = $parameters['email'];
+                $rule['email'] = array('type'=>'string', 'is_required'=>true);               
+            }
+            if(isset($parameters['location_id'])) {
+                $params['location_id'] = (int)$parameters['location_id'];
+                $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
+            if(isset($parameters['password'])) {
+                $params['password'] = $parameters['password'];
+                $rule['password'] = array('type'=>'string', 'is_required'=>true);
+            }            
+            if(isset($parameters['status'])) {
+                $params['status'] = $parameters['status'];                
+            }         
+        }else{
+            $params['name'] = $parameters['name'];
+            $params['email'] = $parameters['email'];
+            $params['password'] = $parameters['password'];            
+            $params['location_id'] = (int)$parameters['location_id'];
+            $params['status'] = $parameters['status'];
+            
+            $rule['name'] = array('type'=>'string', 'is_required'=>true);
+            $rule['email'] = array('type'=>'string', 'is_required'=>true);
+            $rule['password'] = array('type'=>'string', 'is_required'=>true);
+            $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
+        }
+        $response = $this->isValid($rule, $params);
+        if(empty($response)){
+            $response = array('status' => 'fail', 'msg' => 'No Record Saved ');
+            if(!empty($parameters['id'])){
+                $result = $this->commonModel->updateRider($params, $where);
+            }else {
+                $params['created_date'] = date('Y-m-d H:i:s');
+                $result = $this->commonModel->addRider($params);
+            }
+            if(!empty($result)){
+                $response = array('status'=>'success','msg'=>'Record Saved Successfully.');
+            }            
+        }
+        
+        return $response;
+    }
+    function riderList($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $optional = array();        
+        if(!empty($parameters['id'])) {
+            $optional['id'] = $parameters['id'];
+        }        
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = $parameters['pagination'];
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }
+        if(!empty($parameters['name'])) {
+            $optional['name'] = $parameters['name'];
+        }        
+        if(!empty($parameters['email'])) {
+            $optional['email'] = $parameters['email'];
+        }
+        if(isset($parameters['location_id'])) {
+            $optional['location_id'] = $parameters['location_id'];
+        }                
+        if(isset($parameters['status'])) {
+            $optional['status'] = $parameters['status'];
+        }        
+        
+        $result = $this->commonModel->riderList($optional);
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;        
+    }    
+    
 }
