@@ -1,0 +1,17 @@
+<div><?php
+if(isset($this->companyDetail) && !empty($this->companyDetail)){
+?>
+    <form action="<?=$GLOBALS['SITE_APP_URL']?>/updatecompany">
+        <input  type="text" name="name" placeholder="name">
+        <input type="password" name="password" placeholder="password">
+        <input type="password" name="cpassword" placeholder="confirm password">
+        <input type="hidden" name="company_id" value="<?=$this->companyDetail['id']?>"> 
+        <input type="hidden" name="activation_code" value="<?=$this->companyDetail['activation_code']?>"> 
+        <input type="submit" value="Save">
+    </form>
+    <?php
+}else{
+    echo 'Url has expired or invalid please contact with System admin';
+}
+    ?>
+</div>

@@ -33,7 +33,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -50,7 +50,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -62,7 +62,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $this->adapter->getDriver()->getLastGeneratedValue();
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -75,7 +75,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $parameters['id'];
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -89,7 +89,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -101,7 +101,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $this->adapter->getDriver()->getLastGeneratedValue();
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -114,7 +114,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $opation['id'];
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -132,8 +132,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
-        } catch (Exception $ex) {
-            die('fsdfdsfs');
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -146,7 +145,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }
@@ -159,7 +158,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }
     }    
@@ -185,7 +184,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }        
     }
@@ -213,7 +212,7 @@ class commonModel  {
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
-        } catch (Exception $ex) {
+        } catch (\Exception $ex) {
             return false;
         }        
     }
@@ -229,5 +228,59 @@ class commonModel  {
             return false;
         }
     }
-    
+    public function addRider($parameters) {
+        try {
+            $query = $this->sql->insert('rider_master')
+                        ->values($parameters);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }   
+    public function riderList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('rider_master', array('*'));
+            $query = $query->join('location_master', 'location_master.id = rider_master.location_id',array('location_name'=>'address'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('rider_master.id' => $optional['id']));
+            }
+            if(!empty($optional['name'])) {
+                $query = $query->where($where->like('rider_master.name', "%".$optional['name']."%"));
+            }            
+            if(!empty($optional['email'])) {
+                $query = $query->where($where->like('rider_master.email', "%".$optional['email']."%"));
+            }            
+            if(isset($optional['location_id'])) {
+                $query = $query->where(array('rider_master.location_id'=>$optional['location_id']));
+            }             
+            if(isset($optional['status'])) {
+                $query = $query->where(array('rider_master.status'=>$optional['status']));
+            } 
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    public function updateRider($parameters, $where) {
+        try {            
+            $query = $this->sql->update('rider_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
 }
