@@ -136,9 +136,28 @@ class common  {
         return $response;
     }
     
-    public function categoryList($parameters, $optional = array()) {
+    public function categoryList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
-        $result = $this->commonModel->categoryList($parameters, $optional);
+        if(!empty($parameters['categoryHavingNoProduct'])) {
+            $productOptional = array();
+            $productOptional['key'] = 'category_id';
+            $productOptional['onlyProductDetails'] = 1;
+            $productOptional['columns'] = array(new \Zend\Db\Sql\Expression('DISTINCT(category_id) as category_id'));
+            $productategoryData = $this->getProductList($productOptional);
+            if(!empty($productategoryData['data'])) {
+                $productCategoryList = array_keys($productategoryData['data']);
+                $parameters['categoryNotIn'] = $productCategoryList;
+            }
+        }else if(!empty($parameters['categoryHavingNoChild'])){
+            $categoryOptional = array();
+            $categoryOptional['columns'] = array(new \Zend\Db\Sql\Expression('DISTINCT(parent_category_id) as parent_category_id'));
+            $parentCategoryIdsResult = $this->commonModel->categoryList($categoryOptional);
+            if(!empty($parentCategoryIdsResult)){
+                $parentCategoryIds = $this->processResult($parentCategoryIdsResult, 'parent_category_id');
+                $parameters['categoryNotIn'] = array_keys($parentCategoryIds);
+            }
+        }                    
+        $result = $this->commonModel->categoryList($parameters);
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
@@ -284,6 +303,12 @@ class common  {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
         }
+        if(!empty($parameters['columns'])) {
+            $optional['columns'] = $parameters['columns'];
+        }      
+        if(!empty($parameters['onlyProductDetails'])) {
+            $optional['onlyProductDetails'] = $parameters['onlyProductDetails'];
+        }              
         
         if(isset($parameters['active'])) {
             $optional['active'] = $parameters['active'];
@@ -291,15 +316,27 @@ class common  {
         
         $result = $this->commonModel->getProductList($optional);
         if (!empty($result)) {
-            $data = array();
-            foreach ($result as $key => $value) {
-                $data[$value['id']] = $value;
+            if(empty($parameters['key'])){
+                $parameters['key'] = 'id';
             }
+            $data = $this->processResult($result, $parameters['key']);
             $response = array('status' => 'success', 'data' => $data);
         }
         return $response;        
     }
-    
+    function processResult($result,$dataKey='') {
+        $data = array();
+        foreach ($result as $key => $value) {
+            if(!empty($dataKey)){
+                $data[$value[$dataKey]] = $value;
+            }else {
+                $data[] = $value;
+            }
+        }        
+        
+        return $data;
+    }
+            
     function deleteCategory($parameters) {
         $response = array('status' => 'fail', 'msg' => 'Category Not Deleted '); 
         $rule['id'] = array('type'=>'integer', 'is_required'=>true);

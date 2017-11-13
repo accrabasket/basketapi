@@ -43,12 +43,7 @@ class IndexController extends AbstractActionController {
                     break;
                     
                 case 'categoryList':
-                    $optional = array();
-                    if (!empty($parameters['id'])) {
-                        $optional['id'] = $parameters['id'];
-                    }
-
-                    $response = $this->commonLib->categoryList($parameters ,$optional );
+                    $response = $this->commonLib->categoryList($parameters );
                     break;
                 case 'getMarchantList':
                     $option = array();
