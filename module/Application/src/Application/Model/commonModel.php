@@ -12,6 +12,7 @@ namespace Application\Model;
 
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Sql;
+use Zend\Db\Sql\Expression;
 define('PER_PAGE_LIMIT', 20);
 class commonModel  {
     public $adapter;
@@ -80,11 +81,17 @@ class commonModel  {
         }
     }
     
-    public function categoryList ($parameters, $optional = array()) {
+    public function categoryList ($parameters) {
         try {
-            $query = $this->sql->select('category_master');
-            if (!empty($optional['id'])) {
-                $query = $query->where(array('id' => $optional['id']));
+            $query = $this->sql->select('category_master');    
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']); 
+            }            
+            if (!empty($parameters['id'])) {
+                $query = $query->where(array('category_master.id' => $parameters['id']));
+            }
+            if(!empty($parameters['categoryNotIn'])){
+                $query->where->notIn('category_master.id', $parameters['categoryNotIn']);
             }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
@@ -194,7 +201,10 @@ class commonModel  {
         try {
             $where = new \Zend\Db\Sql\Where();
 
-            $query = $this->sql->select('product_master', array('*'));
+            $query = $this->sql->select('product_master');
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']); 
+            }            
             if (!empty($optional['id'])) {
                 $query = $query->where(array('id' => $optional['id']));
             }
@@ -206,10 +216,12 @@ class commonModel  {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
             }
-            $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
+            if(empty($optional['onlyProductDetails'])){
+                $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
                         ;
-            $query = $query->join('category_master', 'category_master.id = product_master.category_id',array('category_name'))
+                $query = $query->join('category_master', 'category_master.id = product_master.category_id',array('category_name'))
                         ;
+            }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
@@ -244,7 +256,10 @@ class commonModel  {
         try {
             $where = new \Zend\Db\Sql\Where();
 
-            $query = $this->sql->select('rider_master', array('*'));
+            $query = $this->sql->select('rider_master');
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']);
+            }
             $query = $query->join('location_master', 'location_master.id = rider_master.location_id',array('location_name'=>'address'));
             if (!empty($optional['id'])) {
                 $query = $query->where(array('rider_master.id' => $optional['id']));
