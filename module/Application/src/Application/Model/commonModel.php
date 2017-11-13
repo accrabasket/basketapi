@@ -295,5 +295,57 @@ class commonModel  {
         } catch (\Exception $ex) {
             return false;
         }        
+    }
+
+    function savetax($parameters, $where = array()) {
+        try {            
+            $query = $this->sql->insert('tax_master')
+                        ->values($parameters);       
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+
+    function updatetax($parameters, $where) {
+        try {            
+            $query = $this->sql->update('tax_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+
+   function taxlist($parameters, $where) {
+        try {            
+            $query = $this->sql->select('tax_master');
+            if(!empty($where)){
+                $query = $query->where(array('id'=>$where['id']));
+            }
+                        
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+
+    public function deletetax($parameters) {
+        try {            
+            $query = $this->sql->delete('tax_master')
+                        ->where(array('id'=>$parameters['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
     }    
 }
