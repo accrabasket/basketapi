@@ -443,4 +443,59 @@ class common  {
         
         return $response;
     }
+    
+    public function addedittax($parameters) {
+        $response = array('status'=>'fail','msg'=>'Nothing to save.');
+        $params = array();
+        $rule = array();        
+        $params['tax_name'] = $parameters['tax_name'];
+        $params['tax_value'] = $parameters['tax_value'];
+        
+        $rule['tax_name'] = array('type' => 'string', 'is_required' => true);
+        $rule['tax_value'] = array('type' => 'numeric', 'is_required' => true);
+        if (!empty($parameters['id'])){
+            $params['id'] = (int) $parameters['id'];
+            $rule['id'] = array('type' => 'numeric', 'is_required' => true);
+        }  
+        $valid = $this->isValid($rule, $params);
+        if (empty($valid) && empty($params['id'])) {
+            $result = $this->commonModel->savetax($params);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Record Saved Successfully.');
+            } 
+        }else if(empty($valid) && !empty($params['id'])){
+            $result = $this->commonModel->updatetax($params, $params['id']);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Record upadate Successfully.');
+            }
+        }
+        return $response;
+    }
+    
+    public function taxlist($parameters, $optional = array()) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        
+        $result = $this->commonModel->taxlist($parameters, $optional);
+        
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
+    }
+    
+    function deletetax($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Category Not Deleted '); 
+        if(!empty($parameters['id'])) {
+            $result = $this->commonModel->deletetax($parameters);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Category deleted ');
+            }
+        }        
+        
+        return $response;        
+    }
 }

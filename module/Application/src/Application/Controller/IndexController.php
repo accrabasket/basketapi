@@ -78,7 +78,21 @@ class IndexController extends AbstractActionController {
                     break;                 
                 case 'saveMerchant':
                     $response = $this->commonLib->saveMerchant($parameters);
-                    break;                
+                    break;
+                case 'addedittax':
+                    $response = $this->commonLib->addedittax($parameters);
+                    break;  
+                case 'taxlist':
+                    $option = array();
+                    if (!empty($parameters['id'])) {
+                        $option['id'] = $parameters['id'];
+                    }
+                    $response = $this->commonLib->taxlist($parameters ,$option );
+                    break;
+                case 'deletetax':
+                    $response = $this->commonLib->deletetax($parameters );
+                    break;
+                    
             }
             
             echo json_encode($response);
