@@ -54,6 +54,9 @@ class common  {
                 $productParams['product_desc'] = $parameters['product_desc'];
                 $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);
             }
+            if(!empty($parameters['tax_id'])){
+               $productParams['tax_id'] = $parameters['tax_id']; 
+            }
             $response = $this->isValid($productRules, $productParams);
             if(empty($response)) {
                 $result = $this->commonModel->updateProduct($productParams, $productWhere);
@@ -74,6 +77,12 @@ class common  {
                             $attributeParams['unit'] = $parameters['unit'];
                             $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
                         }
+                        if(!empty($parameters['commission_value'])) {
+                            $attributeParams['commission_value'] = $parameters['commission_value'];
+                            $attributeParams['commission_type'] = $parameters['commission_type'];
+                            
+                        }
+                        
                         $response = $this->isValid($attributeRules, $attributeParams);
                         if(empty($response)) {
                             $attributeWhere['id'] = $parameters['attribute_id'];
@@ -97,7 +106,9 @@ class common  {
             $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
             $productRules['category_id'] = array('type'=>'integer', 'is_required'=>true);
             $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);            
-            
+            if(!empty($parameters['tax_id'])){
+               $productParams['tax_id'] = $parameters['tax_id']; 
+            }
             $response = $this->isValid($productRules, $productParams);
             
             if(empty($response)) {
@@ -116,7 +127,11 @@ class common  {
                             $attributeParams['unit'] = $value['unit'];
                             $attributeParams['status'] = 1;
                             $attributeParams['created_date'] = date('Y-m-d H:i:s');
-                            
+                            if(!empty($value['commission_value'])) {
+                                $attributeParams['commission_value'] = $value['commission_value'];
+                                $attributeParams['commission_type'] = $value['commission_type'];
+
+                            }
                             $attributeRules['name'] = array('type'=>'string', 'is_required'=>true);
                             $attributeRules['quantity'] = array('type'=>'numeric', 'is_required'=>true);
                             $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
@@ -517,7 +532,7 @@ class common  {
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
-                $data[] = $value;
+                $data[$key] = $value;
             }
             $response = array('status' => 'success', 'data' => $data);
         }
