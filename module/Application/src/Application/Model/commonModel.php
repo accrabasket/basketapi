@@ -75,7 +75,7 @@ class commonModel  {
                         ->where($where);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
-            return $parameters['id'];
+            return $where['id'];
         } catch (\Exception $ex) {
             return false;
         }
@@ -206,22 +206,36 @@ class commonModel  {
                 $query->columns($optional['columns']); 
             }            
             if (!empty($optional['id'])) {
-                $query = $query->where(array('id' => $optional['id']));
+                $query = $query->where(array('product_master.id' => $optional['id']));
             }
                         
             if(isset($optional['active'])) {
-                $query = $query->where(array('active'=>$optional['active']));
+                $query = $query->where(array('product_master.active'=>$optional['active']));
             } 
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
             }
             if(empty($optional['onlyProductDetails'])){
-                $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
-                        ;
+//                $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
+//                        ;
                 $query = $query->join('category_master', 'category_master.id = product_master.category_id',array('category_name'))
                         ;
             }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function getAttributeList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('product_attribute');
+            $query = $query->where(array('product_id'=>$optional));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;

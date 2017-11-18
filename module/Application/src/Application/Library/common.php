@@ -61,37 +61,48 @@ class common  {
             if(empty($response)) {
                 $result = $this->commonModel->updateProduct($productParams, $productWhere);
                 if (!empty($result)) {
-                    if (!empty($parameters['attribute_id'])) {
-                        $attributeWhere = array();
-                        $attributeRules = array();
-                        $attributeParams = array();
-                        if(isset($parameters['name'])) {
-                            $attributeParams['name'] = $parameters['name'];
-                            $attributeRules['name'] = array('type'=>'string', 'is_required'=>true);
-                        }
-                        if(isset($parameters['quantity'])) {
-                            $attributeParams['quantity'] = (int)$parameters['quantity'];
-                            $attributeRules['quantity'] = array('type'=>'numeric', 'is_required'=>true);
-                        }
-                        if(isset($parameters['unit'])) {
-                            $attributeParams['unit'] = $parameters['unit'];
-                            $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
-                        }
-                        if(!empty($parameters['commission_value'])) {
-                            $attributeParams['commission_value'] = $parameters['commission_value'];
-                            $attributeParams['commission_type'] = $parameters['commission_type'];
+                    if (!empty($parameters['attribute'])) {
+                        $data['product_id'] = $result;
+                        foreach ($parameters['attribute'] as $key => $value) {
+                            $attributeWhere = array();
+                            $attributeRules = array();
+                            $attributeParams = array();
+                            if (isset($value['name'])) {
+                                $attributeParams['name'] = $value['name'];
+                                $attributeRules['name'] = array('type' => 'string', 'is_required' => true);
+                            }
+                            if (isset($value['quantity'])) {
+                                $attributeParams['quantity'] = (int) $value['quantity'];
+                                $attributeRules['quantity'] = array('type' => 'numeric', 'is_required' => true);
+                            }
+                            if (isset($value['unit'])) {
+                                $attributeParams['unit'] = $value['unit'];
+                                $attributeRules['unit'] = array('type' => 'string', 'is_required' => true);
+                            }
+                            if (!empty($value['commission_value'])) {
+                                $attributeParams['commission_value'] = $value['commission_value'];
+                                $attributeParams['commission_type'] = $value['commission_type'];
+                            }
+
+                            $response = $this->isValid($attributeRules, $attributeParams);
                             
-                        }
-                        
-                        $response = $this->isValid($attributeRules, $attributeParams);
-                        if(empty($response)) {
-                            $attributeWhere['id'] = $parameters['attribute_id'];
-                            $returnAttr = $this->commonModel->updateAttribute($attributeParams, $attributeWhere);
+                            if (empty($response)) {
+                                if(!empty($value['id'])){
+                                    $attributeWhere['id'] = $value['id'];
+                                    $returnAttr = $this->commonModel->updateAttribute($attributeParams, $attributeWhere);
+                                }else{
+                                    $attributeParams['product_id'] = $data['product_id'];
+                                    $attributeParams['status'] = 1;
+                                    $attributeParams['created_date'] = date('Y-m-d H:i:s');
+                                    $returnAttr = $this->commonModel->addAttribute($attributeParams);
+                                }
+                                
+                                $data['attribute'][$key] = $returnAttr;
+                            }
                         }
                     }
-
                 }
-                $response = array('status' => 'success', 'msg' => 'product updated successfully');
+                $response = array('status' => 'success', 'data' => $data);
             }
             return $response;
         }else {
@@ -335,7 +346,10 @@ class common  {
                 $parameters['key'] = 'id';
             }
             $data = $this->processResult($result, $parameters['key']);
-            $response = array('status' => 'success', 'data' => $data);
+            $getattribute = $this->commonModel->getAttributeList(array_keys($data));
+            $attdata = $this->processResult($getattribute);
+            $prepairdata = $this->prepairProduct($data,$attdata);
+            $response = array('status' => 'success', 'data' => $prepairdata);
         }
         return $response;        
     }
@@ -350,6 +364,20 @@ class common  {
         }        
         
         return $data;
+    }
+    
+    function prepairProduct($productdata,$attribute) {
+        $data = array();
+        $return = array();
+        foreach ($attribute as $key => $value) {
+            $data[$value['product_id']][] = $value;
+        }
+        
+        foreach ($productdata as $key => $value) {
+            $return[$key] = $value;
+            $return[$key]['atribute'] = $data[$key];
+        }
+        return $return;
     }
             
     function deleteCategory($parameters) {
