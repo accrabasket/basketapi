@@ -346,22 +346,26 @@ class common  {
                 $parameters['key'] = 'id';
             }
             $data = $this->processResult($result, $parameters['key']);
-            $getattribute = $this->commonModel->getAttributeList(array_keys($data));
-            $attdata = $this->processResult($getattribute);
-            $prepairdata = $this->prepairProduct($data,$attdata);
-            $response = array('status' => 'success', 'data' => $prepairdata);
+            if(!empty($data)) {
+                $getattribute = $this->commonModel->getAttributeList(array_keys($data));
+                $attdata = $this->processResult($getattribute);
+                $prepairdata = $this->prepairProduct($data,$attdata);
+                $response = array('status' => 'success', 'data' => $prepairdata);
+            }
         }
         return $response;        
     }
     function processResult($result,$dataKey='') {
         $data = array();
-        foreach ($result as $key => $value) {
-            if(!empty($dataKey)){
-                $data[$value[$dataKey]] = $value;
-            }else {
-                $data[] = $value;
-            }
-        }        
+        if(!empty($result)) {
+            foreach ($result as $key => $value) {
+                if(!empty($dataKey)){
+                    $data[$value[$dataKey]] = $value;
+                }else {
+                    $data[] = $value;
+                }
+            }        
+        }
         
         return $data;
     }
