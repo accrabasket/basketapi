@@ -443,4 +443,75 @@ class commonModel  {
             return false;
         }
     }
+    
+    function saveInventry($parameters) {
+        try {     
+            $query = $this->sql->insert('merchant_inventry')
+                        ->values($parameters);       
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function stockList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('merchant_inventry', array('*'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('merchant_inventry.id' => $optional['id']));
+            } 
+            if(isset($optional['merchant_id'])) {
+                $query = $query->where(array('merchant_inventry.merchant_id'=>$optional['merchant_id']));
+            } 
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',array('name','unit','quantity'));
+            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name'));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function checkAttributeExist($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('merchant_inventry', array('id'));
+            if (!empty($optional['store_id'])) {
+                $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
+            } 
+            if(isset($optional['merchant_id'])) {
+                $query = $query->where(array('merchant_inventry.merchant_id'=>$optional['merchant_id']));
+            }
+            if(isset($optional['attribute_id'])) {
+                $query = $query->where(array('merchant_inventry.attribute_id'=>$optional['attribute_id']));
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function updateInventry($parameters, $where) {
+        try {            
+            $query = $this->sql->update('merchant_inventry')
+                        ->set($parameters)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }
