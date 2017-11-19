@@ -568,11 +568,120 @@ class common  {
     }
     
     function deletetax($parameters) {
-        $response = array('status' => 'fail', 'msg' => 'Category Not Deleted '); 
+        $response = array('status' => 'fail', 'msg' => 'Tax Not Deleted '); 
         if(!empty($parameters['id'])) {
             $result = $this->commonModel->deletetax($parameters);
             if (!empty($result)) {
-                $response = array('status' => 'success', 'msg' => 'Category deleted ');
+                $response = array('status' => 'success', 'msg' => 'Tax deleted ');
+            }
+        }        
+        
+        return $response;        
+    }
+    
+    public function addEditStore($parameters) {
+        $params = array();
+        $rule = array();
+        if(!empty($parameters['id'])){
+            $where = array('id'=>$parameters['id']);
+            if(isset($parameters['store_name'])) {
+                $params['store_name'] = $parameters['store_name'];
+                $rule['store_name'] = array('type'=>'string', 'is_required'=>true); 
+            }
+            if(isset($parameters['address'])) {
+                $params['address'] = $parameters['address'];
+                $rule['address'] = array('type'=>'string', 'is_required'=>true);                
+            }
+            if(isset($parameters['location_id'])) {
+                $params['location_id'] = (int)$parameters['location_id'];
+                $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
+            if(isset($parameters['status'])) {
+                $params['status'] = $parameters['status'];                
+            } 
+            
+            if(isset($parameters['lat'])) {
+                $params['lat'] = (int) $parameters['lat'];
+                $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
+                
+            } 
+            
+            if(isset($parameters['lng'])) {
+                $params['lng'] = (int)$parameters['lng'];
+                $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
+            }
+
+        }else{
+            $params['store_name'] = $parameters['store_name'];
+            $params['address'] = $parameters['address'];
+            $params['location_id'] = (int)$parameters['location_id'];
+            $params['status'] = $parameters['status'];
+            $params['lat'] = $parameters['lat'];
+            $params['lng'] = $parameters['lng'];
+            
+            $rule['store_name'] = array('type'=>'string', 'is_required'=>true);
+            $rule['address'] = array('type'=>'string', 'is_required'=>true);
+            $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
+            $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
+            $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
+        }
+        $response = $this->isValid($rule, $params);
+        $params['merchant_id'] = $parameters['merchant_id'];
+        if(empty($response)){
+            $response = array('status' => 'fail', 'msg' => 'No Record Saved ');
+            if(!empty($parameters['id'])){
+                $result = $this->commonModel->updateStore($params, $where);
+            }else {
+                $params['created_on'] = date('Y-m-d H:i:s');
+//                $params['updated_on'] = date('Y-m-d H:i:s');
+                $result = $this->commonModel->saveStore($params);
+            }
+            if(!empty($result)){
+                $response = array('status'=>'success','msg'=>'Record Saved');
+            }            
+        }
+        
+        return $response;
+    }
+    
+    function storeList($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $optional = array();        
+        if(!empty($parameters['id'])) {
+            $optional['id'] = $parameters['id'];
+        }        
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = $parameters['pagination'];
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }
+        if(!empty($parameters['address'])) {
+            $optional['address'] = $parameters['address'];
+        }
+        if(isset($parameters['active'])) {
+            $optional['active'] = $parameters['active'];
+        }
+        
+        if(isset($parameters['merchant_id'])) {
+            $optional['merchant_id'] = $parameters['merchant_id'];
+        }
+        
+        $result = $this->commonModel->storeList($optional);
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;        
+    }
+    
+    function deleteStore($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Store Not Deleted '); 
+        if(!empty($parameters['id'])) {
+            $result = $this->commonModel->deleteStore($parameters);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Store deleted ');
             }
         }        
         

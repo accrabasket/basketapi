@@ -337,6 +337,31 @@ class commonModel  {
             return false;
         }        
     }
+    
+     function saveStore($parameters, $where = array()) {
+        try {     
+            $query = $this->sql->insert('merchant_store')
+                        ->values($parameters);       
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function updateStore($parameters, $where) {
+        try {            
+            $query = $this->sql->update('merchant_store')
+                        ->set($parameters)
+                        ->where(array('id'=>$where['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
 
     function updatetax($parameters, $where) {
         try {            
@@ -376,5 +401,46 @@ class commonModel  {
         } catch (Exception $ex) {
             return false;
         }
-    }    
+    }
+
+    public function storeList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('merchant_store', array('*'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('id' => $optional['id']));
+            }
+            if(!empty($optional['address'])) {
+                $query = $query->where($where->like('address', "%".$optional['address']."%"));
+            }            
+            if(isset($optional['active'])) {
+                $query = $query->where(array('active'=>$optional['active']));
+            } 
+            if(isset($optional['merchant_id'])) {
+                $query = $query->where(array('merchant_id'=>$optional['merchant_id']));
+            } 
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+
+    public function deleteStore($parameters) {
+        try {            
+            $query = $this->sql->delete('merchant_store')
+                        ->where(array('id'=>$parameters['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }
 }

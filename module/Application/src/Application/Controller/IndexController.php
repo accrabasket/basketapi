@@ -87,6 +87,15 @@ class IndexController extends AbstractActionController {
                 case 'deletetax':
                     $response = $this->commonLib->deletetax($parameters );
                     break;
+                case 'addEditStore':
+                    $response = $this->commonLib->addEditStore($parameters );
+                    break;
+                case 'storeList':
+                    $response = $this->commonLib->storeList($parameters );
+                    break;
+                case 'deleteStore':
+                    $response = $this->commonLib->deleteStore($parameters );
+                    break;
                     
             }
             
