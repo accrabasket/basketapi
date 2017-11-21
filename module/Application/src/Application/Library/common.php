@@ -324,7 +324,7 @@ class common  {
         $optional = array();        
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
-        }        
+        }                
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
@@ -347,7 +347,7 @@ class common  {
             }
             $data = $this->processResult($result, $parameters['key']);
             if(!empty($data)) {
-                $getattribute = $this->commonModel->getAttributeList(array_keys($data));
+                $getattribute = $this->commonModel->getAttributeList(array('product_id'=>array_keys($data)));
                 $attdata = $this->processResult($getattribute);
                 $prepairdata = $this->prepairProduct($data,$attdata);
                 $response = array('status' => 'success', 'data' => $prepairdata);
@@ -767,5 +767,51 @@ class common  {
             $response = array('status' => 'success', 'data' => $data);
         }
         return $response;        
+    }
+    
+    function addProductByCsv($parameters) {
+            $data = array();
+            //print_r($parameters);die;
+            $productParams['product_name'] = $parameters['product_name'];
+            $productResult = $this->commonModel->getProductList($productParams);
+            $productData = $this->processResult($productResult);
+            if(count($productData)>0) {
+                $productParams['id'] = $productData[0]['id'];
+            }
+            $categoryParams = array();
+            $categoryParams['category_name'] = $parameters['category_name'];
+            $categoryResult = $this->commonModel->categoryList($categoryParams);
+            $categoryData = $this->processResult($categoryResult);
+            if(count($categoryData)>0) {
+                $productParams['category_id'] = $categoryData[0]['id'];
+            }else {
+                $categoryParams['parent_category_id'] = 0;
+                $categoryParams['category_des'] = !empty($parameters['category_des'])?$parameters['category_des']:'';
+                //print_r($categoryParams);die;
+                echo $categoryId = $this->commonModel->addCategory($categoryParams);die;
+                
+                $productParams['category_id'] = $categoryId;
+            }
+            $productParams['product_desc'] = $parameters['product_desc'];
+            $productParams['created_date'] = date('Y-m-d H:i:s');  
+            $productParams['attribute'] = array();
+            for($i=0; $i<count($parameters['attribute_name']); $i++) {
+                if(!empty($productParams['id'])) {
+                    $attributParams = array();
+                    $attributParams['product_id'] = $productParams['id'];
+                    $attributParams['name'] = $parameters['attribute_name'][$i];
+                    $attributeResult = $this->commonModel->getAttributeList($attributParams);
+                    $attributeData = $this->processResult($attributeResult);
+                    if(count($attributeData)>0) {
+                        $productParams['attribute'][$i]['id'] = $attributeData[0]['id'];
+                    }                    
+                }
+                $productParams['attribute'][$i]['name'] = $parameters['attribute_name'][$i];
+                $productParams['attribute'][$i]['quantity'] = $parameters['quantity'][$i];
+                $productParams['attribute'][$i]['unit'] = $parameters['unit'][$i];
+                $productParams['attribute'][$i]['commission_type'] = $parameters['commission_type'][$i];
+                $productParams['attribute'][$i]['commission_value'] = $parameters['commission_value'][$i];
+            }
+          return $this->addEditProduct($productParams);  
     }
 }

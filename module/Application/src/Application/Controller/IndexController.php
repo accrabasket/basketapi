@@ -102,7 +102,9 @@ class IndexController extends AbstractActionController {
                 case 'stockList':
                     $response = $this->commonLib->stockList($parameters );
                     break;
-                    
+                case 'addProductByCsv':
+                    $response = $this->commonLib->addProductByCsv($parameters);
+                    break;                    
             }
             
             echo json_encode($response);

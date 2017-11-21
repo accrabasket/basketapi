@@ -32,8 +32,7 @@ class commonModel  {
                         ->values($parameters);
             //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute()->getAffectedRows();
-            return $result;
+            return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (\Exception $ex) {
             return false;
         }
@@ -83,6 +82,7 @@ class commonModel  {
     
     public function categoryList ($parameters) {
         try {
+            $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('category_master');    
             if(!empty($optional['columns'])){
                 $query->columns($optional['columns']); 
@@ -90,6 +90,9 @@ class commonModel  {
             if (!empty($parameters['id'])) {
                 $query = $query->where(array('category_master.id' => $parameters['id']));
             }
+            if (!empty($parameters['category_name'])) {
+                $query = $query->where($where->like('category_master.category_name',$parameters['category_name']));
+            }            
             if(!empty($parameters['categoryNotIn'])){
                 $query->where->notIn('category_master.id', $parameters['categoryNotIn']);
             }
@@ -208,7 +211,9 @@ class commonModel  {
             if (!empty($optional['id'])) {
                 $query = $query->where(array('product_master.id' => $optional['id']));
             }
-                        
+            if(!empty($optional['product_name'])) {
+                $query = $query->where($where->like('product_master.product_name', $optional['product_name']));                
+            }                        
             if(isset($optional['active'])) {
                 $query = $query->where(array('product_master.active'=>$optional['active']));
             } 
@@ -235,7 +240,12 @@ class commonModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('product_attribute');
-            $query = $query->where(array('product_id'=>$optional));
+            if(!empty($optional['product_id'])) {
+                $query = $query->where(array('product_id'=>$optional['product_id']));
+            }
+            if(!empty($optional['name'])){
+                $query = $query->where($where->like('product_attribute.name',$optional['name']));
+            }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
