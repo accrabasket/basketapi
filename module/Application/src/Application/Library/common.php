@@ -228,6 +228,10 @@ class common  {
                 $params['country_id'] = (int)$parameters['country_id'];
                 $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
             }
+            if(isset($parameters['city_id'])) {
+                $params['city_id'] = (int)$parameters['city_id'];
+                $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
             if(isset($parameters['active'])) {
                 $params['active'] = $parameters['active'];                
             }         
@@ -235,6 +239,7 @@ class common  {
             $params['googlelocation'] = $parameters['googlelocation'];
             $params['address'] = $parameters['address'];
             $params['country_id'] = (int)$parameters['country_id'];
+            $params['city_id'] = (int)$parameters['city_id'];
             $params['active'] = $parameters['active'];
             $params['lat'] = $parameters['lat'];
             $params['lng'] = $parameters['lng'];
@@ -242,6 +247,7 @@ class common  {
             $rule['googlelocation'] = array('type'=>'string', 'is_required'=>true);
             $rule['address'] = array('type'=>'string', 'is_required'=>true);
             $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
+            $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
             $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
             $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
         }
@@ -813,5 +819,59 @@ class common  {
                 $productParams['attribute'][$i]['commission_value'] = $parameters['commission_value'][$i];
             }
           return $this->addEditProduct($productParams);  
+    }
+    
+    public function cityList($parameters, $optional = array()) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        if(!empty($parameters['id'])){
+            $optional['id'] = $parameters['id'];
+        }
+        if(!empty($parameters['country_id'])){
+            $optional['country_id'] = $parameters['country_id'];
+        }
+        
+        if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+        }
+        if(!empty($parameters['city_name'])) {
+                $optional['city_name'] = $parameters['city_name'];
+        }
+        
+        $result = $this->commonModel->cityList($optional);
+        
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$key] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
+    }
+    
+    public function countryList($parameters, $optional = array()) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        if(!empty($parameters['id'])){
+            $optional['id'] = $parameters['id'];
+        }
+        
+        if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+        }
+        
+        if(!empty($parameters['country_name'])) {
+                $optional['country_name'] = $parameters['country_name'];
+        }
+        
+        $result = $this->commonModel->countryList($optional);
+        
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$key] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
     }
 }

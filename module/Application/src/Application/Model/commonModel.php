@@ -524,4 +524,53 @@ class commonModel  {
             return false;
         }        
     }
+    
+    public function countryList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('country_master', array('*'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('id' => $optional['id']));
+            }
+            if(!empty($optional['country_name'])) {
+                $query = $query->where($where->like('country_name', "%".$optional['country_name']."%"));
+            }  
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function cityList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('city_master', array('*'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('id' => $optional['id']));
+            }
+            if(!empty($optional['city_name'])) {
+                $query = $query->where($where->like('city_name', "%".$optional['city_name']."%"));
+            }            
+            if(isset($optional['country_id'])) {
+                $query = $query->where(array('country_id'=>$optional['country_id']));
+            } 
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }
