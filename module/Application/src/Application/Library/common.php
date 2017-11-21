@@ -57,6 +57,10 @@ class common  {
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
+            if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
+               $productParams['discount_value'] = $parameters['product_discount_value'];
+               $productParams['discount_type'] = $parameters['product_discount_type']; 
+            }
             $response = $this->isValid($productRules, $productParams);
             if(empty($response)) {
                 $result = $this->commonModel->updateProduct($productParams, $productWhere);
@@ -83,6 +87,10 @@ class common  {
                                 $attributeParams['commission_value'] = $value['commission_value'];
                                 $attributeParams['commission_type'] = $value['commission_type'];
                             }
+                            if(!empty($value['attribute_discount_value']) && !empty($value['attribute_discount_type'])){
+                                $attributeParams['discount_value'] = $value['attribute_discount_value'];
+                                $attributeParams['discount_type'] = $value['attribute_discount_type']; 
+                             }
 
                             $response = $this->isValid($attributeRules, $attributeParams);
                             
@@ -112,6 +120,11 @@ class common  {
             $productParams['category_id'] = (int)$parameters['category_id'];
             $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
             $productParams['product_desc'] = $parameters['product_desc'];
+            if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
+               $productParams['discount_value'] = $parameters['product_discount_value'];
+               $productParams['discount_type'] = $parameters['product_discount_type']; 
+            }
+            
             $productParams['created_date'] = date('Y-m-d H:i:s');
 
             $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
@@ -143,6 +156,10 @@ class common  {
                                 $attributeParams['commission_type'] = $value['commission_type'];
 
                             }
+                            if(!empty($value['attribute_discount_value']) && !empty($value['attribute_discount_type'])){
+                                $attributeParams['discount_value'] = $value['attribute_discount_value'];
+                                $attributeParams['discount_type'] = $value['attribute_discount_type']; 
+                             }
                             $attributeRules['name'] = array('type'=>'string', 'is_required'=>true);
                             $attributeRules['quantity'] = array('type'=>'numeric', 'is_required'=>true);
                             $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
