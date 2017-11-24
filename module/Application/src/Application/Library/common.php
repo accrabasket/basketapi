@@ -347,7 +347,7 @@ class common  {
         $optional = array();        
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
-        }                
+        }      
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
@@ -361,7 +361,24 @@ class common  {
         
         if(isset($parameters['active'])) {
             $optional['active'] = $parameters['active'];
-        }        
+        }
+        
+        if(isset($parameters['filter_type'])) {
+            if($parameters['filter_type'] == 'Product_name'){
+                $optional['product_name'] = $parameters['value'];
+            }
+            if($parameters['filter_type'] == 'Attribute_name'){
+                $optional['name'] = $parameters['value'];
+            }
+            if($parameters['filter_type'] == 'Category_name'){
+                $optional['category_name'] = $parameters['value'];
+            }
+            
+        }
+        $totalRecord = $this->commonModel->getProductListCount($optional);
+        foreach ($totalRecord as $key => $value) {
+            $count = $value['count'];
+        }
         
         $result = $this->commonModel->getProductList($optional);
         if (!empty($result)) {
@@ -370,9 +387,11 @@ class common  {
             }
             $data = $this->processResult($result, $parameters['key']);
             if(!empty($data)) {
-                $getattribute = $this->commonModel->getAttributeList(array('product_id'=>array_keys($data)));
+                $optional['product_id'] = array_keys($data);
+                $getattribute = $this->commonModel->getAttributeList($optional);
                 $attdata = $this->processResult($getattribute);
-                $prepairdata = $this->prepairProduct($data,$attdata);
+                $prepairdata['data'] = $this->prepairProduct($data,$attdata);
+                $prepairdata['count'] = $count;
                 $response = array('status' => 'success', 'data' => $prepairdata);
             }
         }
