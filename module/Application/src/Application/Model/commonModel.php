@@ -13,7 +13,7 @@ namespace Application\Model;
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Sql;
 use Zend\Db\Sql\Expression;
-define('PER_PAGE_LIMIT', 20);
+define('PER_PAGE_LIMIT', 10);
 class commonModel  {
     public $adapter;
     public $sql;
@@ -212,10 +212,11 @@ class commonModel  {
                 $query = $query->where(array('product_master.id' => $optional['id']));
             }
             if(!empty($optional['product_name'])) {
-                $query = $query->where($where->like('product_master.product_name', $optional['product_name']));                
+                $value = '%'.$optional['product_name'].'%';
+                $query = $query->where($where->like('product_master.product_name', $value));                
             }                        
             if(isset($optional['active'])) {
-                $query = $query->where(array('product_master.active'=>$optional['active']));
+                $query = $query->where(array('product_master.status'=>$optional['active']));
             } 
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
@@ -223,9 +224,19 @@ class commonModel  {
             }
             if(empty($optional['onlyProductDetails'])){
 //                $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
-//                        ;
+                if(!empty($optional['name'])) {
+                      $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'));
+                      $value = '%'.$optional['name'].'%';
+                      $query = $query->where($where->like('product_attribute.name', $value));                
+
+                      
+                }        
                 $query = $query->join('category_master', 'category_master.id = product_master.category_id',array('category_name'))
                         ;
+                if(!empty($optional['category_name'])) {
+                    $value = '%'.$optional['category_name'].'%';
+                    $query = $query->where($where->like('category_master.category_name', $value));                
+                }
             }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
@@ -244,7 +255,8 @@ class commonModel  {
                 $query = $query->where(array('product_id'=>$optional['product_id']));
             }
             if(!empty($optional['name'])){
-                $query = $query->where($where->like('product_attribute.name',$optional['name']));
+                $value = '%'.$optional['name'].'%';
+                $query = $query->where($where->like('product_attribute.name',$value));
             }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
@@ -572,5 +584,47 @@ class commonModel  {
         } catch (\Exception $ex) {
             return false;
         }        
+    }
+    
+    public function getProductListCount($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('product_master');
+            $query->columns(array('count' => new \Zend\Db\Sql\Expression('count(*)')));
+                       
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('product_master.id' => $optional['id']));
+            }
+            if(!empty($optional['product_name'])) {
+                $value = '%'.$optional['product_name'].'%';
+                $query = $query->where($where->like('product_master.product_name', $value));                
+            }                        
+            if(isset($optional['active'])) {
+                $query = $query->where(array('product_master.status'=>$optional['active']));
+            } 
+            
+            if(empty($optional['onlyProductDetails'])){
+             if(!empty($optional['name'])) {
+                      $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array());
+                      $value = '%'.$optional['name'].'%';
+                      $query = $query->where($where->like('product_attribute.name', $value));                
+
+                      
+                }        
+                $query = $query->join('category_master', 'category_master.id = product_master.category_id',array())
+                        ;
+                if(!empty($optional['category_name'])) {
+                    $value = '%'.$optional['category_name'].'%';
+                    $query = $query->where($where->like('category_master.category_name', $value));                
+                }
+            }
+//            echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
     }
 }
