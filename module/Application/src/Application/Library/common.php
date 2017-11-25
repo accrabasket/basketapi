@@ -934,6 +934,23 @@ class common  {
 
     function getMerchantByCity($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $locationList = $this->getLocationList($parameters);
+        if(!empty($locationList['data'])) {
+            $storeParams = array();
+            $locationListIds = array_keys($locationList['data']);
+            $storeParams['columns'] = array(new \Zend\Db\Sql\Expression('merchant_store.merchant_id as merchant_id'));
+            $storeParams['location_id'] = $locationListIds;
+            $merchantList = $this->commonModel->storeList($storeParams);
+            $merchantListData = $this->processResult($merchantList, 'merchant_id');
+            if(!empty($merchantListData)) {
+                $response = array('status' => 'success', 'data' => $merchantListData);
+            }
+        }
+        return $response;
+    }
+    
+    function getLocationListByCity($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
         $locationParams = array();
         $locationParams['city_id'] = $parameters['city_id'];
         $locationParams['active'] = 1;
@@ -941,19 +958,8 @@ class common  {
         $rules['city_id'] = array('type'=>'numeric', 'is_required'=>true);
         $response = $this->isValid($rules, $locationParams);
         if(empty($response)) {
-            $locationList = $this->getLocationList($locationParams);
-            if(!empty($locationList['data'])) {
-                $storeParams = array();
-                $locationListIds = array_keys($locationList['data']);
-                $storeParams['columns'] = array(new \Zend\Db\Sql\Expression('merchant_store.merchant_id as merchant_id'));
-                $storeParams['location_id'] = $locationListIds;
-                $merchantList = $this->commonModel->storeList($storeParams);
-                $merchantListData = $this->processResult($merchantList, 'merchant_id');
-                if(!empty($merchantListData)) {
-                    $response = array('status' => 'success', 'data' => $merchantListData);
-                }
-            }
+            $response = $this->getLocationList($locationParams);
         }
-        return $response;
+        return getLocationList;
     }
 }
