@@ -97,12 +97,6 @@ class commonModel  {
             if(!empty($parameters['categoryNotIn'])){
                 $query->where->notIn('category_master.id', $parameters['categoryNotIn']);
             }
-            if(!empty($parameters['parent_category_list'])) {
-                $query = $query->where(array('category_master.parent_category_id' => 0));
-            }
-            if(!empty($parameters['parent_category_id'])) {
-                $query = $query->where(array('category_master.parent_category_id' => $parameters['parent_category_id']));
-            }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;

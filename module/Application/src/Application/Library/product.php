@@ -9,8 +9,8 @@
  */
 
 namespace Application\Library;
-use Application\Model\commonModel;
-class common  {
+use Application\Model\productModel;
+class product  {
     public function __construct() {
         $this->commonModel = new commonModel();
     }
@@ -57,10 +57,6 @@ class common  {
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
-            if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
-               $productParams['discount_value'] = $parameters['product_discount_value'];
-               $productParams['discount_type'] = $parameters['product_discount_type']; 
-            }
             $response = $this->isValid($productRules, $productParams);
             if(empty($response)) {
                 $result = $this->commonModel->updateProduct($productParams, $productWhere);
@@ -87,10 +83,6 @@ class common  {
                                 $attributeParams['commission_value'] = $value['commission_value'];
                                 $attributeParams['commission_type'] = $value['commission_type'];
                             }
-                            if(!empty($value['attribute_discount_value']) && !empty($value['attribute_discount_type'])){
-                                $attributeParams['discount_value'] = $value['attribute_discount_value'];
-                                $attributeParams['discount_type'] = $value['attribute_discount_type']; 
-                             }
 
                             $response = $this->isValid($attributeRules, $attributeParams);
                             
@@ -120,11 +112,6 @@ class common  {
             $productParams['category_id'] = (int)$parameters['category_id'];
             $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
             $productParams['product_desc'] = $parameters['product_desc'];
-            if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
-               $productParams['discount_value'] = $parameters['product_discount_value'];
-               $productParams['discount_type'] = $parameters['product_discount_type']; 
-            }
-            
             $productParams['created_date'] = date('Y-m-d H:i:s');
 
             $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
@@ -156,10 +143,6 @@ class common  {
                                 $attributeParams['commission_type'] = $value['commission_type'];
 
                             }
-                            if(!empty($value['attribute_discount_value']) && !empty($value['attribute_discount_type'])){
-                                $attributeParams['discount_value'] = $value['attribute_discount_value'];
-                                $attributeParams['discount_type'] = $value['attribute_discount_type']; 
-                             }
                             $attributeRules['name'] = array('type'=>'string', 'is_required'=>true);
                             $attributeRules['quantity'] = array('type'=>'numeric', 'is_required'=>true);
                             $attributeRules['unit'] = array('type'=>'string', 'is_required'=>true);
@@ -245,10 +228,6 @@ class common  {
                 $params['country_id'] = (int)$parameters['country_id'];
                 $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
             }
-            if(isset($parameters['city_id'])) {
-                $params['city_id'] = (int)$parameters['city_id'];
-                $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
-            }
             if(isset($parameters['active'])) {
                 $params['active'] = $parameters['active'];                
             }         
@@ -256,7 +235,6 @@ class common  {
             $params['googlelocation'] = $parameters['googlelocation'];
             $params['address'] = $parameters['address'];
             $params['country_id'] = (int)$parameters['country_id'];
-            $params['city_id'] = (int)$parameters['city_id'];
             $params['active'] = $parameters['active'];
             $params['lat'] = $parameters['lat'];
             $params['lng'] = $parameters['lng'];
@@ -264,7 +242,6 @@ class common  {
             $rule['googlelocation'] = array('type'=>'string', 'is_required'=>true);
             $rule['address'] = array('type'=>'string', 'is_required'=>true);
             $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
-            $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
             $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
             $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
         }
@@ -347,7 +324,7 @@ class common  {
         $optional = array();        
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
-        }      
+        }                
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
@@ -361,24 +338,7 @@ class common  {
         
         if(isset($parameters['active'])) {
             $optional['active'] = $parameters['active'];
-        }
-        
-        if(isset($parameters['filter_type'])) {
-            if($parameters['filter_type'] == 'Product_name'){
-                $optional['product_name'] = $parameters['value'];
-            }
-            if($parameters['filter_type'] == 'Attribute_name'){
-                $optional['name'] = $parameters['value'];
-            }
-            if($parameters['filter_type'] == 'Category_name'){
-                $optional['category_name'] = $parameters['value'];
-            }
-            
-        }
-        $totalRecord = $this->commonModel->getProductListCount($optional);
-        foreach ($totalRecord as $key => $value) {
-            $count = $value['count'];
-        }
+        }        
         
         $result = $this->commonModel->getProductList($optional);
         if (!empty($result)) {
@@ -387,11 +347,9 @@ class common  {
             }
             $data = $this->processResult($result, $parameters['key']);
             if(!empty($data)) {
-                $optional['product_id'] = array_keys($data);
-                $getattribute = $this->commonModel->getAttributeList($optional);
+                $getattribute = $this->commonModel->getAttributeList(array('product_id'=>array_keys($data)));
                 $attdata = $this->processResult($getattribute);
-                $prepairdata['data'] = $this->prepairProduct($data,$attdata);
-                $prepairdata['count'] = $count;
+                $prepairdata = $this->prepairProduct($data,$attdata);
                 $response = array('status' => 'success', 'data' => $prepairdata);
             }
         }
@@ -854,59 +812,5 @@ class common  {
                 $productParams['attribute'][$i]['commission_value'] = $parameters['commission_value'][$i];
             }
           return $this->addEditProduct($productParams);  
-    }
-    
-    public function cityList($parameters, $optional = array()) {
-        $response = array('status' => 'fail', 'msg' => 'No record found ');
-        if(!empty($parameters['id'])){
-            $optional['id'] = $parameters['id'];
-        }
-        if(!empty($parameters['country_id'])){
-            $optional['country_id'] = $parameters['country_id'];
-        }
-        
-        if(!empty($parameters['pagination'])) {
-                $optional['pagination'] = $parameters['pagination'];
-        }
-        if(!empty($parameters['city_name'])) {
-                $optional['city_name'] = $parameters['city_name'];
-        }
-        
-        $result = $this->commonModel->cityList($optional);
-        
-        if (!empty($result)) {
-            $data = array();
-            foreach ($result as $key => $value) {
-                $data[$key] = $value;
-            }
-            $response = array('status' => 'success', 'data' => $data);
-        }
-        return $response;
-    }
-    
-    public function countryList($parameters, $optional = array()) {
-        $response = array('status' => 'fail', 'msg' => 'No record found ');
-        if(!empty($parameters['id'])){
-            $optional['id'] = $parameters['id'];
-        }
-        
-        if(!empty($parameters['pagination'])) {
-                $optional['pagination'] = $parameters['pagination'];
-        }
-        
-        if(!empty($parameters['country_name'])) {
-                $optional['country_name'] = $parameters['country_name'];
-        }
-        
-        $result = $this->commonModel->countryList($optional);
-        
-        if (!empty($result)) {
-            $data = array();
-            foreach ($result as $key => $value) {
-                $data[$key] = $value;
-            }
-            $response = array('status' => 'success', 'data' => $data);
-        }
-        return $response;
     }
 }
