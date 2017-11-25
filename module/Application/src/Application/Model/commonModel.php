@@ -136,7 +136,7 @@ class commonModel  {
         }
     }
     
-    public function getMarchantList ($parameters, $optional = array()) {
+    public function getMarchantList ($optional = array()) {
         try {
             
             $query = $this->sql->select('user_master');
@@ -184,8 +184,11 @@ class commonModel  {
     public function locationList($optional = array()) {
         try {
             $where = new \Zend\Db\Sql\Where();
-
-            $query = $this->sql->select('location_master', array('*'));
+            
+            $query = $this->sql->select('location_master');
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']); 
+            }             
             if (!empty($optional['id'])) {
                 $query = $query->where(array('id' => $optional['id']));
             }
@@ -436,19 +439,25 @@ class commonModel  {
         try {
             $where = new \Zend\Db\Sql\Where();
 
-            $query = $this->sql->select('merchant_store', array('*'));
+            $query = $this->sql->select('merchant_store');
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']); 
+            }               
             if (!empty($optional['id'])) {
                 $query = $query->where(array('id' => $optional['id']));
             }
             if(!empty($optional['address'])) {
                 $query = $query->where($where->like('address', "%".$optional['address']."%"));
             }            
-            if(isset($optional['active'])) {
-                $query = $query->where(array('active'=>$optional['active']));
-            } 
-            if(isset($optional['merchant_id'])) {
+            if(!empty($optional['merchant_id'])) {
                 $query = $query->where(array('merchant_id'=>$optional['merchant_id']));
             } 
+            if(!empty($optional['location_id'])) {
+                $query = $query->where(array('location_id'=>$optional['location_id']));
+            }             
+            if(isset($optional['active'])) {
+                $query = $query->where(array('active'=>$optional['active']));
+            }             
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);

@@ -211,9 +211,23 @@ class common  {
         return $response;
     }
     
-    public function getMarchantList($parameters, $optional = array()) {
+    public function getMarchantList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
-        $result = $this->commonModel->getMarchantList($parameters, $optional);
+        $optional = array();
+        if (!empty($parameters['id'])) {
+            $optional['id'] = $parameters['id'];
+        }
+        if(!empty($parameters['city_id'])) {
+            $params = array();
+            $params['city_id'] = $parameters['city_id'];
+            $merchantList = $this->getMerchantByCity($params);
+            if(!empty($merchantList['data'])){
+                $optional['id'] = array_keys($merchantList['data']);
+            }else {
+                return $response;
+            }
+        }
+        $result = $this->commonModel->getMarchantList($optional);
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
@@ -316,10 +330,13 @@ class common  {
     
     function getLocationList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
-        $optional = array();        
+        $optional = array();
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
-        }        
+        }         
+        if(!empty($parameters['columns'])) {
+            $optional['columns'] = $parameters['columns'];
+        }    
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
@@ -327,6 +344,9 @@ class common  {
         if(!empty($parameters['address'])) {
             $optional['address'] = $parameters['address'];
         }
+        if(!empty($parameters['city_id'])) {
+            $optional['city_id'] = $parameters['city_id'];
+        }        
         if(isset($parameters['active'])) {
             $optional['active'] = $parameters['active'];
         }        
@@ -696,6 +716,9 @@ class common  {
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
         }        
+        if(!empty($parameters['location_id'])) {
+            $optional['location_id'] = $parameters['location_id'];
+        }                
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
@@ -813,7 +836,6 @@ class common  {
     
     function addProductByCsv($parameters) {
             $data = array();
-            //print_r($parameters);die;
             $productParams['product_name'] = $parameters['product_name'];
             $productResult = $this->commonModel->getProductList($productParams);
             $productData = $this->processResult($productResult);
@@ -906,6 +928,31 @@ class common  {
                 $data[$key] = $value;
             }
             $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
+    }
+
+    function getMerchantByCity($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $locationParams = array();
+        $locationParams['city_id'] = $parameters['city_id'];
+        $locationParams['active'] = 1;
+        $locationParams['columns'] = array(new \Zend\Db\Sql\Expression('location_master.id as id'));
+        $rules['city_id'] = array('type'=>'numeric', 'is_required'=>true);
+        $response = $this->isValid($rules, $locationParams);
+        if(empty($response)) {
+            $locationList = $this->getLocationList($locationParams);
+            if(!empty($locationList['data'])) {
+                $storeParams = array();
+                $locationListIds = array_keys($locationList['data']);
+                $storeParams['columns'] = array(new \Zend\Db\Sql\Expression('merchant_store.merchant_id as merchant_id'));
+                $storeParams['location_id'] = $locationListIds;
+                $merchantList = $this->commonModel->storeList($storeParams);
+                $merchantListData = $this->processResult($merchantList, 'merchant_id');
+                if(!empty($merchantListData)) {
+                    $response = array('status' => 'success', 'data' => $merchantListData);
+                }
+            }
         }
         return $response;
     }

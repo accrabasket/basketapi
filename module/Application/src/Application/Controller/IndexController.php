@@ -22,7 +22,8 @@ class IndexController extends AbstractActionController {
 
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
-        $parameters = trim($this->getRequest()->getQuery('parameters'), "\"");
+        $parameters = trim($_REQUEST['parameters'], "\"");
+        //echo $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";die;
         $parameters = json_decode($parameters,true);
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
@@ -46,11 +47,7 @@ class IndexController extends AbstractActionController {
                     $response = $this->commonLib->categoryList($parameters );
                     break;
                 case 'getMarchantList':
-                    $option = array();
-                    if (!empty($parameters['id'])) {
-                        $option['id'] = $parameters['id'];
-                    }
-                    $response = $this->commonLib->getMarchantList($parameters ,$option );
+                    $response = $this->commonLib->getMarchantList($parameters);
                     break;
                     
                 case 'addEditLocation':
