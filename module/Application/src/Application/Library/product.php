@@ -30,6 +30,12 @@ class product {
             if(!empty($storeList['data']))
             $optional['store_id'] = array_keys ($storeList['data']);
         }        
+        if (!empty($parameters['merchant_id'])){
+            $optional['merchant_id'] = $parameters['merchant_id'];
+        }        
+        if (!empty($parameters['category_id'])){
+            $optional['category_id'] = $parameters['category_id'];
+        }                
         if (!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page']) ? $parameters['page'] : 1;
@@ -45,7 +51,10 @@ class product {
                 if(!empty($optional['store_id'])) {
                     $minPriceParams['store_id'] = $optional['store_id'];
                 }
-                $prodcutAttribute = $this->getMinPriceProductAttribute($minPriceParams, $attdata);
+                if (!empty($parameters['merchant_id'])){
+                    $minPriceParams['merchant_id'] = $parameters['merchant_id'];
+                }                        
+                $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
                 $response = array('status' => 'success', 'data' => $productDetaList);
             }
@@ -61,8 +70,8 @@ class product {
         }
         return $productDetaList;
     }
-    function getMinPriceProductAttribute($parameters, $attributeDetail) {
-        $data = $this->productModel->getMinPriceProductAttribute($parameters);
+    function getMerchantProductAttribute($parameters, $attributeDetail) {
+        $data = $this->productModel->getMerchantProductAttribute($parameters);
         $attributeByProduct = array();
         if(!empty($data)) {
             foreach($data as $row) {

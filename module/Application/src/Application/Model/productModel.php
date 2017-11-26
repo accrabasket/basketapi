@@ -52,7 +52,7 @@ class productModel  {
         } 
     }
     
-    public function getMinPriceProductAttribute($optional) {
+    public function getMerchantProductAttribute($optional) {
         try {
             $where = new \Zend\Db\Sql\Where();
 
