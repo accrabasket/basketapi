@@ -35,6 +35,9 @@ class IndexController extends AbstractActionController {
                     if (!empty($parameters['id'])) {
                         $params['id'] = $parameters['id'];
                     }
+                    if (!empty($parameters['image'])) {
+                        $params['image'] = $parameters['image'];
+                    }
 
                     $response = $this->commonLib->addEditCategory($params);
                     break;
