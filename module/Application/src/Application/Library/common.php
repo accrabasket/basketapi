@@ -28,9 +28,9 @@ class common  {
         
         $result = $this->commonModel->addCategory($parameters);
         if(!empty($result)){
-                if(!empty($parameters['image'])) {
+                if(!empty($optional['image'])) {
                     $path = $GLOBALS['CATEGORYIMAGEPATH'];
-                    $this->uploadImage($parameters['image'],$path,$result);
+                    $this->uploadImage($optional['image'],$path,$result);
                 }
                 $response = array('status'=>'success','msg'=>'category created ');
             }
@@ -978,11 +978,11 @@ class common  {
             if ($im !== false) {
                 if($data[0] == 'data:image/jpeg;base64'){
                     header('Content-Type: image/jpeg');
-                    imagejpeg($im, $imagePath.'.jpg');
+                    imagejpeg($im, $imagePath.'category.jpg');
                     $return['imageExt'] = 'jpg';
                 }else {
                     header('Content-Type: image/png');
-                    imagepng($im, $imagePath.'.png');
+                    imagepng($im, $imagePath.'category.png');
                     $return['imageExt'] = 'png';
                 }
                 imagedestroy($im);
