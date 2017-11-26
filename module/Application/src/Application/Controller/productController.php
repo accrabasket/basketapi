@@ -21,7 +21,7 @@ class ProductController extends AbstractActionController {
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
-        $parameters = $this->getRequest()->getQuery('parameters');
+        $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters, true);
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
