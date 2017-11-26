@@ -966,8 +966,7 @@ class common  {
         }
         return $response;
     }
-    
-    function uploadImage($data,$path,$id) {
+      function uploadImage($data,$path,$id) {
         if(!empty($data)) {
             $data = explode(',', $data);
             $imagData = base64_decode($data[1]);
@@ -977,11 +976,11 @@ class common  {
             if ($im !== false) {
                 if($data[0] == 'data:image/jpeg;base64'){
                     header('Content-Type: image/jpeg');
-                    imagejpeg($im, $imagePath.'.jpg');
+                    imagejpeg($im, $imagePath.'category.jpg');
                     $return['imageExt'] = 'jpg';
                 }else {
                     header('Content-Type: image/png');
-                    imagepng($im, $imagePath.'.png');
+                    imagepng($im, $imagePath.'category.png');
                     $return['imageExt'] = 'png';
                 }
                 imagedestroy($im);

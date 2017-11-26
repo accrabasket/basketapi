@@ -29,6 +29,7 @@ class IndexController extends AbstractActionController {
             switch ($parameters['method']) {
                 case 'addEditCategory':
                     $params = array();
+                    $optional = array();
                     $params['category_name'] = $parameters['category_name'];
                     $params['parent_category_id'] = !empty($parameters['parent_category_id']) ? $parameters['parent_category_id']:0;
                     $params['category_des'] = !empty($parameters['category_des']) ? $parameters['category_des'] : '';
@@ -36,10 +37,9 @@ class IndexController extends AbstractActionController {
                         $params['id'] = $parameters['id'];
                     }
                     if (!empty($parameters['image'])) {
-                        $params['image'] = $parameters['image'];
+                        $optional['image'] = $parameters['image'];
                     }
-
-                    $response = $this->commonLib->addEditCategory($params);
+                    $response = $this->commonLib->addEditCategory($params,$optional);
                     break;
 
                 case 'addEditProduct':
