@@ -13,6 +13,7 @@ use Application\Model\commonModel;
 class common  {
     public function __construct() {
         $this->commonModel = new commonModel();
+        $GLOBALS['CATEGORYIMAGEPATH'] = $_SERVER['DOCUMENT_ROOT'].'/basketapi/category/';
     }
     public function addEditCategory($parameters , $optional =array()) {
         $response = array('status'=>'fail','msg'=>'fail ');
@@ -27,6 +28,10 @@ class common  {
         
         $result = $this->commonModel->addCategory($parameters);
         if(!empty($result)){
+                if(!empty($parameters['image'])) {
+                    $path = $GLOBALS['CATEGORYIMAGEPATH'];
+                    $this->uploadImage($parameters['image'],$path,$result);
+                }
                 $response = array('status'=>'success','msg'=>'category created ');
             }
         return $response;
@@ -961,5 +966,28 @@ class common  {
             $response = $this->getLocationList($locationParams);
         }
         return getLocationList;
+    }
+    
+    function uploadImage($data,$path,$id) {
+        if(!empty($data)) {
+            $data = explode(',', $data);
+            $imagData = base64_decode($data[1]);
+            $imagePath = $path.'/'.$id.'/';
+            @mkdir($imagePath, '0777', true);
+            $im = imagecreatefromstring($imagData);
+            if ($im !== false) {
+                if($data[0] == 'data:image/jpeg;base64'){
+                    header('Content-Type: image/jpeg');
+                    imagejpeg($im, $imagePath.'.jpg');
+                    $return['imageExt'] = 'jpg';
+                }else {
+                    header('Content-Type: image/png');
+                    imagepng($im, $imagePath.'.png');
+                    $return['imageExt'] = 'png';
+                }
+                imagedestroy($im);
+            }
+        }
+        return true;
     }
 }
