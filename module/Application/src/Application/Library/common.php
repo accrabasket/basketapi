@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Zend Framework (http://framework.zend.com/)
  *
@@ -28,9 +27,9 @@ class common  {
         
         $result = $this->commonModel->addCategory($parameters);
         if(!empty($result)){
-                if(!empty($optional['image'])) {
+                if(!empty($parameters['image'])) {
                     $path = $GLOBALS['CATEGORYIMAGEPATH'];
-                    $this->uploadImage($optional['image'],$path,$result);
+                    $this->uploadImage($parameters['image'],$path,$result);
                 }
                 $response = array('status'=>'success','msg'=>'category created ');
             }
@@ -939,7 +938,7 @@ class common  {
 
     function getMerchantByCity($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
-        $locationList = $this->getLocationList($parameters);
+        $locationList = $this->getLocationListByCity($parameters);
         if(!empty($locationList['data'])) {
             $storeParams = array();
             $locationListIds = array_keys($locationList['data']);
@@ -965,10 +964,9 @@ class common  {
         if(empty($response)) {
             $response = $this->getLocationList($locationParams);
         }
-        return getLocationList;
+        return $response;
     }
-    
-    function uploadImage($data,$path,$id) {
+      function uploadImage($data,$path,$id) {
         if(!empty($data)) {
             $data = explode(',', $data);
             $imagData = base64_decode($data[1]);
@@ -990,4 +988,20 @@ class common  {
         }
         return true;
     }
+    function getStoreByCity($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $locationList = $this->getLocationListByCity($parameters);
+        if(!empty($locationList['data'])) {
+            $storeParams = array();
+            $locationListIds = array_keys($locationList['data']);
+            $storeParams['columns'] = array(new \Zend\Db\Sql\Expression('merchant_store.id as id'));
+            $storeParams['location_id'] = $locationListIds;
+            $storeList = $this->commonModel->storeList($storeParams);
+            $storeListData = $this->processResult($storeList, 'id');
+            if(!empty($storeListData)) {
+                $response = array('status' => 'success', 'data' => $storeListData);
+            }
+        }
+        return $response;
+    }    
 }
