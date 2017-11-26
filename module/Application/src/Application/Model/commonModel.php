@@ -194,6 +194,9 @@ class commonModel  {
             }
             if(!empty($optional['address'])) {
                 $query = $query->where($where->like('address', "%".$optional['address']."%"));
+            } 
+            if(!empty($optional['city_id'])) {
+                $query = $query->where(array('city_id'=>$optional['city_id']));
             }            
             if(isset($optional['active'])) {
                 $query = $query->where(array('active'=>$optional['active']));

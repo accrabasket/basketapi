@@ -27,14 +27,22 @@ class product {
             $storeParams = array();
             $storeParams['city_id'] = $parameters['city_id'];
             $storeList = $this->commonLib->getStoreByCity($storeParams);
-            if(!empty($storeList['data']))
-            $optional['store_id'] = array_keys ($storeList['data']);
+            if(!empty($storeList['data'])) {
+                $optional['store_id'] = array_keys($storeList['data']);
+            }
         }        
         if (!empty($parameters['merchant_id'])){
             $optional['merchant_id'] = $parameters['merchant_id'];
         }        
         if (!empty($parameters['category_id'])){
-            $optional['category_id'] = $parameters['category_id'];
+            $categoryParams = array();
+            $categoryParams['parent_category_id'] = $parameters['category_id'];
+            $categoryParams['columns'] = array(new \Zend\Db\Sql\Expression('category_master.id as id'));
+            $categoryData = $this->commonLib->categoryList($categoryParams);
+            if(!empty($categoryData['data'])) {
+                $optional['category_id'] = array_keys($categoryData['data']);
+            }
+            $optional['category_id'][] = $parameters['category_id']; 
         }                
         if (!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];

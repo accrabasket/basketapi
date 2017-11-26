@@ -12,28 +12,27 @@ use Application\Model\commonModel;
 class common  {
     public function __construct() {
         $this->commonModel = new commonModel();
-        $GLOBALS['CATEGORYIMAGEPATH'] = $_SERVER['DOCUMENT_ROOT'].'/basketapi/category/';
     }
     public function addEditCategory($parameters , $optional =array()) {
         $response = array('status'=>'fail','msg'=>'fail ');
-       // $validate  = $this->validation($parameters);
         if(!empty($parameters['id'])){
-            $result = $this->commonModel->updateCategory($parameters);
-            if(!empty($result)){
-                $response = array('status'=>'success','msg'=>'category updated ');
-            }
-            return $response;
+            $this->commonModel->updateCategory($parameters);
+            $result = $parameters['id'];
+        }else {        
+            $result = $this->commonModel->addCategory($parameters);
         }
-        
-        $result = $this->commonModel->addCategory($parameters);
         if(!empty($result)){
-                if(!empty($optional['image'])) {
-                    $path = $GLOBALS['CATEGORYIMAGEPATH'];
-                    $this->uploadImage($optional['image'],$path,$result);
-                }
-                $response = array('status'=>'success','msg'=>'category created ');
-            }
-        return $response;
+            if(!empty($parameters['image'])) {
+                $imageParams = array();
+                $imageParams['type'] = 'category';
+                $imageParams['id'] = $result;
+                $imageParams['imageType'] = "string";
+                $imageParams['imageData'] = $parameters['image'];
+                $this->uploadImage($imageParams);
+            }            
+            $response = array('status'=>'success','msg'=>'category Data Saved');
+        }
+        return $response;   
     }
     
     public function addEditProduct($parameters) {
@@ -965,27 +964,29 @@ class common  {
         }
         return $response;
     }
-      function uploadImage($data,$path,$id) {
-        if(!empty($data)) {
-            $data = explode(',', $data);
+      function uploadImage($imageParams) {         
+        echo $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';die;
+        if(!empty($imageParams['imageData'])) {
+            $imageName = $imageParams['id'].'_'.time();
+            $imagePath = $imagePath.$imageName;
+            $data = explode(',', $imageParams['imageData']);
             $imagData = base64_decode($data[1]);
-            $imagePath = $path.'/'.$id.'/';
             @mkdir($imagePath, '0777', true);
             $im = imagecreatefromstring($imagData);
             if ($im !== false) {
                 if($data[0] == 'data:image/jpeg;base64'){
                     header('Content-Type: image/jpeg');
-                    imagejpeg($im, $imagePath.'category.jpg');
-                    $return['imageExt'] = 'jpg';
+                    imagejpeg($im, $imagePath.'.jpg');
+                    $return['imagename'] = $imageName.'.jpg';
                 }else {
                     header('Content-Type: image/png');
-                    imagepng($im, $imagePath.'category.png');
-                    $return['imageExt'] = 'png';
+                    imagepng($im, $imagePath.'.png');
+                    $return['imagename'] = $imageName.'.png';
                 }
                 imagedestroy($im);
             }
         }
-        return true;
+        return $return;
     }
     function getStoreByCity($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
