@@ -22,12 +22,12 @@ class common  {
             $result = $this->commonModel->addCategory($parameters);
         }
         if(!empty($result)){
-            if(!empty($parameters['image'])) {
+            if(!empty($optional['image'])) {
                 $imageParams = array();
                 $imageParams['type'] = 'category';
                 $imageParams['id'] = $result;
                 $imageParams['imageType'] = "string";
-                $imageParams['imageData'] = $parameters['image'];
+                $imageParams['imageData'] = $optional['image'];
                 $this->uploadImage($imageParams);
             }            
             $response = array('status'=>'success','msg'=>'category Data Saved');
@@ -965,13 +965,14 @@ class common  {
         return $response;
     }
       function uploadImage($imageParams) {         
-        echo $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';die;
+        error_reporting(0);
+        $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';
         if(!empty($imageParams['imageData'])) {
             $imageName = $imageParams['id'].'_'.time();
-            $imagePath = $imagePath.$imageName;
             $data = explode(',', $imageParams['imageData']);
             $imagData = base64_decode($data[1]);
             @mkdir($imagePath, '0777', true);
+            $imagePath = $imagePath.$imageName;
             $im = imagecreatefromstring($imagData);
             if ($im !== false) {
                 if($data[0] == 'data:image/jpeg;base64'){
