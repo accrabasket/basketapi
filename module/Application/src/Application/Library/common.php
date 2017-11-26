@@ -414,9 +414,8 @@ class common  {
                 $optional['product_id'] = array_keys($data);
                 $getattribute = $this->commonModel->getAttributeList($optional);
                 $attdata = $this->processResult($getattribute);
-                $prepairdata['data'] = $this->prepairProduct($data,$attdata);
-                $prepairdata['count'] = $count;
-                $response = array('status' => 'success', 'data' => $prepairdata);
+                $prepairdata = $this->prepairProduct($data,$attdata);
+                $response = array('status' => 'success', 'data' => $prepairdata,'totalRecord'=>$count);
             }
         }
         return $response;        
