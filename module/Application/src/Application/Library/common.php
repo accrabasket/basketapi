@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Zend Framework (http://framework.zend.com/)
  *
@@ -939,7 +938,7 @@ class common  {
 
     function getMerchantByCity($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
-        $locationList = $this->getLocationList($parameters);
+        $locationList = $this->getLocationListByCity($parameters);
         if(!empty($locationList['data'])) {
             $storeParams = array();
             $locationListIds = array_keys($locationList['data']);
@@ -965,7 +964,7 @@ class common  {
         if(empty($response)) {
             $response = $this->getLocationList($locationParams);
         }
-        return getLocationList;
+        return $response;
     }
     
     function uploadImage($data,$path,$id) {
@@ -990,4 +989,20 @@ class common  {
         }
         return true;
     }
+    function getStoreByCity($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $locationList = $this->getLocationListByCity($parameters);
+        if(!empty($locationList['data'])) {
+            $storeParams = array();
+            $locationListIds = array_keys($locationList['data']);
+            $storeParams['columns'] = array(new \Zend\Db\Sql\Expression('merchant_store.id as id'));
+            $storeParams['location_id'] = $locationListIds;
+            $storeList = $this->commonModel->storeList($storeParams);
+            $storeListData = $this->processResult($storeList, 'id');
+            if(!empty($storeListData)) {
+                $response = array('status' => 'success', 'data' => $storeListData);
+            }
+        }
+        return $response;
+    }    
 }
