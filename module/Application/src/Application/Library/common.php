@@ -27,9 +27,9 @@ class common  {
         
         $result = $this->commonModel->addCategory($parameters);
         if(!empty($result)){
-                if(!empty($parameters['image'])) {
+                if(!empty($optional['image'])) {
                     $path = $GLOBALS['CATEGORYIMAGEPATH'];
-                    $this->uploadImage($parameters['image'],$path,$result);
+                    $this->uploadImage($optional['image'],$path,$result);
                 }
                 $response = array('status'=>'success','msg'=>'category created ');
             }
