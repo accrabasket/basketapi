@@ -49,11 +49,23 @@ class product {
             $optional['page'] = !empty($parameters['page']) ? $parameters['page'] : 1;
         }
         $result = $this->productModel->productList($optional);
+        $attributeImageData = array();
         if (!empty($result)) {
             $productData = $this->commonLib->processResult($result, 'product_id');
             if (!empty($productData)) {
                 $getattribute = $this->commonModel->getAttributeList(array('product_id' => array_keys($productData)));
                 $attdata = $this->commonLib->processResult($getattribute, 'id');
+                if(!empty($attdata)) {
+                    $attrImageWhere = array();
+                    $attrImageWhere['image_id'] = array_keys($attdata);
+                    $attrImageWhere['type'] = 'attribute';
+                    $attributeImageData = $this->commonLib->fetchImage($attrImageWhere);                
+                }
+                $productImageWhere = array();
+                $productImageWhere['image_id'] = array_keys($productData);
+                $productImageWhere['type'] = 'product';
+                $commonModel = new commonModel();
+                $productImageData = $this->commonLib->fetchImage($productImageWhere);                                
                 $minPriceParams = array();
                 $minPriceParams['attribute_id'] = array_keys($attdata);
                 if(!empty($optional['store_id'])) {
@@ -64,7 +76,7 @@ class product {
                 }                        
                 $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
-                $response = array('status' => 'success', 'data' => $productDetaList);
+                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData, 'imageRootPath'=>HTTP_ROOT_PATH);
             }
         }
         return $response;
