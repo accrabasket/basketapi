@@ -40,6 +40,7 @@ class common  {
         $productParams = array();
         $productRules = array();
         if (!empty($parameters['id'])) {
+            $productId = $parameters['id'];
             $productWhere = array();
             $productWhere['id'] = $parameters['id'];
             if(isset($parameters['product_name'])) {
@@ -107,7 +108,8 @@ class common  {
                                     $attributeParams['created_date'] = date('Y-m-d H:i:s');
                                     $returnAttr = $this->commonModel->addAttribute($attributeParams);
                                 }
-                                
+                                $value['type'] = "attribute";
+                                $this->uploadImgParams($value, $returnAttr);            
                                 $data['attribute'][$key] = $returnAttr;
                             }
                         }
@@ -115,7 +117,6 @@ class common  {
                 }
                 $response = array('status' => 'success', 'data' => $data);
             }
-            return $response;
         }else {
             $data = array();
             
@@ -172,6 +173,8 @@ class common  {
                                 $commonModel = new commonModel();
                                 $returnAttr = $commonModel->addAttribute($attributeParams);
                                 $data['attribute'][$key] = $returnAttr;
+                                $value['type'] = "attribute";
+                                $this->uploadImgParams($value, $returnAttr); 
                             }
                         }
                         $response = array('status' => 'success', 'data' => $data);
@@ -179,9 +182,32 @@ class common  {
                 }
             }
         }
+        $parameters['type'] = "product";
+        $this->uploadImgParams($parameters, $productId);         
         return $response;
     }
     
+    public function uploadImgParams($value, $id){
+        $imageParams = array();
+        $imageParams['type'] = $value['type'];
+        $imageParams['imageType'] = "string";
+        if(!empty($value['images']) && is_array($value['images'])) {
+            foreach($value['images'] as $image) {
+                $imageParams['id'] = $id;
+                $imageParams['imageData'] = $image;
+                if(!empty($image)) {
+                    $imageData = $this->uploadImage($imageParams);
+                    $imageParams['image_name'] = $imageData['imagename'];
+                    $imageParams['image_id'] = $imageParams['id'];
+                    unset($imageParams['imageData']);
+                    unset($imageParams['imageType']);
+                    unset($imageParams['id']);
+                    $this->commonModel->saveImage($imageParams);
+                }
+            }
+        }
+        return $imageParams;
+    }
     public function categoryList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         if(!empty($parameters['categoryHavingNoProduct'])) {
@@ -204,12 +230,22 @@ class common  {
             }
         }                    
         $result = $this->commonModel->categoryList($parameters);
+        $data = array();
         if (!empty($result)) {
-            $data = array();
             foreach ($result as $key => $value) {
                 $data[$value['id']] = $value;
             }
-            $response = array('status' => 'success', 'data' => $data);
+            $imageData = array();
+            if(!empty($data)) {
+                $whereParams = array();
+                $whereParams['image_id'] = array_keys($data);
+                $whereParams['type'] = 'category';
+                $categoryImageData = $this->commonModel->fetchImage($whereParams);
+                if(!empty($categoryImageData)) {
+                    $imageData = $this->processResult($categoryImageData, 'image_id', true);
+                }
+            }
+            $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData,'imageRootPath'=>HTTP_ROOT_PATH);
         }
         return $response;
     }
@@ -419,12 +455,16 @@ class common  {
         }
         return $response;        
     }
-    function processResult($result,$dataKey='') {
+    function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {
             foreach ($result as $key => $value) {
                 if(!empty($dataKey)){
-                    $data[$value[$dataKey]] = $value;
+                    if($multipleRowOnKey) {
+                        $data[$value[$dataKey]] = $value;
+                    }else {
+                        $data[$value[$dataKey]] = $value;
+                    }
                 }else {
                     $data[] = $value;
                 }
@@ -433,7 +473,7 @@ class common  {
         
         return $data;
     }
-    
+            
     function prepairProduct($productdata,$attribute) {
         $data = array();
         $return = array();
@@ -1004,5 +1044,14 @@ class common  {
             }
         }
         return $response;
-    }    
+    }  
+    
+    function fetchImage($where) {
+        $imageData = $this->commonModel->fetchImage($where);
+        $data = array();
+        if(!empty($imageData)) {
+            $data = $this->processResult($imageData, 'image_id', true);
+        }
+        return $data;
+    }
 }

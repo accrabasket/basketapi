@@ -646,4 +646,33 @@ class commonModel  {
             return false;
         } 
     }
+    
+    function saveImage($imageData) {
+        try {
+            $query = $this->sql->insert('image_master')
+                        ->values($imageData);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    function fetchImage($where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->select('image_master');
+                $query = $query->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                
+                return $result;                
+            }else {
+                return false;
+            }
+        }  catch (\Exception $ex) {
+            echo $ex->getMessage();die;
+            return false;
+        }
+    }
 }
