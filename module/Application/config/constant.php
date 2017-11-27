@@ -1,3 +1,3 @@
 <?php
-define('HTTP_ROOT_PATH', "http//".$_SERVER["HTTP_HOST"].'/basketapi');
+define('HTTP_ROOT_PATH', "http//".$_SERVER["HTTP_HOST"].'/basketapi/public/images');
 $GLOBALS['IMAGEROOTPATH'] = $_SERVER['DOCUMENT_ROOT'].'/basketapi/public/images';
