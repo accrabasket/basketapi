@@ -355,7 +355,7 @@ class commonModel  {
                         ->where(array('id'=>$where['id']));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();
-            return $result;
+            return $where['id'];
         } catch (\Exception $ex) {
             return false;
         }        
