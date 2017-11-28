@@ -27,8 +27,8 @@ class common  {
                 $imageParams['type'] = 'category';
                 $imageParams['id'] = $result;
                 $imageParams['imageType'] = "string";
-                $imageParams['imageData'] = $optional['image'];
-                $this->uploadImage($imageParams);
+                $imageParams['images'][] = $optional['image'];
+                $this->uploadImgParams($imageParams, $result);
             }            
             $response = array('status'=>'success','msg'=>'category Data Saved');
         }
@@ -461,7 +461,7 @@ class common  {
             foreach ($result as $key => $value) {
                 if(!empty($dataKey)){
                     if($multipleRowOnKey) {
-                        $data[$value[$dataKey]] = $value;
+                        $data[$value[$dataKey]][] = $value;
                     }else {
                         $data[$value[$dataKey]] = $value;
                     }
