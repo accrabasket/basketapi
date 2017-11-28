@@ -599,6 +599,13 @@ class common  {
                 $params['email'] = $parameters['email'];
                 $rule['email'] = array('type'=>'string', 'is_required'=>true);               
             }
+            if(isset($parameters['address'])) {
+                $params['address'] = $parameters['address'];
+                $rule['address'] = array('type'=>'string', 'is_required'=>true);               
+            }
+            if(isset($parameters['username'])) {
+                $params['username'] = $parameters['username'];               
+            }
             if(isset($parameters['ic_number'])) {
                 $params['ic_number'] = $parameters['ic_number'];
                 $rule['ic_number'] = array('type'=>'string', 'is_required'=>true);
@@ -622,6 +629,15 @@ class common  {
             if(empty($response)) {
                 $result = $this->commonModel->saveMerchant($params, $where);
                 if(!empty($result)){
+                    if(!empty($parameters['image'])) {
+                        $imageParams = array();
+                        $imageParams['type'] = 'merchant';
+                        $imageParams['id'] = $result;
+                        $imageParams['imageType'] = "string";
+                        $imageParams['imageData'] = $parameters['image'];
+                        $imageParams['make_id_wise_folder'] = 'no';
+                        //$this->uploadImage($imageParams);
+                    }
                     $response = array('status'=>'success','msg'=>'Record Saved Successfully.');
                 }else{
                     $response = array('status'=>'fail','msg'=>'nothing to update');
@@ -1006,9 +1022,19 @@ class common  {
     }
       function uploadImage($imageParams) {         
         error_reporting(0);
-        $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';
+        if(empty($imageParams['make_id_wise_folder'])){
+            $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';
+        }else{
+            $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/';
+        }
+        
         if(!empty($imageParams['imageData'])) {
-            $imageName = $imageParams['id'].'_'.time();
+            if(empty($imageParams['make_id_wise_folder'])){
+                $imageName = $imageParams['id'].'_'.time();
+            }else{
+                $imageName = $imageParams['id'];
+            }
+            
             $data = explode(',', $imageParams['imageData']);
             $imagData = base64_decode($data[1]);
             @mkdir($imagePath, '0777', true);
