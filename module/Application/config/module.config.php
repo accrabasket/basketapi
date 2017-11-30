@@ -85,7 +85,8 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Application\Controller\Index' => 'Application\Controller\IndexController',
-            'Application\Controller\Product' => 'Application\Controller\ProductController'
+            'Application\Controller\Product' => 'Application\Controller\ProductController',
+            'Application\Controller\Customer' => 'Application\Controller\CustomerController'
         ),
     ),
     'view_manager' => array(
