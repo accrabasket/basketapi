@@ -49,7 +49,7 @@ class customer {
             $itemIntoCart = $this->getItemIntoCart($params);
             if(!empty($itemIntoCart)) {
                 if($parameters['action'] == 'delete') {
-                    if($itemIntoCart[$params['merchant_inventry_id']]['number_of_item'] >$params['number_of_item']) {
+                    if(!empty($params['number_of_item']) && $itemIntoCart[$params['merchant_inventry_id']]['number_of_item'] >$params['number_of_item']) {
                        $params['number_of_item'] = $itemIntoCart[$params['merchant_inventry_id']]['number_of_item']- $params['number_of_item'];
                        $parameters['action'] = "update";
                     }
