@@ -46,8 +46,10 @@ class customer {
             $status = FALSE;
         }        
         if($status) {
-            $itemIntoCart = $this->getItemIntoCart($params);
-            if(!empty($itemIntoCart)) {
+            $itemIntoCartResponse = $this->getItemIntoCart($params);
+            
+            if(!empty($itemIntoCartResponse['data'])) {
+                $itemIntoCart = $itemIntoCartResponse['data'];
                 if($parameters['action'] == 'delete') {
                     if(!empty($params['number_of_item']) && $itemIntoCart[$params['merchant_inventry_id']]['number_of_item'] >$params['number_of_item']) {
                        $params['number_of_item'] = $itemIntoCart[$params['merchant_inventry_id']]['number_of_item']- $params['number_of_item'];
@@ -79,14 +81,35 @@ class customer {
         return $response;
     }
     
-    public function getItemIntoCart($params) {
-        $data = $this->customerModel->getItemIntoCart($params);
+    public function getItemIntoCart($params) { 
+        $response = array('status' => 'fail', 'msg' => 'No Record found');
+        $where = array();
+        $status = true;
+        if(!empty($params['merchant_inventry_id'])) {
+            $where['merchant_inventry_id'] = $params['merchant_inventry_id'];
+        }
+        if(!empty($params['user_id'])){
+            $where['user_id'] = $params['user_id'];
+        }
+        if(!empty($params['guest_id'])) {
+            $where['guest_user_id'] = $params['guest_user_id'];
+        }        
+        if(empty($params['guest_id']) && empty($params['user_id'])) {
+            $response['msg'] = "user Id not supplied";
+            $status = FALSE;
+        }        
+        if($status){
+            $data = $this->customerModel->getItemIntoCart($params);
+        }
         $cartData = array();
         if(!empty($data)) {
             $cartData = $this->processResult($data, 'merchant_inventry_id');
+            if(!empty($cartData)) {
+                $response = array('status' => 'success', 'data' => $cartData);
+            }
         }
         
-        return $cartData;
+        return $response;
     }
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
