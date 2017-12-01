@@ -30,8 +30,13 @@ class productModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_inventry');
-            $query->columns(array('product_id' => new \Zend\Db\Sql\Expression('DISTINCT(merchant_inventry.product_id)')));
             $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name', 'product_desc', 'category_id'));           
+            if(!empty($optional['merchant_inventry_id'])) {
+                $query->columns(array('id'=>'id','price' => 'price', 'product_id' => 'product_id'));
+                $query = $query->where(array('merchant_inventry.id' => $optional['merchant_inventry_id']));
+            }else {
+                $query->columns(array('product_id' => new \Zend\Db\Sql\Expression('DISTINCT(merchant_inventry.product_id)')));
+            }            
             if(!empty($optional['store_id'])) {
                 $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
             }
@@ -57,6 +62,9 @@ class productModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_inventry');
+            if(!empty($optional['id'])) {
+                $query = $query->where(array('merchant_inventry.id' => $optional['id']));
+            }            
             if(!empty($optional['store_id'])) {
                 $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
             }

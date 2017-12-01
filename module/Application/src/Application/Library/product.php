@@ -112,5 +112,20 @@ class product {
         }
         return $attributeByProduct;
     }
+    
+    function getProductByMerchantAttributeId($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $optional = array();
+        if(!empty($parameters['merchant_inventry_id'])) {
+            $optional['merchant_inventry_id'] = $parameters['merchant_inventry_id'];
+            $data = $this->productModel->productList($optional);
+            $productData = $this->commonLib->processResult($data, 'id');
+            if(!empty($productData)){
+                $response = array('status'=>'success', 'data'=>$productData);
+            }
+        }
+        
+        return $response;
+    }
 
 }
