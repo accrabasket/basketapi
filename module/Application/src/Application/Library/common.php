@@ -634,6 +634,7 @@ class common  {
             if(!empty($parameters['image'])) {
                 $imgHeader = explode(';', $parameters['image']);
                 $imageExt = explode('/', $imgHeader[0]);
+                
                 $params['image_ext'] = $imageExt[1];
             }
             $response = $this->isValid($rule, $params);
