@@ -269,10 +269,16 @@ class common  {
         $result = $this->commonModel->getMarchantList($optional);
         if (!empty($result)) {
             $data = array();
+            $imageData = array();
             foreach ($result as $key => $value) {
                 $data[] = $value;
+                if(!empty($value['image_ext'])){
+                 $imageData[$value['id']] = HTTP_ROOT_PATH.'/merchant/'.$value['id'].'.'.$value['image_ext'];
+                  
+                }
+                
             }
-            $response = array('status' => 'success', 'data' => $data);
+            $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData);
         }
         return $response;
     }
@@ -625,6 +631,11 @@ class common  {
             if(isset($parameters['status'])) {
                 $params['status'] = $parameters['status'];                
             }
+            if(!empty($parameters['image'])) {
+                $imgHeader = explode(';', $parameters['image']);
+                $imageExt = explode('/', $imgHeader[0]);
+                $params['image_ext'] = $imageExt[1];
+            }
             $response = $this->isValid($rule, $params);
             if(empty($response)) {
                 $result = $this->commonModel->saveMerchant($params, $where);
@@ -636,7 +647,7 @@ class common  {
                         $imageParams['imageType'] = "string";
                         $imageParams['imageData'] = $parameters['image'];
                         $imageParams['make_id_wise_folder'] = 'no';
-                        //$this->uploadImage($imageParams);
+                        $this->uploadImage($imageParams);
                     }
                     $response = array('status'=>'success','msg'=>'Record Saved Successfully.');
                 }else{
