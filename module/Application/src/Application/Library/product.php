@@ -121,7 +121,13 @@ class product {
             $data = $this->productModel->productList($optional);
             $productData = $this->commonLib->processResult($data, 'id');
             if(!empty($productData)){
-                $response = array('status'=>'success', 'data'=>$productData);
+                $dataByProductId = $this->commonLib->processResult($productData, 'product_id');
+                $productImageWhere = array();
+                $productImageWhere['image_id'] = array_keys($dataByProductId);
+                $productImageWhere['type'] = 'product';
+                $commonModel = new commonModel();
+                $productImageData = $this->commonLib->fetchImage($productImageWhere);                
+                $response = array('status'=>'success', 'data'=>$productData, 'productImageData'=>$productImageData);
             }
         }
         
