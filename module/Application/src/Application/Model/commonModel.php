@@ -92,7 +92,7 @@ class commonModel  {
                 $query = $query->where(array('category_master.id' => $parameters['id']));
             }
             if (!empty($parameters['category_name'])) {
-                $query = $query->where($where->like('category_master.category_name',$parameters['category_name']));
+                $query = $query->where($where->like('category_master.category_name',"%".$parameters['category_name']."%"));
             }            
             if(!empty($parameters['categoryNotIn'])){
                 $query->where->notIn('category_master.id', $parameters['categoryNotIn']);

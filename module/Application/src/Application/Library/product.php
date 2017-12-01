@@ -30,20 +30,33 @@ class product {
             if(!empty($storeList['data'])) {
                 $optional['store_id'] = array_keys($storeList['data']);
             }
+        }   
+        if(!empty($parameters['product_name'])) {
+            $optional['product_name'] = $parameters['product_name'];
+        }
+        if(!empty($optional['category_name'])) {
+            $parameters['product_name'] = $parameters['category_name'];
         }        
         if (!empty($parameters['merchant_id'])){
             $optional['merchant_id'] = $parameters['merchant_id'];
-        }        
+        }     
+        $categoryParams = array();
+        if (!empty($parameters['category_name'])){
+            $categoryParams['category_name'] = $parameters['category_name'];
+        }  
         if (!empty($parameters['category_id'])){
-            $categoryParams = array();
             $categoryParams['parent_category_id'] = $parameters['category_id'];
+        }        
+        if(!empty($categoryParams)) {
             $categoryParams['columns'] = array(new \Zend\Db\Sql\Expression('category_master.id as id'));
             $categoryData = $this->commonLib->categoryList($categoryParams);
-            if(!empty($categoryData['data'])) {
-                $optional['category_id'] = array_keys($categoryData['data']);
-            }
-            $optional['category_id'][] = $parameters['category_id']; 
-        }                
+        }
+        if(!empty($categoryData['data'])) {
+            $optional['category_id'] = array_keys($categoryData['data']);
+        }
+        if (!empty($parameters['category_id'])){
+            $optional['category_id'][] = $parameters['category_id'];         
+        }
         if (!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page']) ? $parameters['page'] : 1;

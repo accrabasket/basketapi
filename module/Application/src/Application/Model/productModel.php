@@ -37,22 +37,25 @@ class productModel  {
             }else {
                 $query->columns(array('product_id' => new \Zend\Db\Sql\Expression('DISTINCT(merchant_inventry.product_id)')));
             }            
-            if(!empty($optional['store_id'])) {
-                $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
-            }
-            if(!empty($optional['merchant_id'])) {
-                $query = $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
-            }
             if(!empty($optional['category_id'])) {
                 $query = $query->where(array('product_master.category_id' => $optional['category_id']));
             }            
+            if(!empty($optional['product_name'])){
+                $query = $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
+            }            
+            if(!empty($optional['store_id'])) {
+                $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
+            }            
+            if(!empty($optional['merchant_id'])) {
+                $query = $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
+            }            
             $query = $query->where(array('product_master.status' => 1));
-            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
             return $result;
         } catch (\Exception $ex) {
+            echo $ex->getMessage();die;
             return false;
         } 
     }
