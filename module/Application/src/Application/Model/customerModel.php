@@ -83,4 +83,64 @@ class customerModel  {
             return false;
         }         
     }
+    function getUserDetail($whereParams, $optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $orQuery = "";
+            $query = $this->sql->select('user_master'); 
+            if(!empty($whereParams['id'])) {
+                $query = $query->where(array('user_master.id' => $whereParams['id']));
+            } 
+            if(!empty($whereParams['email'])) {
+                $query = $query->where($where->nest->or->equalTo('user_master.email', $whereParams['email']), "OR");
+            }            
+            if(!empty($whereParams['mobile_number'])){
+                $query = $query->Where($where->nest->or->equalTo('user_master.mobile_number', $whereParams['mobile_number']), "OR");
+            }  
+                      
+            if(!empty($whereParams['password'])) {
+                $query = $query->where(array('user_master.password' => $whereParams['password']));
+            }            
+            if(!empty($whereParams['name'])) {
+                $query = $query->where(new \Zend\Db\Sql\Predicate\Like('user_master.name', $whereParams['name']));
+            }            
+            $query = $query->where(array('user_master.status' => 1));
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }   
+            
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+    }
+    
+    function updateUser($params, $where) {
+        try {
+            $query = $this->sql->update('user_master')
+                        ->set($params)
+                        ->where($where);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return true;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    function addUser($params) {
+        try {
+            $query = $this->sql->insert('user_master')
+                        ->values($params);
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
 }

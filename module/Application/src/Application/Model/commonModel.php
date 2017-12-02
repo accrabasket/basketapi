@@ -13,7 +13,6 @@ namespace Application\Model;
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Sql;
 use Zend\Db\Sql\Expression;
-define('PER_PAGE_LIMIT', 10);
 class commonModel  {
     public $adapter;
     public $sql;
