@@ -61,6 +61,9 @@ class common  {
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
+            if(!empty($parameters['custom_info'])){
+               $productParams['custom_info'] = $parameters['custom_info']; 
+            }
             if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
                $productParams['discount_value'] = $parameters['product_discount_value'];
                $productParams['discount_type'] = $parameters['product_discount_type']; 
@@ -136,6 +139,9 @@ class common  {
             $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);            
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
+            }
+            if(!empty($parameters['custom_info'])){
+               $productParams['custom_info'] = $parameters['custom_info']; 
             }
             $response = $this->isValid($productRules, $productParams);
             
