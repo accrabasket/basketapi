@@ -180,7 +180,13 @@ class common  {
                                 $returnAttr = $commonModel->addAttribute($attributeParams);
                                 $data['attribute'][$key] = $returnAttr;
                                 $value['type'] = "attribute";
-                                $this->uploadImgParams($value, $returnAttr); 
+                                $value['attribute image'] = $parameters['attribute image'];
+                                if(!empty($parameters['attribute image'])){
+                                    $this->uploadImgParamsViaCsv($value, $returnAttr);
+                                }  else {
+                                    $this->uploadImgParams($value, $returnAttr);         
+                                }
+                                 
                             }
                         }
                         $response = array('status' => 'success', 'data' => $data);
@@ -189,7 +195,12 @@ class common  {
             }
         }
         $parameters['type'] = "product";
-        $this->uploadImgParams($parameters, $productId);         
+        if(!empty($parameters['product_image'])){
+            $this->uploadImgParamsViaCsv($parameters, $productId);
+        }  else {
+            $this->uploadImgParams($parameters, $productId);         
+        }
+        
         return $response;
     }
     
@@ -213,6 +224,26 @@ class common  {
             }
         }
         return $imageParams;
+    }
+    
+    public function uploadImgParamsViaCsv($value, $id){
+        $newloc = $GLOBALS['IMAGEROOTPATH'].'/'.$value['type'].'/'.$id.'/';
+        @mkdir($newloc, '0777', true);
+        if($value['type'] == 'product'){
+            $image = $value['product_image'];
+        }else{
+            $image = $value['attribute image'];
+        }
+        if(!empty($image)){
+            foreach ($image as $key => $values) {
+                $curretfile = $GLOBALS['IMAGEROOTPATH'].'/media/'.$values;
+                $ext = explode('.', $values);
+                $name = $id.'_'.time().'.'.$ext[1];
+                move_uploaded_file($curretfile, $newloc.$name);
+                unset($curretfile);
+            }
+        }
+        return true;
     }
     public function categoryList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
@@ -950,6 +981,16 @@ class common  {
                 $productParams['attribute'][$i]['unit'] = $parameters['unit'][$i];
                 $productParams['attribute'][$i]['commission_type'] = $parameters['commission_type'][$i];
                 $productParams['attribute'][$i]['commission_value'] = $parameters['commission_value'][$i];
+            }
+            if(!empty($parameters['custom_info'])){
+                $productParams['custom_info'] = $parameters['custom_info'];
+            }
+            
+            if(!empty($parameters['product_image'])){
+                $productParams['product_image'] = $parameters['product_image'];
+            }
+            if(!empty($parameters['attribute_image'])){
+                $productParams['attribute_image'] = $parameters['attribute_image'];
             }
           return $this->addEditProduct($productParams);  
     }
