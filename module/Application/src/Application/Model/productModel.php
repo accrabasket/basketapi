@@ -55,7 +55,6 @@ class productModel  {
             
             return $result;
         } catch (\Exception $ex) {
-            echo $ex->getMessage();die;
             return false;
         } 
     }

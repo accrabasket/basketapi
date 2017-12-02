@@ -27,7 +27,13 @@ class CustomerController extends AbstractActionController {
                     break;
                 case "getitemintocart":
                     $response = $this->customerLib->getItemIntoCart($parameters);
-                    break;                      
+                    break;  
+                case 'addedituser':
+                    $response = $this->customerLib->addEditUser($parameters);
+                    break;
+                case 'login':
+                    $response = $this->customerLib->login($parameters);
+                    break;                
             }
 
             echo json_encode($response);
