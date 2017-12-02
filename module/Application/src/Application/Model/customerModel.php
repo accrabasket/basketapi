@@ -61,12 +61,16 @@ class customerModel  {
     
     function updateCart($params, $where) {
         try {
-            $query = $this->sql->update('cart_item')
-                        ->set($params)
-                        ->where($where);
-            $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
-            return true;
+            if(!empty($where)) {
+                $query = $this->sql->update('cart_item')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
         } catch (\Exception $ex) {
             return false;
         }        
@@ -74,11 +78,15 @@ class customerModel  {
     
     function deleteCart($where) {
         try {
-            $query = $this->sql->delete('cart_item')
-                        ->where($where);
-            $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
-            return true;
+            if(!empty($where)) {
+                $query = $this->sql->delete('cart_item')
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else {
+                return false;
+            }
         } catch (\Exception $ex) {
             return false;
         }         
@@ -121,12 +129,16 @@ class customerModel  {
     
     function updateUser($params, $where) {
         try {
-            $query = $this->sql->update('user_master')
-                        ->set($params)
-                        ->where($where);
-            $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
-            return true;
+            if(!empty($where)) {
+                $query = $this->sql->update('user_master')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else {
+                return false;
+            }
         } catch (\Exception $ex) {
             return false;
         }        
@@ -142,5 +154,51 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         }        
-    }    
+    }
+    
+    function addDeliveryAddress($params) {
+        try {
+            $query = $this->sql->insert('delivery_address')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function updateDeliveryAddress($params, $where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('delivery_address')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else {
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }                
+    }
+    
+    function getAddressList($where) {
+        try {
+            $query = $this->sql->select('delivery_address');
+            if(!empty($where['id'])) {
+                $query = $query->where(array('id'=>$where['id']));
+            }            
+            if(!empty($where['user_id'])){
+                $query = $query->where(array('user_id'=>$where['user_id']));
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }

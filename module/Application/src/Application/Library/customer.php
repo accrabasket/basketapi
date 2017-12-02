@@ -144,22 +144,20 @@ class customer {
                 $userParams['status'] = $parameters['status'];
             }            
         }else {
-            $userParams['email'] = $parameters['email'];
-            $userParams['mobile_number'] = $parameters['mobile_number'];
-            
-            $userInputParams = array();
-            
-            $userInputParams = $userParams;
-            $userParams['name'] = $parameters['name'];
-            $userParams['city_id'] = $parameters['city_id']; 
-            $userParams['address'] = !empty($parameters['address'])?$parameters['address']:""; 
-            $userParams['password'] = $parameters['password']; 
-            $userParams['created_date'] = date('Y-m-d H:i:s'); 
-            $rules['password'] = array('type'=>'string', 'is_required'=>true);
-            $rules['city_id'] = array('type'=>'numeric', 'is_required'=>true);            
-            $rules['mobile_number'] = array('type'=>'string', 'is_required'=>true);            
-            $rules['email'] = array('type'=>'string', 'is_required'=>true);            
-            $rules['name'] = array('type'=>'string', 'is_required'=>true);                        
+            $userParams['email']         =  isset($parameters['email'])?$parameters['email']:'';
+            $userParams['mobile_number'] =  isset($parameters['mobile_number'])?$parameters['mobile_number']:'';
+            $userInputParams             =  array();
+            $userInputParams             =  $userParams;
+            $userParams['name']          =  isset($parameters['name'])?$parameters['name']:'';
+            $userParams['city_id']       =  isset($parameters['city_id'])?$parameters['city_id']:''; 
+            $userParams['address']       =  !empty($parameters['address'])?$parameters['address']:""; 
+            $userParams['password']      =  $parameters['password']; 
+            $userParams['created_date']  =  date('Y-m-d H:i:s'); 
+            $rules['password']           =  array('type'=>'string', 'is_required'=>true);
+            $rules['city_id']            =  array('type'=>'numeric', 'is_required'=>true);            
+            $rules['mobile_number']      =  array('type'=>'string', 'is_required'=>true);            
+            $rules['email']              =  array('type'=>'string', 'is_required'=>true);            
+            $rules['name']               =  array('type'=>'string', 'is_required'=>true);                        
         }
         
         $response = $this->isValid($rules, $userParams);
@@ -288,8 +286,114 @@ class customer {
         return $return;
     }
     
-    function addEditAddress($parameters) {
+    function addEditDeleveryAddress($parameters) {
+        $response = array('status'=>'fail','msg'=>'address not saved');
+        $addressParams = array();
+        $rules = array();
+        if(empty($parameters['user_id'])) {
+            $response['msg'] = "user not supplied"; 
+            return $response;
+        }        
+        if (!empty($parameters['id'])) {
+            $where = array();
+            $where['id'] = $addressParams['id'] = $parameters['id'];
+            $where['user_id'] = $parameters['user_id'];
+            if(!empty($parameters['address_nickname'])) {
+                $addressParams['address_nickname'] = $parameters['address_nickname'];
+            }
+            if(isset($parameters['contact_name'])) {
+                $addressParams['contact_name'] = $parameters['contact_name'];
+                $rules['contact_name'] = array('type'=>'string', 'is_required'=>true);
+            }
+            if(isset($parameters['contact_number'])) {
+                $addressParams['contact_number'] = $parameters['contact_number'];
+                $rules['contact_number'] = array('type'=>'string', 'is_required'=>true);
+            }            
+            if(isset($parameters['city_id'])){
+               $addressParams['city_id'] = $parameters['city_id']; 
+               $rules['city_id'] = array('type'=>'numeric', 'is_required'=>true);
+            }
+            if(isset($parameters['city_name'])){
+               $addressParams['city_name'] = $parameters['city_name']; 
+               $rules['city_name'] = array('type'=>'string', 'is_required'=>true);
+            }            
+            if(!isset($parameters['house_number'])){
+               $addressParams['house_number'] = $parameters['house_number']; 
+               $rules['house_number'] = array('type'=>'string', 'is_required'=>true);
+            }
+            if(isset($parameters['street_detail'])){
+               $addressParams['street_detail'] = $parameters['street_detail']; 
+            }            
+            if(isset($parameters['landmark'])){
+               $addressParams['landmark'] = $parameters['landmark']; 
+            }            
+            if(isset($parameters['zipcode'])){
+               $addressParams['zipcode'] = $parameters['zipcode']; 
+            }
+            if(isset($parameters['area'])){
+               $addressParams['area'] = $parameters['area']; 
+               $rules['area'] = array('type'=>'string', 'is_required'=>true);
+            }
+        }else {
+            $addressParams['address_nickname'] = isset($parameters['address_nickname'])?$parameters['address_nickname']:'';
+            $addressParams['contact_name'] = isset($parameters['contact_name'])?$parameters['contact_name']:'';
+            $addressParams['city_id'] = isset($parameters['city_id'])?$parameters['city_id']:''; 
+            $addressParams['city_name'] = isset($parameters['city_name'])?$parameters['city_name']:'';
+            $addressParams['house_number'] = isset($parameters['house_number'])?$parameters['house_number']:''; 
+            if(isset($parameters['street_detail'])){
+               $addressParams['street_detail'] = $parameters['street_detail']; 
+            }            
+            if(isset($parameters['landmark'])){
+               $addressParams['landmark'] = $parameters['landmark']; 
+            }            
+            if(isset($parameters['zipcode'])){
+               $addressParams['zipcode'] = $parameters['zipcode']; 
+            }
+            if(isset($parameters['area'])){
+               $addressParams['area'] = $parameters['area']; 
+            }  
+            $addressParams['created_date'] = date("Y-m-d H:i:s");
+            $rules['house_number'] = array('type'=>'string', 'is_required'=>true);            
+            $rules['city_name'] = array('type'=>'string', 'is_required'=>true);            
+            $rules['city_id'] = array('type'=>'numeric', 'is_required'=>true);
+            $rules['contact_name'] = array('type'=>'string', 'is_required'=>true);
+            $rules['area'] = array('type'=>'string', 'is_required'=>true);
+        }        
+        $response = $this->isValid($rules, $addressParams);
+        if(empty($response)) {
+            if(!empty($parameters['id'])) {
+                $result = $this->customerModel->updateDeliveryAddress($addressParams, $where);
+            }else {
+                $result = $this->customerModel->addDeliveryAddress($addressParams);
+            }
+            if(!empty($result)) {
+                $response = array('status'=>'success', 'msg'=>"Address Saved");
+            }
+        }  
         
+        return $response;
+    }
+    
+    function getAddressList($parameters) {
+        $response = array('status'=>'fail','msg'=>'No record Found');
+        $status = true;
+        if(!empty($parameters['id'])) {
+            $where['id'] = $parameters['id'];
+        }        
+        if(!empty($parameters['user_id'])) {
+            $where['user_id'] = $parameters['user_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "User not supplied";
+        }
+        if($status) {
+            $result = $this->customerModel->getAddressList($where);
+            $data = $this->processResult($result, 'id');
+            if(!empty($data)) {
+                $response = array('status'=>'success', 'data'=>$data);
+            }
+        }
+        return $response;
     }
     
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {

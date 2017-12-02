@@ -34,6 +34,12 @@ class CustomerController extends AbstractActionController {
                 case 'login':
                     $response = $this->customerLib->login($parameters);
                     break;                
+                case 'addeditdeliveryaddress':
+                    $response = $this->customerLib->addEditDeleveryAddress($parameters);
+                    break;                
+                case 'getaddresslist':
+                    $response = $this->customerLib->getAddressList($parameters);
+                    break;                                
             }
 
             echo json_encode($response);
