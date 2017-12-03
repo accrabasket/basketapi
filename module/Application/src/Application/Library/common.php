@@ -112,7 +112,12 @@ class common  {
                                     $returnAttr = $this->commonModel->addAttribute($attributeParams);
                                 }
                                 $value['type'] = "attribute";
-                                $this->uploadImgParams($value, $returnAttr);            
+                                if(!empty($parameters['attribute image'])){
+                                    $value['attribute image'] = $parameters['attribute image'];
+                                    $this->uploadImgParamsViaCsv($value, $returnAttr);
+                                }  else {
+                                    $this->uploadImgParams($value, $returnAttr);         
+                                }
                                 $data['attribute'][$key] = $returnAttr;
                             }
                         }
@@ -122,7 +127,6 @@ class common  {
             }
         }else {
             $data = array();
-            
             $productParams['product_name'] = $parameters['product_name'];
             $productParams['category_id'] = (int)$parameters['category_id'];
             $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
@@ -180,8 +184,8 @@ class common  {
                                 $returnAttr = $commonModel->addAttribute($attributeParams);
                                 $data['attribute'][$key] = $returnAttr;
                                 $value['type'] = "attribute";
-                                $value['attribute image'] = $parameters['attribute image'];
                                 if(!empty($parameters['attribute image'])){
+                                    $value['attribute image'] = $parameters['attribute image'];
                                     $this->uploadImgParamsViaCsv($value, $returnAttr);
                                 }  else {
                                     $this->uploadImgParams($value, $returnAttr);         
@@ -236,11 +240,12 @@ class common  {
         }
         if(!empty($image)){
             foreach ($image as $key => $values) {
-                $curretfile = $GLOBALS['IMAGEROOTPATH'].'/media/'.$values;
-                $ext = explode('.', $values);
-                $name = $id.'_'.time().'.'.$ext[1];
-                move_uploaded_file($curretfile, $newloc.$name);
-                unset($curretfile);
+                if(!empty($values)){
+                    $curretfile = $GLOBALS['IMAGEROOTPATH'].'/media/'.$values;
+                    $name = $values;
+                    copy($curretfile, $newloc.$name);
+                    //unlink($curretfile);
+                } 
             }
         }
         return true;
@@ -983,7 +988,15 @@ class common  {
                 $productParams['attribute'][$i]['commission_value'] = $parameters['commission_value'][$i];
             }
             if(!empty($parameters['custom_info'])){
-                $productParams['custom_info'] = $parameters['custom_info'];
+                $infodata = array();
+                foreach($parameters['custom_info'] as $customData) {
+                    if(!empty(trim($customData))) {
+                        $customData = json_decode($customData);
+                        $customArrData = explode(":", $customData);
+                        $infodata[$customArrData[0]] = $customArrData[1];
+                    }
+                }
+                $productParams['custom_info'] = json_encode($infodata);
             }
             
             if(!empty($parameters['product_image'])){
