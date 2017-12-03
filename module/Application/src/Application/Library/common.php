@@ -900,7 +900,7 @@ class common  {
                             $where['id'] = $value['id'];
                         }
                     }
-                    
+
                     if (empty($response) && empty($where)) {
                         $params['created_date'] = date('Y-m-d H:i:s');
                         $result = $this->commonModel->saveInventry($params);
@@ -1151,5 +1151,21 @@ class common  {
             $data = $this->processResult($imageData, 'image_id', true);
         }
         return $data;
+    }
+    
+    function addInventryByCsv($parameters) {
+        $productParams = array();
+        if(!empty($parameters['store_name'])) {
+            $where['store_name'] = $parameters['store_name'];
+            $data = $this->commonModel->storeList($where);
+            if(!empty($data)){
+                foreach ($data as $key => $value) {
+                    $store_id = $value['id'];
+                }
+            }
+        }
+        $productParams = $parameters;
+        $productParams['store_id'][] = $store_id;
+        return $this->addEditInventry($productParams);  
     }
 }
