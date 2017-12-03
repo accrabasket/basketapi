@@ -450,7 +450,10 @@ class commonModel  {
             }
             if(!empty($optional['address'])) {
                 $query = $query->where($where->like('address', "%".$optional['address']."%"));
-            }            
+            } 
+            if(!empty($optional['store_name'])) {
+                $query = $query->where($where->like('store_name', "%".$optional['store_name']."%"));
+            } 
             if(!empty($optional['merchant_id'])) {
                 $query = $query->where(array('merchant_id'=>$optional['merchant_id']));
             } 
