@@ -243,8 +243,13 @@ class common  {
                 if(!empty($values)){
                     $curretfile = $GLOBALS['IMAGEROOTPATH'].'/media/'.$values;
                     $name = $values;
-                    copy($curretfile, $newloc.$name);
-                    //unlink($curretfile);
+                    if(copy($curretfile, $newloc.$name)) {
+                        $imageParams = array();
+                        $imageParams['type'] = $value['type'];
+                        $imageParams['image_name'] = $name;
+                        $imageParams['image_id'] = $id;
+                        $this->commonModel->saveImage($imageParams);
+                    }                    
                 } 
             }
         }
@@ -492,7 +497,7 @@ class common  {
             if(empty($parameters['key'])){
                 $parameters['key'] = 'id';
             }
-            $data = $this->processResult($result, $parameters['key']);
+            $data = $this->processResult($result, $parameters['key'], false, true);
             if(!empty($data)) {
                 $optional['product_id'] = array_keys($data);
                 $getattribute = $this->commonModel->getAttributeList($optional);
@@ -503,10 +508,13 @@ class common  {
         }
         return $response;        
     }
-    function processResult($result,$dataKey='', $multipleRowOnKey = false) {
+    function processResult($result,$dataKey='', $multipleRowOnKey = false, $format_custom_info = false) {
         $data = array();
         if(!empty($result)) {
             foreach ($result as $key => $value) {
+                if($format_custom_info) {
+                    $value['custom_info'] = json_decode($value['custom_info']);
+                }
                 if(!empty($dataKey)){
                     if($multipleRowOnKey) {
                         $data[$value[$dataKey]][] = $value;
@@ -531,7 +539,7 @@ class common  {
         
         foreach ($productdata as $key => $value) {
             $return[$key] = $value;
-            $return[$key]['atribute'] = $data[$key];
+            $return[$key]['atribute'] = !empty($data[$key])?$data[$key]:'';
         }
         return $return;
     }
