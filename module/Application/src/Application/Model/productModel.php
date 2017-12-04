@@ -50,6 +50,10 @@ class productModel  {
                 $query = $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
             }            
             $query = $query->where(array('product_master.status' => 1));
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
