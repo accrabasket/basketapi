@@ -65,7 +65,7 @@ class product {
         $result = $this->productModel->productList($optional);
         $attributeImageData = array();
         if (!empty($result)) {
-            $productData = $this->commonLib->processResult($result, 'product_id');
+            $productData = $this->commonLib->processResult($result, 'product_id', false, true);
             if (!empty($productData)) {
                 $getattribute = $this->commonModel->getAttributeList(array('product_id' => array_keys($productData)));
                 $attdata = $this->commonLib->processResult($getattribute, 'id');
