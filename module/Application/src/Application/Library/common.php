@@ -1176,4 +1176,44 @@ class common  {
         $productParams['store_id'][] = $store_id;
         return $this->addEditInventry($productParams);  
     }
+    
+    public function settinglist($parameters, $optional = array()) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        
+        if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+        }
+        
+        $result = $this->commonModel->settinglist($optional);
+        
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
+    }
+    
+    public function saveSetting($parameters, $optional = array()) {
+        $response = array('status' => 'fail', 'msg' => 'No record saved ');
+        $params = array();
+        $params['minimum_order'] = $parameters['minimum_order'];
+        $params['free_delivery'] = $parameters['free_delivery'];
+        $rule['minimum_order'] = array('type' => 'numeric', 'is_required' => true);
+        $rule['free_delivery'] = array('type' => 'numeric', 'is_required' => true);
+        $response = $this->isValid($rule, $params);
+        if (empty($response)) {
+            if (!empty($parameters['id'])) {
+                $result = $this->commonModel->updateSetting($params, $parameters['id']);
+            } else {
+                $result = $this->commonModel->saveSetting($params);
+            }
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Record Saved');
+            }
+        }
+        return $response;
+    }
 }
