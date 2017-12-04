@@ -21,7 +21,7 @@ class customerModel  {
             'driver' => 'Mysqli',
             'database' => 'customerbasket',
             'username' => 'root',
-            'password' => '',
+            'password' => 'truefalse',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
