@@ -677,4 +677,48 @@ class commonModel  {
             return false;
         }
     }
+    
+    public function saveSetting($parameters) {
+        try {
+            $query = $this->sql->insert('setting_master')
+                        ->values($parameters);
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
+    
+    public function settinglist($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('setting_master', array('*'));
+           
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function updateSetting($parameters, $where) {
+        try {            
+            $query = $this->sql->update('setting_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }
