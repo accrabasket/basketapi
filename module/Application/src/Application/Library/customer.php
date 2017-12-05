@@ -183,7 +183,7 @@ class customer {
                             $response['msg'] = "mobile number/Email Already in use.";
                         }
                     }else {
-                       $result = $this->customerModel->updateUser($userParams); 
+                       $result = $this->customerModel->updateUser($userParams, $where); 
                        if(!empty($result)) {
                             $response = array('status'=>'success', 'msg'=>"User updated");
                        }
