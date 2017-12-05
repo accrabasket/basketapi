@@ -55,10 +55,12 @@ class customer {
                     if(!empty($params['number_of_item']) && $itemIntoCart[$params['merchant_inventry_id']]['number_of_item'] >$params['number_of_item']) {
                        $params['number_of_item'] = $itemIntoCart[$params['merchant_inventry_id']]['number_of_item']- $params['number_of_item'];
                        $parameters['action'] = "update";
+                       $where['merchant_inventry_id'] = $params['merchant_inventry_id'];
                     }
                 }else if($parameters['action'] == "add"){
                     $params['number_of_item'] = $itemIntoCart[$params['merchant_inventry_id']]['number_of_item']+$params['number_of_item']; 
                     $parameters['action'] = "update";
+                    $where['merchant_inventry_id'] = $params['merchant_inventry_id'];
                 }
             }
             switch($parameters['action']) {
@@ -70,6 +72,7 @@ class customer {
                     $result = $this->customerModel->updateCart($params, $where);
                     break;
                 case "delete":
+                    $where['merchant_inventry_id'] = $params['merchant_inventry_id'];
                     $result = $this->customerModel->deleteCart($where);
                     break;
             }
@@ -411,8 +414,8 @@ class customer {
             $status = false;
             $response['msg'] = "User not supplied";
         }
-        $cartData = $this->getItemIntoCart($cartParams);
-        print_r($cartData);die;
+        //$cartData = $this->getItemIntoCart($cartParams);
+        //print_r($cartData);die;
     }
             
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
