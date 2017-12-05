@@ -300,7 +300,8 @@ class customer {
         if(empty($parameters['user_id'])) {
             $response['msg'] = "user not supplied"; 
             return $response;
-        }        
+        }   
+        $addressParams['user_id'] = $parameters['user_id'];
         if (!empty($parameters['id'])) {
             $where = array();
             $where['id'] = $addressParams['id'] = $parameters['id'];
