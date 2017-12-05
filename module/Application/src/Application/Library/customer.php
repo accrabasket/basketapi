@@ -12,6 +12,7 @@ class customer {
 
     public function __construct() {
         $this->customerModel = new customerModel();
+        $this->customercurlLib = new customercurl();
     }
     function addtocart($parameters) {
         $response = array('status' => 'fail', 'msg' => 'Nothing to add ');
@@ -105,7 +106,10 @@ class customer {
         if(!empty($data)) {
             $cartData = $this->processResult($data, 'merchant_inventry_id');
             if(!empty($cartData)) {
-                $response = array('status' => 'success', 'data' => $cartData);
+                $params = array();
+                $params['merchant_inventry_id'] = array_keys($cartData);
+                $productDetails = $this->customercurlLib->getProductByMerchantAttributeId($params);
+                $response = array('status' => 'success', 'data' => $cartData,'productDetails'=>$productDetails);
             }
         }
         
@@ -396,6 +400,21 @@ class customer {
         return $response;
     }
     
+    function placeOrder($parameters) {
+        $cartParams = array();
+        if(!empty($parameters['order_id'])) {
+            $where['order_id'] = $parameters['order_id'];
+        }        
+        if(!empty($parameters['user_id'])) {
+            $where['user_id'] = $cartParams['user_id'] = $parameters['user_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "User not supplied";
+        }
+        $cartData = $this->getItemIntoCart($cartParams);
+        print_r($cartData);die;
+    }
+            
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {
@@ -413,5 +432,5 @@ class customer {
         }
         
         return $data;
-    }    
+    }      
 }

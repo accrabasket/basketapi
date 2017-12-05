@@ -103,7 +103,7 @@ class product {
             $productDetaList[$key]['attribute'] = $productAttribute[$key];
         }
         return $productDetaList;
-    }
+    }    
     function getMerchantProductAttribute($parameters, $attributeDetail) {
         $data = $this->productModel->getMerchantProductAttribute($parameters);
         $attributeByProduct = array();

@@ -21,7 +21,7 @@ class customerModel  {
             'driver' => 'Mysqli',
             'database' => 'customerbasket',
             'username' => 'root',
-            'password' => 'truefalse',
+            'password' => '',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -200,5 +200,8 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         }        
+    }
+    function placeOrder($parameters) {
+        
     }
 }

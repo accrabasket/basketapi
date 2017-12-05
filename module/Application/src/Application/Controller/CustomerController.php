@@ -39,7 +39,10 @@ class CustomerController extends AbstractActionController {
                     break;                
                 case 'getaddresslist':
                     $response = $this->customerLib->getAddressList($parameters);
-                    break;                                
+                    break;   
+                case 'placeorder':
+                    $response = $this->customerLib->placeOrder($parameters);
+                    break;                
             }
 
             echo json_encode($response);

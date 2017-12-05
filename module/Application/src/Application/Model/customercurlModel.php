@@ -13,7 +13,7 @@ namespace Application\Model;
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Sql;
 use Zend\Db\Sql\Expression;
-class productModel  {
+class customercurlModel  {
     public $adapter;
     public $sql;
     public function __construct() {
@@ -62,31 +62,22 @@ class productModel  {
             return false;
         } 
     }
-    
-    public function getMerchantProductAttribute($optional) {
+    function fetchImage($where) {
         try {
-            $where = new \Zend\Db\Sql\Where();
-
-            $query = $this->sql->select('merchant_inventry');
-            if(!empty($optional['id'])) {
-                $query = $query->where(array('merchant_inventry.id' => $optional['id']));
-            }            
-            if(!empty($optional['store_id'])) {
-                $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
+            if(!empty($where)) {
+                $query = $this->sql->select('image_master');
+                $query = $query->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                
+                return $result;                
+            }else {
+                return false;
             }
-            if(!empty($optional['merchant_id'])) {
-                $query = $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
-            }
-            if(!empty($optional['attribute_id'])) {
-                $query = $query->where(array('merchant_inventry.attribute_id' => $optional['attribute_id']));
-            }
-            
-            $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
-            
-            return $result;
-        } catch (\Exception $ex) {
+        }  catch (\Exception $ex) {
+            echo $ex->getMessage();die;
             return false;
-        }         
-    }
+        }
+    }    
+    
 }
