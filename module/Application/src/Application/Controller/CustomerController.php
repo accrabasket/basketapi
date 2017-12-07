@@ -42,7 +42,16 @@ class CustomerController extends AbstractActionController {
                     break;   
                 case 'placeorder':
                     $response = $this->customerLib->placeOrder($parameters);
-                    break;                
+                    break;
+                case 'generateotp':
+                    $response = $this->customerLib->generateotp($parameters);
+                    break;
+                case 'verifyotp':
+                    $response = $this->customerLib->verifyotp($parameters);
+                    break;
+                case 'forgetpassword':
+                    $response = $this->customerLib->forgetpassword($parameters);
+                    break;
             }
 
             echo json_encode($response);
