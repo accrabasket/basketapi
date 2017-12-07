@@ -245,4 +245,96 @@ class customerModel  {
             return false;
         }         
     }
+    
+    function smsqueue($params) {
+        try {
+            $query = $this->sql->insert('sms_queue')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function updatesmsfromusmsqueue($param,$where) {
+       
+        try {            
+            $query = $this->sql->update('sms_queue')
+                        ->set($param)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+        
+    }
+    
+    function deletesmsfromsmsqueue($param) {
+        try {
+            $query = $this->sql->delete('sms_queue')
+                            ->where(array('id'=>$param));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+        
+    }
+    
+    function checksmsexist($param) {
+        try {
+            $limit = 1;
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('sms_queue');
+            if(isset($param['mobile_number'])) {
+                $query = $query->where(array('sms_queue.mobile_number'=>$param['mobile_number']));
+            }
+            if(isset($param['otp'])) {
+                $query = $query->where(array('sms_queue.otp'=>$param['otp']));
+            }
+            $query->limit($limit);
+            $query->order('id DESC'); 
+//            echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+        
+    }
+    
+    function saveuserauthlink($params) {
+        try {
+            $query = $this->sql->insert('user_auth')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function checkauthkey($param) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('user_auth');
+            if(isset($param['auth_key'])) {
+                $query = $query->where(array('user_auth.auth_key'=>$param['auth_key']));
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+        
+    }
+    
 }
