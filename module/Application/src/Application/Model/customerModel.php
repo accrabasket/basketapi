@@ -204,4 +204,45 @@ class customerModel  {
     function placeOrder($parameters) {
         
     }
+    function updateOrderSeq($orderName) {
+        try {
+            $response = array();
+            if(!empty($orderName)) {
+                $query = $this->sql->select('order_seq');
+                $query = $query->where(array('order_name'=>$orderName));
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute()->current();
+                if(!empty($result)) {
+                    $response[$orderName] = $params['seq'] = $result['seq']+1;
+                    $where = array('order_name'=>$orderName);
+                    if(!empty($where)) {
+                        $query = '';
+                        $query = $this->sql->update('order_seq')
+                                    ->set($params)
+                                    ->where($where);
+                        $satements = $this->sql->prepareStatementForSqlObject($query);
+                        $result = $satements->execute();
+                    }
+                }
+                return $response;                
+            }else {
+                return false;
+            }
+        }  catch (\Exception $ex) {
+            echo $ex->getMessage();die;
+            return false;
+        }
+    }
+    
+    function createOrder($orderData) {
+        try {
+            $query = $this->sql->insert('order_master')
+                        ->values($orderData);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
 }
