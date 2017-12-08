@@ -403,15 +403,34 @@ class customer {
         }
         return $response;
     }
+
+    function checkout($parameters){
+        $cartParams = array();
+        $orderDetails = array();
+        $status = true;
+        $response = array('status'=>'fail');                
+        if(!empty($parameters['user_id'])) {
+            $cartParams['user_id'] = $parameters['user_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "User not supplied";
+        }
+        if($status) {
+            $cartData = $this->getItemIntoCart($cartParams);
+            if(empty($cartData['data'])){
+                return $response['msg'] = 'No Item found in cart';
+            }
+            $orderDetails = $this->calculateDiscountAndAmount($cartData);
+            $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
+        }
+        return $response;
+    }
     
     function placeOrder($parameters) {
         $cartParams = array();
         $orderDetails = array();
         $status = true;
-        $response = array('status'=>'fail');
-        if(!empty($parameters['order_id'])) {
-            $where['order_id'] = $parameters['order_id'];
-        }        
+        $response = array('status'=>'fail');                
         if(!empty($parameters['user_id'])) {
             $where['user_id'] = $cartParams['user_id'] = $parameters['user_id'];
         }else{
@@ -430,29 +449,47 @@ class customer {
             $orderDetails = $this->calculateDiscountAndAmount($cartData);
         }
         if(!empty($orderDetails['order'])){
-            
+            $this->customerModel->beginTransaction();
             if(count($orderDetails['order'])>1) {
+                
             }else {
-                $merchantArr = array_keys($orderDetails['order']);
-                $orderDetails = array_values($orderDetails['order']);
-                $orderDetail = $orderDetails[0];
-                $parentOrderId = 'order_p';
-                $orderSeq = $this->customerModel->updateOrderSeq($parentOrderId); 
-                $orderId = $parentOrderId.'_'.$orderSeq[$parentOrderId];
-                $orderData = array();
-                $orderData['user_id'] = $parameters['user_id'];
-                $orderData['order_id'] = $orderId;
-                $orderData['order_id'] = $orderId;
-                $orderData['merchant_id'] = $merchantArr[0];
-                $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
-                $orderData['amount'] = $orderDetail['amount'];
-                $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
-                $orderData['discount_amount'] = $orderDetail['discount_amount'];
-                $orderData['commission_amount'] = $orderDetail['commission_amount'];
-                $orderData['payment_status'] = 'unpaid';
-                $orderData['created_date'] = date('Y-m-d H:s:i');
-                $result = $this->customerModel->createOrder($orderData);
+                foreach($orderDetails['order'] as $merchantId=>$orderDetail) {
+                    $merchantOrderId = 'order_m'.$merchantId;
+                    $orderSeq = $this->customerModel->updateOrderSeq($merchantOrderId); 
+                    $orderId = $merchantOrderId.'_'.$orderSeq[$merchantOrderId];
+                    $orderData = array();
+                    $orderData['user_id'] = $parameters['user_id'];
+                    $orderData['order_id'] = $orderId;
+                    $orderData['merchant_id'] = $merchantId;
+                    $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
+                    $orderData['amount'] = $orderDetail['amount'];
+                    $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
+                    $orderData['discount_amount'] = $orderDetail['discount_amount'];
+                    $orderData['commission_amount'] = $orderDetail['commission_amount'];
+                    $orderData['payment_status'] = 'unpaid';    
+                    $orderData['created_date'] = date('Y-m-d H:i:s');
+                    $result = $this->customerModel->createOrder($orderData);
+                    if(!empty($result)) {
+                        if(!empty($orderDetails['merchantItemWiseOrderDetails'][$merchantId])) {
+                            foreach($orderDetails['merchantItemWiseOrderDetails'][$merchantId] as $merchantProductId=>$orderItems) {
+                                $orderItems['merchant_product_id'] = $merchantProductId;
+                                $orderItems['order_id'] = $orderId;
+                                $orderItems['status'] = 'active';
+                                $orderItems['created_by'] = $orderData['user_id'];
+                                $result = $this->insertProductIntoOrderItem($orderItems);
+                                if(empty($result)) {
+                                    $this->customerModel->rollback();
+                                    return $response;
+                                }
+                            }
+                        }
+                    }else{
+                        $this->customerModel->rollback();
+                        return $response;                        
+                    }
+                }
                 if($result) {
+                    $this->customerModel->commit();
                     $response['status'] = 'success';
                     $response['msg'] = 'order placed successfully.';
                     $response['data']['order_id'] = $orderId;
@@ -462,31 +499,40 @@ class customer {
                 }
             }
             
-        }else {
-            
         }
         
         return $response;
     }
+    function insertProductIntoOrderItem($orderItems) {
+        return $this->customerModel->insertProductIntoOrderItem($orderItems);
+    }
     
     function calculateDiscountAndAmount($data) {
         $order = array();
+        $merchantItemWisePriceDetails = array();
         $itemWisePriceDetails = array();
+        $totalOrderDetails = array();
+        $totalOrderDetails['amount'] = 0;
+        $totalOrderDetails['discount_amount'] = 0;
+        $totalOrderDetails['commission_amount'] = 0;
+        $totalOrderDetails['tax_amount'] = 0;
         foreach($data['data'] as $key=>$item) {
             if(!empty($data['productDetails']['data'][$key])) {
                 $discount = 0;
                 $productDetails = $data['productDetails']['data'][$key];
-                $amount = $productDetails['price']*$item['number_of_item'];
-                //print_r($productDetails);die;
+                $amount = $productDetails['price']*$item['number_of_item'];                                
                 if(empty($order[$productDetails['merchant_id']])) {
                     $order[$productDetails['merchant_id']] = array();
                     $order[$productDetails['merchant_id']]['amount'] = $amount;
                     $order[$productDetails['merchant_id']]['discount_amount'] = 0;
                     $order[$productDetails['merchant_id']]['commission_amount'] = 0;
+                    $order[$productDetails['merchant_id']]['tax_amount'] = 0;
                 }else {
                     $order[$productDetails['merchant_id']]['amount']+=$amount; 
                 }
+                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['amount'] = $amount; 
                 $itemWisePriceDetails[$key]['amount'] = $amount; 
+                $totalOrderDetails['amount'] = $totalOrderDetails['amount']+$amount;
                 if(!empty($productDetails['discount_value'])) {
                     if($productDetails['discount_type'] != 'flat') {
                         $discount = $amount*$productDetails['discount_value']/100;
@@ -501,7 +547,9 @@ class customer {
                     }                    
                 }
                 $order[$productDetails['merchant_id']]['discount_amount'] += $discount;
+                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['discount_amount'] = $discount;
                 $itemWisePriceDetails[$key]['discount_amount'] = $discount;
+                $totalOrderDetails['discount_amount'] = $totalOrderDetails['discount_amount']+$discount;
                 if(!empty($productDetails['commission_value'])) {
                     if($productDetails['commission_type'] != 'flat') {
                         $commissionAmount = $amount*$productDetails['commission_value']/100;
@@ -510,11 +558,17 @@ class customer {
                     }
                 }                
                 $order[$productDetails['merchant_id']]['commission_amount']+=$commissionAmount;
+                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['commission_amount'] = $commissionAmount;
                 $itemWisePriceDetails[$key]['commission_amount'] = $commissionAmount;
-                //print_r($productDetails);
+                $totalOrderDetails['commission_amount'] = $totalOrderDetails['commission_amount']+$commissionAmount;
+                
+                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['tax_amount'] = 0;
+                $itemWisePriceDetails[$key]['tax_amount'] = 0;
+                $totalOrderDetails['payable_amount'] = $totalOrderDetails['amount']-$totalOrderDetails['discount_amount']+$totalOrderDetails['tax_amount'];
+                
             }
         }
-        $response = array('order'=>$order, 'itemWiseOrderDetails'=>$itemWisePriceDetails);
+        $response = array('totalOrderDetails'=>$totalOrderDetails,'order'=>$order, 'merchantItemWiseOrderDetails'=>$merchantItemWisePriceDetails, 'itemWiseOrderDetails'=>$itemWisePriceDetails);
         
         return $response;
     }

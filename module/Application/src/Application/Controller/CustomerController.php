@@ -40,6 +40,9 @@ class CustomerController extends AbstractActionController {
                 case 'getaddresslist':
                     $response = $this->customerLib->getAddressList($parameters);
                     break;   
+                case 'checkout':
+                    $response = $this->customerLib->checkout($parameters);
+                    break;                
                 case 'placeorder':
                     $response = $this->customerLib->placeOrder($parameters);
                     break;

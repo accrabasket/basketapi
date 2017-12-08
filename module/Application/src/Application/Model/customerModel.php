@@ -223,6 +223,14 @@ class customerModel  {
                         $satements = $this->sql->prepareStatementForSqlObject($query);
                         $result = $satements->execute();
                     }
+                }else{
+                    $orderData = array();
+                    $orderData['order_name'] = $orderName;
+                    $response[$orderName] = $orderData['seq'] = 1;
+                    $query = $this->sql->insert('order_seq')
+                        ->values($orderData);
+                    $satements = $this->sql->prepareStatementForSqlObject($query);
+                    $result = $satements->execute();
                 }
                 return $response;                
             }else {
@@ -337,4 +345,24 @@ class customerModel  {
         
     }
     
+    function insertProductIntoOrderItem($itemData) {
+        try {
+            $query = $this->sql->insert('order_items')
+                        ->values($itemData);    
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
+    function beginTransaction() {
+        $this->adapter->getDriver()->getConnection()->beginTransaction();
+    }
+    function commit() {
+        $this->adapter->getDriver()->getConnection()->commit();
+    }    
+    function rollback() {
+        $this->adapter->getDriver()->getConnection()->rollback();
+    }     
 }
