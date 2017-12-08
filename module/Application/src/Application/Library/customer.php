@@ -418,7 +418,8 @@ class customer {
         if($status) {
             $cartData = $this->getItemIntoCart($cartParams);
             if(empty($cartData['data'])){
-                return $response['msg'] = 'No Item found in cart';
+                $response['msg'] = 'No Item found in cart';
+                return $response;
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData);
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
@@ -444,7 +445,9 @@ class customer {
         if($status) {
             $cartData = $this->getItemIntoCart($cartParams);
             if(empty($cartData['data'])){
-                return $response['msg'] = 'No Item found in cart';
+                $response['msg'] = 'No Item found in cart';
+                
+                return $response;
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData);
         }
