@@ -433,7 +433,7 @@ class customer {
         $status = true;
         $response = array('status'=>'fail');                
         if(!empty($parameters['user_id'])) {
-            $where['user_id'] = $cartParams['user_id'] = $parameters['user_id'];
+            $cartParams['user_id'] = $parameters['user_id'];
         }else{
             $status = false;
             $response['msg'] = "User not supplied";
@@ -453,53 +453,72 @@ class customer {
         }
         if(!empty($orderDetails['order'])){
             $this->customerModel->beginTransaction();
+            $parentOrderId = 0;
             if(count($orderDetails['order'])>1) {
-                
-            }else {
-                foreach($orderDetails['order'] as $merchantId=>$orderDetail) {
-                    $merchantOrderId = 'order_m'.$merchantId;
-                    $orderSeq = $this->customerModel->updateOrderSeq($merchantOrderId); 
-                    $orderId = $merchantOrderId.'_'.$orderSeq[$merchantOrderId];
-                    $orderData = array();
-                    $orderData['user_id'] = $parameters['user_id'];
-                    $orderData['order_id'] = $orderId;
-                    $orderData['merchant_id'] = $merchantId;
-                    $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
-                    $orderData['amount'] = $orderDetail['amount'];
-                    $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
-                    $orderData['discount_amount'] = $orderDetail['discount_amount'];
-                    $orderData['commission_amount'] = $orderDetail['commission_amount'];
-                    $orderData['payment_status'] = 'unpaid';    
-                    $orderData['created_date'] = date('Y-m-d H:i:s');
-                    $result = $this->customerModel->createOrder($orderData);
-                    if(!empty($result)) {
-                        if(!empty($orderDetails['merchantItemWiseOrderDetails'][$merchantId])) {
-                            foreach($orderDetails['merchantItemWiseOrderDetails'][$merchantId] as $merchantProductId=>$orderItems) {
-                                $orderItems['merchant_product_id'] = $merchantProductId;
-                                $orderItems['order_id'] = $orderId;
-                                $orderItems['status'] = 'active';
-                                $orderItems['created_by'] = $orderData['user_id'];
-                                $result = $this->insertProductIntoOrderItem($orderItems);
-                                if(empty($result)) {
-                                    $this->customerModel->rollback();
-                                    return $response;
-                                }
+                $adminOrderId = 'order_P';
+                $adminOrderSeq = $this->customerModel->updateOrderSeq($adminOrderId);                 
+                $parentOrder = array();
+                $parentOrder['user_id'] = $parameters['user_id'];
+                $parentOrderId = $parentOrder['order_id'] = $adminOrderId.'_'.$adminOrderSeq[$adminOrderId];
+                $parentOrder['merchant_id'] = 0;
+                $parentOrder['shipping_address_id'] = $parameters['shipping_address_id'];
+                $parentOrder['amount'] = $orderDetails['totalOrderDetails']['amount'];
+                $parentOrder['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount'];
+                $parentOrder['discount_amount'] = $orderDetails['totalOrderDetails']['discount_amount'];
+                $parentOrder['tax_amount'] = $orderDetails['totalOrderDetails']['tax_amount'];
+                $parentOrder['commission_amount'] = $orderDetails['totalOrderDetails']['commission_amount'];
+                $parentOrder['created_date'] = date('Y-m-d H:i:s');
+                $parentOrder['payment_status'] = 'unpaid';
+                $result = $this->customerModel->createOrder($parentOrder);
+            }
+            foreach($orderDetails['order'] as $merchantId=>$orderDetail) {
+                $merchantOrderId = 'order_m'.$merchantId;
+                $orderSeq = $this->customerModel->updateOrderSeq($merchantOrderId); 
+                $orderId = $merchantOrderId.'_'.$orderSeq[$merchantOrderId];
+                $orderData = array();
+                $orderData['user_id'] = $parameters['user_id'];
+                $orderData['order_id'] = $orderId;
+                $orderData['parent_order_id'] = $parentOrderId;
+                $orderData['merchant_id'] = $merchantId;
+                $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
+                $orderData['amount'] = $orderDetail['amount'];
+                $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
+                $orderData['discount_amount'] = $orderDetail['discount_amount'];
+                $orderData['commission_amount'] = $orderDetail['commission_amount'];
+                $orderData['payment_status'] = 'unpaid';    
+                $orderData['created_date'] = date('Y-m-d H:i:s');
+                $result = $this->customerModel->createOrder($orderData);
+                if(!empty($result)) {
+                    if(!empty($orderDetails['merchantItemWiseOrderDetails'][$merchantId])) {
+                        foreach($orderDetails['merchantItemWiseOrderDetails'][$merchantId] as $merchantProductId=>$orderItems) {
+                            $orderItems['merchant_product_id'] = $merchantProductId;
+                            $orderItems['order_id'] = $orderId;
+                            $orderItems['status'] = 'active';
+                            $orderItems['created_by'] = $orderData['user_id'];
+                            $result = $this->insertProductIntoOrderItem($orderItems);
+                            if(empty($result)) {
+                                $this->customerModel->rollback();
+                                return $response;
                             }
                         }
-                    }else{
-                        $this->customerModel->rollback();
-                        return $response;                        
                     }
+                }else{
+                    $this->customerModel->rollback();
+                    return $response;                        
                 }
-                if($result) {
-                    $this->customerModel->commit();
-                    $response['status'] = 'success';
-                    $response['msg'] = 'order placed successfully.';
+            }
+            if($result) {
+                $this->customerModel->commit();
+                $response['status'] = 'success';
+                $response['msg'] = 'order placed successfully.';
+                if(!empty($parentOrderId)) {
+                    $response['data']['order_id'] = $parentOrderId;
+                }else{
                     $response['data']['order_id'] = $orderId;
-                            
-                }else {
-                    $response['msg'] = 'order Not Placed';
                 }
+
+            }else {
+                $response['msg'] = 'order Not Placed';
             }
             
         }
@@ -575,7 +594,54 @@ class customer {
         
         return $response;
     }
-            
+
+    function orderList($parameters) {
+        $status = true;
+        $response = array('status'=>'fail', 'No Record Found');                
+        $orderWhere = array();
+        if(!empty($parameters['user_id'])) {
+            $orderWhere['user_id'] = $parameters['user_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "User not supplied";
+        }      
+        if(!empty($parameters['order_status'])){
+            if($parameters['order_status'] == 'current_order'){
+               $orderWhere['order_status'] = array('order_placed', 'ready_to_dispatch', 'dispatched', 'return_request'); 
+            }else if($parameters['order_status'] == 'past_order') {
+                $orderWhere['order_status'] = array('completed','returned','cancelled');
+            }
+        }
+        
+        $orderList = $this->customerModel->orderList($orderWhere);
+        $this->prepareOrderList($orderList);
+    }
+    
+    function prepareOrderList($orderData){
+        $orderListByOrderId = array();
+        $orderData = array();
+        if(!empty($orderData)) {
+            foreach($orderData as $orders) {
+                $orderListByOrderId[$orders['order_id']] = $orders;
+            }
+            if(!empty($orderListByOrderId)) {
+                $orderIds = array_keys($orderListByOrderId);
+                $orderItemWhere = array();
+                $orderItemWhere['order_id'] = $orderIds;
+                $orderItems = $this->customerModel->getOrderItem($orderItemWhere);
+                if(!empty($orderItems)) {
+                    foreach($orderItems as $orderItem){
+                        if(!empty($orderListByOrderId[$orderItem['order_id']]['parent_order_id'])) {
+                            $orderData[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
+                        }else{
+                            $orderData[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {

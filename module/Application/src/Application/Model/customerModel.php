@@ -253,7 +253,35 @@ class customerModel  {
             return false;
         }         
     }
+ 
+    function orderList($where) {
+        try {
+            $query = $this->sql->select('order_master');
+            if(!empty($where['user_id'])) {
+                $query = $query->where(array('user_id'=>$where['user_id']));
+            }            
+            if(!empty($where['order_status'])){
+                $query = $query->where(array('order_status'=>$where['order_status']));
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
     
+    function getOrderItemByOrderIds($where) {
+        try {
+            $query = $this->sql->select('order_items');
+            $query = $query->where(array('order_id'=>$where['order_id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
     function smsqueue($params) {
         try {
             $query = $this->sql->insert('sms_queue')
