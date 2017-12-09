@@ -271,7 +271,7 @@ class customerModel  {
         }        
     }
     
-    function getOrderItemByOrderIds($where) {
+    function getOrderItem($where) {
         try {
             $query = $this->sql->select('order_items');
             $query = $query->where(array('order_id'=>$where['order_id']));

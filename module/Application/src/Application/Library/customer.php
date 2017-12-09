@@ -583,7 +583,9 @@ class customer {
                     $order[$productDetails['merchant_id']]['amount']+=$amount; 
                 }
                 $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['amount'] = $amount; 
+                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['number_of_item'] = $item['number_of_item']; 
                 $itemWisePriceDetails[$key]['amount'] = $amount; 
+                $itemWisePriceDetails[$key]['number_of_item'] = $item['number_of_item'];
                 $totalOrderDetails['amount'] = $totalOrderDetails['amount']+$amount;
                 if(!empty($productDetails['discount_value'])) {
                     if($productDetails['discount_type'] != 'flat') {
@@ -644,12 +646,17 @@ class customer {
         }
         
         $orderList = $this->customerModel->orderList($orderWhere);
-        $this->prepareOrderList($orderList);
+        $orderListData = $this->prepareOrderList($orderList);
+        if(!empty($orderListData)) {
+            $response = array('status'=>'success', 'data'=>$orderListData);
+        }
+        
+        return $response;
     }
     
     function prepareOrderList($orderData){
         $orderListByOrderId = array();
-        $orderData = array();
+        $orderDataList = array();
         if(!empty($orderData)) {
             foreach($orderData as $orders) {
                 $orderListByOrderId[$orders['order_id']] = $orders;
@@ -662,14 +669,19 @@ class customer {
                 if(!empty($orderItems)) {
                     foreach($orderItems as $orderItem){
                         if(!empty($orderListByOrderId[$orderItem['order_id']]['parent_order_id'])) {
-                            $orderData[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
+                            $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['order_details'] = isset($orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']])?$orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]:'';
+                            $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
                         }else{
-                            $orderData[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
+                            $orderDataList[$orderItem['order_id']]['order_details'] = $orderListByOrderId[$orderItem['order_id']];
+                            $orderDataList[$orderItem['order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
                         }
                     }
                 }
+                
             }
         }
+        
+        return $orderDataList;
     }
     
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
