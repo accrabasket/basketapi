@@ -38,10 +38,9 @@ class customer {
         }
         if(!empty($parameters['user_id'])){
             $where['user_id'] = $params['user_id'] = $parameters['user_id'];
-            }
+        }
         if(!empty($parameters['guest_user_id'])) {
             $where['guest_user_id'] = $params['guest_user_id'] = $parameters['guest_user_id'];
-            unset($where['user_id']);
         }
         if(empty($parameters['guest_user_id']) && empty($parameters['user_id'])) {
             $response['msg'] = "user Id not supplied";
@@ -86,6 +85,34 @@ class customer {
         return $response;
     }
     
+    public function updateCart($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Nothing to update');
+        $status = true;
+        if(empty($parameters['user_id'])) {
+            $status = false;
+            $response['msg'] = "Please enter user id";
+        }
+        if(empty($parameters['guest_user_id'])) {
+            $status = false;
+            $response['msg'] = "Please enter guest user id";            
+        }
+        if(!empty($parameters['user_id'])){
+            $params['user_id'] = $parameters['user_id'];
+        }
+
+        if(!empty($parameters['guest_user_id'])) {
+            $where['guest_user_id'] = $parameters['guest_user_id'];
+        }
+        if($status){
+            $result = $this->customerModel->updateCart($params, $where);
+            if(!empty($result)) {
+                $response['status'] = "success";
+                $response['msg'] = 'cart Updated';
+            }
+        }
+        
+        return $response;
+    }
     public function getItemIntoCart($params) { 
         $response = array('status' => 'fail', 'msg' => 'No Record found');
         $where = array();

@@ -25,6 +25,9 @@ class CustomerController extends AbstractActionController {
                 case 'addtocart':
                     $response = $this->customerLib->addtocart($parameters);
                     break;
+                case 'updatecart':
+                    $response = $this->customerLib->updateCart($parameters);
+                    break;
                 case "getitemintocart":
                     $response = $this->customerLib->getItemIntoCart($parameters);
                     break;  
