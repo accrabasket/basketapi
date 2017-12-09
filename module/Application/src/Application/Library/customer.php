@@ -368,14 +368,16 @@ class customer {
             $rules['area'] = array('type'=>'string', 'is_required'=>true);
         }        
         $response = $this->isValid($rules, $addressParams);
+        $data = array();
         if(empty($response)) {
             if(!empty($parameters['id'])) {
                 $result = $this->customerModel->updateDeliveryAddress($addressParams, $where);
             }else {
                 $result = $this->customerModel->addDeliveryAddress($addressParams);
+                $data = array('id'=>$result);
             }
             if(!empty($result)) {
-                $response = array('status'=>'success', 'msg'=>"Address Saved");
+                $response = array('status'=>'success', 'msg'=>"Address Saved", 'data'=>$data);
             }
         }  
         
