@@ -38,9 +38,10 @@ class customer {
         }
         if(!empty($parameters['user_id'])){
             $where['user_id'] = $params['user_id'] = $parameters['user_id'];
-        }
-        if(!empty($params['guest_id'])) {
+            }
+        if(!empty($parameters['guest_user_id'])) {
             $where['guest_user_id'] = $params['guest_user_id'] = $parameters['guest_user_id'];
+            unset($where['user_id']);
         }
         if(empty($parameters['guest_id']) && empty($parameters['user_id'])) {
             $response['msg'] = "user Id not supplied";
@@ -384,6 +385,12 @@ class customer {
         return $response;
     }
     
+    function updateUserIntoCart($parameters) {
+        $res
+        if(!empty($parameters['user_id'])) {
+            
+        }
+    }
     function getAddressList($parameters) {
         $response = array('status'=>'fail','msg'=>'No record Found');
         $status = true;
