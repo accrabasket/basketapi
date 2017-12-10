@@ -120,6 +120,9 @@ class IndexController extends AbstractActionController {
                 case 'saveSetting':
                     $response = $this->commonLib->saveSetting($parameters);
                     break;
+                case 'banner':
+                    $response = $this->commonLib->banner($parameters);
+                    break;                
             }
             
             echo json_encode($response);

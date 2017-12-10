@@ -721,4 +721,18 @@ class commonModel  {
             return false;
         }        
     }
+    
+    function getBanner(){
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('banner');
+            $query = $query->where(array('status'=>1));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }

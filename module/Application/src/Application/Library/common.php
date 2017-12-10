@@ -1216,4 +1216,15 @@ class common  {
         }
         return $response;
     }
+    function banner() {
+        $response = array('status'=>"fail", "msg"=>"No records found");
+        $banner = $this->commonModel->getBanner();
+        if(!empty($banner)) {
+            $bannerData = $this->processResult($banner);
+            $response = array('status'=>'success', 'data'=>$bannerData);
+            $response['imageRootPath'] = HTTP_ROOT_PATH.'/banner';
+        }
+        
+        return $response;
+    }
 }
