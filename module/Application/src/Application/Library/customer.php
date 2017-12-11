@@ -523,6 +523,7 @@ class customer {
                         foreach($orderDetails['merchantItemWiseOrderDetails'][$merchantId] as $merchantProductId=>$orderItems) {
                             $orderItems['merchant_product_id'] = $merchantProductId;
                             $orderItems['order_id'] = $orderId;
+                            $orderItems['product_dump'] = json_encode($orderItems['product_dump']);
                             $orderItems['status'] = 'active';
                             $orderItems['created_by'] = $orderData['user_id'];
                             $result = $this->insertProductIntoOrderItem($orderItems);
@@ -567,11 +568,12 @@ class customer {
         $totalOrderDetails['amount'] = 0;
         $totalOrderDetails['discount_amount'] = 0;
         $totalOrderDetails['commission_amount'] = 0;
-        $totalOrderDetails['tax_amount'] = 0;
+        $totalOrderDetails['tax_amount'] = 0;        
         foreach($data['data'] as $key=>$item) {
             if(!empty($data['productDetails']['data'][$key])) {
                 $discount = 0;
                 $productDetails = $data['productDetails']['data'][$key];
+                $productImageData = !empty($data['productDetails']['productImageData'][$productDetails['product_id']])?$data['productDetails']['productImageData'][$productDetails['product_id']]:array();
                 $amount = $productDetails['price']*$item['number_of_item'];                                
                 if(empty($order[$productDetails['merchant_id']])) {
                     $order[$productDetails['merchant_id']] = array();
@@ -584,8 +586,13 @@ class customer {
                 }
                 $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['amount'] = $amount; 
                 $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['number_of_item'] = $item['number_of_item']; 
+                $itemDetails = array();
+                $itemDetails['product_details'] = $productDetails; 
+                $itemDetails['product_image_data'] = $productImageData;  
+                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['product_dump'] = $itemDetails;
                 $itemWisePriceDetails[$key]['amount'] = $amount; 
                 $itemWisePriceDetails[$key]['number_of_item'] = $item['number_of_item'];
+                $itemWisePriceDetails[$key]['product_dump'] = $itemDetails;
                 $totalOrderDetails['amount'] = $totalOrderDetails['amount']+$amount;
                 if(!empty($productDetails['discount_value'])) {
                     if($productDetails['discount_type'] != 'flat') {
@@ -668,6 +675,9 @@ class customer {
                 $orderItems = $this->customerModel->getOrderItem($orderItemWhere);
                 if(!empty($orderItems)) {
                     foreach($orderItems as $orderItem){
+                        if(!empty($orderItem['product_dump'])) {
+                            $orderItem['product_dump'] = json_decode($orderItem['product_dump']);
+                        }
                         if(!empty($orderListByOrderId[$orderItem['order_id']]['parent_order_id'])) {
                             $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['order_details'] = isset($orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']])?$orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]:'';
                             $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
