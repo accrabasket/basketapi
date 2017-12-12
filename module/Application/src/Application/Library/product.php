@@ -30,7 +30,7 @@ class product {
             $storeList = $this->commonLib->getStoreByCity($storeParams);
             if(!empty($storeList['data'])) {
                 $optional['store_id'] = array_keys($storeList['data']);
-            }
+            }   
         }   
         if(!empty($parameters['product_name'])) {
             $optional['product_name'] = $parameters['product_name'];
@@ -118,12 +118,14 @@ class product {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_type'] = $attributeDetail[$row['attribute_id']]['discount_type'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_value'] = $attributeDetail[$row['attribute_id']]['discount_value'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['unit'] = $attributeDetail[$row['attribute_id']]['unit'];
+                    $attributeByProduct[$row['product_id']][$row['attribute_id']]['quantity'] = $attributeDetail[$row['attribute_id']]['quantity'];
                 }else if($attributeByProduct[$row['product_id']][$row['attribute_id']]['price']>$row['price']) {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']] = $row;
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['attribute_name'] = $attributeDetail[$row['attribute_id']]['name'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_type'] = $attributeDetail[$row['attribute_id']]['discount_type'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_value'] = $attributeDetail[$row['attribute_id']]['discount_value'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['unit'] = $attributeDetail[$row['attribute_id']]['unit'];                    
+                    $attributeByProduct[$row['product_id']][$row['attribute_id']]['quantity'] = $attributeDetail[$row['attribute_id']]['quantity'];
                 }
             }
         }
