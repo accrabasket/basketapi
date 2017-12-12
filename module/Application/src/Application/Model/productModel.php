@@ -43,6 +43,9 @@ class productModel  {
             if(!empty($optional['product_name'])){
                 $query = $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
             }            
+            if(!empty($optional['product_id'])) {
+                $query = $query->where(array('product_master.id' => $optional['product_id']));
+            }            
             if(!empty($optional['store_id'])) {
                 $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
             }            

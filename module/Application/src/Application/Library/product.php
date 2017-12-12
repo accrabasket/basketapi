@@ -35,6 +35,9 @@ class product {
         if(!empty($parameters['product_name'])) {
             $optional['product_name'] = $parameters['product_name'];
         }
+        if(!empty($parameters['product_id'])) {
+            $optional['product_id'] = $parameters['product_id'];
+        }        
         if(!empty($optional['category_name'])) {
             $parameters['product_name'] = $parameters['category_name'];
         }        
