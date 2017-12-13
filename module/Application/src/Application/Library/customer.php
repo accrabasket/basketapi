@@ -656,7 +656,7 @@ class customer {
         $orderList = $this->customerModel->orderList($orderWhere);
         $orderListData = $this->prepareOrderList($orderList);
         if(!empty($orderListData)) {
-            $response = array('status'=>'success', 'data'=>$orderListData);
+            $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH);
         }
         
         return $response;
