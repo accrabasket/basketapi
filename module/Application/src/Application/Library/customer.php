@@ -140,7 +140,7 @@ class customer {
                 $params = array();
                 $params['merchant_inventry_id'] = array_keys($cartData);
                 $productDetails = $this->customercurlLib->getProductByMerchantAttributeId($params);
-                $response = array('status' => 'success', 'data' => $cartData,'productDetails'=>$productDetails);
+                $response = array('status' => 'success', 'data' => $cartData,'productDetails'=>$productDetails, 'imageRootPath'=>HTTP_ROOT_PATH);
             }
         }
         
