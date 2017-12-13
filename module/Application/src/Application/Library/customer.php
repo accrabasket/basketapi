@@ -539,6 +539,7 @@ class customer {
                 }
             }
             if($result) {
+                $this->customerModel->deleteCart(array('user_id'=>$parameters['user_id']));
                 $this->customerModel->commit();
                 $response['status'] = 'success';
                 $response['msg'] = 'order placed successfully.';
@@ -718,14 +719,20 @@ class customer {
         $status = true;
         $where = array();
         if(!empty($parameters['mobile_number'])) {
-            $where['mobile_number'] = isset($parameters['mobile_number'])?$parameters['mobile_number']:'';
+            $where['mobile_number'] = $parameters['mobile_number'];
         }else{
             $status = false;
             $response = array('status'=>'fail','msg'=>'Mobile number not supplied');
         }
+        if(!empty($parameters['otp_type'])) {
+            $where['otp_type'] = $parameters['otp_type'];
+        }else{
+            $status = false;
+            $response = array('status'=>'fail','msg'=>'Otp type is not supplied');
+        }        
         
         if($status){
-            $result = $this->customerModel->checksmsexist($parameters);
+            $result = $this->customerModel->deleteSmsFromQueue($where);
             if(!empty($result)){
                 foreach ($result as $key => $value) {
                     $id = $value['id'];
@@ -741,10 +748,7 @@ class customer {
                     if(!empty($result)){
                         $response = array('status'=>'success','msg'=>'Otp send');
                     }
-                }  else {
-                    $result = $this->customerModel->deletesmsfromsmsqueue($where['id']);
-                    $id = '';
-                }
+                } 
             }
             
             if(empty($id)){

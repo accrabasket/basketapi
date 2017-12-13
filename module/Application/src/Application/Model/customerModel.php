@@ -309,10 +309,10 @@ class customerModel  {
         
     }
     
-    function deletesmsfromsmsqueue($param) {
+    function deleteSmsFromQueue($param) {
         try {
             $query = $this->sql->delete('sms_queue')
-                            ->where(array('id'=>$param));
+                            ->where(array('mobile_number'=>$param));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
