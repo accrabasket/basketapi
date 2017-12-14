@@ -122,7 +122,13 @@ class IndexController extends AbstractActionController {
                     break;
                 case 'banner':
                     $response = $this->commonLib->banner($parameters);
-                    break;                
+                    break; 
+                case 'addeditcity':
+                    $response = $this->commonLib->addeditcity($parameters);
+                    break;
+                case 'deletecity':
+                    $response = $this->commonLib->deletecity($parameters);
+                    break;
             }
             
             echo json_encode($response);

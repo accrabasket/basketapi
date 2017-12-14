@@ -1037,7 +1037,7 @@ class common  {
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
-                $data[$key] = $value;
+                $data[$value['id']] = $value;
             }
             $response = array('status' => 'success', 'data' => $data);
         }
@@ -1226,5 +1226,60 @@ class common  {
         }
         
         return $response;
+    }
+    
+    public function addeditcity($parameters) {
+        $response = array('status'=>'fail','msg'=>'Nothing to save.');
+        $params = array();
+        $rule = array();        
+        $params['country_id'] = $parameters['country_id'];
+        $params['city_name'] = $parameters['city_name'];
+     
+        $rule['city_name'] = array('type' => 'string', 'is_required' => true);
+        $rule['country_id'] = array('type' => 'numeric', 'is_required' => true);
+        if (!empty($parameters['id'])){
+            $params['id'] = (int) $parameters['id'];
+            $rule['id'] = array('type' => 'numeric', 'is_required' => true);
+        }  
+        $valid = $this->isValid($rule, $params);
+        
+        if (empty($valid) && empty($params['id'])) {
+            $params['created_on'] = date('Y-m-d H:i:s');
+            $result = $this->commonModel->checkcityexist($params['city_name']);
+            if(!empty($result)){
+                foreach ($result as $key => $value) {
+                    $count = $value['count'];
+                }
+            }
+            if($count < 1){
+                $result = $this->commonModel->savecity($params);
+                if (!empty($result)) {
+                    $response = array('status' => 'success', 'msg' => 'Record Saved Successfully.');
+                }
+            }else{
+                $response = array('status' => 'false', 'msg' => 'city allready exist.');
+            }
+             
+        }else if(empty($valid) && !empty($params['id'])){
+            $params['updated_on'] = date('Y-m-d H:i:s');
+            $result = $this->commonModel->updatecity($params, $params['id']);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Record upadate Successfully.');
+            }
+        }
+        return $response;
+    }
+    
+    function deletecity($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'City Not Deleted '); 
+        $rule['id'] = array('type'=>'integer', 'is_required'=>true);
+        if(!empty($parameters['id'])) {
+            $result = $this->commonModel->deletecity($parameters);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'city deleted ');
+            }
+        }        
+        
+        return $response;        
     }
 }

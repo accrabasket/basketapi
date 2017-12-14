@@ -735,4 +735,63 @@ class commonModel  {
             return false;
         }        
     }
+    
+    public function savecity($parameters) {
+        try {
+            $query = $this->sql->insert('city_master')
+                        ->values($parameters);
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
+    
+    public function checkcityexist($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('city_master');
+            $query->columns(array('count' => new \Zend\Db\Sql\Expression('count(*)')));
+                       
+            if (!empty($optional)) {
+                $query = $query->where(array('city_name' => $optional));
+            }
+            
+//            echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+    }
+    
+    function updatecity($parameters, $where) {
+        try {            
+            $query = $this->sql->update('city_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function deletecity($parameters) {
+        try {            
+            $query = $this->sql->delete('city_master')
+                        ->where(array('id'=>$parameters['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }
+    
 }
