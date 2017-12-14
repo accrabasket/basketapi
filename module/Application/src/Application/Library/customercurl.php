@@ -31,7 +31,20 @@ class customercurl {
             $data = $this->processResult($imageData, 'image_id', true);
         }
         return $data;
-    }    
+    } 
+    
+    function getStoreListById($parameters){
+        $response = array('status'=>'fail', 'msg'=>'No Record Found');
+        $where = array();
+        $where['id'] = $parameters['id'];
+        $storeList = $this->customerCurlModel->getStoreListById($where);
+        $storeListData = $this->processResult($storeList, 'id');
+        if(!empty($storeListData)) {
+            $response = array('status'=>'success', 'data'=>$storeListData);
+        }
+        
+        return $response;
+    }
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {

@@ -490,7 +490,7 @@ class customer {
                 $parentOrder = array();
                 $parentOrder['user_id'] = $parameters['user_id'];
                 $parentOrderId = $parentOrder['order_id'] = $adminOrderId.'_'.$adminOrderSeq[$adminOrderId];
-                $parentOrder['merchant_id'] = 0;
+                $parentOrder['store_id'] = 0;
                 $parentOrder['shipping_address_id'] = $parameters['shipping_address_id'];
                 $parentOrder['amount'] = $orderDetails['totalOrderDetails']['amount'];
                 $parentOrder['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount'];
@@ -501,15 +501,15 @@ class customer {
                 $parentOrder['payment_status'] = 'unpaid';
                 $result = $this->customerModel->createOrder($parentOrder);
             }
-            foreach($orderDetails['order'] as $merchantId=>$orderDetail) {
-                $merchantOrderId = 'order_m'.$merchantId;
+            foreach($orderDetails['order'] as $storeId=>$orderDetail) {
+                $merchantOrderId = 'order_m'.$storeId;
                 $orderSeq = $this->customerModel->updateOrderSeq($merchantOrderId); 
                 $orderId = $merchantOrderId.'_'.$orderSeq[$merchantOrderId];
                 $orderData = array();
                 $orderData['user_id'] = $parameters['user_id'];
                 $orderData['order_id'] = $orderId;
                 $orderData['parent_order_id'] = $parentOrderId;
-                $orderData['merchant_id'] = $merchantId;
+                $orderData['store_id'] = $storeId;
                 $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
                 $orderData['amount'] = $orderDetail['amount'];
                 $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
@@ -519,8 +519,8 @@ class customer {
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->createOrder($orderData);
                 if(!empty($result)) {
-                    if(!empty($orderDetails['merchantItemWiseOrderDetails'][$merchantId])) {
-                        foreach($orderDetails['merchantItemWiseOrderDetails'][$merchantId] as $merchantProductId=>$orderItems) {
+                    if(!empty($orderDetails['merchantItemWiseOrderDetails'][$storeId])) {
+                        foreach($orderDetails['merchantItemWiseOrderDetails'][$storeId] as $merchantProductId=>$orderItems) {
                             $orderItems['merchant_product_id'] = $merchantProductId;
                             $orderItems['order_id'] = $orderId;
                             $orderItems['product_dump'] = json_encode($orderItems['product_dump']);
@@ -576,21 +576,21 @@ class customer {
                 $productDetails = $data['productDetails']['data'][$key];
                 $productImageData = !empty($data['productDetails']['productImageData'][$productDetails['product_id']])?$data['productDetails']['productImageData'][$productDetails['product_id']]:array();
                 $amount = $productDetails['price']*$item['number_of_item'];                                
-                if(empty($order[$productDetails['merchant_id']])) {
-                    $order[$productDetails['merchant_id']] = array();
-                    $order[$productDetails['merchant_id']]['amount'] = $amount;
-                    $order[$productDetails['merchant_id']]['discount_amount'] = 0;
-                    $order[$productDetails['merchant_id']]['commission_amount'] = 0;
-                    $order[$productDetails['merchant_id']]['tax_amount'] = 0;
+                if(empty($order[$productDetails['store_id']])) {
+                    $order[$productDetails['store_id']] = array();
+                    $order[$productDetails['store_id']]['amount'] = $amount;
+                    $order[$productDetails['store_id']]['discount_amount'] = 0;
+                    $order[$productDetails['store_id']]['commission_amount'] = 0;
+                    $order[$productDetails['store_id']]['tax_amount'] = 0;
                 }else {
-                    $order[$productDetails['merchant_id']]['amount']+=$amount; 
+                    $order[$productDetails['store_id']]['amount']+=$amount; 
                 }
-                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['amount'] = $amount; 
-                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['number_of_item'] = $item['number_of_item']; 
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['amount'] = $amount; 
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['number_of_item'] = $item['number_of_item']; 
                 $itemDetails = array();
                 $itemDetails['product_details'] = $productDetails; 
                 $itemDetails['product_image_data'] = $productImageData;  
-                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['product_dump'] = $itemDetails;
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['product_dump'] = $itemDetails;
                 $itemWisePriceDetails[$key]['amount'] = $amount; 
                 $itemWisePriceDetails[$key]['number_of_item'] = $item['number_of_item'];
                 $itemWisePriceDetails[$key]['product_dump'] = $itemDetails;
@@ -608,8 +608,8 @@ class customer {
                         $discount = $productDetails['default_discount_value']*$item['number_of_item'];
                     }                    
                 }
-                $order[$productDetails['merchant_id']]['discount_amount'] += $discount;
-                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['discount_amount'] = $discount;
+                $order[$productDetails['store_id']]['discount_amount'] += $discount;
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['discount_amount'] = $discount;
                 $itemWisePriceDetails[$key]['discount_amount'] = $discount;
                 $totalOrderDetails['discount_amount'] = $totalOrderDetails['discount_amount']+$discount;
                 if(!empty($productDetails['commission_value'])) {
@@ -619,12 +619,12 @@ class customer {
                         $commissionAmount = $productDetails['commission_value']*$item['number_of_item'];
                     }
                 }                
-                $order[$productDetails['merchant_id']]['commission_amount']+=$commissionAmount;
-                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['commission_amount'] = $commissionAmount;
+                $order[$productDetails['store_id']]['commission_amount']+=$commissionAmount;
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['commission_amount'] = $commissionAmount;
                 $itemWisePriceDetails[$key]['commission_amount'] = $commissionAmount;
                 $totalOrderDetails['commission_amount'] = $totalOrderDetails['commission_amount']+$commissionAmount;
                 
-                $merchantItemWisePriceDetails[$productDetails['merchant_id']][$key]['tax_amount'] = 0;
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['tax_amount'] = 0;
                 $itemWisePriceDetails[$key]['tax_amount'] = 0;
                 $totalOrderDetails['payable_amount'] = $totalOrderDetails['amount']-$totalOrderDetails['discount_amount']+$totalOrderDetails['tax_amount'];
                 
@@ -637,7 +637,7 @@ class customer {
 
     function orderList($parameters) {
         $status = true;
-        $response = array('status'=>'fail', 'No Record Found');                
+        $response = array('status'=>'fail', 'msg'=>'No Record Found');                
         $orderWhere = array();
         if(!empty($parameters['user_id'])) {
             $orderWhere['user_id'] = $parameters['user_id'];
@@ -652,11 +652,21 @@ class customer {
                 $orderWhere['order_status'] = array('completed','returned','cancelled');
             }
         }
+        $optional = array();
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = true;
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }        
+        $orderList = $this->customerModel->orderList($orderWhere, $optional);
         
-        $orderList = $this->customerModel->orderList($orderWhere);
+        $countOptional = array();
+        $countOptional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
+        $countOptional['count_row'] = true;
+        $customerModel = new customerModel();
+        $totalNumberOfOrders = $customerModel->orderList($orderWhere, $countOptional);
         $orderListData = $this->prepareOrderList($orderList);
         if(!empty($orderListData)) {
-            $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH);
+            $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
         }
         
         return $response;
@@ -695,6 +705,71 @@ class customer {
         return $orderDataList;
     }
     
+    function getAssignedOrderToRider($parameters) {
+        $status = true;
+        $response = array('status'=>'fail', 'msg'=>'No Record Found');                
+        $orderWhere = array();
+        if(!empty($parameters['user_id'])) {
+            $orderWhere['user_id'] = $parameters['user_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "Rider not supplied";
+        } 
+        if(!empty($parameters['order_status'])){
+            if($parameters['order_status'] == 'current_order'){
+               $orderWhere['order_status'] = array('assigned_to_rider','ready_to_dispatch', 'dispatched'); 
+            }else if($parameters['order_status'] == 'past_order') {
+                $orderWhere['order_status'] = array('completed','returned','cancelled', 'return_request');
+            }
+        }
+        $optional = array();
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = true;
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }
+        $orderList = $this->customerModel->assignedOrderToRider($orderWhere, $optional);
+        
+        $countOptional = array();
+        $countOptional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
+        $countOptional['count_row'] = true;
+        $customerModel = new customerModel();
+        $totalNumberOfOrders = $customerModel->assignedOrderToRider($orderWhere, $countOptional);        
+        $orderListData = $this->prepareOrderForRiders($orderList);
+        if(!empty($orderListData)) {
+            $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
+        }
+        return $response;
+    }
+    
+    function prepareOrderForRiders($orderData){
+        $shippingAddressList = array();
+        $storeList = array();
+        $orderItemList = array();
+        $orderList = array();
+        foreach($orderData as $orders) {
+            $shippingAddressList[$orders['shipping_address_id']] = $orders['shipping_address_id'];
+            $storeList[$orders['store_id']] = $orders['store_id'];
+            $orderList[$orders['order_id']] = $orders;
+        }
+        
+        if(!empty($shippingAddressList)) {
+            $addressParams['id'] = array_keys($shippingAddressList);
+            $addressList = $this->customerModel->getAddressList($addressParams);
+            $shippingAddressList = $this->processResult($addressList, 'id');
+            
+            $orderParams['order_id'] = array_keys($orderList);
+            $orderItems = $this->customerModel->getOrderItem($orderParams);
+            $orderItemList = $this->processResult($orderItems, 'order_id', true);
+            
+            $storeParams['id'] = array_keys($storeList);
+            $storeList = $this->customercurlLib->getStoreListById($storeParams);
+        }
+        if(!empty($shippingAddressList)) {
+            return array('orderList'=>$orderList,'shippingAddressList'=>$shippingAddressList, 'orderItemList'=>$orderItemList, 'storeList'=>$storeList['data']);
+        }
+        
+        return false;
+    }
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {

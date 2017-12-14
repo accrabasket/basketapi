@@ -51,7 +51,10 @@ class CustomerController extends AbstractActionController {
                     break;
                 case 'orderlist':
                     $response = $this->customerLib->orderList($parameters);
-                    break;                
+                    break;
+                case 'assignedordertorider':
+                    $response = $this->customerLib->getAssignedOrderToRider($parameters);
+                    break;
                 case 'generateotp':
                     $response = $this->customerLib->generateotp($parameters);
                     break;

@@ -254,19 +254,30 @@ class customerModel  {
         }         
     }
  
-    function orderList($where) {
+    function orderList($where, $optional=array()) {
         try {
             $query = $this->sql->select('order_master');
+            if(!empty($optional['columns'])) {
+                $query->columns($optional['columns']);
+            }
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('user_id'=>$where['user_id']));
             }            
             if(!empty($where['order_status'])){
                 $query = $query->where(array('order_status'=>$where['order_status']));
             }
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
+            if(!empty($optional['count_row'])) {
+                $result = $result->current();
+            }
             return $result;
         } catch (\Exception $ex) {
+            echo $ex->getMessage();die;
             return false;
         }        
     }
@@ -282,6 +293,38 @@ class customerModel  {
             return false;
         }        
     }
+    
+    function assignedOrderToRider($where, $optional = array()) {
+        try {
+            $query = $this->sql->select('order_assignments');
+            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id'));
+            if(!empty($optional['columns'])) {
+                $query->columns($optional['columns']);
+            }
+            if(!empty($where['user_id'])) {
+                $query = $query->where(array('order_assignments.rider_id'=>$where['user_id']));
+            }            
+            if(!empty($where['order_status'])){
+                $query = $query->where(array('order_master.order_status'=>$where['order_status']));
+            }
+            $query = $query->where(array('order_assignments.status'=>1));
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }   
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            
+            if(!empty($optional['count_row'])) {
+                $result = $result->current();
+            }
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
+    
     function smsqueue($params) {
         try {
             $query = $this->sql->insert('sms_queue')
