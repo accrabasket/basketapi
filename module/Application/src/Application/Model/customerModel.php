@@ -325,6 +325,19 @@ class customerModel  {
         }         
     }
     
+    function insertIntoOtpMaster($params) {
+        try {
+            $query = $this->sql->insert('otp_master')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            echo $ex->getMessage();die;
+            return false;
+        }        
+    }
+    
     function smsqueue($params) {
         try {
             $query = $this->sql->insert('sms_queue')
@@ -352,10 +365,12 @@ class customerModel  {
         
     }
     
-    function deleteSmsFromQueue($param) {
+    function deleteOtp($where) {
         try {
-            $query = $this->sql->delete('sms_queue')
-                            ->where(array('mobile_number'=>$param));
+            if(!empty($where)) {
+                $query = $this->sql->delete('otp_master')
+                            ->where($where);
+            }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
@@ -365,22 +380,25 @@ class customerModel  {
         
     }
     
-    function checksmsexist($param) {
+    function verifyOtp($where) {
         try {
             $limit = 1;
-            $where = new \Zend\Db\Sql\Where();
-            $query = $this->sql->select('sms_queue');
-            if(isset($param['mobile_number'])) {
-                $query = $query->where(array('sms_queue.mobile_number'=>$param['mobile_number']));
+            $query = $this->sql->select('otp_master');
+            $query->columns(array('count' => new \Zend\Db\Sql\Expression('count(*)')));
+            if(isset($where['mobile_number'])) {
+                $query = $query->where(array('mobile_number'=>$where['mobile_number']));
             }
-            if(isset($param['otp'])) {
-                $query = $query->where(array('sms_queue.otp'=>$param['otp']));
+            if(isset($where['otp'])) {
+                $query = $query->where(array('otp'=>$where['otp']));
             }
-            $query->limit($limit);
-            $query->order('id DESC'); 
-//            echo $query->getSqlString();die;
+            if(isset($where['otp_type'])) {
+                $query = $query->where(array('otp_type'=>$where['otp_type']));
+            }            
+            if(isset($where['expiry_date'])) {
+                $query = $query->where("expiry_date >= '$where[expiry_date]'");
+            }                        
             $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
+            $result = $satements->execute()->current();
             return $result;
         } catch (\Exception $ex) {
             return false;
@@ -399,16 +417,33 @@ class customerModel  {
             return false;
         }        
     }
-    
+    function deleteUserAuth($where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->delete('user_auth')
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else {
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
     function checkauthkey($param) {
         try {
             $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('user_auth');
-            if(isset($param['auth_key'])) {
+            if(!empty($param['auth_key'])) {
                 $query = $query->where(array('user_auth.auth_key'=>$param['auth_key']));
             }
+            if(!empty($param['key_for'])) {
+                $query = $query->where(array('user_auth.key_for'=>$param['key_for']));
+            }
             $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
+            $result = $satements->execute()->current();
             return $result;
         } catch (\Exception $ex) {
             return false;
