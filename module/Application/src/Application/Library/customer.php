@@ -807,78 +807,65 @@ class customer {
         }        
         
         if($status){
-            $result = $this->customerModel->deleteSmsFromQueue($where);
-            if(!empty($result)){
-                foreach ($result as $key => $value) {
-                    $id = $value['id'];
-                    $expiry_date = $value['expiry_date'];
-                }
-                $minutes = $this->getMinute($expiry_date);
-                $smsQueueData = array();
-                $where = array();
-                $where['id'] = $id;
-                if(0 <= $minutes  && $minutes < 15){
-                    $smsQueueData['expiry_date'] = date('Y-m-d H:i:s');
-                    $result = $this->customerModel->updatesmsfromusmsqueue($smsQueueData,$where['id']);
-                    if(!empty($result)){
-                        $response = array('status'=>'success','msg'=>'Otp send');
-                    }
-                } 
-            }
-            
-            if(empty($id)){
-                $smsQueueData = array();
-                $smsQueueData['mobile_number'] = $parameters['mobile_number'];
-                $randomNumber = mt_rand(1000, 10000);
-                $smsQueueData['expiry_date'] = date('Y-m-d H:i:s');
-                $smsQueueData['message'] = $randomNumber.' is your OTP for phone confirmation. Enter this in the box provided within 15 minuts.';
+            $result = $this->customerModel->deleteOtp($where);
+            $expireTime = date('Y-m-d H:i:s', strtotime("+".OTP_EXPIRE_TIME." minutes"));
+            $randomNumber = mt_rand(1000, 10000);
+            $smsQueueData = array();
+            $otpData = array();
+            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];
+            $otpData['otp_type'] = $parameters['otp_type'];
+            $otpData['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:0;
+            $otpData['otp'] = $randomNumber;
+            $otpData['expiry_date'] = $expireTime;
+            $otpResponse = $this->customerModel->insertIntoOtpMaster($otpData);
+            if(!empty($otpResponse)) {
+                $smsQueueData['message'] = $randomNumber.' is your OTP for '.$otpData['otp_type'].' Enter this in the box provided within 15 minuts.';
                 $result = $this->customerModel->smsqueue($smsQueueData);
-                if(!empty($result)){
-                    $response = array('status'=>'success','msg'=>'Otp send');
-                }
             }
-                
-            
+            if(!empty($result)){
+                $response = array('status'=>'success','msg'=>'Otp send');
+            }
         }
         return $response;
     }
     
     function verifyotp($parameters) {
-        $response = array('status' => 'fail', 'msg' => 'Otp expired');
+        $response = array('status' => 'fail', 'msg' => 'Otp not valid');
         $status = true;
-        $data = array();
+        $where = array();
         if (!empty($parameters['mobile_number'])) {
-            $data['mobile_number'] = $parameters['mobile_number'];
+            $where['mobile_number'] = $parameters['mobile_number'];
         } else {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'Mobile number not supplied');
         }
         
         if (!empty($parameters['otp'])) {
-            $data['otp'] = $parameters['otp'];
+            $where['otp'] = $parameters['otp'];
         } else {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'Otp not supplied');
         }
-        
+        if(!empty($parameters['otp_type'])) {
+            $where['otp_type'] = $parameters['otp_type'];
+        }else{
+            $status = false;
+            $response = array('status'=>'fail','msg'=>'Otp type is not supplied');
+        }   
+        $where['expiry_date'] = date("Y-m-d H:i:s");
         if($status){
-            $result = $this->customerModel->checksmsexist($data);
-            if (!empty($result)) {
-                $details = array();
-                foreach ($result as $key => $value) {
-                    $details = $value;
-                    $expiry_date = $value['expiry_date'];
-                }
-                $minutes = $this->getMinute($expiry_date);
-                if(0 <= $minutes  && $minutes <= 15){
-                    $params = array();
-                    $params['mobile_number'] = $details['mobile_number'];
-                    $params['auth_key'] = md5($details['mobile_number'].  time());
-                    $params['expiry_on'] = date('Y-m-d H:i:s');
-                    $result = $this->customerModel->saveuserauthlink($params);
-                    if(!empty($result)){
-                        $response = array('status' => 'success', 'msg' => 'Otp verify','data'=>array('auth_key'=>$params['auth_key']));
-                    }
+            $result = $this->customerModel->verifyOtp($where);
+            $params = array();
+            $deleteOtpWhere['mobile_number'] = $params['mobile_number'] = $parameters['mobile_number'];
+            $deleteOtpWhere['otp_type'] = $params['key_for'] =  $parameters['otp_type'];            
+            $this->customerModel->deleteOtp($deleteOtpWhere);            
+            if (!empty($result['count'])) {
+                $this->customerModel->deleteUserAuth($params);
+                
+                $params['auth_key'] = md5($parameters['mobile_number'].  time());
+                $result = $this->customerModel->saveuserauthlink($params);
+                if(!empty($result)){
+                    $response = array('status' => 'success', 'msg' => 'Otp verify','data'=>array('auth_key'=>$params['auth_key']));
                 }
             }
         }
@@ -888,49 +875,63 @@ class customer {
     function forgetpassword($parameters) {
         $response = array('status' => 'fail', 'msg' => 'password not change');
         $status = true;
-        $data = array();
-        if (!empty($parameters['auth_key'])) {
-            $data['auth_key'] = $parameters['auth_key'];
-        } else {
-            $status = false;
-            $response = array('status' => 'fail', 'msg' => 'Auth key not supplied');
-        }
-        
+        $data = array();        
         if (!empty($parameters['password'])) {
             $data['password'] = $parameters['password'];
         } else {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'password not supplied');
         }
-        
         if($status){
-            $result = $this->customerModel->checkauthkey($data);
-            if (!empty($result)) {
-                $details = array();
-                foreach ($result as $key => $value) {
-                    $details = $value;
-                    $expiry_date = $value['expiry_on'];
-                }
-                $minutes = $this->getMinute($expiry_date);
-                if(0 <= $minutes  && $minutes <= 15){
-                    $params = array();
-                    $params['mobile_number'] = $details['mobile_number'];
-                    $userDetails = $this->getUserDetail($params);
-                    if(!empty($userDetails['data'])){
-                        $userParams = array();
-                        $where = array();
-                        $userParams['password'] = md5($data['password']);
-                        $userParams['updated_date'] = date('Y-m-d H:i:s');
-                        $userDetails = array_values($userDetails['data']);
-                        $where['id'] = $userDetails[0]['id'];
-                        $result = $this->customerModel->updateUser($userParams, $where);
-                        if (!empty($result)){
-                            $response = array('status' => 'success', 'msg' => 'password changed');
-                        }
+            $authResponse = $this->validateAuthKey($parameters);
+            if (!empty($authResponse['data'])) {
+                $params = array();
+                $params['mobile_number'] = $authResponse['data']['mobile_number'];
+                $userDetails = $this->getUserDetail($params);
+                if(!empty($userDetails['data'])){
+                    $userParams = array();
+                    $where = array();
+                    $userParams['password'] = md5($data['password']);
+                    $userParams['updated_date'] = date('Y-m-d H:i:s');
+                    $userDetails = array_values($userDetails['data']);
+                    $where['id'] = $userDetails[0]['id'];
+                    $result = $this->customerModel->updateUser($userParams, $where);
+                    if (!empty($result)){
+                        $response = array('status' => 'success', 'msg' => 'password changed');
                     }
                 }
+            }else{
+                $response = $authResponse;
             }
         }
+        return $response;
+    }
+    function validateAuthKey($parameters) {
+        $response = array('status'=>'fail', 'msg'=>'Atuhentication Failed');
+        $status = true;
+        if (!empty($parameters['auth_key'])) {
+            $authWhere['auth_key'] = $parameters['auth_key'];
+        } else {
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'Auth key not supplied');
+        }
+        if (!empty($parameters['auth_for'])) {
+            $authWhere['key_for'] = $parameters['auth_for'];
+        } else {
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'Auth for not supplied');
+        }
+        if($status) {
+            $result = $this->customerModel->checkauthkey($authWhere);
+            if(!empty($result)) {
+                $where = array();
+                $where['mobile_number'] = $result['mobile_number'];
+                $where['key_for'] = $result['key_for'];
+                $this->customerModel->deleteUserAuth($where);                
+                $response = array('status'=>'success', 'data'=>$result);
+            }
+        }
+        
         return $response;
     }
     
