@@ -794,4 +794,63 @@ class commonModel  {
         }
     }
     
+    public function savetimeslot($parameters) {
+        try {
+            $query = $this->sql->insert('timeslot_master')
+                        ->values($parameters);
+//            echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
+    
+    public function deliveryTimeSlotList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('timeslot_master', array('*'));
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('id' => $optional['id']));
+            }
+            
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function updatetimeslot($parameters, $where) {
+        try {            
+            $query = $this->sql->update('timeslot_master')
+                        ->set($parameters)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function deletetimeslot($parameters) {
+        try {            
+            $query = $this->sql->delete('timeslot_master')
+                        ->where(array('id'=>$parameters['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }
+    
 }

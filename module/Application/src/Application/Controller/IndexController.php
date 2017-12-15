@@ -129,6 +129,15 @@ class IndexController extends AbstractActionController {
                 case 'deletecity':
                     $response = $this->commonLib->deletecity($parameters);
                     break;
+                case 'addedittimeslot':
+                    $response = $this->commonLib->addedittimeslot($parameters);
+                    break;
+                case 'deliveryTimeSlotList':
+                    $response = $this->commonLib->deliveryTimeSlotList($parameters);
+                    break;
+                case 'deletetimeslot':
+                    $response = $this->commonLib->deletetimeslot($parameters);
+                    break;
             }
             
             echo json_encode($response);
