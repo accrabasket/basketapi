@@ -1282,4 +1282,106 @@ class common  {
         
         return $response;        
     }
+    
+    public function addedittimeslot($parameters) {
+        $response = array('status'=>'fail','msg'=>'Nothing to save.');
+        $params = array();
+        $rule = array();        
+        $params['start_time_slot'] = $parameters['start_time_slot'];
+        $params['end_time_slot'] = $parameters['end_time_slot'];
+     
+        $rule['start_time_slot'] = array('type' => 'numeric', 'is_required' => true);
+        $rule['end_time_slot'] = array('type' => 'numeric', 'is_required' => true);
+        if (!empty($parameters['id'])){
+            $params['id'] = (int) $parameters['id'];
+            $rule['id'] = array('type' => 'numeric', 'is_required' => true);
+        }  
+        $valid = $this->isValid($rule, $params);
+        
+        if (empty($valid) && empty($params['id'])) {
+            $params['created_on'] = date('Y-m-d H:i:s');
+            $slotAvl = $this->checkDeliverySlotAvailable($params);
+            
+            if($slotAvl){
+                $result = $this->commonModel->savetimeslot($params);
+                if (!empty($result)) {
+                    $response = array('status' => 'success', 'msg' => 'Record Saved Successfully.');
+                }
+            }else{
+                $response = array('status' => 'false', 'msg' => 'time slot allready exist.');
+            }
+             
+        }else if(empty($valid) && !empty($params['id'])){
+            $params['updated_on'] = date('Y-m-d H:i:s');
+            $slotAvl = $this->checkDeliverySlotAvailable($params);
+            if($slotAvl){
+                $result = $this->commonModel->updatetimeslot($params, $params['id']);
+                if (!empty($result)) {
+                    $response = array('status' => 'success', 'msg' => 'Record upadate Successfully.');
+                }
+            }else{
+                $response = array('status' => 'false', 'msg' => 'time slot allready exist.');
+            } 
+        }
+        return $response;
+    }
+    
+    public function deliveryTimeSlotList($parameters, $optional = array()) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        if(!empty($parameters['id'])){
+            $optional['id'] = $parameters['id'];
+        }
+        
+        if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+        }
+        
+        $result = $this->commonModel->deliveryTimeSlotList($optional);
+        
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
+    }
+    
+    function deletetimeslot($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'time slot Not Deleted '); 
+        $rule['id'] = array('type'=>'integer', 'is_required'=>true);
+        if(!empty($parameters['id'])) {
+            $result = $this->commonModel->deletetimeslot($parameters);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'time slot  deleted ');
+            }
+        }        
+        
+        return $response;        
+    }
+    
+    function checkDeliverySlotAvailable($params) {
+        $slotAvl = TRUE;
+        $result = $this->commonModel->deliveryTimeSlotList();
+        
+        if (!empty($result)) {
+            foreach ($result as $key => $value) {
+                if ($value['start_time_slot'] == $params['start_time_slot'] || $value['end_time_slot'] == $params['end_time_slot']) {
+                    $slotAvl = FALSE;
+                    break;
+                }
+                if ($params['start_time_slot'] > $value['start_time_slot'] && $params['start_time_slot'] < $value['end_time_slot']) {
+                    $slotAvl = FALSE;
+                    break;
+                }
+                if ($params['end_time_slot'] > $value['start_time_slot'] && $params['end_time_slot'] < $value['end_time_slot']) {
+                    $slotAvl = FALSE;
+                    break;
+                }
+            }
+        }
+        return $slotAvl;
+    }
+
 }
