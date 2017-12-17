@@ -260,6 +260,9 @@ class customerModel  {
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
+            if(!empty($where['order_id'])) {
+                $query = $query->where(array('order_id'=>$where['order_id']));
+            }            
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('user_id'=>$where['user_id']));
             }            
@@ -277,7 +280,6 @@ class customerModel  {
             }
             return $result;
         } catch (\Exception $ex) {
-            echo $ex->getMessage();die;
             return false;
         }        
     }
@@ -297,13 +299,16 @@ class customerModel  {
     function assignedOrderToRider($where, $optional = array()) {
         try {
             $query = $this->sql->select('order_assignments');
-            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id'));
+            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id', 'order_status'));
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
+            if(!empty($where['order_id'])) {
+                $query = $query->where(array('order_assignments.order_id'=>$where['order_id']));
+            }            
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('order_assignments.rider_id'=>$where['user_id']));
-            }            
+            }                        
             if(!empty($where['order_status'])){
                 $query = $query->where(array('order_master.order_status'=>$where['order_status']));
             }
@@ -314,7 +319,6 @@ class customerModel  {
             }   
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
-            
             if(!empty($optional['count_row'])) {
                 $result = $result->current();
             }
@@ -324,7 +328,35 @@ class customerModel  {
             return false;
         }         
     }
+
+    function assignOrder($params) {
+        try {
+            $query = $this->sql->insert('order_assignments')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
     
+    function updateOrderAssignment($params, $where) {
+        $result = false;
+        try {        
+            if(!empty($where) && !empty($params)) {            
+                $query = $this->sql->update('order_assignments')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                
+            }   
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
     function insertIntoOtpMaster($params) {
         try {
             $query = $this->sql->insert('otp_master')
@@ -333,7 +365,6 @@ class customerModel  {
             $result = $satements->execute();
             return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (\Exception $ex) {
-            echo $ex->getMessage();die;
             return false;
         }        
     }

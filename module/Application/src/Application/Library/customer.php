@@ -9,7 +9,8 @@
 namespace Application\Library;
 use Application\Model\customerModel;
 class customer {
-
+    public $customerModel;
+    public $customercurlLib;
     public function __construct() {
         $this->customerModel = new customerModel();
         $this->customercurlLib = new customercurl();
@@ -707,12 +708,83 @@ class customer {
     }
     
     function assignOrderToRider($parameters) {
+        $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
+        $orderWhere = array();
+        $optional = array();
+        $status = true;
+        $params = array();
         if(!empty($parameters['rider_id'])) {
-            $orderWhere['user_id'] = $parameters['rider_id'];
+            $params['rider_id'] = $parameters['rider_id'];
         }else{
             $status = false;
             $response['msg'] = "Rider not supplied";
         }        
+        if(!empty($parameters['order_id'])) {
+            $params['order_id'] = $orderWhere['order_id'] = $parameters['order_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "order not supplied";
+        }        
+        $orderWhere['status'] = 1;
+        if($status) {
+            $orderList = $this->customerModel->assignedOrderToRider($orderWhere, $optional); 
+            if(!empty($orderList)) {
+                $orderDetails = $orderList->current();
+                if(!empty($orderDetails)) {
+                    if($orderDetails['rider_id'] == $parameters['rider_id']) {
+                        $status = false;
+                        $response['msg'] = "Already Assigned to this Riders.";
+                    }else {
+                        $unAssignOrderParams = array();
+                        $unAssignOrderParams['rider_id'] = $orderDetails['rider_id'];
+                        $unAssignOrderParams['order_id'] = $parameters['order_id'];
+                        $unAssignOrderParams['status'] = 0;
+                        
+                        $orderList = $this->unassignOrder($unAssignOrderParams);        
+                    }
+                }
+            }
+            if($status) {
+                $params['status'] = 1;
+                $params['created_date'] = date('Y-m-d H:i:s');
+                $result = $this->customerModel->assignOrder($params);
+                if(!empty($result)) {
+                    $response = array('status'=>'success', 'msg'=>'order assigned to rider.');
+                }
+            }
+        }
+        
+        return $response;
+    }
+    
+    function unassignOrder($parameters) {
+        $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
+        $status = true;
+        if(!empty($parameters['rider_id'])) {
+            $where['rider_id'] = $parameters['rider_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "Rider not supplied";
+        }        
+        if(!empty($parameters['order_id'])) {
+            $where['order_id'] = $parameters['order_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "order not supplied";
+        }        
+        $params = array();
+        if(isset($parameters['status'])) {
+            $params['status'] = $parameters['status'];
+        }
+        if($status) {
+            $customerModel = new customerModel();
+            $return = $customerModel->updateOrderAssignment($params, $where);
+            if(!empty($return)) {
+                $response = array('status'=>'success', 'msg'=>'data updated', 'data'=>array('order_id'=>$parameters['order_id']));
+            }
+        }
+        
+        return $response;
     }
     function getAssignedOrderToRider($parameters) {
         $status = true;
@@ -726,7 +798,7 @@ class customer {
         } 
         if(!empty($parameters['order_status'])){
             if($parameters['order_status'] == 'current_order'){
-               $orderWhere['order_status'] = array('assigned_to_rider','ready_to_dispatch', 'dispatched'); 
+               $orderWhere['order_status'] = array('order_placed','ready_to_dispatch', 'dispatched'); 
             }else if($parameters['order_status'] == 'past_order') {
                 $orderWhere['order_status'] = array('completed','returned','cancelled', 'return_request');
             }
