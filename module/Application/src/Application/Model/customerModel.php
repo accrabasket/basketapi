@@ -435,5 +435,22 @@ class customerModel  {
     }    
     function rollback() {
         $this->adapter->getDriver()->getConnection()->rollback();
-    }     
+    } 
+
+    function changepassword($params, $where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('user_master')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }

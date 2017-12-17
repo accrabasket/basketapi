@@ -941,4 +941,37 @@ class customer {
         $minutes = round($interval / 60);
         return $minutes;
     }
+    
+    function changepassword($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'change not change');
+        $status = true;
+        $data = array();
+        if (!empty($parameters['user_id'])) {
+            $where['id'] = $parameters['user_id'];
+        }else{
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'User id not supplied');
+        }
+        
+        if (!empty($parameters['new_password'])) {
+            $data['password'] = md5($parameters['new_password']);
+        } else {
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'new password not supplied');
+        }
+        
+        if (empty($parameters['password'])) {
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'old password not supplied');
+        }
+        
+        if ($status) {
+            $data['updated_date'] = date('Y-m-d H:i:s');
+            $result = $this->customerModel->changepassword($data, $where['id']);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'password changed');
+            }
+        }
+        return $response;
+    }
 }
