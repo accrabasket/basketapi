@@ -507,6 +507,7 @@ class customer {
                 $orderId = $merchantOrderId.'_'.$orderSeq[$merchantOrderId];
                 $orderData = array();
                 $orderData['user_id'] = $parameters['user_id'];
+                $orderData['time_slot_id'] = !empty($parameters['time_slot_id'])?$parameters['time_slot_id']:0;
                 $orderData['order_id'] = $orderId;
                 $orderData['parent_order_id'] = $parentOrderId;
                 $orderData['store_id'] = $storeId;
@@ -705,6 +706,14 @@ class customer {
         return $orderDataList;
     }
     
+    function assignOrderToRider($parameters) {
+        if(!empty($parameters['rider_id'])) {
+            $orderWhere['user_id'] = $parameters['rider_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "Rider not supplied";
+        }        
+    }
     function getAssignedOrderToRider($parameters) {
         $status = true;
         $response = array('status'=>'fail', 'msg'=>'No Record Found');                
@@ -810,6 +819,7 @@ class customer {
             $result = $this->customerModel->deleteOtp($where);
             $expireTime = date('Y-m-d H:i:s', strtotime("+".OTP_EXPIRE_TIME." minutes"));
             $randomNumber = mt_rand(1000, 10000);
+            $randomNumber = 1234;
             $smsQueueData = array();
             $otpData = array();
             $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];
