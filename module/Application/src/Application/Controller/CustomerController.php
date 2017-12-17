@@ -67,6 +67,9 @@ class CustomerController extends AbstractActionController {
                 case 'forgetpassword':
                     $response = $this->customerLib->forgetpassword($parameters);
                     break;
+                case 'changepassword':
+                    $response = $this->customerLib->changepassword($parameters);
+                    break;
             }
 
             echo json_encode($response);
