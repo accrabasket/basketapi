@@ -8,6 +8,7 @@
  */
 namespace Application\Library;
 use Application\Model\customerModel;
+use Zend\Mail;
 class customer {
     public $customerModel;
     public $customercurlLib;
@@ -1001,36 +1002,60 @@ class customer {
     }
     
     function forgetpassword($parameters) {
-        $response = array('status' => 'fail', 'msg' => 'password not change');
+        $response = array('status' => 'fail', 'msg' => 'User does not exist');
         $status = true;
         $data = array();        
-        if (!empty($parameters['password'])) {
-            $data['password'] = $parameters['password'];
+        if (!empty($parameters['email'])) {
+            $data['email'] = $parameters['email'];
         } else {
             $status = false;
-            $response = array('status' => 'fail', 'msg' => 'password not supplied');
+            $response = array('status' => 'fail', 'msg' => 'email not supplied');
         }
         if($status){
-            $authResponse = $this->validateAuthKey($parameters);
-            if (!empty($authResponse['data'])) {
-                $params = array();
-                $params['mobile_number'] = $authResponse['data']['mobile_number'];
-                $userDetails = $this->getUserDetail($params);
-                if(!empty($userDetails['data'])){
-                    $userParams = array();
-                    $where = array();
-                    $userParams['password'] = md5($data['password']);
-                    $userParams['updated_date'] = date('Y-m-d H:i:s');
-                    $userDetails = array_values($userDetails['data']);
-                    $where['id'] = $userDetails[0]['id'];
-                    $result = $this->customerModel->updateUser($userParams, $where);
+            $userDetails = $this->getUserDetail($data);
+            if(!empty($userDetails['data'])){
+                foreach ($userDetails['data'] as $key => $value) {
+                   $to_mail_id =  $value['email'];
+                   $to_name =  $value['name'];
+                }
+                if(!empty($to_mail_id)){
+                    $body = "Hi '$to_name', \r\n   We have sent you this email in response to your request to reset your password on Accra Basket. Please click on <a href='#' >Click here</a> to change password. ";
+                    $mail = new Mail\Message();
+                    $mail->setBody($body);
+                    $mail->setFrom('vgiri8308@gmail.com', 'Vikash');
+                    $mail->addTo($to_name, $to_name);
+                    $mail->setSubject('Forget Password');
+                    $transport = new Mail\Transport\Sendmail();
+                    $result = $transport->send($mail);
                     if (!empty($result)){
-                        $response = array('status' => 'success', 'msg' => 'password changed');
+                        $response = array('status' => 'success', 'msg' => 'password change request send');
                     }
                 }
-            }else{
-                $response = $authResponse;
+                
             }
+            
+            
+            
+//            $authResponse = $this->validateAuthKey($parameters);
+//            if (!empty($authResponse['data'])) {
+//                $params = array();
+//                $params['mobile_number'] = $authResponse['data']['mobile_number'];
+//                $userDetails = $this->getUserDetail($params);
+//                if(!empty($userDetails['data'])){
+//                    $userParams = array();
+//                    $where = array();
+//                    $userParams['password'] = md5($data['password']);
+//                    $userParams['updated_date'] = date('Y-m-d H:i:s');
+//                    $userDetails = array_values($userDetails['data']);
+//                    $where['id'] = $userDetails[0]['id'];
+//                    $result = $this->customerModel->updateUser($userParams, $where);
+//                    if (!empty($result)){
+//                        $response = array('status' => 'success', 'msg' => 'password changed');
+//                    }
+//                }
+//            }else{
+//                $response = $authResponse;
+//            }
         }
         return $response;
     }
