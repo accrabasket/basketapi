@@ -174,7 +174,7 @@ class customer {
                $userParams['address'] = $parameters['address']; 
             }
             if(!empty($parameters['password'])){
-               $userParams['password'] = $parameters['password']; 
+               $userParams['password'] = md5($parameters['password']); 
             }
             if(isset($parameters['status'])) {
                 $userParams['status'] = $parameters['status'];
@@ -187,7 +187,7 @@ class customer {
             $userParams['name']          =  isset($parameters['name'])?$parameters['name']:'';
             $userParams['city_id']       =  isset($parameters['city_id'])?$parameters['city_id']:''; 
             $userParams['address']       =  !empty($parameters['address'])?$parameters['address']:""; 
-            $userParams['password']      =  $parameters['password']; 
+            $userParams['password']      =  md5($parameters['password']); 
             $userParams['created_date']  =  date('Y-m-d H:i:s'); 
             $rules['password']           =  array('type'=>'string', 'is_required'=>true);
             $rules['city_id']            =  array('type'=>'numeric', 'is_required'=>true);            
@@ -280,7 +280,7 @@ class customer {
             $response = array('status'=>'fail','msg'=>'Email/Mobile not supplied');
         }
         if(!empty($parameters['password'])) {
-            $where['password'] = $parameters['password'];
+            $where['password'] = md5($parameters['password']);
         }else{
             $status = false;
             $response = array('status'=>'fail','msg'=>'Password not supplied');
