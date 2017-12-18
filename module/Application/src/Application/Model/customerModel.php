@@ -201,9 +201,6 @@ class customerModel  {
             return false;
         }        
     }
-    function placeOrder($parameters) {
-        
-    }
     function updateOrderSeq($orderName) {
         try {
             $response = array();
@@ -254,6 +251,21 @@ class customerModel  {
         }         
     }
  
+    function updateOrder($params, $where) {
+        try {
+            if(!empty($where) && !empty($params)) {
+                $query = $this->sql->update('order_master')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute()->getAffectedRows();
+            }
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
+    
     function orderList($where, $optional=array()) {
         try {
             $query = $this->sql->select('order_master');

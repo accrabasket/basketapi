@@ -786,6 +786,52 @@ class customer {
         
         return $response;
     }
+    function updateOrderByRider($parameters) {
+        $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
+        $status = true;
+        if(!empty($parameters['rider_id'])) {
+            $where['user_id'] = $parameters['rider_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "Rider not supplied";
+        }        
+        if(!empty($parameters['order_id'])) {
+            $where['order_id'] = $parameters['order_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "order not supplied";
+        }
+        if(empty($parameters['order_status'])) {
+            $status = false;
+            $response['msg'] = "order status not supplied";
+        }        
+        
+        if($parameters['role'] == 'rider') {
+            $where['order_status'] = array('order_placed','ready_to_dispatch','dispatched');
+        }
+        if($status) {
+            $orderList = $this->customerModel->assignedOrderToRider($where); 
+            if(!empty($orderList)) {
+                $orderDetails = $orderList->current();
+                if(!empty($orderDetails)) {
+                    $orderWhere = array();
+                    $orderWhere['order_id'] = $orderDetails['order_id'];
+                    $params = array();
+                    $params['order_status'] = $parameters['order_status'];
+                    $customerModel = new customerModel();
+                    $result = $customerModel->updateOrder($params, $where);
+                    if(!empty($result)) {
+                        $response = array('status'=>'success', 'msg'=>'order updated successfully.');
+                    }
+                }else {
+                    $response['msg']='Order not assigned with this rider.';
+                }
+            }
+        }
+        
+       return $response;
+    }
+    
     function getAssignedOrderToRider($parameters) {
         $status = true;
         $response = array('status'=>'fail', 'msg'=>'No Record Found');                
