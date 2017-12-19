@@ -531,4 +531,16 @@ class customerModel  {
             return false;
         }        
     }
+    
+    function enterDataIntoMailQueue($params) {
+        try {
+            $query = $this->sql->insert('email_queue')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }
