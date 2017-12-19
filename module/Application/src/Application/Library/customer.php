@@ -1015,21 +1015,16 @@ class customer {
             $userDetails = $this->getUserDetail($data);
             if(!empty($userDetails['data'])){
                 foreach ($userDetails['data'] as $key => $value) {
-                   $to_mail_id =  $value['email'];
+                   $data['to_email_id'] =  $value['email'];
                    $to_name =  $value['name'];
                 }
-                if(!empty($to_mail_id)){
-                    $body = "Hi '$to_name', \r\n   We have sent you this email in response to your request to reset your password on Accra Basket. Please click on <a href='#' >Click here</a> to change password. ";
-                    $mail = new Mail\Message();
-                    $mail->setBody($body);
-                    $mail->setFrom('vgiri8308@gmail.com', 'Vikash');
-                    $mail->addTo($to_name, $to_name);
-                    $mail->setSubject('Forget Password');
-                    $transport = new Mail\Transport\Sendmail();
-                    $result = $transport->send($mail);
-                    if (!empty($result)){
-                        $response = array('status' => 'success', 'msg' => 'password change request send');
-                    }
+                $data['body'] = "Hi '$to_name', \r\n   We have sent you this email in response to your request to reset your password on Accra Basket. Please click on <a href='#' >Click here</a> to change password. ";
+                $data['from_email_id'] =  'vgiri8308@gmail.com';
+                $data['subject'] =  'Forget Password';
+                unset($data['email']);
+                $result = $this->customerModel->enterDataIntoMailQueue($data);
+                if(!empty($result)){
+                    $response = array('status' => 'success', 'msg' => 'Forget password link send .');
                 }
                 
             }
