@@ -277,6 +277,8 @@ class customerModel  {
             }            
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('user_id'=>$where['user_id']));
+            }else {
+                $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
             }            
             if(!empty($where['order_status'])){
                 $query = $query->where(array('order_status'=>$where['order_status']));

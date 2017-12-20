@@ -667,7 +667,7 @@ class customer {
         $countOptional['count_row'] = true;
         $customerModel = new customerModel();
         $totalNumberOfOrders = $customerModel->orderList($orderWhere, $countOptional);
-        $orderListData = $this->prepareOrderList($orderList);
+        $orderListData = $this->prepareOrderList($orderList, $orderWhere);
         if(!empty($orderListData)) {
             $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
         }
@@ -675,7 +675,7 @@ class customer {
         return $response;
     }
     
-    function prepareOrderList($orderData){
+    function prepareOrderList($orderData, $optional){
         $orderListByOrderId = array();
         $orderDataList = array();
         if(!empty($orderData)) {
@@ -692,7 +692,7 @@ class customer {
                         if(!empty($orderItem['product_dump'])) {
                             $orderItem['product_dump'] = json_decode($orderItem['product_dump']);
                         }
-                        if(!empty($orderListByOrderId[$orderItem['order_id']]['parent_order_id'])) {
+                        if(!empty($optional['user_id']) && !empty($orderListByOrderId[$orderItem['order_id']]['parent_order_id'])) {
                             $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['order_details'] = isset($orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']])?$orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]:'';
                             $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
                         }else{
