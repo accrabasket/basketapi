@@ -257,7 +257,8 @@ class customer {
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = true;
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
-        } 
+        }
+        $this->customerModel = new customerModel();
         $result = $this->customerModel->getUserDetail($where, $optional);
         if(!empty($result)) {
             $customerData = $this->processResult($result, 'id');
@@ -668,8 +669,8 @@ class customer {
         $customerModel = new customerModel();
         $totalNumberOfOrders = $customerModel->orderList($orderWhere, $countOptional);
         $orderListData = $this->prepareOrderList($orderList, $orderWhere);
-        if(!empty($orderListData)) {
-            $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
+        if(!empty($orderListData['order_list'])) {
+            $response = array('status'=>'success', 'data'=>$orderListData['order_list'],'shipping_address_list'=>$orderListData['shipping_address_list'],'user_details'=>$orderListData['user_details'], 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
         }
         
         return $response;
@@ -681,23 +682,35 @@ class customer {
         if(!empty($orderData)) {
             foreach($orderData as $orders) {
                 $orderListByOrderId[$orders['order_id']] = $orders;
+                $shippingAddressList[$orders['shipping_address_id']] = $orders['shipping_address_id'];
+                $userIds[$orders['user_id']] = $orders['user_id'];
             }
             if(!empty($orderListByOrderId)) {
                 $orderIds = array_keys($orderListByOrderId);
                 $orderItemWhere = array();
                 $orderItemWhere['order_id'] = $orderIds;
                 $orderItems = $this->customerModel->getOrderItem($orderItemWhere);
+                
+                $userParams['id'] = array_keys($userIds);
+                $userDetails = $this->getUserDetail($userParams);
+                $orderDataList['user_details'] = $userDetails['data'];
+                
+                $addressParams['id'] = array_keys($shippingAddressList);
+                $customerModel = new customerModel();
+                $addressList = $customerModel->getAddressList($addressParams);
+                $orderDataList['shipping_address_list'] = $this->processResult($addressList, 'id');                
+                
                 if(!empty($orderItems)) {
                     foreach($orderItems as $orderItem){
                         if(!empty($orderItem['product_dump'])) {
                             $orderItem['product_dump'] = json_decode($orderItem['product_dump']);
                         }
                         if(!empty($optional['user_id']) && !empty($orderListByOrderId[$orderItem['order_id']]['parent_order_id'])) {
-                            $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['order_details'] = isset($orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']])?$orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]:'';
-                            $orderDataList[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
+                            $orderDataList['order_list'][$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['order_details'] = isset($orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']])?$orderListByOrderId[$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]:'';
+                            $orderDataList['order_list'][$orderListByOrderId[$orderItem['order_id']]['parent_order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
                         }else{
-                            $orderDataList[$orderItem['order_id']]['order_details'] = $orderListByOrderId[$orderItem['order_id']];
-                            $orderDataList[$orderItem['order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
+                            $orderDataList['order_list'][$orderItem['order_id']]['order_details'] = $orderListByOrderId[$orderItem['order_id']];
+                            $orderDataList['order_list'][$orderItem['order_id']]['orderitem'][$orderItem['merchant_product_id']] = $orderItem; 
                         }
                     }
                 }
