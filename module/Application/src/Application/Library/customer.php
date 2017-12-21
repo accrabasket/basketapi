@@ -648,7 +648,10 @@ class customer {
         }else{
             $status = false;
             $response['msg'] = "User not supplied";
-        }      
+        }   
+        if(!empty($parameters['order_id'])) {
+            $orderWhere['order_id'] = $parameters['order_id'];
+        }
         if(!empty($parameters['order_status'])){
             $orderWhere['order_status'] = $parameters['order_status'];
             if($parameters['order_status'] == 'current_order'){
