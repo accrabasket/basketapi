@@ -230,7 +230,8 @@ class customer {
                 }else{
                     $result = $this->customerModel->addUser($userParams);
                     if(!empty($result)) {
-                         $response = array('status'=>'success', 'msg'=>"User created successfully.");
+                        $userDetails = $this->getUserDetail(array('email'=>$parameters['email']));
+                        $response = array('status'=>'success', 'msg'=>"User created successfully.",'data'=>$userDetails['data']);
                     }                    
                 }
             }
