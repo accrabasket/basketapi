@@ -682,7 +682,7 @@ class customer {
         $totalNumberOfOrders = $customerModel->orderList($orderWhere, $countOptional);
         $orderListData = $this->prepareOrderList($orderList, $orderWhere);
         if(!empty($orderListData['order_list'])) {
-            $response = array('status'=>'success', 'data'=>$orderListData['order_list'],'shipping_address_list'=>$orderListData['shipping_address_list'],'user_details'=>$orderListData['user_details'], 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
+            $response = array('status'=>'success', 'data'=>$orderListData['order_list'],'shipping_address_list'=>$orderListData['shipping_address_list'],'user_details'=>$orderListData['user_details'], 'time_slot_list'=>$orderListData['time_slot_list'], 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
         }
         
         return $response;
@@ -692,6 +692,9 @@ class customer {
         $orderListByOrderId = array();
         $orderDataList = array();
         $timeSlotList = array();
+        $orderDataList['shipping_address_list'] = array();
+        $orderDataList['time_slot_list'] = array();
+        $orderDataList['user_details'] = array();
         if(!empty($orderData)) {            
             foreach($orderData as $orders) {
                 $orderListByOrderId[$orders['order_id']] = $orders;
@@ -715,7 +718,7 @@ class customer {
                 $customerModel = new customerModel();
                 $addressList = $customerModel->getAddressList($addressParams);
                 $orderDataList['shipping_address_list'] = $this->processResult($addressList, 'id');                
-                
+                                
                 if(!empty($timeSlotList)) {
                     $timeSlotParams = array();
                     $timeSlotParams['id'] = array_keys($timeSlotList);

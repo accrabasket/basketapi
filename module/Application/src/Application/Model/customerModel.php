@@ -286,7 +286,7 @@ class customerModel  {
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
-            }            
+            }          
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             if(!empty($optional['count_row'])) {
