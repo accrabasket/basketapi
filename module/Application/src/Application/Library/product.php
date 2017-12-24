@@ -102,8 +102,10 @@ class product {
     function prepareProductWiseAttribute($productData, $productAttribute) {
         $productDetaList= array();
         foreach ($productData as $key=>$productDetails) {
-            $productDetaList[$key] = $productDetails;
-            $productDetaList[$key]['attribute'] = $productAttribute[$key];
+            if(!empty($productAttribute[$key])) {
+                $productDetaList[$key] = $productDetails;
+                $productDetaList[$key]['attribute'] = $productAttribute[$key];
+            }
         }
         return $productDetaList;
     }    
