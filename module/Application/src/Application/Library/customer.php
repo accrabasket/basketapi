@@ -77,6 +77,9 @@ class customer {
                     $where['merchant_inventry_id'] = $params['merchant_inventry_id'];
                     $result = $this->customerModel->deleteCart($where);
                     break;
+                case "clearcart":
+                    $result = $this->customerModel->deleteCart($where);
+                    break;                
             }
             if(!empty($result)) {
                $response['status'] = "success"; 
