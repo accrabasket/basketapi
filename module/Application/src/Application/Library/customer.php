@@ -1046,16 +1046,33 @@ class customer {
         if($status){
             $userDetails = $this->getUserDetail($data);
             if(!empty($userDetails['data'])){
-                foreach ($userDetails['data'] as $key => $value) {
-                   $data['to_email_id'] =  $value['email'];
-                   $to_name =  $value['name'];
-                }
-                $data['body'] = "Hi '$to_name', \r\n   We have sent you this email in response to your request to reset your password on Accra Basket. Please click on <a href='#' >Click here</a> to change password. ";
-                $data['from_email_id'] =  'vgiri8308@gmail.com';
-                $data['subject'] =  'Forget Password';
-                unset($data['email']);
-                $result = $this->customerModel->enterDataIntoMailQueue($data);
+                $replaceData = array();
+                $userValues = array_values($userDetails['data']);
+                $key = md5($userValues[0]['id'].time());
+                
+                $replaceData['name'] =  $userValues[0]['name'];
+                $replaceData['reset_link'] = FRONT_END_PATH.'index/changepassword?key='.$key;
+                
+                
+                $customerModel = new customerModel();
+                $templateWhere = array();
+                $templateWhere['type'] = 'forget_password';
+                $templateData = $customerModel->getEmailTemplate($templateWhere);
+                
+                $mailQuquedata = array();
+                $emailBody = $this->prepareEmailBody($templateData['body'], $replaceData);
+                $mailQuquedata['body'] = $emailBody;
+                $mailQuquedata['from_email_id'] =  FROM_EMAIL;
+                $mailQuquedata['subject'] =  $templateData['name'];
+                $mailQuquedata['to_email_id'] = $userValues[0]['email'];
+                $result = $this->customerModel->enterDataIntoMailQueue($mailQuquedata);
                 if(!empty($result)){
+                    
+                    $userParams['key'] = $key;
+                    $userParams['updated_date'] = date('Y-m-d H:i:s');
+                    $where = array('id'=>$userValues[0]['id']);
+                    $customerModel = new customerModel();
+                    $result = $customerModel->updateUser($userParams, $where); 
                     $response = array('status' => 'success', 'msg' => 'Forget password link send .');
                 }
                 
@@ -1085,6 +1102,15 @@ class customer {
 //            }
         }
         return $response;
+    }
+    function prepareEmailBody($body, $replaceData) {
+        if(!empty($replaceData)) {
+            foreach($replaceData as $key=>$value) {
+                $body = str_replace("{{".$key."}}", $value, $body);
+            }
+        }
+        
+        return $body;
     }
     function validateAuthKey($parameters) {
         $response = array('status'=>'fail', 'msg'=>'Atuhentication Failed');

@@ -545,4 +545,24 @@ class customerModel  {
             return false;
         }        
     }
+    function getEmailTemplate($where) {
+        try {
+                $query = $this->sql->select('email_template'); 
+                $query = $query->where($where);
+                if(!empty($optional['pagination'])) {
+                    $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                    $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+                }   
+
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                if(count($where)) {
+                    $result = $result->current();
+                }
+                return $result;
+        } catch (\Exception $ex) {
+            echo $ex->getMessage();die;
+            return false;
+        }         
+    }
 }
