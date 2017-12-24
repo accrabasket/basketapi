@@ -131,7 +131,7 @@ class customer {
         if(!empty($params['guest_user_id'])) {
             $where['guest_user_id'] = $params['guest_user_id'];
         }        
-        if(empty($params['guest_id']) && empty($params['user_id'])) {
+        if(empty($params['guest_user_id']) && empty($params['user_id'])) {
             $response['msg'] = "user Id not supplied";
             $status = FALSE;
         }        

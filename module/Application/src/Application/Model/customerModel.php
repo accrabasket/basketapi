@@ -36,8 +36,8 @@ class customerModel  {
             if(!empty($optional['user_id'])){
                 $query = $query->where(array('user_id'=>$optional['user_id']));
             }
-            if(!empty($optional['guest_id'])) {
-                $query = $query->where(array('guest_id'=>$optional['guest_id']));
+            if(!empty($optional['guest_user_id'])) {
+                $query = $query->where(array('guest_user_id'=>$optional['guest_user_id']));
             }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
