@@ -26,17 +26,19 @@ class customer {
         if(empty($parameters['action'])) {
             $response['msg'] = "Please pass action";
         }
-        if(isset($parameters['number_of_item'])) {
-            $params['number_of_item'] = $parameters['number_of_item'];
-        }else {
-            $response['msg'] = "Number of item not supplied";
-            $status = FALSE;
-        }
-        if(!empty($parameters['merchant_inventry_id'])) {
-            $params['merchant_inventry_id'] = $parameters['merchant_inventry_id'];
-        }else {
-            $response['msg'] = "Please select product";
-            $status = FALSE;
+        if($parameters['action'] != 'clearcart') {
+            if(isset($parameters['number_of_item'])) {
+                $params['number_of_item'] = $parameters['number_of_item'];
+            }else {
+                $response['msg'] = "Number of item not supplied";
+                $status = FALSE;
+            }
+            if(!empty($parameters['merchant_inventry_id'])) {
+                $params['merchant_inventry_id'] = $parameters['merchant_inventry_id'];
+            }else {
+                $response['msg'] = "Please select product";
+                $status = FALSE;
+            }
         }
         if(!empty($parameters['user_id'])){
             $where['user_id'] = $params['user_id'] = $parameters['user_id'];
