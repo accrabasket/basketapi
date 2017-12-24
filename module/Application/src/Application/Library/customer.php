@@ -494,6 +494,7 @@ class customer {
                 $parentOrder['user_id'] = $parameters['user_id'];
                 $parentOrderId = $parentOrder['order_id'] = $adminOrderId.'_'.$adminOrderSeq[$adminOrderId];
                 $parentOrder['store_id'] = 0;
+                $parentOrder['merchant_id'] = 0;
                 $parentOrder['shipping_address_id'] = $parameters['shipping_address_id'];
                 $parentOrder['amount'] = $orderDetails['totalOrderDetails']['amount'];
                 $parentOrder['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount'];
@@ -589,6 +590,7 @@ class customer {
                 }else {
                     $order[$productDetails['store_id']]['amount']+=$amount; 
                 }
+                $order[$productDetails['store_id']]['merchant_id'] = $productDetails['merchant_id'];
                 $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['amount'] = $amount; 
                 $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['number_of_item'] = $item['number_of_item']; 
                 $itemDetails = array();
@@ -683,11 +685,15 @@ class customer {
     function prepareOrderList($orderData, $optional){
         $orderListByOrderId = array();
         $orderDataList = array();
-        if(!empty($orderData)) {
+        $timeSlotList = array();
+        if(!empty($orderData)) {            
             foreach($orderData as $orders) {
                 $orderListByOrderId[$orders['order_id']] = $orders;
                 $shippingAddressList[$orders['shipping_address_id']] = $orders['shipping_address_id'];
                 $userIds[$orders['user_id']] = $orders['user_id'];
+                if(!empty($orders['time_slot_id'])) {
+                    $timeSlotList[$orders['time_slot_id']] = $orders['time_slot_id'];
+                }
             }
             if(!empty($orderListByOrderId)) {
                 $orderIds = array_keys($orderListByOrderId);
@@ -703,6 +709,15 @@ class customer {
                 $customerModel = new customerModel();
                 $addressList = $customerModel->getAddressList($addressParams);
                 $orderDataList['shipping_address_list'] = $this->processResult($addressList, 'id');                
+                
+                if(!empty($timeSlotList)) {
+                    $timeSlotParams = array();
+                    $timeSlotParams['id'] = array_keys($timeSlotList);
+                    $timeSlotList = $this->customercurlLib->deliveryTimeSlotList($timeSlotParams);
+                    if(!empty($timeSlotList['data'])) {
+                        $orderDataList['time_slot_list'] = $timeSlotList['data'];
+                    }
+                }
                 
                 if(!empty($orderItems)) {
                     foreach($orderItems as $orderItem){

@@ -2,6 +2,7 @@
 namespace Application\Library;
 use Application\Model\customercurlModel;
 use Application\Library\customer;
+use Application\Model\commonModel;
 class customercurl {
     public function __construct() {
         $this->customerCurlModel = new customercurlModel();
@@ -45,6 +46,27 @@ class customercurl {
         
         return $response;
     }
+    public function deliveryTimeSlotList($parameters, $optional = array()) {
+        $commonModel = new commonModel();
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        if(!empty($parameters['id'])){
+            $optional['id'] = $parameters['id'];
+        }
+        
+        if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+        }
+        
+        $result = $commonModel->deliveryTimeSlotList($optional);
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;
+    }    
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {
