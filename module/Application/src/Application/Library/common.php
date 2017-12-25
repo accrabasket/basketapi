@@ -578,6 +578,10 @@ class common  {
                 $params['password'] = $parameters['password'];
                 $rule['password'] = array('type'=>'string', 'is_required'=>true);
             }            
+            if(isset($parameters['fcm_reg_id'])) {
+                $params['fcm_reg_id'] = $parameters['fcm_reg_id'];
+                $rule['fcm_reg_id'] = array('type'=>'string', 'is_required'=>true);
+            }            
             if(isset($parameters['status'])) {
                 $params['status'] = $parameters['status'];                
             }         
@@ -1442,6 +1446,9 @@ class common  {
             $riderDetails = $this->riderList($where);
             if(!empty($riderDetails['data'])) {
                 $response = $riderDetails;
+                $riderData = array_values($riderDetails['data']);
+                $params['id'] = $riderData[0]['id'];
+                $this->addEditRider($params);
             }
         }
         
