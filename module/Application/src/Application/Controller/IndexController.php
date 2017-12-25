@@ -141,6 +141,9 @@ class IndexController extends AbstractActionController {
                 case 'deletetimeslot':
                     $response = $this->commonLib->deletetimeslot($parameters);
                     break;
+                case 'riderlogin':
+                    $response = $this->commonLib->riderLogin($parameters);
+                    break;                
             }
             
             echo json_encode($response);

@@ -625,6 +625,12 @@ class common  {
         if(!empty($parameters['email'])) {
             $optional['email'] = $parameters['email'];
         }
+        if(!empty($parameters['mobile_number'])) {
+            $optional['mobile_number'] = $parameters['mobile_number'];
+        }        
+        if(!empty($parameters['password'])) {
+            $optional['password'] = $parameters['password'];
+        }        
         if(isset($parameters['location_id'])) {
             $optional['location_id'] = $parameters['location_id'];
         }                
@@ -1408,5 +1414,40 @@ class common  {
         }
         return $slotAvl;
     }
+    
+    function riderLogin($parameters) {
+        $response = array('status'=>'fail','msg'=>'Invalid credentials');
+        $status = true;
+        $where = array();
+        if(!empty($parameters['email'])) {
+            $where['email'] = isset($parameters['email'])?$parameters['email']:'';
+            //$where['mobile_number'] = isset($parameters['mobile_number'])?$parameters['mobile_number']:'';
+        }else{
+            $status = false;
+            $response = array('status'=>'fail','msg'=>'Email not supplied');
+        }
+        if(!empty($parameters['password'])) {
+            $where['password'] = md5($parameters['password']);
+        }else{
+            $status = false;
+            $response = array('status'=>'fail','msg'=>'Password not supplied');
+        }        
+        if(!empty($parameters['fcm_reg_id'])) {
+            $params['fcm_reg_id'] = $parameters['fcm_reg_id'];
+        }else{
+            $status = false;
+            $response = array('status'=>'fail','msg'=>'Fcm Register id not supplied');
+        }        
+        if($status) {
+            $riderDetails = $this->riderList($where);
+            if(!empty($riderDetails['data'])) {
+                $response = $riderDetails;
+            }
+        }
+        
+        return $response;
+    }
+    
+    
 
 }

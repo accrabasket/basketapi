@@ -316,8 +316,11 @@ class commonModel  {
                 $query = $query->where($where->like('rider_master.name', "%".$optional['name']."%"));
             }            
             if(!empty($optional['email'])) {
-                $query = $query->where($where->like('rider_master.email', "%".$optional['email']."%"));
-            }            
+                $query = $query->where(array('rider_master.email'=>$optional['email']));
+            }
+            if(!empty($optional['password'])) {
+                $query = $query->where(array('rider_master.password'=>$optional['password']));
+            }
             if(isset($optional['location_id'])) {
                 $query = $query->where(array('rider_master.location_id'=>$optional['location_id']));
             }             
@@ -327,7 +330,8 @@ class commonModel  {
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
-            }
+            }            
+            ///echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
