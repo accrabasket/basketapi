@@ -885,6 +885,7 @@ class customer {
             $response['msg'] = "Rider not supplied";
         } 
         if(!empty($parameters['order_status'])){
+            $orderWhere['order_status'] = $parameters['order_status'];
             if($parameters['order_status'] == 'current_order'){
                $orderWhere['order_status'] = array('order_placed','ready_to_dispatch', 'dispatched'); 
             }else if($parameters['order_status'] == 'past_order') {
