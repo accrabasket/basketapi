@@ -10,6 +10,7 @@
 namespace Application\Library;
 use Application\Model\commonModel;
 class common  {
+    public $commonModel;
     public function __construct() {
         $this->commonModel = new commonModel();
     }
@@ -640,7 +641,31 @@ class common  {
             $response = array('status' => 'success', 'data' => $data);
         }
         return $response;        
-    }   
+    }
+    
+    function getRidersByStoreId($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $status = true;
+        $where = array();
+        if(!empty($parameters['store_id'])) {
+            $where['id'] = $parameters['store_id'];
+        }else{
+            $status = false;
+            $response['msg'] = 'Store id not supplied';
+        }
+        if($status) {
+            $storeResponse = $this->storelist($where);
+            if(!empty($storeResponse['data'])) {
+                $storeDetails = array_values($storeResponse['data']);
+                $riderWhere = array();
+                $riderWhere['location_id'] = $storeDetails[0]['location_id'];
+                $response = $this->riderList($riderWhere);
+            }
+        }
+        
+        return $response;
+    }
+    
     public function saveMerchant($parameters) {
         $response = array('status'=>'fail','msg'=>'Nothing to update.');
         $params = array();

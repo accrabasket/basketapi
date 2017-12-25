@@ -70,7 +70,10 @@ class IndexController extends AbstractActionController {
                     break;                 
                 case 'getRiderList':
                     $response = $this->commonLib->riderList($parameters);
-                    break;                 
+                    break;         
+                case 'getRidersByStoreId':
+                    $response = $this->commonLib->getRidersByStoreId($parameters);
+                    break;                
                 case 'saveMerchant':
                     $response = $this->commonLib->saveMerchant($parameters);
                     break;
