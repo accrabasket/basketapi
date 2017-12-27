@@ -313,7 +313,7 @@ class customerModel  {
     function assignedOrderToRider($where, $optional = array()) {
         try {
             $query = $this->sql->select('order_assignments');
-            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id', 'order_status'));
+            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id', 'order_status', 'payable_amount'));
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
@@ -534,9 +534,13 @@ class customerModel  {
         }        
     }
     
-    function enterDataIntoMailQueue($params) {
+    function enterDataIntoMailQueue($params, $optional=array()) {
         try {
-            $query = $this->sql->insert('email_queue')
+            $table = 'email_queue';
+            if(!empty($optional['queue_type'])) {
+                $table = $optional['queue_type'];
+            }
+            $query = $this->sql->insert($table)
                         ->values($params);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
@@ -545,9 +549,13 @@ class customerModel  {
             return false;
         }        
     }
-    function getEmailTemplate($where) {
+    function getTemplate($where, $optional = array()) {
         try {
-                $query = $this->sql->select('email_template'); 
+                $table = 'email_template';
+                if(!empty($optional['template_type'])) {
+                    $table = $optional['template_type'];
+                }
+                $query = $this->sql->select($table); 
                 $query = $query->where($where);
                 if(!empty($optional['pagination'])) {
                     $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
@@ -561,8 +569,20 @@ class customerModel  {
                 }
                 return $result;
         } catch (\Exception $ex) {
-            echo $ex->getMessage();die;
             return false;
         }         
     }
+    
+    function getNotification($where) {
+        try {
+            $query = $this->sql->select('notification_queue');
+            $query = $query->where($where);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
+
 }

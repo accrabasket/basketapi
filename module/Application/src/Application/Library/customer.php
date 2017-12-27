@@ -791,6 +791,17 @@ class customer {
                 $params['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->assignOrder($params);
                 if(!empty($result)) {
+                    $orderWhere = array();
+                    $orderWhere['order_id'] = $parameters['order_id'];
+                    
+                    $orderParams = array();
+                    $orderParams['order_status'] = 'assigned_order_to_rider';
+                    
+                    $customerModel = new customerModel();
+                    $customerModel->updateOrder($orderParams, $orderWhere);
+                    
+                    $params['user_type'] = 'rider';
+                    $this->sentNotification('order_assignment_to_rider', $params);
                     $response = array('status'=>'success', 'msg'=>'order assigned to rider.');
                 }
             }
@@ -799,6 +810,37 @@ class customer {
         return $response;
     }
     
+    function sentNotification($notification, $parameters) {
+        $notificationTemplateWhere = array();
+        $notificationTemplateWhere['name'] = $notification;
+        $templateDetails = $this->getNotificationTemplate($notificationTemplateWhere);
+        $params = array();
+        
+        $replaceData = array();
+        $replaceData['order_id'] = $parameters['order_id'];
+        
+        $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData);        
+        $params['subject'] = $templateDetails['subject'];
+        $params['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:$parameters['rider_id'];
+        $params['user_type'] = $parameters['user_type'];
+        $params['status'] = '0';
+        $params['created_date'] = date("Y-m-d H:i:s");      
+        $customerModel = new customerModel();
+        $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));
+    }
+    
+    function getNotificationTemplate($parameters) {
+        $params = array();
+        if(!empty($parameters['name'])) {
+            $params['name'] = $parameters['name'];
+        }       
+        $optional = array();
+        $optional['template_type'] = 'notification_template';
+        $result = $this->customerModel->getTemplate($params, $optional);
+        
+        return $result;
+    }
+            
     function unassignOrder($parameters) {
         $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
         $status = true;
@@ -822,6 +864,14 @@ class customer {
             $customerModel = new customerModel();
             $return = $customerModel->updateOrderAssignment($params, $where);
             if(!empty($return)) {
+                $orderWhere = array();
+                $orderWhere['order_id'] = $parameters['order_id'];
+
+                $orderParams = array();
+                $orderParams['order_status'] = 'order_placed';
+
+                $customerModel = new customerModel();
+                $customerModel->updateOrder($orderParams, $orderWhere);                
                 $response = array('status'=>'success', 'msg'=>'data updated', 'data'=>array('order_id'=>$parameters['order_id']));
             }
         }
@@ -849,7 +899,7 @@ class customer {
         }        
         
         if($parameters['role'] == 'rider') {
-            $where['order_status'] = array('order_placed','ready_to_dispatch','dispatched');
+            $where['order_status'] = array('order_placed','ready_to_dispatch','assigned_order_to_rider','dispatched');
         }
         if($status) {
             $orderList = $this->customerModel->assignedOrderToRider($where); 
@@ -887,7 +937,7 @@ class customer {
         if(!empty($parameters['order_status'])){
             $orderWhere['order_status'] = $parameters['order_status'];
             if($parameters['order_status'] == 'current_order'){
-               $orderWhere['order_status'] = array('order_placed','ready_to_dispatch', 'dispatched'); 
+               $orderWhere['order_status'] = array('assigned_to_rider'); 
             }else if($parameters['order_status'] == 'past_order') {
                 $orderWhere['order_status'] = array('completed','returned','cancelled', 'return_request');
             }
@@ -1067,7 +1117,7 @@ class customer {
                 $customerModel = new customerModel();
                 $templateWhere = array();
                 $templateWhere['type'] = 'forget_password';
-                $templateData = $customerModel->getEmailTemplate($templateWhere);
+                $templateData = $customerModel->getTemplate($templateWhere);
                 
                 $mailQuquedata = array();
                 $emailBody = $this->prepareEmailBody($templateData['body'], $replaceData);
