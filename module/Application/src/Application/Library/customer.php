@@ -882,7 +882,7 @@ class customer {
         $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
         $status = true;
         if(!empty($parameters['rider_id'])) {
-            $where['user_id'] = $parameters['rider_id'];
+            $where['rider_id'] = $parameters['rider_id'];
         }else{
             $status = false;
             $response['msg'] = "Rider not supplied";
@@ -899,7 +899,7 @@ class customer {
         }        
         
         if($parameters['role'] == 'rider') {
-            $where['order_status'] = array('order_placed','ready_to_dispatch','assigned_order_to_rider','dispatched');
+            $where['order_status'] = array('order_placed','ready_to_dispatch','assigned_to_rider','dispatched');
         }
         if($status) {
             $orderList = $this->customerModel->assignedOrderToRider($where); 
