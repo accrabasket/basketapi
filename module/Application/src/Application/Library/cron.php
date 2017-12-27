@@ -12,7 +12,8 @@ use Application\Library\common;
 use Zend\Mail;
 class cron {
     public $customerModel;
-    public $customercurlLib;
+    public $commonLib;
+    
     public function __construct() {
         $this->customerModel = new customerModel();
         $this->commonLib = new common();
@@ -22,7 +23,7 @@ class cron {
         $where = array();
         $where['status']='0';
         $notificationList = $this->customerModel->getNotification($where);
-        if(!empty($notification)) {
+        if(!empty($notificationList)) {
             foreach($notificationList as $notification) {
                 $this->setTitle($notification['subject']);
                 $this->setMessage($notification['msg']);
@@ -35,6 +36,7 @@ class cron {
                     $userDetail = $this->commonLib->riderList($riderWhere);
                 }
                 if(!empty($userDetail['data'])) {
+                    
                     $userData = array_values($userDetail['data']);
                     if(empty($userData[0]['fcm_reg_id'])) {
                         continue;
@@ -76,8 +78,6 @@ class cron {
 
     // function makes curl request to firebase servers
     private function sendPushNotification($fields) {
-        
-        require_once __DIR__ . '/config.php';
 
         // Set POST variables
         $url = 'https://fcm.googleapis.com/fcm/send';
@@ -139,7 +139,7 @@ class cron {
         $res['data']['is_background'] = $this->is_background;
         $res['data']['message'] = $this->message;
         $res['data']['image'] = $this->image;
-        $res['data']['payload'] = $this->data;
+        //$res['data']['payload'] = $this->data;
         $res['data']['timestamp'] = date('Y-m-d G:i:s');
         return $res;
     }    

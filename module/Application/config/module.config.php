@@ -86,7 +86,9 @@ return array(
         'invokables' => array(
             'Application\Controller\Index' => 'Application\Controller\IndexController',
             'Application\Controller\Product' => 'Application\Controller\ProductController',
-            'Application\Controller\Customer' => 'Application\Controller\CustomerController'
+            'Application\Controller\Customer' => 'Application\Controller\CustomerController',
+            'Application\Controller\Cron' => 'Application\Controller\CronController'
+            
         ),
     ),
     'view_manager' => array(

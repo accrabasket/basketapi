@@ -8,11 +8,11 @@
  */
 namespace Application\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
-use Application\Library\customer;
+use Application\Library\cron;
 use Zend\Mail;
 
 class CronController extends AbstractActionController {
-
+    var $cronLib;
     public function __construct() {
         $this->cronLib = new cron();
     }
@@ -23,7 +23,7 @@ class CronController extends AbstractActionController {
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
                 case 'sendnotification':
-                    $response = $this->customerLib->sendNotification($parameters);
+                    $response = $this->cronLib->sendNotification($parameters);
                     break;             
             }
 
