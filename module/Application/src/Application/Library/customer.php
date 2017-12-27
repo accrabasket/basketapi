@@ -882,7 +882,7 @@ class customer {
         $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
         $status = true;
         if(!empty($parameters['rider_id'])) {
-            $where['rider_id'] = $parameters['rider_id'];
+            $where['user_id'] = $parameters['rider_id'];
         }else{
             $status = false;
             $response['msg'] = "Rider not supplied";
@@ -911,7 +911,7 @@ class customer {
                     $params = array();
                     $params['order_status'] = $parameters['order_status'];
                     $customerModel = new customerModel();
-                    $result = $customerModel->updateOrder($params, $where);
+                    $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
                         $response = array('status'=>'success', 'msg'=>'order updated successfully.');
                     }
