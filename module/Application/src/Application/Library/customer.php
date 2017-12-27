@@ -971,6 +971,7 @@ class customer {
             $shippingAddressList[$orders['shipping_address_id']] = $orders['shipping_address_id'];
             $storeList[$orders['store_id']] = $orders['store_id'];
             $orderList[$orders['order_id']] = $orders;
+            $userIds[$orders['user_id']] = $orders['user_id'];
         }
         
         if(!empty($shippingAddressList)) {
@@ -978,8 +979,8 @@ class customer {
             $addressList = $this->customerModel->getAddressList($addressParams);
             $shippingAddressList = $this->processResult($addressList, 'id');
             
-            $userIds['id'] = array_keys($shippingAddressList);
-            $userList = $this->getUserDetail($userIds);
+            $userWhere['id'] = $userIds;
+            $userList = $this->getUserDetail($userWhere);
             if(!empty($userList['data'])) {
                 $userListData = $userList['data'];
             }
