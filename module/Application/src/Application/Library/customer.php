@@ -795,7 +795,7 @@ class customer {
                     $orderWhere['order_id'] = $parameters['order_id'];
                     
                     $orderParams = array();
-                    $orderParams['order_status'] = 'assigned_order_to_rider';
+                    $orderParams['order_status'] = 'assigned_to_rider';
                     
                     $customerModel = new customerModel();
                     $customerModel->updateOrder($orderParams, $orderWhere);
