@@ -966,6 +966,7 @@ class customer {
         $storeList = array();
         $orderItemList = array();
         $orderList = array();
+        $userListData = array();
         foreach($orderData as $orders) {
             $shippingAddressList[$orders['shipping_address_id']] = $orders['shipping_address_id'];
             $storeList[$orders['store_id']] = $orders['store_id'];
@@ -977,6 +978,11 @@ class customer {
             $addressList = $this->customerModel->getAddressList($addressParams);
             $shippingAddressList = $this->processResult($addressList, 'id');
             
+            $userIds['id'] = array_keys($shippingAddressList);
+            $userList = $this->getUserDetail($userIds);
+            if(!empty($userList['data'])) {
+                $userListData = $userList['data'];
+            }
             $orderParams['order_id'] = array_keys($orderList);
             $orderItems = $this->customerModel->getOrderItem($orderParams);
             $orderItemList = $this->processResult($orderItems, 'order_id', true);
@@ -985,7 +991,7 @@ class customer {
             $storeList = $this->customercurlLib->getStoreListById($storeParams);
         }
         if(!empty($shippingAddressList)) {
-            return array('orderList'=>$orderList,'shippingAddressList'=>$shippingAddressList, 'orderItemList'=>$orderItemList, 'storeList'=>$storeList['data']);
+            return array('orderList'=>$orderList,'shippingAddressList'=>$shippingAddressList,'userList'=>$userListData, 'orderItemList'=>$orderItemList, 'storeList'=>$storeList['data']);
         }
         
         return false;
