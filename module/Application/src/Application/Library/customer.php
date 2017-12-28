@@ -653,10 +653,7 @@ class customer {
         $orderWhere = array();
         if(!empty($parameters['user_id'])) {
             $orderWhere['user_id'] = $parameters['user_id'];
-        }else{
-            $status = false;
-            $response['msg'] = "User not supplied";
-        }   
+        }
         if(!empty($parameters['order_id'])) {
             $orderWhere['order_id'] = $parameters['order_id'];
         }

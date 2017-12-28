@@ -45,6 +45,13 @@ class cron {
                 
                 $regId = $userData[0]['fcm_reg_id'];//to Do
                 $response = $this->send($regId, $json); 
+                $notificationResponse = json_decode($response, true);
+                $notificationParams = array();
+                $notificationParams['status'] = !empty($notificationResponse['success'])?1:2;
+                $notificationParams['response'] = $response;
+                $whereParams['id'] = $notification['id'];
+                $customerModel = new customerModel();
+                $customerModel->updateNotification($notificationParams, $whereParams);
             }
         }
         return $response;

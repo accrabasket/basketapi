@@ -584,5 +584,21 @@ class customerModel  {
             return false;
         }
     }
+    function updateNotification($params, $where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('notification_queue')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 
 }
