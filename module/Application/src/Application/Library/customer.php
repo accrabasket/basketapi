@@ -742,7 +742,7 @@ class customer {
                 
             }
         }
-        
+        rsort($orderDataList['order_list']);
         return $orderDataList;
     }
     
