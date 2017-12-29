@@ -928,6 +928,50 @@ class customer {
        return $response;
     }
     
+    function updateOrderStatus($parameters) {
+        $status = true;
+        $response = array('status'=>'fail', 'msg'=>'Nothing to update.');  
+        $orderWhere = array();
+        $orderParams = array();
+        if(!empty($parameters['order_status'])) {
+            $orderParams['order_status'] = $parameters['order_status'];
+        }else {
+            $status = false;
+            $response['msg'] = 'Please pass order status';                            
+        }
+        if(!empty($parameters['role']) && $parameters['role'] == 'merchant') {
+            if(!empty($parameters['merchant_id'])) {
+                $orderWhere['merchant_id'] = $parameters['merchant_id'];
+            }else{
+                $status = false;
+                $response['msg'] = 'Please Pass merchant id';                
+            }            
+        }else{
+            $status = false;
+            $response['msg'] = 'Please Pass Role name';                            
+        }
+        
+        if(!empty($parameters['user_id'])) {
+            $orderWhere['user_id'] = $parameters['user_id'];
+        }
+        if(!empty($parameters['order_id'])) {
+            $orderWhere['order_id'] = $parameters['order_id'];
+        }else {
+            $status = false;
+             $response['msg'] = 'Please order id not Supplied';
+        }
+        if(!empty($parameters['store_id'])) {
+            $orderWhere['store_id'] = $parameters['store_id'];
+        }         
+        if($status) {
+            $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
+            if(!empty($return)) {
+                $response = array('status'=>'success', 'msg'=>'Record updated', 'data'=>$orderWhere);  
+            }
+        }
+        
+        return $response;
+    }
     function getAssignedOrderToRider($parameters) {
         $status = true;
         $response = array('status'=>'fail', 'msg'=>'No Record Found');                

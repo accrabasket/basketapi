@@ -73,7 +73,11 @@ class CustomerController extends AbstractActionController {
                 case 'updateorderbyrider':
                     $parameters['role'] = 'rider';
                     $response = $this->customerLib->updateOrderByRider($parameters);
-                    break;                
+                    break;       
+                case 'updateOrderstatus':
+                    $response = $this->customerLib->updateOrderStatus($parameters);
+                    break;                       
+                
             }
 
             echo json_encode($response);
