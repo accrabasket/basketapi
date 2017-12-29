@@ -275,6 +275,12 @@ class customerModel  {
             if(!empty($where['order_id'])) {
                 $query = $query->where(array('order_id'=>$where['order_id']));
             }            
+            if(!empty($where['store_id'])) {
+                $query = $query->where(array('store_id'=>$where['store_id']));
+            }                          
+            if(!empty($where['merchant_id'])) {
+                $query = $query->where(array('merchant_id'=>$where['merchant_id']));
+            }             
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('user_id'=>$where['user_id']));
             }else {

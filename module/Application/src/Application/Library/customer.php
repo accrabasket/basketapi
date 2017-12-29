@@ -521,6 +521,7 @@ class customer {
                 $orderData['order_id'] = $orderId;
                 $orderData['parent_order_id'] = $parentOrderId;
                 $orderData['store_id'] = $storeId;
+                $orderData['merchant_id'] = $orderDetail['merchant_id'];
                 $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
                 $orderData['amount'] = $orderDetail['amount'];
                 $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
@@ -657,6 +658,12 @@ class customer {
         if(!empty($parameters['order_id'])) {
             $orderWhere['order_id'] = $parameters['order_id'];
         }
+        if(!empty($parameters['store_id'])) {
+            $orderWhere['store_id'] = $parameters['store_id'];
+        } 
+        if(!empty($parameters['merchant_id'])) {
+            $orderWhere['merchant_id'] = $parameters['merchant_id'];
+        }          
         if(!empty($parameters['order_status'])){
             $orderWhere['order_status'] = $parameters['order_status'];
             if($parameters['order_status'] == 'current_order'){
