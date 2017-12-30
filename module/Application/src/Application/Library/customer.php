@@ -827,6 +827,7 @@ class customer {
         $params['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:$parameters['rider_id'];
         $params['user_type'] = $parameters['user_type'];
         $params['status'] = '0';
+        $params['response'] = '';
         $params['created_date'] = date("Y-m-d H:i:s");      
         $customerModel = new customerModel();
         $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));
