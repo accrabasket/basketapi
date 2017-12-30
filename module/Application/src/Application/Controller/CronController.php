@@ -16,20 +16,8 @@ class CronController extends AbstractActionController {
     public function __construct() {
         $this->cronLib = new cron();
     }
-    public function indexAction() {
-        $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
-        $parameters = trim($_REQUEST['parameters'], "\"");
-        $parameters = json_decode($parameters, true);
-        if (!empty($parameters['method'])) {
-            switch ($parameters['method']) {
-                case 'sendnotification':
-                    $response = $this->cronLib->sendNotification($parameters);
-                    break;             
-            }
-
-            echo json_encode($response);
-            exit;
-        }
+    public function sendnotificationAction() {
+        $response = $this->cronLib->sendNotification();
         echo json_encode($response);
         exit;
     }
