@@ -566,16 +566,16 @@ class common  {
                 $params['name'] = $parameters['name'];
                 $rule['name'] = array('type'=>'string', 'is_required'=>true);
             }
-            if(isset($parameters['email'])) {
-                $params['email'] = $parameters['email'];
-                $rule['email'] = array('type'=>'string', 'is_required'=>true);               
-            }
+            if(isset($parameters['mobile_number'])) {
+                $params['mobile_number'] = $parameters['mobile_number'];
+                $rule['mobile_number'] = array('type'=>'numeric', 'is_required'=>true);               
+            }            
             if(isset($parameters['location_id'])) {
                 $params['location_id'] = (int)$parameters['location_id'];
                 $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
             }
             if(isset($parameters['password'])) {
-                $params['password'] = $parameters['password'];
+                $params['password'] = md5($parameters['password']);
                 $rule['password'] = array('type'=>'string', 'is_required'=>true);
             }            
             if(isset($parameters['fcm_reg_id'])) {
@@ -588,12 +588,14 @@ class common  {
         }else{
             $params['name'] = $parameters['name'];
             $params['email'] = $parameters['email'];
+            $params['mobile_number'] = $parameters['mobile_number'];
             $params['password'] = $parameters['password'];            
             $params['location_id'] = (int)$parameters['location_id'];
             $params['status'] = $parameters['status'];
             
             $rule['name'] = array('type'=>'string', 'is_required'=>true);
             $rule['email'] = array('type'=>'string', 'is_required'=>true);
+            $rule['mobile_number'] = array('type'=>'numeric', 'is_required'=>true);
             $rule['password'] = array('type'=>'string', 'is_required'=>true);
             $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
         }
