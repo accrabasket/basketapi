@@ -1375,8 +1375,8 @@ class common  {
         
         if (!empty($result)) {
             $data = array();
-            $today = date('d M');
-            $tomorrow = date('d M', time()+86400);
+            $today = date('d M Y');
+            $tomorrow = date('d M Y', time()+86400);
             $dateWiseTimeSlot = array();
             $hour = date('H');
             foreach ($result as $key => $value) {
@@ -1385,9 +1385,8 @@ class common  {
                 if($value['start_time_slot'] > $hour) {
                     $dateWiseTimeSlot[$today][$value['id']] = $value;
                 }
-                
             }
-            $response = array('status' => 'success', 'data' => $data, 'datewisetimeslot'=>$dateWiseTimeSlot);
+            $response = array('status' => 'success', 'data' => $data, 'datewisetimeslot'=>$dateWiseTimeSlot, 'response_time'=>date('d-m-Y H:i:s'));
         }
         return $response;
     }
