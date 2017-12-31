@@ -202,8 +202,9 @@ class customer {
             $rules['name']               =  array('type'=>'string', 'is_required'=>true);                        
         }
         
-        $response = $this->isValid($rules, $userParams);
+        $response = $this->isValid($rules, $userParams);        
         if(empty($response)) {
+            $response['status'] = 'fail';
             $userDetails = $this->getUserDetail($userInputParams);
             if(!empty($userParams['id'])) {
                 if(!empty($userDetails['data'])) {
@@ -805,6 +806,13 @@ class customer {
                     
                     $params['user_type'] = 'rider';
                     $this->sentNotification('order_assignment_to_rider', $params);
+                    
+                    $merchantNotificationParams = array();
+                    $merchantNotificationParams['user_type'] = 'merchant';
+                    $merchantNotificationParams['user_id'] = $orderDetails['merchant_id'];
+                    $merchantNotificationParams['order_id'] = $params['order_id'];
+                    
+                    $this->sentNotification('order_assignment_to_rider_for_merchant', $merchantNotificationParams);
                     $response = array('status'=>'success', 'msg'=>'order assigned to rider.');
                 }
             }
@@ -820,7 +828,9 @@ class customer {
         $params = array();
         
         $replaceData = array();
-        $replaceData['order_id'] = $parameters['order_id'];
+        if(!empty($parameters['order_id'])) {
+            $replaceData['order_id'] = $parameters['order_id'];
+        }
         
         $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData);        
         $params['subject'] = $templateDetails['subject'];
