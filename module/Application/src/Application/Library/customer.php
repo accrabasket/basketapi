@@ -800,7 +800,7 @@ class customer {
                     
                     $orderParams = array();
                     $orderParams['order_status'] = 'assigned_to_rider';
-                    
+                    $orderParams['updated_date'] = date('Y-m-d H:i:s');
                     $customerModel = new customerModel();
                     $customerModel->updateOrder($orderParams, $orderWhere);
                     
@@ -883,7 +883,7 @@ class customer {
 
                 $orderParams = array();
                 $orderParams['order_status'] = 'order_placed';
-
+                $orderParams['updated_date'] = date('Y-m-d H:i:s');
                 $customerModel = new customerModel();
                 $customerModel->updateOrder($orderParams, $orderWhere);                
                 $response = array('status'=>'success', 'msg'=>'data updated', 'data'=>array('order_id'=>$parameters['order_id']));
@@ -924,6 +924,7 @@ class customer {
                     $orderWhere['order_id'] = $orderDetails['order_id'];
                     $params = array();
                     $params['order_status'] = $parameters['order_status'];
+                    $params['updated_date'] = date('Y-m-d H:i:s');
                     $customerModel = new customerModel();
                     $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
@@ -974,6 +975,7 @@ class customer {
             $orderWhere['store_id'] = $parameters['store_id'];
         }         
         if($status) {
+            $orderParams['updated_date'] =('Y-m-d H:i:s');
             $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
             if(!empty($return)) {
                 $response = array('status'=>'success', 'msg'=>'Record updated', 'data'=>$orderWhere);  
