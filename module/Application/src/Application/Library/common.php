@@ -1375,8 +1375,8 @@ class common  {
         
         if (!empty($result)) {
             $data = array();
-            $today = date('d M Y');
-            $tomorrow = date('d M Y', time()+86400);
+            $today = date('d-m-Y');
+            $tomorrow = date('d-m-Y', time()+86400);
             $dateWiseTimeSlot = array();
             $hour = date('H');
             foreach ($result as $key => $value) {
