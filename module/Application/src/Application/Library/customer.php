@@ -759,6 +759,7 @@ class customer {
         $optional = array();
         $status = true;
         $params = array();
+        $merchantNotification = 1;
         if(!empty($parameters['rider_id'])) {
             $params['rider_id'] = $parameters['rider_id'];
         }else{
@@ -787,6 +788,7 @@ class customer {
                         $unAssignOrderParams['status'] = 0;
                         
                         $orderList = $this->unassignOrder($unAssignOrderParams);        
+                        $merchantNotification = 0;
                     }
                 }
             }
@@ -806,13 +808,14 @@ class customer {
                     
                     $params['user_type'] = 'rider';
                     $this->sentNotification('order_assignment_to_rider', $params);
+                    if($merchantNotification) {
+                        $merchantNotificationParams = array();
+                        $merchantNotificationParams['user_type'] = 'merchant';
+                        $merchantNotificationParams['user_id'] = $orderDetails['merchant_id'];
+                        $merchantNotificationParams['order_id'] = $params['order_id'];
                     
-                    $merchantNotificationParams = array();
-                    $merchantNotificationParams['user_type'] = 'merchant';
-                    $merchantNotificationParams['user_id'] = $orderDetails['merchant_id'];
-                    $merchantNotificationParams['order_id'] = $params['order_id'];
-                    
-                    $this->sentNotification('order_assignment_to_rider_for_merchant', $merchantNotificationParams);
+                        $this->sentNotification('order_assignment_to_rider_for_merchant', $merchantNotificationParams);
+                    }
                     $response = array('status'=>'success', 'msg'=>'order assigned to rider.');
                 }
             }
