@@ -482,6 +482,14 @@ class customer {
             $status = false;
             $response['msg'] = "shipping address not supplied";            
         }
+        if(empty($parameters['time_slot_id'])) {
+            $status = false;
+            $response['msg'] = "time_slot_id not supplied";            
+        }        
+        if(empty($parameters['delivery_date'])) {
+            $status = false;
+            $response['msg'] = "delivery date not supplied";            
+        }        
         if($status) {
             $cartData = $this->getItemIntoCart($cartParams);
             if(empty($cartData['data'])){
@@ -508,6 +516,8 @@ class customer {
                 $parentOrder['discount_amount'] = $orderDetails['totalOrderDetails']['discount_amount'];
                 $parentOrder['tax_amount'] = $orderDetails['totalOrderDetails']['tax_amount'];
                 $parentOrder['commission_amount'] = $orderDetails['totalOrderDetails']['commission_amount'];
+                $parentOrder['time_slot_id'] = !empty($parameters['time_slot_id'])?$parameters['time_slot_id']:0;
+                $parentOrder['delivery_date'] = $parameters['delivery_date'];
                 $parentOrder['created_date'] = date('Y-m-d H:i:s');
                 $parentOrder['payment_status'] = 'unpaid';
                 $result = $this->customerModel->createOrder($parentOrder);
@@ -519,6 +529,7 @@ class customer {
                 $orderData = array();
                 $orderData['user_id'] = $parameters['user_id'];
                 $orderData['time_slot_id'] = !empty($parameters['time_slot_id'])?$parameters['time_slot_id']:0;
+                $orderData['delivery_date'] = $parameters['delivery_date'];
                 $orderData['order_id'] = $orderId;
                 $orderData['parent_order_id'] = $parentOrderId;
                 $orderData['store_id'] = $storeId;
@@ -528,7 +539,7 @@ class customer {
                 $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
                 $orderData['discount_amount'] = $orderDetail['discount_amount'];
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
-                $orderData['payment_status'] = 'unpaid';    
+                $orderData['payment_status'] = 'unpaid';                    
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->createOrder($orderData);
                 if(!empty($result)) {
@@ -1317,6 +1328,9 @@ class customer {
         return $response;
     }
     function updatePaymentStatus($parameters) {
+        if(!empty($parameters['StatusCode']) && $parameters['StatusCode'] == 200) {
+            
+        }
         return $parameters;
     }
 }

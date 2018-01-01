@@ -22,7 +22,7 @@ class CronController extends AbstractActionController {
         exit;
     }
     public function updatepaymentstatusAction(){
-        $parameters = $_REQUEST;;
+        $parameters = $_REQUEST;
         echo json_encode($parameters);
         exit;
     }

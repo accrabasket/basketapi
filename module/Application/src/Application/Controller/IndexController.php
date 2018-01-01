@@ -13,6 +13,7 @@ namespace Application\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Application\Library\common;
 use Zend\Mail;
+use Application\Library\customer;
 
 class IndexController extends AbstractActionController {
 
@@ -21,6 +22,11 @@ class IndexController extends AbstractActionController {
     }
 
     public function indexAction() {
+        if(!empty($_REQUEST['TransactionId'])) {
+            $response = array('status' => 'fail', 'msg' => 'Payment Failed.');
+            $this->customerLib = new customer();
+            $response = $this->customerLib->updatePaymentStatus($_REQUEST);
+        }else{
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $parameters = trim($_REQUEST['parameters'], "\"");
         //echo $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";die;
@@ -145,7 +151,7 @@ class IndexController extends AbstractActionController {
                     $response = $this->commonLib->riderLogin($parameters);
                     break;                
             }
-            
+        }
             echo json_encode($response);
             exit;
         }
