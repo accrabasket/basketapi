@@ -608,5 +608,17 @@ class customerModel  {
             return false;
         }        
     }
+    
+    function savePaymentDetails($params) {
+        try {
+            $query = $this->sql->insert('payment_details')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
 
 }

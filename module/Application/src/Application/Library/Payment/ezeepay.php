@@ -22,7 +22,7 @@ class ezeepay {
         $fields['Signature'] = hash_hmac("sha256", $fields['MerchantId'].$fields['Amount'].$fields['Customer'].$fields['TransactionId'], $fields['SecretKey']);
         $tokenResponse = $this->genrateToken($fields);
         $response = json_decode($tokenResponse, TRUE);
-        if($response['response'] == 200) {
+        if($response['StatusCode'] == 200) {
             $paymentRequest = array();
             $paymentRequest['order_id'] = $orderId;
             $paymentRequest['payment_token_id'] = $response['TokenId'];
@@ -30,10 +30,19 @@ class ezeepay {
             $paymentRequest['amount'] = $amount;
             $paymentRequest['user_id'] = $userId;
             $paymentRequest['payment_type'] = 'ezeepay';
-            $paymentRequest['status'] = 'payment_awaited';
+            $paymentRequest['status'] = '0';
+            $paymentRequest['response'] = $tokenResponse;
+            $paymentRequest['created_date'] = date('Y-m-d H:i:s');
+            $this->savePaymentDetails($paymentRequest);
         }
         return $response;
     }
+    
+    public function savePaymentDetails($paymentRequest) {
+        $customerModel = new \Application\Model\customerModel();
+        $customerModel->savePaymentDetails($paymentRequest);
+    }
+    
     public function genrateToken($fields) {
         $parameters = http_build_query($fields);
         $url = 'http://52.35.53.106/gateway/api/requesttoken?'.$parameters;
@@ -46,10 +55,6 @@ class ezeepay {
         curl_close($ch);
         
         return $result;
-        
-    }
-    
-    public function savePaymentDetails() {
         
     }
 }

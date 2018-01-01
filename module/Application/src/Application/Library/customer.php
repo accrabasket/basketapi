@@ -1316,4 +1316,7 @@ class customer {
         }
         return $response;
     }
+    function updatePaymentStatus($parameters) {
+        return $parameters;
+    }
 }
