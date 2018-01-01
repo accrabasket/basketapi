@@ -21,7 +21,12 @@ class ezeepay {
         $fields['Amount'] = 1;
         $fields['Signature'] = hash_hmac("sha256", $fields['MerchantId'].$fields['Amount'].$fields['Customer'].$fields['TransactionId'], $fields['SecretKey']);
         $tokenResponse = $this->genrateToken($fields);
-        return json_decode($tokenResponse, TRUE);
+        $response = json_decode($tokenResponse, TRUE);
+        $paymentRequest = array();
+        $paymentRequest['order_id'] = $orderId;
+        $paymentRequest['order_id'] = $orderId;
+        $paymentRequest['order_id'] = $orderId;
+        return $response;
     }
     public function genrateToken($fields) {
         $parameters = http_build_query($fields);
@@ -38,4 +43,7 @@ class ezeepay {
         
     }
     
+    public function savePaymentDetails() {
+        
+    }
 }
