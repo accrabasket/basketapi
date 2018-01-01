@@ -309,7 +309,7 @@ class customerModel  {
         try {
             $query = $this->sql->select('order_items');
             $query = $query->where(array('order_id'=>$where['order_id']));
-            $query->order(array('order_id DESC'));
+            $query->order(array('id DESC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
