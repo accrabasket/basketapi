@@ -1337,7 +1337,7 @@ class customer {
         }else{
             $status = FALSE;
         }
-        if($status) {
+        if($status && $paymentDetail['status'] !=1) {
             $customerModel = new customerModel();
             $params = array();
             $params['updated_date'] = date('Y-m-d H:i:s');
