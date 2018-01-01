@@ -18,14 +18,20 @@ class ezeepay {
         $fields['MerchantId'] = 'B8155F06-AE8C-426B-80C4-E2636C1BDAE9';
         $fields['MerchantCode'] = 'AFRBAS'; 
         $fields['Description'] = 'Payment For order '.$orderId;
-        $fields['Amount'] = 1;
+        $fields['Amount'] = $amount;
         $fields['Signature'] = hash_hmac("sha256", $fields['MerchantId'].$fields['Amount'].$fields['Customer'].$fields['TransactionId'], $fields['SecretKey']);
         $tokenResponse = $this->genrateToken($fields);
         $response = json_decode($tokenResponse, TRUE);
-        $paymentRequest = array();
-        $paymentRequest['order_id'] = $orderId;
-        $paymentRequest['order_id'] = $orderId;
-        $paymentRequest['order_id'] = $orderId;
+        if($response['response'] == 200) {
+            $paymentRequest = array();
+            $paymentRequest['order_id'] = $orderId;
+            $paymentRequest['payment_token_id'] = $response['TokenId'];
+            $paymentRequest['transaction_id'] = $fields['TransactionId'];
+            $paymentRequest['amount'] = $amount;
+            $paymentRequest['user_id'] = $userId;
+            $paymentRequest['payment_type'] = 'ezeepay';
+            $paymentRequest['status'] = 'payment_awaited';
+        }
         return $response;
     }
     public function genrateToken($fields) {
