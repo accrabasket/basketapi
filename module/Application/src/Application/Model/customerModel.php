@@ -652,7 +652,7 @@ class customerModel  {
     function updateOrderPayment($params, $where) {
         try {
             if(!empty($where)) {
-                $query = $this->sql->update('payment_details')
+                $query = $this->sql->update('order_master')
                             ->set($params)
                             ->where('order_id='.$where['order_id'].' OR parent_order_id='.$where['parent_order_id']);
                 $satements = $this->sql->prepareStatementForSqlObject($query);
