@@ -1328,8 +1328,31 @@ class customer {
         return $response;
     }
     function updatePaymentStatus($parameters) {
-        if(!empty($parameters['StatusCode']) && $parameters['StatusCode'] == 200) {
-            
+        $status = TRUE;
+        $where = array();
+        if(!empty($parameters['TransactionId'])) {
+            $where['transaction_id'] = $parameters['TransactionId'];
+            $paymentDetails = $this->customerModel->getPaymentDetails($where);
+            $paymentDetail = $paymentDetails->current();
+        }else{
+            $status = FALSE;
+        }
+        if($status) {
+            $customerModel = new customerModel();
+            $params = array();
+            $params['updated_date'] = date('Y-m-d H:i:s');
+            $params['status'] = '2';
+            if(!empty($parameters['StatusCode']) && $parameters['StatusCode'] == 200) {
+                $params['status'] = '1';
+                $customerModelObj = new customerModel();
+                $orderData = array();
+                $orderData['payment_status'] = 'paid';
+                $orderWhere = array();
+                $orderWhere['order_id'] = $paymentDetail['order_id'];
+                $orderWhere['parent_order_id'] = $paymentDetail['order_id'];
+                $customerModelObj->updateOrderPayment($orderData, $orderWhere);
+            }
+            $customerModel->updatePaymentDetails($params, $where);
         }
         return $parameters;
     }

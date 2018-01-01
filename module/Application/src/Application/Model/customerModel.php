@@ -621,10 +621,10 @@ class customerModel  {
         }         
     }
     
-    function updatePaymentDetails($params) {
+    function updatePaymentDetails($params, $where) {
         try {
-            if(!empty($where)) {
-                $query = $this->sql->update('cart_item')
+            if(!empty($where) && !empty($params)) {
+                $query = $this->sql->update('payment_details')
                             ->set($params)
                             ->where($where);
                 $satements = $this->sql->prepareStatementForSqlObject($query);
@@ -636,5 +636,33 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         }          
+    }
+    function getPaymentDetails($where) {  
+        try {
+            $query = $this->sql->select('payment_details');
+            $query = $query->where($where);        
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            
+            return $result;        
+        }  catch (\Exception $ex) {
+            return FALSE;
+        }
+    }
+    function updateOrderPayment($params, $where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('payment_details')
+                            ->set($params)
+                            ->where('order_id='.$where['order_id'].' OR parent_order_id='.$where['parent_order_id']);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }        
     }
 }
