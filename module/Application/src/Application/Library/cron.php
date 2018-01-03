@@ -56,6 +56,57 @@ class cron {
         }
         return $response;
     }
+    
+    public function sendSms(){
+        $response = array('status' => 'fail', 'msg' => 'Sms sent.');
+        $where = array();
+        $where['status']='0';        
+        $customerModel = new customerModel();
+        $smsList = $customerModel->getSms($where);        
+        if(!empty($smsList)) {
+            foreach($smsList as $smsDetails) {
+                
+                $smsData= array();
+                $smsData['type'] = 0;
+                $smsData['dlr'] = 1;
+                $smsData['destination'] = $smsDetails['mobile_number'];
+                $smsData['message'] = $smsDetails['message'];
+                $smsData['source'] = 'AFFROBASKET';
+                
+                $response = $this->sendSmsToCustomer($smsData); 
+                $smsResponse = explode('|', $response);
+                $smsParams = array();
+                $smsParams['status'] = ($smsResponse[0]==1701)?1:2;
+                $smsParams['response'] = $response;
+                
+                $whereParams = array();
+                $whereParams['id'] = $smsDetails['id'];
+                
+                $customerModel = new customerModel();
+                $customerModel->updateSms($smsParams, $whereParams);
+            }
+        }
+        
+        return $response;
+    }
+    
+    public function sendSmsToCustomer($smsData) {
+        $smsData['username'] = SMS_GATEWAY_USERNAME;
+        $smsData['password'] = SMS_GATEWAY_PASSWORD;
+        $url = SMS_GATEWAY_API.'?'.http_build_query($smsData);
+        return $this->curlHit($url);
+    }
+    
+    private function curlHit($url){
+        $ch = curl_init(); 
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+        curl_setopt($ch,CURLOPT_HEADER, false); 
+        $result=curl_exec($ch);
+        curl_close($ch);
+        
+        return $result;        
+    }
     public function send($to, $message) {
         $fields = array(
             'to' => $to,

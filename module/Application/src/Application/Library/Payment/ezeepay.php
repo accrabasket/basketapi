@@ -8,19 +8,29 @@
  */
 namespace Application\Library\Payment;
 class ezeepay {
+    var $url;
+    var $merchantId;
+    var $merchantCode;
+    var $secretKey;
     public function __construct() {
+        $this->url = 'http://52.35.53.106/gateway/api';
+        $this->merchantId = 'B8155F06-AE8C-426B-80C4-E2636C1BDAE9';
+        $this->merchantCode = 'AFRBAS';         
+        $this->secretKey = '$UedS5&3a348unbwe*ng';
     }
     public function getToken($orderId, $amount, $userId) {
         $fields = array();
-        $fields['SecretKey'] = '$UedS5&3a348unbwe*ng';
+        $fields['SecretKey'] = $this->secretKey;
         $fields['Customer'] = $userId;
         $fields['TransactionId'] = md5($orderId);
-        $fields['MerchantId'] = 'B8155F06-AE8C-426B-80C4-E2636C1BDAE9';
-        $fields['MerchantCode'] = 'AFRBAS'; 
+        $fields['MerchantId'] = $this->merchantId;
+        $fields['MerchantCode'] = $this->merchantCode; 
         $fields['Description'] = 'Payment For order '.$orderId;
         $fields['Amount'] = $amount;
         $fields['Signature'] = hash_hmac("sha256", $fields['MerchantId'].$fields['Amount'].$fields['Customer'].$fields['TransactionId'], $fields['SecretKey']);
-        $tokenResponse = $this->genrateToken($fields);
+        $parameters = http_build_query($fields);
+        $genrateTokenUrl = $this->url.'/requesttoken?'.$parameters;        
+        $tokenResponse = $this->curlHit($genrateTokenUrl);
         $response = json_decode($tokenResponse, TRUE);
         if($response['StatusCode'] == 200) {
             $paymentRequest = array();
@@ -43,9 +53,18 @@ class ezeepay {
         $customerModel->savePaymentDetails($paymentRequest);
     }
     
-    public function genrateToken($fields) {
+    public function checkPaymentStatus($tokenId) {
+        $fields = array();
+        $fields['TokenId'] = $tokenId;
+        $fields['MerchantId'] = $this->merchantId;
         $parameters = http_build_query($fields);
-        $url = 'http://52.35.53.106/gateway/api/requesttoken?'.$parameters;
+        $statusUrl = $this->url.'/status?'.$parameters;
+        $statusResponse = $this->curlHit($statusUrl);
+        $response = json_decode($statusResponse, TRUE);
+        
+        return $response;
+    }
+    private function curlHit($url) {
         // Open connection
         $ch = curl_init(); 
         curl_setopt($ch,CURLOPT_URL,$url);

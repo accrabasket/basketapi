@@ -1328,32 +1328,35 @@ class customer {
         return $response;
     }
     function updatePaymentStatus($parameters) {
-        $status = TRUE;
         $where = array();
+        $response = array('status'=>'fail', 'msg'=>'Transaction Failed');
         if(!empty($parameters['TransactionId'])) {
             $where['transaction_id'] = $parameters['TransactionId'];
             $paymentDetails = $this->customerModel->getPaymentDetails($where);
             $paymentDetail = $paymentDetails->current();
-        }else{
-            $status = FALSE;
+            $paymentObj = new Payment\ezeepay();
+            $paymentStatus = $paymentObj->checkPaymentStatus($paymentDetail['payment_token_id']);
         }
-        if($status && $paymentDetail['status'] !=1) {
+        if(!empty($paymentStatus) && $paymentDetail['status'] !=1) {
             $customerModel = new customerModel();
             $params = array();
             $params['updated_date'] = date('Y-m-d H:i:s');
             $params['status'] = '2';
-            if(!empty($parameters['StatusCode']) && $parameters['StatusCode'] == 200) {
+            if($paymentStatus['Message']=='SUCCESSFUL') {
                 $params['status'] = '1';
                 $customerModelObj = new customerModel();
                 $orderData = array();
                 $orderData['payment_status'] = 'paid';
+                $orderData['updated_status'] = date('Y-m-d H:i:s');
                 $orderWhere = array();
                 $orderWhere['order_id'] = $paymentDetail['order_id'];
                 $orderWhere['parent_order_id'] = $paymentDetail['order_id'];
                 $customerModelObj->updateOrderPayment($orderData, $orderWhere);
+                $response['status'] = 'success';
+                $response['msg'] = 'Transaction Successfull';
             }
             $customerModel->updatePaymentDetails($params, $where);
         }
         return $parameters;
-    }
+    }   
 }

@@ -22,14 +22,8 @@ class IndexController extends AbstractActionController {
     }
 
     public function indexAction() {
-        if(!empty($_REQUEST['TransactionId'])) {
-            $response = array('status' => 'fail', 'msg' => 'Payment Failed.');
-            $this->customerLib = new customer();
-            $response = $this->customerLib->updatePaymentStatus($_REQUEST);
-        }else{
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $parameters = trim($_REQUEST['parameters'], "\"");
-        //echo $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";die;
         $parameters = json_decode($parameters,true);
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
@@ -154,9 +148,5 @@ class IndexController extends AbstractActionController {
         }
             echo json_encode($response);
             exit;
-        }
-        echo json_encode($response);
-        exit;
     }
-
 }

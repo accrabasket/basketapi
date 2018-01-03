@@ -592,6 +592,35 @@ class customerModel  {
             return false;
         }
     }
+    
+    function getSms($where) {
+        try {
+            $query = $this->sql->select('sms_queue');
+            $query = $query->where($where);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    function updateSms($params, $where){
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('sms_queue')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
     function updateNotification($params, $where) {
         try {
             if(!empty($where)) {
