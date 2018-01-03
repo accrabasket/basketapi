@@ -994,7 +994,7 @@ class customer {
             $orderWhere['store_id'] = $parameters['store_id'];
         }         
         if($status) {
-            $orderParams['updated_date'] =('Y-m-d H:i:s');
+            $orderParams['updated_date'] = date('Y-m-d H:i:s');
             $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
             if(!empty($return)) {
                 $response = array('status'=>'success', 'msg'=>'Record updated', 'data'=>$orderWhere);  
