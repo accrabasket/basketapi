@@ -507,21 +507,30 @@ class commonModel  {
         try {
             $where = new \Zend\Db\Sql\Where();
 
-            $query = $this->sql->select('merchant_inventry', array('*'));
+            $query = $this->sql->select('merchant_inventry');            
             if (!empty($optional['id'])) {
                 $query = $query->where(array('merchant_inventry.id' => $optional['id']));
             } 
             if(isset($optional['merchant_id'])) {
                 $query = $query->where(array('merchant_inventry.merchant_id'=>$optional['merchant_id']));
-            } 
-            if(!empty($optional['pagination'])) {
-                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
-                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
             }
+            if(isset($optional['out_of_stock'])) {
+                $query = $query->where($where->lessThanOrEqualTo('merchant_inventry.stock', THRESOLD_VALUE));
+            }            
             $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',array('name','unit','quantity'));
             $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name'));
+            if(!empty($optional['columns'])) {
+                $query->columns($optional['columns']);
+            }
+            if(empty($optional['count_row']) && !empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
+            if(!empty($optional['count_row'])) {
+                $result = $result->current();
+            }            
             return $result;
         } catch (\Exception $ex) {
             return false;
