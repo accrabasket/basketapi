@@ -1486,7 +1486,7 @@ class common  {
                 $imageParams = array();
                 $imageParams['type'] = 'banner';
                 $imageParams['imageType'] = "string";
-                $imageParams['id'] = $result;
+                $imageParams['id'] = $parameters['image_name'];
                 $imageParams['imageData'] = $parameters['image'];
                 $imageParams['make_id_wise_folder'] = 'no';
                 $this->uploadImage($imageParams);
