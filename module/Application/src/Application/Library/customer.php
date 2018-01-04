@@ -9,6 +9,7 @@
 namespace Application\Library;
 use Application\Model\customerModel;
 use Zend\Mail;
+use Application\Library\customercurl;
 class customer {
     public $customerModel;
     public $customercurlLib;
