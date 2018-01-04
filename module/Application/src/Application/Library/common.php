@@ -1465,6 +1465,35 @@ class common  {
         return $response;
     }
     
-    
+    public function addEditBanner($parameters , $optional =array()) {
+        $response = array('status'=>'fail','msg'=>'fail ');
+        
+        if(!empty($parameters['id'])){
+            $this->commonModel->updateBanner($parameters);
+            $result = $parameters['id'];
+        }else {       
+            $data['link'] = $parameters['link'];
+            $data['status'] = $parameters['status'];
+            $data['image_name'] = $parameters['image_name'];
+            if(!empty($parameters['description'])){
+                $data['description'] = $parameters['description'];
+            }
+            
+            $result = $this->commonModel->addBanner($data);
+        }
+        if(!empty($result)){
+            if(!empty($parameters['image'])) {
+                $imageParams = array();
+                $imageParams['type'] = 'banner';
+                $imageParams['imageType'] = "string";
+                $imageParams['id'] = $result;
+                $imageParams['imageData'] = $parameters['image'];
+                $imageParams['make_id_wise_folder'] = 'no';
+                $this->uploadImage($imageParams);
+            }            
+            $response = array('status'=>'success','msg'=>'banner Data Saved');
+        }
+        return $response;   
+    }
 
 }
