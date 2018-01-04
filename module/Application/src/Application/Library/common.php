@@ -1476,7 +1476,9 @@ class common  {
         $response = array('status'=>'fail','msg'=>'fail ');
         
         if(!empty($parameters['id'])){
-            $this->commonModel->updateBanner($parameters);
+            $data['status'] = $parameters['status'];
+            $where = $parameters['id'];
+            $this->commonModel->updateBanner($data,$where);
             $result = $parameters['id'];
         }else {       
             $data['link'] = $parameters['link'];

@@ -879,4 +879,18 @@ class commonModel  {
         }
     }
     
+    public function updateBanner($parameters,$where) {
+        try {
+            $query = $this->sql->update('banner')
+                        ->set($parameters)
+                        ->where(array('id'=>$where));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            print_r($ex);die;
+            return false;
+        }
+    }
+    
 }
