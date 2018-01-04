@@ -94,7 +94,25 @@ class customercurlModel  {
                 return false;
             }
         }  catch (\Exception $ex) {
-            echo $ex->getMessage();die;
+            $ex->getMessage();
+            return false;
+        }        
+    }
+    
+    function getRiderList($where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->select('rider_master');
+                $query = $query->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                
+                return $result;                
+            }else {
+                return false;
+            }
+        }  catch (\Exception $ex) {
+            $ex->getMessage();
             return false;
         }        
     }

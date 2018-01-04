@@ -351,6 +351,30 @@ class customerModel  {
         }         
     }
 
+    function getOrderAssignment($where){
+        try {
+            $query = $this->sql->select('order_assignments');
+            if(!empty($where['order_id'])) {
+                $query = $query->where(array('order_assignments.order_id'=>$where['order_id']));
+            }            
+            if(!empty($where['user_id'])) {
+                $query = $query->where(array('order_assignments.rider_id'=>$where['user_id']));
+            }
+            $query = $query->where(array('order_assignments.status'=>1));
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }   
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            if(!empty($optional['count_row'])) {
+                $result = $result->current();
+            }
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
     function assignOrder($params) {
         try {
             $query = $this->sql->insert('order_assignments')

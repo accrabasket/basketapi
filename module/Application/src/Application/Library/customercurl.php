@@ -1,8 +1,6 @@
 <?php
 namespace Application\Library;
 use Application\Model\customercurlModel;
-use Application\Library\customer;
-use Application\Model\commonModel;
 class customercurl {
     public function __construct() {
         $this->customerCurlModel = new customercurlModel();
@@ -67,6 +65,21 @@ class customercurl {
         }
         return $response;
     }    
+    
+    function riderList($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $where = array();
+        if(!empty($parameters['rider_id'])) {
+            $where['id'] = $parameters['rider_id'];
+        }     
+        if(!empty($where)){
+            $riderData = $this->customerCurlModel->getRiderList($where);
+            $data = $this->processResult($riderData, 'id');
+            $response = array('status'=>'success', 'data'=>$data);
+        }
+        
+        return $response;
+    }
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {

@@ -703,7 +703,7 @@ class customer {
         $totalNumberOfOrders = $customerModel->orderList($orderWhere, $countOptional);
         $orderListData = $this->prepareOrderList($orderList, $orderWhere);
         if(!empty($orderListData['order_list'])) {
-            $response = array('status'=>'success', 'data'=>$orderListData['order_list'],'shipping_address_list'=>$orderListData['shipping_address_list'],'user_details'=>$orderListData['user_details'], 'time_slot_list'=>$orderListData['time_slot_list'], 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
+            $response = array('status'=>'success', 'data'=>$orderListData['order_list'],'shipping_address_list'=>$orderListData['shipping_address_list'],'user_details'=>$orderListData['user_details'], 'time_slot_list'=>$orderListData['time_slot_list'],'order_assignment_list'=>$orderListData['order_assignment_list'],'rider_list'=>$orderListData['rider_list'], 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
         }
         
         return $response;
@@ -730,7 +730,22 @@ class customer {
                 $orderItemWhere = array();
                 $orderItemWhere['order_id'] = $orderIds;
                 $orderItems = $this->customerModel->getOrderItem($orderItemWhere);
+                $customerModel = new customerModel();
+                $assignedRiderWithOrder = $customerModel->getOrderAssignment($orderItemWhere);
                 
+                $orderDataList['order_assignment_list'] = $this->processResult($assignedRiderWithOrder, 'order_id');
+                $orderDataList['rider_list'] = array();
+                if(!empty($orderDataList['order_assignment_list'])) {
+                    $orderAssignedToRider = $this->processResult($orderDataList['order_assignment_list'], 'rider_id');
+                    $riderList = array_keys($orderAssignedToRider);
+                    $riderWhere = array();
+                    $riderWhere['rider_id'] = $riderList;
+                    $customercurlLib = new customercurl();
+                    $riderListData = $customercurlLib->riderList($riderWhere);
+                    if(!empty($riderListData['data'])) {
+                        $orderDataList['rider_list'] = $riderListData['data'];
+                    }
+                }
                 $userParams['id'] = array_keys($userIds);
                 $userDetails = $this->getUserDetail($userParams);
                 $orderDataList['user_details'] = $userDetails['data'];
