@@ -965,11 +965,14 @@ class common  {
             return $response;
         }
     }
-        function stockList($parameters) {
+    function stockList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();        
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
+        }        
+        if(!empty($parameters['out_of_stock'])) {
+            $optional['out_of_stock'] = $parameters['out_of_stock'];
         }        
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
@@ -981,12 +984,16 @@ class common  {
         }
         
         $result = $this->commonModel->stockList($optional);
+        $optional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
+        $optional['count_row'] = true;
+        $commonModel = new commonModel();
+        $totalNumberOfRecords = $commonModel->stockList($optional);                
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
                 $data[$value['id']] = $value;
             }
-            $response = array('status' => 'success', 'data' => $data);
+            $response = array('status' => 'success', 'data' => $data, 'totalNumberOfOrder'=>$totalNumberOfRecords['count']);
         }
         return $response;        
     }

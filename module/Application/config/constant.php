@@ -9,3 +9,4 @@ define('FIREBASE_API_KEY', 'AAAAV-MIXEM:APA91bH-1Jh90nCdh3jQ_ixWSR9n79opjdrIBfRt
 define('SMS_GATEWAY_API','http://api.rmlconnect.net/bulksms/bulksms');
 define('SMS_GATEWAY_USERNAME','Afrobaskets');
 define('SMS_GATEWAY_PASSWORD','SFlg67yf');
+define('THRESOLD_VALUE', 5);
