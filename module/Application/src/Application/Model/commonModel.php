@@ -857,4 +857,17 @@ class commonModel  {
         }
     }
     
+     public function addBanner($parameters) {
+        try {
+            $query = $this->sql->insert('banner')
+                        ->values($parameters);
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
+    
 }
