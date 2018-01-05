@@ -1134,7 +1134,7 @@ class customer {
             $randomNumber = mt_rand(1000, 10000);
             $smsQueueData = array();
             $otpData = array();
-            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];
+            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = '233'.substr($parameters['mobile_number'], 1);
             $otpData['otp_type'] = $parameters['otp_type'];
             $otpData['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:0;
             $otpData['otp'] = $randomNumber;
