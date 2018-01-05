@@ -458,8 +458,10 @@ class common  {
     function getProductList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();        
+        $inventryWhere = array();
         if(!empty($parameters['id'])) {
             $optional['id'] = $parameters['id'];
+            $inventryWhere['product_id'] = $parameters['id'];
         }      
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = $parameters['pagination'];
@@ -504,7 +506,15 @@ class common  {
                 $getattribute = $this->commonModel->getAttributeList($optional);
                 $attdata = $this->processResult($getattribute);
                 $prepairdata = $this->prepairProduct($data,$attdata);
-                $response = array('status' => 'success', 'data' => $prepairdata,'totalRecord'=>$count);
+                if(!empty($parameters['merchant_id'])) {
+                    $inventryWhere['merchant_id'] = $parameters['merchant_id'];
+                }
+                $getInventryDetails = array();
+                if(!empty($inventryWhere)){
+                    $getInventryInfo = $this->commonModel->checkAttributeExist($inventryWhere);    
+                    $getInventryDetails = $this->processResult($getInventryInfo, 'store_id');
+                }
+                $response = array('status' => 'success', 'data' => $prepairdata,'inventry_detail'=>$getInventryDetails, 'totalRecord'=>$count);
             }
         }
         return $response;        

@@ -1132,7 +1132,6 @@ class customer {
             $result = $this->customerModel->deleteOtp($where);
             $expireTime = date('Y-m-d H:i:s', strtotime("+".OTP_EXPIRE_TIME." minutes"));
             $randomNumber = mt_rand(1000, 10000);
-            $randomNumber = 1234;
             $smsQueueData = array();
             $otpData = array();
             $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];

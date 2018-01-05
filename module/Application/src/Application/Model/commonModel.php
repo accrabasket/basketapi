@@ -519,6 +519,7 @@ class commonModel  {
             }            
             $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',array('name','unit','quantity'));
             $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name'));
+            $query = $query->join('merchant_store', 'merchant_store.id = merchant_inventry.store_id',array('store_name'));
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
@@ -540,16 +541,19 @@ class commonModel  {
     public function checkAttributeExist($optional = array()) {
         try {
             $where = new \Zend\Db\Sql\Where();
-            $query = $this->sql->select('merchant_inventry', array('id'));
+            $query = $this->sql->select('merchant_inventry');
+            if(isset($optional['product_id'])) {
+                $query = $query->where(array('merchant_inventry.product_id'=>$optional['product_id']));
+            }
+            if(isset($optional['attribute_id'])) {
+                $query = $query->where(array('merchant_inventry.attribute_id'=>$optional['attribute_id']));
+            }            
             if (!empty($optional['store_id'])) {
                 $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
             } 
             if(isset($optional['merchant_id'])) {
                 $query = $query->where(array('merchant_inventry.merchant_id'=>$optional['merchant_id']));
-            }
-            if(isset($optional['attribute_id'])) {
-                $query = $query->where(array('merchant_inventry.attribute_id'=>$optional['attribute_id']));
-            }
+            }            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
