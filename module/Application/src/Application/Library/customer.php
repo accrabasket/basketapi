@@ -1357,12 +1357,12 @@ class customer {
             $paymentObj = new Payment\ezeepay();
             $paymentStatus = $paymentObj->checkPaymentStatus($paymentDetail['payment_token_id']);
         }
-        if(!empty($paymentStatus) && $paymentDetail['status'] !=1) {
+        if(!empty($paymentStatus) && $paymentDetail['status'] ==1) {
             $customerModel = new customerModel();
             $params = array();
             $params['updated_date'] = date('Y-m-d H:i:s');
             $params['status'] = '2';
-            if($paymentStatus['Message']=='SUCCESSFUL') {
+            if($paymentStatus['Message']!='SUCCESSFUL') {
                 $params['status'] = '1';
                 $customerModelObj = new customerModel();
                 $orderData = array();
@@ -1372,7 +1372,7 @@ class customer {
                 $orderWhere['order_id'] = $paymentDetail['order_id'];
                 $orderWhere['parent_order_id'] = $paymentDetail['order_id'];
                 $status = $customerModelObj->updateOrderPayment($orderData, $orderWhere);
-                if($status) {
+                if(!$status) {
                     $this->updateLedger($paymentDetail['order_id']);
                 }
                 $response['status'] = 'success';
@@ -1384,6 +1384,34 @@ class customer {
     }   
     
     function updateLedger($orderId) {
-        //$this->getOrderByOrderId
+        $parameters = array();
+        $customerModel = new customerModel();        
+        $parameters['order_id'] = $orderId;
+        $orderList = $customerModel->orderList($parameters);
+        if(!empty($orderList)) { 
+            foreach($orderList as $order) {
+                $ledgerParams = array();
+                $ledgerParams['order_id'] = $order['order_id'];
+                $ledgerParams['merchant_id'] = $order['merchant_id'];
+                $ledgerParams['total_amount '] = $order['amount'];
+                $ledgerParams['commission_amount'] = $order['commission_amount'];
+                $ledgerParams['type'] = 'credit';
+                $ledgerParams['merchant_amount'] = $order['payable_amount']-$order['commission_amount'];
+                $this->insertIntoLedger($ledgerParams);
+            }
+        }
+    }
+    
+    function insertIntoLedger($params) {
+        $customerModel = new customerModel();  
+        $params['created_date'] = date('Y-m-d H:i:s');
+        $status = $customerModel->insertIntoLedger($params);
+        if($status){
+            //$this->updateLedgerSummary($data);
+        }
+    }
+    
+    function updateLedgerSummary($params) {
+        
     }
 }

@@ -727,4 +727,17 @@ class customerModel  {
             return false;
         }        
     }
+    public function insertIntoLedger($params){
+        try {
+            $query = $this->sql->insert('ledger_master')
+                        ->values($params);
+            echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            echo $ex->getMessage();die;
+            return false;
+        }        
+    }    
 }
