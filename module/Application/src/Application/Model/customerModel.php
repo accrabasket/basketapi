@@ -731,13 +731,35 @@ class customerModel  {
         try {
             $query = $this->sql->insert('ledger_master')
                         ->values($params);
-            echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (\Exception $ex) {
-            echo $ex->getMessage();die;
             return false;
         }        
     }    
+    
+    public function updateLedgerSummary($params, $where) {
+        $data = array(
+            'total_revenue' => new \Zend\Db\Sql\Expression("total_revenue+".$params['total_revenue']),
+            'total_commission' => new \Zend\Db\Sql\Expression("total_commission+".$params['total_commission']),
+            'total_discount' => new \Zend\Db\Sql\Expression("total_discount+".$params['total_discount']),
+            'total_merchant_amount' => new \Zend\Db\Sql\Expression("total_merchant_amount+".$params['total_merchant_amount'])
+        );
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('ledger_summary')
+                        ->set($data)
+                        ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            
+            return false;
+        }        
+    }
 }
