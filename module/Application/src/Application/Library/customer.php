@@ -1378,5 +1378,34 @@ class customer {
             $customerModel->updatePaymentDetails($params, $where);
         }
         return $parameters;
-    }   
+    }
+    
+    function ledgersummery($parameters) {
+        $where = array();
+        $response = array('status'=>'fail', 'msg'=>'No record found');
+        if(!empty($parameters['merchant_id'])) {
+            $where['merchant_id'] = $parameters['merchant_id'];
+            $where['start_date'] = $parameters['start_date'];
+            $where['end_date'] = $parameters['end_date'];
+            $merchantTotalRevenu = array();
+            $data = array();
+            $totalRevenu = $this->customerModel->getTotalRevenu($where);
+//          
+            $ledgerSummery = $this->customerModel->getOrderWiseLedger($where);
+            
+            if(!empty($ledgerSummery)) {
+                foreach ($ledgerSummery as $key => $value) {
+                    $data[$value['order_id']] = $value;
+                }
+            }
+            
+            $data['total_summery'] = $totalRevenu;
+            $response = array('status'=>'success', 'data'=>$data);
+          
+        }else{
+            $response = array('status'=>'fail', 'msg'=>'Please select merchant');
+        }
+        
+        return $response;
+    }
 }
