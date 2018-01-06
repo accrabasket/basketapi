@@ -281,7 +281,10 @@ class customerModel  {
             }                          
             if(!empty($where['merchant_id'])) {
                 $query = $query->where(array('merchant_id'=>$where['merchant_id']));
-            }             
+            }                         
+            if(!empty($where['order_status'])){
+                $query = $query->where(array('order_status'=>$where['order_status']));
+            }     
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('user_id'=>$where['user_id']));
             }else {
@@ -291,10 +294,6 @@ class customerModel  {
                     $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
                 }
             }            
-            if(!empty($where['order_status'])){
-                $query = $query->where(array('order_status'=>$where['order_status']));
-            }     
-            
             if(!empty($optional['short_by'])) {
                 $query->order(array('created_date '.$optional['short_type']));
             }else{
