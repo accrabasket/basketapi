@@ -1371,7 +1371,10 @@ class customer {
                 $orderWhere = array();
                 $orderWhere['order_id'] = $paymentDetail['order_id'];
                 $orderWhere['parent_order_id'] = $paymentDetail['order_id'];
-                $customerModelObj->updateOrderPayment($orderData, $orderWhere);
+                $status = $customerModelObj->updateOrderPayment($orderData, $orderWhere);
+                if($status) {
+                    $this->updateLedger($paymentDetail['order_id']);
+                }
                 $response['status'] = 'success';
                 $response['msg'] = 'Transaction Successfull';
             }
@@ -1379,4 +1382,8 @@ class customer {
         }
         return $parameters;
     }   
+    
+    function updateLedger($orderId) {
+        //$this->getOrderByOrderId
+    }
 }

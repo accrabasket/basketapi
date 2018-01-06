@@ -268,12 +268,13 @@ class customerModel  {
     
     function orderList($where, $optional=array()) {
         try {
+            $whereQuery = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('order_master');
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
             if(!empty($where['order_id'])) {
-                $query = $query->where(array('order_id'=>$where['order_id']));
+                $query = $query->where(array('order_id'=>$where['order_id']));                
             }            
             if(!empty($where['store_id'])) {
                 $query = $query->where(array('store_id'=>$where['store_id']));
@@ -284,7 +285,11 @@ class customerModel  {
             if(!empty($where['user_id'])) {
                 $query = $query->where(array('user_id'=>$where['user_id']));
             }else {
-                $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
+                if(!empty($where['order_id'])) {
+                    $query = $query->Where($whereQuery->nest->or->equalTo('parent_order_id', $where['order_id']), "OR");
+                }else{
+                    $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
+                }
             }            
             if(!empty($where['order_status'])){
                 $query = $query->where(array('order_status'=>$where['order_status']));
