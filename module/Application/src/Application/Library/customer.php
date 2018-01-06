@@ -694,7 +694,12 @@ class customer {
         if(!empty($parameters['pagination'])) {
             $optional['pagination'] = true;
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
-        }        
+        }   
+        if(!empty($parameters['short_by'])) {
+            $optional['short_by'] = $parameters['short_by'];
+            $optional['short_type'] = $parameters['short_type'] == 'asc'? 'ASC' : 'DESC';
+        }
+
         $orderList = $this->customerModel->orderList($orderWhere, $optional);
         
         $countOptional = array();

@@ -289,7 +289,12 @@ class customerModel  {
             if(!empty($where['order_status'])){
                 $query = $query->where(array('order_status'=>$where['order_status']));
             }     
-            $query->order(array('id DESC'));
+            
+            if(!empty($optional['short_by'])) {
+                $query->order(array('created_date '.$optional['short_type']));
+            }else{
+                $query->order(array('id DESC'));
+            }
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
