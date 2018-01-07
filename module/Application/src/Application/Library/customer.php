@@ -969,7 +969,8 @@ class customer {
                     $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
                         if($orderDetails['payment_status']=='unpaid' && $parameters['order_status']=='completed') {
-                            
+                            $ledgerParams = $this->prepareDataToInsertIntoLedger($orderDetails);
+                            $this->insertIntoLedger($ledgerParams);
                         }
                         $response = array('status'=>'success', 'msg'=>'order updated successfully.');
                     }
