@@ -1408,7 +1408,7 @@ class customer {
             
             if(!empty($ledgerSummery)) {
                 foreach ($ledgerSummery as $key => $value) {
-                    $data[$value['id']] = $value;
+                    $data[] = $value;
                 }
             }
             
