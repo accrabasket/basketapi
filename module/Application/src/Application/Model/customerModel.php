@@ -21,7 +21,7 @@ class customerModel  {
             'driver' => 'Mysqli',
             'database' => 'customerbasket',
             'username' => 'root',
-            'password' => '',
+            'password' => 'pramod',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -758,6 +758,7 @@ class customerModel  {
             if(!empty($param['merchant_id'])) {
                 $query = $query->where(array('ledger_master.merchant_id'=>$param['merchant_id']));
             }
+            $query->order(array('id DESC'));
 //            echo$query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
