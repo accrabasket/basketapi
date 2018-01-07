@@ -1136,10 +1136,10 @@ class customer {
         if($status){
             $result = $this->customerModel->deleteOtp($where);
             $expireTime = date('Y-m-d H:i:s', strtotime("+".OTP_EXPIRE_TIME." minutes"));
-            $randomNumber = mt_rand(1000, 10000);
+            $randomNumber = mt_rand(1000, 9999);
             $smsQueueData = array();
             $otpData = array();
-            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = '233'.substr($parameters['mobile_number'], 1);
+            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];
             $otpData['otp_type'] = $parameters['otp_type'];
             $otpData['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:0;
             $otpData['otp'] = $randomNumber;
@@ -1380,7 +1380,12 @@ class customer {
             }
             $customerModel->updatePaymentDetails($params, $where);
         }
-        return $response;
+        if($response['status']=='success'){
+            $response['msg'] = "<html><body style='text-align:center'>We have received your payment. <br/> Your Order id is - $paymentDetail[order_id]</body></html>";
+        }else{
+            $response['msg']= "<html><body style='text-align:center'><p>Your payment has failed. <br/> Your Order id is - $paymentDetail[order_id] </body> </html>";
+        }   
+        return $response;   
     }   
     
     function updateLedger($orderId) {

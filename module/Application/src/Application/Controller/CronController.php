@@ -30,7 +30,7 @@ class CronController extends AbstractActionController {
             $this->customerLib = new customer();
             $response = $this->customerLib->updatePaymentStatus($_REQUEST);
         }
-        echo json_encode($_REQUEST);
+        echo $response['msg'];
         exit;
     }
 }
