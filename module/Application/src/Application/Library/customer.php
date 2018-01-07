@@ -697,7 +697,7 @@ class customer {
         }   
         if(!empty($parameters['short_by'])) {
             $optional['short_by'] = $parameters['short_by'];
-            $optional['short_type'] = $parameters['short_type'] == 'asc'? 'ASC' : 'DESC';
+            $optional['short_type'] = $orderWhere['short_type'] = $parameters['short_type'] == 'asc'? 'ASC' : 'DESC';
         }
 
         $orderList = $this->customerModel->orderList($orderWhere, $optional);
@@ -735,7 +735,7 @@ class customer {
                 $orderIds = array_keys($orderListByOrderId);
                 $orderItemWhere = array();
                 $orderItemWhere['order_id'] = $orderIds;
-                $orderItems = $this->customerModel->getOrderItem($orderItemWhere);
+                $orderItems = $this->customerModel->getOrderItem($orderItemWhere,$optional);
                 $customerModel = new customerModel();
                 $assignedRiderWithOrder = $customerModel->getOrderAssignment($orderItemWhere);
                 
