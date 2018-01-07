@@ -1437,13 +1437,13 @@ class customer {
     
     function prepareDataToInsertIntoLedger($order){
         $ledgerParams = array();
-        $ledgerParams['order_id'] = $order['order_id'];
+        $ledgerParams['order_id'] = !empty($order['order_id'])?$order['order_id']:0;
         $ledgerParams['merchant_id'] = $order['merchant_id'];
-        $ledgerParams['total_amount'] = $order['payable_amount'];
-        $ledgerParams['discount_amount'] = $order['discount_amount'];
-        $ledgerParams['commission_amount'] = $order['commission_amount'];
-        $ledgerParams['type'] = 'credit';
-        $ledgerParams['merchant_amount'] = $order['amount']-$order['commission_amount'];
+        $ledgerParams['total_amount'] = !empty($order['payable_amount'])?$order['payable_amount']:0;
+        $ledgerParams['discount_amount'] = !empty($order['discount_amount'])?$order['discount_amount']:0;
+        $ledgerParams['commission_amount'] = !empty($order['commission_amount'])?$order['commission_amount']:0;
+        $ledgerParams['type'] = !empty($order['type'])?$order['type']:'credit';
+        $ledgerParams['merchant_amount'] = !empty($order['merchant_amount'])?$order['merchant_amount']:($order['amount']-$order['commission_amount']);
         
         return $ledgerParams;
     }
@@ -1460,13 +1460,46 @@ class customer {
         $customerModel = new customerModel();
         $where = array();
         $data = array();
-        $data['total_revenue']         = $params['total_amount'];
-        $data['total_commission']      = $params['commission_amount'];
-        $data['total_discount']        = $params['discount_amount'];
-        $data['total_merchant_amount'] = $params['merchant_amount'];
+        if($params['type']=='debit'){
+            $data['total_revenue']         = -$params['total_amount'];
+            $data['total_commission']      = -$params['commission_amount'];
+            $data['total_discount']        = -$params['discount_amount'];
+            $data['total_merchant_amount'] = -$params['merchant_amount'];
+        }else{
+            $data['total_revenue']         = $params['total_amount'];
+            $data['total_commission']      = $params['commission_amount'];
+            $data['total_discount']        = $params['discount_amount'];
+            $data['total_merchant_amount'] = $params['merchant_amount'];
+        }
         $data['updated_date']          = date('Y-m-d H:i:s');
         
         $where['merchant_id'] = $params['merchant_id'];
         $customerModel->updateLedgerSummary($data, $where);
+    }
+    
+    function PayToMerchant($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Nothing To update');
+        $status = true;  
+        $data = array();
+        if(!empty($parameters['merchant_id'])) {
+            $data['merchant_id'] = $parameters['merchant_id'];
+        } else {
+            $status = false;
+            $response['msg']= 'Please provide merchant Id';
+        }        
+        if (!empty($parameters['amount']) && $parameters['amount']>0) {
+            $data['merchant_amount'] = $parameters['amount'];
+        } else {
+            $status = false;
+            $response['msg'] ='Please provide amount';
+        }        
+        $data['type'] = 'debit';
+        if($status){
+            $ledgerData = $this->prepareDataToInsertIntoLedger($data);
+            $this->insertIntoLedger($ledgerData);
+            $response = array('status' => 'success', 'msg' => 'Account Updated.');
+        }
+        
+        return $response;
     }
 }
