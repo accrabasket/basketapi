@@ -21,7 +21,7 @@ class customerModel  {
             'driver' => 'Mysqli',
             'database' => 'customerbasket',
             'username' => 'root',
-            'password' => 'pramod',
+            'password' => '',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -765,7 +765,7 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         } 
-        
+    }    
 
     public function insertIntoLedger($params){
         try {

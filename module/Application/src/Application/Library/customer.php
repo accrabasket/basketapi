@@ -968,6 +968,9 @@ class customer {
                     $customerModel = new customerModel();
                     $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
+                        if($orderDetails['payment_status']=='unpaid' && $parameters['order_status']=='completed') {
+                            
+                        }
                         $response = array('status'=>'success', 'msg'=>'order updated successfully.');
                     }
                 }else {
@@ -1425,19 +1428,24 @@ class customer {
         $orderList = $customerModel->orderList($parameters);
         if(!empty($orderList)) { 
             foreach($orderList as $order) {
-                $ledgerParams = array();
-                $ledgerParams['order_id'] = $order['order_id'];
-                $ledgerParams['merchant_id'] = $order['merchant_id'];
-                $ledgerParams['total_amount'] = $order['payable_amount'];
-                $ledgerParams['discount_amount'] = $order['discount_amount'];
-                $ledgerParams['commission_amount'] = $order['commission_amount'];
-                $ledgerParams['type'] = 'credit';
-                $ledgerParams['merchant_amount'] = $order['amount']-$order['commission_amount'];
+                $ledgerParams = $this->prepareDataToInsertIntoLedger($order);
                 $this->insertIntoLedger($ledgerParams);
             }
         }
     }
     
+    function prepareDataToInsertIntoLedger($order){
+        $ledgerParams = array();
+        $ledgerParams['order_id'] = $order['order_id'];
+        $ledgerParams['merchant_id'] = $order['merchant_id'];
+        $ledgerParams['total_amount'] = $order['payable_amount'];
+        $ledgerParams['discount_amount'] = $order['discount_amount'];
+        $ledgerParams['commission_amount'] = $order['commission_amount'];
+        $ledgerParams['type'] = 'credit';
+        $ledgerParams['merchant_amount'] = $order['amount']-$order['commission_amount'];
+        
+        return $ledgerParams;
+    }
     function insertIntoLedger($params) {
         $customerModel = new customerModel();  
         $params['created_date'] = date('Y-m-d H:i:s');

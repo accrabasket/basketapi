@@ -892,7 +892,6 @@ class commonModel  {
             $result = $satements->execute()->getAffectedRows();
             return $result;
         } catch (\Exception $ex) {
-            print_r($ex);die;
             return false;
         }
     }
