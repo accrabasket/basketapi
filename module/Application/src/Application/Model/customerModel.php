@@ -268,28 +268,32 @@ class customerModel  {
     
     function orderList($where, $optional=array()) {
         try {
+            $whereQuery = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('order_master');
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
             if(!empty($where['order_id'])) {
-                $query = $query->where(array('order_id'=>$where['order_id']));
+                $query = $query->where(array('order_id'=>$where['order_id']));                
             }            
             if(!empty($where['store_id'])) {
                 $query = $query->where(array('store_id'=>$where['store_id']));
             }                          
             if(!empty($where['merchant_id'])) {
                 $query = $query->where(array('merchant_id'=>$where['merchant_id']));
-            }             
-            if(!empty($where['user_id'])) {
-                $query = $query->where(array('user_id'=>$where['user_id']));
-            }else {
-                $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
-            }            
+            }                         
             if(!empty($where['order_status'])){
                 $query = $query->where(array('order_status'=>$where['order_status']));
             }     
-            
+            if(!empty($where['user_id'])) {
+                $query = $query->where(array('user_id'=>$where['user_id']));
+            }else {
+                if(!empty($where['order_id'])) {
+                    $query = $query->Where($whereQuery->nest->or->equalTo('parent_order_id', $where['order_id']), "OR");
+                }else{
+                    $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
+                }
+            }            
             if(!empty($optional['short_by'])) {
                 $query->order(array('created_date '.$optional['short_type']));
             }else{
@@ -723,6 +727,7 @@ class customerModel  {
             return false;
         }        
     }
+
     
     function getTotalRevenu($param) {
         try {
@@ -761,5 +766,40 @@ class customerModel  {
             return false;
         } 
         
+
+    public function insertIntoLedger($params){
+        try {
+            $query = $this->sql->insert('ledger_master')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
+    
+    public function updateLedgerSummary($params, $where) {
+        $data = array(
+            'total_revenue' => new \Zend\Db\Sql\Expression("total_revenue+".$params['total_revenue']),
+            'total_commission' => new \Zend\Db\Sql\Expression("total_commission+".$params['total_commission']),
+            'total_discount' => new \Zend\Db\Sql\Expression("total_discount+".$params['total_discount']),
+            'total_merchant_amount' => new \Zend\Db\Sql\Expression("total_merchant_amount+".$params['total_merchant_amount'])
+        );
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('ledger_summary')
+                        ->set($data)
+                        ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            
+            return false;
+        }      
     }
 }

@@ -1136,10 +1136,10 @@ class customer {
         if($status){
             $result = $this->customerModel->deleteOtp($where);
             $expireTime = date('Y-m-d H:i:s', strtotime("+".OTP_EXPIRE_TIME." minutes"));
-            $randomNumber = mt_rand(1000, 10000);
+            $randomNumber = mt_rand(1000, 9999);
             $smsQueueData = array();
             $otpData = array();
-            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = '233'.substr($parameters['mobile_number'], 1);
+            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];
             $otpData['otp_type'] = $parameters['otp_type'];
             $otpData['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:0;
             $otpData['otp'] = $randomNumber;
@@ -1367,17 +1367,26 @@ class customer {
                 $customerModelObj = new customerModel();
                 $orderData = array();
                 $orderData['payment_status'] = 'paid';
-                $orderData['updated_status'] = date('Y-m-d H:i:s');
+                $orderData['updated_date'] = date('Y-m-d H:i:s');
                 $orderWhere = array();
                 $orderWhere['order_id'] = $paymentDetail['order_id'];
                 $orderWhere['parent_order_id'] = $paymentDetail['order_id'];
-                $customerModelObj->updateOrderPayment($orderData, $orderWhere);
+                $status = $customerModelObj->updateOrderPayment($orderData, $orderWhere);
+                if($status) {
+                    $this->updateLedger($paymentDetail['order_id']);
+                }
                 $response['status'] = 'success';
                 $response['msg'] = 'Transaction Successfull';
             }
             $customerModel->updatePaymentDetails($params, $where);
         }
-        return $parameters;
+
+        if($response['status']=='success'){
+            $response['msg'] = "<html><body style='text-align:center'>We have received your payment. <br/> Your Order id is - $paymentDetail[order_id]</body></html>";
+        }else{
+            $response['msg']= "<html><body style='text-align:center'><p>Your payment has failed. <br/> Your Order id is - $paymentDetail[order_id] </body> </html>";
+        }   
+        return $response; 
     }
     
     function ledgersummery($parameters) {
@@ -1406,6 +1415,49 @@ class customer {
             $response = array('status'=>'fail', 'msg'=>'Please select merchant');
         }
         
-        return $response;
+        return $response; 
+    }   
+    
+    function updateLedger($orderId) {
+        $parameters = array();
+        $customerModel = new customerModel();        
+        $parameters['order_id'] = $orderId;
+        $orderList = $customerModel->orderList($parameters);
+        if(!empty($orderList)) { 
+            foreach($orderList as $order) {
+                $ledgerParams = array();
+                $ledgerParams['order_id'] = $order['order_id'];
+                $ledgerParams['merchant_id'] = $order['merchant_id'];
+                $ledgerParams['total_amount'] = $order['payable_amount'];
+                $ledgerParams['discount_amount'] = $order['discount_amount'];
+                $ledgerParams['commission_amount'] = $order['commission_amount'];
+                $ledgerParams['type'] = 'credit';
+                $ledgerParams['merchant_amount'] = $order['amount']-$order['commission_amount'];
+                $this->insertIntoLedger($ledgerParams);
+            }
+        }
+    }
+    
+    function insertIntoLedger($params) {
+        $customerModel = new customerModel();  
+        $params['created_date'] = date('Y-m-d H:i:s');
+        $status = $customerModel->insertIntoLedger($params);
+        if($status){
+            $this->updateLedgerSummary($params);
+        }
+    }
+    
+    function updateLedgerSummary($params) {
+        $customerModel = new customerModel();
+        $where = array();
+        $data = array();
+        $data['total_revenue']         = $params['total_amount'];
+        $data['total_commission']      = $params['commission_amount'];
+        $data['total_discount']        = $params['discount_amount'];
+        $data['total_merchant_amount'] = $params['merchant_amount'];
+        $data['updated_date']          = date('Y-m-d H:i:s');
+        
+        $where['merchant_id'] = $params['merchant_id'];
+        $customerModel->updateLedgerSummary($data, $where);
     }
 }
