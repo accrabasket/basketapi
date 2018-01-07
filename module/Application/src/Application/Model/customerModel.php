@@ -318,11 +318,7 @@ class customerModel  {
         try {
             $query = $this->sql->select('order_items');
             $query = $query->where(array('order_id'=>$where['order_id']));
-            if(!empty($optional['short_type'])) {
-                $query->order(array('created_date '.$optional['short_type']));
-            }else{
-                $query->order(array('id DESC'));
-            }
+            $query->order(array('id DESC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
