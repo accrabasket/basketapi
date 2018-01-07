@@ -1380,12 +1380,42 @@ class customer {
             }
             $customerModel->updatePaymentDetails($params, $where);
         }
+
         if($response['status']=='success'){
             $response['msg'] = "<html><body style='text-align:center'>We have received your payment. <br/> Your Order id is - $paymentDetail[order_id]</body></html>";
         }else{
             $response['msg']= "<html><body style='text-align:center'><p>Your payment has failed. <br/> Your Order id is - $paymentDetail[order_id] </body> </html>";
         }   
-        return $response;   
+        return $response; 
+    }
+    
+    function ledgersummery($parameters) {
+        $where = array();
+        $response = array('status'=>'fail', 'msg'=>'No record found');
+        if(!empty($parameters['merchant_id'])) {
+            $where['merchant_id'] = $parameters['merchant_id'];
+            $where['start_date'] = $parameters['start_date'];
+            $where['end_date'] = $parameters['end_date'];
+            $merchantTotalRevenu = array();
+            $data = array();
+            $totalRevenu = $this->customerModel->getTotalRevenu($where);
+//          
+            $ledgerSummery = $this->customerModel->getOrderWiseLedger($where);
+            
+            if(!empty($ledgerSummery)) {
+                foreach ($ledgerSummery as $key => $value) {
+                    $data[$value['order_id']] = $value;
+                }
+            }
+            
+            $data['total_summery'] = $totalRevenu;
+            $response = array('status'=>'success', 'data'=>$data);
+          
+        }else{
+            $response = array('status'=>'fail', 'msg'=>'Please select merchant');
+        }
+        
+        return $response; 
     }   
     
     function updateLedger($orderId) {

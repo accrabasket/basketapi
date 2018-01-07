@@ -21,7 +21,7 @@ class customerModel  {
             'driver' => 'Mysqli',
             'database' => 'customerbasket',
             'username' => 'root',
-            'password' => '',
+            'password' => 'pramod',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -727,6 +727,46 @@ class customerModel  {
             return false;
         }        
     }
+
+    
+    function getTotalRevenu($param) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('ledger_summary');
+            if(!empty($param['merchant_id'])) {
+                $query = $query->where(array('ledger_summary.merchant_id'=>$param['merchant_id']));
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->current();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+        
+    }
+    
+    function getOrderWiseLedger($param) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('ledger_master');
+            if(!empty($param['start_date'])) {
+                $query = $query->where($where->greaterThanOrEqualTo('ledger_master.created_date', $param['start_date']));
+            }
+            if(!empty($param['end_date'])) {
+                $query = $query->where($where->lessThanOrEqualTo('ledger_master.created_date', $param['end_date']));
+            }
+            if(!empty($param['merchant_id'])) {
+                $query = $query->where(array('ledger_master.merchant_id'=>$param['merchant_id']));
+            }
+//            echo$query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        } 
+        
+
     public function insertIntoLedger($params){
         try {
             $query = $this->sql->insert('ledger_master')
@@ -760,6 +800,6 @@ class customerModel  {
         } catch (\Exception $ex) {
             
             return false;
-        }        
+        }      
     }
 }
