@@ -62,9 +62,20 @@ class common  {
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
+            $productParams['custom_info'] = '';
             if(!empty($parameters['custom_info'])){
                $productParams['custom_info'] = $parameters['custom_info']; 
             }
+            if(!empty($parameters['brand_name'])){
+               $productParams['brand_name'] = $parameters['brand_name']; 
+            }                    
+            if(!empty($parameters['nutrition'])){
+               $productParams['nutrition'] = $parameters['nutrition']; 
+            }            
+            $productParams['bullet_desc'] = '';
+            if(!empty($parameters['bullet_desc'])){
+               $productParams['bullet_desc'] = $parameters['bullet_desc']; 
+            }            
             if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
                $productParams['discount_value'] = $parameters['product_discount_value'];
                $productParams['discount_type'] = $parameters['product_discount_type']; 
@@ -205,6 +216,10 @@ class common  {
         }  else {
             $this->uploadImgParams($parameters, $productId);         
         }
+        if(!empty($parameters['nutrition_image'])){
+            $parameters['type'] = "nutrition_image";
+            $this->uploadImgParamsViaCsv($parameters, $productId);
+        }        
         
         return $response;
     }
@@ -236,7 +251,9 @@ class common  {
         @mkdir($newloc, '0777', true);
         if($value['type'] == 'product'){
             $image = $value['product_image'];
-        }else{
+        }elseif($value['type'] == 'nutrition_image'){
+            $image = $value['nutrition_image'];
+        }else if(!empty($value['attribute image'])){
             $image = $value['attribute image'];
         }
         if(!empty($image)){
@@ -1050,17 +1067,20 @@ class common  {
                 $productParams['attribute'][$i]['commission_value'] = $parameters['commission_value'][$i];
             }
             if(!empty($parameters['custom_info'])){
-                $infodata = array();
-                foreach($parameters['custom_info'] as $customData) {
-                    if(!empty(trim($customData))) {
-                        $customData = json_decode($customData);
-                        $customArrData = explode(":", $customData);
-                        $infodata[$customArrData[0]] = $customArrData[1];
-                    }
-                }
-                $productParams['custom_info'] = json_encode($infodata);
+                $productParams['custom_info'] = json_encode($parameters['custom_info']);
             }
-            
+            if(!empty($parameters['bullet_desc'])){
+                $productParams['bullet_desc'] = json_encode($parameters['bullet_desc']);
+            }            
+            if(!empty($parameters['brand_name'])){
+                $productParams['brand_name'] = $parameters['brand_name'];
+            }
+            if(!empty($parameters['nutrition'])){
+                $productParams['nutrition'] = $parameters['nutrition'];
+            }
+            if(!empty($parameters['nutrition_image'])){
+                $productParams['nutrition_image'] = $parameters['nutrition_image'];
+            }            
             if(!empty($parameters['product_image'])){
                 $productParams['product_image'] = $parameters['product_image'];
             }
