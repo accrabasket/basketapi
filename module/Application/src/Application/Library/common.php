@@ -156,9 +156,20 @@ class common  {
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
+            $productParams['custom_info'] = '';
             if(!empty($parameters['custom_info'])){
                $productParams['custom_info'] = $parameters['custom_info']; 
             }
+            if(!empty($parameters['brand_name'])){
+               $productParams['brand_name'] = $parameters['brand_name']; 
+            }                    
+            if(!empty($parameters['nutrition'])){
+               $productParams['nutrition'] = $parameters['nutrition']; 
+            }            
+            $productParams['bullet_desc'] = '';
+            if(!empty($parameters['bullet_desc'])){
+               $productParams['bullet_desc'] = $parameters['bullet_desc']; 
+            }            
             $response = $this->isValid($productRules, $productParams);
             
             if(empty($response)) {
