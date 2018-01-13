@@ -142,7 +142,7 @@ class common  {
             $productParams['product_name'] = $parameters['product_name'];
             $productParams['category_id'] = (int)$parameters['category_id'];
             $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
-            $productParams['product_desc'] = $parameters['product_desc'];
+            $productParams['product_desc'] = !empty($parameters['product_desc'])?$parameters['product_desc']:'';
             if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
                $productParams['discount_value'] = $parameters['product_discount_value'];
                $productParams['discount_type'] = $parameters['product_discount_type']; 
@@ -152,7 +152,7 @@ class common  {
 
             $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
             $productRules['category_id'] = array('type'=>'integer', 'is_required'=>true);
-            $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);            
+            //$productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);            
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
@@ -222,16 +222,17 @@ class common  {
             }
         }
         $parameters['type'] = "product";
-        if(!empty($parameters['product_image'])){
-            $this->uploadImgParamsViaCsv($parameters, $productId);
-        }  else {
-            $this->uploadImgParams($parameters, $productId);         
+        if(!empty($productId)){
+            if(!empty($parameters['product_image'])){
+                $this->uploadImgParamsViaCsv($parameters, $productId);
+            }  else {
+                $this->uploadImgParams($parameters, $productId);         
+            }
+            if(!empty($parameters['nutrition_image'])){
+                $parameters['type'] = "nutrition_image";
+                $this->uploadImgParamsViaCsv($parameters, $productId);
+            }        
         }
-        if(!empty($parameters['nutrition_image'])){
-            $parameters['type'] = "nutrition_image";
-            $this->uploadImgParamsViaCsv($parameters, $productId);
-        }        
-        
         return $response;
     }
     
@@ -528,11 +529,24 @@ class common  {
             if(empty($parameters['key'])){
                 $parameters['key'] = 'id';
             }
-            $data = $this->processResult($result, $parameters['key'], false, true);
+            $data = $this->processResult($result, $parameters['key'], false, true);            
             if(!empty($data)) {
+                
+                $productImageWhere = array();
+                $productImageWhere['image_id'] = array_keys($data);
+                $productImageWhere['type'] = array('product', 'nutrition_image');
+                $productImageData = $this->fetchImage($productImageWhere);
+                
                 $optional['product_id'] = array_keys($data);
                 $getattribute = $this->commonModel->getAttributeList($optional);
                 $attdata = $this->processResult($getattribute);
+                $attributeImageData = array();
+                if(!empty($attdata)) {
+                    $attrImageWhere = array();
+                    $attrImageWhere['image_id'] = array_keys($attdata);
+                    $attrImageWhere['type'] = 'attribute';
+                    $attributeImageData = $this->fetchImage($attrImageWhere);                    
+                }
                 $prepairdata = $this->prepairProduct($data,$attdata);
                 if(!empty($parameters['merchant_id'])) {
                     $inventryWhere['merchant_id'] = $parameters['merchant_id'];
@@ -542,7 +556,7 @@ class common  {
                     $getInventryInfo = $this->commonModel->checkAttributeExist($inventryWhere);    
                     $getInventryDetails = $this->processResult($getInventryInfo, 'store_id');
                 }
-                $response = array('status' => 'success', 'data' => $prepairdata,'inventry_detail'=>$getInventryDetails, 'totalRecord'=>$count);
+                $response = array('status' => 'success', 'data' => $prepairdata, 'inventry_detail'=>$getInventryDetails,'productimage'=>$productImageData, 'attributeimage'=>$attributeImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalRecord'=>$count);
             }
         }
         return $response;        
@@ -553,6 +567,7 @@ class common  {
             foreach ($result as $key => $value) {
                 if($format_custom_info) {
                     $value['custom_info'] = json_decode($value['custom_info']);
+                    $value['bullet_desc'] = json_decode($value['bullet_desc']);
                 }
                 if(!empty($dataKey)){
                     if($multipleRowOnKey) {
@@ -1238,7 +1253,8 @@ class common  {
     }  
     
     function fetchImage($where) {
-        $imageData = $this->commonModel->fetchImage($where);
+        $commonModel = new commonModel();
+        $imageData = $commonModel->fetchImage($where);
         $data = array();
         if(!empty($imageData)) {
             $data = $this->processResult($imageData, 'image_id', true);
