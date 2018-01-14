@@ -147,6 +147,9 @@ class IndexController extends AbstractActionController {
                 case 'addEditBanner':
                     $response = $this->commonLib->addEditBanner($parameters);
                     break;
+                case 'deleteproduct':
+                    $response = $this->commonLib->deleteProduct($parameters);
+                    break;                
             }
         }
             echo json_encode($response);

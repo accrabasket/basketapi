@@ -289,6 +289,18 @@ class commonModel  {
             return false;
         }
     }
+    
+    public function deleteProduct($parameters) {
+        try {            
+            $query = $this->sql->delete('product_master')
+                        ->where(array('id'=>$parameters['product_id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }        
+    }
     public function addRider($parameters) {
         try {
             $query = $this->sql->insert('rider_master')

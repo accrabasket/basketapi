@@ -55,24 +55,22 @@ class common  {
             if(isset($parameters['status'])) {
                 $productParams['status'] = $parameters['status'];
             }
-            if(isset($parameters['product_desc'])) {
+            if(!empty($parameters['product_desc'])) {
                 $productParams['product_desc'] = $parameters['product_desc'];
                 $productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);
             }
             if(!empty($parameters['tax_id'])){
                $productParams['tax_id'] = $parameters['tax_id']; 
             }
-            $productParams['custom_info'] = '';
             if(!empty($parameters['custom_info'])){
                $productParams['custom_info'] = $parameters['custom_info']; 
             }
-            if(!empty($parameters['brand_name'])){
+            if(isset($parameters['brand_name'])){
                $productParams['brand_name'] = $parameters['brand_name']; 
             }                    
-            if(!empty($parameters['nutrition'])){
+            if(isset($parameters['nutrition'])){
                $productParams['nutrition'] = $parameters['nutrition']; 
             }            
-            $productParams['bullet_desc'] = '';
             if(!empty($parameters['bullet_desc'])){
                $productParams['bullet_desc'] = $parameters['bullet_desc']; 
             }            
@@ -228,9 +226,12 @@ class common  {
             }  else {
                 $this->uploadImgParams($parameters, $productId);         
             }
+            $parameters['type'] = "nutrition_image";
             if(!empty($parameters['nutrition_image'])){
-                $parameters['type'] = "nutrition_image";
                 $this->uploadImgParamsViaCsv($parameters, $productId);
+            }else{
+                $parameters['images'] = $parameters['nutrition_img'];
+                $this->uploadImgParams($parameters, $productId);         
             }        
         }
         return $response;
@@ -610,6 +611,18 @@ class common  {
         
         return $response;        
     }
+    function deleteProduct($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Product Not Deleted '); 
+        $rule['product_id'] = array('type'=>'integer', 'is_required'=>true);
+        if(!empty($parameters['product_id'])) {
+            $result = $this->commonModel->deleteProduct($parameters);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'Product deleted ');
+            }
+        }        
+        
+        return $response;        
+    }    
     public function addEditRider($parameters) {
         $params = array();
         $rule = array();
@@ -1086,7 +1099,7 @@ class common  {
                         $productParams['attribute'][$i]['id'] = $attributeData[0]['id'];
                     }                    
                 }
-                $productParams['attribute'][$i]['name'] = $parameters['attribute_name'][$i];
+                $productParams['attribute'][$i]['name'] = !empty($parameters['attribute_name'][$i])?$parameters['attribute_name'][$i]:$parameters['product_name'];
                 $productParams['attribute'][$i]['quantity'] = $parameters['quantity'][$i];
                 $productParams['attribute'][$i]['unit'] = $parameters['unit'][$i];
                 $productParams['attribute'][$i]['commission_type'] = $parameters['commission_type'][$i];
