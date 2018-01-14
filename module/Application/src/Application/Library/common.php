@@ -74,6 +74,15 @@ class common  {
             if(!empty($parameters['bullet_desc'])){
                $productParams['bullet_desc'] = $parameters['bullet_desc']; 
             }            
+            if(isset($parameters['hotdeals'])){
+               $productParams['hotdeals'] = $parameters['hotdeals']; 
+            }            
+            if(isset($parameters['offers'])){
+               $productParams['offers'] = $parameters['offers']; 
+            }
+            if(isset($parameters['new_arrival'])){
+               $productParams['new_arrival'] = $parameters['new_arrival']; 
+            }            
             if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
                $productParams['discount_value'] = $parameters['product_discount_value'];
                $productParams['discount_type'] = $parameters['product_discount_type']; 
@@ -167,6 +176,16 @@ class common  {
             $productParams['bullet_desc'] = '';
             if(!empty($parameters['bullet_desc'])){
                $productParams['bullet_desc'] = $parameters['bullet_desc']; 
+            }
+            
+            if(isset($parameters['hotdeals'])){
+               $productParams['hotdeals'] = $parameters['hotdeals']; 
+            }            
+            if(isset($parameters['offers'])){
+               $productParams['offers'] = $parameters['offers']; 
+            }
+            if(isset($parameters['new_arrival'])){
+               $productParams['new_arrival'] = $parameters['new_arrival']; 
             }            
             $response = $this->isValid($productRules, $productParams);
             
@@ -229,7 +248,7 @@ class common  {
             $parameters['type'] = "nutrition_image";
             if(!empty($parameters['nutrition_image'])){
                 $this->uploadImgParamsViaCsv($parameters, $productId);
-            }else{
+            }else if(!empty($parameters['nutrition_img'])){
                 $parameters['images'] = $parameters['nutrition_img'];
                 $this->uploadImgParams($parameters, $productId);         
             }        
