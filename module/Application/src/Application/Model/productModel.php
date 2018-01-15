@@ -30,7 +30,7 @@ class productModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_inventry');
-            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name', 'product_desc', 'category_id','custom_info','brand_name','bullet_desc'));           
+            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name', 'product_desc', 'category_id','custom_info','brand_name','bullet_desc','nutrition'));           
             if(!empty($optional['merchant_inventry_id'])) {
                 $query->columns(array('id'=>'id','price' => 'price', 'product_id' => 'product_id'));
                 $query = $query->where(array('merchant_inventry.id' => $optional['merchant_inventry_id']));
