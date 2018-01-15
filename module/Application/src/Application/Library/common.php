@@ -587,7 +587,9 @@ class common  {
             foreach ($result as $key => $value) {
                 if($format_custom_info) {
                     $value['custom_info'] = json_decode($value['custom_info']);
-                    $value['bullet_desc'] = json_decode($value['bullet_desc']);
+                    if(isset($value['bullet_desc'])) {
+                        $value['bullet_desc'] = json_decode($value['bullet_desc']);
+                    }
                 }
                 if(!empty($dataKey)){
                     if($multipleRowOnKey) {
