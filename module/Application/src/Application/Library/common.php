@@ -1289,11 +1289,11 @@ class common  {
     function fetchImage($where) {
         $commonModel = new commonModel();
         $imageData = $commonModel->fetchImage($where);
-        $data = (object)array();
+        $data = array();
         if(!empty($imageData)) {
             $data = $this->processResult($imageData, 'image_id', true);
         }
-        return $data;
+        return (object)$data;
     }
     
     function addInventryByCsv($parameters) {
