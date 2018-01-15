@@ -1289,7 +1289,7 @@ class common  {
     function fetchImage($where) {
         $commonModel = new commonModel();
         $imageData = $commonModel->fetchImage($where);
-        $data = array();
+        $data = (object)array();
         if(!empty($imageData)) {
             $data = $this->processResult($imageData, 'image_id', true);
         }
