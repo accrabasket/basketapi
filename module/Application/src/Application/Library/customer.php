@@ -1502,8 +1502,7 @@ class customer {
         
         return $response;
     }
-    
-    function getCustomerSalesDetails($parameters) {
+ function getCustomerSalesDetails($parameters) {
         $whereParams = array();
         if(!empty($parameters['start_date'])) {
             $whereParams['start_date'] = $parameters['start_date'].' 00:00:00';
