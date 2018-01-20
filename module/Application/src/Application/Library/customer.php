@@ -1502,4 +1502,25 @@ class customer {
         
         return $response;
     }
+ function getCustomerSalesDetails($parameters) {
+        $whereParams = array();
+        if(!empty($parameters['start_date'])) {
+            $whereParams['start_date'] = $parameters['start_date'].' 00:00:00';
+        }
+        if(!empty($parameters['end_date'])) {
+            $whereParams['end_date'] = $parameters['end_date'].' 23:59:59';
+        }
+        $allCustomer = $this->customerModel->getCustomerCount($whereParams);
+        $customerByDate = $this->processResult($allCustomer, 'created_date');
+        $allOrders = $this->customerModel->getOrderCount($whereParams);        
+        $allOrderByDate = $this->processResult($allOrders, 'created_date');
+        $whereParams['order_status'] = 'completed';
+        $completedOrders = $this->customerModel->getOrderCount($whereParams);        
+        $completedOrderByDate = $this->processResult($completedOrders, 'created_date');
+        
+        $data = array('customerByDate'=>$customerByDate, 'allOrderByDate'=>$allOrderByDate, 'completedOrderByDate'=>$completedOrderByDate);
+        $response = array('status'=>'success', 'data'=>$data);
+        
+        return $response;
+    }
 }

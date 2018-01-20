@@ -1596,4 +1596,25 @@ class common  {
         return $response;   
     }
 
+    function getMerchantProductDetail($parameters) {
+        $whereParams = array();
+        if(!empty($parameters['start_date'])) {
+            $whereParams['start_date'] = $parameters['start_date'].' 00:00:00';
+}
+        if(!empty($parameters['end_date'])) {
+            $whereParams['end_date'] = $parameters['end_date'].' 23:59:59';
+        }
+        $allMerchant = $this->commonModel->getMerchantCount($whereParams);
+        $MerchantByDate = $this->processResult($allMerchant, 'created_date');
+        
+        $optional = array();
+        $optional['onlyProductDetails'] = 1;
+        $productResponse = $this->commonModel->getProductListCount($optional);
+        $productDetails = $productResponse->current();
+        $totalNumberOfProduct = $productDetails['count'];
+        $data = array('merchantByDate'=>$MerchantByDate, 'totalNumberOfProduct'=>$totalNumberOfProduct);
+        
+        $response = array('status'=>'success', 'data'=>$data);        
+    }
+
 }
