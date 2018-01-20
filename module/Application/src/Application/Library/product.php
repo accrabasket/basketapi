@@ -83,6 +83,8 @@ class product {
                 $productImageWhere['type'] = 'product';
                 $commonModel = new commonModel();
                 $productImageData = $this->commonLib->fetchImage($productImageWhere);                                
+                $productImageWhere['type'] = 'nutrition_image';
+                $nutritionImageData = $this->commonLib->fetchImage($productImageWhere);                                
                 $minPriceParams = array();
                 $minPriceParams['attribute_id'] = array_keys($attdata);
                 if(!empty($optional['store_id'])) {
@@ -93,7 +95,7 @@ class product {
                 }                        
                 $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
-                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData, 'imageRootPath'=>HTTP_ROOT_PATH);
+                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH);
             }
         }
         return $response;

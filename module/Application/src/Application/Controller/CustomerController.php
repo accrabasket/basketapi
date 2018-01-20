@@ -80,6 +80,12 @@ class CustomerController extends AbstractActionController {
                 case 'ledgersummery':
                     $response = $this->customerLib->ledgersummery($parameters);
                     break;
+                case 'paytomerchant':
+                    $response = $this->customerLib->PayToMerchant($parameters);
+                    break;                
+                case 'getcustomersaledetail':
+                    $response = $this->customerLib->getCustomerSalesDetails($parameters);
+                    break;                
             }
 
             echo json_encode($response);

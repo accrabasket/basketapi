@@ -289,6 +289,18 @@ class commonModel  {
             return false;
         }
     }
+    
+    public function deleteProduct($parameters) {
+        try {            
+            $query = $this->sql->delete('product_master')
+                        ->where(array('id'=>$parameters['product_id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }        
+    }
     public function addRider($parameters) {
         try {
             $query = $this->sql->insert('rider_master')
@@ -892,9 +904,30 @@ class commonModel  {
             $result = $satements->execute()->getAffectedRows();
             return $result;
         } catch (\Exception $ex) {
-            print_r($ex);die;
             return false;
         }
+    }
+    
+    public function getMerchantCount() {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('user_master');
+            $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            if(!empty($whereParams['start_date'])) {
+                $query = $query->where($where->greaterThanOrEqualTo('user_master.created_date', $whereParams['start_date']));                
+            }
+            if(!empty($whereParams['end_date'])) {
+                $query = $query->where($where->lessThanOrEqualTo('user_master.created_date', $whereParams['end_date']));                
+            }   
+            $query->group(new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')"));
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }           
     }
     
 }

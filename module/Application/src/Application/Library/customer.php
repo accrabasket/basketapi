@@ -697,7 +697,7 @@ class customer {
         }   
         if(!empty($parameters['short_by'])) {
             $optional['short_by'] = $parameters['short_by'];
-            $optional['short_type'] = $parameters['short_type'] == 'asc'? 'ASC' : 'DESC';
+            $optional['short_type'] = $orderWhere['short_type'] = $parameters['short_type'] == 'asc'? 'ASC' : 'DESC';
         }
 
         $orderList = $this->customerModel->orderList($orderWhere, $optional);
@@ -735,7 +735,7 @@ class customer {
                 $orderIds = array_keys($orderListByOrderId);
                 $orderItemWhere = array();
                 $orderItemWhere['order_id'] = $orderIds;
-                $orderItems = $this->customerModel->getOrderItem($orderItemWhere);
+                $orderItems = $this->customerModel->getOrderItem($orderItemWhere,$optional);
                 $customerModel = new customerModel();
                 $assignedRiderWithOrder = $customerModel->getOrderAssignment($orderItemWhere);
                 
@@ -968,6 +968,10 @@ class customer {
                     $customerModel = new customerModel();
                     $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
+                        if($orderDetails['payment_status']=='unpaid' && $parameters['order_status']=='completed') {
+                            $ledgerParams = $this->prepareDataToInsertIntoLedger($orderDetails);
+                            $this->insertIntoLedger($ledgerParams);
+                        }
                         $response = array('status'=>'success', 'msg'=>'order updated successfully.');
                     }
                 }else {
@@ -1404,7 +1408,7 @@ class customer {
             
             if(!empty($ledgerSummery)) {
                 foreach ($ledgerSummery as $key => $value) {
-                    $data[$value['order_id']] = $value;
+                    $data[] = $value;
                 }
             }
             
@@ -1425,19 +1429,24 @@ class customer {
         $orderList = $customerModel->orderList($parameters);
         if(!empty($orderList)) { 
             foreach($orderList as $order) {
-                $ledgerParams = array();
-                $ledgerParams['order_id'] = $order['order_id'];
-                $ledgerParams['merchant_id'] = $order['merchant_id'];
-                $ledgerParams['total_amount'] = $order['payable_amount'];
-                $ledgerParams['discount_amount'] = $order['discount_amount'];
-                $ledgerParams['commission_amount'] = $order['commission_amount'];
-                $ledgerParams['type'] = 'credit';
-                $ledgerParams['merchant_amount'] = $order['amount']-$order['commission_amount'];
+                $ledgerParams = $this->prepareDataToInsertIntoLedger($order);
                 $this->insertIntoLedger($ledgerParams);
             }
         }
     }
     
+    function prepareDataToInsertIntoLedger($order){
+        $ledgerParams = array();
+        $ledgerParams['order_id'] = !empty($order['order_id'])?$order['order_id']:0;
+        $ledgerParams['merchant_id'] = $order['merchant_id'];
+        $ledgerParams['total_amount'] = !empty($order['payable_amount'])?$order['payable_amount']:0;
+        $ledgerParams['discount_amount'] = !empty($order['discount_amount'])?$order['discount_amount']:0;
+        $ledgerParams['commission_amount'] = !empty($order['commission_amount'])?$order['commission_amount']:0;
+        $ledgerParams['type'] = !empty($order['type'])?$order['type']:'credit';
+        $ledgerParams['merchant_amount'] = !empty($order['merchant_amount'])?$order['merchant_amount']:($order['amount']-$order['commission_amount']);
+        
+        return $ledgerParams;
+    }
     function insertIntoLedger($params) {
         $customerModel = new customerModel();  
         $params['created_date'] = date('Y-m-d H:i:s');
@@ -1451,13 +1460,68 @@ class customer {
         $customerModel = new customerModel();
         $where = array();
         $data = array();
-        $data['total_revenue']         = $params['total_amount'];
-        $data['total_commission']      = $params['commission_amount'];
-        $data['total_discount']        = $params['discount_amount'];
-        $data['total_merchant_amount'] = $params['merchant_amount'];
+        if($params['type']=='debit'){
+            $data['total_revenue']         = -$params['total_amount'];
+            $data['total_commission']      = -$params['commission_amount'];
+            $data['total_discount']        = -$params['discount_amount'];
+            $data['total_merchant_amount'] = -$params['merchant_amount'];
+        }else{
+            $data['total_revenue']         = $params['total_amount'];
+            $data['total_commission']      = $params['commission_amount'];
+            $data['total_discount']        = $params['discount_amount'];
+            $data['total_merchant_amount'] = $params['merchant_amount'];
+        }
         $data['updated_date']          = date('Y-m-d H:i:s');
         
         $where['merchant_id'] = $params['merchant_id'];
         $customerModel->updateLedgerSummary($data, $where);
+    }
+    
+    function PayToMerchant($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Nothing To update');
+        $status = true;  
+        $data = array();
+        if(!empty($parameters['merchant_id'])) {
+            $data['merchant_id'] = $parameters['merchant_id'];
+        } else {
+            $status = false;
+            $response['msg']= 'Please provide merchant Id';
+        }        
+        if (!empty($parameters['amount']) && $parameters['amount']>0) {
+            $data['merchant_amount'] = $parameters['amount'];
+        } else {
+            $status = false;
+            $response['msg'] ='Please provide amount';
+        }        
+        $data['type'] = 'debit';
+        if($status){
+            $ledgerData = $this->prepareDataToInsertIntoLedger($data);
+            $this->insertIntoLedger($ledgerData);
+            $response = array('status' => 'success', 'msg' => 'Account Updated.');
+        }
+        
+        return $response;
+    }
+    
+    function getCustomerSalesDetails($parameters) {
+        $whereParams = array();
+        if(!empty($parameters['start_date'])) {
+            $whereParams['start_date'] = $parameters['start_date'].' 00:00:00';
+        }
+        if(!empty($parameters['end_date'])) {
+            $whereParams['end_date'] = $parameters['end_date'].' 23:59:59';
+        }
+        $allCustomer = $this->customerModel->getCustomerCount($whereParams);
+        $customerByDate = $this->processResult($allCustomer, 'created_date');
+        $allOrders = $this->customerModel->getOrderCount($whereParams);        
+        $allOrderByDate = $this->processResult($allOrders, 'created_date');
+        $whereParams['order_status'] = 'completed';
+        $completedOrders = $this->customerModel->getOrderCount($whereParams);        
+        $completedOrderByDate = $this->processResult($completedOrders, 'created_date');
+        
+        $data = array('customerByDate'=>$customerByDate, 'allOrderByDate'=>$allOrderByDate, 'completedOrderByDate'=>$completedOrderByDate);
+        $response = array('status'=>'success', 'data'=>$data);
+        
+        return $response;
     }
 }

@@ -21,7 +21,7 @@ class customerModel  {
             'driver' => 'Mysqli',
             'database' => 'customerbasket',
             'username' => 'root',
-            'password' => 'pramod',
+            'password' => '',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -314,7 +314,7 @@ class customerModel  {
         }        
     }
     
-    function getOrderItem($where) {
+    function getOrderItem($where,$optional=array()) {
         try {
             $query = $this->sql->select('order_items');
             $query = $query->where(array('order_id'=>$where['order_id']));
@@ -330,7 +330,7 @@ class customerModel  {
     function assignedOrderToRider($where, $optional = array()) {
         try {
             $query = $this->sql->select('order_assignments');
-            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id','payment_status', 'order_status', 'payable_amount','user_id','merchant_id','delivery_date','updated_date'));
+            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id','payment_status', 'order_status', 'payable_amount','user_id','merchant_id','delivery_date','amount','commission_amount','discount_amount','updated_date'));
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
@@ -758,6 +758,7 @@ class customerModel  {
             if(!empty($param['merchant_id'])) {
                 $query = $query->where(array('ledger_master.merchant_id'=>$param['merchant_id']));
             }
+            $query->order(array('id DESC'));
 //            echo$query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
@@ -765,7 +766,7 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         } 
-        
+    }    
 
     public function insertIntoLedger($params){
         try {
@@ -801,5 +802,51 @@ class customerModel  {
             
             return false;
         }      
+    }
+    
+    public function getCustomerCount($whereParams, $optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('user_master');
+            $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            if(!empty($whereParams['start_date'])) {
+                $query = $query->where($where->greaterThanOrEqualTo('user_master.created_date', $whereParams['start_date']));                
+            }
+            if(!empty($whereParams['end_date'])) {
+                $query = $query->where($where->lessThanOrEqualTo('user_master.created_date', $whereParams['end_date']));                
+            }   
+            $query->group(new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')"));
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function getOrderCount($whereParams) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('order_master');
+            $query->columns(array('order_status','count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            if(!empty($whereParams['order_status'])) {
+                $query = $query->where($where->equalTo('order_master.order_status', $whereParams['order_status']));                
+            }            
+            if(!empty($whereParams['start_date'])) {
+                $query = $query->where($where->greaterThanOrEqualTo('order_master.created_date', $whereParams['start_date']));                
+            }
+            if(!empty($whereParams['end_date'])) {
+                $query = $query->where($where->lessThanOrEqualTo('order_master.created_date', $whereParams['end_date']));                
+            }   
+            $query->group(array('order_status', new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
     }
 }

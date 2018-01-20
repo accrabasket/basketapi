@@ -30,7 +30,7 @@ class customercurlModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_inventry');
-            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name', 'product_desc', 'default_discount_type'=>'discount_type', 'default_discount_value'=>'discount_value', 'category_id','custom_info'));
+            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name', 'product_desc', 'default_discount_type'=>'discount_type', 'default_discount_value'=>'discount_value', 'category_id','custom_info','brand_name'));
             $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',array('commission_type', 'commission_value', 'discount_type','discount_value', 'unit', 'quantity'));
             if(!empty($optional['merchant_inventry_id'])) {
                 $query->columns(array('id'=>'id','price' => 'price', 'product_id' => 'product_id', 'merchant_id', 'store_id'));
