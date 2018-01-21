@@ -153,6 +153,9 @@ class IndexController extends AbstractActionController {
                 case 'getmerchantproductdetail':
                     $response = $this->commonLib->getMerchantProductDetail($parameters);
                     break;                
+                case 'gettotalproductandmerchant':
+                    $response = $this->commonLib->getTotalNumberOfProductAndMerchant($parameters);
+                    break;                                    
             }
         }
             echo json_encode($response);

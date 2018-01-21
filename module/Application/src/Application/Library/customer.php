@@ -1101,8 +1101,8 @@ class customer {
         
         return false;
     }
-    function processResult($result,$dataKey='', $multipleRowOnKey = false) {
-        $data = array();
+    function processResult($result,$dataKey='', $multipleRowOnKey = false, $additionOfValue=false) {
+        $data = array();        
         if(!empty($result)) {
             foreach ($result as $key => $value) {
                 if(!empty($dataKey)){
@@ -1114,7 +1114,13 @@ class customer {
                 }else {
                     $data[] = $value;
                 }
-            }        
+                if($additionOfValue) {
+                    if(empty($data['totalCount'])) {
+                        $data['totalCount'] = 0;
+                    }
+                    $data['totalCount'] = $data['totalCount']+$value['count'];
+                }                
+            }    
         }
         
         return $data;
@@ -1510,17 +1516,35 @@ class customer {
         if(!empty($parameters['end_date'])) {
             $whereParams['end_date'] = $parameters['end_date'].' 23:59:59';
         }
-        $allCustomer = $this->customerModel->getCustomerCount($whereParams);
+        $optional['date_formate'] = "%Y-%m-%d";
+        if(!empty($parameters['report'])) {
+            if($parameters['report'] == 'monthly') {
+                $optional['date_formate'] = "%Y-%m";
+            }
+        }
+        $allCustomer = $this->customerModel->getCustomerCount($whereParams, $optional);
         $customerByDate = $this->processResult($allCustomer, 'created_date');
-        $allOrders = $this->customerModel->getOrderCount($whereParams);        
-        $allOrderByDate = $this->processResult($allOrders, 'created_date');
+        $allOrders = $this->customerModel->getOrderCount($whereParams, $optional);        
+        $allOrderByDate = $this->processResult($allOrders, 'created_date', false, true);
+        $totalOrder = isset($allOrderByDate['totalCount'])?$allOrderByDate['totalCount']:0;
+        unset($allOrderByDate['totalCount']);
         $whereParams['order_status'] = 'completed';
-        $completedOrders = $this->customerModel->getOrderCount($whereParams);        
-        $completedOrderByDate = $this->processResult($completedOrders, 'created_date');
-        
-        $data = array('customerByDate'=>$customerByDate, 'allOrderByDate'=>$allOrderByDate, 'completedOrderByDate'=>$completedOrderByDate);
+        $completedOrders = $this->customerModel->getOrderCount($whereParams, $optional);        
+        $completedOrderByDate = $this->processResult($completedOrders, 'created_date', false, true);
+        $totalConfirmedOrder = isset($completedOrderByDate['totalCount'])?$completedOrderByDate['totalCount']:0;
+        unset($completedOrderByDate['totalCount']);
+        $data = array('customerByDate'=>$customerByDate, 'allOrderByDate'=>$allOrderByDate, 'completedOrderByDate'=>$completedOrderByDate, 'totalOrder'=>$totalOrder, 'totalConfirmedOrder'=>$totalConfirmedOrder);
         $response = array('status'=>'success', 'data'=>$data);
         
         return $response;
     }
+    
+    function getCustomerCount() {
+        $where = array();
+        $customer = $this->customerModel->getCustomerCount($where);
+        $customerData = $customer->current();
+        $data = array('totalNumberOfCustomer'=>$customerData['count']);
+        
+        return array('status'=>'success', 'data'=>$data);
+    }    
 }

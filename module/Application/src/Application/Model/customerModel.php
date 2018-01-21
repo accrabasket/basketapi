@@ -808,14 +808,22 @@ class customerModel  {
         try {
             $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('user_master');
-            $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            if(empty($optional)){
+                $optional['date_formate'] = "%Y-%m-%d";
+            }
+            if(!empty($whereParams['start_date']) && !empty($whereParams['end_date'])) {
+                $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
+                $query->group(new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')"));
+            }else{
+                $query->columns(array('count'=>new Expression("count(*)")));
+            }
+            
             if(!empty($whereParams['start_date'])) {
                 $query = $query->where($where->greaterThanOrEqualTo('user_master.created_date', $whereParams['start_date']));                
             }
             if(!empty($whereParams['end_date'])) {
                 $query = $query->where($where->lessThanOrEqualTo('user_master.created_date', $whereParams['end_date']));                
             }   
-            $query->group(new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')"));
             //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
@@ -826,11 +834,14 @@ class customerModel  {
         }        
     }
     
-    public function getOrderCount($whereParams) {
+    public function getOrderCount($whereParams, $optional = array()) {
         try {
+            if(empty($optional)){
+                $optional['date_formate'] = "%Y-%m-%d";
+            }            
             $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('order_master');
-            $query->columns(array('order_status','count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            $query->columns(array('order_status','count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
             if(!empty($whereParams['order_status'])) {
                 $query = $query->where($where->equalTo('order_master.order_status', $whereParams['order_status']));                
             }            
@@ -840,7 +851,7 @@ class customerModel  {
             if(!empty($whereParams['end_date'])) {
                 $query = $query->where($where->lessThanOrEqualTo('order_master.created_date', $whereParams['end_date']));                
             }   
-            $query->group(array('order_status', new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            $query->group(array(new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
