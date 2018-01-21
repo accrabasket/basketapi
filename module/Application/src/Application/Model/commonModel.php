@@ -908,18 +908,25 @@ class commonModel  {
         }
     }
     
-    public function getMerchantCount() {
+    public function getMerchantCount($whereParams = array(), $optional=array()) {
         try {
+            if(empty($optional['date_formate'])){
+                $optional['date_formate'] = "%Y-%m-%d";
+            }            
             $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('user_master');
-            $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')")));
+            if(!empty($whereParams['start_date']) && !empty($whereParams['end_date'])) {
+                $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
+                $query->group(new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')"));
+            }else{
+                $query->columns(array('count'=>new Expression("count(*)")));
+            }    
             if(!empty($whereParams['start_date'])) {
                 $query = $query->where($where->greaterThanOrEqualTo('user_master.created_date', $whereParams['start_date']));                
             }
             if(!empty($whereParams['end_date'])) {
                 $query = $query->where($where->lessThanOrEqualTo('user_master.created_date', $whereParams['end_date']));                
-            }   
-            $query->group(new Expression("DATE_FORMAT(created_date, '%Y-%m-%d')"));
+            }
             //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();

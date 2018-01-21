@@ -1600,21 +1600,46 @@ class common  {
         $whereParams = array();
         if(!empty($parameters['start_date'])) {
             $whereParams['start_date'] = $parameters['start_date'].' 00:00:00';
-}
+        }
         if(!empty($parameters['end_date'])) {
             $whereParams['end_date'] = $parameters['end_date'].' 23:59:59';
         }
-        $allMerchant = $this->commonModel->getMerchantCount($whereParams);
-        $MerchantByDate = $this->processResult($allMerchant, 'created_date');
+        $optional['date_formate'] = "%Y-%m-%d";
+        if(!empty($parameters['report'])) {
+            if($parameters['report'] == 'monthly') {
+                $optional['date_formate'] = "%Y-%m";
+            }
+        }        
+        $getMerchant = $this->commonModel->getMerchantCount($whereParams, $optional);
+        $MerchantByDate = $this->processResult($getMerchant, 'created_date');
+        $data = array('merchantByDate'=>$MerchantByDate);
         
+        $response = array('status'=>'success', 'data'=>$data);        
+        return $response;
+    }
+    
+    function getTotalNumberOfProductAndMerchant($optional = array()) {
+        $data = array();
+        $data['totalNumberOfMerchant'] = $this->getMerchantCount();
+        $data['totalNumberOfProduct'] = $this->getProductCount();
+        
+        return array('status'=>'success', 'data'=>$data);
+    }
+            
+    function getMerchantCount() {
+        $getTotalMerchant = $this->commonModel->getMerchantCount();
+        $merchantDetails = $getTotalMerchant->current();
+        $totalMerchant = $merchantDetails['count'];        
+        return $totalMerchant;
+    }
+    
+    function getProductCount() {
         $optional = array();
         $optional['onlyProductDetails'] = 1;
         $productResponse = $this->commonModel->getProductListCount($optional);
         $productDetails = $productResponse->current();
-        $totalNumberOfProduct = $productDetails['count'];
-        $data = array('merchantByDate'=>$MerchantByDate, 'totalNumberOfProduct'=>$totalNumberOfProduct);
+        $totalNumberOfProduct = $productDetails['count'];        
         
-        $response = array('status'=>'success', 'data'=>$data);        
+        return $totalNumberOfProduct;
     }
-
 }
