@@ -618,6 +618,7 @@ class customerModel  {
         try {
             $query = $this->sql->select('notification_queue');
             $query = $query->where($where);
+            $query->order(array('id DESC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
@@ -842,6 +843,10 @@ class customerModel  {
             $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('order_master');
             $query->columns(array('order_status','count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
+            
+            if(!empty($whereParams['merchant_id'])) {
+                $query = $query->where($where->equalTo('order_master.merchant_id', $whereParams['merchant_id']));                
+            }
             if(!empty($whereParams['order_status'])) {
                 $query = $query->where($where->equalTo('order_master.order_status', $whereParams['order_status']));                
             }            

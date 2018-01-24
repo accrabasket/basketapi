@@ -796,7 +796,6 @@ class customer {
         $optional = array();
         $status = true;
         $params = array();
-        $merchantNotification = 1;
         if(!empty($parameters['rider_id'])) {
             $params['rider_id'] = $parameters['rider_id'];
         }else{
@@ -824,8 +823,7 @@ class customer {
                         $unAssignOrderParams['order_id'] = $parameters['order_id'];
                         $unAssignOrderParams['status'] = 0;
                         
-                        $orderList = $this->unassignOrder($unAssignOrderParams);        
-                        $merchantNotification = 0;
+                        $orderList = $this->unassignOrder($unAssignOrderParams); 
                     }
                 }
             }
@@ -834,6 +832,7 @@ class customer {
                 $params['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->assignOrder($params);
                 if(!empty($result)) {
+                    $merchantNotification = 1;
                     $orderWhere = array();
                     $orderWhere['order_id'] = $parameters['order_id'];
                     
@@ -1522,6 +1521,9 @@ class customer {
                 $optional['date_formate'] = "%Y-%m";
             }
         }
+        if(!empty($parameters['merchant_id'])) {
+            $whereParams['merchant_id'] = $parameters['merchant_id'];
+        }
         $allCustomer = $this->customerModel->getCustomerCount($whereParams, $optional);
         $customerByDate = $this->processResult($allCustomer, 'created_date');
         $allOrders = $this->customerModel->getOrderCount($whereParams, $optional);        
@@ -1546,5 +1548,38 @@ class customer {
         $data = array('totalNumberOfCustomer'=>$customerData['count']);
         
         return array('status'=>'success', 'data'=>$data);
-    }    
+    }  
+    
+    function getNotification($parameters) {
+        $where = array();
+        if(!empty($parameters['user_type'])){
+            $where['user_type'] = $parameters['user_type'];
+        }
+        if(!empty($parameters['user_id'])){
+            $where['user_id'] = $parameters['user_id'];
+        }        
+        if(empty($parameters['all_notification'])) {
+            $where['updated_date'] = null;
+        }
+        $notificationResponse = $this->customerModel->getNotification($where);
+        
+        $notificationList = $this->processResult($notificationResponse);
+        return array('status'=>'success', 'data'=>$notificationList);        
+    }
+    
+    function updateNotification($parameters) {
+        $where = array();
+        if(!empty($parameters['user_type'])){
+            $where['user_type'] = $parameters['user_type'];
+        }
+        if(!empty($parameters['user_id'])){
+            $where['user_id'] = $parameters['user_id'];
+        }        
+        if(empty($parameters['all_notification'])) {
+            $where['updated_date'] = null;
+        }
+        $params['updated_date'] = date('Y-m-d H:i:s');
+        $notificationResponse = $this->customerModel->updateNotification($params, $where);
+        return array('status'=>'success', 'data'=>$notificationResponse);                
+    }
 }
