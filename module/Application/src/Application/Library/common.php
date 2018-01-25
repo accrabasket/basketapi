@@ -574,14 +574,14 @@ class common  {
                 $getInventryDetails = array();
                 if(!empty($inventryWhere)){
                     $getInventryInfo = $this->commonModel->checkAttributeExist($inventryWhere);    
-                    $getInventryDetails = $this->processResult($getInventryInfo, 'store_id');
+                    $getInventryDetails = $this->processResult($getInventryInfo, 'store_id', true, false, 'attribute_id');
                 }
                 $response = array('status' => 'success', 'data' => $prepairdata, 'inventry_detail'=>$getInventryDetails,'productimage'=>$productImageData, 'attributeimage'=>$attributeImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalRecord'=>$count);
             }
         }
         return $response;        
     }
-    function processResult($result,$dataKey='', $multipleRowOnKey = false, $format_custom_info = false) {
+    function processResult($result,$dataKey='', $multipleRowOnKey = false, $format_custom_info = false, $multipleRowKey='') {
         $data = array();
         if(!empty($result)) {
             foreach ($result as $key => $value) {
@@ -593,7 +593,11 @@ class common  {
                 }
                 if(!empty($dataKey)){
                     if($multipleRowOnKey) {
-                        $data[$value[$dataKey]][] = $value;
+                        if(!empty($multipleRowKey)){
+                            $data[$value[$dataKey]][$value[$multipleRowKey]] = $value;
+                        }else{
+                            $data[$value[$dataKey]][] = $value;
+                        }
                     }else {
                         $data[$value[$dataKey]] = $value;
                     }
@@ -1028,8 +1032,8 @@ class common  {
                     $where = array();
                     $attributeExist = $this->commonModel->checkAttributeExist($optional);
                     if(!empty($attributeExist)){
-                        foreach ($attributeExist as $key => $value) {
-                            $where['id'] = $value['id'];
+                        foreach ($attributeExist as $key => $attribute) {
+                            $where['id'] = $attribute['id'];
                         }
                     }
 
@@ -1043,7 +1047,7 @@ class common  {
                         break;
                     }
                 }
-            }
+            } 
             if (!empty($result)) {
                 $response = array('status' => 'success', 'msg' => 'Record Saved');
             }
