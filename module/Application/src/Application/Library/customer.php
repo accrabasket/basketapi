@@ -870,8 +870,13 @@ class customer {
         if(!empty($parameters['order_id'])) {
             $replaceData['order_id'] = $parameters['order_id'];
         }
-        
-        $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData);        
+        if(!empty($parameters['minute'])) {
+            $replaceData['minute'] = $parameters['minute'];
+        }        
+        if(isset($parameters['reason'])) {
+            $replaceData['reason'] = $parameters['reason'];
+        }        
+        $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData); 
         $params['subject'] = $templateDetails['subject'];
         $params['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:$parameters['rider_id'];
         $params['user_type'] = $parameters['user_type'];
@@ -879,7 +884,7 @@ class customer {
         $params['response'] = '';
         $params['created_date'] = date("Y-m-d H:i:s");      
         $customerModel = new customerModel();
-        $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));
+        return $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));
     }
     
     function getNotificationTemplate($parameters) {
@@ -889,8 +894,8 @@ class customer {
         }       
         $optional = array();
         $optional['template_type'] = 'notification_template';
-        $result = $this->customerModel->getTemplate($params, $optional);
-        
+        $customerModel = new customerModel();
+        $result = $customerModel->getTemplate($params, $optional);
         return $result;
     }
             
@@ -967,6 +972,29 @@ class customer {
                     $customerModel = new customerModel();
                     $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
+                        $merchantNotificationParams = array();
+                        $merchantNotificationParams['user_type'] = 'merchant';
+                        $merchantNotificationParams['user_id'] = $orderDetails['merchant_id'];
+                        $merchantNotificationParams['order_id'] = $orderDetails['order_id'];
+                        $merchantNotificationParams['reason'] = isset($parameters['reason'])?$parameters['reason']:'';
+
+                        $this->sentNotification('notification_for_order_'.$parameters['order_status'].'_for_merchant', $merchantNotificationParams);        
+                        
+                        $adminNotificationParams = array();
+                        $adminNotificationParams['user_type'] = 'admin';
+                        $adminNotificationParams['user_id'] = 0;
+                        $adminNotificationParams['order_id'] = $orderDetails['order_id'];
+                        $adminNotificationParams['reason'] = isset($parameters['reason'])?$parameters['reason']:'';
+                        
+                        $this->sentNotification('notification_for_order_'.$parameters['order_status'].'_for_merchant', $adminNotificationParams);                                
+                        
+                        $customerNotificationParams = array();
+                        $customerNotificationParams['user_type'] = 'customer';
+                        $customerNotificationParams['user_id'] = $orderDetails['user_id'];
+                        $customerNotificationParams['order_id'] = $orderDetails['order_id'];
+                        $customerNotificationParams['reason'] = isset($parameters['reason'])?$parameters['reason']:'';
+                        
+                        $this->sentNotification('notification_for_order_'.$parameters['order_status'].'_for_merchant', $customerNotificationParams);                        
                         if($orderDetails['payment_status']=='unpaid' && $parameters['order_status']=='completed') {
                             $ledgerParams = $this->prepareDataToInsertIntoLedger($orderDetails);
                             $this->insertIntoLedger($ledgerParams);
@@ -1020,7 +1048,7 @@ class customer {
         if($status) {
             $orderParams['updated_date'] = date('Y-m-d H:i:s');
             $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
-            if(!empty($return)) {
+            if(!empty($return)) {                
                 $response = array('status'=>'success', 'msg'=>'Record updated', 'data'=>$orderWhere);  
             }
         }
@@ -1581,5 +1609,44 @@ class customer {
         $params['updated_date'] = date('Y-m-d H:i:s');
         $notificationResponse = $this->customerModel->updateNotification($params, $where);
         return array('status'=>'success', 'data'=>$notificationResponse);                
+    }
+    
+    function sendManualNotificationByRider($parameters) {
+        $orderWhere = array();
+        $status = true;
+        $response = array('status'=>'fail', 'msg'=>'notification not sent');
+        if(!empty($parameters['order_id'])) {
+          $orderWhere['order_id'] = $parameters['order_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "order not supplied";
+        }
+        if(!empty($parameters['rider_id'])) {
+            $orderWhere['user_id'] = $parameters['rider_id'];
+        }else{
+            $status = false;
+            $response['msg'] = "Rider not supplied";
+        }       
+        if(!empty($parameters['minute'])) {
+          $minute = $parameters['minute'];
+        }else{
+            $status = false;
+            $response['msg'] = "Minute not supplied";
+        }        
+        $orderWhere['order_status'] = 'dispatched';
+        $orderList = $this->customerModel->assignedOrderToRider($orderWhere); 
+        if($status &&!empty($orderList)) {
+            $orderDetails = $orderList->current();
+        
+            $customerNotificationParams = array();
+            $customerNotificationParams['user_type'] = 'customer';
+            $customerNotificationParams['user_id'] = $orderDetails['user_id'];
+            $customerNotificationParams['order_id'] = $orderDetails['order_id'];
+            $customerNotificationParams['minute'] = $minute;
+ 
+            $this->sentNotification('order_delivered_in', $customerNotificationParams);                                
+            $response = array('status'=>'success', 'msg'=>'notification sent to customer');
+        }
+        return $response;
     }
 }

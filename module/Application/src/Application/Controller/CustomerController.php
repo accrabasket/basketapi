@@ -95,6 +95,9 @@ class CustomerController extends AbstractActionController {
                 case 'updatenotification':
                     $response = $this->customerLib->updateNotification($parameters);                    
                     break;
+                case 'sendmanualnotificationbyrider':
+                    $response = $this->customerLib->sendManualNotificationByRider($parameters);
+                    break;
             }
 
             echo json_encode($response);
