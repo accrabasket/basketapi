@@ -37,6 +37,17 @@ class product {
         }
         if(!empty($parameters['product_id'])) {
             $optional['product_id'] = $parameters['product_id'];
+        }     
+        if(!empty($parameters['product_type'])) {
+            if($parameters['product_type'] == 'hotdeals') {
+                $optional['hotdeals'] = 1;
+            }
+            if($parameters['product_type'] == 'offers') {
+                $optional['offers'] = 1;
+            }
+            if($parameters['product_type'] == 'new_arrival') {
+                $optional['new_arrival'] = 1;
+            }            
         }        
         if(!empty($optional['category_name'])) {
             $parameters['product_name'] = $parameters['category_name'];
@@ -50,7 +61,7 @@ class product {
         }  
         if (!empty($parameters['category_id'])){
             $categoryParams['parent_category_id'] = $parameters['category_id'];
-        }        
+        }     
         if(!empty($categoryParams)) {
             $categoryParams['columns'] = array(new \Zend\Db\Sql\Expression('category_master.id as id'));
             $categoryData = $this->commonLib->categoryList($categoryParams);

@@ -45,13 +45,22 @@ class productModel  {
             }            
             if(!empty($optional['product_id'])) {
                 $query = $query->where(array('product_master.id' => $optional['product_id']));
+            } 
+            if(!empty($optional['hotdeals'])) {
+                $query = $query->where(array('product_master.hotdeals' => $optional['hotdeals']));
+            }
+            if(!empty($optional['offers'])) {
+                $query = $query->where(array('product_master.offers' => $optional['offers']));
+            }
+            if(!empty($optional['new_arrival'])) {
+                $query = $query->where(array('product_master.new_arrival' => $optional['new_arrival']));
             }            
             if(!empty($optional['store_id'])) {
                 $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
             }            
             if(!empty($optional['merchant_id'])) {
                 $query = $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
-            }            
+            }             
             $query = $query->where(array('product_master.status' => 1));
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;

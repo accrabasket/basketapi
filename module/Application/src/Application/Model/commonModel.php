@@ -751,12 +751,10 @@ class commonModel  {
         }        
     }
     
-    function getBanner(){
+    function getBanner($where){
         try {
-            $where = new \Zend\Db\Sql\Where();
-
             $query = $this->sql->select('banner');
-            $query = $query->where(array('status'=>1));
+            $query = $query->where($where);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;

@@ -1355,9 +1355,13 @@ class common  {
         }
         return $response;
     }
-    function banner() {
+    function banner($parameters) {
         $response = array('status'=>"fail", "msg"=>"No records found");
-        $banner = $this->commonModel->getBanner();
+        $where = array();
+        if(!empty($parameters['id'])) {
+            $where['id'] = $parameters['id'];
+        }
+        $banner = $this->commonModel->getBanner($where);
         if(!empty($banner)) {
             $bannerData = $this->processResult($banner);
             $response = array('status'=>'success', 'data'=>$bannerData);
@@ -1572,13 +1576,20 @@ class common  {
         
         if(!empty($parameters['id'])){
             $data['status'] = $parameters['status'];
+            $data['link'] = $parameters['link'];
+            if(!empty($parameters['description'])){
+                $data['description'] = $parameters['description'];
+            }
             $where = $parameters['id'];
             $this->commonModel->updateBanner($data,$where);
             $result = $parameters['id'];
+            $newdata = array();
+            $newdata['image_name'] = $result.'.jpg';
+            $this->commonModel->updateBanner($newdata,$where);
         }else {       
             $data['link'] = $parameters['link'];
             $data['status'] = $parameters['status'];
-            $data['image_name'] = $parameters['image_name'];
+            $data['image_name'] = $result.'.jpg';
             if(!empty($parameters['description'])){
                 $data['description'] = $parameters['description'];
             }
@@ -1590,7 +1601,7 @@ class common  {
                 $imageParams = array();
                 $imageParams['type'] = 'banner';
                 $imageParams['imageType'] = "string";
-                $imageParams['id'] = $parameters['image_name'];
+                $imageParams['id'] = $result;
                 $imageParams['imageData'] = $parameters['image'];
                 $imageParams['make_id_wise_folder'] = 'no';
                 $this->uploadImage($imageParams);
