@@ -614,10 +614,17 @@ class customerModel  {
         }         
     }
     
-    function getNotification($where) {
+    function getNotification($where, $optional = array()) {
         try {
             $query = $this->sql->select('notification_queue');
+            if(!empty($optional['count'])) {
+                $query->columns(array('count'=>new Expression("count(*)")));
+            }
             $query = $query->where($where);
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }            
             $query->order(array('id DESC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();

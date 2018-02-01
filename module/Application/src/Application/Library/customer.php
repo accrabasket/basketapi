@@ -1580,6 +1580,7 @@ class customer {
     
     function getNotification($parameters) {
         $where = array();
+        $optional = array();
         if(!empty($parameters['user_type'])){
             $where['user_type'] = $parameters['user_type'];
         }
@@ -1589,10 +1590,19 @@ class customer {
         if(empty($parameters['all_notification'])) {
             $where['updated_date'] = null;
         }
-        $notificationResponse = $this->customerModel->getNotification($where);
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = true;
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }        
+        $notificationResponse = $this->customerModel->getNotification($where, $optional);
         
         $notificationList = $this->processResult($notificationResponse);
-        return array('status'=>'success', 'data'=>$notificationList);        
+        $optional = array();
+        $optional['count'] = 1;
+        $notificationCountResponse = $this->customerModel->getNotification($where, $optional);
+        $notificationCount = $notificationCountResponse->current();
+        $totalNotification = $notificationCount['count'];
+        return array('status'=>'success', 'data'=>$notificationList, 'totalRecord'=>$totalNotification);        
     }
     
     function updateNotification($parameters) {
