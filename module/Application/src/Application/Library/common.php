@@ -669,9 +669,8 @@ class common  {
                 $params['password'] = md5($parameters['password']);
                 $rule['password'] = array('type'=>'string', 'is_required'=>true);
             }            
-            if(isset($parameters['fcm_reg_id'])) {
+            if(!empty($parameters['fcm_reg_id'])) {
                 $params['fcm_reg_id'] = $parameters['fcm_reg_id'];
-                $rule['fcm_reg_id'] = array('type'=>'string', 'is_required'=>true);
             }            
             if(isset($parameters['status'])) {
                 $params['status'] = $parameters['status'];                
