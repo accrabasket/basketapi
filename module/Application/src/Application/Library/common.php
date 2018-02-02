@@ -255,6 +255,7 @@ class common  {
             if(!empty($parameters['merchant_ids'])) {
                 $where = array();
                 $where['merchant_id'] = $parameters['merchant_ids'];
+                $where['product_id'] = $productId;
                 $optionalParams = array();
                 $optionalParams['column'] = array('merchant_id');
                 $mappedMerchantListWithProductData = $this->getMerchantProductMapping($where, $optionalParams);

@@ -103,6 +103,9 @@ class CustomerController extends AbstractActionController {
                     break;                
                 case 'getRestrictedLocationList':
                     $response = $this->customerLib->getRestrictedLocationList($parameters);
+                    break;
+                case 'getCustomerList':
+                    $response = $this->customerLib->getRestrictedLocationList($parameters);
                     break;                
             }
 
