@@ -251,11 +251,44 @@ class common  {
             }else if(!empty($parameters['nutrition_img'])){
                 $parameters['images'] = $parameters['nutrition_img'];
                 $this->uploadImgParams($parameters, $productId);         
-            }        
+            }   
+            if(!empty($parameters['merchant_ids'])) {
+                $where = array();
+                $where['merchant_id'] = $parameters['merchant_ids'];
+                $optionalParams = array();
+                $optionalParams['column'] = array('merchant_id');
+                $mappedMerchantListWithProductData = $this->getMerchantProductMapping($where, $optionalParams);
+                $mappedMerchantData = array_keys($mappedMerchantListWithProductData);
+                if(isset($mappedMerchantData[0]) && $mappedMerchantData[0]==0) {
+                    //do nothing
+                }else{
+                    $merchantList = array_diff($parameters['merchant_ids'], $mappedMerchantData);
+                    if(!empty($merchantList)) {
+                        foreach($merchantList as $merchant) {
+                            $productMappingData = array();
+                            $productMappingData['product_id'] = $productId;
+                            $productMappingData['merchant_id'] = $merchant;
+                            $productMappingData['created_date'] = date('Y-m-d H:i:s');
+                            
+                            $this->insertIntoProductMapping($productMappingData);
+                        }
+                    }
+                }
+            }
         }
         return $response;
     }
     
+    public function insertIntoProductMapping($data) {
+        $commonModel = new commonModel();
+        $commonModel->insertIntoProductMapping($data);
+    }
+    public function getMerchantProductMapping($where, $optional = array()) {
+        $commonModel = new commonModel();
+        $merchantMappingResult = $commonModel->getMerchantMapping($where, $optional);
+        $merchantData = $this->processResult($merchantMappingResult, 'merchant_id');
+        return $merchantData;
+    }
     public function uploadImgParams($value, $id){
         $imageParams = array();
         $imageParams['type'] = $value['type'];
@@ -538,6 +571,9 @@ class common  {
                 $optional['category_name'] = $parameters['value'];
             }
             
+        }
+        if(!empty($parameters['merchant_id'])) {
+            $optional['merchant_id'] = $parameters['merchant_id'];
         }
         $totalRecord = $this->commonModel->getProductListCount($optional);
         foreach ($totalRecord as $key => $value) {
@@ -1150,7 +1186,19 @@ class common  {
             if(!empty($parameters['attribute_image'])){
                 $productParams['attribute_image'] = $parameters['attribute_image'];
             }
+            if(!empty($parameters['merchant_name'])) {
+                $where['email'] = $parameters['merchant_name'];
+                $merchantList = $this->getMerchantList($where);
+                $merchantIds = array_keys($merchantList);
+                $productParams['merchant_ids'] = $merchantIds;
+            }
           return $this->addEditProduct($productParams);  
+    }
+    
+    public function getMerchantList($where) {
+        $result = $this->commonModel->getMarchantList($where);
+        $merchantList = $this->processResult($result, 'id');
+        return $merchantList;
     }
     
     public function cityList($parameters, $optional = array()) {

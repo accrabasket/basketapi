@@ -544,6 +544,14 @@ class customer {
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->createOrder($orderData);
                 if(!empty($result)) {
+                    $notificationData = array();
+                    $notificationData['order_id'] = $orderId;
+                    $notificationData['user_type'] = 'admin';
+                    $notificationData['user_id'] = 0;
+                    $this->sentNotification('notification_for_order_placed_for_admin', $notificationData);
+                    $notificationData['user_id'] = $orderDetail['merchant_id'];
+                    $notificationData['user_type'] = 'merchant';
+                    $this->sentNotification('notification_for_order_placed_for_merchant', $notificationData);
                     if(!empty($orderDetails['merchantItemWiseOrderDetails'][$storeId])) {
                         foreach($orderDetails['merchantItemWiseOrderDetails'][$storeId] as $merchantProductId=>$orderItems) {
                             $orderItems['merchant_product_id'] = $merchantProductId;

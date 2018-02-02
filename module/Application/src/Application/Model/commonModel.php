@@ -122,6 +122,18 @@ class commonModel  {
         }
     }
     
+    public function insertIntoProductMapping($data) {
+        try {
+            $query = $this->sql->insert('product_merchant_mapping')
+                        ->values($data);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
     public function updateAttribute($parameters, $opation = array()) {
         try {
             $query = $this->sql->update('product_attribute')
@@ -141,6 +153,8 @@ class commonModel  {
             $query = $this->sql->select('user_master');
             if (!empty($optional['id'])) {
                 $query = $query->where(array('id' => $optional['id']));
+            }elseif(!empty($optional['email'])){
+                $query = $query->where(array('email' => $optional['email']));
             }else{
                 $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id')
                         ->where(array('role_id' => 2));
@@ -153,6 +167,22 @@ class commonModel  {
             return false;
         }
     }
+    
+    public function getMerchantMapping($where, $optional = array()) {
+        try {
+            $query = $this->sql->select('product_merchant_mapping');
+            if(!empty($optional['column'])) {
+                $query->columns($optional['column']);
+            }
+            $query = $query->where($where);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
     public function addLocation($parameters) {
         try {
             $query = $this->sql->insert('location_master')
@@ -233,6 +263,10 @@ class commonModel  {
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            if(!empty($optional['merchant_id'])) {
+                $query = $query->join('product_merchant_mapping', 'product_master.id = product_merchant_mapping.product_id',array());
+                $query = $query->where(array('product_merchant_mapping.merchant_id'=>$optional['merchant_id']));
             }
             if(empty($optional['onlyProductDetails'])){
 //                $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array('name','unit','quantity'))
@@ -653,7 +687,10 @@ class commonModel  {
             if(isset($optional['active'])) {
                 $query = $query->where(array('product_master.status'=>$optional['active']));
             } 
-            
+            if(!empty($optional['merchant_id'])) {
+                $query = $query->join('product_merchant_mapping', 'product_master.id = product_merchant_mapping.product_id',array());
+                $query = $query->where(array('product_merchant_mapping.merchant_id'=>$optional['merchant_id']));
+            }            
             if(empty($optional['onlyProductDetails'])){
              if(!empty($optional['name'])) {
                       $query = $query->join('product_attribute', 'product_attribute.product_id = product_master.id',array());
