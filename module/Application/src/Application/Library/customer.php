@@ -199,6 +199,9 @@ class customer {
             $userParams['address']       =  !empty($parameters['address'])?$parameters['address']:""; 
             $userParams['password']      =  md5($parameters['password']); 
             $userParams['created_date']  =  date('Y-m-d H:i:s'); 
+            if(!empty($parameters['fcm_reg_id'])) {
+                $userParams['fcm_reg_id'] = $parameters['fcm_reg_id'];
+            }            
             $rules['password']           =  array('type'=>'string', 'is_required'=>true);
             $rules['city_id']            =  array('type'=>'numeric', 'is_required'=>true);            
             $rules['mobile_number']      =  array('type'=>'string', 'is_required'=>true);            
