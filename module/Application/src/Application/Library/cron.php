@@ -38,9 +38,11 @@ class cron {
                 $where['id'] = $notification['user_id'];                
                 if($notification['user_type'] == 'rider'){
                     $userDetail = $this->commonLib->riderList($where);
+                    $serverKey = FIREBASE_API_KEY;
                 }
                 if($notification['user_type'] == 'customer'){
                     $userDetail = $this->customerLib->getUserDetail($where);
+                    $serverKey = CUSTOMER_FIREBASE_API_KEY;
                 }                
                 if(!empty($userDetail['data'])) {
                     
@@ -51,7 +53,7 @@ class cron {
                 }
                 
                 $regId = $userData[0]['fcm_reg_id'];//to Do
-                $response = $this->send($regId, $json); 
+                $response = $this->send($regId, $json, $serverKey); 
                 $notificationResponse = json_decode($response, true);
                 $notificationParams = array();
                 $notificationParams['status'] = !empty($notificationResponse['success'])?1:2;
@@ -114,12 +116,12 @@ class cron {
         
         return $result;        
     }
-    public function send($to, $message) {
+    public function send($to, $message, $serverKey) {
         $fields = array(
             'to' => $to,
             'data' => $message,
         );
-        return $this->sendPushNotification($fields);
+        return $this->sendPushNotification($fields, $serverKey);
     }
 
     // Sending message to a topic by topic name
@@ -142,13 +144,13 @@ class cron {
     }
 
     // function makes curl request to firebase servers
-    private function sendPushNotification($fields) {
+    private function sendPushNotification($fields, $serverKey) {
 
         // Set POST variables
         $url = 'https://fcm.googleapis.com/fcm/send';
 
         $headers = array(
-            'Authorization: key=' . FIREBASE_API_KEY,
+            'Authorization: key=' . $serverKey,
             'Content-Type: application/json'
         );
         // Open connection

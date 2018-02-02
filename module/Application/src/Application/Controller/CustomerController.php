@@ -98,6 +98,12 @@ class CustomerController extends AbstractActionController {
                 case 'sendmanualnotificationbyrider':
                     $response = $this->customerLib->sendManualNotificationByRider($parameters);
                     break;
+                case 'addEditRestrictedLocation':
+                    $response = $this->customerLib->addEditRestrictedLocation($parameters);
+                    break;                
+                case 'getRestrictedLocationList':
+                    $response = $this->customerLib->getRestrictedLocationList($parameters);
+                    break;                
             }
 
             echo json_encode($response);

@@ -309,7 +309,7 @@ class customer {
             $userDetails = $this->getUserDetail($where);
             if(!empty($userDetails['data'])){
                 $response = $userDetails;
-                $userIdArr = array_keys($userDetails);
+                $userIdArr = array_keys($userDetails['data']);
                 $params['id'] = $userIdArr[0];
                 $this->addEditUser($params);                
             }
@@ -1680,4 +1680,81 @@ class customer {
         }
         return $response;
     }
+    
+    function addEditRestrictedLocation($parameters) {
+        $params = array();
+        $rule = array();
+        if(!empty($parameters['id'])){
+            $where = array('id'=>$parameters['id']);
+            if(isset($parameters['address'])) {
+                $params['address'] = $parameters['address'];
+                $rule['address'] = array('type'=>'string', 'is_required'=>true);                
+            }
+            if(isset($parameters['country_id'])) {
+                $params['country_id'] = (int)$parameters['country_id'];
+                $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
+            if(isset($parameters['city_id'])) {
+                $params['city_id'] = (int)$parameters['city_id'];
+                $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
+            }
+        }else{
+            $params['address'] = $parameters['address'];
+            $params['country_id'] = (int)$parameters['country_id'];
+            $params['city_id'] = (int)$parameters['city_id'];
+            $rule['address'] = array('type'=>'string', 'is_required'=>true);
+            $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
+            $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
+        }
+        $response = $this->isValid($rule, $params);
+        if(empty($response)){
+            $response = array('status' => 'fail', 'msg' => 'No Record Saved ');
+            if(!empty($parameters['id'])){
+                $result = $this->customerModel->updateRestrictedLocation($params, $where);
+            }else {
+                $params['created_date'] = date('Y-m-d H:i:s');
+                $result = $this->customerModel->addRestrictedLocation($params);
+            }
+            if(!empty($result)){
+                $response = array('status'=>'success','msg'=>'Record Saved');
+            }            
+        }
+        
+        return $response;
+        
+    }
+    
+    function getRestrictedLocationList($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $optional = array();
+        if(!empty($parameters['id'])) {
+            $optional['id'] = $parameters['id'];
+        }         
+        if(!empty($parameters['columns'])) {
+            $optional['columns'] = $parameters['columns'];
+        }    
+        if(!empty($parameters['pagination'])) {
+            $optional['pagination'] = $parameters['pagination'];
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+        }
+        if(!empty($parameters['address'])) {
+            $optional['address'] = $parameters['address'];
+        }
+        if(!empty($parameters['city_id'])) {
+            $optional['city_id'] = $parameters['city_id'];
+        }        
+        if(isset($parameters['active'])) {
+            $optional['active'] = $parameters['active'];
+        }        
+        
+        $result = $this->customerModel->restrictedLocationList($optional);
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;        
+    }    
 }

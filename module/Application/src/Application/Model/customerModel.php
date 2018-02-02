@@ -872,4 +872,61 @@ class customerModel  {
             return false;
         }        
     }
+    
+    function addRestrictedLocation($params) {
+        try {
+            $query = $this->sql->insert('restricted_location_master')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function updateRestrictedLocation($params, $where) {
+        try {            
+            $query = $this->sql->update('restricted_location_master')
+                        ->set($params)
+                        ->where(array('id'=>$where['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    public function restrictedLocationList($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            
+            $query = $this->sql->select('restricted_location_master');
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']); 
+            }             
+            if (!empty($optional['id'])) {
+                $query = $query->where(array('id' => $optional['id']));
+            }
+            if(!empty($optional['address'])) {
+                $query = $query->where($where->like('address', "%".$optional['address']."%"));
+            } 
+            if(!empty($optional['city_id'])) {
+                $query = $query->where(array('city_id'=>$optional['city_id']));
+            }            
+            if(isset($optional['active'])) {
+                $query = $query->where(array('active'=>$optional['active']));
+            } 
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
 }
