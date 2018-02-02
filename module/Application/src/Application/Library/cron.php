@@ -9,19 +9,23 @@
 namespace Application\Library;
 use Application\Model\customerModel;
 use Application\Library\common;
+use Application\Library\customer;
 use Zend\Mail;
 class cron {
     public $customerModel;
     public $commonLib;
+    public $customerLib;
     
     public function __construct() {
         $this->customerModel = new customerModel();
         $this->commonLib = new common();
+        $this->customerLib = new customer();
     }
     function sendNotification() {
         $response = array('status' => 'fail', 'msg' => 'Nothing to send ');
         $where = array();
         $where['status']='0';
+        $where['user_type']=array('customer', 'rider');
         $notificationList = $this->customerModel->getNotification($where);
         if(!empty($notificationList)) {
             foreach($notificationList as $notification) {
@@ -30,11 +34,14 @@ class cron {
                 $this->setImage('http://api.androidhive.info/images/minion.jpg');
                 $this->setIsBackground(TRUE);        
                 $json = $this->getPush();
+                $where = array();
+                $where['id'] = $notification['user_id'];                
                 if($notification['user_type'] == 'rider'){
-                    $riderWhere = array();
-                    $riderWhere['id'] = $notification['user_id'];
-                    $userDetail = $this->commonLib->riderList($riderWhere);
+                    $userDetail = $this->commonLib->riderList($where);
                 }
+                if($notification['user_type'] == 'customer'){
+                    $userDetail = $this->customerLib->getUserDetail($where);
+                }                
                 if(!empty($userDetail['data'])) {
                     
                     $userData = array_values($userDetail['data']);

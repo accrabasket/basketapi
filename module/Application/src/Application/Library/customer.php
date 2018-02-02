@@ -185,6 +185,9 @@ class customer {
             }
             if(isset($parameters['status'])) {
                 $userParams['status'] = $parameters['status'];
+            }
+            if(isset($parameters['fcm_reg_id'])) {
+                $userParams['fcm_reg_id'] = $parameters['fcm_reg_id'];
             }            
         }else {
             $userParams['email']         =  isset($parameters['email'])?$parameters['email']:'';
@@ -282,6 +285,7 @@ class customer {
         $response = array('status'=>'fail','msg'=>'Invalid credentials');
         $status = true;
         $where = array();
+        $params = array();
         if(!empty($parameters['email']) || !empty($parameters['mobile_number'])) {
             $where['email'] = isset($parameters['email'])?$parameters['email']:'';
             $where['mobile_number'] = isset($parameters['mobile_number'])?$parameters['mobile_number']:'';
@@ -295,10 +299,16 @@ class customer {
             $status = false;
             $response = array('status'=>'fail','msg'=>'Password not supplied');
         }
+        if(!empty($parameters['fcm_reg_id'])) {
+            $params['fcm_reg_id'] = $parameters['fcm_reg_id'];
+        }        
         if($status){
             $userDetails = $this->getUserDetail($where);
             if(!empty($userDetails['data'])){
                 $response = $userDetails;
+                $userIdArr = array_keys($userDetails);
+                $params['id'] = $userIdArr[0];
+                $this->addEditUser($params);                
             }
         }
         return $response;
