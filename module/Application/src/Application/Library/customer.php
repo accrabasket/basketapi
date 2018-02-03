@@ -1584,7 +1584,15 @@ class customer {
         $completedOrderByDate = $this->processResult($completedOrders, 'created_date', false, true);
         $totalConfirmedOrder = isset($completedOrderByDate['totalCount'])?$completedOrderByDate['totalCount']:0;
         unset($completedOrderByDate['totalCount']);
-        $data = array('customerByDate'=>$customerByDate, 'allOrderByDate'=>$allOrderByDate, 'completedOrderByDate'=>$completedOrderByDate, 'totalOrder'=>$totalOrder, 'totalConfirmedOrder'=>$totalConfirmedOrder);
+       
+        
+        $whereParams['order_status'] = 'cancelled';
+        $cancelledOrders = $this->customerModel->getOrderCount($whereParams, $optional);        
+        $cancelledOrderByDate = $this->processResult($cancelledOrders, 'created_date', false, true);
+        $totalCancelledOrder = isset($cancelledOrderByDate['totalCount'])?$cancelledOrderByDate['totalCount']:0;
+        unset($cancelledOrderByDate['totalCount']); 
+        
+        $data = array('customerByDate'=>$customerByDate, 'allOrderByDate'=>$allOrderByDate, 'completedOrderByDate'=>$completedOrderByDate, 'cancelledOrderByDate'=>$cancelledOrderByDate, 'totalOrder'=>$totalOrder, 'totalConfirmedOrder'=>$totalConfirmedOrder, 'totalCancelledOrder'=>$totalCancelledOrder);
         $response = array('status'=>'success', 'data'=>$data);
         
         return $response;

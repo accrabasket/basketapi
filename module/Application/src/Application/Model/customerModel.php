@@ -849,7 +849,7 @@ class customerModel  {
             }            
             $where = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('order_master');
-            $query->columns(array('order_status','count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
+            $query->columns(array('count'=>new Expression("count(*)"),'created_date'=>new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
             
             if(!empty($whereParams['merchant_id'])) {
                 $query = $query->where($where->equalTo('order_master.merchant_id', $whereParams['merchant_id']));                
@@ -864,6 +864,9 @@ class customerModel  {
                 $query = $query->where($where->lessThanOrEqualTo('order_master.created_date', $whereParams['end_date']));                
             }   
             $query->group(array(new Expression("DATE_FORMAT(created_date, '$optional[date_formate]')")));
+            //if($whereParams['order_status'] =='cancelled'){
+                //echo $query->getSqlString();die;
+            //}
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
