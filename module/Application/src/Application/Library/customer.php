@@ -495,6 +495,37 @@ class customer {
         if(empty($parameters['shipping_address_id'])) {
             $status = false;
             $response['msg'] = "shipping address not supplied";            
+        }else{
+            $addressParams = array();
+            $addressParams['id'] = $parameters['shipping_address_id'];
+            $customerModel = new customerModel();
+            $addressList = $customerModel->getAddressList($addressParams);
+            $addressDetails = $addressList->current();
+            
+            $restrictedLocationParams = array();
+            $restrictedLocationParams['city_id'] = $addressDetails['city_id'];
+            $restrictedAreaList = $this->getRestrictedLocationList($restrictedLocationParams);
+            if($restrictedAreaList['status'] == 'success') {
+                foreach($restrictedAreaList['data'] as $restrictedArea) {
+                    $restrictedArea['address'] = strtolower($restrictedArea['address']);
+                    
+                    $addressDetails['address_nickname'] = strtolower($addressDetails['address_nickname']);
+                    $addressDetails['street_detail'] = strtolower($addressDetails['street_detail']);
+                    $addressDetails['area'] = strtolower($addressDetails['area']);
+                    if (strpos($addressDetails['address_nickname'], $restrictedArea['address']) !== false) {
+                        $status = false;
+                        $response['msg'] = "shipping address Restricted"; 
+                    }                
+                    if (strpos($addressDetails['street_detail'], $restrictedArea['address']) !== false) {
+                        $status = false;
+                        $response['msg'] = "shipping address Restricted"; 
+                    }          
+                    if (strpos($addressDetails['area'], $restrictedArea['address']) !== false) {
+                        $status = false;
+                        $response['msg'] = "shipping address Restricted"; 
+                    }                
+                }
+            }
         }
         if(empty($parameters['time_slot_id'])) {
             $status = false;
@@ -1771,8 +1802,8 @@ class customer {
         if(isset($parameters['active'])) {
             $optional['active'] = $parameters['active'];
         }        
-        
-        $result = $this->customerModel->restrictedLocationList($optional);
+        $customerModel = new customerModel();
+        $result = $customerModel->restrictedLocationList($optional);
         if (!empty($result)) {
             $data = array();
             foreach ($result as $key => $value) {
