@@ -96,6 +96,9 @@ class customerModel  {
             $where = new \Zend\Db\Sql\Where();
             $orQuery = "";
             $query = $this->sql->select('user_master'); 
+            if(!empty($optional['columns'])) {
+                $query->columns($optional['columns']);
+            }            
             if(!empty($whereParams['id'])) {
                 $query = $query->where(array('user_master.id' => $whereParams['id']));
             } 
@@ -119,7 +122,9 @@ class customerModel  {
             }   
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
-            
+            if(!empty($optional['count_row'])) {
+                $result = $result->current();
+            }            
             return $result;
         } catch (\Exception $ex) {
             return false;

@@ -274,10 +274,18 @@ class customer {
         }
         $this->customerModel = new customerModel();
         $result = $this->customerModel->getUserDetail($where, $optional);
+        if(!empty($parameters['count'])) {
+            $countOptional = array();
+            $countOptional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
+            $countOptional['count_row'] = true;
+            $customerModel = new customerModel();
+
+            $totalNumberOfUser = $customerModel->getUserDetail($where, $countOptional);        
+        }
         if(!empty($result)) {
             $customerData = $this->processResult($result, 'id');
             if(!empty($customerData)) {
-                $response = array('status'=>'success', 'data'=>$customerData);
+                $response = array('status'=>'success', 'data'=>$customerData, 'totalNumberOfUser'=>$totalNumberOfUser['count']);
             }
         }
         
