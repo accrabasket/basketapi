@@ -98,5 +98,9 @@ class customercurl {
         }
         
         return $data;
-    }    
+    } 
+    
+    function updateInventry($params, $where) {
+        return $this->customerCurlModel->updateInventry($params, $where);
+    }
 }

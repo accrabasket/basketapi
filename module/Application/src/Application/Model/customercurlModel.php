@@ -116,5 +116,24 @@ class customercurlModel  {
             return false;
         }        
     }
-    
+    public function updateInventry($params, $where) {
+        $data = array(
+            'stock' => new \Zend\Db\Sql\Expression("stock-".$params['number_of_item']),
+        );
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('merchant_inventry')
+                        ->set($data)
+                        ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }      
+    }     
 }

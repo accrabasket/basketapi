@@ -993,6 +993,10 @@ class customer {
                     $customerModel = new customerModel();
                     $result = $customerModel->updateOrder($params, $orderWhere);
                     if(!empty($result)) {
+                        if($params['order_status'] == 'completed') {
+                            $this->updateInventry($orderWhere);
+                        }
+                        
                         $merchantNotificationParams = array();
                         $merchantNotificationParams['user_type'] = 'merchant';
                         $merchantNotificationParams['user_id'] = $orderDetails['merchant_id'];
@@ -1029,6 +1033,19 @@ class customer {
         }
         
        return $response;
+    }
+    
+    function updateInventry($parameters) {
+        $customerModel = new customerModel();
+        $orderItems = $customerModel->getOrderItem($parameters);
+        
+        foreach($orderItems as $item){
+            $where = array();
+            $params = array();
+            $where['id'] = $item['merchant_product_id'];
+            $params['number_of_item'] = $item['number_of_item'];
+            $response = $this->customercurlLib->updateInventry($params, $where);
+        }
     }
     
     function updateOrderStatus($parameters) {

@@ -320,7 +320,7 @@ class customerModel  {
             $query = $query->where(array('order_id'=>$where['order_id']));
             $query->order(array('id DESC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute();
+            $result = $satements->execute();            
             return $result;
         } catch (\Exception $ex) {
             return false;
