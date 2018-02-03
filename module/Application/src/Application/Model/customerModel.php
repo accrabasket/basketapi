@@ -932,4 +932,20 @@ class customerModel  {
             return false;
         }        
     }    
+    
+    function deleteRestrictedLocation($where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->delete('restricted_location_master')
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else {
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
 }

@@ -1780,7 +1780,7 @@ class customer {
         
     }
     
-    function getRestrictedLocationList($parameters) {
+    public function getRestrictedLocationList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();
         if(!empty($parameters['id'])) {
@@ -1813,4 +1813,19 @@ class customer {
         }
         return $response;        
     }    
+    
+    public function deleteRestrictedLocation($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Nothing to delete');
+        $where = array();
+        if(!empty($parameters['id'])) {
+            $where['id'] = $parameters['id'];
+        }      
+        $customerModel = new customerModel();
+        $result = $customerModel->deleteRestrictedLocation($where);        
+        if(!empty($result)) {
+            $response = array('status' => 'fail', 'msg' => 'Location deleted.');    
+        }
+        
+        return $response;
+    }
 }
