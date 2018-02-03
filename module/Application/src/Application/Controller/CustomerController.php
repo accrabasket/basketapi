@@ -110,6 +110,9 @@ class CustomerController extends AbstractActionController {
                 case 'deleteRestrictedLocation':
                     $response = $this->customerLib->deleteRestrictedLocation($parameters);
                     break;
+                case 'userlist':
+                    $response = $this->customerLib->getUserDetail($parameters);
+                    break;
             }
 
             echo json_encode($response);
