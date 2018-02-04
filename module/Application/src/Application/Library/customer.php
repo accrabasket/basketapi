@@ -273,7 +273,7 @@ class customer {
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
         }
         $this->customerModel = new customerModel();
-        $result = $this->customerModel->getUserDetail($where, $optional);
+        $result = $this->customerModel->getUserDetail($where, $optional);        
         if(!empty($parameters['count'])) {
             $countOptional = array();
             $countOptional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
@@ -281,6 +281,8 @@ class customer {
             $customerModel = new customerModel();
 
             $totalNumberOfUser = $customerModel->getUserDetail($where, $countOptional);        
+        }else{
+            $totalNumberOfUser['count'] = 1;
         }
         if(!empty($result)) {
             $customerData = $this->processResult($result, 'id');
@@ -1098,16 +1100,18 @@ class customer {
             $status = false;
             $response['msg'] = 'Please pass order status';                            
         }
+        $orderWhere['order_status'] = array('order_placed', 'ready_to_dispatch', 'assigned_to_rider', 'dispatched');
         if(!empty($parameters['role']) && $parameters['role'] == 'merchant') {
             if(!empty($parameters['merchant_id'])) {
                 $orderWhere['merchant_id'] = $parameters['merchant_id'];
             }else{
                 $status = false;
                 $response['msg'] = 'Please Pass merchant id';                
-            }            
-        }else{
+            }     
+            $orderWhere['order_status'] = array('order_placed');
+        }else if(empty($parameters['user_id'])) {
             $status = false;
-            $response['msg'] = 'Please Pass Role name';                            
+            $response['msg'] = 'Please Pass user id';
         }
         
         if(!empty($parameters['user_id'])) {
@@ -1121,7 +1125,7 @@ class customer {
         }
         if(!empty($parameters['store_id'])) {
             $orderWhere['store_id'] = $parameters['store_id'];
-        }         
+        }                         
         if($status) {
             $orderParams['updated_date'] = date('Y-m-d H:i:s');
             $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
