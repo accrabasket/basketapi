@@ -1335,7 +1335,7 @@ class customer {
                 $key = md5($userValues[0]['id'].time());
                 
                 $replaceData['name'] =  $userValues[0]['name'];
-                $replaceData['reset_link'] = FRONT_END_PATH.'index/changepassword?key='.$key;
+                $replaceData['reset_link'] = FRONT_END_PATH.'application/index/changepassword?key='.$key;
                 
                 
                 $customerModel = new customerModel();
