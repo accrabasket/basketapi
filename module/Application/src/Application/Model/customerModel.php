@@ -569,7 +569,7 @@ class customerModel  {
                             ->set($params)
                             ->where($where);
                 $satements = $this->sql->prepareStatementForSqlObject($query);
-                $result = $satements->execute();
+                $result = $satements->execute()->getAffectedRows();
                 return $result;
             }else{
                 return false;
