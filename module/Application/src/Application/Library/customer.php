@@ -1454,17 +1454,49 @@ class customer {
         if (empty($parameters['password'])) {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'old password not supplied');
+        }else{
+            $where['password'] = $parameters['password'];
         }
         
         if ($status) {
             $data['updated_date'] = date('Y-m-d H:i:s');
-            $result = $this->customerModel->changepassword($data, $where['id']);
+            $result = $this->customerModel->changepassword($data, $where);
             if (!empty($result)) {
                 $response = array('status' => 'success', 'msg' => 'password changed');
             }
         }
         return $response;
     }
+    
+    function changepasswordByAuthKey($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'change not change');
+        $status = true;
+        $data = array();
+        if (!empty($parameters['auth_key'])) {
+            $where['key'] = $parameters['auth_key'];
+        }else{
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'auth key not supplied');
+        }
+        
+        if (!empty($parameters['new_password'])) {
+            $data['password'] = md5($parameters['new_password']);
+        } else {
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'new password not supplied');
+        }
+        
+        
+        if ($status) {
+            $data['key'] = '';
+            $data['updated_date'] = date('Y-m-d H:i:s');
+            $result = $this->customerModel->changepassword($data, $where);
+            if (!empty($result)) {
+                $response = array('status' => 'success', 'msg' => 'password changed');
+            }
+        }
+        return $response;
+    }    
     function updatePaymentStatus($parameters) {
         $where = array();
         $response = array('status'=>'fail', 'msg'=>'Transaction Failed');

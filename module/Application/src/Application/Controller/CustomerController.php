@@ -67,6 +67,9 @@ class CustomerController extends AbstractActionController {
                 case 'forgetpassword':
                     $response = $this->customerLib->forgetpassword($parameters);
                     break;
+                case 'validateauthkey':
+                    $response = $this->customerLib->validateAuthKey($parameters);
+                    break;                    
                 case 'changepassword':
                     $response = $this->customerLib->changepassword($parameters);
                     break;
