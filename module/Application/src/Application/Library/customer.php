@@ -1456,7 +1456,7 @@ class customer {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'old password not supplied');
         }else{
-            $where['password'] = $parameters['password'];
+            $where['password'] = md5($parameters['password']);
         }
         
         if ($status) {
