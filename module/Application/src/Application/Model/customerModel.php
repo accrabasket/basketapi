@@ -570,7 +570,7 @@ class customerModel  {
                             ->where($where);
                 $satements = $this->sql->prepareStatementForSqlObject($query);
                 $result = $satements->execute();
-                return true;
+                return $result;
             }else{
                 return false;
             }

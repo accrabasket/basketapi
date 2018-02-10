@@ -1434,9 +1434,10 @@ class customer {
     }
     
     function changepassword($parameters) {
-        $response = array('status' => 'fail', 'msg' => 'change not change');
+        $response = array('status' => 'fail', 'msg' => 'password not change');
         $status = true;
         $data = array();
+        $where = array();
         if (!empty($parameters['user_id'])) {
             $where['id'] = $parameters['user_id'];
         }else{
@@ -1472,6 +1473,7 @@ class customer {
         $response = array('status' => 'fail', 'msg' => 'change not change');
         $status = true;
         $data = array();
+        $where = array();
         if (!empty($parameters['auth_key'])) {
             $where['key'] = $parameters['auth_key'];
         }else{
