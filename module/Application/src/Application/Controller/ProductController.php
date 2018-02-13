@@ -12,7 +12,7 @@ use Application\Library\product;
 use Zend\Mail;
 
 class ProductController extends AbstractActionController {
-
+    protected $productLib;
     public function __construct() {
         $this->productLib = new product();
     }

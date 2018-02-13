@@ -11,7 +11,7 @@ use Application\Library\common;
 use Application\Model\commonModel;
 use Application\Model\productModel;
 class product {
-
+    protected $productModel;
     public function __construct() {
         $this->commonLib = new common;
         $this->commonModel = new commonModel();
@@ -20,6 +20,7 @@ class product {
     function getProductList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();
+        $totalNumberOfRecord = 0;
         if (!empty($parameters['id'])){
             $optional['id'] = $parameters['id'];
         }
@@ -81,6 +82,11 @@ class product {
         if (!empty($result)) {
             $productData = $this->commonLib->processResult($result, 'product_id', false, true);
             if (!empty($productData)) {
+                $optional['count'] = 1;
+                unset($optional['pagination']);
+                $resultCount = $this->productModel->productList($optional);
+                $totalRecord = $resultCount->current();
+                $totalNumberOfRecord = $totalRecord['count'];
                 $getattribute = $this->commonModel->getAttributeList(array('product_id' => array_keys($productData)));
                 $attdata = $this->commonLib->processResult($getattribute, 'id');
                 if(!empty($attdata)) {
@@ -106,7 +112,7 @@ class product {
                 }                        
                 $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
-                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH);
+                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);
             }
         }
         return $response;
@@ -123,6 +129,7 @@ class product {
         return $productDetaList;
     }    
     function getMerchantProductAttribute($parameters, $attributeDetail) {
+        $this->productModel = new productModel();
         $data = $this->productModel->getMerchantProductAttribute($parameters);
         $attributeByProduct = array();
         if(!empty($data)) {
