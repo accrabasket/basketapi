@@ -40,14 +40,26 @@ class product {
             $optional['product_id'] = $parameters['product_id'];
         }     
         if(!empty($parameters['product_type'])) {
-            if($parameters['product_type'] == 'hotdeals') {
-                $optional['hotdeals'] = 1;
-            }
-            if($parameters['product_type'] == 'offers') {
-                $optional['offers'] = 1;
-            }
-            if($parameters['product_type'] == 'new_arrival') {
-                $optional['new_arrival'] = 1;
+            if(is_array($parameters['product_type'])){
+                if(in_array('hotdeals',$parameters['product_type'])) {
+                    $optional['hotdeals'] = 1;
+                }
+                if(in_array('offers', $parameters['product_type'])) {
+                    $optional['offers'] = 1;
+                }
+                if(in_array('new_arrival', $parameters['product_type'])) {
+                    $optional['new_arrival'] = 1;
+                }                
+            }else{
+                if('hotdeals' == $parameters['product_type']) {
+                    $optional['hotdeals'] = 1;
+                }
+                if('offers' == $parameters['product_type']) {
+                    $optional['offers'] = 1;
+                }                
+                if('new_arrival' == $parameters['product_type']) {
+                    $optional['new_arrival'] = 1;
+                }                
             }            
         }        
         if(!empty($optional['category_name'])) {
