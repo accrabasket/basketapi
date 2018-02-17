@@ -952,4 +952,20 @@ class customerModel  {
             return false;
         }
     }
+    
+    function deleteShippingAddress($where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->delete('delivery_address')
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else {
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
 }

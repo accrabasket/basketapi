@@ -1869,8 +1869,33 @@ class customer {
         $customerModel = new customerModel();
         $result = $customerModel->deleteRestrictedLocation($where);        
         if(!empty($result)) {
-            $response = array('status' => 'fail', 'msg' => 'Location deleted.');    
+            $response = array('status' => 'success', 'msg' => 'Location deleted.');    
         }
+        
+        return $response;
+    }
+    
+    public function deleteshippingaddress($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Nothing to delete');
+        $status = true;
+        $where = array();
+        if(!empty($parameters['id'])) {
+            $where['id'] = $parameters['id'];
+        }else{
+            $response['msg'] = "address id not supplied";
+            $status = FALSE;            
+        }      
+        if(!empty($parameters['user_id'])) {
+            $where['user_id'] = $parameters['user_id'];
+        }else{
+            $response['msg'] = "user id id not supplied";
+            $status = FALSE;            
+        }        
+        $customerModel = new customerModel();
+        $result = $customerModel->deleteShippingAddress($where);        
+        if(!empty($result)) {
+            $response = array('status' => 'success', 'msg' => 'Shipping address deleted.');    
+        }        
         
         return $response;
     }
