@@ -314,7 +314,7 @@ class common  {
     
     public function uploadImgParamsViaCsv($value, $id){
         $newloc = $GLOBALS['IMAGEROOTPATH'].'/'.$value['type'].'/'.$id.'/';
-        @mkdir($newloc, '0777', true);
+        @mkdir($newloc, 0777, true);
         if($value['type'] == 'product'){
             $image = $value['product_image'];
         }elseif($value['type'] == 'nutrition_image'){
@@ -1299,13 +1299,22 @@ class common  {
                 $imageName = $imageParams['id'].'_'.time();
             }else{
                 $imageName = $imageParams['id'];
-            }
-            
-            $data = explode(',', $imageParams['imageData']);
-            $imagData = base64_decode($data[1]);
-            @mkdir($imagePath, '0777', true);
+            }            
+            //$data = explode(',', $imageParams['imageData']);
+            //$imagData = base64_decode($data[1]);
+            @mkdir($imagePath, 0777, true);
             $imagePath = $imagePath.$imageName;
-            $im = imagecreatefromstring($imagData);
+            $data = explode(';', $imageParams['imageData']);
+            $imageData = explode(',', $data[1]);
+            $imageBase64Data = base64_decode($imageData[1]); 
+            if($data[0] == 'data:image/jpeg'){
+                $return['imagename'] = $imageName.'.jpg';
+                file_put_contents($imagePath.'.jpg', $imageBase64Data); 
+            }else {
+                $return['imagename'] = $imageName.'.png';
+                file_put_contents($imagePath.'.png', $imageBase64Data);            
+            }            
+/*            $im = imagecreatefromstring($imagData);die('ss');
             if ($im !== false) {
                 if($data[0] == 'data:image/jpeg;base64'){
                     header('Content-Type: image/jpeg');
@@ -1317,7 +1326,7 @@ class common  {
                     $return['imagename'] = $imageName.'.png';
                 }
                 imagedestroy($im);
-            }
+            }*/
         }
         return $return;
     }
