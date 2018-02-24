@@ -1134,7 +1134,7 @@ class common  {
     
     function addProductByCsv($parameters) {
             $data = array();
-            $productParams['item_code'] = $parameters['item_code'];
+            $productParams['item_code'] = (string)$parameters['item_code'];
             $productResult = $this->commonModel->getProductList($productParams);
             $productData = $this->processResult($productResult);
             if(count($productData)>0) {
