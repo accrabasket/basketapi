@@ -677,14 +677,20 @@ class common  {
         $response = array('status' => 'fail', 'msg' => 'Product Not Deleted '); 
         $rule['product_id'] = array('type'=>'integer', 'is_required'=>true);
         if(!empty($parameters['product_id'])) {
+            $this->commonModel->beginTransaction();
             $result = $this->commonModel->deleteProduct($parameters);
             if (!empty($result)) {
+                $result = $this->commonModel->deleteAttribute($parameters);
+                $result = $this->commonModel->deleteMerchantInvernty($parameters);
                 $response = array('status' => 'success', 'msg' => 'Product deleted ');
+                $this->commonModel->commit();
+            }else{
+                $this->commonModel->rollback();
             }
         }        
         
         return $response;        
-    }    
+    }      
     public function addEditRider($parameters) {
         $params = array();
         $rule = array();

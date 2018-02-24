@@ -326,15 +326,58 @@ class commonModel  {
     
     public function deleteProduct($parameters) {
         try {            
-            $query = $this->sql->delete('product_master')
+            if(!empty($parameters)) {
+                $query = $this->sql->delete('product_master')
                         ->where(array('id'=>$parameters['product_id']));
-            $satements = $this->sql->prepareStatementForSqlObject($query);
-            $result = $satements->execute()->getAffectedRows();
-            return $result;
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute()->getAffectedRows();
+                return $result;
+            }
+            return false;
         } catch (Exception $ex) {
             return false;
         }        
     }
+    public function deleteAttribute($parameters) {
+        try {            
+            if(!empty($parameters)) {
+                $query = $this->sql->delete('product_attribute')
+                        ->where(array('product_id'=>$parameters['product_id']));
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute()->getAffectedRows();
+                return $result;
+            }
+            return false;
+        } catch (Exception $ex) {
+            return false;
+        }            
+    }
+
+    public function deleteMerchantInvernty($parameters) {
+        try {            
+            if(!empty($parameters)) {
+                $query = $this->sql->delete('merchant_inventry')
+                        ->where(array('product_id'=>$parameters['product_id']));
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute()->getAffectedRows();
+                return $result;
+            }
+            return false;
+        } catch (Exception $ex) {
+            return false;
+        }            
+    }
+
+    function beginTransaction() {
+        $this->adapter->getDriver()->getConnection()->beginTransaction();
+    }
+    function commit() {
+        $this->adapter->getDriver()->getConnection()->commit();
+    }    
+    function rollback() {
+        $this->adapter->getDriver()->getConnection()->rollback();
+    }
+    
     public function addRider($parameters) {
         try {
             $query = $this->sql->insert('rider_master')
