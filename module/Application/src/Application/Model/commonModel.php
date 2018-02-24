@@ -253,6 +253,9 @@ class commonModel  {
             if (!empty($optional['id'])) {
                 $query = $query->where(array('product_master.id' => $optional['id']));
             }
+            if (!empty($optional['item_code'])) {
+                $query = $query->where(array('product_master.item_code' => $optional['item_code']));
+            }            
             if(!empty($optional['product_name'])) {
                 $value = '%'.$optional['product_name'].'%';
                 $query = $query->where($where->like('product_master.product_name', $value));                

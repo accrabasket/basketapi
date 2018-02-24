@@ -146,6 +146,7 @@ class common  {
             }
         }else {
             $data = array();
+            $productParams['item_code'] = $parameters['item_code'];
             $productParams['product_name'] = $parameters['product_name'];
             $productParams['category_id'] = (int)$parameters['category_id'];
             $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
@@ -156,7 +157,7 @@ class common  {
             }
             
             $productParams['created_date'] = date('Y-m-d H:i:s');
-
+            $productRules['item_code'] = array('type'=>'string', 'is_required'=>true);
             $productRules['product_name'] = array('type'=>'string', 'is_required'=>true);
             $productRules['category_id'] = array('type'=>'integer', 'is_required'=>true);
             //$productRules['product_desc'] = array('type'=>'string', 'is_required'=>true);            
@@ -1133,7 +1134,7 @@ class common  {
     
     function addProductByCsv($parameters) {
             $data = array();
-            $productParams['product_name'] = $parameters['product_name'];
+            $productParams['item_code'] = $parameters['item_code'];
             $productResult = $this->commonModel->getProductList($productParams);
             $productData = $this->processResult($productResult);
             if(count($productData)>0) {
@@ -1143,6 +1144,8 @@ class common  {
             $categoryParams['category_name'] = $parameters['category_name'];
             $categoryResult = $this->commonModel->categoryList($categoryParams);
             $categoryData = $this->processResult($categoryResult);
+            
+            $productParams['product_name'] = $parameters['product_name'];
             if(count($categoryData)>0) {
                 $productParams['category_id'] = $categoryData[0]['id'];
             }else {
