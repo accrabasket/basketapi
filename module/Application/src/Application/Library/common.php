@@ -1311,7 +1311,7 @@ class common  {
             }            
             //$data = explode(',', $imageParams['imageData']);
             //$imagData = base64_decode($data[1]);
-            @mkdir($imagePath, 0777, true);
+            @mkdir($imagePath, 0755, true);
             $imagePath = $imagePath.$imageName;
             $data = explode(';', $imageParams['imageData']);
             $imageData = explode(',', $data[1]);
@@ -1649,13 +1649,9 @@ class common  {
             $where = $parameters['id'];
             $this->commonModel->updateBanner($data,$where);
             $result = $parameters['id'];
-            $newdata = array();
-            $newdata['image_name'] = $result.'.jpg';
-            $this->commonModel->updateBanner($newdata,$where);
         }else {       
             $data['link'] = $parameters['link'];
             $data['status'] = $parameters['status'];
-            $data['image_name'] = $result.'.jpg';
             if(!empty($parameters['description'])){
                 $data['description'] = $parameters['description'];
             }
@@ -1670,7 +1666,12 @@ class common  {
                 $imageParams['id'] = $result;
                 $imageParams['imageData'] = $parameters['image'];
                 $imageParams['make_id_wise_folder'] = 'no';
-                $this->uploadImage($imageParams);
+                $imageResponse = $this->uploadImage($imageParams);
+                $where = $result;
+                $newdata = array();
+                $newdata['image_name'] = $imageResponse['imagename'];
+                $commonModel = new commonModel();
+                $commonModel->updateBanner($newdata,$where);
             }            
             $response = array('status'=>'success','msg'=>'banner Data Saved');
         }
