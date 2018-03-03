@@ -51,11 +51,8 @@ class productModel  {
             if(!empty($optional['product_id'])) {
                 $query->where(array('product_master.id' => $optional['product_id']));
             } 
-            if(!empty($optional['hotdeals'])) {
-                $query->where(array('product_master.hotdeals' => $optional['hotdeals']));
-            }
-            if(!empty($optional['offers'])) {
-                $query->where(array('product_master.offers' => $optional['offers']));
+            if(!empty($optional['hotdeals'])  || !empty($optional['offers'])) {
+                $query->where('(product_master.hotdeals=1 OR product_master.offers=1)');
             }
             if(!empty($optional['new_arrival'])) {
                 $query->where(array('product_master.new_arrival' => $optional['new_arrival']));
@@ -70,6 +67,9 @@ class productModel  {
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }
+            if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
+                $query->order("merchant_inventry.$optional[sort_by] $optional[order_by]");
             }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();

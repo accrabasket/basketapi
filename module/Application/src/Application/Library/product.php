@@ -89,6 +89,10 @@ class product {
             $optional['pagination'] = $parameters['pagination'];
             $optional['page'] = !empty($parameters['page']) ? $parameters['page'] : 1;
         }
+        if (!empty($parameters['order_by']) && !empty($parameters['short_by'])) {
+            $optional['sort_by'] = $parameters['short_by'];
+            $optional['order_by'] = $parameters['order_by'];
+        }
         $result = $this->productModel->productList($optional);
         $attributeImageData = array();
         if (!empty($result)) {
