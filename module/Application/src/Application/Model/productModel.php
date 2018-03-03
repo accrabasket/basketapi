@@ -34,12 +34,13 @@ class productModel  {
                 $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array());
                 $query->columns(array('count'=>new Expression("count(DISTINCT(merchant_inventry.product_id))")));
             }else{ 
+                $query->group('merchant_inventry.product_id');
                 $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name','discount_type', 'discount_value', 'product_desc', 'category_id','custom_info','brand_name','bullet_desc','nutrition'));
                 if(!empty($optional['merchant_inventry_id'])) {
                     $query->columns(array('id'=>'id','price' => 'price', 'product_id' => 'product_id'));
                     $query->where(array('merchant_inventry.id' => $optional['merchant_inventry_id']));
                 }else {
-                    $query->columns(array('product_id' => new \Zend\Db\Sql\Expression('DISTINCT(merchant_inventry.product_id)'),'price'));
+                    $query->columns(array('product_id', 'price'=>new Expression("min(merchant_inventry.price)")));
                 }     
             }
             if(!empty($optional['category_id'])) {
@@ -69,7 +70,7 @@ class productModel  {
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
             }
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
-                $query->order("merchant_inventry.$optional[sort_by] $optional[order_by]");
+                $query->order("$optional[sort_by] $optional[order_by]");
             }
             //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
@@ -99,7 +100,7 @@ class productModel  {
                 $query = $query->where(array('merchant_inventry.attribute_id' => $optional['attribute_id']));
             }
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
-                $query->order("merchant_inventry.$optional[sort_by] $optional[order_by]");
+                $query->order("$optional[sort_by] $optional[order_by]");
             }            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
