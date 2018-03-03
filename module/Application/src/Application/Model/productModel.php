@@ -39,7 +39,7 @@ class productModel  {
                     $query->columns(array('id'=>'id','price' => 'price', 'product_id' => 'product_id'));
                     $query->where(array('merchant_inventry.id' => $optional['merchant_inventry_id']));
                 }else {
-                    $query->columns(array('product_id' => new \Zend\Db\Sql\Expression('DISTINCT(merchant_inventry.product_id)')));
+                    $query->columns(array('product_id' => new \Zend\Db\Sql\Expression('DISTINCT(merchant_inventry.product_id)'),'price'));
                 }     
             }
             if(!empty($optional['category_id'])) {
@@ -71,6 +71,7 @@ class productModel  {
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
                 $query->order("merchant_inventry.$optional[sort_by] $optional[order_by]");
             }
+            //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
@@ -97,7 +98,9 @@ class productModel  {
             if(!empty($optional['attribute_id'])) {
                 $query = $query->where(array('merchant_inventry.attribute_id' => $optional['attribute_id']));
             }
-            
+            if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
+                $query->order("merchant_inventry.$optional[sort_by] $optional[order_by]");
+            }            
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             

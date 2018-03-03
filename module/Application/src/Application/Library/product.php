@@ -100,6 +100,7 @@ class product {
             if (!empty($productData)) {
                 $optional['count'] = 1;
                 unset($optional['pagination']);
+                unset($optional['sort_by']);
                 $resultCount = $this->productModel->productList($optional);
                 $totalRecord = $resultCount->current();
                 $totalNumberOfRecord = $totalRecord['count'];
@@ -126,6 +127,10 @@ class product {
                 if (!empty($parameters['merchant_id'])){
                     $minPriceParams['merchant_id'] = $parameters['merchant_id'];
                 }                        
+                if (!empty($parameters['order_by']) && !empty($parameters['short_by'])) {
+                    $minPriceParams['sort_by'] = $parameters['short_by'];
+                    $minPriceParams['order_by'] = $parameters['order_by'];
+                }                
                 $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
                 $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);
