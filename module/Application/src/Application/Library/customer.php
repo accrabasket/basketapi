@@ -11,7 +11,7 @@ use Application\Model\customerModel;
 use Zend\Mail;
 use Application\Library\customercurl;
 class customer {
-    public $customerModel;
+    public $customerMogedel;
     public $customercurlLib;
     public function __construct() {
         $this->customerModel = new customerModel();
@@ -1238,8 +1238,9 @@ class customer {
         $response = array('status'=>'fail','msg'=>'Invalid details');
         $status = true;
         $where = array();
+        $countryCode = isset($parameters['country_code'])?$parameters['country_code']:'';
         if(!empty($parameters['mobile_number'])) {
-            $where['mobile_number'] = $parameters['mobile_number'];
+            $where['mobile_number'] = $countryCode.$parameters['mobile_number'];
         }else{
             $status = false;
             $response = array('status'=>'fail','msg'=>'Mobile number not supplied');
@@ -1247,7 +1248,7 @@ class customer {
         if(!empty($parameters['otp_type'])) {
             $where['otp_type'] = $parameters['otp_type'];
             if($where['otp_type'] == 'register') {
-                $whereUserParams['mobile_number'] = $parameters['mobile_number'];
+                $whereUserParams['mobile_number'] = $countryCode.$parameters['mobile_number'];
                 $userData = $this->getUserDetail($whereUserParams);
                 if(!empty($userData['data'])) {
                     $status = false;
@@ -1265,7 +1266,7 @@ class customer {
             $randomNumber = mt_rand(1000, 9999);
             $smsQueueData = array();
             $otpData = array();
-            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $parameters['mobile_number'];
+            $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $countryCode.$parameters['mobile_number'];
             $otpData['otp_type'] = $parameters['otp_type'];
             $otpData['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:0;
             $otpData['otp'] = $randomNumber;
