@@ -1238,7 +1238,7 @@ class customer {
         $response = array('status'=>'fail','msg'=>'Invalid details');
         $status = true;
         $where = array();
-        $countryCode = isset($parameters['country_code'])?$parameters['country_code']:'';
+        $countryCode = isset($parameters['country_code'])?"+".$parameters['country_code']:'';
         if(!empty($parameters['mobile_number'])) {
             $where['mobile_number'] = $countryCode.$parameters['mobile_number'];
         }else{
@@ -1248,7 +1248,7 @@ class customer {
         if(!empty($parameters['otp_type'])) {
             $where['otp_type'] = $parameters['otp_type'];
             if($where['otp_type'] == 'register') {
-                $whereUserParams['mobile_number'] = $countryCode.$parameters['mobile_number'];
+                $whereUserParams['mobile_number'] = $parameters['mobile_number'];
                 $userData = $this->getUserDetail($whereUserParams);
                 if(!empty($userData['data'])) {
                     $status = false;
