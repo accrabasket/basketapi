@@ -1246,6 +1246,14 @@ class customer {
         }
         if(!empty($parameters['otp_type'])) {
             $where['otp_type'] = $parameters['otp_type'];
+            if($where['otp_type'] == 'register') {
+                $whereUserParams['mobile_number'] = $parameters['mobile_number'];
+                $userData = $this->getUserDetail($whereUserParams);
+                if(!empty($userData['data'])) {
+                    $status = false;
+                    $response = array('status'=>'fail','msg'=>'Mobile Number Already registered.');                    
+                }
+            }
         }else{
             $status = false;
             $response = array('status'=>'fail','msg'=>'Otp type is not supplied');

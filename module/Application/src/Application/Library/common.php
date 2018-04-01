@@ -73,7 +73,7 @@ class common  {
             }            
             if(!empty($parameters['bullet_desc'])){
                $productParams['bullet_desc'] = $parameters['bullet_desc']; 
-            }            
+            }  
             if(isset($parameters['hotdeals'])){
                $productParams['hotdeals'] = $parameters['hotdeals']; 
             }            
