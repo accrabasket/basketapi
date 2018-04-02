@@ -1238,7 +1238,7 @@ class customer {
         $response = array('status'=>'fail','msg'=>'Invalid details');
         $status = true;
         $where = array();
-        $countryCode = isset($parameters['country_code'])?"+".$parameters['country_code']:'';
+        $countryCode = isset($parameters['country_code'])?$parameters['country_code']:'';
         if(!empty($parameters['mobile_number'])) {
             $where['mobile_number'] = $countryCode.$parameters['mobile_number'];
         }else{

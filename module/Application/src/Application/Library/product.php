@@ -162,6 +162,12 @@ class product {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_value'] = $attributeDetail[$row['attribute_id']]['discount_value'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['unit'] = $attributeDetail[$row['attribute_id']]['unit'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['quantity'] = $attributeDetail[$row['attribute_id']]['quantity'];
+                    $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price'];
+                    if($attributeDetail[$row['attribute_id']]['discount_type']=='percent') {
+                        $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$attributeDetail[$row['attribute_id']]['discount_value']/100;
+                    }else if($attributeDetail[$row['attribute_id']]['discount_type']=='flat'){
+                        $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeDetail[$row['attribute_id']]['discount_value'];
+                    }                    
                 }else if($attributeByProduct[$row['product_id']][$row['attribute_id']]['price']>$row['price']) {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']] = $row;
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['attribute_name'] = $attributeDetail[$row['attribute_id']]['name'];
@@ -169,6 +175,12 @@ class product {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_value'] = $attributeDetail[$row['attribute_id']]['discount_value'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['unit'] = $attributeDetail[$row['attribute_id']]['unit'];                    
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['quantity'] = $attributeDetail[$row['attribute_id']]['quantity'];
+                    $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price'];
+                    if($attributeDetail[$row['attribute_id']]['discount_type']=='percent') {
+                        $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$attributeDetail[$row['attribute_id']]['discount_value']/100;
+                    }else if($attributeDetail[$row['attribute_id']]['discount_type']=='flat'){
+                        $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeDetail[$row['attribute_id']]['discount_value'];
+                    }
                 }
             }
         }
