@@ -83,7 +83,7 @@ class common  {
             if(isset($parameters['new_arrival'])){
                $productParams['new_arrival'] = $parameters['new_arrival']; 
             }            
-            if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
+            if(isset($parameters['product_discount_type']) && isset($parameters['product_discount_value'])){
                $productParams['discount_value'] = $parameters['product_discount_value'];
                $productParams['discount_type'] = $parameters['product_discount_type']; 
             }
@@ -109,11 +109,11 @@ class common  {
                                 $attributeParams['unit'] = $value['unit'];
                                 $attributeRules['unit'] = array('type' => 'string', 'is_required' => true);
                             }
-                            if (!empty($value['commission_value'])) {
-                                $attributeParams['commission_value'] = $value['commission_value'];
+                            if (isset($value['commission_value'])) {
+                                $attributeParams['commission_value'] = isset($value['commission_value'])?$value['commission_value']:'flat';
                                 $attributeParams['commission_type'] = $value['commission_type'];
                             }
-                            if(!empty($value['attribute_discount_value']) && !empty($value['attribute_discount_type'])){
+                            if(isset($value['attribute_discount_value']) && isset($value['attribute_discount_type'])){
                                 $attributeParams['discount_value'] = $value['attribute_discount_value'];
                                 $attributeParams['discount_type'] = $value['attribute_discount_type']; 
                              }
