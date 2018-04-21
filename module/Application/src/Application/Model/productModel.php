@@ -21,7 +21,7 @@ class productModel  {
             'driver' => 'Mysqli',
             'database' => 'accrabasket',
             'username' => 'root',
-            'password' => '',
+            'password' => 'truefalse',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -72,7 +72,6 @@ class productModel  {
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
                 $query->order("$optional[sort_by] $optional[order_by]");
             }
-            //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             

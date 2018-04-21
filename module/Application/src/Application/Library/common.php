@@ -958,14 +958,14 @@ class common  {
             } 
             
             if(isset($parameters['lat'])) {
-                $params['lat'] = (int) $parameters['lat'];
-                $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
+                $params['lat'] = $parameters['lat'];
+                $rule['lat'] = array('type'=>'string', 'is_required'=>true);
                 
             } 
             
             if(isset($parameters['lng'])) {
-                $params['lng'] = (int)$parameters['lng'];
-                $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
+                $params['lng'] = $parameters['lng'];
+                $rule['lng'] = array('type'=>'string', 'is_required'=>true);
             }
 
         }else{

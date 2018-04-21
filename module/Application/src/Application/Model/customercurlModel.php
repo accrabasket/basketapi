@@ -21,7 +21,7 @@ class customercurlModel  {
             'driver' => 'Mysqli',
             'database' => 'accrabasket',
             'username' => 'root',
-            'password' => '',
+            'password' => 'truefalse',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
