@@ -12,12 +12,21 @@ use Application\Model\commonModel;
 use Application\Model\productModel;
 class product {
     protected $productModel;
+    protected $redis;
     public function __construct() {
         $this->commonLib = new common;
         $this->commonModel = new commonModel();
         $this->productModel = new productModel();
+        $this->redis = new \Redis();
+        $this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
     }
     function getProductList($parameters) {
+        $keyStr = implode('_', $parameters);
+        $response = $this->redis->get($keyStr);
+        if(!empty($response)) {
+            $response = json_decode($response, true);
+            return $response;
+        }
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();
         $totalNumberOfRecord = 0;
@@ -133,9 +142,11 @@ class product {
                 }                
                 $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata, $productData);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
-                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);
+                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);               
             }
         }
+        $this->redis->set($keyStr, json_encode($response));
+        $this->redis->expire($keyStr, 3600);         
         return $response;
     }
     

@@ -23,7 +23,7 @@ class commonModel  {
             'username' => 'root',
             'password' => 'truefalse',
         ));
-        $this->sql = new Sql\Sql($this->adapter);
+        $this->sql = new Sql\Sql($this->adapter);       
     }
     public function addCategory($parameters) {
         try {
