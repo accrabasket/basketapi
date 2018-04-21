@@ -12,12 +12,21 @@ use Application\Model\commonModel;
 use Application\Model\productModel;
 class product {
     protected $productModel;
+    protected $redis;
     public function __construct() {
         $this->commonLib = new common;
         $this->commonModel = new commonModel();
         $this->productModel = new productModel();
+        $this->redis = new \Redis();
+        $this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
     }
     function getProductList($parameters) {
+        $keyStr = implode('_', $parameters);
+        $response = $this->redis->get($keyStr);
+        if(!empty($response)) {
+            $response = json_decode($response, true);
+            return $response;
+        }
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();
         $totalNumberOfRecord = 0;
@@ -131,11 +140,13 @@ class product {
                     $minPriceParams['sort_by'] = $parameters['short_by'];
                     $minPriceParams['order_by'] = $parameters['order_by'];
                 }                
-                $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata);
+                $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata, $productData);
                 $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
-                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);
+                $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);               
             }
         }
+        $this->redis->set($keyStr, json_encode($response));
+        $this->redis->expire($keyStr, 3600);         
         return $response;
     }
     
@@ -149,12 +160,13 @@ class product {
         }
         return $productDetaList;
     }    
-    function getMerchantProductAttribute($parameters, $attributeDetail) {
+    function getMerchantProductAttribute($parameters, $attributeDetail, $productData) {
         $this->productModel = new productModel();
         $data = $this->productModel->getMerchantProductAttribute($parameters);
         $attributeByProduct = array();
         if(!empty($data)) {
             foreach($data as $row) {
+                $productDetails = $productData[$row['product_id']];
                 if(empty($attributeByProduct[$row['product_id']][$row['attribute_id']])) {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']] = $row;
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['attribute_name'] = $attributeDetail[$row['attribute_id']]['name'];
@@ -167,7 +179,14 @@ class product {
                         $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$attributeDetail[$row['attribute_id']]['discount_value']/100;
                     }else if($attributeDetail[$row['attribute_id']]['discount_type']=='flat'){
                         $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeDetail[$row['attribute_id']]['discount_value'];
-                    }                    
+                    }
+                    if($attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] == $attributeByProduct[$row['product_id']][$row['attribute_id']]['price'] && !empty($productDetails['discount_value'])){
+                        if($productDetails['discount_type']=='percent') {
+                            $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$productDetails['discount_value']/100;
+                        }else if($productDetails['discount_type']=='flat'){
+                            $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$productDetails['discount_value'];
+                        }                        
+                    }
                 }else if($attributeByProduct[$row['product_id']][$row['attribute_id']]['price']>$row['price']) {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']] = $row;
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['attribute_name'] = $attributeDetail[$row['attribute_id']]['name'];
@@ -181,6 +200,13 @@ class product {
                     }else if($attributeDetail[$row['attribute_id']]['discount_type']=='flat'){
                         $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeDetail[$row['attribute_id']]['discount_value'];
                     }
+                    if($attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] == $attributeByProduct[$row['product_id']][$row['attribute_id']]['price'] && !empty($productDetails['discount_value'])){
+                        if($productDetails['discount_type']=='percent') {
+                            $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$productDetails['discount_value']/100;
+                        }else if($productDetails['discount_type']=='flat'){
+                            $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$productDetails['discount_value'];
+                        }                        
+                    }                    
                 }
             }
         }
