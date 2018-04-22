@@ -21,7 +21,7 @@ class product {
         $this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
     }
     function getProductList($parameters) {
-        $keyStr = implode('_', $parameters);
+        $keyStr = md5(json_encode($parameters));
         $response = $this->redis->get($keyStr);
         if(!empty($response)) {
             $response = json_decode($response, true);
