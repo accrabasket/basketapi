@@ -11,8 +11,11 @@ namespace Application\Library;
 use Application\Model\commonModel;
 class common  {
     public $commonModel;
+    public $redis;
     public function __construct() {
         $this->commonModel = new commonModel();
+        $this->redis = new \Redis();
+        $this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
     }
     public function addEditCategory($parameters , $optional =array()) {
         $response = array('status'=>'fail','msg'=>'fail ');
@@ -341,6 +344,12 @@ class common  {
         return true;
     }
     public function categoryList($parameters) {
+        $keyStr = md5(json_encode($parameters));
+        $response = $this->redis->get($keyStr);
+        if(!empty($response)) {
+            $response = json_decode($response, true);
+            return $response;
+        }        
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         if(!empty($parameters['categoryHavingNoProduct'])) {
             $productOptional = array();
@@ -379,10 +388,18 @@ class common  {
             }
             $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData,'imageRootPath'=>HTTP_ROOT_PATH);
         }
+        $this->redis->set($keyStr, json_encode($response));
+        $this->redis->expire($keyStr, 3600);        
         return $response;
     }
     
     public function getMarchantList($parameters) {
+        $keyStr = md5(json_encode($parameters));
+        $response = $this->redis->get($keyStr);
+        if(!empty($response)) {
+            $response = json_decode($response, true);
+            return $response;
+        }        
         $response = array('status' => 'fail', 'msg' => 'No record found ');
         $optional = array();
         if (!empty($parameters['id'])) {
@@ -412,6 +429,8 @@ class common  {
             }
             $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData);
         }
+        $this->redis->set($keyStr, json_encode($response));
+        $this->redis->expire($keyStr, 3600);        
         return $response;
     }
     
