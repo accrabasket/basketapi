@@ -596,7 +596,7 @@ class customer {
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
                 $orderData['payment_status'] = 'unpaid';                    
                 $orderData['created_date'] = date('Y-m-d H:i:s');
-                $result = $this->customerModel->createOrder($orderData);
+                $result = $this->customerModel->createOrder($orderData);                
                 if(!empty($result)) {
                     $notificationData = array();
                     $notificationData['order_id'] = $orderId;
