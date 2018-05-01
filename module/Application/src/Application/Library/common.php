@@ -15,7 +15,7 @@ class common  {
     public function __construct() {
         $this->commonModel = new commonModel();
         $this->redis = new \Redis();
-        $this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
+        $this->redisObj = $this->redis->pconnect('127.0.0.1', 6379);        
     }
     public function addEditCategory($parameters , $optional =array()) {
         $response = array('status'=>'fail','msg'=>'fail ');
@@ -559,83 +559,94 @@ class common  {
     }
     
     function getProductList($parameters) {
-        $response = array('status' => 'fail', 'msg' => 'No record found ');
-        $optional = array();        
-        $inventryWhere = array();
-        if(!empty($parameters['id'])) {
-            $optional['id'] = $parameters['id'];
-            $inventryWhere['product_id'] = $parameters['id'];
-        }      
-        if(!empty($parameters['pagination'])) {
-            $optional['pagination'] = $parameters['pagination'];
-            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
-        }
-        if(!empty($parameters['columns'])) {
-            $optional['columns'] = $parameters['columns'];
-        }      
-        if(!empty($parameters['onlyProductDetails'])) {
-            $optional['onlyProductDetails'] = $parameters['onlyProductDetails'];
-        }              
-        
-        if(isset($parameters['active'])) {
-            $optional['active'] = $parameters['active'];
-        }
-        
-        if(isset($parameters['filter_type'])) {
-            if($parameters['filter_type'] == 'Product_name'){
-                $optional['product_name'] = $parameters['value'];
+        $keyStr = md5(json_encode($parameters));
+        $response = $this->redis->get($keyStr);
+        //if(!empty($response)) {
+        {
+            $response = json_decode($response, true);
+            //return $response;
+        //}else {
+            $response = array('status' => 'fail', 'msg' => 'No record found ');
+            $optional = array();        
+            $inventryWhere = array();
+            if(!empty($parameters['id'])) {
+                $optional['id'] = $parameters['id'];
+                $inventryWhere['product_id'] = $parameters['id'];
+            }      
+            if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+                $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
             }
-            if($parameters['filter_type'] == 'Attribute_name'){
-                $optional['name'] = $parameters['value'];
+            if(!empty($parameters['columns'])) {
+                $optional['columns'] = $parameters['columns'];
+            }      
+            if(!empty($parameters['onlyProductDetails'])) {
+                $optional['onlyProductDetails'] = $parameters['onlyProductDetails'];
+            }              
+
+            if(isset($parameters['active'])) {
+                $optional['active'] = $parameters['active'];
             }
-            if($parameters['filter_type'] == 'Category_name'){
-                $optional['category_name'] = $parameters['value'];
-            }
-            
-        }
-        if(!empty($parameters['merchant_id'])) {
-            $optional['merchant_id'] = $parameters['merchant_id'];
-        }
-        $totalRecord = $this->commonModel->getProductListCount($optional);
-        foreach ($totalRecord as $key => $value) {
-            $count = $value['count'];
-        }
-        
-        $result = $this->commonModel->getProductList($optional);
-        if (!empty($result)) {
-            if(empty($parameters['key'])){
-                $parameters['key'] = 'id';
-            }
-            $data = $this->processResult($result, $parameters['key'], false, true);            
-            if(!empty($data)) {
-                
-                $productImageWhere = array();
-                $productImageWhere['image_id'] = array_keys($data);
-                $productImageWhere['type'] = array('product', 'nutrition_image');
-                $productImageData = $this->fetchImage($productImageWhere);
-                
-                $optional['product_id'] = array_keys($data);
-                $getattribute = $this->commonModel->getAttributeList($optional);
-                $attdata = $this->processResult($getattribute);
-                $attributeImageData = array();
-                if(!empty($attdata)) {
-                    $attrImageWhere = array();
-                    $attrImageWhere['image_id'] = array_keys($attdata);
-                    $attrImageWhere['type'] = 'attribute';
-                    $attributeImageData = $this->fetchImage($attrImageWhere);                    
+
+            if(isset($parameters['filter_type'])) {
+                if($parameters['filter_type'] == 'Product_name'){
+                    $optional['product_name'] = $parameters['value'];
                 }
-                $prepairdata = $this->prepairProduct($data,$attdata);
-                if(!empty($parameters['merchant_id'])) {
-                    $inventryWhere['merchant_id'] = $parameters['merchant_id'];
+                if($parameters['filter_type'] == 'Attribute_name'){
+                    $optional['name'] = $parameters['value'];
                 }
-                $getInventryDetails = array();
-                if(!empty($inventryWhere)){
-                    $getInventryInfo = $this->commonModel->checkAttributeExist($inventryWhere);    
-                    $getInventryDetails = $this->processResult($getInventryInfo, 'store_id', true, false, 'attribute_id');
+                if($parameters['filter_type'] == 'Category_name'){
+                    $optional['category_name'] = $parameters['value'];
                 }
-                $response = array('status' => 'success', 'data' => $prepairdata, 'inventry_detail'=>$getInventryDetails,'productimage'=>$productImageData, 'attributeimage'=>$attributeImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalRecord'=>$count);
+
+            }
+            if(!empty($parameters['merchant_id'])) {
+                $optional['merchant_id'] = $parameters['merchant_id'];
+            }
+            $totalRecord = $this->commonModel->getProductListCount($optional);
+            foreach ($totalRecord as $key => $value) {
+                $count = $value['count'];
+            }
+
+            $result = $this->commonModel->getProductList($optional);
+            if (!empty($result)) {
+                if(empty($parameters['key'])){
+                    $parameters['key'] = 'id';
+                }
+                $data = $this->processResult($result, $parameters['key'], false, true);            
+                if(!empty($data)) {
+
+                    $productImageWhere = array();
+                    $productImageWhere['image_id'] = array_keys($data);
+                    $productImageWhere['type'] = array('product', 'nutrition_image');
+                    $productImageData = $this->fetchImage($productImageWhere);
+
+                    $optional['product_id'] = array_keys($data);
+                    $getattribute = $this->commonModel->getAttributeList($optional);
+                    $attdata = $this->processResult($getattribute);
+                    $attributeImageData = array();
+                    if(!empty($attdata)) {
+                        $attrImageWhere = array();
+                        $attrImageWhere['image_id'] = array_keys($attdata);
+                        $attrImageWhere['type'] = 'attribute';
+                        $attributeImageData = $this->fetchImage($attrImageWhere);                    
+                    }
+                    $prepairdata = $this->prepairProduct($data,$attdata);
+                    if(!empty($parameters['merchant_id'])) {
+                        $inventryWhere['merchant_id'] = $parameters['merchant_id'];
+                    }
+                    $getInventryDetails = array();
+                    if(!empty($inventryWhere)){
+                        $getInventryInfo = $this->commonModel->checkAttributeExist($inventryWhere);    
+                        $getInventryDetails = $this->processResult($getInventryInfo, 'store_id', true, false, 'attribute_id');
+                    }
+                    print_r($prepairdata);die;
+                    $response = array('status' => 'success', 'data' => $prepairdata, 'inventry_detail'=>$getInventryDetails,'productimage'=>$productImageData, 'attributeimage'=>$attributeImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalRecord'=>$count);
+                }
             }
         }
+        $this->redis->set($keyStr, json_encode($response));
+        $this->redis->expire($keyStr, 3600);                 
         return $response;        
     }
     function processResult($result,$dataKey='', $multipleRowOnKey = false, $format_custom_info = false, $multipleRowKey='') {
@@ -998,8 +1009,8 @@ class common  {
             $rule['store_name'] = array('type'=>'string', 'is_required'=>true);
             $rule['address'] = array('type'=>'string', 'is_required'=>true);
             $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
-            $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
-            $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
+            $rule['lat'] = array('type'=>'string', 'is_required'=>true);
+            $rule['lng'] = array('type'=>'string', 'is_required'=>true);
         }
         $response = $this->isValid($rule, $params);
         $params['merchant_id'] = $parameters['merchant_id'];
