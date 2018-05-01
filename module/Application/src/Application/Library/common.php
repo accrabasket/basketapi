@@ -444,8 +444,6 @@ class common  {
                 $params['lat'] = $parameters['lat'];
                 $params['lng'] = $parameters['lng'];
                 $rule['googlelocation'] = array('type'=>'string', 'is_required'=>true); 
-                $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
-                $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
             }
             if(isset($parameters['address'])) {
                 $params['address'] = $parameters['address'];
@@ -475,8 +473,6 @@ class common  {
             $rule['address'] = array('type'=>'string', 'is_required'=>true);
             $rule['country_id'] = array('type'=>'integer', 'is_required'=>true);
             $rule['city_id'] = array('type'=>'integer', 'is_required'=>true);
-            $rule['lat'] = array('type'=>'numeric', 'is_required'=>true);
-            $rule['lng'] = array('type'=>'numeric', 'is_required'=>true);
         }
         $response = $this->isValid($rule, $params);
         if(empty($response)){
@@ -988,14 +984,12 @@ class common  {
             } 
             
             if(isset($parameters['lat'])) {
-                $params['lat'] = $parameters['lat'];
-                $rule['lat'] = array('type'=>'string', 'is_required'=>true);
+                $params['lat'] = (int) $parameters['lat'];
                 
             } 
             
             if(isset($parameters['lng'])) {
                 $params['lng'] = $parameters['lng'];
-                $rule['lng'] = array('type'=>'string', 'is_required'=>true);
             }
 
         }else{
@@ -1007,10 +1001,6 @@ class common  {
             $params['lng'] = $parameters['lng'];
             
             $rule['store_name'] = array('type'=>'string', 'is_required'=>true);
-            $rule['address'] = array('type'=>'string', 'is_required'=>true);
-            $rule['location_id'] = array('type'=>'integer', 'is_required'=>true);
-            $rule['lat'] = array('type'=>'string', 'is_required'=>true);
-            $rule['lng'] = array('type'=>'string', 'is_required'=>true);
         }
         $response = $this->isValid($rule, $params);
         $params['merchant_id'] = $parameters['merchant_id'];

@@ -307,7 +307,6 @@ class commonModel  {
                 $value = '%'.$optional['name'].'%';
                 $query = $query->where($where->like('product_attribute.name',$value));
             }
-            //echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
