@@ -636,7 +636,6 @@ class common  {
                         $getInventryInfo = $this->commonModel->checkAttributeExist($inventryWhere);    
                         $getInventryDetails = $this->processResult($getInventryInfo, 'store_id', true, false, 'attribute_id');
                     }
-                    print_r($prepairdata);die;
                     $response = array('status' => 'success', 'data' => $prepairdata, 'inventry_detail'=>$getInventryDetails,'productimage'=>$productImageData, 'attributeimage'=>$attributeImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalRecord'=>$count);
                 }
             }
