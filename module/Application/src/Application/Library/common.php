@@ -25,8 +25,9 @@ class common  {
         }else {        
             $result = $this->commonModel->addCategory($parameters);
         }
-        if(!empty($result)){
+        if(!empty($result)){            
             if(!empty($optional['image'])) {
+                $this->deleteImage($result, 'category');
                 $imageParams = array();
                 $imageParams['type'] = 'category';
                 $imageParams['id'] = $result;
@@ -37,6 +38,11 @@ class common  {
             $response = array('status'=>'success','msg'=>'category Data Saved');
         }
         return $response;   
+    }
+    
+    function deleteImage($imageId, $type){
+        $commonModel = new commonModel();
+        $commonModel->deleteImage($imageId, $type);
     }
     
     public function addEditProduct($parameters) {

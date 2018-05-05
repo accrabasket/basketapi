@@ -1018,4 +1018,17 @@ class commonModel  {
         }           
     }
     
+    function deleteImage($imageId, $type) {
+        try {            
+            $query = $this->sql->delete('image_master')
+                        ->where(array('image_id'=>$imageId))
+                        ->where(array('type'=>$type));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }        
+    }
+    
 }
