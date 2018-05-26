@@ -351,7 +351,7 @@ class common  {
     }
     public function categoryList($parameters) {
         $keyStr = md5(json_encode($parameters));
-        $response = $this->redis->get($keyStr);
+        //$response = $this->redis->get($keyStr);
         if(!empty($response)) {
             $response = json_decode($response, true);
             return $response;
@@ -401,7 +401,7 @@ class common  {
     
     public function getMarchantList($parameters) {
         $keyStr = md5(json_encode($parameters));
-        $response = $this->redis->get($keyStr);
+        //$response = $this->redis->get($keyStr);
         if(!empty($response)) {
             $response = json_decode($response, true);
             return $response;
@@ -562,10 +562,10 @@ class common  {
     
     function getProductList($parameters) {
         $keyStr = md5(json_encode($parameters));
-        $response = $this->redis->get($keyStr);
+        //$response = $this->redis->get($keyStr);
         //if(!empty($response)) {
         {
-            $response = json_decode($response, true);
+            //$response = json_decode($response, true);
             //return $response;
         //}else {
             $response = array('status' => 'fail', 'msg' => 'No record found ');

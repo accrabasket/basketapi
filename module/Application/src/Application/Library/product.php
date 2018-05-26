@@ -22,7 +22,7 @@ class product {
     }
     function getProductList($parameters) {
         $keyStr = md5(json_encode($parameters));
-        $response = $this->redis->get($keyStr);
+        //$response = $this->redis->get($keyStr);
         if(!empty($response)) {
             $response = json_decode($response, true);
             return $response;
