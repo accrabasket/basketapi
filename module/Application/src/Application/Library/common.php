@@ -130,6 +130,13 @@ class common  {
                             $response = $this->isValid($attributeRules, $attributeParams);
                             
                             if (empty($response)) {
+                                if(empty($value['id'])){
+                                    $commonModel = new commonModel();
+                                    $optional = array('product_id'=>$data['product_id'], 'quantity'=>$attributeParams['quantity'], 'unit'=>$attributeParams['unit']);
+                                    $attributeData = $commonModel->getAttributeList($optional);
+                                    $attributeDetails = $this->processResult($attributeData);
+                                    $value['id'] = $attributeDetails[0]['id'];
+                                }
                                 if(!empty($value['id'])){
                                     $attributeWhere['id'] = $value['id'];
                                     $returnAttr = $this->commonModel->updateAttribute($attributeParams, $attributeWhere);
@@ -305,6 +312,7 @@ class common  {
         $imageParams['type'] = $value['type'];
         $imageParams['imageType'] = "string";
         if(!empty($value['images']) && is_array($value['images'])) {
+            $this->deleteImage($id, $imageParams['type']);
             foreach($value['images'] as $image) {
                 $imageParams['id'] = $id;
                 $imageParams['imageData'] = $image;
@@ -342,6 +350,7 @@ class common  {
                         $imageParams['type'] = $value['type'];
                         $imageParams['image_name'] = $name;
                         $imageParams['image_id'] = $id;
+                        $this->deleteImage($id, $imageParams['type']);
                         $this->commonModel->saveImage($imageParams);
                     }                    
                 } 
@@ -1341,7 +1350,7 @@ class common  {
             $data = explode(';', $imageParams['imageData']);
             $imageData = explode(',', $data[1]);
             $imageBase64Data = base64_decode($imageData[1]); 
-            if($data[0] == 'data:image/jpeg'){
+            if($data[0] == 'data:image/jpeg' || $data[0] == 'data:image/image/jpeg'){
                 $return['imagename'] = $imageName.'.jpg';
                 file_put_contents($imagePath.'.jpg', $imageBase64Data); 
             }else {
