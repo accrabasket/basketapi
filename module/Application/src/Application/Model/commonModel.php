@@ -303,6 +303,12 @@ class commonModel  {
             if(!empty($optional['product_id'])) {
                 $query = $query->where(array('product_id'=>$optional['product_id']));
             }
+            if(!empty($optional['quantity'])) {
+                $query = $query->where(array('quantity'=>$optional['quantity']));
+            }  
+            if(!empty($optional['unit'])) {
+                $query = $query->where(array('unit'=>$optional['unit']));
+            }            
             if(!empty($optional['name'])){
                 $value = '%'.$optional['name'].'%';
                 $query = $query->where($where->like('product_attribute.name',$value));
@@ -1030,5 +1036,18 @@ class commonModel  {
             return false;
         }        
     }
+    
+    public function cityListByname($cityName) {
+        try {
+            $query = $this->sql->select('city_master', array('*'));
+            $query = $query->where("city_name like '$cityName' OR city_synonym like '%$cityName%'");
+            
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
     
 }

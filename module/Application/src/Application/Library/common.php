@@ -1758,4 +1758,52 @@ class common  {
         
         return $totalNumberOfProduct;
     }
+    function getCityIdByAddressOrLatLng($parameters) {
+        $response = array('status'=>'fail', 'msg'=>'service not available in this city');
+        if(!empty($parameters['address'])) {
+            $addressArr = explode(',', $parameters['address']);
+            //print_r($addressArr);die;
+            $totalNumberOFAddress = count($addressArr);
+            for($i=$totalNumberOFAddress-1; $i>=0; $i--){
+                $cityName = trim($addressArr[$i]);
+                $cityResult = $this->commonModel->cityListByname($cityName);
+                if(!empty($cityResult)) {
+                    $cityData = $cityResult->current();
+                    if(!empty($cityData)) {
+                        $response = array();
+                        $response['status'] = 'success';
+                        $response['data'] = $cityData; 
+                        break;
+                    }
+                }
+            }
+        }
+        if(empty($cityData) && !empty($parameters['lat']) && !empty($parameters['lng'])) {
+           $addressData = $this->getAddressFromLatLng($parameters['lat'], $parameters['lng']); 
+           $cityName = !empty($addressData['results'][0]['formatted_address'])?$addressData['results'][0]['formatted_address']:'';
+           $params = array('address'=>$cityName);
+           //print_r($params);die;
+           $response =  $this->getCityIdByAddressOrLatLng($params);
+        }
+        return $response;
+        
+    }
+    
+    function getAddressFromLatLng($lat, $lng) {        
+        $url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lng";
+        $response = $this->callCurl($url);
+        $result = json_decode($response, true);
+        
+        return $result;
+    }
+    
+    public function callCurl($url){
+        $ch = curl_init(); 
+        curl_setopt($ch,CURLOPT_URL,$url);
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+        curl_setopt($ch,CURLOPT_HEADER, false); 
+        $result=curl_exec($ch);
+        curl_close($ch);
+        return $result;        
+    }    
 }
