@@ -21,7 +21,7 @@ class productModel  {
             'driver' => 'Mysqli',
             'database' => 'accrabasket',
             'username' => 'root',
-            'password' => 'truefalse',
+            'password' => '',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }

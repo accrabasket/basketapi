@@ -21,7 +21,7 @@ class commonModel  {
             'driver' => 'Mysqli',
             'database' => 'accrabasket',
             'username' => 'root',
-            'password' => 'truefalse',
+            'password' => '',
         ));
         $this->sql = new Sql\Sql($this->adapter);
     }
@@ -156,8 +156,12 @@ class commonModel  {
             }elseif(!empty($optional['email'])){
                 $query = $query->where(array('email' => $optional['email']));
             }else{
-                $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id')
-                        ->where(array('role_id' => 2));
+                $roleId = 2;
+                $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id');
+                if(!empty($optional['user_type']) && $optional['user_type'] == 'admin'){
+                    $roleId = 1;
+                }                        
+                $query->where(array('role_id' => $roleId));
             }
             
             $satements = $this->sql->prepareStatementForSqlObject($query);

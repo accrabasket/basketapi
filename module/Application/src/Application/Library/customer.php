@@ -520,8 +520,8 @@ class customer {
                     $restrictedArea['address'] = strtolower($restrictedArea['address']);
                     
                     $addressDetails['address_nickname'] = strtolower($addressDetails['address_nickname']);
-                    $addressDetails['street_detail'] = strtolower($addressDetails['street_detail']);
-                    $addressDetails['area'] = strtolower($addressDetails['area']);
+                    $addressDetails['street_detail'] = !empty($addressDetails['street_detail'])?strtolower($addressDetails['street_detail']):'';
+                    $addressDetails['area'] = !empty($addressDetails['area'])?strtolower($addressDetails['area']):'';
                     if (strpos($addressDetails['address_nickname'], $restrictedArea['address']) !== false) {
                         $status = false;
                         $response['msg'] = "shipping address Restricted"; 
@@ -603,9 +603,11 @@ class customer {
                     $notificationData['user_type'] = 'admin';
                     $notificationData['user_id'] = 0;
                     $this->sentNotification('notification_for_order_placed_for_admin', $notificationData);
+                    $this->sentSms('notification_for_order_placed_for_merchant', $notificationData);
                     $notificationData['user_id'] = $orderDetail['merchant_id'];
                     $notificationData['user_type'] = 'merchant';
                     $this->sentNotification('notification_for_order_placed_for_merchant', $notificationData);
+                    $this->sentSms('notification_for_order_placed_for_merchant', $notificationData);
                     if(!empty($orderDetails['merchantItemWiseOrderDetails'][$storeId])) {
                         foreach($orderDetails['merchantItemWiseOrderDetails'][$storeId] as $merchantProductId=>$orderItems) {
                             $orderItems['merchant_product_id'] = $merchantProductId;
@@ -758,7 +760,7 @@ class customer {
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
         }   
         if(!empty($parameters['short_by'])) {
-            $optional['short_by'] = $parameters['short_by'];
+            $opptional['short_by'] = $parameters['short_by'];
             $optional['short_type'] = $orderWhere['short_type'] = $parameters['short_type'] == 'asc'? 'ASC' : 'DESC';
         }
 
@@ -922,6 +924,36 @@ class customer {
         return $response;
     }
     
+    function sentSms($sms, $parameters) {print_r($parameters);die;
+        $smsTemplateWhere = array();
+        $smsTemplateWhere['name'] = $sms;
+        $templateDetails = $this->getNotificationTemplate($smsTemplateWhere, 'sms_template');
+        $params = array();
+        
+        $replaceData = array();
+        if(!empty($parameters['order_id'])) {
+            $replaceData['order_id'] = $parameters['order_id'];
+        }
+        if(!empty($parameters['minute'])) {
+            $replaceData['minute'] = $parameters['minute'];
+        }        
+        if(isset($parameters['reason'])) {
+            $replaceData['reason'] = $parameters['reason'];
+        }        
+        $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData); 
+        $params['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:$parameters['rider_id'];
+        $params['user_type'] = $parameters['user_type'];
+        if(in_array($params['user_type'], array('rider', 'admin', 'merchant'))) {
+            
+        }
+        echo $params['msg'];die;
+        $params['status'] = '0';
+        $params['response'] = '';
+        $params['created_date'] = date("Y-m-d H:i:s");      
+        $customerModel = new customerModel();
+        return $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));        
+    }
+    
     function sentNotification($notification, $parameters) {
         $notificationTemplateWhere = array();
         $notificationTemplateWhere['name'] = $notification;
@@ -949,18 +981,18 @@ class customer {
         return $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));
     }
     
-    function getNotificationTemplate($parameters) {
+    function getNotificationTemplate($parameters, $type='notification_template') {
         $params = array();
         if(!empty($parameters['name'])) {
             $params['name'] = $parameters['name'];
         }       
         $optional = array();
-        $optional['template_type'] = 'notification_template';
+        $optional['template_type'] = $type;
         $customerModel = new customerModel();
         $result = $customerModel->getTemplate($params, $optional);
         return $result;
     }
-            
+                    
     function unassignOrder($parameters) {
         $response = array('status'=>'fail', 'msg'=>'Nothing to update.');
         $status = true;
