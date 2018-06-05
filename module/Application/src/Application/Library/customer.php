@@ -1170,6 +1170,20 @@ class customer {
             $orderParams['updated_date'] = date('Y-m-d H:i:s');
             $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
             if(!empty($return)) {                
+                        $adminNotificationParams = array();
+                        $adminNotificationParams['user_type'] = 'admin';
+                        $adminNotificationParams['user_id'] = 0;
+                        $adminNotificationParams['order_id'] = $parameters['order_id'];
+                        
+                        $this->sentNotification('notification_for_order_'.$parameters['order_status'].'_for_admin', $adminNotificationParams);                
+                        if(empty($orderWhere['merchant_id'])) {
+                            $merchantNotificationParams = array();
+                            $merchantNotificationParams['user_type'] = 'merchant';
+                            $merchantNotificationParams['user_id'] = $orderWhere['merchant_id'];
+                            $merchantNotificationParams['order_id'] = $parameters['order_id'];
+
+                            $this->sentNotification('notification_for_order_'.$parameters['order_status'].'_for_merchant', $merchantNotificationParams);                            
+                        }
                 $response = array('status'=>'success', 'msg'=>'Record updated', 'data'=>$orderWhere);  
             }
         }
