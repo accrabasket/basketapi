@@ -11,7 +11,7 @@ use Application\Model\customerModel;
 use Zend\Mail;
 use Application\Library\customercurl;
 class customer {
-    public $customerMogedel;
+    public $customerModel;
     public $customercurlLib;
     public function __construct() {
         $this->customerModel = new customerModel();
@@ -924,7 +924,7 @@ class customer {
         return $response;
     }
     
-    function sentSms($sms, $parameters) {print_r($parameters);die;
+    function sentSms($sms, $parameters) {
         $smsTemplateWhere = array();
         $smsTemplateWhere['name'] = $sms;
         $templateDetails = $this->getNotificationTemplate($smsTemplateWhere, 'sms_template');
@@ -940,18 +940,26 @@ class customer {
         if(isset($parameters['reason'])) {
             $replaceData['reason'] = $parameters['reason'];
         }        
-        $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData); 
-        $params['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:$parameters['rider_id'];
-        $params['user_type'] = $parameters['user_type'];
-        if(in_array($params['user_type'], array('rider', 'admin', 'merchant'))) {
+        $params['message'] = $this->prepareEmailBody($templateDetails['body'], $replaceData);         
+        if(!empty($parameters['user_type']) && in_array($parameters['user_type'], array('admin', 'merchant'))) {
+            $customercurlLib = new customercurl();
+            if(!empty($parameters['user_id'])) {
+                $optional['id'] = $parameters['user_id'];
+            }
+            $optional['user_type'] = $parameters['user_type'];
             
+            $userList = $customercurlLib->getMarchantList($optional);
         }
-        echo $params['msg'];die;
         $params['status'] = '0';
         $params['response'] = '';
         $params['created_date'] = date("Y-m-d H:i:s");      
         $customerModel = new customerModel();
-        return $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'notification_queue'));        
+        if(!empty($userList)){
+            foreach($userList as $user) {
+                $params['mobile_number'] = $user['phone_number'];
+                $customerModel->enterDataIntoMailQueue($params, array('queue_type'=>'sms_queue'));        
+            }
+        }
     }
     
     function sentNotification($notification, $parameters) {

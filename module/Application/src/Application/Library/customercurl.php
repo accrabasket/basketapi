@@ -81,6 +81,14 @@ class customercurl {
         
         return $response;
     }
+    
+    function getMarchantList($optional) {
+        $commonModel = new commonModel();
+        $merchantList = $commonModel->getMarchantList($optional);
+        $result = $this->processResult($merchantList, 'id');
+        
+        return $result;
+    }
     function processResult($result,$dataKey='', $multipleRowOnKey = false) {
         $data = array();
         if(!empty($result)) {
