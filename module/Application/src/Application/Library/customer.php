@@ -890,6 +890,10 @@ class customer {
                         $orderList = $this->unassignOrder($unAssignOrderParams); 
                     }
                 }
+            }else{
+                $customerModel = new customerModel();
+                $orderList = $customerModel->orderList($orderWhere);
+                $orderDetails = $orderList->current();
             }
             if($status) {
                 $params['status'] = 1;
@@ -977,7 +981,7 @@ class customer {
         }        
         if(isset($parameters['reason'])) {
             $replaceData['reason'] = $parameters['reason'];
-        }        
+        }   
         $params['msg'] = $this->prepareEmailBody($templateDetails['body'], $replaceData); 
         $params['subject'] = $templateDetails['subject'];
         $params['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:$parameters['rider_id'];
