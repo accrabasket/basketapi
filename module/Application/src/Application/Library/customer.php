@@ -889,6 +889,10 @@ class customer {
                         
                         $orderList = $this->unassignOrder($unAssignOrderParams); 
                     }
+                }else{
+                    $customerModel = new customerModel();
+                    $orderList = $customerModel->orderList($orderWhere);
+                    $orderDetails = $orderList->current();
                 }
             }else{
                 $customerModel = new customerModel();
@@ -1218,7 +1222,7 @@ class customer {
             $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
         }
         $orderList = $this->customerModel->assignedOrderToRider($orderWhere, $optional);
-        
+        $timeSlotList = $this->customercurlLib->deliveryTimeSlotList(array());        
         $countOptional = array();
         $countOptional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
         $countOptional['count_row'] = true;
@@ -1226,6 +1230,7 @@ class customer {
         $totalNumberOfOrders = $customerModel->assignedOrderToRider($orderWhere, $countOptional);        
         $orderListData = $this->prepareOrderForRiders($orderList);
         if(!empty($orderListData)) {
+            $orderListData['time_slot_list'] = $timeSlotList['data'];
             $response = array('status'=>'success', 'data'=>$orderListData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOfOrder'=>$totalNumberOfOrders['count']);
         }
         return $response;
