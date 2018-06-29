@@ -402,7 +402,6 @@ class customer {
             }
             if(isset($parameters['area'])){
                $addressParams['area'] = $parameters['area']; 
-               $rules['area'] = array('type'=>'string', 'is_required'=>true);
             }
         }else {
             $addressParams['address_nickname'] = isset($parameters['address_nickname'])?$parameters['address_nickname']:'';
@@ -427,7 +426,6 @@ class customer {
             $rules['city_name'] = array('type'=>'string', 'is_required'=>true);            
             $rules['city_id'] = array('type'=>'numeric', 'is_required'=>true);
             $rules['contact_name'] = array('type'=>'string', 'is_required'=>true);
-            $rules['area'] = array('type'=>'string', 'is_required'=>true);
         }        
         $response = $this->isValid($rules, $addressParams);
         $data = array();
