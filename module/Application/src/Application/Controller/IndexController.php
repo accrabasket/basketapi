@@ -158,6 +158,10 @@ class IndexController extends AbstractActionController {
                     break; 
                 case 'getCityIdByAddressOrLatLng':
                     $response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
+                    break;       
+                case 'gettermandcondition':
+                    $term = new \Application\Library\termandcondition();
+                    echo $term->getContent();die;
                     break;                 
             }
         }
