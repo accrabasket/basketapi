@@ -20,7 +20,12 @@ class IndexController extends AbstractActionController {
     public function __construct() {
         $this->commonLib = new common();
     }
-
+    
+    public function privacypolicyAction() {
+        $term = new \Application\Library\termandcondition();
+        echo $term->getContent();
+        die;      
+    }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $parameters = trim($_REQUEST['parameters'], "\"");
@@ -159,10 +164,7 @@ class IndexController extends AbstractActionController {
                 case 'getCityIdByAddressOrLatLng':
                     $response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
                     break;       
-                case 'gettermandcondition':
-                    $term = new \Application\Library\termandcondition();
-                    echo $term->getContent();die;
-                    break;                 
+                                    
             }
         }
             echo json_encode($response);
