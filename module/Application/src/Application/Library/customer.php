@@ -1330,8 +1330,8 @@ class customer {
             $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $countryCode.$parameters['mobile_number'];
             $otpData['otp_type'] = $parameters['otp_type'];
             $otpData['user_id'] = isset($parameters['user_id'])?$parameters['user_id']:0;
-            //$otpData['otp'] = $randomNumber;
-            $otpData['otp'] = '1234';
+            $otpData['otp'] = $randomNumber;
+            //$otpData['otp'] = '1234';
             $otpData['expiry_date'] = $expireTime;
             $otpResponse = $this->customerModel->insertIntoOtpMaster($otpData);
             if(!empty($otpResponse)) {

@@ -1805,5 +1805,14 @@ class common  {
         $result=curl_exec($ch);
         curl_close($ch);
         return $result;        
-    }    
+    }
+    
+    function writeDebugLog($text, $folderName='debug', $fileName = 'test') {
+        $logpath = $_SERVER['DOCUMENT_ROOT'].'basketapi/public/log/'.date("Y-m-d").'/'.$folderName.'/';
+        if(!file_exists($logpath.$fileName.'.txt')) {
+            mkdir($logpath, 0777, true);
+        }
+        $text = "\n Request - ".date('Y-m-d H:i:s')."\n".$text;
+        file_put_contents($logpath.$fileName.'.txt', $text, FILE_APPEND);
+    }
 }

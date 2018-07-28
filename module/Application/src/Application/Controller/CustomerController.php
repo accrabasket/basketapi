@@ -12,13 +12,15 @@ use Application\Library\customer;
 use Zend\Mail;
 
 class CustomerController extends AbstractActionController {
-
+    public $commonLib;
+    public $customerLib;
     public function __construct() {
         $this->customerLib = new customer();
+        $this->commonLib = new \Application\Library\common();
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
-        $parameters = trim($_REQUEST['parameters'], "\"");
+        $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters, true);
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
@@ -124,11 +126,11 @@ class CustomerController extends AbstractActionController {
                     $response = $this->customerLib->getUserDetail($parameters);
                     break;
             }
-
-            echo json_encode($response);
-            exit;
         }
-        echo json_encode($response);
+        $responseStr = json_encode($response);
+        echo $responseStr;
+        $logText = $requestParams."\n Response :- \n".$responseStr;
+        $this->commonLib->writeDebugLog($logText, 'customer', $parameters['method']);
         exit;
     }
 

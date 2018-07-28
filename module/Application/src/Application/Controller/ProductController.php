@@ -13,12 +13,14 @@ use Zend\Mail;
 
 class ProductController extends AbstractActionController {
     protected $productLib;
+    public $commonLib;
     public function __construct() {
         $this->productLib = new product();
+        $this->commonLib = new \Application\Library\common();
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
-        $parameters = trim($_REQUEST['parameters'], "\"");
+        $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters, true);
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
@@ -29,11 +31,11 @@ class ProductController extends AbstractActionController {
                     $response = $this->productLib->getProductByMerchantAttributeId($parameters);
                     break;
             }
-
-            echo json_encode($response);
-            exit;
         }
-        echo json_encode($response);
+        $responseStr = json_encode($response);
+        echo $responseStr;
+        $logText = $requestParams."\n Response :- \n".$responseStr;            
+        $this->commonLib->writeDebugLog($logText, 'product', $parameters['method']);
         exit;
     }
 

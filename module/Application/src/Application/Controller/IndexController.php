@@ -16,7 +16,7 @@ use Zend\Mail;
 use Application\Library\customer;
 
 class IndexController extends AbstractActionController {
-
+    public $commonLib;
     public function __construct() {
         $this->commonLib = new common();
     }
@@ -28,7 +28,7 @@ class IndexController extends AbstractActionController {
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
-        $parameters = trim($_REQUEST['parameters'], "\"");
+        $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters,true);
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
@@ -167,7 +167,10 @@ class IndexController extends AbstractActionController {
                                     
             }
         }
-            echo json_encode($response);
-            exit;
+        $responseStr = json_encode($response);
+        echo $responseStr;
+        $logText = $requestParams."\n Response :- \n".$responseStr;  
+        $this->commonLib->writeDebugLog($logText, 'index', $parameters['method']);
+        exit;
     }
 }
