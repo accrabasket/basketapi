@@ -14,8 +14,8 @@ class common  {
     public $redis;
     public function __construct() {
         $this->commonModel = new commonModel();
-        $this->redis = new \Redis();
-        $this->redisObj = $this->redis->pconnect('127.0.0.1', 6379);        
+        //$this->redis = new \Redis();
+        //$this->redisObj = $this->redis->pconnect('127.0.0.1', 6379);        
     }
     public function addEditCategory($parameters , $optional =array()) {
         $response = array('status'=>'fail','msg'=>'fail ');
@@ -1442,8 +1442,8 @@ class common  {
         $params['free_delivery'] = $parameters['free_delivery'];
         $rule['minimum_order'] = array('type' => 'numeric', 'is_required' => true);
         $rule['free_delivery'] = array('type' => 'numeric', 'is_required' => true);
-        $response = $this->isValid($rule, $params);
-        if (empty($response)) {
+        $validation = $this->isValid($rule, $params);
+        if (empty($validation)) {
             if (!empty($parameters['id'])) {
                 $result = $this->commonModel->updateSetting($params, $parameters['id']);
             } else {
