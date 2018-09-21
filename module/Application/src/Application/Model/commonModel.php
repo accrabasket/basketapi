@@ -161,7 +161,7 @@ class commonModel  {
                 if(!empty($optional['user_type']) && $optional['user_type'] == 'admin'){
                     $roleId = 1;
                 }   
-                $query->where(array('status'=>1));
+                //$query->where(array('status'=>1));
                 $query->where(array('role_id' => $roleId));
             }
             
