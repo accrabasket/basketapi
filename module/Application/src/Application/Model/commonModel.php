@@ -160,7 +160,8 @@ class commonModel  {
                 $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id');
                 if(!empty($optional['user_type']) && $optional['user_type'] == 'admin'){
                     $roleId = 1;
-                }                        
+                }   
+                $query->where(array('status'=>1));
                 $query->where(array('role_id' => $roleId));
             }
             
