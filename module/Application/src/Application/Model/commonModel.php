@@ -549,26 +549,27 @@ class commonModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_store');
-            $query = $query->join('user_master', 'merchant_store.merchant_id = user_master.id',array(''));
             if(!empty($optional['columns'])){
                 $query->columns($optional['columns']); 
             }               
             if (!empty($optional['id'])) {
-                $query = $query->where(array('merchant_store.id' => $optional['id']));
+                $query = $query->where(array('id' => $optional['id']));
             }
             if(!empty($optional['address'])) {
-                $query = $query->where($where->like('merchant_store.address', "%".$optional['address']."%"));
+                $query = $query->where($where->like('address', "%".$optional['address']."%"));
             } 
             if(!empty($optional['store_name'])) {
-                $query = $query->where($where->like('merchant_store.store_name', "%".$optional['store_name']."%"));
+                $query = $query->where($where->like('store_name', "%".$optional['store_name']."%"));
             } 
             if(!empty($optional['merchant_id'])) {
-                $query = $query->where(array('merchant_store.merchant_id'=>$optional['merchant_id']));
+                $query = $query->where(array('merchant_id'=>$optional['merchant_id']));
             } 
             if(!empty($optional['location_id'])) {
-                $query = $query->where(array('merchant_store.location_id'=>$optional['location_id']));
+                $query = $query->where(array('location_id'=>$optional['location_id']));
             }             
-            //$query = $query->where(array('user_master.status'=>1));           
+            if(isset($optional['active'])) {
+                $query = $query->where(array('active'=>$optional['active']));
+            }             
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
