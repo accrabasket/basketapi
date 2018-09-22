@@ -552,6 +552,10 @@ class customer {
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData);
         }
+        $commonLib = new common();
+        $settingData = $commonLib->settinglist(array());
+        print_r($settingData);
+        print_r($orderDetails);die;
         if(!empty($orderDetails['order'])){
             $this->customerModel->beginTransaction();
             $parentOrderId = 0;

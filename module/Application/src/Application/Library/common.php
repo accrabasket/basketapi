@@ -1440,6 +1440,7 @@ class common  {
         $params = array();
         $params['minimum_order'] = $parameters['minimum_order'];
         $params['free_delivery'] = $parameters['free_delivery'];
+        $params['shipping_charges'] = !empty($parameters['shipping_charges'])?$parameters['shipping_charges']:0;
         $rule['minimum_order'] = array('type' => 'numeric', 'is_required' => true);
         $rule['free_delivery'] = array('type' => 'numeric', 'is_required' => true);
         $validation = $this->isValid($rule, $params);
