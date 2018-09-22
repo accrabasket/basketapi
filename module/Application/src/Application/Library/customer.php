@@ -484,6 +484,13 @@ class customer {
                 return $response;
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData);
+            $orderDetails['totalOrderDetails']['shipping_charges'] = 0;
+            $commonLib = new common();
+            $settingData = $commonLib->settinglist(array());
+            if(!empty($settingData) && $orderDetails['totalOrderDetails']['payable_amount'] <= $settingData['data']['free_delivery'] && $orderDetails['totalOrderDetails']['payable_amount'] >= $settingData['data']['minimum_order']) {
+                $orderDetails['totalOrderDetails']['payable_amount'] += $settingData['data']['shipping_charges'];
+                $orderDetails['totalOrderDetails']['shipping_charges'] = $settingData['data']['shipping_charges'];
+            }          
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
@@ -554,8 +561,10 @@ class customer {
         }
         $commonLib = new common();
         $settingData = $commonLib->settinglist(array());
-        print_r($settingData);
-        print_r($orderDetails);die('sdfsdf');
+        if(!empty($settingData) && $orderDetails['totalOrderDetails']['payable_amount'] <= $settingData['data']['minimum_order']) {   
+            $response['msg'] = 'Minimum order Must Be Greater than '.$settingData['data']['minimum_order'];
+            return $response;
+        }     
         if(!empty($orderDetails['order'])){
             $this->customerModel->beginTransaction();
             $parentOrderId = 0;
