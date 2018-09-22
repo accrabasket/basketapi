@@ -555,7 +555,7 @@ class customer {
         $commonLib = new common();
         $settingData = $commonLib->settinglist(array());
         print_r($settingData);
-        print_r($orderDetails);die;
+        print_r($orderDetails);die('sdfsdf');
         if(!empty($orderDetails['order'])){
             $this->customerModel->beginTransaction();
             $parentOrderId = 0;
