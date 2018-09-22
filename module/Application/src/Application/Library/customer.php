@@ -483,14 +483,7 @@ class customer {
                 $response['msg'] = 'No Item found in cart';
                 return $response;
             }
-            $orderDetails = $this->calculateDiscountAndAmount($cartData);
-            $orderDetails['totalOrderDetails']['shipping_charges'] = 0;
-            $commonLib = new common();
-            $settingData = $commonLib->settinglist(array());
-            if(!empty($settingData) && $orderDetails['totalOrderDetails']['payable_amount'] <= $settingData['data']['free_delivery'] && $orderDetails['totalOrderDetails']['payable_amount'] >= $settingData['data']['minimum_order']) {
-                $orderDetails['totalOrderDetails']['payable_amount'] += $settingData['data']['shipping_charges'];
-                $orderDetails['totalOrderDetails']['shipping_charges'] = $settingData['data']['shipping_charges'];
-            }          
+            $orderDetails = $this->calculateDiscountAndAmount($cartData);       
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
@@ -736,6 +729,13 @@ class customer {
                 
             }
         }
+        $orderDetails['totalOrderDetails']['shipping_charges'] = 0;
+        $commonLib = new common();
+        $settingData = $commonLib->settinglist(array());
+        if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
+            $totalOrderDetails['payable_amount'] += $settingData['data']['shipping_charges'];
+            $totalOrderDetails['shipping_charges'] = $settingData['data']['shipping_charges'];
+        }           
         $response = array('totalOrderDetails'=>$totalOrderDetails,'order'=>$order, 'merchantItemWiseOrderDetails'=>$merchantItemWisePriceDetails, 'itemWiseOrderDetails'=>$itemWisePriceDetails);
         
         return $response;
