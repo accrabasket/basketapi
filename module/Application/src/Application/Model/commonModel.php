@@ -549,7 +549,7 @@ class commonModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_store');
-            $query = $query->join('user_master', 'merchant_store.merchant_id = user_master.id',array(''));
+            $query = $query->join('user_master', 'merchant_store.merchant_id = user_master.id',array());
             if(!empty($optional['columns'])){
                 $query->columns($optional['columns']); 
             }               
@@ -569,7 +569,6 @@ class commonModel  {
                 $query = $query->where(array('merchant_store.location_id'=>$optional['location_id']));
             }             
             $query = $query->where(array('user_master.status'=>1));    
-            echo $query->getSqlString();die;
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
