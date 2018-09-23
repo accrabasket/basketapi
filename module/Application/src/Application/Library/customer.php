@@ -734,10 +734,11 @@ class customer {
         $commonLib = new common();
         $settingData = $commonLib->settinglist(array());        
         foreach($order as $storeId=>$value) {
-        if(!empty($settingData) && $value['amount'] <= $settingData['data']['free_delivery']) {  
-            $shippingCharges += $settingData['data']['shipping_charges'];
-            $value['amount'] += $settingData['data']['shipping_charges'];
-            $order[$storeId] = $value;
+            if(!empty($settingData) && $value['amount'] <= $settingData['data']['free_delivery']) {  
+                $shippingCharges += $settingData['data']['shipping_charges'];
+                $value['amount'] += $settingData['data']['shipping_charges'];
+                $order[$storeId] = $value;
+            }
         }
         if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
             $totalOrderDetails['payable_amount'] += $shippingCharges;
