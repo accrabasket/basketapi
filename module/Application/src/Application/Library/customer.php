@@ -729,12 +729,12 @@ class customer {
                 
             }
         }
-        $orderDetails['totalOrderDetails']['shipping_charges'] = 0;
+        $orderDetails['totalOrderDetails']['delivery_charges'] = 0;
         $commonLib = new common();
         $settingData = $commonLib->settinglist(array());
         if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
             $totalOrderDetails['payable_amount'] += $settingData['data']['shipping_charges'];
-            $totalOrderDetails['shipping_charges'] = $settingData['data']['shipping_charges'];
+            $totalOrderDetails['delivery_charges'] = $settingData['data']['shipping_charges'];
         }           
         $response = array('totalOrderDetails'=>$totalOrderDetails,'order'=>$order, 'merchantItemWiseOrderDetails'=>$merchantItemWisePriceDetails, 'itemWiseOrderDetails'=>$itemWisePriceDetails);
         
