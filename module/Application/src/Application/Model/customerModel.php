@@ -968,4 +968,16 @@ class customerModel  {
             return false;
         }        
     }
+    
+    function getEmailQueque($where) {
+        try {
+            $query = $this->sql->select('email_queue');
+            $query = $query->where($where);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
 }

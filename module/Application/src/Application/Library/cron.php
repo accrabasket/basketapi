@@ -96,6 +96,63 @@ class cron {
             }
         }
         
+        $where = array();
+        $where['status']='0';        
+        $customerModel = new customerModel();
+        $emailList = $customerModel->getEmailQueque($where); 
+        if(!empty($emailList)) {
+            foreach($emailList as $emailDetails) {
+                $whereParams = array();
+                $whereParams['id'] = $emailDetails['id'];
+                $emailParams = array();
+                $emailParams['status'] = 1;                
+                $customerModel = new customerModel();
+                $customerModel->updatemail($emailParams, $whereParams);
+                $bodyPart = new \Zend\Mime\Message();
+                $bodyMessage = new \Zend\Mime\Part($emailDetails['body']);
+                $bodyMessage->type = 'text/html';
+                $msgData = array($bodyMessage);
+                if(!empty($emailDetails['attachments'])){
+                    $attachments = json_decode($emailDetails['attachments']);
+                    foreach ($attachments as $thisAttachment) {
+                        $attachment = new \Zend\Mime\Part(fopen($thisAttachment, 'r'));
+                        $nameArr = explode('/',$thisAttachment);
+                        $attachment->filename = $nameArr[count($nameArr)-1];
+                        $attachment->type        = \Zend\Mime\Mime::TYPE_OCTETSTREAM;
+                        $attachment->encoding    = \Zend\Mime\Mime::ENCODING_BASE64;
+                        $attachment->disposition = \Zend\Mime\Mime::DISPOSITION_ATTACHMENT;
+                        array_push($msgData, $attachment);
+                        //$bodyPart->addPart($attachment);
+                    }  
+                }
+               $bodyPart->setParts($msgData);
+                $message = new \Zend\Mail\Message();
+                $message->setBody($bodyPart);
+                
+                $messageType = 'multipart/related';
+                //$message->getHeaders()->get('content-type')->setType($messageType);
+                $message->setFrom('noreply@hompiq.com');
+                $message->addTo($emailDetails['to_email_id']);
+                //$message->addTo('raviducat@gmail.com');
+                $message->setSubject($emailDetails['subject']);
+                $message->setEncoding('UTF-8');
+                $smtpOptions = new \Zend\Mail\Transport\SmtpOptions();  
+                $smtpOptions->setHost('smtp.zoho.com')
+                            ->setConnectionClass('login')
+                            ->setName('smtp.zoho.com')
+                            ->setPort(465)
+                            ->setConnectionConfig(array(
+                                'username' => 'noreply@hompiq.com',
+                                'password' => 'Hompiq@123',
+                                'ssl' => 'ssl',
+                            ));                
+
+                $transport = new \Zend\Mail\Transport\Smtp($smtpOptions);
+                $transport->send($message);                                
+            }
+        }          
+        
+        
         return $response;
     }
     
