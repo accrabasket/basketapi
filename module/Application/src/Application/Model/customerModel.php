@@ -979,5 +979,21 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         }        
+    } 
+    function updatemail($params, $where) {
+        try {
+            if(!empty($where)) {
+                $query = $this->sql->update('email_queue')
+                            ->set($params)
+                            ->where($where);
+                $satements = $this->sql->prepareStatementForSqlObject($query);
+                $result = $satements->execute();
+                return true;
+            }else{
+                return false;
+            }
+        } catch (\Exception $ex) {
+            return false;
+        }                
     }    
 }
