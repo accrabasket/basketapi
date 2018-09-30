@@ -142,8 +142,8 @@ class cron {
                             ->setName('smtp.zoho.com')
                             ->setPort(465)
                             ->setConnectionConfig(array(
-                                'username' => 'noreply@hompiq.com',
-                                'password' => 'Hompiq@123',
+                                'username' => 'admin@afrobaskets.com',
+                                'password' => '1234Mahesh',
                                 'ssl' => 'ssl',
                             ));                
 
