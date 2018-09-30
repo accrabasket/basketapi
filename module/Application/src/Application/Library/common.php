@@ -14,8 +14,8 @@ class common  {
     public $redis;
     public function __construct() {
         $this->commonModel = new commonModel();
-        $this->redis = new \Redis();
-        $this->redisObj = $this->redis->pconnect('127.0.0.1', 6379);        
+        //$this->redis = new \Redis();
+        //$this->redisObj = $this->redis->pconnect('127.0.0.1', 6379);        
     }
     public function addEditCategory($parameters , $optional =array()) {
         $response = array('status'=>'fail','msg'=>'fail ');
@@ -403,8 +403,8 @@ class common  {
             }
             $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData,'imageRootPath'=>HTTP_ROOT_PATH);
         }
-        $this->redis->set($keyStr, json_encode($response));
-        $this->redis->expire($keyStr, 3600);        
+        //$this->redis->set($keyStr, json_encode($response));
+        //$this->redis->expire($keyStr, 3600);        
         return $response;
     }
     
@@ -444,8 +444,8 @@ class common  {
             }
             $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData);
         }
-        $this->redis->set($keyStr, json_encode($response));
-        $this->redis->expire($keyStr, 3600);        
+       // $this->redis->set($keyStr, json_encode($response));
+        //$this->redis->expire($keyStr, 3600);        
         return $response;
     }
     
@@ -655,8 +655,8 @@ class common  {
                 }
             }
         }
-        $this->redis->set($keyStr, json_encode($response));
-        $this->redis->expire($keyStr, 3600);                 
+        //$this->redis->set($keyStr, json_encode($response));
+        //$this->redis->expire($keyStr, 3600);                 
         return $response;        
     }
     function processResult($result,$dataKey='', $multipleRowOnKey = false, $format_custom_info = false, $multipleRowKey='') {

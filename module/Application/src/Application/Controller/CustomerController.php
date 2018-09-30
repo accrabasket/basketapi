@@ -22,6 +22,19 @@ class CustomerController extends AbstractActionController {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters, true);
+        $userDetailMandatoryForMethod = array('placeorder');
+        if(in_array($parameters['method'], $userDetailMandatoryForMethod)) {
+            if(empty($parameters['user_id'])) {
+                $parameters['method'] = '';
+                $response = array('status' => 'fail', 'msg' => 'User id not suplied.');                
+            }else{
+                $userDetails = $this->customerLib->getUserDetailsById($parameters['user_id']);
+                if(empty($userDetails)) {
+                    $parameters['method'] = '';
+                    $response = array('status' => 'fail', 'msg' => 'User not found.');
+                }                
+            }
+        }        
         if (!empty($parameters['method'])) {
             switch ($parameters['method']) {
                 case 'addtocart':
@@ -49,7 +62,7 @@ class CustomerController extends AbstractActionController {
                     $response = $this->customerLib->checkout($parameters);
                     break;                
                 case 'placeorder':
-                    $response = $this->customerLib->placeOrder($parameters);
+                    $response = $this->customerLib->placeOrder($parameters, $userDetails);
                     break;
                 case 'orderlist':
                     $response = $this->customerLib->orderList($parameters);

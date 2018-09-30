@@ -17,8 +17,8 @@ class product {
         $this->commonLib = new common;
         $this->commonModel = new commonModel();
         $this->productModel = new productModel();
-        $this->redis = new \Redis();
-        $this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
+        //$this->redis = new \Redis();
+        //$this->redisObj = $this->redis->connect('127.0.0.1', 6379);        
     }
     function getProductList($parameters) {
         $keyStr = md5(json_encode($parameters));
@@ -146,8 +146,8 @@ class product {
                 }
             }
         }
-        $this->redis->set($keyStr, json_encode($response));
-        $this->redis->expire($keyStr, 3600);         
+        //$this->redis->set($keyStr, json_encode($response));
+        //$this->redis->expire($keyStr, 3600);         
         return $response;
     }
     

@@ -489,7 +489,7 @@ class customer {
         return $response;
     }
     
-    function placeOrder($parameters) {
+    function placeOrder($parameters, $userDetails) {
         $cartParams = array();
         $orderDetails = array();
         $status = true;
@@ -509,7 +509,12 @@ class customer {
             $customerModel = new customerModel();
             $addressList = $customerModel->getAddressList($addressParams);
             $addressDetails = $addressList->current();
-            
+            if(empty($addressDetails)) {
+                $status = false;
+                $response['msg'] = "shipping address not found";  
+            }else {            
+                $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
+            }
             $restrictedLocationParams = array();
             $restrictedLocationParams['city_id'] = $addressDetails['city_id'];
             $restrictedAreaList = $this->getRestrictedLocationList($restrictedLocationParams);
@@ -612,6 +617,18 @@ class customer {
                     $notificationData['user_type'] = 'merchant';
                     $this->sentNotification('notification_for_order_placed_for_merchant', $notificationData);
                     $this->sentSms('notification_for_order_placed_for_merchant', $notificationData);
+                    
+                    $emailParams = array();
+                    $emailParams['email'] = $userDetails['email'];
+                    $emailParams['address'] = $address;
+                    //$emailParams['landmark'] = $landmark;
+                    $emailParams['order_id'] = $orderId;
+                    $emailParams['name'] = $userDetails['name'];
+                    $emailParams['email_template_type'] = 'invoice';
+                    $emailParams['item_data'] = $orderDetails['itemWiseOrderDetails'];
+                    $emailParams['totalOrderDetails'] = $orderDetails['totalOrderDetails'];
+                    $this->enterDataIntoMailQueue($emailParams);  
+                    
                     if(!empty($orderDetails['merchantItemWiseOrderDetails'][$storeId])) {
                         foreach($orderDetails['merchantItemWiseOrderDetails'][$storeId] as $merchantProductId=>$orderItems) {
                             $orderItems['merchant_product_id'] = $merchantProductId;
@@ -1990,5 +2007,103 @@ class customer {
         }        
         
         return $response;
+    }
+    function getUserDetailsById($userId) {
+        $customerModel = new \Application\Model\customerModel();
+        $whereParams = array('id'=>$userId);
+        $optional = array();
+        $optional['count_row'] = 1;
+        return $customerModel->getUserDetail($whereParams, $optional);
+    }
+    function enterDataIntoMailQueue($parameters) {
+        
+        $customerModel = new customerModel();
+        $templateWhere = array();
+        $templateWhere['type'] = $parameters['email_template_type'];
+        $templateData = $customerModel->getTemplate($templateWhere);        
+        
+        $mailQuquedata = array();
+        $replaceData['name'] = $parameters['name'];
+        if(isset($parameters['address'])){
+            $replaceData['address'] = $parameters['address'];
+        }
+        $replaceData['landmark'] = '';
+        if(isset($parameters['landmark'])){
+            $replaceData['landmark'] = $parameters['landmark'];
+        }
+        if(isset($parameters['order_id'])){
+            $replaceData['order_id'] = $parameters['order_id'];
+        }
+        if(isset($parameters['item_data'])){
+            $testDetails = "";
+            $discount = 0;
+            foreach($parameters['item_data'] as $testData) {
+                /*$testDetails .= "<tr>";
+                $testDetails .= "<td>";
+                $testDetails .= $testData['product_dump']['product_details']['test_name'];
+                $testDetails .= "</td>";
+                
+                $testDetails .= "<td>";
+                $testDetails .= 1;
+                $testDetails .= "</td>";
+                
+                $testDetails .= "<td>";
+                $testDetails .= $testData['product_dump']['product_details']['price'];;
+                $testDetails .= "</td> </tr>";*/
+                if($templateWhere['type'] == 'report') {
+                    $labName = $testData['test_dump']['product_details']['lab_name'];
+                    $testData['product_dump'] = $testData['test_dump'];
+                }else {
+                   $labName = $testData['product_dump']['product_details']['lab_name'];
+                }
+                $testDetails .= '<tbody style="margin:0;padding:0">
+                  <tr>
+                    <td><span> </span></td>
+                  </tr>
+                  <tr style="margin:0;padding:0">
+                    <td style="vertical-align:top;margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['test_name'].'</td>
+                    <td style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">1</td>
+                    <td align="right" style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['price'].'</td>
+                  </tr>
+                  <tr width="100%">
+                    <td><div style="height:1px;width:100%;background:#e9e9e9;clear:both"></div></td>
+                    <td><div style="height:1px;width:100%;background:#e9e9e9;clear:both"></div></td>
+                    <td><div style="height:1px;width:100%;background:#e9e9e9;clear:both"></div></td>
+                  </tr>
+                </tbody>';               
+                
+                
+            }
+                $testDetails .= '<tfoot style="margin:0;padding:0">
+                  <tr style="margin:0;padding:0">
+                    <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Cart Subtotal</th>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px"><span>Rs. '.$parameters['totalOrderDetails']['amount'].'</span></td>
+                  </tr>
+                  <tr style="margin:0;padding:0">
+                    <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Delivery Charges</th>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">Rs. 0</td>
+                  </tr>
+                  <tr style="margin:0;padding:0">
+                    <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Discount</th>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">-'.$parameters['totalOrderDetails']['discount_amount'].'</td>
+                  </tr>
+                  <tr class="m_2879509961894745209grand-total" style="margin:0;padding:0;color:#79b33b;background:#f9f9f9">
+                    <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Grand Total:</th>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">'.$parameters['totalOrderDetails']['payable_amount'].'</td>
+                  </tr>
+                </tfoot>';   
+            $replaceData['item_details'] = $testDetails;
+            $replaceData['lab_name'] = ' '.$labName;
+        }            
+        if(!empty($parameters['reset_link'])) {
+            $replaceData['reset_link'] = $parameters['reset_link'];
+        }
+        $emailBody = $this->prepareEmailBody($templateData['body'], $replaceData);
+        $mailQuquedata['body'] = $emailBody;
+        $mailQuquedata['from_email_id'] =  FROM_EMAIL;
+        $mailQuquedata['subject'] =  $templateData['name'];
+        $mailQuquedata['to_email_id'] = $parameters['email'];
+        $mailQuquedata['attachments'] = !empty($parameters['attachments'])?$parameters['attachments']:'';
+        $result = $this->customerModel->enterDataIntoMailQueue($mailQuquedata);    
     }
 }
