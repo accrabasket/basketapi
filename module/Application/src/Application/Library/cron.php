@@ -131,7 +131,7 @@ class cron {
                 
                 $messageType = 'multipart/related';
                 //$message->getHeaders()->get('content-type')->setType($messageType);
-                $message->setFrom('noreply@hompiq.com');
+                $message->setFrom('admin@afrobaskets.com');
                 $message->addTo($emailDetails['to_email_id']);
                 //$message->addTo('raviducat@gmail.com');
                 $message->setSubject($emailDetails['subject']);
