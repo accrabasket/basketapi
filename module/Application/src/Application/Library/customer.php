@@ -2080,11 +2080,11 @@ class customer {
                 $testDetails .= '<tfoot style="margin:0;padding:0">
                   <tr style="margin:0;padding:0">
                     <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Cart Subtotal</th>
-                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px"><span>Rs. '.$parameters['totalOrderDetails']['amount'].'</span></td>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px"><span>GHC. '.$parameters['totalOrderDetails']['amount'].'</span></td>
                   </tr>
                   <tr style="margin:0;padding:0">
                     <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Delivery Charges</th>
-                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">Rs. 0</td>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">'.$parameters['totalOrderDetails']['shipping_charges'].'</td>
                   </tr>
                   <tr style="margin:0;padding:0">
                     <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Discount</th>
