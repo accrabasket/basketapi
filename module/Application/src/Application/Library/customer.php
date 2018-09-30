@@ -579,6 +579,7 @@ class customer {
                 $parentOrder['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount'];
                 $parentOrder['discount_amount'] = $orderDetails['totalOrderDetails']['discount_amount'];
                 $parentOrder['tax_amount'] = $orderDetails['totalOrderDetails']['tax_amount'];
+                $parentOrder['shipping_charges'] = $orderDetails['totalOrderDetails']['delivery_charges'];
                 $parentOrder['commission_amount'] = $orderDetails['totalOrderDetails']['commission_amount'];
                 $parentOrder['time_slot_id'] = !empty($parameters['time_slot_id'])?$parameters['time_slot_id']:0;
                 $parentOrder['delivery_date'] = $parameters['delivery_date'];
@@ -603,6 +604,7 @@ class customer {
                 $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
                 $orderData['discount_amount'] = $orderDetail['discount_amount'];
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
+                $parentOrder['shipping_charges'] = $orderDetail['shipping_charges'];
                 $orderData['payment_status'] = 'unpaid';                    
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->createOrder($orderData);                
@@ -755,6 +757,7 @@ class customer {
                 $shippingCharges += $settingData['data']['shipping_charges'];
                 $value['amount'] += $settingData['data']['shipping_charges'];
                 $order[$storeId] = $value;
+                $order[$storeId]['shipping_charges'] = $settingData['data']['shipping_charges'];
             }
         }
         if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
@@ -2061,7 +2064,7 @@ class customer {
                     <td><span> </span></td>
                   </tr>
                   <tr style="margin:0;padding:0">
-                    <td style="vertical-align:top;margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['test_name'].'</td>
+                    <td style="vertical-align:top;margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['product_name'].'</td>
                     <td style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">1</td>
                     <td align="right" style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['price'].'</td>
                   </tr>
