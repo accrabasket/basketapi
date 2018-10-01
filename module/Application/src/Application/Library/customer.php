@@ -587,6 +587,13 @@ class customer {
                 $parentOrder['payment_status'] = 'unpaid';
                 $result = $this->customerModel->createOrder($parentOrder);
             }
+            $timeSlotParams = array();
+            $timeSlotParams['id'] = array($parameters['time_slot_id']);
+            $customercurlLib = new customercurl();
+            $timeSlotList = $customercurlLib->deliveryTimeSlotList($timeSlotParams);
+            if(!empty($timeSlotList['data'])) {
+                $timeSlot = $timeSlotList['data'][$parameters['time_slot_id']]['start_time_slot'].'-'.$timeSlotList['data'][$parameters['time_slot_id']]['end_time_slot'];
+            }                    
             foreach($orderDetails['order'] as $storeId=>$orderDetail) {
                 $merchantOrderId = 'order_m'.$storeId;
                 $orderSeq = $this->customerModel->updateOrderSeq($merchantOrderId); 
@@ -629,6 +636,8 @@ class customer {
                     $emailParams['email_template_type'] = 'invoice';
                     $emailParams['item_data'] = $orderDetails['itemWiseOrderDetails'];
                     $emailParams['totalOrderDetails'] = $orderDetails['totalOrderDetails'];
+                    $emailParams['delivery_date'] = $parameters['delivery_date'];
+                    $emailParams['time_slot'] = $timeSlot;
                     $this->enterDataIntoMailQueue($emailParams);  
                     
                     if(!empty($orderDetails['merchantItemWiseOrderDetails'][$storeId])) {
@@ -2036,6 +2045,12 @@ class customer {
         }
         if(isset($parameters['order_id'])){
             $replaceData['order_id'] = $parameters['order_id'];
+        }
+        if(isset($parameters['delivery_date'])){
+            $replaceData['delivery_date'] = $parameters['delivery_date'];
+        }   
+        if(!empty($parameters['time_slot'])) {
+            $replaceData['time_slot'] = $parameters['time_slot'];
         }
         if(isset($parameters['item_data'])){
             $testDetails = "";
