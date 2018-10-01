@@ -611,7 +611,7 @@ class customer {
                 $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
                 $orderData['discount_amount'] = $orderDetail['discount_amount'];
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
-                $parentOrder['shipping_charges'] = $orderDetail['shipping_charges'];
+                $orderData['shipping_charges'] = $orderDetail['shipping_charges'];
                 $orderData['payment_status'] = 'unpaid';                    
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 $result = $this->customerModel->createOrder($orderData);                
