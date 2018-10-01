@@ -2099,7 +2099,7 @@ class customer {
                   </tr>
                   <tr style="margin:0;padding:0">
                     <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Delivery Charges</th>
-                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">'.$parameters['totalOrderDetails']['shipping_charges'].'</td>
+                    <td width="20%" style="margin:0;padding:5px 0;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px;text-align:right;border:0;padding-right:15px">'.$parameters['totalOrderDetails']['delivery_charges'].'</td>
                   </tr>
                   <tr style="margin:0;padding:0">
                     <th width="40%" scope="row" colspan="2" style="margin:0;padding:5px 0;text-align:right;font-weight:bold;border:0;font-size:12px">Discount</th>
