@@ -2124,4 +2124,60 @@ class customer {
         $mailQuquedata['attachments'] = !empty($parameters['attachments'])?$parameters['attachments']:'';
         $result = $this->customerModel->enterDataIntoMailQueue($mailQuquedata);    
     }
+    
+    function modifyOrder($userDetails, $parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Nothing to update');
+        if(!empty($parameters['order_item_ids'])) {
+            $response['msg'] = 'Order id not supplied';
+        }
+        if(!is_array($parameters['order_item_ids'])) {
+            $parameters['order_item_ids'] = explode(',',$parameters['order_item_ids']);
+        }
+        $orderItemWhere = array();
+        $orderItemWhere['order_id'] = $parameters['order_id'];
+        $orderItemOptional = array();
+        $orderItemOptional['id'] = $parameters['order_item_ids'];
+        $orderItemOptional['status'] = 'active';
+        $customerModel = new customerModel();
+        $orderItems = $this->customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
+        if(!empty($orderItems)) {
+            $amount = 0;
+            $commissionAmount = 0;
+            $discountAmount = 0;
+            $payableAmount = 0;
+            $taxAmount = 0;
+            foreach ($orderItems as $items) {
+                $amount += $items['amount']; 
+                $commissionAmount += $items['commission_amount']; 
+                $discountAmount += $items['discount_amount']; 
+                $taxAmount += $items['tax_amount']; 
+            }
+            $payableAmount = $amount-$discountAmount;
+        }
+        $data = array(
+            'amount' => new \Zend\Db\Sql\Expression("amount-".$amount),
+            'commission_amount' => new \Zend\Db\Sql\Expression("commission_amount-".$commissionAmount),
+            'payable_amount' => new \Zend\Db\Sql\Expression("payable_amount-".$payableAmount),
+            'discount_amount' => new \Zend\Db\Sql\Expression("discount_amount-".$discountAmount),
+            'tax_amount' => new \Zend\Db\Sql\Expression("tax_amount-".$taxAmount)
+        );
+        
+        $customerModel = new customerModel();
+        $itemData = array('status'=>'out_of_stock');
+        $updateOrderItemWhereParams = array();
+        $updateOrderItemWhereParams['order_id'] = $parameters['order_id'];
+        $updateOrderItemWhereParams['id'] = $parameters['order_item_ids'];
+        $orderItemUpdateStatus = $customerModel->updateOrderItem($itemData, $updateOrderItemWhereParams);
+            
+        if(!empty($orderItemUpdateStatus)) {        
+            $customerModel = new customerModel();
+            $updateWhereParams = array();
+            $updateWhereParams['order_id'] = $parameters['order_id'];
+            $customerModel->updateOrder($data, $where);
+            $response = array('status' => 'success', 'msg' => 'item Updated successfully');
+        }
+        
+        return $response;
+        
+    }
 }

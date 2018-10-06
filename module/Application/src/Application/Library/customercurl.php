@@ -3,6 +3,7 @@ namespace Application\Library;
 use Application\Model\customercurlModel;
 use Application\Model\commonModel;
 class customercurl {
+    public $customerCurlModel;
     public function __construct() {
         $this->customerCurlModel = new customercurlModel();
     }

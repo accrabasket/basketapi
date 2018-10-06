@@ -322,6 +322,12 @@ class customerModel  {
         try {
             $query = $this->sql->select('order_items');
             $query = $query->where(array('order_id'=>$where['order_id']));
+            if(!empty($optional['id'])) {
+                $query = $query->where(array('id'=>$optional['id']));
+            }
+            if(!empty($optional['status'])) {
+                $query = $query->where(array('status'=>$optional['status']));
+            }
             $query->order(array('id DESC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();            
@@ -552,6 +558,20 @@ class customerModel  {
             return false;
         }        
     }    
+
+    function updateOrderItem($itemData, $where) {
+        try {
+            $query = $this->sql->update('order_items')
+                        ->set($params)
+                        ->where($where);   
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
+    
     function beginTransaction() {
         $this->adapter->getDriver()->getConnection()->beginTransaction();
     }

@@ -138,6 +138,10 @@ class CustomerController extends AbstractActionController {
                     $parameters['count'] = 1;
                     $response = $this->customerLib->getUserDetail($parameters);
                     break;
+                case 'modifyOrder':
+                    $response = $this->customerLib->modifyOrder($userDetails, $parameters);
+                    break;
+                    
             }
         }
         $responseStr = json_encode($response);
