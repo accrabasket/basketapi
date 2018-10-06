@@ -562,7 +562,7 @@ class customerModel  {
     function updateOrderItem($itemData, $where) {
         try {
             $query = $this->sql->update('order_items')
-                        ->set($params)
+                        ->set($itemData)
                         ->where($where);   
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute()->getAffectedRows();

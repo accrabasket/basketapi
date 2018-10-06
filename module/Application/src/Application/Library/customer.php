@@ -2127,7 +2127,7 @@ class customer {
     
     function modifyOrder($userDetails, $parameters) {
         $response = array('status' => 'fail', 'msg' => 'Nothing to update');
-        if(!empty($parameters['order_item_ids'])) {
+        if(empty($parameters['order_item_ids'])) {
             $response['msg'] = 'Order id not supplied';
         }
         if(!is_array($parameters['order_item_ids'])) {
@@ -2168,12 +2168,12 @@ class customer {
         $updateOrderItemWhereParams['order_id'] = $parameters['order_id'];
         $updateOrderItemWhereParams['id'] = $parameters['order_item_ids'];
         $orderItemUpdateStatus = $customerModel->updateOrderItem($itemData, $updateOrderItemWhereParams);
-            
+          
         if(!empty($orderItemUpdateStatus)) {        
             $customerModel = new customerModel();
             $updateWhereParams = array();
             $updateWhereParams['order_id'] = $parameters['order_id'];
-            $customerModel->updateOrder($data, $where);
+            $customerModel->updateOrder($data, $updateWhereParams);
             $response = array('status' => 'success', 'msg' => 'item Updated successfully');
         }
         
