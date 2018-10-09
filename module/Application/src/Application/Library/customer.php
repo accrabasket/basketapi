@@ -692,22 +692,22 @@ class customer {
         $merchantItemWisePriceDetails = array();
         $itemWisePriceDetails = array();
         $totalOrderDetails = array();
-        $totalOrderDetails['amount'] = 0;
-        $totalOrderDetails['discount_amount'] = 0;
-        $totalOrderDetails['commission_amount'] = 0;
-        $totalOrderDetails['tax_amount'] = 0;        
+        $totalOrderDetails['amount'] = 0.00;
+        $totalOrderDetails['discount_amount'] = 0.00;
+        $totalOrderDetails['commission_amount'] = 0.00;
+        $totalOrderDetails['tax_amount'] = 0.00;   
         foreach($data['data'] as $key=>$item) {
             if(!empty($data['productDetails']['data'][$key])) {
-                $discount = 0;
+                $discount = 0.00;
                 $productDetails = $data['productDetails']['data'][$key];
                 $productImageData = !empty($data['productDetails']['productImageData'][$productDetails['product_id']])?$data['productDetails']['productImageData'][$productDetails['product_id']]:array();
                 $amount = $productDetails['price']*$item['number_of_item'];                                
                 if(empty($order[$productDetails['store_id']])) {
                     $order[$productDetails['store_id']] = array();
                     $order[$productDetails['store_id']]['amount'] = $amount;
-                    $order[$productDetails['store_id']]['discount_amount'] = 0;
-                    $order[$productDetails['store_id']]['commission_amount'] = 0;
-                    $order[$productDetails['store_id']]['tax_amount'] = 0;
+                    $order[$productDetails['store_id']]['discount_amount'] = 0.00;
+                    $order[$productDetails['store_id']]['commission_amount'] = 0.00;
+                    $order[$productDetails['store_id']]['tax_amount'] = 0.00;
                 }else {
                     $order[$productDetails['store_id']]['amount']+=$amount; 
                 }
@@ -751,14 +751,14 @@ class customer {
                 $itemWisePriceDetails[$key]['commission_amount'] = $commissionAmount;
                 $totalOrderDetails['commission_amount'] = $totalOrderDetails['commission_amount']+$commissionAmount;
                 
-                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['tax_amount'] = 0;
-                $itemWisePriceDetails[$key]['tax_amount'] = 0;
+                $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['tax_amount'] = 0.00;
+                $itemWisePriceDetails[$key]['tax_amount'] = 0.00;
                 $totalOrderDetails['payable_amount'] = $totalOrderDetails['amount']-$totalOrderDetails['discount_amount']+$totalOrderDetails['tax_amount'];
                 
             }
         }
-        $orderDetails['totalOrderDetails']['delivery_charges'] = 0;
-        $shippingCharges = 0;
+        $orderDetails['totalOrderDetails']['delivery_charges'] = 0.00;
+        $shippingCharges = 0.00;
         $commonLib = new common();
         $settingData = $commonLib->settinglist(array());        
         foreach($order as $storeId=>$value) {
@@ -2126,6 +2126,7 @@ class customer {
     }
     
     function modifyOrder($userDetails, $parameters) {
+        $this->customerModel->beginTransaction();
         $response = array('status' => 'fail', 'msg' => 'Nothing to update');
         if(empty($parameters['order_item_ids'])) {
             $response['msg'] = 'Order id not supplied';
@@ -2141,6 +2142,7 @@ class customer {
         $customerModel = new customerModel();
         $orderItems = $this->customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
         if(!empty($orderItems)) {
+            $merchantIventoryIds = array();
             $amount = 0;
             $commissionAmount = 0;
             $discountAmount = 0;
@@ -2151,6 +2153,7 @@ class customer {
                 $commissionAmount += $items['commission_amount']; 
                 $discountAmount += $items['discount_amount']; 
                 $taxAmount += $items['tax_amount']; 
+                $merchantIventoryIds[] = $items['merchant_product_id'];
             }
             $payableAmount = $amount-$discountAmount;
         }
@@ -2173,8 +2176,38 @@ class customer {
             $customerModel = new customerModel();
             $updateWhereParams = array();
             $updateWhereParams['order_id'] = $parameters['order_id'];
-            $customerModel->updateOrder($data, $updateWhereParams);
-            $response = array('status' => 'success', 'msg' => 'item Updated successfully');
+            $orderUpdateStatus = $customerModel->updateOrder($data, $updateWhereParams);
+            if(!empty($orderUpdateStatus)) {
+                
+                $orderItemWhere = array();
+                $orderItemWhere['order_id'] = $parameters['order_id'];
+                $orderItemOptional = array();
+                $orderItemOptional['status'] = 'active';
+                $customerModel = new customerModel();
+                $orderItems = $this->customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
+                $orderItemData = $this->processResult($orderItems);
+                if(empty($orderItemData)) {
+                    $customerModel = new customerModel();
+                    $updateWhereParams = array();
+                    $updateWhereParams['order_id'] = $parameters['order_id'];
+                    
+                    $updateOrderData = array();
+                    $updateOrderData['order_status'] = 'cancelled';
+                    $customerModel->updateOrder($data, $updateWhereParams);
+                }
+                $updateInventoryData = array();
+                $updateInventoryData['stock'] = 0;
+                $where = array();
+                $where['merchant_product_id'] = $merchantIventoryIds;
+                $this->customercurlLib->updateInventry($updateInventoryData, $where);
+                $response = array('status' => 'success', 'msg' => 'item Updated successfully');
+                $this->customerModel->commit();
+            }else{
+                $this->customerModel->rollback();
+            }
+            
+        } else {
+            $this->customerModel->rollback();
         }
         
         return $response;
