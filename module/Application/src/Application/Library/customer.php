@@ -2140,7 +2140,7 @@ class customer {
         $orderItemOptional['id'] = $parameters['order_item_ids'];
         $orderItemOptional['status'] = 'active';
         $customerModel = new customerModel();
-        $orderItems = $this->customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
+        $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
         if(!empty($orderItems)) {
             $merchantIventoryIds = array();
             $amount = 0;
@@ -2184,7 +2184,7 @@ class customer {
                 $orderItemOptional = array();
                 $orderItemOptional['status'] = 'active';
                 $customerModel = new customerModel();
-                $orderItems = $this->customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
+                $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
                 $orderItemData = $this->processResult($orderItems);
                 if(empty($orderItemData)) {
                     $customerModel = new customerModel();
