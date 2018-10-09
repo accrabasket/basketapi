@@ -2074,14 +2074,15 @@ class customer {
                 if($templateWhere['type'] == 'report') {
                     $testData['product_dump'] = $testData['test_dump'];
                 }
+                $status = ($testData['status']=='out_of_stock')?'(Out of stock)':'';
                 $testDetails .= '<tbody style="margin:0;padding:0">
                   <tr>
                     <td><span> </span></td>
                   </tr>
                   <tr style="margin:0;padding:0">
                     <td style="vertical-align:top;margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['product_name'].'</td>
-                    <td style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">1</td>
-                    <td align="right" style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['product_dump']['product_details']['price'].'</td>
+                    <td style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['number_of_item']. $status.'</td>
+                    <td align="right" style="margin:0;padding:15px;font-weight:bold;border-bottom:1px solid #e9e9e9;font-size:12px">'.$testData['amount'].'</td>
                   </tr>
                   <tr width="100%">
                     <td><div style="height:1px;width:100%;background:#e9e9e9;clear:both"></div></td>
@@ -2204,7 +2205,7 @@ class customer {
                     $orderOptional = array('count_row'=>1);
                     $orderWhere = array('order_id'=>$parameters['order_id']);
                     $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
-
+                    $orderDetails['delivery_charges'] = $orderDetails['shipping_charges'];
                     $addressParams = array();
                     $addressParams['id'] = $orderDetails['shipping_address_id'];
                     $customerModel = new customerModel();
@@ -2229,10 +2230,10 @@ class customer {
                     //$emailParams['landmark'] = $landmark;
                     $emailParams['order_id'] = $parameters['order_id'];
                     $emailParams['name'] = $userDetails['name'];
-                    $emailParams['email_template_type'] = 'invoice';
+                    $emailParams['email_template_type'] = 'modified_order';
                     $emailParams['item_data'] = $orderItemData;
                     $emailParams['totalOrderDetails'] = $orderDetails;
-                    $emailParams['delivery_date'] = $parameters['delivery_date'];
+                    $emailParams['delivery_date'] = $orderDetails['delivery_date'];
                     $emailParams['time_slot'] = $timeSlot;
                     $this->enterDataIntoMailQueue($emailParams);   
                 
