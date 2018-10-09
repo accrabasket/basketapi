@@ -2245,9 +2245,7 @@ class customer {
                 $response = array('status' => 'success', 'msg' => 'item Updated successfully');
             }
             
-        } else {
-            $this->customerModel->rollback();
-        }
+        } 
         
         return $response;
         
