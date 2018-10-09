@@ -1332,7 +1332,7 @@ class customer {
                     }
                 }else {
                     if(!empty($value["$json_decode_column"]) && !empty($json_decode_column)) {
-                        $value["$json_decode_column"] = json_decode($value["$json_decode_column"]);
+                        $value["$json_decode_column"] = json_decode($value["$json_decode_column"], true);
                     }
                     $data[] = $value;
                 }
