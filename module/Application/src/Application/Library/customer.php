@@ -2192,7 +2192,7 @@ class customer {
                     
                     $updateOrderData = array();
                     $updateOrderData['order_status'] = 'cancelled';
-                    $customerModel->updateOrder($data, $updateWhereParams);
+                    $customerModel->updateOrder($updateOrderData, $updateWhereParams);
                 }
                 $updateInventoryData = array();
                 $updateInventoryData['stock'] = 0;
