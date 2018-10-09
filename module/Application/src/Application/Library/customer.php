@@ -1320,7 +1320,7 @@ class customer {
         
         return false;
     }
-    function processResult($result,$dataKey='', $multipleRowOnKey = false, $additionOfValue=false) {
+    function processResult($result,$dataKey='', $multipleRowOnKey = false, $additionOfValue=false, $json_decode_column='') {
         $data = array();        
         if(!empty($result)) {
             foreach ($result as $key => $value) {
@@ -1331,6 +1331,9 @@ class customer {
                         $data[$value[$dataKey]] = $value;
                     }
                 }else {
+                    if(!empty($value["$json_decode_column"]) && !empty($json_decode_column)) {
+                        $value["$json_decode_column"] = json_decode($value["$json_decode_column"]);
+                    }
                     $data[] = $value;
                 }
                 if($additionOfValue) {
@@ -2069,10 +2072,7 @@ class customer {
                 $testDetails .= $testData['product_dump']['product_details']['price'];;
                 $testDetails .= "</td> </tr>";*/
                 if($templateWhere['type'] == 'report') {
-                    $labName = $testData['test_dump']['product_details']['lab_name'];
                     $testData['product_dump'] = $testData['test_dump'];
-                }else {
-                   $labName = $testData['product_dump']['product_details']['lab_name'];
                 }
                 $testDetails .= '<tbody style="margin:0;padding:0">
                   <tr>
@@ -2111,7 +2111,6 @@ class customer {
                   </tr>
                 </tfoot>';   
             $replaceData['item_details'] = $testDetails;
-            $replaceData['lab_name'] = ' '.$labName;
         }            
         if(!empty($parameters['reset_link'])) {
             $replaceData['reset_link'] = $parameters['reset_link'];
@@ -2199,7 +2198,7 @@ class customer {
                     $orderItemOptional = array();
                     $customerModel = new customerModel();
                     $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
-                    $orderItemData = $this->processResult($orderItems);
+                    $orderItemData = $this->processResult($orderItems, '', false, false, 'product_dump');
                     
                     $customerModel = new customerModel();
                     $orderOptional = array('count_row'=>1);
@@ -2212,12 +2211,12 @@ class customer {
                     $addressList = $customerModel->getAddressList($addressParams);
                     $addressDetails = $addressList->current();
                     $address = '';
-                    if(empty($addressDetails)) {          
+                    if(!empty($addressDetails)) {          
                         $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
                     }   
                     
                     $timeSlotParams = array();
-                    $timeSlotParams['id'] = array($parameters['time_slot_id']);
+                    $timeSlotParams['id'] = array($orderDetails['time_slot_id']);
                     $customercurlLib = new customercurl();
                     $timeSlotList = $customercurlLib->deliveryTimeSlotList($timeSlotParams);
                     if(!empty($timeSlotList['data'])) {
@@ -2236,7 +2235,7 @@ class customer {
                     $emailParams['delivery_date'] = $parameters['delivery_date'];
                     $emailParams['time_slot'] = $timeSlot;
                     $this->enterDataIntoMailQueue($emailParams);   
-                    
+                
                 }
                 $updateInventoryData = array();
                 $updateInventoryData['stock'] = 0;
