@@ -16,7 +16,7 @@ class Module
 {
     public function onBootstrap(MvcEvent $e)
     {
-        date_default_timezone_set('Asia/Kolkata');
+        date_default_timezone_set('Africa/Accra');
         $eventManager        = $e->getApplication()->getEventManager();
         $moduleRouteListener = new ModuleRouteListener();
         $moduleRouteListener->attach($eventManager);
