@@ -22,7 +22,7 @@ class CustomerController extends AbstractActionController {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters, true);
-        $userDetailMandatoryForMethod = array('placeorder');
+        $userDetailMandatoryForMethod = array('placeorder', 'modifyOrder');
         if(in_array($parameters['method'], $userDetailMandatoryForMethod)) {
             if(empty($parameters['user_id'])) {
                 $parameters['method'] = '';
