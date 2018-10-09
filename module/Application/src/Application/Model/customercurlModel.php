@@ -117,7 +117,7 @@ class customercurlModel  {
         }        
     }
     public function updateInventry($params, $where) {
-        if($params['stock']) {
+        if(isset($params['stock'])) {
            $data['stock'] = $params['stock']; 
         }
         if(!empty($params['number_of_item'])) {
