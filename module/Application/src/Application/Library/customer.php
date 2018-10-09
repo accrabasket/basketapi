@@ -2192,52 +2192,54 @@ class customer {
                     
                     $updateOrderData = array();
                     $updateOrderData['order_status'] = 'cancelled';
+                    $updateOrderData['payable_amount'] = 0.00;
                     $customerModel->updateOrder($updateOrderData, $updateWhereParams);
-                }else {
-                    $orderItemWhere = array();
-                    $orderItemWhere['order_id'] = $parameters['order_id'];
-                    $orderItemOptional = array();
-                    $customerModel = new customerModel();
-                    $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
-                    $orderItemData = $this->processResult($orderItems, '', false, false, 'product_dump');
-                    
-                    $customerModel = new customerModel();
-                    $orderOptional = array('count_row'=>1);
-                    $orderWhere = array('order_id'=>$parameters['order_id']);
-                    $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
-                    $orderDetails['delivery_charges'] = $orderDetails['shipping_charges'];
-                    $addressParams = array();
-                    $addressParams['id'] = $orderDetails['shipping_address_id'];
-                    $customerModel = new customerModel();
-                    $addressList = $customerModel->getAddressList($addressParams);
-                    $addressDetails = $addressList->current();
-                    $address = '';
-                    if(!empty($addressDetails)) {          
-                        $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
-                    }   
-                    
-                    $timeSlotParams = array();
-                    $timeSlotParams['id'] = array($orderDetails['time_slot_id']);
-                    $customercurlLib = new customercurl();
-                    $timeSlotList = $customercurlLib->deliveryTimeSlotList($timeSlotParams);
-                    if(!empty($timeSlotList['data'])) {
-                        $timeSlot = $timeSlotList['data'][$parameters['time_slot_id']]['start_time_slot'].'-'.$timeSlotList['data'][$parameters['time_slot_id']]['end_time_slot'];
-                    }                     
-                    
-                    $emailParams = array();
-                    $emailParams['email'] = $userDetails['email'];
-                    $emailParams['address'] = $address;
-                    //$emailParams['landmark'] = $landmark;
-                    $emailParams['order_id'] = $parameters['order_id'];
-                    $emailParams['name'] = $userDetails['name'];
-                    $emailParams['email_template_type'] = 'modified_order';
-                    $emailParams['item_data'] = $orderItemData;
-                    $emailParams['totalOrderDetails'] = $orderDetails;
-                    $emailParams['delivery_date'] = $orderDetails['delivery_date'];
-                    $emailParams['time_slot'] = $timeSlot;
-                    $this->enterDataIntoMailQueue($emailParams);   
-                
                 }
+                
+                $orderItemWhere = array();
+                $orderItemWhere['order_id'] = $parameters['order_id'];
+                $orderItemOptional = array();
+                $customerModel = new customerModel();
+                $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
+                $orderItemData = $this->processResult($orderItems, '', false, false, 'product_dump');
+
+                $customerModel = new customerModel();
+                $orderOptional = array('count_row'=>1);
+                $orderWhere = array('order_id'=>$parameters['order_id']);
+                $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
+                $orderDetails['delivery_charges'] = $orderDetails['shipping_charges'];
+                $addressParams = array();
+                $addressParams['id'] = $orderDetails['shipping_address_id'];
+                $customerModel = new customerModel();
+                $addressList = $customerModel->getAddressList($addressParams);
+                $addressDetails = $addressList->current();
+                $address = '';
+                if(!empty($addressDetails)) {          
+                    $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
+                }   
+
+                $timeSlotParams = array();
+                $timeSlotParams['id'] = array($orderDetails['time_slot_id']);
+                $customercurlLib = new customercurl();
+                $timeSlotList = $customercurlLib->deliveryTimeSlotList($timeSlotParams);
+                if(!empty($timeSlotList['data'])) {
+                    $timeSlot = $timeSlotList['data'][$parameters['time_slot_id']]['start_time_slot'].'-'.$timeSlotList['data'][$parameters['time_slot_id']]['end_time_slot'];
+                }                     
+
+                $emailParams = array();
+                $emailParams['email'] = $userDetails['email'];
+                $emailParams['address'] = $address;
+                //$emailParams['landmark'] = $landmark;
+                $emailParams['order_id'] = $parameters['order_id'];
+                $emailParams['name'] = $userDetails['name'];
+                $emailParams['email_template_type'] = 'modified_order';
+                $emailParams['item_data'] = $orderItemData;
+                $emailParams['totalOrderDetails'] = $orderDetails;
+                $emailParams['delivery_date'] = $orderDetails['delivery_date'];
+                $emailParams['time_slot'] = $timeSlot;
+                $this->enterDataIntoMailQueue($emailParams);   
+                
+                
                 $updateInventoryData = array();
                 $updateInventoryData['stock'] = 0;
                 $where = array();
