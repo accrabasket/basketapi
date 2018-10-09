@@ -2126,7 +2126,6 @@ class customer {
     }
     
     function modifyOrder($userDetails, $parameters) {
-        $this->customerModel->beginTransaction();
         $response = array('status' => 'fail', 'msg' => 'Nothing to update');
         if(empty($parameters['order_item_ids'])) {
             $response['msg'] = 'Order id not supplied';
@@ -2201,9 +2200,6 @@ class customer {
                 $where['merchant_product_id'] = $merchantIventoryIds;
                 $this->customercurlLib->updateInventry($updateInventoryData, $where);
                 $response = array('status' => 'success', 'msg' => 'item Updated successfully');
-                $this->customerModel->commit();
-            }else{
-                $this->customerModel->rollback();
             }
             
         } else {
