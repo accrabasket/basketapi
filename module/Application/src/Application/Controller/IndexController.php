@@ -19,6 +19,7 @@ class IndexController extends AbstractActionController {
     public $commonLib;
     public function __construct() {
         $this->commonLib = new common();
+        $this->checkRqid();
     }
     
     public function privacypolicyAction() {
@@ -172,5 +173,13 @@ class IndexController extends AbstractActionController {
         $logText = $requestParams."\n Response :- \n".$responseStr;  
         $this->commonLib->writeDebugLog($logText, 'index', $parameters['method']);
         exit;
+    }
+    
+    function checkRqid() {
+        $rqid = hash('sha512', SECURE_KEY.$_REQUEST['parameters']);
+        if($rqid != $_REQUEST['rqid']){
+            echo json_encode(array('status'=>"fail", "msg"=>"rqid not match"));
+            exit;
+        }      
     }
 }

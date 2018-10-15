@@ -17,6 +17,7 @@ class CustomerController extends AbstractActionController {
     public function __construct() {
         $this->customerLib = new customer();
         $this->commonLib = new \Application\Library\common();
+        //$this->checkRqid();
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
@@ -141,6 +142,13 @@ class CustomerController extends AbstractActionController {
                 case 'modifyOrder':
                     $response = $this->customerLib->modifyOrder($userDetails, $parameters);
                     break;
+                case 'customercarenumber':
+                    
+                    $customerCareNumber = array('0'=>'+2333553251740', '3'=>'+2333553251740');
+                    $response = array();
+                    $response['status'] = 'success';
+                    $response['customer_care_number'] = $customerCareNumber[$parameters['city_id']]?$customerCareNumber[$parameters['city_id']]:$customerCareNumber[0];
+                    break;                
                     
             }
         }
@@ -150,5 +158,13 @@ class CustomerController extends AbstractActionController {
         $this->commonLib->writeDebugLog($logText, 'customer', $parameters['method']);
         exit;
     }
+    
+    function checkRqid() {
+        $rqid = hash('sha512', SECURE_KEY.$_REQUEST['parameters']);
+        if($rqid != $_REQUEST['rqid']){
+            echo json_encode(array('status'=>"fail", "msg"=>"rqid not match"));
+            exit;
+        }      
+    }    
 
 }

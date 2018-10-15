@@ -17,7 +17,6 @@ class ProductController extends AbstractActionController {
     public function __construct() {
         $this->productLib = new product();
         $this->commonLib = new \Application\Library\common();
-        $this->checkRqid();
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
@@ -39,12 +38,5 @@ class ProductController extends AbstractActionController {
         $this->commonLib->writeDebugLog($logText, 'product', $parameters['method']);
         exit;
     }
-    
-    function checkRqid() {
-        $rqid = hash('sha512', SECURE_KEY.$_REQUEST['parameters']);
-        if($rqid != $_REQUEST['rqid']){
-            echo json_encode(array('status'=>"fail", "msg"=>"rqid not match"));
-            exit;
-        }      
-    }
+
 }
