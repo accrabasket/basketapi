@@ -674,7 +674,7 @@ class customer {
                 if(!empty($parameters['payment_type']) && $parameters['payment_type'] == 'ezeepay') {
                     $paymentObj = new Payment\ezeepay();
                     $amount = !empty($parentOrder['payable_amount'])?$parentOrder['payable_amount']:$orderData['payable_amount'];
-                    $response['data']['tokenResponse'] = $paymentObj->getToken($response['data']['order_id'], $amount, $parameters['user_id']);
+                    $response['data']['tokenResponse'] = $paymentObj->getToken($response['data']['order_id'], $amount, $parameters['user_id'], $optional);
                 }                
 
             }else {
