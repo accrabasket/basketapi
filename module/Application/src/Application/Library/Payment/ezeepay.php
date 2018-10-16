@@ -18,7 +18,7 @@ class ezeepay {
         $this->merchantCode = 'AFRBAS';         
         $this->secretKey = '&3bwa3*ngedSne54$U8u';
     }
-    public function getToken($orderId, $amount, $userId) {
+    public function getToken($orderId, $amount, $userId, $optional=array())  {
         $fields = array();
         $fields['SecretKey'] = $this->secretKey;
         $fields['Customer'] = $userId;
@@ -45,7 +45,11 @@ class ezeepay {
             $paymentRequest['created_date'] = date('Y-m-d H:i:s');
             $this->savePaymentDetails($paymentRequest);
         }
-        $response['paymentUrl'] = 'https://payments.ezeepaygh.com/checkout';
+        if($optional['agent'] == 'a') {
+            $response['paymentUrl'] = 'https://payments.ezeepaygh.com/mobile/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
+        }else {
+            $response['paymentUrl'] = 'https://payments.ezeepaygh.com/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
+        }
         return $response;
     }
     
