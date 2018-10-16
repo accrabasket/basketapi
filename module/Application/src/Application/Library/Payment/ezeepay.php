@@ -13,10 +13,10 @@ class ezeepay {
     var $merchantCode;
     var $secretKey;
     public function __construct() {
-        $this->url = 'http://52.35.53.106/gateway/api';
-        $this->merchantId = 'B8155F06-AE8C-426B-80C4-E2636C1BDAE9';
+        $this->url = 'https://payments.ezeepaygh.com/api';
+        $this->merchantId = 'f9d844f5-9f1c-4f24-857c-d012a04b5230';
         $this->merchantCode = 'AFRBAS';         
-        $this->secretKey = '$UedS5&3a348unbwe*ng';
+        $this->secretKey = '&3bwa3*ngedSne54$U8u';
     }
     public function getToken($orderId, $amount, $userId) {
         $fields = array();
@@ -45,6 +45,7 @@ class ezeepay {
             $paymentRequest['created_date'] = date('Y-m-d H:i:s');
             $this->savePaymentDetails($paymentRequest);
         }
+        $response['paymentUrl'] = 'https://payments.ezeepaygh.com/checkout';
         return $response;
     }
     
