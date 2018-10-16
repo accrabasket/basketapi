@@ -490,6 +490,8 @@ class customer {
     }
     
     function placeOrder($parameters, $userDetails) {
+        $optional  = array();
+        $optional['agent'] = $parameters['agent'];
         $cartParams = array();
         $orderDetails = array();
         $status = true;
