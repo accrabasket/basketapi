@@ -33,6 +33,7 @@ class CronController extends AbstractActionController {
         echo $response['msg'];
         $msg = '';
         if($_REQUEST['agent'] =='w') {
+            $msg = '?msg=Payment Not Received.';
             if($response['status'] == 'success') {
                 $msg = '?msg=Payment Received.';
             }
