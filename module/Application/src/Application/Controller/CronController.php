@@ -31,9 +31,12 @@ class CronController extends AbstractActionController {
             $response = $this->customerLib->updatePaymentStatus($_REQUEST);
         }
         echo $response['msg'];
+        $msg = '';
         if($_REQUEST['agent'] =='w') {
-            sleep(10);
-            header('Location:'.FRONT_END_PATH);
+            if($response['status'] == 'success') {
+                $msg = '?msg=Payment Received.';
+            }
+            header('Location:'.FRONT_END_PATH.$msg);
         }        
         exit;
     }
