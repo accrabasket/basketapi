@@ -1597,7 +1597,7 @@ class customer {
     }
     
     function changepasswordByAuthKey($parameters) {
-        $response = array('status' => 'fail', 'msg' => 'change not change');
+        $response = array('status' => 'fail', 'msg' => 'password not changed');
         $status = true;
         $data = array();
         $where = array();
