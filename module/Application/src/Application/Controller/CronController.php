@@ -32,7 +32,7 @@ class CronController extends AbstractActionController {
         }
         echo $response['msg'];
         if($_REQUEST['agent'] =='w') {
-            sleep(2);
+            sleep(10);
             header('Location:'.FRONT_END_PATH);
         }        
         exit;
