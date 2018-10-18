@@ -25,12 +25,16 @@ class CronController extends AbstractActionController {
         exit;
     }
     public function updatepaymentstatusAction(){
+        $response = array('status' => 'fail', 'msg' => 'Payment Failed.');
         if(!empty($_REQUEST['TransactionId'])) {
-            $response = array('status' => 'fail', 'msg' => 'Payment Failed.');
             $this->customerLib = new customer();
             $response = $this->customerLib->updatePaymentStatus($_REQUEST);
         }
         echo $response['msg'];
+        if($_REQUEST['agent'] =='w') {
+            sleep(2);
+            header('Location:'.FRONT_END_PATH);
+        }        
         exit;
     }
 }

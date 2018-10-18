@@ -48,7 +48,7 @@ class ezeepay {
         if($optional['agent'] == 'a') {
             $response['paymentUrl'] = 'https://payments.ezeepaygh.com/mobile/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
         }else {
-            $response['paymentUrl'] = 'https://payments.ezeepaygh.com/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
+            $response['paymentUrl'] = 'https://payments.ezeepaygh.com/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus?agent=w';
         }
         return $response;
     }
