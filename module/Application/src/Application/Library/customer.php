@@ -1475,7 +1475,8 @@ class customer {
                 $mailQuquedata['from_email_id'] =  FROM_EMAIL;
                 $mailQuquedata['subject'] =  $templateData['name'];
                 $mailQuquedata['to_email_id'] = $userValues[0]['email'];
-                $result = $this->customerModel->enterDataIntoMailQueue($mailQuquedata);
+                $customerModel = new customerModel();
+                $result = $customerModel->enterDataIntoMailQueue($mailQuquedata);
                 if(!empty($result)){
                     
                     $userParams['key'] = $key;
