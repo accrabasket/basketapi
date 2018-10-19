@@ -236,7 +236,7 @@ class customer {
                 if(!empty($userDetails['data'])) {
                     $response['msg'] = "mobile number/Email Already in use.";
                 }else{
-                    $resetParams['key'] = md5($userParams['email'].time());
+                    $userParams['key'] = md5($userParams['email'].time());
                     $result = $this->customerModel->addUser($userParams);
                     if(!empty($result)) {
                         $generateOtpParams = array();
