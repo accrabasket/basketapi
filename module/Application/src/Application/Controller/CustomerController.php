@@ -76,7 +76,11 @@ class CustomerController extends AbstractActionController {
                     $response = $this->customerLib->assignOrderToRider($parameters);
                     break;                
                 case 'generateotp':
-                    $response = $this->customerLib->generateotp($parameters);
+                    if($parameters['otp_type'] == 'register'){
+                        
+                    }else {
+                        $response = $this->customerLib->generateotp($parameters);
+                    }
                     break;
                 case 'verifyotp':
                     $response = $this->customerLib->verifyotp($parameters);
@@ -143,6 +147,9 @@ class CustomerController extends AbstractActionController {
                 case 'modifyOrder':
                     $response = $this->customerLib->modifyOrder($userDetails, $parameters);
                     break;
+                case 'verifyemail':
+                    $response = $this->customerLib->verifyEmail($parameters);
+                    break;                
                 case 'customercarenumber':
                     
                     $customerCareNumber = array('0'=>'+2333553251740', '3'=>'+2333553251740');
