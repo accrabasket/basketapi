@@ -17,7 +17,7 @@ class CustomerController extends AbstractActionController {
     public function __construct() {
         $this->customerLib = new customer();
         $this->commonLib = new \Application\Library\common();
-        $this->checkRqid();
+        //$this->checkRqid();
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
