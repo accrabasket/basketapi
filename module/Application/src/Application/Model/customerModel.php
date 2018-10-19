@@ -115,7 +115,16 @@ class customerModel  {
             if(!empty($whereParams['name'])) {
                 $query = $query->where(new \Zend\Db\Sql\Predicate\Like('user_master.name', $whereParams['name']));
             }            
-            $query = $query->where(array('user_master.status' => 1));
+            //$query = $query->where(array('user_master.status' => 1));
+            if(!empty($whereParams['status'])) {
+                $query = $query->where(array('user_master.status' => $whereParams['status']));
+            }
+            if(isset($whereParams['verified_mobile'])) {
+                $query = $query->where(array('user_master.verified_mobile' => $whereParams['verified_mobile']));
+            }
+            if(isset($whereParams['verified_email'])) {
+                $query = $query->where(array('user_master.verified_email' => $whereParams['verified_email']));
+            }            
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);

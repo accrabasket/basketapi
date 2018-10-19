@@ -236,9 +236,21 @@ class customer {
                 if(!empty($userDetails['data'])) {
                     $response['msg'] = "mobile number/Email Already in use.";
                 }else{
+                    $resetParams['key'] = md5($userParams['email'].time());
                     $result = $this->customerModel->addUser($userParams);
                     if(!empty($result)) {
-                        $userDetails = $this->getUserDetail(array('email'=>$parameters['email']));
+                        $generateOtpParams = array();
+                        $generateOtpParams['mobile_number'] = $userParams['mobile_number'];
+                        $generateOtpParams['otp_type'] = 'register';
+                        $otpDetails = $this->generateotp($generateOtpParams);
+                        $userDetails = $this->getUserDetail(array('email'=>$parameters['email'], 'verified_email'=>0));
+                        $resetParams = array();
+                        $resetParams['method'] = 'verifyemail';
+                        $resetParams['key'] = $userParams['key'];
+                        $parameters['reset_link'] = "http://".$_SERVER["HTTP_HOST"].'/basketapi/application/customer?parameters='.json_encode($resetParams);
+                        $parameters['email_template_type'] = 'email_verification';
+                        $parameters['otp'] = $otpDetails['data']['otp'];
+                        $this->enterDataIntoMailQueue($parameters);
                         $response = array('status'=>'success', 'msg'=>"User created successfully.",'data'=>$userDetails['data']);
                     }                    
                 }
@@ -260,11 +272,20 @@ class customer {
         if(!empty($parameters['email'])) {
             $where['email'] = $parameters['email'];
         }
+        if(isset($parameters['verified_email'])) {
+            $where['verified_email'] = $parameters['verified_email'];
+        }        
         if(!empty($parameters['password'])) {
             $where['password'] = $parameters['password'];
         }
         if(!empty($parameters['mobile_number'])) {
             $where['mobile_number'] = $parameters['mobile_number'];
+        }        
+        if(isset($parameters['verified_mobile'])) {
+            $where['verified_mobile'] = $parameters['verified_mobile'];
+        }
+        if(!empty($parameters['status'])) {
+            $where['status'] = $parameters['status'];
         }        
         
         
@@ -300,8 +321,12 @@ class customer {
         $where = array();
         $params = array();
         if(!empty($parameters['email']) || !empty($parameters['mobile_number'])) {
-            $where['email'] = isset($parameters['email'])?$parameters['email']:'';
-            $where['mobile_number'] = isset($parameters['mobile_number'])?$parameters['mobile_number']:'';
+            if(!empty($parameters['email'])) {
+                $where['email'] = $parameters['email'];
+            }
+            if(!empty($parameters['mobile_number'])) {
+                $where['mobile_number'] = isset($parameters['mobile_number']);
+            }
         }else{
             $status = false;
             $response = array('status'=>'fail','msg'=>'Email/Mobile not supplied');
@@ -324,6 +349,15 @@ class customer {
                 $this->addEditUser($params);                
             }
         }
+        if(!empty($params['id'])) {
+            if(empty($response['data'][$params['id']]['verified_mobile'])) {
+                $generateOtpParams = array();
+                $generateOtpParams['mobile_number'] = $response['data'][$params['id']]['mobile_number'];
+                $generateOtpParams['otp_type'] = 'register';
+                $otpDetails = $this->generateotp($generateOtpParams);                
+                $response['data'][$params['id']]['id'] = 0;
+            }
+        }        
         return $response;
     }
     public function isValid($rules, $parameters) {
@@ -1363,14 +1397,14 @@ class customer {
         }
         if(!empty($parameters['otp_type'])) {
             $where['otp_type'] = $parameters['otp_type'];
-            if($where['otp_type'] == 'register') {
+            /*if($where['otp_type'] == 'register') {
                 $whereUserParams['mobile_number'] = $parameters['mobile_number'];
                 $userData = $this->getUserDetail($whereUserParams);
                 if(!empty($userData['data'])) {
                     $status = false;
                     $response = array('status'=>'fail','msg'=>'Mobile Number Already registered.');                    
                 }
-            }
+            }*/
         }else{
             $status = false;
             $response = array('status'=>'fail','msg'=>'Otp type is not supplied');
@@ -1394,11 +1428,35 @@ class customer {
                 $result = $this->customerModel->smsqueue($smsQueueData);
             }
             if(!empty($result)){
-                $response = array('status'=>'success','msg'=>'Otp send');
+                $response = array('status'=>'success','msg'=>'Otp send', 'data'=>$otpData);
             }
         }
         return $response;
     }
+    
+    function verifyEmail($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'Link not valid');
+        $status = true;
+        if (!empty($parameters['key'])) {
+            $where['key'] = $parameters['key'];
+        } else {
+            $status = false;
+            $response = array('status' => 'fail', 'msg' => 'user_auth not supplied');
+        }   
+        if($status) {
+            $userDetails = $this->getUserDetail(array('key'=>$parameters['key'], 'verified_email'=>0));
+            if(!empty($userDetails['status'] == 'success')) {
+                $userValues = array_values($userDetails['data']);
+                $addeditUserParams = array();
+                $addeditUserParams['id'] = $userValues[0]['id'];
+                $addeditUserParams['verified_email'] = 1;
+                $addeditUserParams['status'] = 1;
+                $response = $this->addEditUser($addeditUserParams);        
+            }
+        }
+        
+        return $response;
+    } 
     
     function verifyotp($parameters) {
         $response = array('status' => 'fail', 'msg' => 'Otp not valid');
@@ -1432,7 +1490,13 @@ class customer {
             $this->customerModel->deleteOtp($deleteOtpWhere);            
             if (!empty($result['count'])) {
                 $this->customerModel->deleteUserAuth($params);
-                
+                $userDetails = $this->getUserDetail(array('mobile_number'=>$parameters['mobile_number'], 'verified_mobile'=>0));
+                $userValues = array_values($userDetails['data']);
+                $addeditUserParams = array();
+                $addeditUserParams['id'] = $userValues[0]['id'];
+                $addeditUserParams['verified_mobile'] = 1;
+                $addeditUserParams['status'] = 1;
+                $this->addEditUser($addeditUserParams);                 
                 $params['auth_key'] = md5($parameters['mobile_number'].  time());
                 $result = $this->customerModel->saveuserauthlink($params);
                 if(!empty($result)){
@@ -2118,6 +2182,9 @@ class customer {
         }            
         if(!empty($parameters['reset_link'])) {
             $replaceData['reset_link'] = $parameters['reset_link'];
+        }
+        if(!empty($parameters['reset_link'])) {
+            $replaceData['otp'] = $parameters['otp'];
         }
         $emailBody = $this->prepareEmailBody($templateData['body'], $replaceData);
         $mailQuquedata['body'] = $emailBody;
