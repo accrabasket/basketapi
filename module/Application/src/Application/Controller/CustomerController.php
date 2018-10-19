@@ -77,7 +77,8 @@ class CustomerController extends AbstractActionController {
                     break;                
                 case 'generateotp':
                     if($parameters['otp_type'] == 'register'){
-                        
+                        $response['status'] = 'success';
+                        $response['msg'] = 'Otp Sent';
                     }else {
                         $response = $this->customerLib->generateotp($parameters);
                     }
