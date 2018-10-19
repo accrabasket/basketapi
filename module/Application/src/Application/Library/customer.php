@@ -350,7 +350,7 @@ class customer {
             }
         }
         if(!empty($params['id'])) {
-            if(empty($response['data'][$params['id']]['verified_mobile'])) {
+            if(empty($response['data'][$params['id']]['verified_mobile']) && !empty($parameters['mobile_number'])) {
                 $generateOtpParams = array();
                 $generateOtpParams['mobile_number'] = $response['data'][$params['id']]['mobile_number'];
                 $generateOtpParams['otp_type'] = 'register';
