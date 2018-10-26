@@ -31,6 +31,9 @@ class ProductController extends AbstractActionController {
                 case 'getProductByMerchantAttributeId':
                     $response = $this->productLib->getProductByMerchantAttributeId($parameters);
                     break;
+                case 'cashCollected':
+                    $response = $this->productLib->cashCollected($parameters);
+                    break;
             }
         }
         $responseStr = json_encode($response);
