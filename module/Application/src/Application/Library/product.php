@@ -219,5 +219,24 @@ class product {
         
         return $response;
     }
+    
+    function cashCollected($parameters) {   
+        $response = array('status' => 'fail', 'msg' => 'update Fail');
+        if(empty($parameters['order_id'])) {
+            $response['msg'] = 'order id not supplied';
+            
+            return $response;
+        }
+        $customerModel = new \Application\Model\customerModel();
+        $updateWhereParams = array('order_id'=>$parameters['order_id']);
+        $updateOrderData = array('payment_status'=>$parameters['payment_status']);
+     
+        $result = $customerModel->updateOrder($updateOrderData, $updateWhereParams);
+        if(!empty($result)) {
+            $response = array('status' => 'success', 'msg' => 'order Updated successfully');
+        }
+        
+        return $response;
+    }    
 
 }
