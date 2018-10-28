@@ -63,7 +63,10 @@ class productModel  {
             }            
             if(!empty($optional['merchant_id'])) {
                 $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
-            }             
+            }  
+            if(empty($optional['all_product'])) {
+                $query->where($where->greaterThanOrEqualTo('merchant_inventry.stock', 1));
+            }
             $query->where(array('product_master.status' => 1));
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
