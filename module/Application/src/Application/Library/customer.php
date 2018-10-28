@@ -242,7 +242,7 @@ class customer {
                         $generateOtpParams = array();
                         $generateOtpParams['mobile_number'] = $userParams['mobile_number'];
                         $generateOtpParams['otp_type'] = 'register';
-                        //$otpDetails = $this->generateotp($generateOtpParams);
+                        $otpDetails = $this->generateotp($generateOtpParams);
                         $userDetails = $this->getUserDetail(array('email'=>$parameters['email'], 'verified_email'=>0));
                         $resetParams = array();
                         $resetParams['method'] = 'verifyemail';
@@ -250,7 +250,7 @@ class customer {
                         $parameters['reset_link'] = "http://".$_SERVER["HTTP_HOST"].'/basketapi/application/customer?parameters='.json_encode($resetParams);
                         $parameters['email_template_type'] = 'email_verification';
                         $parameters['otp'] = $otpDetails['data']['otp'];
-                        //$this->enterDataIntoMailQueue($parameters);
+                        $this->enterDataIntoMailQueue($parameters);
                         $response = array('status'=>'success', 'msg'=>"User created successfully.",'data'=>$userDetails['data']);
                     }                    
                 }
@@ -1413,7 +1413,8 @@ class customer {
         if($status){
             $result = $this->customerModel->deleteOtp($where);
             $expireTime = date('Y-m-d H:i:s', strtotime("+".OTP_EXPIRE_TIME." minutes"));
-            $randomNumber = mt_rand(1000, 9999);
+            //$randomNumber = mt_rand(1000, 9999);
+            $randomNumber = '1234';
             $smsQueueData = array();
             $otpData = array();
             $otpData['mobile_number'] = $smsQueueData['mobile_number'] = $countryCode.$parameters['mobile_number'];
