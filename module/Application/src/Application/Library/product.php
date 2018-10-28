@@ -42,6 +42,9 @@ class product {
                     $optional['store_id'] = array_keys($storeList['data']);
                 }   
             }   
+            if(!empty($parameters['all_product'])) {
+                $optional['all_product'] = 1;
+            }
             if(!empty($parameters['product_name'])) {
                 $optional['product_name'] = $parameters['product_name'];
             }
