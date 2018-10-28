@@ -186,6 +186,12 @@ class customer {
             if(isset($parameters['status'])) {
                 $userParams['status'] = $parameters['status'];
             }
+            if(isset($parameters['verified_mobile'])) {
+                $userParams['verified_mobile'] = $parameters['verified_mobile'];
+            }            
+            if(isset($parameters['verified_email'])) {
+                $userParams['verified_email'] = $parameters['verified_email'];
+            }            
             if(isset($parameters['fcm_reg_id'])) {
                 $userParams['fcm_reg_id'] = $parameters['fcm_reg_id'];
             }            
