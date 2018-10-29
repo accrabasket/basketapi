@@ -30,6 +30,9 @@ class productModel  {
             $where = new \Zend\Db\Sql\Where();
 
             $query = $this->sql->select('merchant_inventry');
+            if(empty($optional['all_product'])) {
+                $query->where($where->greaterThanOrEqualTo('merchant_inventry.stock', 1));
+            }            
             if(!empty($optional['count'])) {
                 $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array());
                 $query->columns(array('count'=>new Expression("count(DISTINCT(merchant_inventry.product_id))")));
@@ -64,9 +67,6 @@ class productModel  {
             if(!empty($optional['merchant_id'])) {
                 $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
             }  
-            if(empty($optional['all_product'])) {
-                $query->where($where->greaterThanOrEqualTo('merchant_inventry.stock', 1));
-            }
             $query->where(array('product_master.status' => 1));
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
