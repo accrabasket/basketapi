@@ -257,7 +257,7 @@ class customer {
                         $parameters['email_template_type'] = 'email_verification';
                         $parameters['otp'] = $otpDetails['data']['otp'];
                         $this->enterDataIntoMailQueue($parameters);
-                        $response = array('status'=>'success', 'msg'=>"User created successfully.",'data'=>$userDetails['data']);
+                        $response = array('status'=>'success', 'msg'=>"User created successfully. Otp send on your mobile number $generateOtpParams[mobile_number] and registered email id.",'data'=>$userDetails['data']);
                     }                    
                 }
             }
