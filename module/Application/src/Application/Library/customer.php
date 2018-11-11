@@ -659,7 +659,11 @@ class customer {
                 $result = $this->customerModel->createOrder($orderData);                
                 if(!empty($result)) {
                     $notificationData = array();
-                    $notificationData['order_id'] = $orderId;
+                    $notifyOrderId = $orderId;
+                    if(!empty($parentOrderId)) {
+                        $notifyOrderId = $parentOrderId;
+                    }
+                    $notificationData['order_id'] = $notifyOrderId;
                     $notificationData['user_type'] = 'admin';
                     $notificationData['user_id'] = 0;
                     $this->sentNotification('notification_for_order_placed_for_admin', $notificationData);
@@ -673,7 +677,7 @@ class customer {
                     $emailParams['email'] = $userDetails['email'];
                     $emailParams['address'] = $address;
                     //$emailParams['landmark'] = $landmark;
-                    $emailParams['order_id'] = $orderId;
+                    $emailParams['order_id'] = $notifyOrderId;
                     $emailParams['name'] = $userDetails['name'];
                     $emailParams['email_template_type'] = 'invoice';
                     $emailParams['item_data'] = $orderDetails['itemWiseOrderDetails'];
