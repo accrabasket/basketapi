@@ -2214,6 +2214,24 @@ class customer {
         if(!is_array($parameters['order_item_ids'])) {
             $parameters['order_item_ids'] = explode(',',$parameters['order_item_ids']);
         }
+        
+        $customerModel = new customerModel();
+        $orderOptional['columns'] = array('parent_order_id');
+        $orderOptional['count_row'] = true;
+        $orderWhere['order_id'] = $parameters['order_id'];
+        $orderData = $customerModel->orderList($orderWhere, $orderOptional);
+        $parentOrderId = 0;
+        if(!empty($orderData['parent_order_id'])) {
+            $orderWhere = array();
+            $parentOrderId = $orderWhere['parent_order_id'] = $orderData['parent_order_id'];
+            $customerModel = new customerModel();
+            $orderList = $customerModel->orderList($orderWhere);
+            $orderByOrderId = $this->processResult($result, 'order_id');
+            $orderIds = array_keys($orderByOrderId);
+            $parameters['order_id'] = $orderIds;
+        }
+        
+        
         $orderItemWhere = array();
         $orderItemWhere['order_id'] = $parameters['order_id'];
         $orderItemOptional = array();
@@ -2310,8 +2328,11 @@ class customer {
                 $emailParams = array();
                 $emailParams['email'] = $userDetails['email'];
                 $emailParams['address'] = $address;
-                //$emailParams['landmark'] = $landmark;
+                //$emailParams['landmark'] = $landmark;                
                 $emailParams['order_id'] = $parameters['order_id'];
+                if(!empty($parentOrderId)) {
+                    $emailParams['order_id'] = $parentOrderId;
+                }
                 $emailParams['name'] = $userDetails['name'];
                 $emailParams['email_template_type'] = 'modified_order';
                 $emailParams['item_data'] = $orderItemData;
