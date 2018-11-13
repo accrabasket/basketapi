@@ -2226,7 +2226,7 @@ class customer {
             $parentOrderId = $orderWhere['parent_order_id'] = $orderData['parent_order_id'];
             $customerModel = new customerModel();
             $orderList = $customerModel->orderList($orderWhere);
-            $orderByOrderId = $this->processResult($result, 'order_id');
+            $orderByOrderId = $this->processResult($orderList, 'order_id');
             $orderIds = array_keys($orderByOrderId);
             $parameters['order_id'] = $orderIds;
         }
