@@ -2214,7 +2214,7 @@ class customer {
         if(!is_array($parameters['order_item_ids'])) {
             $parameters['order_item_ids'] = explode(',',$parameters['order_item_ids']);
         }
-        
+        $requestOrderId = $parameters['order_id'];
         $customerModel = new customerModel();
         $orderOptional['columns'] = array('parent_order_id');
         $orderOptional['count_row'] = true;
@@ -2266,19 +2266,24 @@ class customer {
         $customerModel = new customerModel();
         $itemData = array('status'=>'out_of_stock');
         $updateOrderItemWhereParams = array();
-        $updateOrderItemWhereParams['order_id'] = $parameters['order_id'];
+        $updateOrderItemWhereParams['order_id'] = $requestOrderId;
         $updateOrderItemWhereParams['id'] = $parameters['order_item_ids'];
         $orderItemUpdateStatus = $customerModel->updateOrderItem($itemData, $updateOrderItemWhereParams);
           
         if(!empty($orderItemUpdateStatus)) {        
             $customerModel = new customerModel();
             $updateWhereParams = array();
-            $updateWhereParams['order_id'] = $parameters['order_id'];
+            $updateWhereParams['order_id'] = $requestOrderId;
             $orderUpdateStatus = $customerModel->updateOrder($data, $updateWhereParams);
             if(!empty($orderUpdateStatus)) {
-                
+                if(!empty($parentOrderId)) {
+                    $customerModel = new customerModel();
+                    $updateWhereParams = array();
+                    $updateWhereParams['order_id'] = $parentOrderId;
+                    $orderUpdateStatus = $customerModel->updateOrder($data, $updateWhereParams);                    
+                }
                 $orderItemWhere = array();
-                $orderItemWhere['order_id'] = $parameters['order_id'];
+                $orderItemWhere['order_id'] = $requestOrderId;
                 $orderItemOptional = array();
                 $orderItemOptional['status'] = 'active';
                 $customerModel = new customerModel();
@@ -2287,7 +2292,7 @@ class customer {
                 if(empty($orderItemData)) {
                     $customerModel = new customerModel();
                     $updateWhereParams = array();
-                    $updateWhereParams['order_id'] = $parameters['order_id'];
+                    $updateWhereParams['order_id'] = $requestOrderId;
                     
                     $updateOrderData = array();
                     $updateOrderData['order_status'] = 'cancelled';
@@ -2304,7 +2309,12 @@ class customer {
 
                 $customerModel = new customerModel();
                 $orderOptional = array('count_row'=>1);
-                $orderWhere = array('order_id'=>$parameters['order_id']);
+                if(!empty($parentOrderId)) {
+                    $orderWhere = array('order_id'=>$parentOrderId);
+                }else{
+                    $orderWhere = array('order_id'=>$parameters['order_id']);
+                }
+                
                 $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
                 $orderDetails['delivery_charges'] = $orderDetails['shipping_charges'];
                 $addressParams = array();
@@ -2322,7 +2332,7 @@ class customer {
                 $customercurlLib = new customercurl();
                 $timeSlotList = $customercurlLib->deliveryTimeSlotList($timeSlotParams);
                 if(!empty($timeSlotList['data'])) {
-                    $timeSlot = $timeSlotList['data'][$parameters['time_slot_id']]['start_time_slot'].'-'.$timeSlotList['data'][$parameters['time_slot_id']]['end_time_slot'];
+                    $timeSlot = $timeSlotList['data'][$timeSlotParams['id']]['start_time_slot'].'-'.$timeSlotList['data'][$timeSlotParams['id']]['end_time_slot'];
                 }                     
 
                 $emailParams = array();
