@@ -281,6 +281,7 @@ class customerModel  {
     
     function orderList($where, $optional=array()) {
         try {
+             $sorting = true;
             $whereQuery = new \Zend\Db\Sql\Where();
             $query = $this->sql->select('order_master');
             if(!empty($optional['columns'])) {
@@ -309,10 +310,11 @@ class customerModel  {
                 }else{
                     $query = $query->where(new \Zend\Db\Sql\Predicate\NotLike('order_id', 'order_p%'));
                 }
+                $sorting = false;
             }            
             if(!empty($optional['short_by'])) {
                 $query->order(array('created_date '.$optional['short_type']));
-            }else{
+            }else if($sorting){
                 $query->order(array('id DESC'));
             }
             if(!empty($optional['pagination'])) {
