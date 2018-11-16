@@ -2365,7 +2365,7 @@ class customer {
                 $updateInventoryData = array();
                 $updateInventoryData['stock'] = 0;
                 $where = array();
-                $where['merchant_product_id'] = $merchantIventoryIds;
+                $where['id'] = $merchantIventoryIds;
                 $customercurlLib = new customercurl();
                 $customercurlLib->updateInventry($updateInventoryData, $where);
                 $response = array('status' => 'success', 'msg' => 'item Updated successfully');
