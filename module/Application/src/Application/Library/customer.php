@@ -2338,7 +2338,7 @@ class customer {
                 $customercurlLib = new customercurl();
                 $timeSlotList = $customercurlLib->deliveryTimeSlotList($timeSlotParams);
                 if(!empty($timeSlotList['data'])) {
-                    $timeSlot = $timeSlotList['data'][$timeSlotParams['id']]['start_time_slot'].'-'.$timeSlotList['data'][$timeSlotParams['id']]['end_time_slot'];
+                    $timeSlot = $timeSlotList['data'][$orderDetails['time_slot_id']]['start_time_slot'].'-'.$timeSlotList['data'][$orderDetails['time_slot_id']]['end_time_slot'];
                 }                     
 
                 $emailParams = array();
