@@ -2276,12 +2276,6 @@ class customer {
             $updateWhereParams['order_id'] = $requestOrderId;
             $orderUpdateStatus = $customerModel->updateOrder($data, $updateWhereParams);
             if(!empty($orderUpdateStatus)) {
-                if(!empty($parentOrderId)) {
-                    $customerModel = new customerModel();
-                    $updateWhereParams = array();
-                    $updateWhereParams['order_id'] = $parentOrderId;
-                    $orderUpdateStatus = $customerModel->updateOrder($data, $updateWhereParams);                    
-                }
                 $orderItemWhere = array();
                 $orderItemWhere['order_id'] = $requestOrderId;
                 $orderItemOptional = array();
@@ -2299,6 +2293,18 @@ class customer {
                     $updateOrderData['payable_amount'] = 0.00;
                     $customerModel->updateOrder($updateOrderData, $updateWhereParams);
                 }
+                if(!empty($parentOrderId)) {
+                    $customerModel = new customerModel();
+                    $orderOptional = array('count_row'=>1);
+                    $orderWhere = array('order_id'=>$requestOrderId);
+
+                    $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
+                    $data['shipping_charges'] = new \Zend\Db\Sql\Expression("shipping_charges-".$orderDetails['shipping_charges']);
+                    $customerModel = new customerModel();
+                    $updateWhereParams = array();
+                    $updateWhereParams['order_id'] = $parentOrderId;
+                    $orderUpdateStatus = $customerModel->updateOrder($data, $updateWhereParams);                    
+                }                
                 
                 $orderItemWhere = array();
                 $orderItemWhere['order_id'] = $parameters['order_id'];
