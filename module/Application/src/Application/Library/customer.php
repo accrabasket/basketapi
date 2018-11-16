@@ -2296,8 +2296,9 @@ class customer {
                     $customerModel = new customerModel();
                     $orderOptional = array('count_row'=>1);
                     $orderWhere = array('order_id'=>$requestOrderId);
-
+                    
                     $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
+                    $orderDetails['shipping_charges'] = !empty($orderDetails['shipping_charges'])?$orderDetails['shipping_charges']:0;
                     $data['shipping_charges'] = new \Zend\Db\Sql\Expression("shipping_charges-".$orderDetails['shipping_charges']);                    
                     $amount += $orderDetails['shipping_charges'];
                     $data['amount'] = new \Zend\Db\Sql\Expression("amount-".$amount);
