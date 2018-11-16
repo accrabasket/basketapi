@@ -2292,14 +2292,15 @@ class customer {
                     $updateOrderData['order_status'] = 'cancelled';
                     $updateOrderData['payable_amount'] = 0.00;
                     $customerModel->updateOrder($updateOrderData, $updateWhereParams);
-                }
-                if(!empty($parentOrderId)) {
+                    
                     $customerModel = new customerModel();
                     $orderOptional = array('count_row'=>1);
                     $orderWhere = array('order_id'=>$requestOrderId);
 
                     $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
-                    $data['shipping_charges'] = new \Zend\Db\Sql\Expression("shipping_charges-".$orderDetails['shipping_charges']);
+                    $data['shipping_charges'] = new \Zend\Db\Sql\Expression("shipping_charges-".$orderDetails['shipping_charges']);                    
+                }
+                if(!empty($parentOrderId)) {
                     $customerModel = new customerModel();
                     $updateWhereParams = array();
                     $updateWhereParams['order_id'] = $parentOrderId;
