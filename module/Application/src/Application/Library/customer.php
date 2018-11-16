@@ -2300,8 +2300,8 @@ class customer {
                     $orderDetails = $customerModel->orderList($orderWhere, $orderOptional);
                     $orderDetails['shipping_charges'] = !empty($orderDetails['shipping_charges'])?$orderDetails['shipping_charges']:0;
                     $data['shipping_charges'] = new \Zend\Db\Sql\Expression("shipping_charges-".$orderDetails['shipping_charges']);                    
-                    $amount += $orderDetails['shipping_charges'];
-                    $data['amount'] = new \Zend\Db\Sql\Expression("amount-".$amount);
+                    $payableAmount += $orderDetails['shipping_charges'];
+                    $data['payable_amount'] = new \Zend\Db\Sql\Expression("payable_amount-".$payableAmount);
                 }
                 if(!empty($parentOrderId)) {
                     $customerModel = new customerModel();
