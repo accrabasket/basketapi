@@ -48,9 +48,9 @@ class productModel  {
             }
             if(!empty($optional['category_id'])) {
                 $query->where(array('product_master.category_id' => $optional['category_id']));
-            }            
-            if(!empty($optional['product_name'])){
                 $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
+            }else if(!empty($optional['product_name']) && !empty($optional['all_product'])){
+                $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "AND");
             }            
             if(!empty($optional['product_id'])) {
                 $query->where(array('product_master.id' => $optional['product_id']));
@@ -75,7 +75,7 @@ class productModel  {
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
                 $query->order("$optional[sort_by] $optional[order_by]");
             }
-            //echo $query->getSqlString();die;
+            echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
