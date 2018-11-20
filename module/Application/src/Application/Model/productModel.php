@@ -75,7 +75,6 @@ class productModel  {
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
                 $query->order("$optional[sort_by] $optional[order_by]");
             }
-            echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
