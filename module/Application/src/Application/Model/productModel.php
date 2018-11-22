@@ -48,7 +48,9 @@ class productModel  {
             }
             if(!empty($optional['category_id'])) {
                 $query->where(array('product_master.category_id' => $optional['category_id']));
+                if(!empty($optional['product_name'])){
                     $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
+                }
             }else if(!empty($optional['product_name'])){
                 $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "AND");
             }            
