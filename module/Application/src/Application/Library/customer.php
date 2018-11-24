@@ -1476,8 +1476,12 @@ class customer {
         $response = array('status' => 'fail', 'msg' => 'Otp not valid');
         $status = true;
         $where = array();
+        $countryCode = '';
+        if(!empty($parameters['country_code'])) {
+            $countryCode = $parameters['country_code'];
+        }
         if (!empty($parameters['mobile_number'])) {
-            $where['mobile_number'] = $parameters['mobile_number'];
+            $where['mobile_number'] = $countryCode.$parameters['mobile_number'];
         } else {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'Mobile number not supplied');
