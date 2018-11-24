@@ -246,7 +246,10 @@ class customer {
                     $result = $this->customerModel->addUser($userParams);
                     if(!empty($result)) {
                         $generateOtpParams = array();
-                        $generateOtpParams['mobile_number'] = $userParams['mobile_number'];
+                        if(empty($parameters['country_code'])) {
+                            $parameters['country_code'] = '+233';
+                        }
+                        $generateOtpParams['mobile_number'] = $parameters['country_code'].$userParams['mobile_number'];
                         $generateOtpParams['otp_type'] = 'register';
                         $otpDetails = $this->generateotp($generateOtpParams);
                         $userDetails = $this->getUserDetail(array('email'=>$parameters['email'], 'verified_email'=>0));
