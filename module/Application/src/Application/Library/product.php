@@ -142,7 +142,10 @@ class product {
                     if (!empty($parameters['order_by']) && !empty($parameters['short_by'])) {
                         $minPriceParams['sort_by'] = $parameters['short_by'];
                         $minPriceParams['order_by'] = $parameters['order_by'];
-                    }                
+                    }    
+                    if(!empty($parameters['all_product'])) {
+                         $minPriceParams['all_prodcut'] = 1;
+                    }
                     $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata, $productData);
                     $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
                     $response = array('status' => 'success', 'data' => $productDetaList, 'attributeImageData'=>$attributeImageData, 'productImageData'=>$productImageData,'nutritionImageData'=>$nutritionImageData, 'imageRootPath'=>HTTP_ROOT_PATH, 'totalNumberOFRecord'=>$totalNumberOfRecord);               
