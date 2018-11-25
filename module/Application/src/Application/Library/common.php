@@ -526,6 +526,11 @@ class common  {
                     $return = array('status'=>'fail', 'msg'=>$key.' not supplied');
                     break;
                 }
+            }else if($rule['type']=='in_array') {
+                if(!in_array($parameters[$key], $rule['array_values'])) { 
+                    $return = array('status'=>'fail', 'msg'=>$key.' not valid');
+                    break;
+                }
             }else{
                 $return = array('status'=>'fail', 'msg'=>$key.' not '.$rule['type']);
                 break;
@@ -1393,11 +1398,11 @@ class common  {
     function fetchImage($where) {
         $commonModel = new commonModel();
         $imageData = $commonModel->fetchImage($where);
-        $data = array();
+        $data = '';
         if(!empty($imageData)) {
             $data = $this->processResult($imageData, 'image_id', true);
         }
-        return (object)$data;
+        return $data;
     }
     
     function addInventryByCsv($parameters) {
