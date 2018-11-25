@@ -176,10 +176,10 @@ class IndexController extends AbstractActionController {
     }
     
     function checkRqid() {
-        $rqid = hash('sha512', SECURE_KEY.$_REQUEST['parameters']);
+        /*$rqid = hash('sha512', SECURE_KEY.$_REQUEST['parameters']);
         if($rqid != $_REQUEST['rqid']){
             echo json_encode(array('status'=>"fail", "msg"=>"rqid not match"));
             exit;
-        }      
+        } */     
     }
 }
