@@ -649,6 +649,9 @@ class commonModel  {
             }
             if(isset($optional['attribute_id'])) {
                 $query = $query->where(array('merchant_inventry.attribute_id'=>$optional['attribute_id']));
+            }   
+            if(isset($optional['merchant_product_code'])) {
+                $query = $query->where(array('merchant_inventry.merchant_product_code'=>$optional['merchant_product_code']));
             }            
             if (!empty($optional['store_id'])) {
                 $query = $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
