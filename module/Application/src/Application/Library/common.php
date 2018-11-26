@@ -1098,6 +1098,7 @@ class common  {
                     $params['attribute_id'] = $parameters['attribute_id'][$keys];
                     $params['price'] = $parameters['price'][$keys];
                     $params['stock'] = $parameters['stock'][$keys];
+                    $params['merchant_product_code'] = $parameters['stock']['merchant_product_code'][$keys];
                     $params['merchant_id'] = $parameters['merchant_id'];
 //                        
                     $rule['store_id'] = array('type' => 'numeric', 'is_required' => true);
@@ -1106,13 +1107,29 @@ class common  {
                     $rule['price'] = array('type' => 'numeric', 'is_required' => true);
                     $rule['stock'] = array('type' => 'numeric', 'is_required' => true);
                     $response = $this->isValid($rule, $params);
-
+                    $checkAttribute = false;
                     $optional = array();
-                    $optional['store_id'] = (int) $value;
-                    $optional['attribute_id'] = $params['attribute_id'];
-                    $optional['merchant_id'] = $params['merchant_id'];
+                    if(!empty($value)) {
+                        $optional['store_id'] = (int) $value;
+                    }
+                    if(!empty($params['attribute_id'])) {
+                        $optional['attribute_id'] = $params['attribute_id'];
+                        $checkAttribute = true;
+                    }
+                    if(!empty($params['merchant_id'])) {
+                        $optional['merchant_id'] = $params['merchant_id'];
+                    }
+                   if(!empty($params['merchant_id'])) {
+                        $optional['merchant_id'] = $params['merchant_id'];
+                    }      
+                    if(!empty($params['merchant_product_code'])) {
+                        $optional['merchant_product_code'] = $params['merchant_product_code'];
+                        $checkAttribute = true;
+                    }
                     $where = array();
-                    $attributeExist = $this->commonModel->checkAttributeExist($optional);
+                    if(!empty($checkAttribute)) {
+                        $attributeExist = $this->commonModel->checkAttributeExist($optional);
+                    }
                     if(!empty($attributeExist)){
                         foreach ($attributeExist as $key => $attribute) {
                             $where['id'] = $attribute['id'];
@@ -1398,7 +1415,7 @@ class common  {
     function fetchImage($where) {
         $commonModel = new commonModel();
         $imageData = $commonModel->fetchImage($where);
-        $data = '';
+        $data = array();
         if(!empty($imageData)) {
             $data = $this->processResult($imageData, 'image_id', true);
         }
