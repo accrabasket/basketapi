@@ -1098,7 +1098,7 @@ class common  {
                     $params['attribute_id'] = $parameters['attribute_id'][$keys];
                     $params['price'] = $parameters['price'][$keys];
                     $params['stock'] = $parameters['stock'][$keys];
-                    $params['merchant_product_code'] = $parameters['stock']['merchant_product_code'][$keys];
+                    $params['merchant_product_code'] = $parameters['merchant_product_code'][$keys];
                     $params['merchant_id'] = $parameters['merchant_id'];
 //                        
                     $rule['store_id'] = array('type' => 'numeric', 'is_required' => true);
