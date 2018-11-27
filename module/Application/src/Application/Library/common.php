@@ -1089,71 +1089,99 @@ class common  {
     
     public function addEditInventry($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No Record Saved ');
-        foreach ($parameters['store_id'] as $key => $value) {
-            if (!empty($parameters['attribute_id'])) {
-                foreach ($parameters['attribute_id'] as $keys => $values) {
-                    $params = array();
-                    $params['store_id'] = (int)$value;
-                    $params['product_id'] = $parameters['product_id'];
-                    $params['attribute_id'] = $parameters['attribute_id'][$keys];
-                    $params['price'] = $parameters['price'][$keys];
-                    $params['stock'] = $parameters['stock'][$keys];
-                    $params['merchant_product_code'] = $parameters['merchant_product_code'][$keys];
-                    $params['merchant_id'] = $parameters['merchant_id'];
-//                        
-                    $rule['store_id'] = array('type' => 'numeric', 'is_required' => true);
-                    $rule['product_id'] = array('type' => 'numeric', 'is_required' => true);
-                    $rule['attribute_id'] = array('type' => 'numeric', 'is_required' => true);
-                    $rule['price'] = array('type' => 'numeric', 'is_required' => true);
-                    $rule['stock'] = array('type' => 'numeric', 'is_required' => true);
-                    $response = $this->isValid($rule, $params);
-                    $checkAttribute = false;
-                    $optional = array();
-                    if(!empty($value)) {
-                        $optional['store_id'] = (int) $value;
-                    }
-                    if(!empty($params['attribute_id'])) {
-                        $optional['attribute_id'] = $params['attribute_id'];
-                        $checkAttribute = true;
-                    }
-                    if(!empty($params['merchant_id'])) {
-                        $optional['merchant_id'] = $params['merchant_id'];
-                    }
-                   if(!empty($params['merchant_id'])) {
-                        $optional['merchant_id'] = $params['merchant_id'];
-                    }      
-                    if(!empty($params['merchant_product_code'])) {
-                        $optional['merchant_product_code'] = $params['merchant_product_code'];
-                        $checkAttribute = true;
-                    }
-                    $where = array();
-                    if(!empty($checkAttribute)) {
-                        $attributeExist = $this->commonModel->checkAttributeExist($optional);
-                    }
-                    if(!empty($attributeExist)){
-                        foreach ($attributeExist as $key => $attribute) {
-                            $where['id'] = $attribute['id'];
+        if(empty($parameters['store_id'])) {
+            $params = array(); 
+            $params['price'] = $parameters['price'][0];
+            $params['stock'] = $parameters['stock'][0];
+            $params['merchant_product_code'] = $parameters['merchant_product_code'][0];
+            $params['merchant_id'] = $parameters['merchant_id'];
+            $checkAttribute = false;
+            $optional = array();
+            if(!empty($params['merchant_id'])) {
+                $optional['merchant_id'] = $params['merchant_id'];
+            }     
+            if(!empty($params['merchant_product_code'])) {
+                $optional['merchant_product_code'] = $params['merchant_product_code'];
+                $checkAttribute = true;
+            }
+            $where = array();
+            if(!empty($checkAttribute)) {
+                $attributeExist = $this->commonModel->checkAttributeExist($optional);
+            }
+            if(!empty($attributeExist)){
+                foreach ($attributeExist as $key => $attribute) {
+                    $where['id'] = $attribute['id'];
+                }
+            }
+            if(!empty($where)) {
+                $params['updated_date'] = date('Y-m-d H:i:s');
+                $result = $this->commonModel->updateInventry($params,$where);;
+            }
+        }else {
+            foreach ($parameters['store_id'] as $key => $value) {
+                if (!empty($parameters['attribute_id'])) {
+                    foreach ($parameters['attribute_id'] as $keys => $values) {
+                        $params = array();
+                        $params['store_id'] = (int)$value;
+                        $params['product_id'] = $parameters['product_id'];
+                        $params['attribute_id'] = $parameters['attribute_id'][$keys];
+                        $params['price'] = $parameters['price'][$keys];
+                        $params['stock'] = $parameters['stock'][$keys];
+                        $params['merchant_product_code'] = $parameters['merchant_product_code'][$keys];
+                        $params['merchant_id'] = $parameters['merchant_id'];
+    //                        
+                        $rule['store_id'] = array('type' => 'numeric', 'is_required' => true);
+                        $rule['product_id'] = array('type' => 'numeric', 'is_required' => true);
+                        $rule['attribute_id'] = array('type' => 'numeric', 'is_required' => true);
+                        $rule['price'] = array('type' => 'numeric', 'is_required' => true);
+                        $rule['stock'] = array('type' => 'numeric', 'is_required' => true);
+                        $response = $this->isValid($rule, $params);
+                        $checkAttribute = false;
+                        $optional = array();
+                        if(!empty($value)) {
+                            $optional['store_id'] = (int) $value;
+                        }
+                        if(!empty($params['attribute_id'])) {
+                            $optional['attribute_id'] = $params['attribute_id'];
+                            $checkAttribute = true;
+                        }
+                        if(!empty($params['merchant_id'])) {
+                            $optional['merchant_id'] = $params['merchant_id'];
+                        }
+                       if(!empty($params['merchant_id'])) {
+                            $optional['merchant_id'] = $params['merchant_id'];
+                        }      
+                        if(!empty($params['merchant_product_code'])) {
+                            $optional['merchant_product_code'] = $params['merchant_product_code'];
+                            $checkAttribute = true;
+                        }
+                        $where = array();
+                        if(!empty($checkAttribute)) {
+                            $attributeExist = $this->commonModel->checkAttributeExist($optional);
+                        }
+                        if(!empty($attributeExist)){
+                            foreach ($attributeExist as $key => $attribute) {
+                                $where['id'] = $attribute['id'];
+                            }
+                        }
+
+                        if (empty($response) && empty($where)) {
+                            $params['created_date'] = date('Y-m-d H:i:s');
+                            $result = $this->commonModel->saveInventry($params);
+                        } else if(empty($response) && !empty($where)) {
+                            $params['updated_date'] = date('Y-m-d H:i:s');
+                            $result = $this->commonModel->updateInventry($params,$where);;
+                        }else if(!empty($response) ){
+                            break;
                         }
                     }
-
-                    if (empty($response) && empty($where)) {
-                        $params['created_date'] = date('Y-m-d H:i:s');
-                        $result = $this->commonModel->saveInventry($params);
-                    } else if(empty($response) && !empty($where)) {
-                        $params['updated_date'] = date('Y-m-d H:i:s');
-                        $result = $this->commonModel->updateInventry($params,$where);;
-                    }else if(!empty($response) ){
-                        break;
-                    }
-                }
-            } 
-            if (!empty($result)) {
-                $response = array('status' => 'success', 'msg' => 'Record Saved');
+                } 
             }
-
-
-            return $response;
         }
+        if (!empty($result)) {
+            $response = array('status' => 'success', 'msg' => 'Record Saved');
+        }        
+        return $response;
     }
     function stockList($parameters) {
         $response = array('status' => 'fail', 'msg' => 'No record found ');
@@ -1434,7 +1462,9 @@ class common  {
             }
         }
         $productParams = $parameters;
-        $productParams['store_id'][] = $store_id;
+        if(!empty($store_id)) {
+            $productParams['store_id'][] = $store_id;
+        }
         return $this->addEditInventry($productParams);  
     }
     
