@@ -618,10 +618,18 @@ class commonModel  {
             }
             if(isset($optional['out_of_stock'])) {
                 $query = $query->where($where->lessThanOrEqualTo('merchant_inventry.stock', THRESOLD_VALUE));
-            }            
-            $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',array('name','unit','quantity'));
-            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name'));
-            $query = $query->join('merchant_store', 'merchant_store.id = merchant_inventry.store_id',array('store_name'));
+            } 
+            $productAttributeColumn = array();
+            $productMasterColumn = array();
+            $merchantStore = array();
+            if(empty($optional['count_row'])) {
+                $productAttributeColumn = array('name','unit','quantity');
+                $productMasterColumn = array('product_name');
+                $merchantStore = array('store_name');
+            }
+            $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',$productAttributeColumn);
+            $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',$productMasterColumn);
+            $query = $query->join('merchant_store', 'merchant_store.id = merchant_inventry.store_id',$merchantStore);
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
