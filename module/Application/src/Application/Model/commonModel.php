@@ -609,16 +609,16 @@ class commonModel  {
         try {
             $where = new \Zend\Db\Sql\Where();
 
-            $query = $this->sql->select('merchant_inventry');            
+            $query = $this->sql->select('merchant_inventry');   
+            if(isset($optional['out_of_stock'])) {
+                $query = $query->where($where->lessThanOrEqualTo('merchant_inventry.stock', THRESOLD_VALUE));
+            }             
             if (!empty($optional['id'])) {
                 $query = $query->where(array('merchant_inventry.id' => $optional['id']));
             } 
             if(isset($optional['merchant_id'])) {
                 $query = $query->where(array('merchant_inventry.merchant_id'=>$optional['merchant_id']));
             }
-            if(isset($optional['out_of_stock'])) {
-                $query = $query->where($where->lessThanOrEqualTo('merchant_inventry.stock', THRESOLD_VALUE));
-            } 
             $productAttributeColumn = array();
             $productMasterColumn = array();
             $merchantStore = array();
