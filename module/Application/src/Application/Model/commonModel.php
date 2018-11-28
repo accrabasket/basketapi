@@ -622,7 +622,7 @@ class commonModel  {
             $productAttributeColumn = array();
             $productMasterColumn = array();
             $merchantStore = array();
-            if(empty($optional['count_row'])) {
+            if(empty($optional['columns'])) {
                 $productAttributeColumn = array('name','unit','quantity');
                 $productMasterColumn = array('product_name');
                 $merchantStore = array('store_name');
