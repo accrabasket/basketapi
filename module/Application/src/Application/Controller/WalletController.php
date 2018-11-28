@@ -11,32 +11,43 @@ use Zend\Mvc\Controller\AbstractActionController;
 use Application\Library\product;
 use Zend\Mail;
 
-class ProductController extends AbstractActionController {
-    protected $productLib;
+class WalletController extends AbstractActionController {
+    protected $walletLib;
     public $commonLib;
+    public $rqid;
     public function __construct() {
-        $this->productLib = new product();
         $this->commonLib = new \Application\Library\common();
+        $this->walletLib = new \Application\Library\wallet();
+        $this->rqid = $this->checkRqid();
     }
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
         $parameters = json_decode($parameters, true);
         if (!empty($parameters['method'])) {
-            switch ($parameters['method']) {
-                case 'productlist':
-                    $response = $this->productLib->getProductList($parameters);
-                    break;
-                case 'getProductByMerchantAttributeId':
-                    $response = $this->productLib->getProductByMerchantAttributeId($parameters);
-                    break;
+            if($this->rqidp['status'] == 'success') {
+                switch ($parameters['method']) {
+                    case 'creditdebitToWallet':
+                        $response = $this->walletLib->creditdebitToWallet($parameters);
+                        break;
+                }
+            }else {
+                $response = $this->rqid;
             }
         }
         $responseStr = json_encode($response);
         echo $responseStr;
-        $logText = $requestParams."\n Response :- \n".$responseStr;            
+        $logText = $requestParams."\n\n Response :- \n\n\n".$responseStr;            
         $this->commonLib->writeDebugLog($logText, 'product', $parameters['method']);
         exit;
     }
-
+    
+    function checkRqid() {
+        $rqid = hash('sha512', SECURE_KEY.$_REQUEST['parameters']);
+        if($rqid != $_REQUEST['rqid']){
+            return (array('status'=>"fail", "msg"=>"rqid not match"));
+        }else {
+            return array('status'=>"success");
+        }      
+    }
 }
