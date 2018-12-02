@@ -158,6 +158,7 @@ class customer {
         $response = array('status'=>'fail','msg'=>'User not saved');
         $userParams = array();
         $rules = array();
+        str_replace('+233',"","\'$parameters[mobile_number]\'");
         if (!empty($parameters['id'])) {
             $where = array();
             $where['id'] = $userParams['id'] = $parameters['id'];
