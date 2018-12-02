@@ -1861,7 +1861,7 @@ class common  {
     }
     
     function writeDebugLog($text, $folderName='debug', $fileName = 'test') {
-        $logpath = $_SERVER['DOCUMENT_ROOT'].'basketapi/public/log/'.date("Y-m-d").'/'.$folderName.'/';
+        $logpath = $_SERVER['DOCUMENT_ROOT'].'/basketapi/public/log/'.date("Y-m-d").'/'.$folderName.'/';
         if(!file_exists($logpath.$fileName.'.txt')) {
             mkdir($logpath, 0777, true);
         }
