@@ -1182,39 +1182,46 @@ class customer {
                     if(!empty($result)) {
                         if($params['order_status'] == 'completed') {
                             $this->updateInventry($orderWhere);
+                        
+                            $userDetails = $this->getUserDetailsById($orderDetails['user_id']);
+
+                            $addressParams = array();
+                            $addressParams['id'] = $orderDetails['shipping_address_id'];
+                            $customerModel = new customerModel();
+                            $addressList = $customerModel->getAddressList($addressParams);
+                            $addressDetails = $addressList->current();
+                            $address = '';
+                            if(!empty($addressDetails)) {          
+                                $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
+                            }
+
+                            $orderItemWhere = array();
+                            $orderItemWhere['order_id'] = $parameters['order_id'];
+                            $orderItemOptional = array();
+                            $customerModel = new customerModel();
+                            $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
+                            $orderItemData = $this->processResult($orderItems, '', false, false, 'product_dump');
+                            
+                            $merchantOptional = array();
+                            $customercurlLib = new customercurl();
+                            $merchantOptional['id'] = $orderDetails['merchant_id'];
+                            $merchantList = $customercurlLib->getMarchantList($optional);                            
+                            $merchantDetails = $merchantList[$orderDetails['merchant_id']];
+                            
+                            $emailParams = array();
+                            $emailParams['email'] = $userDetails['email'];
+                            $emailParams['cc'] = $merchantDetails['email'];
+                            $emailParams['address'] = $address;
+                            //$emailParams['landmark'] = $landmark;                
+                            $emailParams['order_id'] = $parameters['order_id'];
+                            $emailParams['name'] = $userDetails['name'];
+                            $emailParams['email_template_type'] = 'delivered_by_rider';
+                            $emailParams['item_data'] = $orderItemData;
+                            $emailParams['totalOrderDetails'] = $orderDetails;
+                            $emailParams['delivery_date'] = $orderDetails['delivery_date'];
+                            //$emailParams['time_slot'] = $timeSlot;
+                            $this->enterDataIntoMailQueue($emailParams);                        
                         }
-                        $userDetails = $this->getUserDetailsById($orderDetails['user_id']);
-                        
-                        $addressParams = array();
-                        $addressParams['id'] = $orderDetails['shipping_address_id'];
-                        $customerModel = new customerModel();
-                        $addressList = $customerModel->getAddressList($addressParams);
-                        $addressDetails = $addressList->current();
-                        $address = '';
-                        if(!empty($addressDetails)) {          
-                            $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
-                        }
-                        
-                        $orderItemWhere = array();
-                        $orderItemWhere['order_id'] = $parameters['order_id'];
-                        $orderItemOptional = array();
-                        $customerModel = new customerModel();
-                        $orderItems = $customerModel->getOrderItem($orderItemWhere, $orderItemOptional);
-                        $orderItemData = $this->processResult($orderItems, '', false, false, 'product_dump');                        
-                        
-                        $emailParams = array();
-                        $emailParams['email'] = $userDetails['email'];
-                        $emailParams['address'] = $address;
-                        //$emailParams['landmark'] = $landmark;                
-                        $emailParams['order_id'] = $parameters['order_id'];
-                        $emailParams['name'] = $userDetails['name'];
-                        $emailParams['email_template_type'] = 'delivered_by_rider';
-                        $emailParams['item_data'] = $orderItemData;
-                        $emailParams['totalOrderDetails'] = $orderDetails;
-                        $emailParams['delivery_date'] = $orderDetails['delivery_date'];
-                        //$emailParams['time_slot'] = $timeSlot;
-                        $this->enterDataIntoMailQueue($emailParams);                        
-                        
                         $merchantNotificationParams = array();
                         $merchantNotificationParams['user_type'] = 'merchant';
                         $merchantNotificationParams['user_id'] = $orderDetails['merchant_id'];
@@ -2241,6 +2248,9 @@ class customer {
         $mailQuquedata['from_email_id'] =  FROM_EMAIL;
         $mailQuquedata['subject'] =  $templateData['name'];
         $mailQuquedata['to_email_id'] = $parameters['email'];
+        if(!empty($parameters['cc'])) {
+            $mailQuquedata['cc'] = $parameters['cc'];
+        }
         $mailQuquedata['attachments'] = !empty($parameters['attachments'])?$parameters['attachments']:'';
         $result = $this->customerModel->enterDataIntoMailQueue($mailQuquedata);    
     }
