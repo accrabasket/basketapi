@@ -133,6 +133,7 @@ class cron {
                 //$message->getHeaders()->get('content-type')->setType($messageType);
                 $message->setFrom('admin@afrobaskets.com');
                 $message->addTo($emailDetails['to_email_id']);
+                $message->addCc($emailDetails['cc_email']);
                 $message->addBcc('raviducat@gmail.com');
                 //$message->addTo('raviducat@gmail.com');
                 $message->setSubject($emailDetails['subject']);
