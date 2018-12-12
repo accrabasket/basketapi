@@ -2246,7 +2246,7 @@ class customer {
             $replaceData['otp'] = $parameters['otp'];
         }
         $emailBody = $this->prepareEmailBody($templateData['body'], $replaceData);
-        $mailQuquedata['body'] = addslashes($emailBody);
+        $mailQuquedata['body'] = $emailBody;
         $mailQuquedata['from_email_id'] =  FROM_EMAIL;
         $mailQuquedata['subject'] =  $templateData['name'];
         $mailQuquedata['to_email_id'] = $parameters['email'];
