@@ -1207,7 +1207,7 @@ class customer {
                             $merchantOptional['id'] = $orderDetails['merchant_id'];
                             $merchantList = $customercurlLib->getMarchantList($optional);                            
                             $merchantDetails = $merchantList[$orderDetails['merchant_id']];
-                            
+                            $orderDetails['delivery_charges'] = $orderDetails['shipping_charges'];
                             $emailParams = array();
                             $emailParams['email'] = $userDetails['email'];
                             $emailParams['cc'] = $merchantDetails['email'];
@@ -2255,6 +2255,7 @@ class customer {
         }
         $mailQuquedata['attachments'] = !empty($parameters['attachments'])?$parameters['attachments']:'';
         $customerModel = new customerModel();
+        print_r($mailQuquedata);die;
         $result = $customerModel->enterDataIntoMailQueue($mailQuquedata);    
     }
     
