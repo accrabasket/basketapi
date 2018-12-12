@@ -2255,7 +2255,6 @@ class customer {
         }
         $mailQuquedata['attachments'] = !empty($parameters['attachments'])?$parameters['attachments']:'';
         $customerModel = new customerModel();
-        print_r($mailQuquedata);die;
         $result = $customerModel->enterDataIntoMailQueue($mailQuquedata);    
     }
     
