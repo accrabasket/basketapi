@@ -2178,6 +2178,8 @@ class customer {
         }   
         if(!empty($parameters['time_slot'])) {
             $replaceData['time_slot'] = $parameters['time_slot'];
+        }else {
+            $replaceData['time_slot'] = '';
         }
         if(isset($parameters['item_data'])){
             $testDetails = "";
@@ -2244,15 +2246,16 @@ class customer {
             $replaceData['otp'] = $parameters['otp'];
         }
         $emailBody = $this->prepareEmailBody($templateData['body'], $replaceData);
-        $mailQuquedata['body'] = $emailBody;
+        $mailQuquedata['body'] = addslashes($emailBody);
         $mailQuquedata['from_email_id'] =  FROM_EMAIL;
         $mailQuquedata['subject'] =  $templateData['name'];
         $mailQuquedata['to_email_id'] = $parameters['email'];
         if(!empty($parameters['cc'])) {
-            $mailQuquedata['cc'] = $parameters['cc'];
+            $mailQuquedata['cc_email'] = $parameters['cc'];
         }
         $mailQuquedata['attachments'] = !empty($parameters['attachments'])?$parameters['attachments']:'';
-        $result = $this->customerModel->enterDataIntoMailQueue($mailQuquedata);    
+        $customerModel = new customerModel();
+        $result = $customerModel->enterDataIntoMailQueue($mailQuquedata);    
     }
     
     function modifyOrder($userDetails, $parameters) {
