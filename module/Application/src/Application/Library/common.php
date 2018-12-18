@@ -111,7 +111,7 @@ class common  {
                                 $attributeRules['name'] = array('type' => 'string', 'is_required' => true);
                             }
                             if (isset($value['quantity'])) {
-                                $attributeParams['quantity'] = (int) $value['quantity'];
+                                $attributeParams['quantity'] = $value['quantity'];
                                 $attributeRules['quantity'] = array('type' => 'numeric', 'is_required' => true);
                             }
                             if (isset($value['unit'])) {
