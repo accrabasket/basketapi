@@ -52,7 +52,8 @@ class productModel  {
                     $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
                 }
             }else if(!empty($optional['product_name'])){
-                $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "AND");
+                $query->Where->like('product_master.product_name',"%".$optional['product_name']."%");
+                $query->Where->or->like('product_master.brand_name',"%".$optional['product_name']."%");
             }            
             if(!empty($optional['product_id'])) {
                 $query->where(array('product_master.id' => $optional['product_id']));
@@ -77,6 +78,7 @@ class productModel  {
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
                 $query->order("$optional[sort_by] $optional[order_by]");
             }
+            echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
