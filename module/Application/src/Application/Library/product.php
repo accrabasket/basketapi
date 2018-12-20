@@ -35,7 +35,7 @@ class product {
             }
             if (!empty($parameters['city_id'])){
                 $storeParams = array();
-                $optional['store_id']= 0;
+                $optional['store_id'][]= 0;
                 $storeParams['city_id'] = $parameters['city_id'];
                 $storeList = $this->commonLib->getStoreByCity($storeParams);
                 if(!empty($storeList['data'])) {
