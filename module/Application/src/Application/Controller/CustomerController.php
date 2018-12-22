@@ -157,6 +157,9 @@ class CustomerController extends AbstractActionController {
                     $response = array();
                     $response['status'] = 'success';
                     $response['customer_care_number'] = $customerCareNumber[$parameters['city_id']]?$customerCareNumber[$parameters['city_id']]:$customerCareNumber[0];
+                    break; 
+                case 'applycoupon':
+                    $response = $this->customerLib->applyCoupon($parameters);
                     break;                
                     
             }
