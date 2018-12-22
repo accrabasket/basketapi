@@ -2428,4 +2428,67 @@ class customer {
         return $response;
         
     }
+    
+    function applyCoupon($parameters) {       
+        $response = array('status'=>'success','msg'=>'Coupon Removed.');  
+        $whereParams = array();
+        if(!empty($parameters['coupon_code'])) {
+            $whereParams['coupon_name'] = $parameters['coupon_code'];
+        }else{
+            $this->deleteAppliedCoupon($parameters['user_id']);
+            return $response;
+        }        
+        $whereParams['start_date'] = date('Y-m-d');
+        $whereParams['end_date'] = date('Y-m-d');        
+        $whereParams['pagination'] = false;
+        $couponData = $this->getCoupon($whereParams);
+        if(!empty($couponData)) {
+            $couponData = array_values($couponData);
+            $couponData1 = array();
+            $couponData1['coupon_id'] = $couponData[0]['id'];
+            $couponData1['user_id'] = $parameters['user_id'];
+            $couponData1['status'] = 'applied';
+            $this->deleteAppliedCoupon($couponData1['user_id']);
+            $appliedCoupon = $this->insetIntoappliedCoupon($couponData1);  
+        }
+        $cartData = $this->checkout($parameters);        
+        
+        return $cartData;
+    } 
+    function deleteAppliedCoupon($userId) {
+        $customerModel = new customerModel();
+        $customerModel->deleteAppliedCoupon($userId);
+    }
+    
+    function insetIntoappliedCoupon($parameters) {
+        $customerModel = new customerModel();
+        return $customerModel->insetIntoappliedCoupon($parameters);
+    }
+    
+    function getCoupon($parameters) {
+        $optional = array();
+        $data = array('status'=>'fail', 'msg'=>'No Record found');
+        if($parameters['pagination'] != false) {
+            $optional['pagination'] = true;
+            $optional['page'] = !empty($parameters['page'])?$parameters['page']:1;
+            
+            $countOptional = array();
+            $countOptional['columns'] = array('count' => new \Zend\Db\Sql\Expression('count(*)'));
+            $countOptional['count_row'] = true;            
+        }        
+        $customerModel = new customerModel();
+        if(!empty($parameters['only_active_coupon'])) {
+            $parameters['start_date'] = date('Y-m-d');
+        }
+        $data = $customerModel->getCoupon($parameters, $optional);
+        $couponData = $this->processResult($data, 'id');
+        if(!empty($countOptional['count_row'])) {
+            $customerModel = new customerModel();
+            $totalRecord = $customerModel->getCoupon($parameters, $countOptional);
+            $data = array('status'=>'success', 'data'=>$couponData, 'totalRecords'=>$totalRecord);
+            return $data;
+        }else{
+            return $couponData;
+        }
+    }    
 }
