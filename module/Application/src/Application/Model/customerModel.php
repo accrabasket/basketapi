@@ -1112,7 +1112,7 @@ class customerModel  {
         }                
     }
     
-    function updateAppliedCoupon($userId, $couponId, $status) {
+    function updateAppliedCoupon($userId, $couponId, $status) { 
         try {
             $query = $this->sql->update('applied_user_coupon_mapping')
                         ->set(array('status'=>$status))
