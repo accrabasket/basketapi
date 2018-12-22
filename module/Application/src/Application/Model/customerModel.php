@@ -1029,5 +1029,99 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         }                
+    }  
+  function getCoupon($whereParams, $optional) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('coupon_master');
+            if(!empty($optional['columns'])) {
+                $query->columns($optional['columns']);
+            }            
+            if(!empty($whereParams['start_date'])) {
+                $query = $query->where($where->lessThanOrEqualTo('coupon_master.start_date', $whereParams['start_date']));
+            }
+            if(!empty($whereParams['end_date'])) {
+                $query = $query->where($where->greaterThanOrEqualTo('coupon_master.end_date', $whereParams['end_date']));
+            }
+            if(!empty($whereParams['name'])) {
+                $query = $query->where(array('coupon_name'=>$whereParams['name']));
+            }
+            if(!empty($optional['pagination'])) {
+                $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
+                $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
+            }      
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            if(!empty($optional['count_row'])) {
+                $result = $result->current();
+            }
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function savecoupon($data) {
+        try {
+            $query = $this->sql->insert('coupon_master')
+                        ->values($data  );
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function insetIntoappliedCoupon($parameters) {
+        try {
+            $query = $this->sql->insert('applied_user_coupon_mapping')
+                        ->values($parameters);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
+    
+    function deleteAppliedCoupon($userId) {
+          try {
+            $query = $this->sql->delete('applied_user_coupon_mapping')
+                    ->where(array('user_id'=>$userId));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+        } catch (\Exception $ex) {
+            return false;
+        }      
+    }
+    
+    function getAppliedCoupon($userId) {
+        try {
+            $query = $this->sql->select('coupon_master');
+            $query = $query->join('applied_user_coupon_mapping', 'applied_user_coupon_mapping.coupon_id = coupon_master.id',array());   
+            $query->where(array('applied_user_coupon_mapping.user_id'=>$userId))
+                    ->where(array('applied_user_coupon_mapping.status'=>'applied'));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            $result = $result->current();
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }                
+    }
+    
+    function updateAppliedCoupon($userId, $couponId, $status) {
+        try {
+            $query = $this->sql->update('applied_user_coupon_mapping')
+                        ->set(array('status'=>$status))
+                        ->where(array('user_id'=>$userId, 'coupon_id'=>$couponId));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return true;
+        } catch (\Exception $ex) {
+            return false;
+        }        
     }    
 }
