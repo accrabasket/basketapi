@@ -52,6 +52,22 @@ class productModel  {
                     $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
                 }
             }else if(!empty($optional['product_name'])){
+                if(!empty($optional['product_id'])) {
+                    $query->where(array('product_master.id' => $optional['product_id']));
+                } 
+                if(!empty($optional['hotdeals'])  || !empty($optional['offers'])) {
+                    $query->where('(product_master.hotdeals=1 OR product_master.offers=1)');
+                }
+                if(!empty($optional['new_arrival'])) {
+                    $query->where(array('product_master.new_arrival' => $optional['new_arrival']));
+                }            
+                if(!empty($optional['store_id'])) {
+                    $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
+                }            
+                if(!empty($optional['merchant_id'])) {
+                    $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
+                }  
+                $query->where(array('product_master.status' => 1));                
                 $query->Where->like('product_master.product_name',"%".$optional['product_name']."%");
                 $query->Where->or->like('product_master.brand_name',"%".$optional['product_name']."%");
             }            
