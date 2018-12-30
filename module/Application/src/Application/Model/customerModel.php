@@ -1088,7 +1088,8 @@ class customerModel  {
     function deleteAppliedCoupon($userId) {
           try {
             $query = $this->sql->delete('applied_user_coupon_mapping')
-                    ->where(array('user_id'=>$userId));
+                    ->where(array('user_id'=>$userId))
+                    ->where(array('status'=>'applied'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
         } catch (\Exception $ex) {
