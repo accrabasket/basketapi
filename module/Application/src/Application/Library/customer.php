@@ -631,6 +631,18 @@ class customer {
                 $parentOrder['delivery_date'] = $parameters['delivery_date'];
                 $parentOrder['created_date'] = date('Y-m-d H:i:s');
                 $parentOrder['payment_status'] = 'unpaid';
+                
+                
+                /*coupon Details*/
+                $couponData = $this->getAppliedCoupon($parameters['user_id']);
+                $payableAfterCoupon = $this->calculateCoupon($parentOrder['payable_amount'], $couponData);       
+                $couponData = $this->updateAppliedCoupon($parameters['user_id'], $couponData['id'], 'used');
+                
+                $parentOrder['payable_amount'] = $payableAfterCoupon['payable'];
+                $parentOrder['coupon_code'] = $payableAfterCoupon['coupon_code'];  
+                $parentOrder['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
+                
+                /* coupon End*/
                 $result = $this->customerModel->createOrder($parentOrder);
             }
             $timeSlotParams = array();
@@ -660,6 +672,26 @@ class customer {
                 $orderData['shipping_charges'] = $orderDetail['shipping_charges'];
                 $orderData['payment_status'] = 'unpaid';                    
                 $orderData['created_date'] = date('Y-m-d H:i:s');
+                
+                if(count($orderDetails['order'])>1) {
+                    $orderData['payable_amount'] = $orderData['payable_amount']-($payableAfterCoupon['coupon_discount_amount']*$orderData['payable_amount']/($payableAfterCoupon['payable']+$payableAfterCoupon['coupon_discount_amount']));
+                    $orderData['coupon_code'] = $payableAfterCoupon['coupon_code'];  
+                    $orderData['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
+                    
+                }else {
+                    /*coupon Details*/
+                    $couponData = $this->getAppliedCoupon($parameters['user_id']);
+                    $payableAfterCoupon = $this->calculateCoupon($orderData['payable_amount'], $couponData);       
+                    $couponData = $this->updateAppliedCoupon($parameters['user_id'], $couponData['id'], 'used');
+
+                    $orderData['payable_amount'] = $payableAfterCoupon['payable'];
+                    $orderData['coupon_code'] = $payableAfterCoupon['coupon_code'];  
+                    $orderData['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
+
+                    /* coupon End*/                    
+                }
+                    
+                
                 $result = $this->customerModel->createOrder($orderData);                
                 if(!empty($result)) {
                     $notificationData = array();
@@ -822,11 +854,47 @@ class customer {
         if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
             $totalOrderDetails['payable_amount'] += $shippingCharges;
             $totalOrderDetails['delivery_charges'] = $shippingCharges;
-        }        
+        }      
+        
+        /* code for coupon*/
+        $couponData = $this->getAppliedCoupon($item['user_id']);
+        $payableAfterCoupon = $this->calculateCoupon($totalOrderDetails['payable_amount'], $couponData);   
+        $totalOrderDetails['payable_amount'] = $payableAfterCoupon['payable'];
+        $totalOrderDetails['coupon_code'] = $payableAfterCoupon['coupon_code'];  
+        $totalOrderDetails['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
+        //end
+        
         $response = array('totalOrderDetails'=>$totalOrderDetails,'order'=>$order, 'merchantItemWiseOrderDetails'=>$merchantItemWisePriceDetails, 'itemWiseOrderDetails'=>$itemWisePriceDetails);
         
         return $response;
     }
+    
+    function getAppliedCoupon($userId) {
+        $customerModel = new customerModel();
+        return $customerModel->getAppliedCoupon($userId);
+    }    
+    
+    function calculateCoupon($payableAmount, $couponData){
+        $oldPayableAmount = $payableAmount;
+        if(!empty($couponData)) {
+            if($payableAmount >= $couponData['minumum_order_price']) {
+                if($couponData['discount_type'] == 'percent') {
+                    $discount = $payableAmount*$couponData['discount_value']/100;
+
+                    if($discount > $couponData['max_discount_value']) {
+                        $discount = $couponData['max_discount_value']; 
+                    }
+                    $payableAmount = $payableAmount-$discount;
+                }else{
+                    $payableAmount = $payableAmount-$couponData['discount_value'];
+                }
+            }
+        }else{
+            $couponData['coupon_name'] = '';
+        }
+        $coupon_discount_amount = $oldPayableAmount-$payableAmount;
+        return array('payable'=>$payableAmount, 'coupon_code'=>$couponData['coupon_name'], 'coupon_discount_amount'=>$coupon_discount_amount);
+    }    
 
     function orderList($parameters) {
         $status = true;
