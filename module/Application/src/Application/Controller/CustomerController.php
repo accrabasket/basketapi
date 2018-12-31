@@ -160,6 +160,12 @@ class CustomerController extends AbstractActionController {
                     break; 
                 case 'applycoupon':
                     $response = $this->customerLib->applyCoupon($parameters);
+                    break;  
+                case 'getcoupon':
+                    if(!isset($parameters['pagination'])) {
+                        $parameters['pagination'] = true;
+                    }
+                    $response = $this->customerLib->getCoupon($parameters);
                     break;                
                     
             }
