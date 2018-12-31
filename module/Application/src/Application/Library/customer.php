@@ -2547,7 +2547,11 @@ class customer {
         $customerModel = new customerModel();
         if(!empty($parameters['only_active_coupon'])) {
             $parameters['start_date'] = date('Y-m-d');
+             $parameters['end_date'] = date('Y-m-d');
         }
+        if(!empty($parameters['user_id'])) {
+            $parameters['user_id'] = array(0, $parameters['user_id']);
+        }            
         $data = $customerModel->getCoupon($parameters, $optional);
         $couponData = $this->processResult($data, 'id');
         if(!empty($countOptional['count_row'])) {
