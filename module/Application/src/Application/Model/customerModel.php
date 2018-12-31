@@ -1046,10 +1046,13 @@ class customerModel  {
             if(!empty($whereParams['name'])) {
                 $query = $query->where(array('coupon_name'=>$whereParams['name']));
             }
+            if(!empty($whereParams['user_id'])) {
+                $query = $query->where(array('user_id'=>$whereParams['user_id']));
+            }             
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
-            }      
+            }               
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             if(!empty($optional['count_row'])) {
