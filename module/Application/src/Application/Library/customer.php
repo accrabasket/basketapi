@@ -2568,5 +2568,9 @@ class customer {
         }else{
             return $couponData;
         }
+    } 
+    function updateAppliedCoupon($userId, $couponId, $status) {
+        $customerModel = new customerModel();
+        return $customerModel->updateAppliedCoupon($userId, $couponId, $status);        
     }    
 }
