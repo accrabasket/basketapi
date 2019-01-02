@@ -812,8 +812,20 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         } 
-    }    
-
+    }
+    
+    public function insertIntoLedgerSummary ($params) {
+        try {
+            $query = $this->sql->insert('ledger_summary')
+                        ->values($params);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
+    
     public function insertIntoLedger($params){
         try {
             $query = $this->sql->insert('ledger_master')
