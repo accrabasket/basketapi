@@ -1938,7 +1938,13 @@ class customer {
         $data['updated_date']          = date('Y-m-d H:i:s');
         
         $where['merchant_id'] = $params['merchant_id'];
-        $customerModel->updateLedgerSummary($data, $where);
+        $revenue = $customerModel->getTotalRevenu($params);
+        if(empty($revenue)) {
+            $data['created_date'] = date('Y-m-d H:i:s');
+            $customerModel->insertIntoLedgerSummary($data);
+        }else {
+            $customerModel->updateLedgerSummary($data, $where);
+        }        
     }
     
     function PayToMerchant($parameters) {
