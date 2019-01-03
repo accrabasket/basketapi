@@ -1486,6 +1486,25 @@ class common  {
         }
         return $response;
     }
+    public function settinglistnew($parameters) {
+        $commonModel = new commonModel();
+        $response = array('status' => 'fail', 'msg' => 'No record found ');
+        $optional = $parameters;
+        if(!empty($parameters['pagination'])) {
+                $optional['pagination'] = $parameters['pagination'];
+        }
+        
+        $result = $this->commonModel->settinglistnew($optional);
+        
+        if (!empty($result)) {
+            $data = array();
+            foreach ($result as $key => $value) {
+                $data[] = $value;
+            }
+            $response = array('status' => 'success', 'data' => $data);
+        }
+        return $response;        
+    }
     
     public function saveSetting($parameters, $optional = array()) {
         $response = array('status' => 'fail', 'msg' => 'No record saved ');
@@ -1868,4 +1887,39 @@ class common  {
         $text = "\n Request - ".date('Y-m-d H:i:s')."\n".$text;
         file_put_contents($logpath.$fileName.'.txt', $text, FILE_APPEND);
     }
+    
+    function distance($origin, $destination, $destinationLatLng = false) {
+
+        $url = "https://maps.googleapis.com/maps/api/directions/json?origin=$origin&destination=$destination&key=".GOOGLE_KEY;
+        $response = $this->callCurl($url);
+        $result = json_decode($response, true);
+        if(empty($result['routes'][0]['legs'][0]['distance']['value']) && !empty($destinationLatLng)) {
+            $origin1 = explode(",", $origin);
+            $destination1 = explode(",", $destination1);
+            $distance = (arialDistance($origin1[0], $origin1[1], $destination1[0], $destination1[1], $unit='k'))*3;
+        }else {
+            $distance = $result['routes'][0]['legs'][0]['distance']['value']/1000;
+        }
+        
+        return $distance;
+
+    }
+    
+    function arialDistance($lat1, $lon1, $lat2, $lon2, $unit='k') {
+
+      $theta = $lon1 - $lon2;
+      $dist = sin(deg2rad($lat1)) * sin(deg2rad($lat2)) +  cos(deg2rad($lat1)) * cos(deg2rad($lat2)) * cos(deg2rad($theta));
+      $dist = acos($dist);
+      $dist = rad2deg($dist);
+      $miles = $dist * 60 * 1.1515;
+      $unit = strtoupper($unit);
+
+      if ($unit == "K") {
+        return ($miles * 1.609344);
+      } else if ($unit == "N") {
+          return ($miles * 0.8684);
+        } else {
+            return $miles;
+          }
+    }    
 }
