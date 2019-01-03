@@ -842,6 +842,22 @@ class commonModel  {
         }        
     }
     
+    public function settinglistnew($optional = array()) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('setting_master_new', array('*'));
+            if(!empty($optional['setting_name'])) {
+                $query->where(array('setting_name'=>$optional['setting_name'])); 
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }    
+    
     function updateSetting($parameters, $where) {
         try {            
             $query = $this->sql->update('setting_master')
