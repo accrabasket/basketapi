@@ -27,6 +27,11 @@ class IndexController extends AbstractActionController {
         echo $term->getContent();
         die;      
     }
+    public function privacyAction() {
+        $term = new \Application\Library\privacy();
+        echo $term->getContent();
+        die;      
+    }    
     public function indexAction() {
         $response = array('status' => 'fail', 'msg' => 'Method not supplied ');
         $requestParams = $parameters = trim($_REQUEST['parameters'], "\"");
