@@ -198,7 +198,7 @@ class customerModel  {
         }                
     }
     
-    function getAddressList($where) {
+    function getAddressList($where, $optional=array()) {
         try {
             $query = $this->sql->select('delivery_address');
             if(!empty($where['id'])) {
@@ -209,6 +209,9 @@ class customerModel  {
             }
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
+            if(!empty($optional['count'])) {
+                $result = $result->current();
+            }
             return $result;
         } catch (\Exception $ex) {
             return false;
