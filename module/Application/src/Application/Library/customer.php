@@ -447,6 +447,12 @@ class customer {
             if(isset($parameters['area'])){
                $addressParams['area'] = $parameters['area']; 
             }
+            if(isset($parameters['lat'])){
+               $addressParams['lat'] = $parameters['lat']; 
+            }
+            if(isset($parameters['lng'])){
+               $addressParams['lng'] = $parameters['lng']; 
+            }
         }else {
             $addressParams['address_nickname'] = isset($parameters['address_nickname'])?$parameters['address_nickname']:'';
             $addressParams['contact_name'] = isset($parameters['contact_name'])?$parameters['contact_name']:'';
@@ -464,7 +470,13 @@ class customer {
             }
             if(isset($parameters['area'])){
                $addressParams['area'] = $parameters['area']; 
-            }  
+            } 
+            if(isset($parameters['lat'])){
+               $addressParams['lat'] = $parameters['lat']; 
+            }
+            if(isset($parameters['lng'])){
+               $addressParams['lng'] = $parameters['lng']; 
+            }            
             $addressParams['created_date'] = date("Y-m-d H:i:s");
             $rules['house_number'] = array('type'=>'string', 'is_required'=>true);            
             $rules['city_name'] = array('type'=>'string', 'is_required'=>true);            
@@ -527,7 +539,7 @@ class customer {
                 $response['msg'] = 'No Item found in cart';
                 return $response;
             }
-            $orderDetails = $this->calculateDiscountAndAmount($cartData);       
+            $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters);       
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
@@ -665,7 +677,7 @@ class customer {
                 $orderData['store_id'] = $storeId;
                 $orderData['merchant_id'] = $orderDetail['merchant_id'];
                 $orderData['shipping_address_id'] = $parameters['shipping_address_id'];
-                $orderData['amount'] = $orderDetail['amount'];
+                $orderData['amount'] = $orderDetail['amount']-$orderDetail['shipping_charges'];
                 $orderData['payable_amount'] = $orderDetail['amount']-$orderDetail['discount_amount'];
                 $orderData['discount_amount'] = $orderDetail['discount_amount'];
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
@@ -769,7 +781,7 @@ class customer {
         return $this->customerModel->insertProductIntoOrderItem($orderItems);
     }
     
-    function calculateDiscountAndAmount($data) {
+    function calculateDiscountAndAmount($data, $optional = array()) {
         $order = array();
         $merchantItemWisePriceDetails = array();
         $itemWisePriceDetails = array();
@@ -777,7 +789,8 @@ class customer {
         $totalOrderDetails['amount'] = 0.00;
         $totalOrderDetails['discount_amount'] = 0.00;
         $totalOrderDetails['commission_amount'] = 0.00;
-        $totalOrderDetails['tax_amount'] = 0.00;   
+        $totalOrderDetails['tax_amount'] = 0.00;  
+        $shippingChargesCalculated = false;
         foreach($data['data'] as $key=>$item) {
             if(!empty($data['productDetails']['data'][$key])) {
                 $discount = 0.00;
@@ -842,19 +855,64 @@ class customer {
         $orderDetails['totalOrderDetails']['delivery_charges'] = 0.00;
         $shippingCharges = 0.00;
         $commonLib = new common();
-        $settingData = $commonLib->settinglist(array());        
-        foreach($order as $storeId=>$value) {
-            if(!empty($settingData) && $value['amount'] <= $settingData['data']['free_delivery']) {  
-                $shippingCharges += $settingData['data']['shipping_charges'];
-                $value['amount'] += $settingData['data']['shipping_charges'];
-                $order[$storeId] = $value;
-                $order[$storeId]['shipping_charges'] = $settingData['data']['shipping_charges'];
+        $settingData = $commonLib->settinglistnew(array('setting_name'=>'shipping_charges')); 
+        if(!empty($optional['shipping_address_id'])) {
+            $addressParams = array();
+            $addressParams['id'] = $parameters['shipping_address_id'];
+            $customerModel = new customerModel();
+            $addressDetails = $customerModel->getAddressList($addressParams, array('count'=>1)); 
+            foreach($order as $storeId=>$value) {
+                $order[$storeId]['shipping_charges'] = 0;
+                $store_distance = 0;
+                if(!empty($settingData['data'])){
+                    $storeParams['id'] = $storeId;
+                    $storeList = $this->customercurlLib->getStoreListById($storeParams); 
+                    $storeDetails = $storeList['data'][$storeId];
+                    if(!empty($storeDetails)) {
+                       $common = new common();
+                       $origin = $storeDetails['lat'].','.$storeDetails['lng'];
+                       $destinationLatLng = false;
+                       if(!empty($addressDetails['lat']) && !empty($addressDetails['lng'])) {
+                           $destination = $addressDetails['lat'].','.$addressDetails['lng'];
+                       }else {
+                           $destination = urlencode($addressDetails['city_name']);
+                           $destinationLatLng = true;
+                       }
+                       $store_distance = $common->distance($origin, $destination, $destinationLatLng);
+                    }
+                    foreach ($settingData['data'] as $settingDetails) {
+                        $shippingChargesCalculated = true;
+                        $conditionForSettings = $settingDetails['condition_for_setting'];
+                        $cart_amount = $value['amount'];
+                        $condition = eval("return $conditionForSettings;");
+                        if($condition) {
+                            $shippingCharges += $settingDetails['setting_value'];
+                            $value['amount'] += $settingDetails['setting_value'];
+                            $order[$storeId] = $value;
+                            $order[$storeId]['shipping_charges'] = $settingDetails['setting_value'];
+                        }
+                    }               
+                }
             }
         }
-        if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
+        //new calculation End
+        //old calculation
+        if(!$shippingChargesCalculated) {
+            $settingData = $commonLib->settinglist(array());
+            foreach($order as $storeId=>$value) {
+                if(!empty($settingData) && $value['amount'] <= $settingData['data']['free_delivery']) {  
+                    $shippingCharges += $settingData['data']['shipping_charges'];
+                    $value['amount'] += $settingData['data']['shipping_charges'];
+                    $order[$storeId] = $value;
+                    $order[$storeId]['shipping_charges'] = $settingData['data']['shipping_charges'];
+                }
+            }
+        }//end old calculation
+        
+        //if(!empty($settingData) && $totalOrderDetails['payable_amount'] <= $settingData['data']['free_delivery'] && $totalOrderDetails['payable_amount'] >= $settingData['data']['minimum_order']) {
             $totalOrderDetails['payable_amount'] += $shippingCharges;
             $totalOrderDetails['delivery_charges'] = $shippingCharges;
-        }      
+        //}      
         
         /* code for coupon*/
         $couponData = $this->getAppliedCoupon($item['user_id']);
