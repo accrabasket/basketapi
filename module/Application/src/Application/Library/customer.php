@@ -859,39 +859,42 @@ class customer {
         if(!empty($optional['shipping_address_id'])) {
             $addressParams = array();
             $addressParams['id'] = $optional['shipping_address_id'];
+            $addressParams['user_id'] = $optional['user_id'];
             $customerModel = new customerModel();
-            $addressDetails = $customerModel->getAddressList($addressParams, array('count'=>1)); 
-            foreach($order as $storeId=>$value) {
-                $order[$storeId]['shipping_charges'] = 0;
-                $store_distance = 0;
-                if(!empty($settingData['data'])){
-                    $storeParams['id'] = $storeId;
-                    $storeList = $this->customercurlLib->getStoreListById($storeParams); 
-                    $storeDetails = $storeList['data'][$storeId];
-                    if(!empty($storeDetails)) {
-                       $common = new common();
-                       $origin = $storeDetails['lat'].','.$storeDetails['lng'];
-                       $destinationLatLng = false;
-                       if(!empty($addressDetails['lat']) && !empty($addressDetails['lng'])) {
-                           $destination = $addressDetails['lat'].','.$addressDetails['lng'];
-                       }else {
-                           $destination = urlencode($addressDetails['city_name']);
-                           $destinationLatLng = true;
-                       }
-                       $store_distance = $common->distance($origin, $destination, $destinationLatLng);
-                    }
-                    foreach ($settingData['data'] as $settingDetails) {
-                        $shippingChargesCalculated = true;
-                        $conditionForSettings = $settingDetails['condition_for_setting'];
-                        $cart_amount = $value['amount'];
-                        $condition = eval("return $conditionForSettings;");
-                        if($condition) {
-                            $shippingCharges += $settingDetails['setting_value'];
-                            $value['amount'] += $settingDetails['setting_value'];
-                            $order[$storeId] = $value;
-                            $order[$storeId]['shipping_charges'] = $settingDetails['setting_value'];
+            $addressDetails = $customerModel->getAddressList($addressParams, array('count'=>1));
+            if(!empty($addressDetails)) {
+                foreach($order as $storeId=>$value) {
+                    $order[$storeId]['shipping_charges'] = 0;
+                    $store_distance = 0;
+                    if(!empty($settingData['data'])){
+                        $storeParams['id'] = $storeId;
+                        $storeList = $this->customercurlLib->getStoreListById($storeParams); 
+                        $storeDetails = $storeList['data'][$storeId];
+                        if(!empty($storeDetails)) {
+                           $common = new common();
+                           $origin = $storeDetails['lat'].','.$storeDetails['lng'];
+                           $destinationLatLng = false;
+                           if(!empty($addressDetails['lat']) && !empty($addressDetails['lng'])) {
+                               $destination = $addressDetails['lat'].','.$addressDetails['lng'];
+                           }else {
+                               $destination = urlencode($addressDetails['city_name']);
+                               $destinationLatLng = true;
+                           }
+                           $store_distance = $common->distance($origin, $destination, $destinationLatLng);
                         }
-                    }               
+                        foreach ($settingData['data'] as $settingDetails) {
+                            $shippingChargesCalculated = true;
+                            $conditionForSettings = $settingDetails['condition_for_setting'];
+                            $cart_amount = $value['amount'];
+                            $condition = eval("return $conditionForSettings;");
+                            if($condition) {
+                                $shippingCharges += $settingDetails['setting_value'];
+                                $value['amount'] += $settingDetails['setting_value'];
+                                $order[$storeId] = $value;
+                                $order[$storeId]['shipping_charges'] = $settingDetails['setting_value'];
+                            }
+                        }               
+                    }
                 }
             }
         }
