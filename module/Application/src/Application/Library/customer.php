@@ -2659,6 +2659,7 @@ class customer {
                         $customerModel = new customerModel();
                         $where = array();
                         $where['order_id'] = $orderId;
+                        $where['overall_rating'] = 0;
                         $feedbackResponse = $customerModel->updateOrder($feedbackData, $where);
                     }else{
                         break;
