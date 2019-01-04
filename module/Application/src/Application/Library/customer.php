@@ -613,7 +613,7 @@ class customer {
                 
                 return $response;
             }
-            $orderDetails = $this->calculateDiscountAndAmount($cartData);
+            $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters);
         }
         $commonLib = new common();
         $settingData = $commonLib->settinglist(array());
@@ -2631,4 +2631,36 @@ class customer {
         $customerModel = new customerModel();
         return $customerModel->updateAppliedCoupon($userId, $couponId, $status);        
     }    
+    
+    function customerfeedback($parameters) {
+        $rules['order_id']       =  array('type'=>'string', 'is_required'=>true);
+        $rules['user_id']        =  array('type'=>'numeric', 'is_required'=>true);            
+        $rules['overall_rating'] =  array('type'=>'numeric', 'is_required'=>true);            
+        $rules['rider_rating']   =  array('type'=>'numeric', 'is_required'=>true);
+        $userId = $parameters['user_id'];
+        $response = $this->isValid($rules, $parameters); 
+        unset($parameters['user_id']);
+        echo "<pre>";
+        if(empty($response)) {
+            $response['status'] = 'fail';
+            $response['msg'] = 'No order found.';            
+            $orderList = $this->orderList($parameters);
+            echo print_r($orderList['data']);die;
+            if(!empty($orderList['data'])) {
+                foreach($orderList['data'] as $orderId=>$value) {
+                    if($value['order_details']['user_id'] == $userId) {
+                        $feedbackData = array();
+                        $feedbackData['order_id'] = $orderId;
+                        $feedbackData['order_id'] = $orderId;
+                        $feedbackData['order_id'] = $orderId;
+                        $feedbackData['order_id'] = $orderId;
+                        $feedbackData['order_id'] = $orderId;
+                    }else{
+                        break;
+                    }
+                }
+            }
+        }
+        echo "<pre>";print_r($response);die;
+    }
 }
