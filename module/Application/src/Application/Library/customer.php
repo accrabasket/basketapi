@@ -858,7 +858,7 @@ class customer {
         $settingData = $commonLib->settinglistnew(array('setting_name'=>'shipping_charges')); 
         if(!empty($optional['shipping_address_id'])) {
             $addressParams = array();
-            $addressParams['id'] = $parameters['shipping_address_id'];
+            $addressParams['id'] = $optional['shipping_address_id'];
             $customerModel = new customerModel();
             $addressDetails = $customerModel->getAddressList($addressParams, array('count'=>1)); 
             foreach($order as $storeId=>$value) {
@@ -2645,22 +2645,29 @@ class customer {
             $response['status'] = 'fail';
             $response['msg'] = 'No order found.';            
             $orderList = $this->orderList($parameters);
-            echo print_r($orderList['data']);die;
             if(!empty($orderList['data'])) {
                 foreach($orderList['data'] as $orderId=>$value) {
                     if($value['order_details']['user_id'] == $userId) {
                         $feedbackData = array();
                         $feedbackData['order_id'] = $orderId;
-                        $feedbackData['order_id'] = $orderId;
-                        $feedbackData['order_id'] = $orderId;
-                        $feedbackData['order_id'] = $orderId;
-                        $feedbackData['order_id'] = $orderId;
+                        $feedbackData['overall_rating'] = $parameters['overall_rating'];
+                        $feedbackData['rider_rating'] = $parameters['rider_rating'];
+                        $feedbackData['comment'] = !empty($parameters['comment'])?$parameters['comment']:'';
+                        $customerModel = new customerModel();
+                        $where = array();
+                        $where['order_id'] = $orderId;
+                        $feedbackResponse = $customerModel->updateOrder($feedbackData, $where);
                     }else{
                         break;
                     }
                 }
             }
         }
-        echo "<pre>";print_r($response);die;
+        if(!empty($feedbackResponse)) {
+            $response['status'] = 'success';
+            $response['msg'] = 'Feedback Saved.'; 
+        }
+        
+        return $response;
     }
 }
