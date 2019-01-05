@@ -60,7 +60,7 @@ class productModel  {
                 $whereStr .= " OR product_master.brand_name LIKE '%$optional[product_name]%' )";                 
             } 
             if($querySeparator == 'OR') {
-                $whereStr = ")";
+                $whereStr .= ")";
             }
             if(!empty($whereStr)) {
                 $query->Where($whereStr);
