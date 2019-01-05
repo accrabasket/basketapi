@@ -155,4 +155,20 @@ class productModel  {
             return false;
         }         
     }
+    function brandList($params) {
+        try {
+            $whereStr = "";
+            $query = $this->sql->select('product_master');  
+            $query->columns(array('brand_name'=>new Expression("DISTINCT(product_master.brand_name)")));
+            if($params['brand_name']) {
+                $query->where->like('brand_name', "%$params[brand_name]%");
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute(); 
+            
+            return $result;
+        } catch (Exception $ex) {
+            return false;
+        }
+    }    
 }
