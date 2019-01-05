@@ -258,6 +258,17 @@ class product {
         }
         
         return $response;
-    }    
+    }  
+    
+    function brandlist($parameters) {
+        $response = array('status' => 'fail', 'msg' => 'No Record Found');
+        $brandData = $this->productModel->brandList($parameters);
+        $brandList = $dataByProductId = $this->commonLib->processResult($brandData, '');
+        if(!empty($brandList)) {
+            $response = array('status' => 'success', 'data' => $brandList);
+        }
+        
+        return $response;
+    }
 
 }
