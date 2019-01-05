@@ -2643,7 +2643,6 @@ class customer {
         $userId = $parameters['user_id'];
         $response = $this->isValid($rules, $parameters); 
         unset($parameters['user_id']);
-        echo "<pre>";
         if(empty($response)) {
             $response['status'] = 'fail';
             $response['msg'] = 'No order found.';            
