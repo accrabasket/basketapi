@@ -50,6 +50,9 @@ class productModel  {
             $whereStr = '';
             if(!empty($optional['category_id'])) {
                 $querySeparator = "OR";
+                if(is_array($optional['category_id'])) {
+                    $optional['category_id'] = implode(",", $optional['category_id']);
+                }
                 $whereStr .= " (product_master.category_id IN ($optional[category_id]) ";   
                 //$query->where(array('product_master.category_id' => $optional['category_id']));
                
