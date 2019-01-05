@@ -97,6 +97,21 @@ class product {
             if (!empty($parameters['category_id'])){
                 $optional['category_id'][] = $parameters['category_id'];         
             }
+            if (!empty($parameters['brand_name'])){
+                $optional['brand_name'] = $parameters['brand_name'];         
+            } 
+            if (!empty($parameters['min_price'])){
+                $optional['min_price'] = $parameters['min_price'];         
+            }   
+            if (!empty($parameters['max_price'])){
+                $optional['max_price'] = $parameters['max_price'];         
+            }   
+            if (!empty($parameters['min_discount'])){
+                $optional['min_discount'] = $parameters['min_discount'];         
+            } 
+            if (!empty($parameters['max_discount'])){
+                $optional['max_discount'] = $parameters['max_discount'];         
+            }             
             if (!empty($parameters['pagination'])) {
                 $optional['pagination'] = $parameters['pagination'];
                 $optional['page'] = !empty($parameters['page']) ? $parameters['page'] : 1;
