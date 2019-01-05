@@ -46,31 +46,25 @@ class productModel  {
                     $query->columns(array('product_id', 'price'=>new Expression("min(merchant_inventry.price)")));
                 }     
             }
+            $querySeparator = "";
+            $whereStr = '';
             if(!empty($optional['category_id'])) {
-                $query->where(array('product_master.category_id' => $optional['category_id']));
-                if(!empty($optional['product_name'])){
-                    $query->Where($where->nest->or->like('product_master.product_name',"%".$optional['product_name']."%"), "OR");
-                }
-            }else if(!empty($optional['product_name'])){
-                if(!empty($optional['product_id'])) {
-                    $query->where(array('product_master.id' => $optional['product_id']));
-                } 
-                if(!empty($optional['hotdeals'])  || !empty($optional['offers'])) {
-                    $query->where('(product_master.hotdeals=1 OR product_master.offers=1)');
-                }
-                if(!empty($optional['new_arrival'])) {
-                    $query->where(array('product_master.new_arrival' => $optional['new_arrival']));
-                }            
-                if(!empty($optional['store_id'])) {
-                    $query->where(array('merchant_inventry.store_id' => $optional['store_id']));
-                }            
-                if(!empty($optional['merchant_id'])) {
-                    $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
-                }  
-                $query->where(array('product_master.status' => 1));                
-                $query->Where->like('product_master.product_name',"%".$optional['product_name']."%");
-                $query->Where->or->like('product_master.brand_name',"%".$optional['product_name']."%");
-            }            
+                $querySeparator = "OR";
+                $whereStr .= " (product_master.category_id IN ($optional[category_id]) ";   
+                //$query->where(array('product_master.category_id' => $optional['category_id']));
+               
+            }
+            if(!empty($optional['product_name'])){              
+                $optional['product_name'] = addslashes($optional['product_name']);
+                $whereStr .= " $querySeparator(product_master.product_name LIKE '%$optional[product_name]%'";
+                $whereStr .= " OR product_master.brand_name LIKE '%$optional[product_name]%' )";                 
+            } 
+            if($querySeparator == 'OR') {
+                $whereStr = ")";
+            }
+            if(!empty($whereStr)) {
+                $query->Where($whereStr);
+            }
             if(!empty($optional['product_id'])) {
                 $query->where(array('product_master.id' => $optional['product_id']));
             } 
