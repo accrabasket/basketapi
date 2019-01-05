@@ -82,7 +82,30 @@ class productModel  {
             }            
             if(!empty($optional['merchant_id'])) {
                 $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
+            } 
+            if(!empty($optional['brand_name'])) {
+                $query->where(array('product_master.brand_name' => $optional['brand_name']));
             }  
+            if(!empty($optional['min_price'])) {
+                $query->where($where->greaterThanOrEqualTo('merchant_inventry.price', $optional['min_price']));
+            }  
+            if(!empty($optional['max_price'])) {
+                $query->where($where->lessThanOrEqualTo('merchant_inventry.price', $optional['max_price']));
+            }  
+            if(!empty($optional['min_discount'])) {
+                $joinWithAttribute = 1;
+                $query->where($where->greaterThanOrEqualTo('product_attribute.discount_value', $optional['min_discount']));
+            }  
+            if(!empty($optional['max_discount'])) {
+                $joinWithAttribute = 1;
+                $query->where($where->lessThanOrEqualTo('product_attribute.discount_value', $optional['max_discount']));
+            }      
+            if(!empty($joinWithAttribute)) {
+                $query->join('product_attribute', 'product_attribute.product_id = merchant_inventry.product_id',array());
+            }
+            if(!empty($optional['merchant_id'])) {
+                $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
+            }              
             $query->where(array('product_master.status' => 1));
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
