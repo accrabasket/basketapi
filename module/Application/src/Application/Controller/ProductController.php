@@ -28,6 +28,9 @@ class ProductController extends AbstractActionController {
                 case 'productlist':
                     $response = $this->productLib->getProductList($parameters);
                     break;
+                case 'brandlist':
+                    $response = $this->productLib->brandlist($parameters);
+                    break;                
                 case 'getProductByMerchantAttributeId':
                     $response = $this->productLib->getProductByMerchantAttributeId($parameters);
                     break;
@@ -48,6 +51,6 @@ class ProductController extends AbstractActionController {
         if($rqid != $_REQUEST['rqid']){
             echo json_encode(array('status'=>"fail", "msg"=>"rqid not match"));
             exit;
-        }      
+        }
     }
 }
