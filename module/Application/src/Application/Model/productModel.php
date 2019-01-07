@@ -84,7 +84,7 @@ class productModel  {
                 $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
             } 
             if(!empty($optional['brand_name'])) {
-                $query->where(array('product_master.brand_name' => $optional['brand_name']));
+                $query->where(array('product_master.brand_name' => explode(",",$optional['brand_name'])));
             }  
             if(!empty($optional['min_price'])) {
                 $query->where($where->greaterThanOrEqualTo('merchant_inventry.price', $optional['min_price']));
@@ -114,7 +114,7 @@ class productModel  {
             if(!empty($optional['order_by']) && !empty($optional['sort_by'])) {
                 $query->order("$optional[sort_by] $optional[order_by]");
             }
-           // echo $query->getSqlString();die;
+            echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             
