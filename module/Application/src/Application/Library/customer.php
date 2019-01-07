@@ -2568,7 +2568,7 @@ class customer {
         $response = array('status'=>'success','msg'=>'Coupon Removed.');  
         $whereParams = array();
         if(!empty($parameters['coupon_code'])) {
-            $whereParams['coupon_name'] = $parameters['coupon_code'];
+            $whereParams['name'] = $parameters['coupon_code'];
         }else{
             $this->deleteAppliedCoupon($parameters['user_id']);
             return $response;
