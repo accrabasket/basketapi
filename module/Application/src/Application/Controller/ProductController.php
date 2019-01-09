@@ -37,6 +37,11 @@ class ProductController extends AbstractActionController {
                 case 'cashCollected':
                     $response = $this->productLib->cashCollected($parameters);
                     break;
+                case 'notifyproduct':
+                    $response = $this->productLib->notifyproduct($parameters);
+                    break;    
+                case 'notifiedproductlist':
+                    $response = $this->productLib->getNotifiedProductList($parameters);
             }
         }
         $responseStr = json_encode($response);
