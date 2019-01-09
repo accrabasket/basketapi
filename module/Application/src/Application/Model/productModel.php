@@ -171,4 +171,40 @@ class productModel  {
             return false;
         }
     }    
+    
+    function insertIntoNotify($data) {
+        try {
+            $query = $this->sql->insert('notify_product')
+                        ->values($data);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }
+    
+    function getNotifiedProduct($params) {
+      try {
+            $where = new \Zend\Db\Sql\Where();
+
+            $query = $this->sql->select('notify_product');
+            if(!empty($params['user_id'])) {
+                $query = $query->where(array('notify_product.user_id' => $params['user_id']));
+            }            
+            if(!empty($params['product_attribute_id'])) {
+                $query = $query->where(array('notify_product.product_attribute_id' => $params['product_attribute_id']));
+            }           
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            if(!empty($params['product_attribute_id'])) {
+                $result = $satements->execute()->current();
+            }else {
+                $result = $satements->execute();
+            }
+            
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }          
+    }
 }
