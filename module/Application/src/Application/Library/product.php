@@ -14,7 +14,7 @@ class product {
     protected $productModel;
     protected $redis;
     public function __construct() {
-        $this->commonLib = new common;
+        $this->commonLib = new common();
         $this->commonModel = new commonModel();
         $this->productModel = new productModel();
         //$this->redis = new \Redis();
@@ -269,6 +269,67 @@ class product {
         }
         
         return $response;
+    }
+    
+    function notifyproduct($parameters) {
+        $status = true;
+        $response = array('status'=>'fail'); 
+        $notifyData = array();
+        if(!empty($parameters['user_id'])){
+            $notifyData['user_id'] = $parameters['user_id'];
+        }else{
+            $response['msg'] = "User not supplied";  
+             $status = false;
+        }
+        if(!empty($parameters['product_attribute_id'])){
+            $notifyData['product_attribute_id'] = $parameters['product_attribute_id'];
+        }else{
+            $response['msg'] = "Attribute Id not supplied.";  
+             $status = false;
+        } 
+        if($status) {
+            $isProductOutOfStock = false;
+            $productList = $this->commonModel->checkAttributeExist(array('attribute_id'=>$parameters['product_attrubute_id']));
+            foreach ($productList as $product) {
+                if($product['stock']<=0) {
+                    $isProductOutOfStock = true;
+                }else {
+                    $isProductOutOfStock = false;
+                }
+            }
+            if($isProductOutOfStock) {
+                $notifyData['created_date'] = date('Y-m-d H:i:s');
+                $productModel = new productModel();
+                $notifiedAlready = $productModel->getNotifiedProduct($notifyData);
+                if(!empty($notifiedAlready)) {
+                    $response = array('status'=>'success', "msg"=>"You will be notified when product come in stock.");
+                }else {
+                    $this->productModel->insertIntoNotify($notifyData);
+                    $response = array('status'=>'success', "msg"=>"You will be notified when product come in stock.");
+                }
+            }       
+        }
+        return $response;
+    }
+    
+    function getNotifiedProductList($parameters) {
+        $response = array('status'=>'fail', "msg"=>"No record found");
+        if(!empty($parameters['user_id'])){
+            $notifyData['user_id'] = $parameters['user_id'];
+        }else{
+            $status = true;
+            $response['msg'] = "User not supplied";  
+        }
+        $productModel = new productModel();
+        $notifiedProductList = $productModel->getNotifiedProduct($notifyData);        
+        $data = $this->commonLib->processResult($notifiedProductList, 'product_attribute_id');
+       
+        if(!empty($data)) {
+            $response = array('status'=>'success', "data"=>$data);
+        }
+        
+        return $response;
+        
     }
 
 }
