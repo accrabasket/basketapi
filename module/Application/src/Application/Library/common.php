@@ -1921,5 +1921,9 @@ class common  {
         } else {
             return $miles;
           }
-    }    
+    }  
+    
+    function getBallance($parameters) {
+        return $this->commonModel->getBallance($parameters);
+    }
 }
