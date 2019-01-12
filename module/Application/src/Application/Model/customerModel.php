@@ -1143,4 +1143,25 @@ class customerModel  {
             return false;
         }        
     }    
+    
+    public function getBallance($parameters) {
+        try {
+            $query = $this->sql->select('wallet_master');
+            $query->columns(array('amount'));
+            if(!empty($parameters['user_id'])){
+                $query = $query->where(array('user_id'=>$parameters['user_id']));
+            }
+            if(!empty($parameters['wallet_key'])){
+                $query = $query->where(array('wallet_key'=>$parameters['wallet_key']));
+            }
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            if(!empty($parameters['user_id'])) {
+                $result = $result->current();
+            }
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }    
 }
