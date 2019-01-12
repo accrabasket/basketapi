@@ -367,7 +367,8 @@ class customer {
                 $otpDetails = $this->generateotp($generateOtpParams);                
                 $response['data'][$params['id']]['id'] = 0;
             }
-        }        
+            $response['wallet_key'] = $response['data'][$params['id']]['password'];
+        } 
         return $response;
     }
     public function isValid($rules, $parameters) {
