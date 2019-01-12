@@ -8,11 +8,14 @@
  */
 
 namespace Application\Library;
+use Application\Model\customerModel;
 class wallet  {
     public $commonLib;
     public $redis;
+    public $customerModel;    
     public function __construct() {
         $this->commonLib = new common();
+        $this->customerModel = new customerModel();
         //$this->redis = new \Redis();
         //$this->redisObj = $this->redis->pconnect('127.0.0.1', 6379);        
     }
@@ -28,4 +31,20 @@ class wallet  {
         $response = $this->commonLib->isValid($attributeRules, $parameters);
         return $response;   
     }
+    
+    public function getBallance($parameters , $optional =array()) {
+        $response = array('status'=>'fail','msg'=>'fail');
+        $attributeRules['user_id'] = array('type' => 'integer', 'is_required' => true);
+        $attributeRules['wallet_key'] = array('type' => 'string', 'is_required' => true);
+        $response = $this->commonLib->isValid($attributeRules, $parameters);
+        if(empty($response)) {
+            $response = array('status'=>'fail', 'msg'=>'No Record Found.');
+            $walletBallance = $this->customerModel->getBallance($parameters);
+            if(!empty($walletBallance)) {
+                $response = array('status'=>'success', 'data'=>$walletBallance);
+            }
+        }
+        
+        return $response;   
+    }    
 }
