@@ -1079,6 +1079,19 @@ class commonModel  {
         } catch (\Exception $ex) {
             return false;
         }        
-    }    
+    } 
+    
+    public function updateProductMapping($data, $where) {
+        try {
+            $query = $this->sql->update('product_merchant_mapping')
+                        ->set($data)
+                        ->where($where);
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }        
+    }
     
 }
