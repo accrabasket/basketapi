@@ -102,6 +102,7 @@ class common  {
                 if (!empty($result)) {
                     if (!empty($parameters['attribute'])) {
                         $data['product_id'] = $result;
+                        $commissionDetails = array();
                         foreach ($parameters['attribute'] as $key => $value) {
                             $attributeWhere = array();
                             $attributeRules = array();
@@ -153,6 +154,8 @@ class common  {
                                 }  else {
                                     $this->uploadImgParams($value, $returnAttr);         
                                 }
+                                $commissionDetails[$returnAttr]['commission_value'] = $attributeParams['commission_value'];
+                                $commissionDetails[$returnAttr]['commission_type'] = $attributeParams['commission_type']; 
                                 $data['attribute'][$key] = $returnAttr;
                             }
                         }
@@ -211,6 +214,7 @@ class common  {
                 if(!empty($productId)) {
                     $data['product_id'] = $productId;
                     if (!empty($productId) && !empty($parameters['attribute'])) {
+                        $commissionDetails = array();
                         foreach ($parameters['attribute'] as $key => $value) {
                             $attributeWhere = array();
                             $attributeRules = array();
@@ -239,6 +243,8 @@ class common  {
                             if(empty($response)) {
                                 $commonModel = new commonModel();
                                 $returnAttr = $commonModel->addAttribute($attributeParams);
+                                $commissionDetails[$returnAttr]['commission_value'] = $attributeParams['commission_value'];
+                                $commissionDetails[$returnAttr]['commission_type'] = $attributeParams['commission_type']; 
                                 $data['attribute'][$key] = $returnAttr;
                                 $value['type'] = "attribute";
                                 if(!empty($parameters['attribute image'])){
@@ -286,9 +292,23 @@ class common  {
                             $productMappingData = array();
                             $productMappingData['product_id'] = $productId;
                             $productMappingData['merchant_id'] = $merchant;
+                            $productMappingData['commission_details'] = json_encode($commissionDetails);
                             $productMappingData['created_date'] = date('Y-m-d H:i:s');
                             
                             $this->insertIntoProductMapping($productMappingData);
+                        }
+                    }
+                    $merchantList = array_intersect($parameters['merchant_ids'], $mappedMerchantData);
+                    if(!empty($merchantList)) {
+                        foreach($merchantList as $merchant) {
+                            $whereProductMapping = array();
+                            $whereProductMapping['product_id'] = $productId;
+                            $whereProductMapping['merchant_id'] = $merchant;
+                            $productMappingData = array();
+                            $productMappingData['commission_details'] = json_encode($commissionDetails);
+                            $productMappingData['updated_date'] = date('Y-m-d H:i:s');
+                            
+                            $this->updateProductMapping($productMappingData, $whereProductMapping);
                         }
                     }
                 }
@@ -301,6 +321,12 @@ class common  {
         $commonModel = new commonModel();
         $commonModel->insertIntoProductMapping($data);
     }
+    
+    public function updateProductMapping($data, $where) {
+        $commonModel = new commonModel();
+        $commonModel->updateProductMapping($data,$where);
+    }
+    
     public function getMerchantProductMapping($where, $optional = array()) {
         $commonModel = new commonModel();
         $merchantMappingResult = $commonModel->getMerchantMapping($where, $optional);
