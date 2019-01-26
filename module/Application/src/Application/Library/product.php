@@ -159,7 +159,7 @@ class product {
                         $minPriceParams['order_by'] = $parameters['order_by'];
                     }    
                     if(!empty($parameters['all_product'])) {
-                         $minPriceParams['all_prodcut'] = 1;
+                         $minPriceParams['all_product'] = 1;
                     }
                     $prodcutAttribute = $this->getMerchantProductAttribute($minPriceParams, $attdata, $productData);
                     $productDetaList = $this->prepareProductWiseAttribute($productData, $prodcutAttribute);
