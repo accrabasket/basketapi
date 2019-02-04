@@ -42,6 +42,7 @@ class IndexController extends AbstractActionController {
                     $params = array();
                     $optional = array();
                     $params['category_name'] = $parameters['category_name'];
+                    $params['category_sequence'] = $parameters['category_sequence'];
                     $params['parent_category_id'] = !empty($parameters['parent_category_id']) ? $parameters['parent_category_id']:0;
                     $params['category_des'] = !empty($parameters['category_des']) ? $parameters['category_des'] : '';
                     if (!empty($parameters['id'])) {
