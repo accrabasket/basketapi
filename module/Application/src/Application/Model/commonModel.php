@@ -103,6 +103,7 @@ class commonModel  {
             if(!empty($parameters['parent_category_id'])) {
                 $query = $query->where(array('category_master.parent_category_id' => $parameters['parent_category_id']));
             }
+            $query = $query->order(array('category_master.category_sequence ASC'));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;
