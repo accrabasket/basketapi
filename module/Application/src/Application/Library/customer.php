@@ -158,7 +158,9 @@ class customer {
         $response = array('status'=>'fail','msg'=>'User not saved');
         $userParams = array();
         $rules = array();
-        $parameters['mobile_number'] = str_replace('+233',"","$parameters[mobile_number]");
+        if(!empty($parameters['mobile_number'])) {
+            $parameters['mobile_number'] = str_replace('+233',"","$parameters[mobile_number]");
+        }
         if (!empty($parameters['id'])) {
             $where = array();
             $where['id'] = $userParams['id'] = $parameters['id'];
@@ -216,7 +218,7 @@ class customer {
             $rules['name']               =  array('type'=>'string', 'is_required'=>true);                        
         }
         
-        $response = $this->isValid($rules, $userParams);        
+        $response = $this->isValid($rules, $userParams);    
         if(empty($response)) {
             $response['status'] = 'fail';
             $userDetails = $this->getUserDetail($userInputParams);
@@ -606,7 +608,16 @@ class customer {
         if(empty($parameters['delivery_date'])) {
             $status = false;
             $response['msg'] = "delivery date not supplied";            
-        }        
+        } 
+       /* $walletAmount = 0;
+        if(!empty($parameters['use_wallet_amount'])) {
+            $customerModel = new customerModel();
+            $walletParams = array('user_id'=>$parameters['user_id']);
+            $walletDetails = $customerModel->getBallance($walletParams);
+            if(!empty($walletDetails)) {
+                $walletAmount = $walletDetails['amount'];
+            }
+        }*/
         if($status) {
             $cartData = $this->getItemIntoCart($cartParams);
             if(empty($cartData['data'])){
@@ -646,7 +657,7 @@ class customer {
                 $parentOrder['payment_status'] = 'unpaid';
                 
                 
-                /*coupon Details*/
+                /*coupon Details*/  
                 $couponData = $this->getAppliedCoupon($parameters['user_id']);
                 $payableAfterCoupon = $this->calculateCoupon($parentOrder['payable_amount'], $couponData);       
                 $couponData = $this->updateAppliedCoupon($parameters['user_id'], $couponData['id'], 'used');
@@ -1668,11 +1679,12 @@ class customer {
             $status = false;
             $response = array('status'=>'fail','msg'=>'Otp type is not supplied');
         }   
-        $where['expiry_date'] = date("Y-m-d H:i:s");
+        //$where['expiry_date'] = date("Y-m-d H:i:s");
         if($status){
             $result = $this->customerModel->verifyOtp($where);
             $params = array();
-            $deleteOtpWhere['mobile_number'] = $params['mobile_number'] = $parameters['mobile_number'];
+            $deleteOtpWhere['mobile_number'] = $where['mobile_number'];
+            $params['mobile_number'] = $parameters['mobile_number'];
             $deleteOtpWhere['otp_type'] = $params['key_for'] =  $parameters['otp_type'];            
             $this->customerModel->deleteOtp($deleteOtpWhere);            
             if (!empty($result['count'])) {
