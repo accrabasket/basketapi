@@ -1453,6 +1453,19 @@ class customer {
         }                         
         if($status) {
             $orderParams['updated_date'] = date('Y-m-d H:i:s');
+            $customerModel = new customerModel();
+            $orderDetailsWhere = array();
+            $orderDetailsWhere['order_id'] = $parameters['order_id'];
+            $orderOptional = array();
+            $orderOptional['count_row'] = 1;
+            $orderDetails = $customerModel->orderList($orderDetailsWhere, $orderOptional);  
+            if(!empty($orderDetails['parent_order_id'])) {
+                $parentOrderWhere = array();
+                $parentOrderWhere['order_id'] = $orderDetails['parent_order_id'];
+                $customerModel = new customerModel();
+                $customerModel->updateOrder($orderParams, $parentOrderWhere);
+            }
+            
             $return = $this->customerModel->updateOrder($orderParams, $orderWhere);        
             if(!empty($return)) {                
                         $adminNotificationParams = array();
