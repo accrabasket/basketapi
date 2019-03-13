@@ -153,7 +153,7 @@ class CustomerController extends AbstractActionController {
                     break;                
                 case 'customercarenumber':
                     
-                    $customerCareNumber = array('0'=>'+233553251740', '3'=>'+233553251740');
+                    $customerCareNumber = array('0'=>'+233553354848', '3'=>'+233553354848');
                     $response = array();
                     $response['status'] = 'success';
                     $response['customer_care_number'] = $customerCareNumber[$parameters['city_id']]?$customerCareNumber[$parameters['city_id']]:$customerCareNumber[0];
