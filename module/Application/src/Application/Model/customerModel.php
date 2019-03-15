@@ -457,6 +457,7 @@ class customerModel  {
                         ->values($params);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
+            file_get_contents("http://172.104.239.54/rabbitmq/amqp_publisher.php");
             return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (\Exception $ex) {
             return false;
@@ -626,6 +627,7 @@ class customerModel  {
                         ->values($params);
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
+            file_get_contents("http://172.104.239.54/rabbitmq/amqp_publisher.php");
             return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (\Exception $ex) {
             return false;
