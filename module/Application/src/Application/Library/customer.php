@@ -1113,6 +1113,18 @@ class customer {
         }        
         $orderWhere['status'] = 1;
         if($status) {
+            $customerModel = new customerModel();
+            $orderDetailsWhere = array();
+            $orderDetailsWhere['order_id'] = $parameters['order_id'];
+            $orderOptional = array();
+            $orderOptional['count_row'] = 1;
+            $orderDetails = $customerModel->orderList($orderDetailsWhere, $orderOptional);              
+            if(!empty($orderDetails['parent_order_id'])) {
+                $parentOrderWhere = array();
+                $parentOrderWhere['order_id'] = $orderDetails['parent_order_id'];
+                $customerModel = new customerModel();
+                $customerModel->updateOrder($orderParams, $parentOrderWhere);
+            }            
             $orderList = $this->customerModel->assignedOrderToRider($orderWhere, $optional); 
             if(!empty($orderList)) {
                 $orderDetails = $orderList->current();
@@ -1320,6 +1332,12 @@ class customer {
                     $params['updated_date'] = date('Y-m-d H:i:s');
                     $customerModel = new customerModel();
                     $result = $customerModel->updateOrder($params, $orderWhere);
+                    if(!empty($orderDetails['parent_order_id'])) {
+                        $parentOrderWhere = array();
+                        $parentOrderWhere['order_id'] = $orderDetails['parent_order_id'];
+                        $customerModel = new customerModel();
+                        $customerModel->updateOrder($params, $parentOrderWhere);
+                    }                   
                     if(!empty($result)) {
                         if($params['order_status'] == 'completed') {
                             $this->updateInventry($orderWhere);
