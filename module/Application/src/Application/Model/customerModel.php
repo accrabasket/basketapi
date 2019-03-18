@@ -357,7 +357,7 @@ class customerModel  {
     function assignedOrderToRider($where, $optional = array()) {
         try {
             $query = $this->sql->select('order_assignments');
-            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('store_id','shipping_address_id','payment_status', 'order_status', 'payable_amount','user_id','merchant_id','delivery_date','time_slot_id','amount','commission_amount','discount_amount','updated_date', 'shipping_charges'));            
+            $query = $query->join('order_master', 'order_master.order_id = order_assignments.order_id',array('parent_order_id', 'store_id','shipping_address_id','payment_status', 'order_status', 'payable_amount','user_id','merchant_id','delivery_date','time_slot_id','amount','commission_amount','discount_amount','updated_date', 'shipping_charges'));            
             if(!empty($optional['columns'])) {
                 $query->columns($optional['columns']);
             }
