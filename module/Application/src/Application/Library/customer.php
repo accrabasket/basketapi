@@ -1119,12 +1119,7 @@ class customer {
             $orderOptional = array();
             $orderOptional['count_row'] = 1;
             $orderDetails = $customerModel->orderList($orderDetailsWhere, $orderOptional);              
-            if(!empty($orderDetails['parent_order_id'])) {
-                $parentOrderWhere = array();
-                $parentOrderWhere['order_id'] = $orderDetails['parent_order_id'];
-                $customerModel = new customerModel();
-                $customerModel->updateOrder($orderParams, $parentOrderWhere);
-            }            
+            
             $orderList = $this->customerModel->assignedOrderToRider($orderWhere, $optional); 
             if(!empty($orderList)) {
                 $orderDetails = $orderList->current();
@@ -1164,7 +1159,12 @@ class customer {
                     $orderParams['updated_date'] = date('Y-m-d H:i:s');
                     $customerModel = new customerModel();
                     $customerModel->updateOrder($orderParams, $orderWhere);
-                    
+                    if(!empty($orderDetails['parent_order_id'])) {
+                        $parentOrderWhere = array();
+                        $parentOrderWhere['order_id'] = $orderDetails['parent_order_id'];
+                        $customerModel = new customerModel();
+                        $customerModel->updateOrder($orderParams, $parentOrderWhere);
+                    }                    
                     $params['user_type'] = 'rider';
                     $this->sentNotification('order_assignment_to_rider', $params);
                     if($merchantNotification) {
