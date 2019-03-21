@@ -897,9 +897,9 @@ class customer {
                         foreach ($settingData['data'] as $settingDetails) {
                             $shippingChargesCalculated = true;
                             $conditionForSettings = $settingDetails['condition_for_setting'];
-                            $cart_amount = $value['amount'];
+                            //$cart_amount = $value['amount'];
                             $condition = eval("return $conditionForSettings;");
-                            if($condition) {
+                            if($condition && $shippingCharges<1) {
                                 $shippingCharges += $settingDetails['setting_value'];
                                 $value['amount'] += $settingDetails['setting_value'];
                                 $order[$storeId] = $value;
