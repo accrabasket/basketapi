@@ -830,7 +830,7 @@ class customer {
                 $itemWisePriceDetails[$key]['product_dump'] = $itemDetails;
                 $totalOrderDetails['amount'] = $totalOrderDetails['amount']+$amount;
                 if(!empty($productDetails['discount_value'])) {
-                    if($productDetails['discount_type'] != 'flat') {
+                    if($productDetails['discount_type'] == 'percent') {
                         $discount = $amount*$productDetails['discount_value']/100;
                     }else {
                         $discount = $productDetails['discount_value']*$item['number_of_item'];
