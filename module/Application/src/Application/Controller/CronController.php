@@ -38,7 +38,18 @@ class CronController extends AbstractActionController {
                 $msg = '?msg=Payment Received.';
             }
             header('Location:'.FRONT_END_PATH.$msg);
-        }        
+        }   
+        ?>
+<script type="text/javascript">
+    var agent = "<?php echo $_REQUEST['agent']?>" ; 
+    //if(agent == 'a'){
+        window.location = "myapp://com.afrobaskets:failed:0:0:0:0";
+    //}
+    if(agent == 'i'){
+        window.location =  "myapp://com.afrobasket.app:failed:0:0:0:0";
+    }   
+</script>
+<?php
         exit;
     }
 }
