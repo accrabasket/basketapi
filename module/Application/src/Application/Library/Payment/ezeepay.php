@@ -47,7 +47,7 @@ class ezeepay {
         }
         if($optional['agent'] == 'a') {
             unset($fields['SecretKey']);
-            unset($fields['MerchantId']);
+            //unset($fields['MerchantId']);
             unset($fields['MerchantCode']);
             $response['paymentUrl'] = 'https://payments.ezeepaygh.com/mobile/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
             $response['paymentDetails'] = $fields;
