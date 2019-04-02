@@ -14,9 +14,9 @@ class ezeepay {
     var $secretKey;
     public function __construct() {
         $this->url = 'https://payments.ezeepaygh.com/api';
-        $this->merchantId = '8FF5F6D6-E9B6-4120-AB58-515CBD81BC46';
+        $this->merchantId = 'f9d844f5-9f1c-4f24-857c-d012a04b5230';
         $this->merchantCode = 'AFRBAS';         
-        $this->secretKey = 'K8iuy&hy@p0sb64awPL';
+        $this->secretKey = '&3bwa3*ngedSne54$U8u';
     }
     public function getToken($orderId, $amount, $userId, $optional=array())  {
         $fields = array();
