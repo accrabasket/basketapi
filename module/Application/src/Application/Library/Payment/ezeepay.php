@@ -19,6 +19,12 @@ class ezeepay {
         $this->secretKey = '&3bwa3*ngedSne54$U8u';
     }
     public function getToken($orderId, $amount, $userId, $optional=array())  {
+        if($optional['agent'] == 'a') {
+            $this->url = 'http://52.40.89.233/aggregator/api/payment';
+            $this->merchantId = '8FF5F6D6-E9B6-4120-AB58-515CBD81BC46';
+            $this->merchantCode = 'AFRBAS';         
+            $this->secretKey = 'K8iuy&hy@p0sb64awPL';            
+        }
         $fields = array();
         $fields['SecretKey'] = $this->secretKey;
         $fields['Customer'] = $userId;
