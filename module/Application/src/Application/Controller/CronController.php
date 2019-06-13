@@ -11,12 +11,15 @@ use Zend\Mvc\Controller\AbstractActionController;
 use Application\Library\cron;
 use Zend\Mail;
 use Application\Library\customer;
+use Application\Library\common;
 
 class CronController extends AbstractActionController {
     var $cronLib;
     var $customerLib;
+    var $commonLib;
     public function __construct() {
         $this->cronLib = new cron();
+        $this->commonLib = new common();
     }
     public function sendnotificationAction() {
         $response = $this->cronLib->sendNotification();
@@ -49,7 +52,13 @@ class CronController extends AbstractActionController {
         window.location =  "myapp://com.afrobasket.app:failed:0:0:0:0";
     }   
 </script>
+
 <?php
+        $requestParams = json_encode($_REQUEST);
+        $responseStr = json_encode($response);
+        echo $responseStr;
+        $logText = $requestParams."\n Response :- \n".$responseStr;  
+        $this->commonLib->writeDebugLog($logText, 'cron', 'updatepaymentstatus');
         exit;
     }
 }
