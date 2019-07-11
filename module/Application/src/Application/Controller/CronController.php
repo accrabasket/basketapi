@@ -40,7 +40,7 @@ class CronController extends AbstractActionController {
             if($response['status'] == 'success') {
                 $msg = '?msg=Payment Received.';
             }
-            header('Location:'.FRONT_END_PATH.$msg);
+            header('Location:'.FRONT_END_PATH.$msg);  
         }   
         ?>
 <script type="text/javascript">
