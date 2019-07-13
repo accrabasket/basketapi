@@ -29,6 +29,9 @@ class CronController extends AbstractActionController {
     }
     public function updatepaymentstatusAction(){
         $response = array('status' => 'fail', 'msg' => 'Payment Failed.');
+        if(!empty($_REQUEST['InvoiceNo'])) {
+            $_REQUEST['TransactionId'] = $_REQUEST['InvoiceNo'];
+        }
         if(!empty($_REQUEST['TransactionId'])) {
             $this->customerLib = new customer();
             $response = $this->customerLib->updatePaymentStatus($_REQUEST);
@@ -39,19 +42,20 @@ class CronController extends AbstractActionController {
             $msg = '?msg=Payment Not Received.';
             if($response['status'] == 'success') {
                 $msg = '?msg=Payment Received.';
+				
+				
             }
-            header('Location:'.FRONT_END_PATH.$msg);  
-        }   
+		 
+		 	header('Location:myapp://com.afrobaskets:sucess:0:0:0:0');
+  		//header('Location:'.FRONT_END_PATH.$msg);
+        
+		} else{
+		
+			header('Location:myapp://com.afrobaskets:failed:0:0:0:0');
+		
+		}
+		
         ?>
-<script type="text/javascript">
-    var agent = "<?php echo $_REQUEST['agent']?>" ; 
-    //if(agent == 'a'){
-        window.location = "myapp://com.afrobaskets:failed:0:0:0:0";
-    //}
-    if(agent == 'i'){
-        window.location =  "myapp://com.afrobasket.app:failed:0:0:0:0";
-    }   
-</script>
 
 <?php
         $requestParams = json_encode($_REQUEST);
