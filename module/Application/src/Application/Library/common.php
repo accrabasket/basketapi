@@ -1889,7 +1889,7 @@ class common  {
     }
     
     function getAddressFromLatLng($lat, $lng) {        
-        $url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=$lat,$lng";
+        $url = "https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyCneJAKb3o_UqKuVoIBPcTlWJLzNt6lTqo&latlng=$lat,$lng";
         $response = $this->callCurl($url);
         $result = json_decode($response, true);
         
