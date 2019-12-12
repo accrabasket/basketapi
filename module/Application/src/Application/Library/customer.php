@@ -1671,7 +1671,7 @@ class customer {
             $status = false;
             $response = array('status' => 'fail', 'msg' => 'user_auth not supplied');
         }   
-        if($status) {
+        if($status) {            
             $userDetails = $this->getUserDetail(array('key'=>$parameters['key'], 'verified_email'=>0));
             if(!empty($userDetails['status'] == 'success')) {
                 $userValues = array_values($userDetails['data']);
