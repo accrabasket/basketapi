@@ -125,6 +125,9 @@ class customerModel  {
             if(isset($whereParams['verified_email'])) {
                 $query = $query->where(array('user_master.verified_email' => $whereParams['verified_email']));
             }            
+            if(isset($whereParams['key'])) {
+                $query = $query->where(array('user_master.key' => $whereParams['key']));
+            }            
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
@@ -511,7 +514,7 @@ class customerModel  {
             if(isset($where['expiry_date'])) {
                 $query = $query->where("expiry_date >= '$where[expiry_date]'");
             }                        
-            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $satements = $this->sql->prepareStatementForSqlObject($query);            
             $result = $satements->execute()->current();
             return $result;
         } catch (\Exception $ex) {
