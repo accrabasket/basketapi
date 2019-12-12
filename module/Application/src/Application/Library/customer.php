@@ -259,7 +259,7 @@ class customer {
                         $resetParams = array();
                         $resetParams['method'] = 'verifyemail';
                         $resetParams['key'] = $userParams['key'];
-                        $parameters['reset_link'] = "http://".$_SERVER["HTTP_HOST"].'/basketapi/application/customer?parameters='.json_encode($resetParams);
+                        $parameters['reset_link'] = "https://".$_SERVER["HTTP_HOST"].'/basketapi/index.php/application/customer?parameters='.json_encode($resetParams);
                         $parameters['email_template_type'] = 'email_verification';
                         $parameters['otp'] = $otpDetails['data']['otp'];
                         $this->enterDataIntoMailQueue($parameters);
@@ -296,6 +296,9 @@ class customer {
         if(isset($parameters['verified_mobile'])) {
             $where['verified_mobile'] = $parameters['verified_mobile'];
         }
+        if(isset($parameters['key'])) {
+            $where['key'] = $parameters['key'];
+        }        
         if(!empty($parameters['status'])) {
             $where['status'] = $parameters['status'];
         }        
