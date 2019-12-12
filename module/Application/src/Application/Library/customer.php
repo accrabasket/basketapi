@@ -1716,9 +1716,9 @@ class customer {
             $params = array();
             $deleteOtpWhere['mobile_number'] = $where['mobile_number'];
             $params['mobile_number'] = $parameters['mobile_number'];
-            $deleteOtpWhere['otp_type'] = $params['key_for'] =  $parameters['otp_type'];            
-            $this->customerModel->deleteOtp($deleteOtpWhere);            
+            $deleteOtpWhere['otp_type'] = $params['key_for'] =  $parameters['otp_type'];             
             if (!empty($result['count'])) {
+                $this->customerModel->deleteOtp($deleteOtpWhere);
                 $this->customerModel->deleteUserAuth($params);
                 $userDetails = $this->getUserDetail(array('mobile_number'=>$parameters['mobile_number'], 'verified_mobile'=>0));
                 $userValues = array_values($userDetails['data']);
