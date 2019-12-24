@@ -570,6 +570,8 @@ class commonModel  {
             if(!empty($optional['location_id'])) {
                 $query = $query->where(array('merchant_store.location_id'=>$optional['location_id']));
             }             
+           $query = $query->where(array('merchant_store.status'=>1));
+                        
             $query = $query->where(array('user_master.status'=>1));    
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
