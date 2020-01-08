@@ -1867,8 +1867,8 @@ class common  {
                 $cityResult = $this->commonModel->cityListByname($cityName);
                 if(!empty($cityResult)) {
                     $cityData = $cityResult->current();
-                    $cityData['city'] = $parameters['address'];
                     if(!empty($cityData)) {
+                        $cityData['city'] = $parameters['address'];
                         $response = array();
                         $response['status'] = 'success';
                         $response['data'] = $cityData; 
