@@ -1867,6 +1867,10 @@ class common  {
                 $cityResult = $this->commonModel->cityListByname($cityName);
                 if(!empty($cityResult)) {
                     $cityData = $cityResult->current();
+		   if(!empty($parameters['get_city_name'])) {
+			$cityData['city'] = $parameters['address'];
+		
+		}
                     if(!empty($cityData)) {
                         $cityData['city'] = $parameters['address'];
                         $response = array();
@@ -1880,8 +1884,9 @@ class common  {
         if(empty($cityData) && !empty($parameters['lat']) && !empty($parameters['lng'])) {
            $addressData = $this->getAddressFromLatLng($parameters['lat'], $parameters['lng']); 
            $cityName = !empty($addressData['results'][0]['formatted_address'])?$addressData['results'][0]['formatted_address']:'';
-           $params = array('address'=>$cityName);
+           $params = array('address'=>$cityName, 'get_city_name'=>1);
            //print_r($params);die;
+	
            $response =  $this->getCityIdByAddressOrLatLng($params);
         }
         return $response;
