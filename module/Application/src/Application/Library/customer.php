@@ -259,7 +259,7 @@ class customer {
                         $resetParams = array();
                         $resetParams['method'] = 'verifyemail';
                         $resetParams['key'] = $userParams['key'];
-                        $parameters['reset_link'] = "https://".$_SERVER["HTTP_HOST"].'/basketapi/index.php/application/customer?parameters='.json_encode($resetParams);
+                        $parameters['reset_link'] = "https://afrobaskets.com/basketapi/index.php/application/customer?parameters=".json_encode($resetParams);
                         $parameters['email_template_type'] = 'email_verification';
                         $parameters['otp'] = $otpDetails['data']['otp'];
                         $this->enterDataIntoMailQueue($parameters);
