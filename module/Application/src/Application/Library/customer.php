@@ -349,8 +349,10 @@ class customer {
         if(!empty($parameters['password'])) {
             $where['password'] = md5($parameters['password']);
         }else{
-            $status = false;
-            $response = array('status'=>'fail','msg'=>'Password not supplied');
+            if(empty($where['email']) || empty($where['mobile_number'])) {
+                $status = false;
+                $response = array('status'=>'fail','msg'=>'Password not supplied');
+            }
         }
         if(!empty($parameters['fcm_reg_id'])) {
             $params['fcm_reg_id'] = $parameters['fcm_reg_id'];
