@@ -221,13 +221,12 @@ class customer {
         $response = $this->isValid($rules, $userParams);    
         if(empty($response)) {
             $response['status'] = 'fail';
-            $userDetails = $this->getUserDetail($userInputParams);
-            if(!empty($parameters['ezeepay_signup'])) {
-               
-               return $userDetails;
-            }
-            
+            $userDetails = $this->getUserDetail($userInputParams);            
             if(!empty($userParams['id'])) {
+                if(!empty($parameters['ezeepay_signup'])) {
+
+                   return $userDetails;
+                }                
                 if(!empty($userDetails['data'])) {
                     if(count($userDetails['data'])>1) {
                         if(!empty($userParams['email'])) {
