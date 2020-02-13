@@ -169,11 +169,12 @@ class IndexController extends AbstractActionController {
                     $response = $this->commonLib->getTotalNumberOfProductAndMerchant($parameters);
                     break; 
                 case 'getCityIdByAddressOrLatLng':
-                    $response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
+                    //$response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
+                    $response = array('status'=>'fail', 'msg'=>'service not available in this city');
                     break;       
                                     
             }
-        }
+        }        
         $responseStr = json_encode($response);
         echo $responseStr;
         $logText = $requestParams."\n Response :- \n".$responseStr;  
