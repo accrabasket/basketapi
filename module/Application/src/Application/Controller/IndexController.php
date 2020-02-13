@@ -170,7 +170,7 @@ class IndexController extends AbstractActionController {
                     break; 
                 case 'getCityIdByAddressOrLatLng':
                     //$response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
-                    $response = array('status'=>'fail', 'msg'=>'service not available in this city');
+                    $response = array('status'=>'fail', 'msg'=>'System under mentainence, We will be back shortly.');
                     break;       
                                     
             }
