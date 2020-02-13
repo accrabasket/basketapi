@@ -174,6 +174,7 @@ class IndexController extends AbstractActionController {
                                     
             }
         }
+        $response = array('status'=>'fail', 'msg'=>'System under maintenance, We will back shortly.');
         $responseStr = json_encode($response);
         echo $responseStr;
         $logText = $requestParams."\n Response :- \n".$responseStr;  
