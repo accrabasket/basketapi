@@ -247,6 +247,10 @@ class customer {
                 }
             }else {
                 if(!empty($userDetails['data'])) {
+		 if(!empty($parameters['ezeepay_signup'])) {
+
+                   return $userDetails;
+                }
                     $response['msg'] = "mobile number/Email Already in use.";
                 }else{
                     $userParams['key'] = md5($userParams['email'].time());
@@ -663,7 +667,8 @@ class customer {
                 $parentOrder['time_slot_id'] = !empty($parameters['time_slot_id'])?$parameters['time_slot_id']:0;
                 $parentOrder['delivery_date'] = $parameters['delivery_date'];
                 $parentOrder['created_date'] = date('Y-m-d H:i:s');
-                $parentOrder['payment_status'] = 'unpaid';
+               // $parentOrder['payment_status'] = 'unpaid';
+		$parentOrder['payment_status'] = !empty($parameters['payemnt_status'])?$parameters['payemnt_status']:'unpaid';
                 
                 
                 /*coupon Details*/  
@@ -703,7 +708,8 @@ class customer {
                 $orderData['discount_amount'] = $orderDetail['discount_amount'];
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
                 $orderData['shipping_charges'] = $orderDetail['shipping_charges'];
-                $orderData['payment_status'] = 'unpaid';                    
+               // $orderData['payment_status'] = 'unpaid';                    
+		$parentOrder['payment_status'] = !empty($parameters['payemnt_status'])?$parameters['payemnt_status']:'unpaid';
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 
                 if(count($orderDetails['order'])>1) {
