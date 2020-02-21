@@ -2754,7 +2754,7 @@ class customer {
     }
 	
     function deductAmountFromEzeepayWallet($amount, $userDetails) {
-        $paymentObj = new Payment\ezeepay_wallet();
+        $paymentObj = new Payment\ezeepaywallet();
         $response = array();
         $response['status'] = 'error';
         $response['msg'] = 'User Vefication Failed';
