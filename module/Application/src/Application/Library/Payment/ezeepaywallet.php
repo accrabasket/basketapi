@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 namespace Application\Library\Payment;
-class ezeepay_wallet {
+class ezeepaywallet {
     function paymentWalletVerificationFromEzeepay($parameters) {
         $curl = curl_init();
 
