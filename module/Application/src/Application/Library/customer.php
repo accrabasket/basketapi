@@ -668,7 +668,7 @@ class customer {
                 $parentOrder['delivery_date'] = $parameters['delivery_date'];
                 $parentOrder['created_date'] = date('Y-m-d H:i:s');
                // $parentOrder['payment_status'] = 'unpaid';
-		$parentOrder['payment_status'] = !empty($parameters['payemnt_status'])?$parameters['payemnt_status']:'unpaid';
+		$parentOrder['payment_status'] = !empty($parameters['payment_status'])?$parameters['payment_status']:'unpaid';
                 
                 
                 /*coupon Details*/  
@@ -709,7 +709,7 @@ class customer {
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
                 $orderData['shipping_charges'] = $orderDetail['shipping_charges'];
                // $orderData['payment_status'] = 'unpaid';                    
-		$parentOrder['payment_status'] = !empty($parameters['payemnt_status'])?$parameters['payemnt_status']:'unpaid';
+		$orderData['payment_status'] = !empty($parameters['payment_status'])?$parameters['payment_status']:'unpaid';
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 
                 if(count($orderDetails['order'])>1) {
