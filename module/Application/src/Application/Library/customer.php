@@ -667,8 +667,8 @@ class customer {
                 $parentOrder['time_slot_id'] = !empty($parameters['time_slot_id'])?$parameters['time_slot_id']:0;
                 $parentOrder['delivery_date'] = $parameters['delivery_date'];
                 $parentOrder['created_date'] = date('Y-m-d H:i:s');
-               // $parentOrder['payment_status'] = 'unpaid';
-		$parentOrder['payment_status'] = !empty($parameters['payment_status'])?$parameters['payment_status']:'unpaid';
+                $parentOrder['payment_status'] = 'unpaid';
+		//$parentOrder['payment_status'] = !empty($parameters['payment_status'])?$parameters['payment_status']:'unpaid';
                 
                 
                 /*coupon Details*/  
@@ -680,6 +680,15 @@ class customer {
                 $parentOrder['coupon_code'] = $payableAfterCoupon['coupon_code'];  
                 $parentOrder['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
                 
+                if($parameters['payment_type'] == 'ezeepay_wallet') {
+                    $responseFromEzeepayWallet = $this->deductAmountFromEzeepayWallet($parentOrder['payable_amount'], $userDetails);
+                    if($responseFromEzeepayWallet['status'] != 'success') {
+                        $this->customerModel->rollback();
+                        return $responseFromEzeepayWallet;
+                    }else{
+                        $parentOrder['payment_status'] = 'paid';
+                    }
+                }		    
                 /* coupon End*/
                 $result = $this->customerModel->createOrder($parentOrder);
             }
@@ -709,7 +718,7 @@ class customer {
                 $orderData['commission_amount'] = $orderDetail['commission_amount'];
                 $orderData['shipping_charges'] = $orderDetail['shipping_charges'];
                // $orderData['payment_status'] = 'unpaid';                    
-		$orderData['payment_status'] = !empty($parameters['payment_status'])?$parameters['payment_status']:'unpaid';
+		$orderData['payment_status'] = !empty($parentOrder['payment_status'])?$parentOrder['payment_status']:'unpaid';
                 $orderData['created_date'] = date('Y-m-d H:i:s');
                 
                 if(count($orderDetails['order'])>1) {
@@ -726,6 +735,17 @@ class customer {
                     $orderData['payable_amount'] = $payableAfterCoupon['payable'];
                     $orderData['coupon_code'] = $payableAfterCoupon['coupon_code'];  
                     $orderData['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
+			
+                    
+                    if($parameters['payment_type'] == 'ezeepay_wallet' && empty($responseFromEzeepayWallet)) {
+                        $responseFromEzeepayWallet = $this->deductAmountFromEzeepayWallet($orderData['payable_amount'], $userDetails);
+                        if($responseFromEzeepayWallet['status'] != 'success') {
+                            $this->customerModel->rollback();
+                            return $responseFromEzeepayWallet;
+                        }else{
+                            $orderData['payment_status'] = 'paid';
+                        }
+                    }			
 
                     /* coupon End*/                    
                 }
@@ -2728,6 +2748,47 @@ class customer {
         if(!empty($feedbackResponse)) {
             $response['status'] = 'success';
             $response['msg'] = 'Feedback Saved.'; 
+        }
+        
+        return $response;
+    }
+	
+    function deductAmountFromEzeepayWallet($amount, $userDetails) {
+        $paymentObj = new Payment\ezeepay_wallet();
+        $response = array();
+        $response['status'] = 'error';
+        $response['msg'] = 'User Vefication Failed';
+        $params = array();
+        $params['timeStamp'] = time();
+        $params['userId'] = $userDetails['email'];
+        $params['amount'] = $amount;
+        $parameters = json_encode($params);
+        //{\"timeStamp\": \"10022020155132\",\n\"userId\": \"ashish@yopmail.com\",\n\"amount\": 1\n};
+        
+        $waletVerificationRespone = $paymentObj->paymentWalletVerificationFromEzeepay($parameters);
+        //$waletVerificationRespone = rtrim($waletVerificationRespone, "\0");
+        //$waletVerificationRespone = trim($waletVerificationRespone, " ");
+       // $waletVerificationRespone = stripslashes(html_entity_decode($waletVerificationRespone));
+        $walletVerificatonData = json_decode($waletVerificationRespone, true);
+        if(!empty($walletVerificatonData['isSuccess'])) {
+            $deductAmountParams = array();
+            $deductAmountParams['securityCode'] = $walletVerificatonData['result']['SecurityCode'];
+            $deductAmountParams['timeStamp'] = time();
+            $deductAmountParams['otp'] = null;
+            $deductAmountParams['userId'] = $userDetails['email'];
+            //{\n  \"securityCode\": \"F++G/VLQHUlb6lUK3XKC+w==\",\n  \"timeStamp\": \"10022020155132\",\n  \"otp\": null,\n  \"userId\":\"ashish@yopmail.com\"\n}",
+
+            $walletDecutionParams = json_encode($deductAmountParams);
+            $paymentDeductinResponse = $paymentObj->deductAmountFromWallet($walletVerificatonData['result']['SessionId'], $walletDecutionParams);            
+            $paymentDeductionResponseData = json_decode($paymentDeductinResponse, true);
+            if(!empty($paymentDeductionResponseData['isSuccess'])) {
+                $response['status'] = 'success';
+                $response['msg'] = 'payment Successfull';
+            }else {
+                $response['msg'] = $paymentDeductionResponseData['message'];
+            }
+        }else {
+            $response['msg'] = $walletVerificatonData['message'];
         }
         
         return $response;
