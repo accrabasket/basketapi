@@ -159,6 +159,7 @@ class customer {
         $userParams = array();
         $rules = array();
         if(!empty($parameters['mobile_number'])) {
+	    $parameters['mobile_number'] = preg_replace("/^0/", "", $parameters['mobile_number']);
             $parameters['mobile_number'] = str_replace('+233',"","$parameters[mobile_number]");
         }
         if (!empty($parameters['id'])) {
