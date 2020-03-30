@@ -78,6 +78,7 @@ class cron {
                 $smsData= array();
                 $smsData['type'] = 0;
                 $smsData['dlr'] = 1;
+                $smsDetails['mobile_number'] = preg_replace("/^0/", "", $smsDetails['mobile_number']);
                 $smsData['destination'] = $smsDetails['mobile_number'];
                 $smsData['message'] = $smsDetails['message'];
                 $smsData['source'] = 'AFFROBASKET';
