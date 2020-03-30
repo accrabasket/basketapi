@@ -1728,6 +1728,7 @@ class customer {
             $countryCode = $parameters['country_code'];
         }
         if (!empty($parameters['mobile_number'])) {
+	    $parameters['mobile_number'] = preg_replace("/^0/", "", $parameters['mobile_number']);
             $where['mobile_number'] = $countryCode.$parameters['mobile_number'];
         } else {
             $status = false;
