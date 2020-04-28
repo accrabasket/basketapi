@@ -556,7 +556,8 @@ class customer {
                 $response['msg'] = 'No Item found in cart';
                 return $response;
             }
-            $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters);       
+            $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters); 
+	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount']." (Amount may be different.)";
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
