@@ -557,7 +557,7 @@ class customer {
                 return $response;
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters); 
-	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount']." (Amount may be different.)";
+	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount'];
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
