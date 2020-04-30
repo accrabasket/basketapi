@@ -589,7 +589,7 @@ class customer {
                 $status = false;
                 $response['msg'] = "shipping address not found";  
             }else {            
-                $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
+                $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'\n Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
             }
             $restrictedLocationParams = array();
             $restrictedLocationParams['city_id'] = $addressDetails['city_id'];
