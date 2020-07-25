@@ -358,7 +358,9 @@ class common  {
     
     public function uploadImgParamsViaCsv($value, $id){
         $newloc = $GLOBALS['IMAGEROOTPATH'].'/'.$value['type'].'/'.$id.'/';
+        $newloc1 = $GLOBALS['IMAGEROOTPATH2'].'/'.$value['type'].'/'.$id.'/';
         @mkdir($newloc, 0777, true);
+	@mkdir($newloc1, 0777, true);
         if($value['type'] == 'product'){
             $image = $value['product_image'];
         }elseif($value['type'] == 'nutrition_image'){
@@ -372,6 +374,7 @@ class common  {
                     $curretfile = $GLOBALS['IMAGEROOTPATH'].'/media/'.$values;
                     $name = $values;
                     if(copy($curretfile, $newloc.$name)) {
+			 copy($curretfile, $newloc1.$name
                         $imageParams = array();
                         $imageParams['type'] = $value['type'];
                         $imageParams['image_name'] = $name;
