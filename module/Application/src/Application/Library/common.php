@@ -374,7 +374,7 @@ class common  {
                     $curretfile = $GLOBALS['IMAGEROOTPATH'].'/media/'.$values;
                     $name = $values;
                     if(copy($curretfile, $newloc.$name)) {
-			 copy($curretfile, $newloc1.$name;
+			 copy($curretfile, $newloc1.$name);
                         $imageParams = array();
                         $imageParams['type'] = $value['type'];
                         $imageParams['image_name'] = $name;
