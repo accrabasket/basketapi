@@ -557,7 +557,7 @@ class customer {
                 return $response;
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters); 
-	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount']." (Amount may be different.)";
+	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount']." (Price and Quantity are subject to availability of the stock.)";
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
@@ -911,6 +911,7 @@ class customer {
             $addressParams['user_id'] = $optional['user_id'];
             $customerModel = new customerModel();
             $addressDetails = $customerModel->getAddressList($addressParams, array('count'=>1));
+	    $shippingCharge = 0;
             if(!empty($addressDetails)) {
                 foreach($order as $storeId=>$value) {
                     $order[$storeId]['shipping_charges'] = 0;
@@ -930,7 +931,7 @@ class customer {
                                $destinationLatLng = true;
                            }
                            $store_distance = $common->distance($origin, $destination, $destinationLatLng);
-                        }
+                        }		
                         foreach ($settingData['data'] as $settingDetails) {
                             $shippingChargesCalculated = true;
                             $conditionForSettings = $settingDetails['condition_for_setting'];
@@ -940,7 +941,9 @@ class customer {
                                 $shippingCharges += $settingDetails['setting_value'];
                                 $value['amount'] += $settingDetails['setting_value'];
                                 $order[$storeId] = $value;
-                                $order[$storeId]['shipping_charges'] = $settingDetails['setting_value'];
+				if($shippingCharge<$settingDetails['setting_value']) {
+                             	    $shippingCharge = $order[$storeId]['shipping_charges'] = $settingDetails['setting_value'];
+				}
                             }
                         }               
                     }
