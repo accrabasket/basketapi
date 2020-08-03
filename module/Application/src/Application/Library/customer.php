@@ -589,7 +589,7 @@ class customer {
                 $status = false;
                 $response['msg'] = "shipping address not found";  
             }else {            
-                $address = $addressDetails['city_name']."<br/> House No. - ".$addressDetails['house_number'].'<br/> Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
+                $address = $addressDetails['city_name']."\n House No. - ".$addressDetails['house_number'].'\n Street - '.$addressDetails['street_detail']." ".$addressDetails['zipcode'];
             }
             $restrictedLocationParams = array();
             $restrictedLocationParams['city_id'] = $addressDetails['city_id'];
@@ -808,9 +808,9 @@ class customer {
                 $response['status'] = 'success';
                 $response['msg'] = 'order placed successfully.';
                 if(!empty($parentOrderId)) {
-                    $response['data']['order_id'] = $parentOrderId;
+                    $response['data']['order_id'] = $parentOrderId."\n(Price and Quantity are subject to availability of the stock.)";
                 }else{
-                    $response['data']['order_id'] = $orderId;
+                    $response['data']['order_id'] = $orderId."\n(Price and Quantity are subject to availability of the stock.)";
                 }
                 if(!empty($parameters['payment_type']) && $parameters['payment_type'] == 'ezeepay') {
                     $paymentObj = new Payment\ezeepay();

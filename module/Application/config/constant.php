@@ -1,6 +1,11 @@
 <?php
 define('HTTP_ROOT_PATH', "https://".$_SERVER["HTTP_HOST"].'/basketapi/public/images');
-$GLOBALS['IMAGEROOTPATH'] = 'https://afrobaskets.com/basketapi/public/images';
+//$GLOBALS['IMAGEROOTPATH'] = 'https://afrobaskets.com/basketapi/public/images';
+//head End
+//define('HTTP_ROOT_PATH', "http://".$_SERVER["HTTP_HOST"].'/basketapi/public/images');
+$GLOBALS['IMAGEROOTPATH'] = $_SERVER['DOCUMENT_ROOT'].'basketapi/public/images';
+$GLOBALS['IMAGEROOTPATH2'] = '/var/www/html/accrafrontend/basketapi/public/images';
+//new changes
 define('PER_PAGE_LIMIT', 10);
 define('OTP_EXPIRE_TIME', 15);//in minutes
 define('FRONT_END_PATH', "https://afrobaskets.com/index.php/");
@@ -12,4 +17,5 @@ define('SMS_GATEWAY_USERNAME','Afrobaskets');
 define('SMS_GATEWAY_PASSWORD','SFlg67yf');
 define('THRESOLD_VALUE', 5);
 define('SECURE_KEY', 'secure#api$__');
+
 define('GOOGLE_KEY', 'AIzaSyAeTa0qb9XmtjBGpVh3VXwO8ewkPURxemw');

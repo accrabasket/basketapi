@@ -65,6 +65,8 @@ class CustomerController extends AbstractActionController {
                     break;                
                 case 'placeorder':
                     $response = $this->customerLib->placeOrder($parameters, $userDetails);
+		    //$response['status']='fail'; 
+		    //$response['msg']='operational issue. Contact with admin.';
                     break;
                 case 'orderlist':
                     $response = $this->customerLib->orderList($parameters);

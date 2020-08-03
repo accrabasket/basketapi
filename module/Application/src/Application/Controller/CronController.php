@@ -29,6 +29,11 @@ class CronController extends AbstractActionController {
     }
     public function updatepaymentstatusAction(){
         $response = array('status' => 'fail', 'msg' => 'Payment Failed.');
+       $entityBody = file_get_contents('php://input');
+       $result = json_decode($entityBody, true);
+       if(!empty($result['InvoiceNo'])) {
+           $_REQUEST['TransactionId'] = $result['InvoiceNo'];
+       }
         if(!empty($_REQUEST['InvoiceNo'])) {
             $_REQUEST['TransactionId'] = $_REQUEST['InvoiceNo'];
         }
@@ -46,12 +51,12 @@ class CronController extends AbstractActionController {
 				
             }
 		 
-		 	header('Location:myapp://com.afrobaskets:sucess:0:0:0:0');
-  		//header('Location:'.FRONT_END_PATH.$msg);
+		 //	header('Location:myapp://com.afrobaskets:sucess:0:0:0:0');
+  		header('Location:'.FRONT_END_PATH.$msg);
         
 		} else{
 		
-			header('Location:myapp://com.afrobaskets:failed:0:0:0:0');
+			//header('Location:myapp://com.afrobaskets:failed:0:0:0:0');
 		
 		}
 		
@@ -61,8 +66,10 @@ class CronController extends AbstractActionController {
         $requestParams = json_encode($_REQUEST);
         $responseStr = json_encode($response);
         echo $responseStr;
-        $logText = $requestParams."\n Response :- \n".$responseStr;  
+        $logText = $requestParams."\n Response :- \n".$responseStr."boyd".$entityBody;  
         $this->commonLib->writeDebugLog($logText, 'cron', 'updatepaymentstatus');
-        exit;
+     //   exit;
+//header('Location:myapp://com.afrobaskets:sucess:0:0:0:0');
+exit;
     }
 }

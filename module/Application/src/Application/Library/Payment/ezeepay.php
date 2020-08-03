@@ -35,8 +35,13 @@ class ezeepay {
         $fields['Amount'] = $amount;
         $fields['Signature'] = hash_hmac("sha256", $fields['MerchantId'].$fields['Amount'].$fields['Customer'].$fields['TransactionId'], $fields['SecretKey']);
         $parameters = http_build_query($fields);
-        $genrateTokenUrl = $this->url.'/requesttoken?'.$parameters;        
-        $tokenResponse = $this->curlHit($genrateTokenUrl);
+        $genrateTokenUrl = $this->url.'/requesttoken?'.$parameters;  
+        if($optional['agent'] == 'a') {
+           //do nothing 
+        }else {
+            $tokenResponse = $this->curlHit($genrateTokenUrl);
+        }      
+        //$tokenResponse = $this->curlHit($genrateTokenUrl);
         $response = json_decode($tokenResponse, TRUE);
         if($response['StatusCode'] == 200) {
             $paymentRequest = array();

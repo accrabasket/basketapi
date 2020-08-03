@@ -169,8 +169,8 @@ class IndexController extends AbstractActionController {
                     $response = $this->commonLib->getTotalNumberOfProductAndMerchant($parameters);
                     break; 
                 case 'getCityIdByAddressOrLatLng':
-                    //$response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
-                    $response = array('status'=>'fail', 'msg'=>'System under maintainence, We will be back shortly.');
+                    $response = $this->commonLib->getCityIdByAddressOrLatLng($parameters);
+                   // $response = array('status'=>'fail', 'msg'=>'System under maintainence, We will be back shortly.');
                     break;       
                                     
             }
