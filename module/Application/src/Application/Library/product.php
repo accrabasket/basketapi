@@ -195,9 +195,9 @@ class product {
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['discount_value'] = $attributeDetail[$row['attribute_id']]['discount_value'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['unit'] = $attributeDetail[$row['attribute_id']]['unit'];
                     $attributeByProduct[$row['product_id']][$row['attribute_id']]['quantity'] = $attributeDetail[$row['attribute_id']]['quantity'];
-                    $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price'];
+                    $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = round($attributeByProduct[$row['product_id']][$row['attribute_id']]['price'], 2);
                     if($attributeDetail[$row['attribute_id']]['discount_type']=='percent') {
-                        $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$attributeDetail[$row['attribute_id']]['discount_value']/100;
+                        $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = round($attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeByProduct[$row['product_id']][$row['attribute_id']]['price']*$attributeDetail[$row['attribute_id']]['discount_value']/100, 2);
                     }else if($attributeDetail[$row['attribute_id']]['discount_type']=='flat'){
                         $attributeByProduct[$row['product_id']][$row['attribute_id']]['actual_price'] = $attributeByProduct[$row['product_id']][$row['attribute_id']]['price']-$attributeDetail[$row['attribute_id']]['discount_value'];
                     }                    
