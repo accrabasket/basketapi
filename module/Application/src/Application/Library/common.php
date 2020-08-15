@@ -1868,6 +1868,7 @@ class common  {
             for($i=$totalNumberOFAddress-1; $i>=0; $i--){
                 $cityName = trim($addressArr[$i]);
                 $cityResult = $this->commonModel->cityListByname($cityName);
+
                 if(!empty($cityResult)) {
                     $cityData = $cityResult->current();
 		   if(!empty($parameters['get_city_name'])) {
@@ -1892,6 +1893,20 @@ class common  {
 	
            $response =  $this->getCityIdByAddressOrLatLng($params);
         }
+if(empty($response['data']['id'])){
+
+$response['data'] =  array(
+   'id' => 1,
+   'city_name' => 'Accra',
+   'city_synonym' => 'Accra, tema, Ghana',
+   'country_id' => 4,
+   'customer_care_number' => '233553354848',
+   'created_on' => '2018-05-26 11:47:48',
+   'updated_on' => '2020-02-26 08:47:48',
+   'city'=>$parameters['address']
+);
+
+}
         return $response;
         
     }
