@@ -557,7 +557,7 @@ class customer {
                 return $response;
             }
             $orderDetails = $this->calculateDiscountAndAmount($cartData, $parameters); 
-	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount']." (Price and Quantity are subject to availability of the stock.)";
+	    $orderDetails['totalOrderDetails']['payable_amount'] = $orderDetails['totalOrderDetails']['payable_amount'];
             $response = array('status'=>'success','data'=>$orderDetails, 'cartitems'=>$cartData);
         }
         return $response;
@@ -972,9 +972,9 @@ class customer {
         /* code for coupon*/
         $couponData = $this->getAppliedCoupon($item['user_id']);
         $payableAfterCoupon = $this->calculateCoupon($totalOrderDetails['payable_amount'], $couponData);   
-        $totalOrderDetails['payable_amount'] = $payableAfterCoupon['payable'];
+        $totalOrderDetails['payable_amount'] = round($payableAfterCoupon['payable'], 2);
         $totalOrderDetails['coupon_code'] = $payableAfterCoupon['coupon_code'];  
-        $totalOrderDetails['coupon_discount_amount'] = $payableAfterCoupon['coupon_discount_amount']; 
+        $totalOrderDetails['coupon_discount_amount'] = round($payableAfterCoupon['coupon_discount_amount'], 2); 
         //end
         
         $response = array('totalOrderDetails'=>$totalOrderDetails,'order'=>$order, 'merchantItemWiseOrderDetails'=>$merchantItemWisePriceDetails, 'itemWiseOrderDetails'=>$itemWisePriceDetails);
