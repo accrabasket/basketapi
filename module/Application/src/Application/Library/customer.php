@@ -879,6 +879,7 @@ class customer {
                         $discount = $productDetails['default_discount_value']*$item['number_of_item'];
                     }                    
                 }
+	       $discount = round($discount, 2);
                 $order[$productDetails['store_id']]['discount_amount'] += $discount;
                 $merchantItemWisePriceDetails[$productDetails['store_id']][$key]['discount_amount'] = $discount;
                 $itemWisePriceDetails[$key]['discount_amount'] = $discount;
