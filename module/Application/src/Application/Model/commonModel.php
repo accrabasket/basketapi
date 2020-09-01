@@ -152,10 +152,10 @@ class commonModel  {
     public function getMarchantList ($optional = array()) {
         try {
             
-            $query = $this->sql->select('user_master');
-            $query = $query->join('image_master', 'user_master.id = image_master.image_id AND image_master.type="merchant"',array('type', 'image_id', 'image_name'));
+            $query = $this->sql->select('user_master', array('*'));
+            $query->join('image_master', new \Zend\Db\Sql\Expression('user_master.id = image_master.image_id AND image_master.type="merchant"'),array('type', 'image_id', 'image_name'), 'LEFT');
             if (!empty($optional['id'])) {
-                $query = $query->where(array('id' => $optional['id']));
+                $query = $query->where(array('user_master.id' => $optional['id']));
             }elseif(!empty($optional['email'])){
                 $query = $query->where(array('email' => $optional['email']));
             }else{
@@ -167,7 +167,9 @@ class commonModel  {
                 $query->where(array('status'=>1));
                 $query->where(array('role_id' => $roleId));
             }
-            
+//	    $query->where(array('image_master.type'=>'merchant'));
+
+//           echo $query->getSqlString();die;
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             return $result;

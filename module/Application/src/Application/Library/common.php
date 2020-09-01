@@ -465,8 +465,8 @@ class common  {
             $imageData = array();
             foreach ($result as $key => $value) {
                 $data[] = $value;
-                if(!empty($value['image_ext'])){
-                 $imageData[$value['id']] = HTTP_ROOT_PATH.'/merchant/'.$value['id'].'.'.$value['image_ext'];
+                if(!empty($value['image_name'])){
+                 $imageData[$value['id']] = HTTP_ROOT_PATH.'/merchant/'.$value['id'].'/'.$value['image_name'];
                   
                 }
                 
@@ -930,7 +930,7 @@ class common  {
                 $imgHeader = explode(';', $parameters['image']);
                 $imageExt = explode('/', $imgHeader[0]);
                 
-                $params['image_ext'] = $imageExt[1];
+               // $params['image_ext'] = $imageExt[1];
             }
             $response = $this->isValid($rule, $params);
             if(empty($response)) {
@@ -941,9 +941,10 @@ class common  {
                         $imageParams['type'] = 'merchant';
                         $imageParams['id'] = $result;
                         $imageParams['imageType'] = "string";
-                        $imageParams['imageData'] = $parameters['image'];
+                        $imageParams['images'][] = $parameters['image'];
                         $imageParams['make_id_wise_folder'] = 'no';
-                        $this->uploadImage($imageParams);
+			//die($imageParams['type']);
+                        $this->uploadImgParams($imageParams, $result);
                     }
                     $response = array('status'=>'success','msg'=>'Record Saved Successfully.');
                 }else{
@@ -1412,8 +1413,10 @@ class common  {
         error_reporting(0);
         if(empty($imageParams['make_id_wise_folder'])){
             $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';
+            $imagePath1 = $GLOBALS['IMAGEROOTPATH2'].'/'.$imageParams['type'].'/'.$imageParams['id'].'/';
         }else{
             $imagePath = $GLOBALS['IMAGEROOTPATH'].'/'.$imageParams['type'].'/';
+            $imagePath1 = $GLOBALS['IMAGEROOTPATH2'].'/'.$imageParams['type'].'/';
         }
         
         if(!empty($imageParams['imageData'])) {
@@ -1426,15 +1429,21 @@ class common  {
             //$imagData = base64_decode($data[1]);
             @mkdir($imagePath, 0755, true);
             $imagePath = $imagePath.$imageName;
+            
+            @mkdir($imagePath1, 0755, true);
+            $imagePath1 = $imagePath1.$imageName;
+
             $data = explode(';', $imageParams['imageData']);
             $imageData = explode(',', $data[1]);
             $imageBase64Data = base64_decode($imageData[1]); 
             if($data[0] == 'data:image/jpeg' || $data[0] == 'data:image/image/jpeg'){
                 $return['imagename'] = $imageName.'.jpg';
-                file_put_contents($imagePath.'.jpg', $imageBase64Data); 
+                file_put_contents($imagePath.'.jpg', $imageBase64Data);
+                 file_put_contents($imagePath1.'.jpg', $imageBase64Data);  
             }else {
                 $return['imagename'] = $imageName.'.png';
-                file_put_contents($imagePath.'.png', $imageBase64Data);            
+                file_put_contents($imagePath.'.png', $imageBase64Data); 
+                file_put_contents($imagePath1.'.png', $imageBase64Data);           
             }            
 /*            $im = imagecreatefromstring($imagData);die('ss');
             if ($im !== false) {
