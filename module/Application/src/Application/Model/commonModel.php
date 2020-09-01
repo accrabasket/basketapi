@@ -153,6 +153,7 @@ class commonModel  {
         try {
             
             $query = $this->sql->select('user_master');
+            $query = $query->join('image_master', 'user_master.id = image_master.image_id AND image_master.type="merchant"',array('type', 'image_id', 'image_name'));
             if (!empty($optional['id'])) {
                 $query = $query->where(array('id' => $optional['id']));
             }elseif(!empty($optional['email'])){
