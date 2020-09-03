@@ -465,8 +465,12 @@ class common  {
             $imageData = array();
             foreach ($result as $key => $value) {
                 $data[] = $value;
+	
                 if(!empty($value['image_name'])){
-                 $imageData[$value['id']] = HTTP_ROOT_PATH.'/merchant/'.$value['id'].'/'.$value['image_name'];
+		if(empty($value['user_id'])){
+			$value['user_id'] = $value['id'];
+		}
+                 $imageData[$value['id']] = HTTP_ROOT_PATH.'/merchant/'.$value['user_id'].'/'.$value['image_name'];
                   
                 }
                 
