@@ -808,9 +808,9 @@ class customer {
                 $response['status'] = 'success';
                 $response['msg'] = 'order placed successfully.';
                 if(!empty($parentOrderId)) {
-                    $response['data']['order_id'] = $parentOrderId."\n(Price and Quantity are subject to availability of the stock.)";
+                    $response['data']['order_id'] = $parentOrderId;
                 }else{
-                    $response['data']['order_id'] = $orderId."\n(Price and Quantity are subject to availability of the stock.)";
+                    $response['data']['order_id'] = $orderId;
                 }
                 if(!empty($parameters['payment_type']) && $parameters['payment_type'] == 'ezeepay') {
                     $paymentObj = new Payment\ezeepay();
