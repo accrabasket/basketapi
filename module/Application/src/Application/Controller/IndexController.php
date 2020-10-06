@@ -53,6 +53,22 @@ class IndexController extends AbstractActionController {
                     }
                     $response = $this->commonLib->addEditCategory($params,$optional);
                     break;
+                    
+                case 'addEditPromotion':
+                    $params = array();
+                    $optional = array();
+                    $params['category_name'] = $parameters['category_name'];
+                    $params['category_sequence'] = $parameters['category_sequence'];
+                    $params['type'] = !empty($parameters['type']) ? $parameters['type'] : 'percent';
+                    $params['value'] = $parameters['value'];
+                    if (!empty($parameters['id'])) {
+                        $params['id'] = $parameters['id'];
+                    }
+                    if (!empty($parameters['image'])) {
+                        $optional['image'] = $parameters['image'];
+                    }
+                    $response = $this->commonLib->addEditPromotion($params,$optional);
+                    break;                    
 
                 case 'addEditProduct':
                     $response = $this->commonLib->addEditProduct($parameters);
