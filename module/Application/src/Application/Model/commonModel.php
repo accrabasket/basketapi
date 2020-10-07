@@ -142,7 +142,28 @@ class commonModel  {
             return false;
         }
     }
-    
+     public function promotionList ($parameters) {
+        try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('promotion_master');    
+            if(!empty($optional['columns'])){
+                $query->columns($optional['columns']); 
+            }            
+            if (!empty($parameters['id'])) {
+                $query = $query->where(array('promotion_master.id' => $parameters['id']));
+            }
+            if (!empty($parameters['promotion_name'])) {
+                $query = $query->where($where->like('promotion_master.promotion_name',"%".$parameters['promotion_name']."%"));
+            }            
+
+            $query = $query->order(array('promotion_master.promotion_sequence ASC'));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }   
     public function addAttribute($parameters) {
         try {
             $query = $this->sql->insert('product_attribute')
