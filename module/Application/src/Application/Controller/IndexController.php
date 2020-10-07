@@ -57,8 +57,8 @@ class IndexController extends AbstractActionController {
                 case 'addEditPromotion':
                     $params = array();
                     $optional = array();
-                    $params['category_name'] = $parameters['category_name'];
-                    $params['category_sequence'] = $parameters['category_sequence'];
+                    $params['promotion_name'] = $parameters['promotion_name'];
+                    $params['promotion_sequence'] = $parameters['promotion_sequence'];
                     $params['type'] = !empty($parameters['type']) ? $parameters['type'] : 'percent';
                     $params['value'] = $parameters['value'];
                     if (!empty($parameters['id'])) {
@@ -76,6 +76,9 @@ class IndexController extends AbstractActionController {
                     
                 case 'categoryList':
                     $response = $this->commonLib->categoryList($parameters );
+                    break;
+                case 'promotionList':
+                    $response = $this->commonLib->promotionList($parameters );
                     break;
                 case 'getMarchantList':
                     $response = $this->commonLib->getMarchantList($parameters);

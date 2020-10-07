@@ -65,6 +65,7 @@ class commonModel  {
             $result = $satements->execute();
             return $this->adapter->getDriver()->getLastGeneratedValue();
         } catch (\Exception $ex) {
+	    echo $ex->getMessage();die;
             return false;
         }
     }
