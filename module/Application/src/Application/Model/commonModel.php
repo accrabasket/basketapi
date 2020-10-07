@@ -56,7 +56,7 @@ class commonModel  {
         }
     }
     
-    public function addCategory($parameters) {
+    public function addPromotion($parameters) {
         try {
             $query = $this->sql->insert('promotion_master')
                         ->values($parameters);
@@ -69,7 +69,7 @@ class commonModel  {
         }
     }
     
-    public function updateCategory($parameters) {
+    public function updatePromotion($parameters) {
         try {
             $params = array();
             $params['promotion_name'] = $parameters['promotion_name'];
