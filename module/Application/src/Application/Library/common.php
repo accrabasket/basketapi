@@ -39,6 +39,28 @@ class common  {
         }
         return $response;   
     }
+    public function addEditPromotion($parameters , $optional =array()) {
+        $response = array('status'=>'fail','msg'=>'fail ');
+        if(!empty($parameters['id'])){
+            $this->commonModel->updatePromotion($parameters);
+            $result = $parameters['id'];
+        }else {        
+            $result = $this->commonModel->addPromotion($parameters);
+        }
+        if(!empty($result)){            
+            if(!empty($optional['image'])) {
+                $this->deleteImage($result, 'promotion');
+                $imageParams = array();
+                $imageParams['type'] = 'promotion';
+                $imageParams['id'] = $result;
+                $imageParams['imageType'] = "string";
+                $imageParams['images'][] = $optional['image'];
+                $this->uploadImgParams($imageParams, $result);
+            }            
+            $response = array('status'=>'success','msg'=>'promotion Data Saved');
+        }
+        return $response;   
+    }	
     
     function deleteImage($imageId, $type){
         $commonModel = new commonModel();
