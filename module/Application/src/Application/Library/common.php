@@ -459,6 +459,29 @@ class common  {
         return $response;
     }
     
+    public function promotionList($parameters) {       
+        $response = array('status' => 'fail', 'msg' => 'No record found ');                    
+        $result = $this->commonModel->promotionList($parameters);
+        $data = array();
+        if (!empty($result)) {
+            foreach ($result as $key => $value) {
+                $data[$value['id']] = $value;
+            }
+            $imageData = array();
+            if(!empty($data)) {
+                $whereParams = array();
+                $whereParams['image_id'] = array_keys($data);
+                $whereParams['type'] = 'promotion';
+                $categoryImageData = $this->commonModel->fetchImage($whereParams);
+                if(!empty($categoryImageData)) {
+                    $imageData = $this->processResult($categoryImageData, 'image_id', true);
+                }
+            }
+            $response = array('status' => 'success', 'data' => $data, 'images'=>$imageData,'imageRootPath'=>HTTP_ROOT_PATH);
+        }
+	    
+        return $response;
+    }	
     public function getMarchantList($parameters) {
         $keyStr = md5(json_encode($parameters));
         //$response = $this->redis->get($keyStr);
