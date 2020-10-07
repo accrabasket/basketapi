@@ -56,6 +56,36 @@ class commonModel  {
         }
     }
     
+    public function addCategory($parameters) {
+        try {
+            $query = $this->sql->insert('promotion_master')
+                        ->values($parameters);
+            //echo $query->getSqlString();die;
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute();
+            return $this->adapter->getDriver()->getLastGeneratedValue();
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
+    
+    public function updateCategory($parameters) {
+        try {
+            $params = array();
+            $params['promotion_name'] = $parameters['promotion_name'];
+            $params['type'] = $parameters['type'];
+            $params['value'] = $parameters['value'];
+            $params['promotion_sequence'] = $parameters['promotion_sequence'];
+            $query = $this->sql->update('promotion_master')
+                        ->set($params)
+                        ->where(array('id'=>$parameters['id']));
+            $satements = $this->sql->prepareStatementForSqlObject($query);
+            $result = $satements->execute()->getAffectedRows();
+            return $result;
+        } catch (\Exception $ex) {
+            return false;
+        }
+    }
     public function addProduct($parameters) {
         try {
             $query = $this->sql->insert('product_master')
