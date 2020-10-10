@@ -83,6 +83,10 @@ class common  {
                 $productParams['category_id'] = (int)$parameters['category_id'];
                 $productRules['category_id'] = array('type'=>'integer', 'is_required'=>true);
             }
+            if(isset($parameters['promotion_id'])) {
+                $productParams['promotion_id'] = (int)$parameters['promotion_id'];
+                //$productRules['category_id'] = array('type'=>'integer', 'is_req$
+            }
             if(isset($parameters['status'])) {
                 $productParams['status'] = $parameters['status'];
             }
@@ -190,6 +194,8 @@ class common  {
             $productParams['item_code'] = $parameters['item_code'];
             $productParams['product_name'] = $parameters['product_name'];
             $productParams['category_id'] = (int)$parameters['category_id'];
+            $productParams['promotion_id'] = (int)$parameters['promotion_id'];
+	  
             $productParams['status'] = isset($parameters['status'])?$parameters['status']:1;
             $productParams['product_desc'] = !empty($parameters['product_desc'])?$parameters['product_desc']:'';
             if(!empty($parameters['product_discount_type']) && !empty($parameters['product_discount_value'])){
