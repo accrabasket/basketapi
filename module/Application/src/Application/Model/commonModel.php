@@ -315,6 +315,9 @@ class commonModel  {
             if (!empty($optional['id'])) {
                 $query = $query->where(array('product_master.id' => $optional['id']));
             }
+            if (!empty($optional['promotion_id'])) {
+                $query = $query->where(array('product_master.promotion_id' => $optional['promotion_id']));
+            }		
             if (!empty($optional['item_code'])) {
                 $query = $query->where(array('product_master.item_code' => $optional['item_code']));
             }            
