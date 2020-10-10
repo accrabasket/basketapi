@@ -57,6 +57,7 @@ class productModel  {
                 //$query->where(array('product_master.category_id' => $optional['category_id']));
                
             }
+            
             if(!empty($optional['product_name'])){              
                 $optional['product_name'] = addslashes($optional['product_name']);
                 $whereStr .= " $querySeparator(product_master.product_name LIKE '%$optional[product_name]%'";
@@ -105,7 +106,11 @@ class productModel  {
             }
             if(!empty($optional['merchant_id'])) {
                 $query->where(array('merchant_inventry.merchant_id' => $optional['merchant_id']));
-            }              
+            }
+            if(!empty($optional['promotion_id'])) {                         
+                $query->where(array('product_master.promotion_id' => $optional['promotion_id']));
+            }
+              
             $query->where(array('product_master.status' => 1));
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
