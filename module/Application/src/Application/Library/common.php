@@ -703,6 +703,9 @@ class common  {
             if(!empty($parameters['merchant_id'])) {
                 $optional['merchant_id'] = $parameters['merchant_id'];
             }
+            if(!empty($parameters['promotion_id'])) {
+                $optional['promotion_id'] = $parameters['promotion_id'];
+            }		
             $totalRecord = $this->commonModel->getProductListCount($optional);
             foreach ($totalRecord as $key => $value) {
                 $count = $value['count'];
