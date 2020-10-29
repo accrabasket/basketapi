@@ -212,7 +212,7 @@ class commonModel  {
                 $query = $query->where(array('email' => $optional['email']));
             }else{
                 $roleId = 2;
-                $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id');
+                $query = $query->join('user_role_mapping', 'user_master.id = user_role_mapping.user_id', array('user_id','role_id'));
                 if(!empty($optional['user_type']) && $optional['user_type'] == 'admin'){
                     $roleId = 1;
                 }   

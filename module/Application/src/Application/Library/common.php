@@ -511,12 +511,13 @@ class common  {
             }
         }
         $result = $this->commonModel->getMarchantList($optional);
+
         if (!empty($result)) {
             $data = array();
             $imageData = array();
             foreach ($result as $key => $value) {
                 $data[] = $value;
-	
+	     	
                 if(!empty($value['image_name'])){
 		if(empty($value['user_id'])){
 			$value['user_id'] = $value['id'];
