@@ -1,0 +1,33 @@
+
+ Request - 2022-12-24 18:56:37
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"734","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 18:56:56
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 18:57:09
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"222","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 18:58:10
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"344","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 18:58:45
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"3177","action":"add","item_name":"SUNFLOWER OIL 6x1.8L(SUNFLOWER OIL 6x1.8L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 19:04:59
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"748","action":"add","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 19:05:03
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"749","action":"add","item_name":"3 Effect Classic Toothbrush(3 Effect Classic Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-24 19:05:10
+{"method":"addtocart","guest_user_id":"50f1936053520e3e","number_of_item":"1","merchant_inventry_id":"763","action":"add","item_name":"Deep Clean Toothbrush(Deep Clean Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

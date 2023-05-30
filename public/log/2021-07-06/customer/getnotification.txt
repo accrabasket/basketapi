@@ -1,0 +1,13 @@
+
+ Request - 2021-07-06 05:31:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-06 09:39:53
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-06 16:37:24
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

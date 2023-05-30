@@ -1,0 +1,13 @@
+
+ Request - 2021-11-04 03:39:41
+{"method":"getCityIdByAddressOrLatLng","address":"8GV9+8G2, Bangladesh","lat":"25.3429704","lng":"89.5202729"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8GVC+54 Gaibandha, Bangladesh"}}
+ Request - 2021-11-04 08:58:56
+{"method":"getCityIdByAddressOrLatLng","address":"Benidorm, Alicante, Spain","lat":"38.5410566","lng":"-0.1224937"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C. del Esperanto, 17B, 03503 Benidorm, Alicante, Spain"}}
+ Request - 2021-11-04 12:35:28
+{"method":"getCityIdByAddressOrLatLng","address":"204, Kukudungri, Mango, Jamshedpur, Jharkhand 831012, India","lat":"22.8342504","lng":"86.2156685"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"204, Kukudungri, Mango, Jamshedpur, Jharkhand 831012, India"}}

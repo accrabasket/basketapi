@@ -1,0 +1,9 @@
+
+ Request - 2022-02-06 14:08:00
+{"method":"getCityIdByAddressOrLatLng","address":"Tema New Town, Tema, Ghana","lat":"5.653682","lng":"0.0256537"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tema New Town, Tema, Ghana"}}
+ Request - 2022-02-06 14:40:46
+{"method":"getCityIdByAddressOrLatLng","address":"طريق محلي، الرياض 13822، السعودية","lat":"24.9612845","lng":"46.9702768"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XX6C+G4 Ash Sharq, Riyadh Saudi Arabia"}}

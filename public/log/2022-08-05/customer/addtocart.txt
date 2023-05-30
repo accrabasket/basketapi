@@ -1,0 +1,9 @@
+
+ Request - 2022-08-05 05:18:58
+{"method":"addtocart","guest_user_id":"7787851f3f7a702d","number_of_item":"1","merchant_inventry_id":"3101","action":"add","item_name":"500 GHC(500 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-05 10:29:22
+{"method":"addtocart","guest_user_id":"f9bdb3f682132c7b","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

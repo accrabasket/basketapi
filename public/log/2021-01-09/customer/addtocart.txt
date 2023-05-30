@@ -1,0 +1,25 @@
+
+ Request - 2021-01-09 04:55:48
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"785","action":"add","item_name":"Milo Actigen E - Drink"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-09 04:55:53
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"785","action":"add","item_name":"Milo Actigen E - Drink"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-09 04:55:53
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"785","action":"add","item_name":"Milo Actigen E - Drink"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-09 04:55:55
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"785","action":"add","item_name":"Milo Actigen E - Drink"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-09 12:49:08
+{"method":"addtocart","guest_user_id":"b65cec20b2ace6f2","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-09 12:49:13
+{"method":"addtocart","guest_user_id":"b65cec20b2ace6f2","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

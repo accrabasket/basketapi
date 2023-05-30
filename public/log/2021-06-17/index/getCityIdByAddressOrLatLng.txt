@@ -1,0 +1,9 @@
+
+ Request - 2021-06-17 00:43:32
+{"method":"getCityIdByAddressOrLatLng","address":"United States","lat":"37.09024","lng":"-95.712891"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5000 Estate Enighed, Independence, KS 67301, USA"}}
+ Request - 2021-06-17 07:52:32
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nigeria","lat":"7.2805642","lng":"3.9245798"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nigeria"}}

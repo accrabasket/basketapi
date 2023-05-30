@@ -1,0 +1,13 @@
+
+ Request - 2022-02-23 11:27:53
+{"method":"getCityIdByAddressOrLatLng","address":"Province de Taounate, Maroc","lat":"34.5557974","lng":"-4.6176453"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H94J+8W Taounate, Morocco"}}
+ Request - 2022-02-23 13:45:34
+{"method":"getCityIdByAddressOrLatLng","address":"RC7M+45C, Umm Al Qulban 55666, Saudi Arabia","lat":"27.8144586","lng":"41.4329607"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RC7M+Q5 Umm Al Qulban Saudi Arabia"}}
+ Request - 2022-02-23 14:51:24
+{"method":"getCityIdByAddressOrLatLng","address":"Xalapa, Veracruz, Mexique","lat":"19.5437751","lng":"-96.91018059999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sin nombre No. 1179 LB, El Mirador, 91170 Xalapa-Enr\u00edquez, Ver., Mexico"}}

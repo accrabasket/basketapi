@@ -1,0 +1,5 @@
+
+ Request - 2022-08-07 23:54:44
+{"method":"login","email":"edarko434@gmail.com","password":"jesuschrist123","fcm_reg_id":"elxxuxgPtnI:APA91bF_LqW16p3hVxoVXgI6TcbkfhWCxtagKMkuAqKVyWWCPL2Whf1LEfX2vpJmGOe4vzMJfJ15jbBl1DCHqvI4qXNR88Ncs4hxNeBA467xp74twFcnB8695C_Y16CH7GeHqIzglGXB"}
+ Response :- 
+{"status":"success","data":{"8582":{"id":8582,"name":"Eric","mobile_number":"248571756","email":"edarko434@gmail.com","key":"370a33f7a722bba49ec2f574878c2bab","password":"af2ebb1ad8af64d773a530353842ebbe","fcm_reg_id":"elxxuxgPtnI:APA91bF_LqW16p3hVxoVXgI6TcbkfhWCxtagKMkuAqKVyWWCPL2Whf1LEfX2vpJmGOe4vzMJfJ15jbBl1DCHqvI4qXNR88Ncs4hxNeBA467xp74twFcnB8695C_Y16CH7GeHqIzglGXB","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-08-07 23:54:21","updated_date":"2022-08-07 23:54:21","status":"1"}},"totalNumberOfUser":1,"wallet_key":"af2ebb1ad8af64d773a530353842ebbe"}

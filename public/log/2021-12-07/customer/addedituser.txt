@@ -1,0 +1,5 @@
+
+ Request - 2021-12-07 18:41:00
+{"method":"addedituser","city_id":"1","password":"08102316788","name":"Osaretin Julius","email":"Osaretinjulius01@gmail.com","mobile_number":"9137106848","country_code":"+233","id":"0","fcm_reg_id":"chuWyYh7rZ0:APA91bFJCIQHB1Ady9pl8zZgr0TilfA3eN_QW739-t9-OpQAhiGJrXNWSDSRwhjEn7-gbk2V59Sfr3sU3D0tSorEgtoVq9MSKgaSzAboG4y6oiepZyXp0NGDAnQhhitHOkxTjnEhiuaI"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2339137106848 and registered email id.","data":{"6510":{"id":6510,"name":"Osaretin Julius","mobile_number":"9137106848","email":"Osaretinjulius01@gmail.com","key":"63ca236147d5c6ced15472edd79c6d6d","password":"79399778e351613fc8f8239549e4b0a5","fcm_reg_id":"chuWyYh7rZ0:APA91bFJCIQHB1Ady9pl8zZgr0TilfA3eN_QW739-t9-OpQAhiGJrXNWSDSRwhjEn7-gbk2V59Sfr3sU3D0tSorEgtoVq9MSKgaSzAboG4y6oiepZyXp0NGDAnQhhitHOkxTjnEhiuaI","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-12-07 18:40:59","updated_date":"2021-12-07 18:40:59","status":"1"}}}

@@ -1,0 +1,5 @@
+
+ Request - 2022-02-01 03:54:59
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

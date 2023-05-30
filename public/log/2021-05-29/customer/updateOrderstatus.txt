@@ -1,0 +1,5 @@
+
+ Request - 2021-05-29 14:57:27
+{"method":"updateOrderstatus","user_id":"800","order_id":"order_m4_620","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"800","order_id":"order_m4_620"}}

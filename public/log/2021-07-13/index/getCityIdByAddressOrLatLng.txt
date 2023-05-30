@@ -1,0 +1,25 @@
+
+ Request - 2021-07-13 02:06:07
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Rwanda","lat":"-2.6912692","lng":"29.4967637"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Rwanda"}}
+ Request - 2021-07-13 03:47:29
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-07-13 07:16:01
+{"method":"getCityIdByAddressOrLatLng","address":"48 Gunning Road, Azuiyi Udene, Abakaliki, Nigeria","lat":"6.3223692","lng":"8.1143244"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"48 Gunning Road, Azuiyi Udene, Abakaliki, Nigeria"}}
+ Request - 2021-07-13 09:28:06
+{"method":"getCityIdByAddressOrLatLng","address":"Bakaur, Bihar 852130, India","lat":"26.0636463","lng":"86.5171813"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Parsarma-Bakuar Rd, Bakaur, Bihar 852130, India"}}
+ Request - 2021-07-13 11:46:54
+{"method":"getCityIdByAddressOrLatLng","address":"Chhutmalpur Bus Depot, Chhutmalpur, Saharanpur, NH-72A, Dehradun Road, Saharanpur, Saharanpur, Uttar Pradesh 247662, India","lat":"30.034204","lng":"77.7507515"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Chhutmalpur Bus Depot, Chhutmalpur, Saharanpur, NH-72A, Dehradun Road, Saharanpur, Saharanpur, Uttar Pradesh 247662, India"}}
+ Request - 2021-07-13 16:59:36
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Mwene-Ditu, République démocratique du Congo","lat":"-7.0065434","lng":"23.4508368"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Mwene-Ditu, Democratic Republic of the Congo"}}

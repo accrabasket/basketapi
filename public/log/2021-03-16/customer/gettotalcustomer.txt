@@ -1,0 +1,45 @@
+
+ Request - 2021-03-16 03:23:39
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":1}}
+ Request - 2021-03-16 03:24:34
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":1}}
+ Request - 2021-03-16 03:25:49
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":1}}
+ Request - 2021-03-16 03:33:29
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2016}}
+ Request - 2021-03-16 10:10:23
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2016}}
+ Request - 2021-03-16 10:50:29
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2017}}
+ Request - 2021-03-16 12:06:38
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2018}}
+ Request - 2021-03-16 12:16:20
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2018}}
+ Request - 2021-03-16 12:18:02
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2018}}
+ Request - 2021-03-16 12:25:44
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2018}}
+ Request - 2021-03-16 13:26:48
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2018}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-12-07 18:41:07
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"9137106848"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2339137106848","otp_type":"register","user_id":"0","otp":4775,"expiry_date":"2021-12-07 18:56:07"}}

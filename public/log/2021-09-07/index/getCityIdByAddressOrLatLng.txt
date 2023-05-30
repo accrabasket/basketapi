@@ -1,0 +1,21 @@
+
+ Request - 2021-09-07 05:23:36
+{"method":"getCityIdByAddressOrLatLng","address":"Sector 18, Noida, Uttar Pradesh 201301, India","lat":"28.5672528","lng":"77.3211639"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"369, Sector 18, Noida, Uttar Pradesh 201301, India"}}
+ Request - 2021-09-07 12:34:56
+{"method":"getCityIdByAddressOrLatLng","address":"B-92014, Jaswant Singh Marg, Nizam Nagar, Hindpiri, Ranchi, Jharkhand 834001, India","lat":"23.3651458","lng":"85.316045"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"B-92014, Jaswant Singh Marg, Nizam Nagar, Hindpiri, Ranchi, Jharkhand 834001, India"}}
+ Request - 2021-09-07 13:35:17
+{"method":"getCityIdByAddressOrLatLng","address":"الأتارب،، الأتارب، سوريا","lat":"36.1367088","lng":"36.831729"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0627\u0644\u0623\u062a\u0627\u0631\u0628\u060c\u060c Al At\u0101rib, Syria"}}
+ Request - 2021-09-07 18:52:00
+{"method":"getCityIdByAddressOrLatLng","address":"Akure South, Ondo, Nigeria","lat":"7.26927","lng":"5.184069"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, 340110, Akure, Nigeria"}}
+ Request - 2021-09-07 21:52:27
+{"method":"getCityIdByAddressOrLatLng","address":"A1, Doropo, Côte d'Ivoire","lat":"9.8051424","lng":"-3.3401128"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A1, Doropo, C\u00f4te d'Ivoire"}}

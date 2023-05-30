@@ -1,0 +1,5 @@
+
+ Request - 2022-05-05 19:41:08
+{"method":"addeditdeliveryaddress","house_number":"Devtraco courts CC33","area":"","street_detail":"Dakar Drive Cotonou Crescent ","contact_name":"Taishani","city_name":"Devtraco Courts, Community 25, Tema, Ghana","city_id":"1","lat":"5.733302999999999","long":"0.03940949999999999","user_id":"8307","address_nickname":"Devtraco Tema","landmark":"Near community 25 mall","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":629}}

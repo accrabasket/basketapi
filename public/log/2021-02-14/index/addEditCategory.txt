@@ -1,0 +1,9 @@
+
+ Request - 2021-02-14 06:23:08
+{"parent_category_id":"65","category_name":"Oats & Pasta","category_des":"","category_sequence":"5","id":"86","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-02-14 06:27:02
+{"parent_category_id":"65","category_name":"Oats & Meusli","category_des":"","category_sequence":"0","id":"139","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}

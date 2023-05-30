@@ -1,0 +1,17 @@
+
+ Request - 2021-07-08 05:07:54
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3821}}
+ Request - 2021-07-08 16:19:04
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3821}}
+ Request - 2021-07-08 16:30:35
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3821}}
+ Request - 2021-07-08 16:38:47
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3821}}

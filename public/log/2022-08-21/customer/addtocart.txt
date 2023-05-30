@@ -1,0 +1,33 @@
+
+ Request - 2022-08-21 05:03:45
+{"method":"addtocart","guest_user_id":"c8ed69b4680e6fc5","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 05:03:47
+{"method":"addtocart","guest_user_id":"c8ed69b4680e6fc5","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 05:04:43
+{"method":"addtocart","guest_user_id":"c8ed69b4680e6fc5","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 05:04:48
+{"method":"addtocart","guest_user_id":"c8ed69b4680e6fc5","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 05:04:50
+{"method":"addtocart","guest_user_id":"c8ed69b4680e6fc5","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 05:05:05
+{"method":"addtocart","guest_user_id":"c8ed69b4680e6fc5","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 13:30:42
+{"method":"addtocart","guest_user_id":"c1e00559a3a3d622","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-21 19:12:17
+{"method":"addtocart","guest_user_id":"8d562a92d7cdfef3","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

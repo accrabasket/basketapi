@@ -1,0 +1,5 @@
+
+ Request - 2022-05-03 20:01:23
+{"method":"addeditdeliveryaddress","house_number":"Legon hall annex B","area":"","street_detail":"Barimah Rd","contact_name":"Selina","city_name":"Barimah Rd, Accra, Ghana","city_id":"1","lat":"5.6469649","long":"-0.1884643","user_id":"8304","address_nickname":"Legon hall annex B, university of Ghana","landmark":"Sarbah field","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":626}}

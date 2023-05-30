@@ -1,0 +1,77 @@
+
+ Request - 2021-06-15 07:53:08
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 07:53:57
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 07:54:32
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 08:40:51
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 08:41:39
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 08:42:26
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 08:45:35
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 08:49:41
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 09:03:41
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 09:12:03
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:01:22
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:02:00
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:02:11
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:02:34
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:02:47
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:08:13
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:31:50
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:32:11
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-06-15 10:32:49
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}

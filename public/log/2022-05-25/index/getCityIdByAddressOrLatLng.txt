@@ -1,0 +1,17 @@
+
+ Request - 2022-05-25 10:47:11
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 37, F-11 Markaz F 11 Markaz F-11, Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.6854559","lng":"72.9878095"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 37, F-11 Markaz F 11 Markaz F-11, Islamabad, Islamabad Capital Territory, Pakistan"}}
+ Request - 2022-05-25 15:24:25
+{"method":"getCityIdByAddressOrLatLng","address":"NH168, Revdar, Rajasthan 307514, India","lat":"24.5945514","lng":"72.5577062"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HHV5+R3 Loonol, Rajasthan, India"}}
+ Request - 2022-05-25 17:32:11
+{"method":"getCityIdByAddressOrLatLng","address":"KenyaNairobiLangata","lat":"-1.34042","lng":"36.73731"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MP5P+CXX, Fair Acres Road, Nairobi, Kenya"}}
+ Request - 2022-05-25 20:24:29
+{"method":"getCityIdByAddressOrLatLng","address":"5R86+Q57, Fardahia, Bihar 841417, India","lat":"26.1661081","lng":"84.8120531"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5R86+CR Dumarshan, Bihar, India"}}

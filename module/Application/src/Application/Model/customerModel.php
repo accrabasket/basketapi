@@ -1068,7 +1068,10 @@ class customerModel  {
             }
             if(!empty($whereParams['user_id'])) {
                 $query = $query->where(array('user_id'=>$whereParams['user_id']));
-            }             
+            }     
+            if(isset($whereParams['show_coupon'])) {
+            	$query = $query->where(array('show_coupon'=>$whereParams['show_coupon']));                     
+            }        
             if(!empty($optional['pagination'])) {
                 $startLimit = ($optional['page']-1)*PER_PAGE_LIMIT;
                 $query->limit(PER_PAGE_LIMIT)->offset($startLimit);
@@ -1120,12 +1123,12 @@ class customerModel  {
         }      
     }
     
-    function getAppliedCoupon($userId) {
+    function getAppliedCoupon($userId, $couponType='applied') {
         try {
             $query = $this->sql->select('coupon_master');
             $query = $query->join('applied_user_coupon_mapping', 'applied_user_coupon_mapping.coupon_id = coupon_master.id',array());   
             $query->where(array('applied_user_coupon_mapping.user_id'=>$userId))
-                    ->where(array('applied_user_coupon_mapping.status'=>'applied'));
+                    ->where(array('applied_user_coupon_mapping.status'=>$couponType));
             $satements = $this->sql->prepareStatementForSqlObject($query);
             $result = $satements->execute();
             $result = $result->current();
@@ -1168,5 +1171,44 @@ class customerModel  {
         } catch (\Exception $ex) {
             return false;
         }         
-    }    
+    }
+    public function getSpecialUserOffer($parameters) {
+       try {
+            $where = new \Zend\Db\Sql\Where();
+            $query = $this->sql->select('special_user_offer_master');   
+ 
+            
+           
+           $query = $query->where($where->lessThanOrEqualTo('special_user_offer_master.start_datetime', date('Y-m-d H:i:s')));
+           $query = $query->where($where->greaterThanOrEqualTo('special_user_offer_master.end_datetime', date('Y-m-d H:i:s')));          
+            if(!empty($parameters['mobile_number']) || !empty($parameters['email'])) {
+                $query = $query->where(array('special_user_offer_master.username' => array($parameters['mobile_number'],$parameters['email'])));
+            }      
+            $query = $query->where(array('special_user_offer_master.status' => '1'));
+           $satements = $this->sql->prepareStatementForSqlObject($query);
+           $result = $satements->execute();
+           return $result->current();
+        } catch (\Exception $ex) {
+            return false;
+        }       	
+    } 
+    public function addReduceWalletAmount($amount, $where) {
+        try {
+		$data = array(
+		    'amount' => new \Zend\Db\Sql\Expression("amount+".$amount)
+		);
+		if(!empty($where)) {
+			$query = $this->sql->update('wallet_master')
+			->set($data)
+			->where($where);
+		$satements = $this->sql->prepareStatementForSqlObject($query);
+		$result = $satements->execute();
+		return true;
+		}else{
+		return false;
+		}     
+        } catch (\Exception $ex) {
+            return false;
+        }         
+    }             
 }

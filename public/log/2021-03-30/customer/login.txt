@@ -1,0 +1,5 @@
+
+ Request - 2021-03-30 16:27:25
+{"method":"login","email":"globalansahs@gmail.com ","password":"cryptology","fcm_reg_id":"dUWCJ8_IYms:APA91bG_rEMlYZOE8qFeTuk5Fc2rhcOIJ1xnR2zvWqQwWGUQ0hOiesQaWnyTk-7eW9KDD-7Z7R-N7X9HjGzAoJodICkrbfIj5RRYOoGJ2cxnG_OZ7QwqmcJ4SD6-lQsDv8FektgFC2F_"}
+ Response :- 
+{"status":"success","data":{"2211":{"id":2211,"name":"Alexander Ansah","mobile_number":"247629924","email":"globalansahs@gmail.com","key":"cd3eaf54ffaa9c9c77267d117ecff002","password":"4bc51a2551c123b1921623dc7049f612","fcm_reg_id":"dUWCJ8_IYms:APA91bG_rEMlYZOE8qFeTuk5Fc2rhcOIJ1xnR2zvWqQwWGUQ0hOiesQaWnyTk-7eW9KDD-7Z7R-N7X9HjGzAoJodICkrbfIj5RRYOoGJ2cxnG_OZ7QwqmcJ4SD6-lQsDv8FektgFC2F_","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-03-30 16:26:19","updated_date":"2021-03-30 16:26:19","status":"1"}},"totalNumberOfUser":1,"wallet_key":"4bc51a2551c123b1921623dc7049f612"}

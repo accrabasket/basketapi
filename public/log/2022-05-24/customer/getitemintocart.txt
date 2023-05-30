@@ -1,0 +1,61 @@
+
+ Request - 2022-05-24 07:52:52
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"success","data":{"229":{"id":17294,"user_id":0,"guest_user_id":"8783b3868f3a03bd","merchant_inventry_id":229,"item_name":"Cinnamon Powder(Cinnamon Powder)","number_of_item":1,"created_date":"2021-09-24 07:12:09"},"1044":{"id":17295,"user_id":0,"guest_user_id":"8783b3868f3a03bd","merchant_inventry_id":1044,"item_name":"Mixed Pickle(Mixed Pickle)","number_of_item":1,"created_date":"2021-09-24 07:12:15"},"1035":{"id":17296,"user_id":0,"guest_user_id":"8783b3868f3a03bd","merchant_inventry_id":1035,"item_name":"Hot Chilli Pickle(Hot Chilli Pickle)","number_of_item":1,"created_date":"2021-09-24 07:12:15"}},"productDetails":{"status":"success","data":{"229":{"id":229,"price":"15.50","product_id":385,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Cinnamon Powder","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"1035":{"id":1035,"price":"21.99","product_id":1318,"merchant_id":4,"store_id":4,"merchant_product_code":"10374","product_name":"Hot Chilli Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Green Chilli (56 percent), Sunflower Oil, Salt, Lime Juice, Mustard, Fenugreek, Vinegar, Ginger, Ground, Spices, Asafoetida, Preservative, Acetic Acid\",\"Storage\":\"Once Opened Remove to an Airtight Container. Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"},"1044":{"id":1044,"price":"21.99","product_id":1327,"merchant_id":4,"store_id":4,"merchant_product_code":"10375","product_name":"Mixed Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Mango (34 percent), Limes (20 percent), Sunflower Oil, Salt, Chili (10 percent), Vinegar, Fenugreek, Mustard, Ground Spices, Garlic, Asafoetida\",\"Storage\":\"Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"}},"productImageData":{"385":[{"id":303,"type":"product","image_id":385,"image_name":"6033000220516.jpg"}],"1318":[{"id":1598,"type":"product","image_id":1318,"image_name":"10374.jpg"}],"1327":[{"id":1608,"type":"product","image_id":1327,"image_name":"10375.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-24 09:30:21
+{"method":"getitemintocart","guest_user_id":"5ff394dee07964fb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 11:27:29
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 11:28:58
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 12:05:46
+{"method":"getitemintocart","guest_user_id":"638af325d5d32033"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 13:06:10
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 13:08:23
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 14:04:35
+{"method":"getitemintocart","guest_user_id":"a353e425eb6bf8ee"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 14:12:04
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 14:12:50
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 17:18:48
+{"method":"getitemintocart","guest_user_id":"9d1655078b505d23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 18:53:49
+{"method":"getitemintocart","guest_user_id":"cb4566bf5823f54f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 21:37:54
+{"method":"getitemintocart","guest_user_id":"0e9bf1bb2d081e75"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-24 22:16:54
+{"method":"getitemintocart","guest_user_id":"6dd91b98878a4d01"}
+ Response :- 
+{"status":"success","data":{"236":{"id":21171,"user_id":0,"guest_user_id":"6dd91b98878a4d01","merchant_inventry_id":236,"item_name":"Corn Flour(Corn Flour)","number_of_item":1,"created_date":"2022-05-12 14:03:24"}},"productDetails":{"status":"success","data":{"236":{"id":236,"price":"8.50","product_id":391,"merchant_id":3,"store_id":2,"merchant_product_code":"6291023141","product_name":"Corn Flour","product_desc":"Corn starch, or corn flour, is the starch of the corn (maize) grain. It is different from maize flour or makkai ka atta. Maize flour is milled from the whole kernel, while corn starch is obtained from the endosperm portion of the kernel.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"FreshCo","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"391":[{"id":309,"type":"product","image_id":391,"image_name":"6291023141427.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-24 22:16:56
+{"method":"getitemintocart","guest_user_id":"6dd91b98878a4d01"}
+ Response :- 
+{"status":"success","data":{"236":{"id":21171,"user_id":0,"guest_user_id":"6dd91b98878a4d01","merchant_inventry_id":236,"item_name":"Corn Flour(Corn Flour)","number_of_item":1,"created_date":"2022-05-12 14:03:24"}},"productDetails":{"status":"success","data":{"236":{"id":236,"price":"8.50","product_id":391,"merchant_id":3,"store_id":2,"merchant_product_code":"6291023141","product_name":"Corn Flour","product_desc":"Corn starch, or corn flour, is the starch of the corn (maize) grain. It is different from maize flour or makkai ka atta. Maize flour is milled from the whole kernel, while corn starch is obtained from the endosperm portion of the kernel.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"FreshCo","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"391":[{"id":309,"type":"product","image_id":391,"image_name":"6291023141427.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

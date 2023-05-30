@@ -1,0 +1,17 @@
+
+ Request - 2022-09-14 04:02:46
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، هرية رزنة، مركز الزقازيق، الشرقية، مصر","lat":"30.5935374","lng":"31.5596326"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HHV5+CV Zagazig, Egypt"}}
+ Request - 2022-09-14 06:55:11
+{"method":"getCityIdByAddressOrLatLng","address":"47 вулиця Герцена, Донецьк 83000","lat":"48.0135799","lng":"37.8569378"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"47 Hertsena St, Donetsk 83000"}}
+ Request - 2022-09-14 12:53:43
+{"method":"getCityIdByAddressOrLatLng","address":"PG7J+PW6, Jl. Raya Panongan, Panongan, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia","lat":"-6.2856869","lng":"106.5322185"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PG7J+PW6, Jl. Raya Panongan, Panongan, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia"}}
+ Request - 2022-09-14 21:39:13
+{"method":"getCityIdByAddressOrLatLng","address":"XXQV+7H9, Bali - Jalingo Rd, 672101, Mai Fula, Nigeria","lat":"7.9890462","lng":"10.9935949"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XXQV+7H9, Bali - Jalingo Rd, 672101, Mai Fula, Nigeria"}}

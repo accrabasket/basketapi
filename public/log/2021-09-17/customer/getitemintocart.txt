@@ -1,0 +1,29 @@
+
+ Request - 2021-09-17 05:36:16
+{"method":"getitemintocart","guest_user_id":"2e54586e4e4d2e64"}
+ Response :- 
+{"status":"success","data":{"788":{"id":17178,"user_id":0,"guest_user_id":"2e54586e4e4d2e64","merchant_inventry_id":788,"item_name":"Morning Fresh Zesty Lemon dishwashing liquid(Morning Fresh Zesty Lemon dishwashing liquid)","number_of_item":1,"created_date":"2021-09-10 05:34:15"}},"productDetails":{"status":"success","data":{"788":{"id":788,"price":"7.99","product_id":1072,"merchant_id":4,"store_id":4,"merchant_product_code":"57878","product_name":"Morning Fresh Zesty Lemon dishwashing liquid","product_desc":"Morning Fresh Australia\u2019s #1 dishwashing liquid with its superior grease cutting power is super concentrated, so only one squirt is enough to power through the greasiest pile of dishes for spotless and sparkling clean dishes. This means your dishes will be cleaner faster and you\u2019ll have more time to enjoy doing the things you love.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Aqua, Sodium Laureth Sulphate, Cocamidopropyl Betaine, Sodium Chloride, Lactic Acid, Sodium Benzoate, Parfum, Limonene, Geraniol, Citral, Linalool, Colorants, Vinegar.\"}","brand_name":"Cussons","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":450,"tax_value":"3"}},"productImageData":{"1072":[{"id":1497,"type":"product","image_id":1072,"image_name":"57878.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-17 13:14:13
+{"method":"getitemintocart","guest_user_id":"ff979537e893c0fd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-17 14:55:39
+{"method":"getitemintocart","guest_user_id":"1a8085e0a461edb0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-17 15:12:37
+{"method":"getitemintocart","guest_user_id":"1c988a9337ef98d4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-17 17:11:32
+{"method":"getitemintocart","guest_user_id":"c864d9e7fa6c1ff2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-17 19:11:28
+{"method":"getitemintocart","guest_user_id":"85ed0e7bef9e9588"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-17 19:21:36
+{"method":"getitemintocart","guest_user_id":"3a3ff957a44155f8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-12-14 22:43:02
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-12-14 22:43:05
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

@@ -1,0 +1,41 @@
+
+ Request - 2022-01-15 07:33:18
+{"method":"addtocart","guest_user_id":"5a320a4d32158ee2","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 12:43:28
+{"method":"addtocart","guest_user_id":"08f1915af8d9e877","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 12:43:35
+{"method":"addtocart","guest_user_id":"08f1915af8d9e877","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 12:43:37
+{"method":"addtocart","guest_user_id":"08f1915af8d9e877","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 16:47:16
+{"method":"addtocart","guest_user_id":"eb1ce4cdf9051274","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 16:47:20
+{"method":"addtocart","guest_user_id":"eb1ce4cdf9051274","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 16:47:23
+{"method":"addtocart","guest_user_id":"eb1ce4cdf9051274","number_of_item":"1","merchant_inventry_id":"3479","action":"delete","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 16:47:39
+{"method":"addtocart","guest_user_id":"eb1ce4cdf9051274","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 16:47:41
+{"method":"addtocart","guest_user_id":"eb1ce4cdf9051274","number_of_item":"1","merchant_inventry_id":"3479","action":"delete","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-15 16:47:49
+{"method":"addtocart","guest_user_id":"eb1ce4cdf9051274","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

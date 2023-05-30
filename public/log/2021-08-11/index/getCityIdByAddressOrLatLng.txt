@@ -1,0 +1,13 @@
+
+ Request - 2021-08-11 09:33:28
+{"method":"getCityIdByAddressOrLatLng","address":"Mundra - Gandhidham Rd, Bhadreshwar, Gujarat 370410, India","lat":"22.9084445","lng":"69.8993856"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mundra - Gandhidham Rd, Bhadreshwar, Gujarat 370410, India"}}
+ Request - 2021-08-11 09:35:44
+{"method":"getCityIdByAddressOrLatLng","address":"WV5X+6H9, Bhadreshwar, Gujarat 370410, India","lat":"22.9080397","lng":"69.8990133"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WV5X+6H9, Bhadreshwar, Gujarat 370410, India"}}
+ Request - 2021-08-11 16:00:14
+{"method":"getCityIdByAddressOrLatLng","address":"Ndouci, Côte d'Ivoire","lat":"5.8679983","lng":"-4.7588042"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V69R+5FW, Ndouci, C\u00f4te d'Ivoire"}}

@@ -1,0 +1,69 @@
+
+ Request - 2022-03-27 08:01:10
+{"method":"addtocart","guest_user_id":"0ec32c9ab1cfe6f9","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:03
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:13
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"delete","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:14
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:15
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:16
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:17
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"delete","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:18
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"delete","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:19
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"delete","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 10:42:29
+{"method":"addtocart","guest_user_id":"5acd5ef40485dec2","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:56:27
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:56:30
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:56:58
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:57:54
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"858","action":"delete","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:57:55
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"858","action":"delete","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:57:56
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-27 19:57:57
+{"method":"addtocart","guest_user_id":"de209a476d471ec2","number_of_item":"1","merchant_inventry_id":"858","action":"delete","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

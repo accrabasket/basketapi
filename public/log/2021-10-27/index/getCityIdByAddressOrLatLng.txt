@@ -1,0 +1,13 @@
+
+ Request - 2021-10-27 17:14:09
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Mvane, Cameroun","lat":"4.5078473","lng":"12.12915"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G45H+4M Mvane, Cameroon"}}
+ Request - 2021-10-27 18:18:38
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 152, Sector 33\/E Sector 33 E Korangi, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8362194","lng":"67.1357564"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 152, Sector 33\/E Sector 33 E Korangi, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2021-10-27 21:14:05
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Rumah Sakit No.115, Sukamulya, Cinambo, Kota Bandung, Jawa Barat 40614, Indonesia","lat":"-6.9244319","lng":"107.6964527"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Rumah Sakit No.115, Sukamulya, Cinambo, Kota Bandung, Jawa Barat 40614, Indonesia"}}

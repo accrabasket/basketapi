@@ -1,0 +1,9 @@
+
+ Request - 2021-04-13 13:32:08
+{"method":"updateOrderstatus","user_id":"90","order_id":"order_P_228","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"90","order_id":"order_P_228"}}
+ Request - 2021-04-13 13:32:16
+{"method":"updateOrderstatus","user_id":"90","order_id":"order_P_227","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"90","order_id":"order_P_227"}}

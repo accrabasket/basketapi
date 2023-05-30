@@ -1,0 +1,5 @@
+
+ Request - 2021-02-25 20:23:52
+{"method":"verifyotp","country_code":"+233","mobile_number":"554107511","otp_type":"register","otp":"5742"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"7c45cc6f778c4372a57b7caceec1f61f"}}

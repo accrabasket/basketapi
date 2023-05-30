@@ -1,0 +1,17 @@
+
+ Request - 2021-10-12 15:47:23
+{"method":"getCityIdByAddressOrLatLng","address":"طيبه تشا، الطيبة، طلخا، الدقهلية،، الطيبة، مركز نبروة، الدقهلية، مصر","lat":"31.135138","lng":"31.31051"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0637\u064a\u0628\u0647 \u062a\u0634\u0627\u060c \u0627\u0644\u0637\u064a\u0628\u0629\u060c \u0637\u0644\u062e\u0627\u060c \u0627\u0644\u062f\u0642\u0647\u0644\u064a\u0629\u060c\u060c At Tibah, Nabaroh, Dakahlia Governorate, Egypt"}}
+ Request - 2021-10-12 19:28:26
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Bertoua, Cameroun","lat":"4.5741886","lng":"13.6675682"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HMF9+M2 Bertoua, Cameroon"}}
+ Request - 2021-10-12 20:01:16
+{"method":"getCityIdByAddressOrLatLng","address":"Moabrücke, Daru, Sierra Leone","lat":"7.9935893","lng":"-10.8463502"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X5V3+CF Daru, Sierra Leone"}}
+ Request - 2021-10-12 21:37:35
+{"method":"getCityIdByAddressOrLatLng","address":"Gice, Blk J3\/ 48L, weija, Ghana","lat":"5.5539541","lng":"-0.3434949"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Gice, Blk J3\/ 48L, weija, Ghana"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-04-28 06:55:32
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcw","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3537","attribute":[{"name":"HARD WING","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","id":"3549"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3537","attribute":["3549"]}}
+ Request - 2021-04-28 06:55:41
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcw1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3538","attribute":[{"name":"HARD WING","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","id":"3550"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3538","attribute":["3550"]}}

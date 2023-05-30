@@ -1,0 +1,17 @@
+
+ Request - 2021-03-06 06:25:11
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-06 10:17:42
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-06 13:20:17
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-06 16:51:14
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

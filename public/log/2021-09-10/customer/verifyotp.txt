@@ -1,0 +1,5 @@
+
+ Request - 2021-09-10 10:06:29
+{"method":"verifyotp","country_code":"+233","mobile_number":"265371226","otp_type":"register","otp":"8283"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"7fc5cd713dadc6aa22cf933844830520"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-05-28 14:50:26
+{"method":"addtocart","guest_user_id":"62ced845eb1a76d6","number_of_item":"1","merchant_inventry_id":"388","action":"add","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-28 18:25:53
+{"method":"addtocart","guest_user_id":"a44fdc36e4f392d5","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-28 22:02:01
+{"method":"addtocart","guest_user_id":"0ebe546e307afedd","number_of_item":"1","merchant_inventry_id":"2049","action":"add","item_name":"Baby Wet Wipes - Multi Vitamine(Baby Wet Wipes - Multi Vitamine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-28 22:03:28
+{"method":"addtocart","guest_user_id":"0ebe546e307afedd","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,1721 @@
+
+ Request - 2021-07-24 05:17:32
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6642,"subject":"Order placed","msg":"New Order order_m4_701 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-07-23 17:46:07","updated_date":null},{"id":6640,"subject":"Order placed","msg":"New Order order_m4_700 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-07-23 17:44:07","updated_date":null},{"id":6638,"subject":"Order placed","msg":"New Order order_m4_699 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-07-23 17:40:01","updated_date":null},{"id":6636,"subject":"Order placed","msg":"New Order order_m4_698 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-07-23 17:38:26","updated_date":null}],"totalRecord":4}
+ Request - 2021-07-24 05:17:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:18:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:19:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:20:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:21:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:22:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:23:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:24:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:25:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:26:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:27:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:28:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:29:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:30:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:31:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:32:51
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:33:52
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:34:53
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:35:54
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:36:55
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:37:56
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:38:57
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:39:58
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:40:59
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:42:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:43:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:44:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:45:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:46:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:47:05
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:48:06
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:49:07
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:50:08
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:51:09
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:52:10
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:53:11
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:54:12
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:55:13
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:56:14
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:57:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:58:16
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 05:59:17
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:00:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:26:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:27:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:28:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:29:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:30:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:31:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:32:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:33:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:34:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:35:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:36:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:37:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:38:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:39:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:40:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:41:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:42:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:43:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:44:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:45:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:46:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:47:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:48:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:50:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:51:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:52:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:53:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:54:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:55:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:56:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:57:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:58:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 06:59:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:00:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:26:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:27:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:28:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:29:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:30:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:31:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:32:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:33:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:34:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:35:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:36:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:37:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:38:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:39:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:40:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:41:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:42:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:43:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:44:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:45:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:46:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:47:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:48:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:50:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:51:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:52:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:53:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:54:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:55:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:56:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:57:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:58:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 07:59:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:00:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:26:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:27:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:28:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:29:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:30:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:31:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:32:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:33:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:34:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:35:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:36:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:37:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:38:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:39:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:40:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:41:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:42:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:43:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:44:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:45:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:46:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:47:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:48:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:50:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:51:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:52:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:53:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:54:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:55:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:56:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:57:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:58:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 08:59:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:00:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:26:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:27:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:28:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:29:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:30:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:31:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:32:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:33:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:34:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:35:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:36:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:37:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:38:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:39:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:40:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:41:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:42:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:43:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:44:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:45:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:46:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:47:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:48:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:50:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:51:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:52:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:53:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:54:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:55:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:56:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:57:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:58:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 09:59:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:00:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:26:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:27:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:28:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:29:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:30:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:31:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:32:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:33:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:34:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:35:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:36:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:37:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:38:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:39:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:40:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:41:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:42:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:43:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:44:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:45:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:46:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:47:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:48:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:50:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:51:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:52:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:53:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:54:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:55:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:56:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:57:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:58:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 10:59:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:00:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:26:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:27:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:28:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:29:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:30:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:31:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:32:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:33:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:34:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:35:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:36:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:37:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:38:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:39:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:40:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:41:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:42:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:43:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:44:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:45:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:46:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:47:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:48:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:50:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:51:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:52:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:53:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:54:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:55:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:56:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:57:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:58:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 11:59:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:00:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:01:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:03:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:04:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:05:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:06:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:07:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:08:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:09:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:10:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:11:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:12:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:13:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:14:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:15:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:16:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:17:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:18:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:19:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:21:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:22:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:23:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:24:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 12:25:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-07-24 17:19:10
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

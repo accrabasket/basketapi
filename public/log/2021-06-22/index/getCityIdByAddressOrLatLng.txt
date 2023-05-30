@@ -1,0 +1,13 @@
+
+ Request - 2021-06-22 14:23:29
+{"method":"getCityIdByAddressOrLatLng","address":"28 Agostinho Neto Close, Accra, Ghana","lat":"5.600561700000001","lng":"-0.1799667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"28 Agostinho Neto Close, Accra, Ghana"}}
+ Request - 2021-06-22 15:50:07
+{"method":"getCityIdByAddressOrLatLng","address":"Customs Rd, Bukoba, Tanzania","lat":"-1.3474227","lng":"31.8130216"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Customs Rd, Bukoba, Tanzania"}}
+ Request - 2021-06-22 23:21:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Togo","lat":"6.2617059","lng":"1.1633466"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Togo"}}

@@ -1,0 +1,125 @@
+
+ Request - 2021-03-09 08:43:52
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2723","action":"add","item_name":"Apple Pear(Apple Pear)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:44:02
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2723","action":"add","item_name":"Apple Pear(Apple Pear)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:44:04
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2724","action":"add","item_name":"Avocados(Avocados)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:44:06
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2724","action":"add","item_name":"Avocados(Avocados)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:44:16
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:44:24
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2723","action":"add","item_name":"Apple Pear(Apple Pear)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:44:38
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2730","action":"add","item_name":"Cantaloupe\/Rockmelon Whole(Cantaloupe\/Rockmelon Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:45:14
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2748","action":"add","item_name":"Kiwi(Kiwi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:45:15
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2748","action":"add","item_name":"Kiwi(Kiwi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:45:20
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2748","action":"add","item_name":"Kiwi(Kiwi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:45:42
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2809","action":"add","item_name":"Plum(Plum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:45:45
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2809","action":"add","item_name":"Plum(Plum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 08:45:52
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2811","action":"add","item_name":"Red Apple(Red Apple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:02:41
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2811","action":"add","item_name":"Red Apple(Red Apple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:08:25
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2724","action":"add","item_name":"Avocados(Avocados)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:08:26
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:08:43
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2730","action":"delete","item_name":"Cantaloupe\/Rockmelon Whole(Cantaloupe\/Rockmelon Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:08:57
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2748","action":"delete","item_name":"Kiwi(Kiwi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:09:21
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2755","action":"add","item_name":"Oranges(Oranges)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:09:23
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2755","action":"add","item_name":"Oranges(Oranges)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:09:32
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2755","action":"add","item_name":"Oranges(Oranges)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:12:17
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2730","action":"add","item_name":"Cantaloupe\/Rockmelon Whole(Cantaloupe\/Rockmelon Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:12:18
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2730","action":"delete","item_name":"Cantaloupe\/Rockmelon Whole(Cantaloupe\/Rockmelon Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:12:31
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2746","action":"add","item_name":"Guava(Guava)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:12:34
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2746","action":"add","item_name":"Guava(Guava)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:13:50
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2809","action":"add","item_name":"Plum(Plum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:13:54
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2809","action":"add","item_name":"Plum(Plum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:17:09
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2811","action":"add","item_name":"Red Apple(Red Apple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:17:20
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2811","action":"add","item_name":"Red Apple(Red Apple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:17:21
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2811","action":"add","item_name":"Red Apple(Red Apple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-09 11:17:28
+{"method":"addtocart","user_id":"459","number_of_item":"1","merchant_inventry_id":"2755","action":"add","item_name":"Oranges(Oranges)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

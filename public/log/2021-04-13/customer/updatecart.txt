@@ -1,0 +1,57 @@
+
+ Request - 2021-04-13 10:55:50
+{"method":"updatecart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 11:00:34
+{"method":"updatecart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 11:03:45
+{"method":"updatecart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 11:10:07
+{"method":"updatecart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 11:11:19
+{"method":"updatecart","user_id":"800","guest_user_id":"2cd1a94844d18b10"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-04-13 11:33:12
+{"method":"updatecart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 11:37:48
+{"method":"updatecart","user_id":"800","guest_user_id":"2cd1a94844d18b10"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-04-13 11:41:12
+{"method":"updatecart","user_id":"800","guest_user_id":"2cd1a94844d18b10"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-04-13 11:50:24
+{"method":"updatecart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 11:55:59
+{"method":"updatecart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 12:02:54
+{"method":"updatecart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}
+ Request - 2021-04-13 12:03:54
+{"method":"updatecart","user_id":"459","guest_user_id":"71df007fa3da3ff3"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-04-13 13:36:07
+{"method":"updatecart","user_id":"459","guest_user_id":"71df007fa3da3ff3"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-04-13 21:05:27
+{"method":"updatecart","user_id":"2344","guest_user_id":"835042a46fe69086"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}

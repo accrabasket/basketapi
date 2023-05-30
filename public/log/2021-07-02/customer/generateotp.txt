@@ -1,0 +1,13 @@
+
+ Request - 2021-07-02 14:56:13
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"244913342"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233244913342","otp_type":"register","user_id":"0","otp":4785,"expiry_date":"2021-07-02 15:11:13"}}
+ Request - 2021-07-02 16:00:38
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"244913342"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233244913342","otp_type":"register","user_id":"0","otp":7701,"expiry_date":"2021-07-02 16:15:38"}}
+ Request - 2021-07-02 16:02:52
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"244913342"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233244913342","otp_type":"register","user_id":"0","otp":1620,"expiry_date":"2021-07-02 16:17:52"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-06-13 02:01:32
+{"method":"updateOrderstatus","user_id":"90","order_id":"order_P_258","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"90","order_id":"order_P_258"}}

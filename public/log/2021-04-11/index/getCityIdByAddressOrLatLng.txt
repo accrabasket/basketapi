@@ -1,0 +1,9 @@
+
+ Request - 2021-04-11 13:28:02
+{"method":"getCityIdByAddressOrLatLng","address":"N13A, Madingrin, Cameroun","lat":"8.4534014","lng":"15.0050867"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N13A, Madingrin, Cameroon"}}
+ Request - 2021-04-11 15:16:35
+{"method":"getCityIdByAddressOrLatLng","address":"Préfecture de Siguiri, Guinée","lat":"11.750256666666667","lng":"-8.970388333333334"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Guinea"}}

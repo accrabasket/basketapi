@@ -1,0 +1,9 @@
+
+ Request - 2022-11-14 11:05:32
+{"method":"getCityIdByAddressOrLatLng","address":"H683+5P3, Mbita, Kenya","lat":"-0.4352259","lng":"34.2016845"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H672+WM Mbita, Kenya"}}
+ Request - 2022-11-14 18:51:56
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Kinshasa, République démocratique du Congo","lat":"-4.375002","lng":"15.3645315"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J9F7+XR Kinshasa, Democratic Republic of the Congo"}}

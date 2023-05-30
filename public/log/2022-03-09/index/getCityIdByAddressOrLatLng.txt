@@ -1,0 +1,21 @@
+
+ Request - 2022-03-09 05:29:47
+{"method":"getCityIdByAddressOrLatLng","address":"5WC2+G7Q, Harare, Zimbabwe","lat":"-17.8284565","lng":"30.901087"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5WC2+G7Q, Harare, Zimbabwe"}}
+ Request - 2022-03-09 07:07:11
+{"method":"getCityIdByAddressOrLatLng","address":"Bale, Burkina Faso","lat":"11.8714296","lng":"-2.9599281"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V2CR+H2 Sorobouli, Burkina Faso"}}
+ Request - 2022-03-09 07:17:57
+{"method":"getCityIdByAddressOrLatLng","address":"31, White Rose Layout, Whitefield, Bengaluru, Karnataka 560066, India","lat":"12.9804074","lng":"77.7470304"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"31, White Rose Layout, Whitefield, Bengaluru, Karnataka 560066, India"}}
+ Request - 2022-03-09 09:37:18
+{"method":"getCityIdByAddressOrLatLng","address":"RN2, Bénin","lat":"6.666641","lng":"1.7315267"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MP8J+MJ Lokossa, Benin"}}
+ Request - 2022-03-09 11:21:45
+{"method":"getCityIdByAddressOrLatLng","address":"Bantul, Bantul Regency, Territoire spécial de Yogyakarta, Indonésie","lat":"-7.8748176","lng":"110.3255365"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kresen RT 05, Gandekan, Bantul, Bantul Regency, Special Region of Yogyakarta 55711, Indonesia"}}

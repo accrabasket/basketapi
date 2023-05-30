@@ -1,0 +1,5 @@
+
+ Request - 2021-06-13 00:31:50
+{"method":"login","email":"maheshchindi@gmail.com","password":"1234@Mahesh","fcm_reg_id":"czuosfP1zoo:APA91bHtnPGSKvKeag_P9uz_u3JUHwi6DQQvd-xjHJR5s-tf3m8SRudxwqIaUN-JcsPuC8O0YLLyJH7EqgNF8eiQLvA0zEkSWlQiM-kwBCKlohZPBPvrq91_HxXp4b0bkxdkeTcBHraR"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"6dc060f9fd8b89e4ec38af7018ac04dd","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"fUkYoGZpFs4:APA91bEcMczRyLOmSj8smq-qV4D57fHs5xcbVXzlCuVkewh28lww3Gvk_jDdJrzABDbSTSOTj-Yu-LkEVQ0-NO8qm53hMz02OYVLaE5hPcXFq4GVjrE1pAx3R3jBY9fbld-4UIs89boS","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2021-06-12 16:44:27","status":""}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}

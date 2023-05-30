@@ -1,0 +1,5 @@
+
+ Request - 2021-01-28 07:13:03
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1070","action":"delete","item_name":"Power Bleach"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

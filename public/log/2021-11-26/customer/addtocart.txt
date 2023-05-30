@@ -1,0 +1,29 @@
+
+ Request - 2021-11-26 21:40:58
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-26 21:41:00
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"858","action":"delete","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-26 21:41:01
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-26 21:41:02
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"858","action":"delete","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-26 21:41:03
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-26 21:41:03
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-26 21:41:30
+{"method":"addtocart","guest_user_id":"0d9886ad537e5061","number_of_item":"1","merchant_inventry_id":"759","action":"add","item_name":"Corn Flakes(Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

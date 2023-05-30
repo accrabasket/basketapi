@@ -1,0 +1,13 @@
+
+ Request - 2021-04-05 10:39:47
+{"method":"getCityIdByAddressOrLatLng","address":"محمد موسى، المعتمدية، إمبابة، الجيزة، مصر","lat":"30.0492818","lng":"31.1901385"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9 Mohammed Mousa, Al Moatamadeyah, Imbaba, Giza Governorate, Egypt"}}
+ Request - 2021-04-05 10:39:52
+{"method":"getCityIdByAddressOrLatLng","address":"محمد موسى، المعتمدية، إمبابة، الجيزة، مصر","lat":"30.0492818","lng":"31.1901385"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9 Mohammed Mousa, Al Moatamadeyah, Imbaba, Giza Governorate, Egypt"}}
+ Request - 2021-04-05 11:37:47
+{"method":"getCityIdByAddressOrLatLng","address":"Eastern Bypass-Kayole Utawala Embakasi East, Nairobi, Kenya","lat":"-1.2730469","lng":"36.9478935"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Eastern Bypass-Kayole Utawala Embakasi East, Nairobi, Kenya"}}

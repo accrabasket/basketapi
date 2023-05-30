@@ -1,0 +1,9 @@
+
+ Request - 2022-06-01 15:54:45
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، العراق","lat":"32.3942069","lng":"45.9152888"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9WV8+M4 Abid Ali, Iraq"}}
+ Request - 2022-06-01 20:18:29
+{"method":"getCityIdByAddressOrLatLng","address":"No. 9 odajuo Lane okpuno nnewichi, 435101, Nnewi, Nigeria","lat":"6.0272485","lng":"6.9133667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"No. 9 odajuo Lane okpuno nnewichi, 435101, Nnewi, Nigeria"}}

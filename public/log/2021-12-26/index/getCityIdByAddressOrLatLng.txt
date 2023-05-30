@@ -1,0 +1,17 @@
+
+ Request - 2021-12-26 05:42:34
+{"method":"getCityIdByAddressOrLatLng","address":"Bello Suliamon St, Gudu 900110, Abuja, Nigeria","lat":"9.0151949","lng":"7.5072963"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2G84+3W Abuja, Nigeria"}}
+ Request - 2021-12-26 09:49:32
+{"method":"getCityIdByAddressOrLatLng","address":"Av By pass Numéro 12500, Q\/ Salongo, C, Kinshasa, République démocratique du Congo","lat":"-4.3931793","lng":"15.327937"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Av By pass Num\u00e9ro 12500, Q\/ Salongo, C, Kinshasa, R\u00e9publique d\u00e9mocratique du Congo"}}
+ Request - 2021-12-26 11:02:42
+{"method":"getCityIdByAddressOrLatLng","address":"PGPH+4X5, Zouerate, Mauritanie","lat":"22.7358355","lng":"-12.4696443"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PGPH+4X5, Zou\u00e9rat, Mauritania"}}
+ Request - 2021-12-26 12:04:08
+{"method":"getCityIdByAddressOrLatLng","address":"10 Iwo - Oshogbo Rd, 232102, Iwo, Nigeria","lat":"7.6554512","lng":"4.1886177"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Iwo - Oshogbo Rd, 232102, Iwo, Nigeria"}}

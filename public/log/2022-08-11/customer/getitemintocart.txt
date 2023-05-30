@@ -1,0 +1,81 @@
+
+ Request - 2022-08-11 00:25:34
+{"method":"getitemintocart","guest_user_id":"40479942e675b372"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 05:55:36
+{"method":"getitemintocart","guest_user_id":"2dc0ec18ffad8773"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 05:56:25
+{"method":"getitemintocart","guest_user_id":"2dc0ec18ffad8773"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 08:21:24
+{"method":"getitemintocart","guest_user_id":"d461012a7cefadf4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 08:52:50
+{"method":"getitemintocart","guest_user_id":"a7e8798306df242c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 09:15:01
+{"method":"getitemintocart","guest_user_id":"37fc8f86884a55c1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 10:16:31
+{"method":"getitemintocart","guest_user_id":"af1c496bec6cac34"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 10:16:33
+{"method":"getitemintocart","guest_user_id":"af1c496bec6cac34"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 14:55:55
+{"method":"getitemintocart","guest_user_id":"73ad73b42ab8a5f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 14:56:49
+{"method":"getitemintocart","guest_user_id":"73ad73b42ab8a5f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 18:45:21
+{"method":"getitemintocart","guest_user_id":"693d546896dd6471"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 20:21:06
+{"method":"getitemintocart","guest_user_id":"7391088969cffcd1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 21:53:09
+{"method":"getitemintocart","guest_user_id":"d0bb0d29676f07e5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 21:55:09
+{"method":"getitemintocart","guest_user_id":"d0bb0d29676f07e5"}
+ Response :- 
+{"status":"success","data":{"517":{"id":22261,"user_id":0,"guest_user_id":"d0bb0d29676f07e5","merchant_inventry_id":517,"item_name":"Black Label Whisky(Black Label Whisky)","number_of_item":1,"created_date":"2022-08-11 21:55:09"}},"productDetails":{"status":"success","data":{"517":{"id":517,"price":"165.99","product_id":801,"merchant_id":4,"store_id":4,"merchant_product_code":"59220","product_name":"Black Label Whisky","product_desc":"In 1909, Extra Special Old Highland Whisky was renamed Johnnie Walker Black Label. Johnnie Walker Black Label was created to represent the very best from all four corners of Scotland and was quickly recognized as a new benchmark in blending excellence. Embraced by the great and the good, it has been immortalized in a painting by none other than Winston Churchill and on film in the cult classic Blade Runner. Today, it is one of the world\u2019s best-selling Deluxe Scotch Whiskies","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Johnnie Walker","commission_type":"percent","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"801":[{"id":2050,"type":"product","image_id":801,"image_name":"59220.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-11 21:55:11
+{"method":"getitemintocart","guest_user_id":"d0bb0d29676f07e5"}
+ Response :- 
+{"status":"success","data":{"517":{"id":22261,"user_id":0,"guest_user_id":"d0bb0d29676f07e5","merchant_inventry_id":517,"item_name":"Black Label Whisky(Black Label Whisky)","number_of_item":2,"created_date":"2022-08-11 21:55:09"}},"productDetails":{"status":"success","data":{"517":{"id":517,"price":"165.99","product_id":801,"merchant_id":4,"store_id":4,"merchant_product_code":"59220","product_name":"Black Label Whisky","product_desc":"In 1909, Extra Special Old Highland Whisky was renamed Johnnie Walker Black Label. Johnnie Walker Black Label was created to represent the very best from all four corners of Scotland and was quickly recognized as a new benchmark in blending excellence. Embraced by the great and the good, it has been immortalized in a painting by none other than Winston Churchill and on film in the cult classic Blade Runner. Today, it is one of the world\u2019s best-selling Deluxe Scotch Whiskies","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Johnnie Walker","commission_type":"percent","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"801":[{"id":2050,"type":"product","image_id":801,"image_name":"59220.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-11 21:55:23
+{"method":"getitemintocart","guest_user_id":"d0bb0d29676f07e5"}
+ Response :- 
+{"status":"success","data":{"517":{"id":22261,"user_id":0,"guest_user_id":"d0bb0d29676f07e5","merchant_inventry_id":517,"item_name":"Black Label Whisky(Black Label Whisky)","number_of_item":2,"created_date":"2022-08-11 21:55:09"}},"productDetails":{"status":"success","data":{"517":{"id":517,"price":"165.99","product_id":801,"merchant_id":4,"store_id":4,"merchant_product_code":"59220","product_name":"Black Label Whisky","product_desc":"In 1909, Extra Special Old Highland Whisky was renamed Johnnie Walker Black Label. Johnnie Walker Black Label was created to represent the very best from all four corners of Scotland and was quickly recognized as a new benchmark in blending excellence. Embraced by the great and the good, it has been immortalized in a painting by none other than Winston Churchill and on film in the cult classic Blade Runner. Today, it is one of the world\u2019s best-selling Deluxe Scotch Whiskies","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Johnnie Walker","commission_type":"percent","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"801":[{"id":2050,"type":"product","image_id":801,"image_name":"59220.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-11 22:00:29
+{"method":"getitemintocart","user_id":"185"}
+ Response :- 
+{"status":"success","data":{"517":{"id":22261,"user_id":185,"guest_user_id":"d0bb0d29676f07e5","merchant_inventry_id":517,"item_name":"Black Label Whisky(Black Label Whisky)","number_of_item":2,"created_date":"2022-08-11 21:55:09"}},"productDetails":{"status":"success","data":{"517":{"id":517,"price":"165.99","product_id":801,"merchant_id":4,"store_id":4,"merchant_product_code":"59220","product_name":"Black Label Whisky","product_desc":"In 1909, Extra Special Old Highland Whisky was renamed Johnnie Walker Black Label. Johnnie Walker Black Label was created to represent the very best from all four corners of Scotland and was quickly recognized as a new benchmark in blending excellence. Embraced by the great and the good, it has been immortalized in a painting by none other than Winston Churchill and on film in the cult classic Blade Runner. Today, it is one of the world\u2019s best-selling Deluxe Scotch Whiskies","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Johnnie Walker","commission_type":"percent","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"801":[{"id":2050,"type":"product","image_id":801,"image_name":"59220.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-11 22:01:42
+{"method":"getitemintocart","user_id":"185"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 23:34:15
+{"method":"getitemintocart","user_id":"185"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-11 23:34:33
+{"method":"getitemintocart","user_id":"185"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

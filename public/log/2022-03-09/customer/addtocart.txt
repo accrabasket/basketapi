@@ -1,0 +1,37 @@
+
+ Request - 2022-03-09 09:37:36
+{"method":"addtocart","guest_user_id":"96d7718d4ef6b438","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 09:37:39
+{"method":"addtocart","guest_user_id":"96d7718d4ef6b438","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 09:37:41
+{"method":"addtocart","guest_user_id":"96d7718d4ef6b438","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 09:37:44
+{"method":"addtocart","guest_user_id":"96d7718d4ef6b438","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 18:09:18
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 18:09:31
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 18:09:34
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 18:09:36
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"270","action":"delete","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-09 18:09:37
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"270","action":"delete","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

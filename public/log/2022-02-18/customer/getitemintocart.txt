@@ -1,0 +1,41 @@
+
+ Request - 2022-02-18 06:35:39
+{"method":"getitemintocart","guest_user_id":"374e7a4076ca08d0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-18 06:37:47
+{"method":"getitemintocart","guest_user_id":"e33507838b520324"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-18 10:42:59
+{"method":"getitemintocart","guest_user_id":"9b250cbf19a1fc9e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-18 10:43:10
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-02-18 12:09:38
+{"method":"getitemintocart","guest_user_id":"2e54586e4e4d2e64"}
+ Response :- 
+{"status":"success","data":{"788":{"id":17178,"user_id":0,"guest_user_id":"2e54586e4e4d2e64","merchant_inventry_id":788,"item_name":"Morning Fresh Zesty Lemon dishwashing liquid(Morning Fresh Zesty Lemon dishwashing liquid)","number_of_item":1,"created_date":"2021-09-10 05:34:15"}},"productDetails":{"status":"success","data":{"788":{"id":788,"price":"7.99","product_id":1072,"merchant_id":4,"store_id":4,"merchant_product_code":"57878","product_name":"Morning Fresh Zesty Lemon dishwashing liquid","product_desc":"Morning Fresh Australia\u2019s #1 dishwashing liquid with its superior grease cutting power is super concentrated, so only one squirt is enough to power through the greasiest pile of dishes for spotless and sparkling clean dishes. This means your dishes will be cleaner faster and you\u2019ll have more time to enjoy doing the things you love.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Aqua, Sodium Laureth Sulphate, Cocamidopropyl Betaine, Sodium Chloride, Lactic Acid, Sodium Benzoate, Parfum, Limonene, Geraniol, Citral, Linalool, Colorants, Vinegar.\"}","brand_name":"Cussons","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":450,"tax_value":"3"}},"productImageData":{"1072":[{"id":1497,"type":"product","image_id":1072,"image_name":"57878.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-18 14:01:35
+{"method":"getitemintocart","guest_user_id":"39f6f0377f0109f5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-18 14:23:20
+{"method":"getitemintocart","guest_user_id":"29a4aece488b55ae"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-18 15:16:41
+{"method":"getitemintocart","guest_user_id":"b4b92cf5db995dba"}
+ Response :- 
+{"status":"success","data":{"465":{"id":18899,"user_id":0,"guest_user_id":"b4b92cf5db995dba","merchant_inventry_id":465,"item_name":"Mineral Water(Mineral Water)","number_of_item":1,"created_date":"2021-12-20 15:27:43"}},"productDetails":{"status":"success","data":{"465":{"id":465,"price":"2.39","product_id":749,"merchant_id":4,"store_id":4,"merchant_product_code":"29396","product_name":"Mineral Water","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"L","quantity":1.5,"tax_value":"3"}},"productImageData":{"749":[{"id":2679,"type":"product","image_id":749,"image_name":"29396.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-18 17:39:31
+{"method":"getitemintocart","guest_user_id":"1c295953d31b69cc"}
+ Response :- 
+{"status":"success","data":{"3773":{"id":18898,"user_id":0,"guest_user_id":"1c295953d31b69cc","merchant_inventry_id":3773,"item_name":"GHC 225 Gift Hamper(GHC 225 Gift Hamper)","number_of_item":1,"created_date":"2021-12-20 15:25:59"}},"productDetails":{"status":"success","data":{"3773":{"id":3773,"price":"225.00","product_id":4242,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"GHC 225 Gift Hamper","product_desc":"Total No. of Items in the Hamper : 5\r\n\r\n--- JAMESON WHISKEY 40% 100CL x1\r\n--- BALLANTINE'S FINEST WHISKY 40% 100CL x1\r\n--- Fitch & Leedes Club Soda 200ml x2\r\n--- Kingsbite Milk Chocolate 50g x1\r\n\r\n","default_discount_type":"","default_discount_value":"0","category_id":140,"custom_info":"","brand_name":"","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":1,"tax_value":null}},"productImageData":{"4242":[{"id":5335,"type":"product","image_id":4242,"image_name":"4242_1623748353.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-18 21:20:48
+{"method":"getitemintocart","guest_user_id":"1e759bc592033ef1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

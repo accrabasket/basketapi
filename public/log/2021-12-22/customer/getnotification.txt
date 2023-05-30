@@ -1,0 +1,9 @@
+
+ Request - 2021-12-22 05:51:23
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-12-22 10:47:30
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

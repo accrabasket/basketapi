@@ -1,0 +1,5 @@
+
+ Request - 2022-10-04 15:50:22
+{"method":"verifyotp","country_code":"+233","mobile_number":"545599561","otp_type":"register","otp":"7426"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"810acb71c8325c4c60ee947128cce80e"}}

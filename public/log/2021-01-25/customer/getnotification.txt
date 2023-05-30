@@ -1,0 +1,145 @@
+
+ Request - 2021-01-25 10:12:13
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 11:18:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:19:41
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:19:56
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:20:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:21:47
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:22:47
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:24:45
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:25:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:26:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:27:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:28:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:35:48
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:35:48
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:47:12
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:47:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:48:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 12:56:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-25 23:11:51
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:12:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:13:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:13:25
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:14:25
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:14:53
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:15:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:15:23
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:16:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:17:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:18:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:19:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:20:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:21:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:22:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:52:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:53:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}
+ Request - 2021-01-25 23:54:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5588,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5586,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5584,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null},{"id":5582,"subject":"Order placed","msg":"New Order order_P_171 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-01-25 22:49:02","updated_date":null}],"totalRecord":4}

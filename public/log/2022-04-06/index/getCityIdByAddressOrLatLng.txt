@@ -1,0 +1,13 @@
+
+ Request - 2022-04-06 00:22:44
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road، عزيزية، العراق","lat":"32.9099393","lng":"45.0559383"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road\u060c Al Aziziyah, Iraq"}}
+ Request - 2022-04-06 13:58:30
+{"method":"getCityIdByAddressOrLatLng","address":"48P9+HG9, Kautha, Nanded, Maharashtra 431603, India","lat":"19.136472","lng":"77.318981"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"48P9+HG9, Kautha, Nanded, Maharashtra 431603, India"}}
+ Request - 2022-04-06 23:52:39
+{"method":"getCityIdByAddressOrLatLng","address":"V92H+V64, Bhasha, Uttar Pradesh 277209, India","lat":"25.8524682","lng":"84.3783536"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V92H+V64, Bhasha, Uttar Pradesh 277209, India"}}

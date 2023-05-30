@@ -1,0 +1,9 @@
+
+ Request - 2021-08-19 14:36:19
+{"product_name":"Original Dishwashing Liquid","brand_name":"Morning Fresh","nutrition":"","category_id":"141","promotion_id":"","item_code":"OSU1373","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"Nigeria's number 1 dishwashing liquid with more power, washes more plates and has more value, so you only need to use a little to power through the greasiest pile of dishes for a spotless and sparkling clean. Original fresh the classic variant that keeps your kitchen sparkling clean with a burst of fresh fragrance in a new transparent pack. Just add one squirt when washing up by hand. Works great on cookware, stainless steel, crockery and even your BBQ. It is tough on oil and grease just a tiny amount gets the job done quickly clearing away those lingering smells.","id":"4326","attribute":[{"name":"Original Dishwashing Liquid","unit":"ml","quantity":"450","commission_value":"0.0000","commission_type":"flat","id":"4316"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"4326","attribute":["4316"]}}
+ Request - 2021-08-19 14:36:46
+{"product_name":"Zesty Lemon Dishwashing Liquid","brand_name":"Morning Fresh","nutrition":"","category_id":"141","promotion_id":"","item_code":"OSU1565","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"Power of lemon and superior grease cutting power. Just one drop is all it takes to make your dishes sparkling clean and fresh. It is tough on oil and grease just a tiny amount gets the job done quickly clearing away those lingering smells.","id":"4327","attribute":[{"name":"Zesty Lemon Dishwashing Liquid","unit":"ml","quantity":"450","commission_value":"0.0000","commission_type":"flat","id":"4317"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"4327","attribute":["4317"]}}

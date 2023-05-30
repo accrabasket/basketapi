@@ -1,0 +1,13 @@
+
+ Request - 2021-09-22 06:48:37
+{"method":"getCityIdByAddressOrLatLng","address":"19 Coker Compound, Coker 101241, Lagos, Nigeria","lat":"6.4736048","lng":"3.3296711"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"19 Coker Compound, Coker 101241, Lagos, Nigeria"}}
+ Request - 2021-09-22 08:20:25
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bheti, West Bengal 723156, India","lat":"23.5737093","lng":"86.835682"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bheti, West Bengal 723156, India"}}
+ Request - 2021-09-22 16:47:54
+{"method":"getCityIdByAddressOrLatLng","address":"9FGH+64J, Libreville, Gabon","lat":"0.3756712","lng":"9.4775627"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9FGH+64J, Libreville, Gabon"}}

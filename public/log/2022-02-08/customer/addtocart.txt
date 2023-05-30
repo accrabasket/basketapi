@@ -1,0 +1,41 @@
+
+ Request - 2022-02-08 01:00:33
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 07:09:52
+{"method":"addtocart","guest_user_id":"07349bb41e622fa0","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 07:09:57
+{"method":"addtocart","guest_user_id":"07349bb41e622fa0","number_of_item":"1","merchant_inventry_id":"831","action":"add","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 07:09:59
+{"method":"addtocart","guest_user_id":"07349bb41e622fa0","number_of_item":"1","merchant_inventry_id":"831","action":"delete","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 07:10:01
+{"method":"addtocart","guest_user_id":"07349bb41e622fa0","number_of_item":"1","merchant_inventry_id":"831","action":"add","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 07:10:03
+{"method":"addtocart","guest_user_id":"07349bb41e622fa0","number_of_item":"1","merchant_inventry_id":"831","action":"add","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 08:33:10
+{"method":"addtocart","guest_user_id":"eb3ad7134629b7bf","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 08:33:13
+{"method":"addtocart","guest_user_id":"eb3ad7134629b7bf","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 08:33:28
+{"method":"addtocart","guest_user_id":"eb3ad7134629b7bf","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-08 15:28:21
+{"method":"addtocart","guest_user_id":"ae1dcaa4fc07fe9a","number_of_item":"1","merchant_inventry_id":"432","action":"add","item_name":"Novamax Purezone Lemon(Novamax Purezone Lemon)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

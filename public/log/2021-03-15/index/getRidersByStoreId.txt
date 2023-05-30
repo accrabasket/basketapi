@@ -1,0 +1,5 @@
+
+ Request - 2021-03-15 20:15:17
+{"store_id":"2","method":"getRidersByStoreId"}
+ Response :- 
+{"status":"success","data":{"18":{"id":18,"name":"Stephen","email":"stephen@gmail.com","mobile_number":"+233593922023","password":"202cb962ac59075b964b07152d234b70","location_id":1,"fcm_reg_id":"cOGdUnDHBkQ:APA91bF2GS9q6vOFcC9YLnHNZRrQleFNAjU9s4xY0syptzv_KO8xVcEyRz-BkHqycWByc81lYz4UjLn0j_YEwf5cWGnCD88TcTSFooKa7LtCeAlRAxkCY30AuRDhCd-kGOAlq82L6jTr","status":1,"created_date":"2020-03-28 16:26:41","updated_date":"2020-03-28 16:26:41","location_name":"Neha Supermarket"},"21":{"id":21,"name":"Amarh","email":"amarh@gmail.com","mobile_number":"242047570","password":"202cb962ac59075b964b07152d234b70","location_id":1,"fcm_reg_id":"dCC9FHeY3NM:APA91bHZmn87K5R05HuRxxSNqC3ghOJUh5z-B_hXfPREyE6Q2KYcOf_XmE8i4pR8fuZd3mA3woLXceuqNreSgq0O6jOnCrpH1LJ0R6EA9q-2PBzKl81Nzd90uC4nFtBEgiTJt8xJYnFg","status":1,"created_date":"2020-03-31 13:27:29","updated_date":"2020-03-31 13:27:29","location_name":"Neha Supermarket"}}}

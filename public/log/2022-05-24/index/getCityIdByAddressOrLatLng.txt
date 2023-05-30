@@ -1,0 +1,21 @@
+
+ Request - 2022-05-24 09:30:20
+{"method":"getCityIdByAddressOrLatLng","address":"M737+FRW, Kinshasa, République démocratique du Congo","lat":"-4.3461987","lng":"15.2645389"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M737+FRW, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-05-24 11:27:28
+{"method":"getCityIdByAddressOrLatLng","address":"5RGQ+687, near Sharda Medical, मोखापारा, रामपुरा, कोटा, राजस्थान 324006, भारत","lat":"25.1752791","lng":"75.838325"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5RGQ+687, near Sharda Medical, Mokhapara, Rampura, Kota, Rajasthan 324006, India"}}
+ Request - 2022-05-24 14:04:35
+{"method":"getCityIdByAddressOrLatLng","address":"QH26+9JM, Dakar, Sénégal","lat":"14.7510065","lng":"-17.4383331"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QH26+9JM, Dakar, Senegal"}}
+ Request - 2022-05-24 14:12:43
+{"method":"getCityIdByAddressOrLatLng","address":"5RMR+58V, अग्रसेन बाज़ार, रामपुरा, कोटा, राजस्थान 324006, भारत","lat":"25.1829851","lng":"75.8406919"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5RMR+58V, Agrasen Bazar, Rampura, Kota, Rajasthan 324006, India"}}
+ Request - 2022-05-24 21:37:53
+{"method":"getCityIdByAddressOrLatLng","address":"HRQ4+RWX، البصرة،، العراق","lat":"30.5890796","lng":"47.8063614"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HRQ4+RWX\u060c \u0627\u0644\u0628\u0635\u0631\u0629\u060c\u060c Iraq"}}

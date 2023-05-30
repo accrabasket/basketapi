@@ -1,0 +1,13 @@
+
+ Request - 2022-01-10 00:03:08
+{"method":"getitemintocart","guest_user_id":"cf54eaa04add96a0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-10 20:02:04
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-01-10 20:02:13
+{"method":"getitemintocart","guest_user_id":"8ed18de392021ef2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

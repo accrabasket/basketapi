@@ -1,0 +1,13 @@
+
+ Request - 2021-02-14 11:02:31
+{"method":"getCityIdByAddressOrLatLng","address":"جوخانة، السودان","lat":"11.1153116","lng":"25.2906112"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sudan"}}
+ Request - 2021-02-14 13:00:03
+{"method":"getCityIdByAddressOrLatLng","address":"New Ambo Rd, Addis Ababa, Ethiopia","lat":"9.0331657","lng":"38.7063473"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"New Ambo Rd, Addis Ababa, Ethiopia"}}
+ Request - 2021-02-14 16:08:35
+{"method":"getCityIdByAddressOrLatLng","address":"44-7-44, Thatichetlapalem, Akkayyapalem, Visakhapatnam, Andhra Pradesh 530013, India","lat":"17.7337122","lng":"83.2902613"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"44-7-44, Thatichetlapalem, Akkayyapalem, Visakhapatnam, Andhra Pradesh 530013, India"}}

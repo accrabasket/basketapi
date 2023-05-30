@@ -1,0 +1,5 @@
+
+ Request - 2021-03-14 05:46:41
+{"location_id":"1","status":"1","name":"abc","email":"abc@gmail.com","mobile_number":"4747447444","password":"202cb962ac59075b964b07152d234b70","confirm_password":"202cb962ac59075b964b07152d234b70","method":"addEditRider"}
+ Response :- 
+{"status":"success","msg":"Record Saved Successfully."}

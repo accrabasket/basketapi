@@ -1,0 +1,29 @@
+
+ Request - 2022-09-24 09:41:00
+{"method":"addtocart","guest_user_id":"15fade9a4d5baa30","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-24 09:41:48
+{"method":"addtocart","guest_user_id":"15fade9a4d5baa30","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-24 09:43:14
+{"method":"addtocart","guest_user_id":"15fade9a4d5baa30","number_of_item":"1","merchant_inventry_id":"2221","action":"add","item_name":"Mineral Water Bottle(Mineral Water Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-24 09:43:17
+{"method":"addtocart","guest_user_id":"15fade9a4d5baa30","number_of_item":"1","merchant_inventry_id":"737","action":"add","item_name":"Tom Brown - Zipper Sachet(Tom Brown - Zipper Sachet)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-24 18:54:03
+{"method":"addtocart","guest_user_id":"9ed64d03ea3ac6e2","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-24 18:54:07
+{"method":"addtocart","guest_user_id":"9ed64d03ea3ac6e2","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-24 18:54:10
+{"method":"addtocart","guest_user_id":"9ed64d03ea3ac6e2","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

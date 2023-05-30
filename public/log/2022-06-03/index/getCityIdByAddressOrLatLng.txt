@@ -1,0 +1,13 @@
+
+ Request - 2022-06-03 03:12:43
+{"method":"getCityIdByAddressOrLatLng","address":"Hacıevhat, Erenler Cd. No:36, 59300 Malkara\/Tekirdağ, Türkiye","lat":"40.9022633","lng":"26.8884204"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hac\u0131evhat, Erenler Cd. No:36, 59300 Malkara\/Tekirda\u011f, Turkey"}}
+ Request - 2022-06-03 10:27:51
+{"method":"getCityIdByAddressOrLatLng","address":"77Q4+P89, Digri - Samaro Rd, Kot Ghulam Muhammad, Mirpur Khas, Sindh, Pakistan","lat":"25.2889432","lng":"69.2555323"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"77Q4+P89, Digri - Samaro Rd, Kot Ghulam Muhammad, Mirpur Khas, Sindh, Pakistan"}}
+ Request - 2022-06-03 21:31:47
+{"method":"getCityIdByAddressOrLatLng","address":"J24X+CX, Mohan Pura, Rawalpindi, Punjab 46000, Pakistan","lat":"33.6063033","lng":"73.0504992"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J24X+CX, Mohan Pura, Rawalpindi, Punjab 46000, Pakistan"}}

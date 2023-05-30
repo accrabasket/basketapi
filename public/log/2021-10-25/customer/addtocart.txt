@@ -1,0 +1,41 @@
+
+ Request - 2021-10-25 08:31:21
+{"method":"addtocart","guest_user_id":"0954b43724f02962","number_of_item":"1","merchant_inventry_id":"460","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:12
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:14
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:16
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:18
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:19
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:21
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:22
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:22
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-25 13:53:30
+{"method":"addtocart","guest_user_id":"77f9ca8334ce4009","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,21 @@
+
+ Request - 2021-07-06 06:42:38
+{"method":"addtocart","guest_user_id":"648abfe40bdea6df","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-06 06:42:49
+{"method":"addtocart","guest_user_id":"648abfe40bdea6df","number_of_item":"1","merchant_inventry_id":"3147","action":"add","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-06 09:22:07
+{"method":"addtocart","guest_user_id":"648abfe40bdea6df","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-06 09:22:08
+{"method":"addtocart","guest_user_id":"648abfe40bdea6df","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-06 17:45:44
+{"method":"addtocart","guest_user_id":"2e3702d97955282f","number_of_item":"1","merchant_inventry_id":"464","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2022-01-18 00:58:56
+{"method":"getCityIdByAddressOrLatLng","address":"Rue Madaoui ali, Bordj Menaïel, الجزائر","lat":"36.7422671","lng":"3.72349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue Madaoui ali, Bordj Mena\u00efel, Algeria"}}
+ Request - 2022-01-18 12:17:25
+{"method":"getCityIdByAddressOrLatLng","address":"7F4J+6MG, Batpora, 193202","lat":"34.2551847","lng":"74.480954"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7F4J+6MG, Batpora, 193202"}}
+ Request - 2022-01-18 20:44:23
+{"method":"getCityIdByAddressOrLatLng","address":"69WP+XH4, Zorgo, Burkina Faso","lat":"12.2470301","lng":"-0.6138442"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"69WP+XH4, Zorgo, Burkina Faso"}}
+ Request - 2022-01-18 20:44:23
+{"method":"getCityIdByAddressOrLatLng","address":"69WP+XH4, Zorgo, Burkina Faso","lat":"12.2470301","lng":"-0.6138442"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"69WP+XH4, Zorgo, Burkina Faso"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-12-15 15:26:16
+{"method":"getCityIdByAddressOrLatLng","address":"CRJ7+FP9، بني ادريس، مركز القوصية، أسيوط 2135106، مصر","lat":"27.4314215","lng":"30.8140996"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CRJ7+FP9, Bani Edrees, El Qusiya, Assiut Governorate 2135106, Egypt"}}
+ Request - 2022-12-15 15:55:02
+{"method":"getCityIdByAddressOrLatLng","address":"876R+MP3، بغداد، العراق","lat":"33.3115138","lng":"44.2919371"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"876R+MP3, Baghdad, Iraq"}}
+ Request - 2022-12-15 17:46:27
+{"method":"getCityIdByAddressOrLatLng","address":"DMAA4268، 4268 افلح الانصاري، 7736، حي المغيسلة، المدينة المنورة 42315، السعودية","lat":"24.4520672","lng":"39.6050722"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"DMAA4268\u060c 4268 \u0627\u0641\u0644\u062d \u0627\u0644\u0627\u0646\u0635\u0627\u0631\u064a\u060c 7736\u060c \u062d\u064a \u0627\u0644\u0645\u063a\u064a\u0633\u0644\u0629\u060c Medina 42315, Saudi Arabia"}}
+ Request - 2022-12-15 22:26:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 500102, Oyigbo, Rivers, Nigeria","lat":"4.8768798","lng":"7.1098624"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V4G5+QW Iriebe, Nigeria"}}

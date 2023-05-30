@@ -1,0 +1,25 @@
+
+ Request - 2021-09-03 10:54:01
+{"start_date":"2021-09-03","end_date":"2021-09-03","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-03":{"count":12,"created_date":"2021-09-03"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-09-03 15:14:29
+{"start_date":"2021-09-03","end_date":"2021-09-03","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-03":{"count":23,"created_date":"2021-09-03"}},"allOrderByDate":{"2021-09-03":{"count":5,"created_date":"2021-09-03"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":5,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-09-03 15:34:20
+{"start_date":"2021-09-03","end_date":"2021-09-03","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-03":{"count":25,"created_date":"2021-09-03"}},"allOrderByDate":{"2021-09-03":{"count":5,"created_date":"2021-09-03"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":5,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-09-03 15:48:20
+{"start_date":"2021-09-03","end_date":"2021-09-03","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-03":{"count":26,"created_date":"2021-09-03"}},"allOrderByDate":{"2021-09-03":{"count":7,"created_date":"2021-09-03"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":7,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-09-03 15:53:09
+{"start_date":"2021-09-03","end_date":"2021-09-03","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-03":{"count":26,"created_date":"2021-09-03"}},"allOrderByDate":{"2021-09-03":{"count":7,"created_date":"2021-09-03"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":7,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-09-03 17:42:15
+{"start_date":"2021-09-03","end_date":"2021-09-03","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-03":{"count":37,"created_date":"2021-09-03"}},"allOrderByDate":{"2021-09-03":{"count":9,"created_date":"2021-09-03"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":9,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

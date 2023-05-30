@@ -1,0 +1,25 @@
+
+ Request - 2022-01-23 01:49:24
+{"method":"getitemintocart","guest_user_id":"44cb12fc62c1a9b6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-23 11:52:35
+{"method":"getitemintocart","guest_user_id":"6ee7a04f54e03dac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-23 13:58:29
+{"method":"getitemintocart","guest_user_id":"9b1e5543dfd3f1f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-23 13:58:44
+{"method":"getitemintocart","guest_user_id":"9b1e5543dfd3f1f1"}
+ Response :- 
+{"status":"success","data":{"2847":{"id":19562,"user_id":0,"guest_user_id":"9b1e5543dfd3f1f1","merchant_inventry_id":2847,"item_name":"Chicken Breast(Chicken Breast)","number_of_item":2,"created_date":"2022-01-23 13:58:41"}},"productDetails":{"status":"success","data":{"2847":{"id":2847,"price":"60.00","product_id":3217,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Chicken Breast","product_desc":"Seara is a global food brand that is fully committed to high quality products, offering a large portfolio in the In - Natura meats and poultry segments (frozen and fresh), as well as prepared and industrialized food solutions.","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"Seara","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"3217":[{"id":3882,"type":"product","image_id":3217,"image_name":"VID156.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-23 18:15:25
+{"method":"getitemintocart","guest_user_id":"6511c484ebd70c88"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-23 19:54:04
+{"method":"getitemintocart","guest_user_id":"8bf686206785b6ce"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

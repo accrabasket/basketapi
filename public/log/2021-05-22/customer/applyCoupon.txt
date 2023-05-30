@@ -1,0 +1,5 @@
+
+ Request - 2021-05-22 14:50:29
+{"method":"applyCoupon","user_id":"800","coupon_code":"Deepavali Offer"}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}

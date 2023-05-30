@@ -1,0 +1,33 @@
+
+ Request - 2023-05-11 23:43:47
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:43:48
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:44:23
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:44:40
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:44:41
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:44:52
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:44:53
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-11 23:44:53
+{"method":"getCityIdByAddressOrLatLng","address":"17 Tejumade St, Idimu 102213, Lagos, Nigeria","lat":"6.6069551","lng":"3.2578911"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

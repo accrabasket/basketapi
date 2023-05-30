@@ -1,0 +1,29 @@
+
+ Request - 2021-11-03 02:43:13
+{"method":"getCityIdByAddressOrLatLng","address":"1-3, Mayurbhanj Rd, Naptani Bagan, Mominpore, Kolkata, West Bengal 700023, India","lat":"22.530561","lng":"88.3258573"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1-3, Mayurbhanj Rd, Naptani Bagan, Mominpore, Kolkata, West Bengal 700023, India"}}
+ Request - 2021-11-03 06:21:12
+{"method":"getCityIdByAddressOrLatLng","address":"D82, Kibre Mengist, Ethiopia","lat":"5.8755572","lng":"38.9937047"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VXGV+6F Kebri Mangest, Ethiopia"}}
+ Request - 2021-11-03 11:08:27
+{"method":"getCityIdByAddressOrLatLng","address":"Narayanganj, Bangladesh","lat":"23.6237764","lng":"90.50004039999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Chashara, Narayanganj, Bangladesh"}}
+ Request - 2021-11-03 12:28:33
+{"method":"getCityIdByAddressOrLatLng","address":"Bus Stop, Thika, Kenya","lat":"-1.0483769","lng":"37.0866674"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Bus Stop, Thika, Kenya"}}
+ Request - 2021-11-03 14:35:55
+{"method":"getCityIdByAddressOrLatLng","address":"5V4P+CJQ, सागर, मध्य प्रदेश 470335, भारत","lat":"24.1557305","lng":"78.8893914"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5V4Q+7Q Neguan Bineka, Madhya Pradesh, India"}}
+ Request - 2021-11-03 15:43:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Man, Côte d'Ivoire","lat":"7.4133685","lng":"-7.5533292"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Man, C\u00f4te d'Ivoire"}}
+ Request - 2021-11-03 18:03:34
+{"method":"getCityIdByAddressOrLatLng","address":"N3, Kisangani, République démocratique du Congo","lat":"0.5041702","lng":"25.2120735"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G636+MR Kisangani, Democratic Republic of the Congo"}}

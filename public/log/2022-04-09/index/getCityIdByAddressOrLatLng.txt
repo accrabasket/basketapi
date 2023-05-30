@@ -1,0 +1,9 @@
+
+ Request - 2022-04-09 06:29:16
+{"method":"getCityIdByAddressOrLatLng","address":"Charity Path, Sekondi-Takoradi, Ghana","lat":"4.956418333333334","lng":"-1.7078149999999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Charity Path, Sekondi-Takoradi, Ghana"}}
+ Request - 2022-04-09 19:55:13
+{"method":"getCityIdByAddressOrLatLng","address":"M85J+HRC, Kinshasa, République démocratique du Congo","lat":"-4.3405523","lng":"15.3319833"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M85J+HRC, Kinshasa, Democratic Republic of the Congo"}}

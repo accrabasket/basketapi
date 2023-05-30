@@ -1,0 +1,25 @@
+
+ Request - 2022-08-19 03:14:20
+{"method":"getCityIdByAddressOrLatLng","address":"M3X4+F7W Kedung dowo, Dumangan, Tuksari, Kec. Kledung, Kabupaten Temanggung, Jawa Tengah 56264, Indonesia","lat":"-7.3005689","lng":"110.0559465"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M3X4+F7W Kedung dowo, Dumangan, Tuksari, Kec. Kledung, Kabupaten Temanggung, Jawa Tengah 56264, Indonesia"}}
+ Request - 2022-08-19 08:27:58
+{"method":"getCityIdByAddressOrLatLng","address":"772X+CFP، بغداد، العراق","lat":"33.2501167","lng":"44.2987159"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"772X+CFP, Baghdad, Iraq"}}
+ Request - 2022-08-19 08:38:03
+{"method":"getCityIdByAddressOrLatLng","address":"چاغی, بلوچستان، پاکستان","lat":"29.0954865","lng":"64.6427215"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3JWV+53 Saiyid Salar Ziarat, Pakistan"}}
+ Request - 2022-08-19 12:50:58
+{"method":"getCityIdByAddressOrLatLng","address":"X4CF+59V, Barethi, Uttar Pradesh 225301, India","lat":"26.9707517","lng":"81.1218484"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X4CC+8P Barethi, Uttar Pradesh, India"}}
+ Request - 2022-08-19 14:48:02
+{"method":"getCityIdByAddressOrLatLng","address":"MFX7+4M6, 241103, Safari, Nigeria","lat":"8.6978004","lng":"4.463723"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MFX7+4M6, 241103, Safari, Nigeria"}}
+ Request - 2022-08-19 20:22:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bhondiya, Rajasthan 328024, India","lat":"26.8261565","lng":"77.8972825"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RVGW+FW Phoolpur, Rajasthan, India"}}

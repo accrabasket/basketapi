@@ -1,0 +1,5 @@
+
+ Request - 2021-10-09 06:10:20
+{"method":"addeditdeliveryaddress","house_number":"LEGON HALL ANNEX B ","area":"","street_detail":"MENSAH SARBAH CRESCENT ","contact_name":"Flora Hammond ","city_name":"JRW6+PH6, Accra, Ghana","city_id":"1","lat":"5.6469019","long":"-0.1886778","user_id":"5074","address_nickname":"LEGON HALL ","landmark":"UNIVERSITY OF GHANA ","zipcode":"2233"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":550}}

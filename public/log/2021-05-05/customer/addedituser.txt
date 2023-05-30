@@ -1,0 +1,5 @@
+
+ Request - 2021-05-05 22:21:54
+{"method":"addedituser","city_id":"1","password":"mankaygh","name":"Gideon ","email":"gideonfrimpong22@gmail.com","mobile_number":"0550382239","country_code":"+233","id":"0","fcm_reg_id":"coe4zaJJISw:APA91bHWsTdomDWi3APOlvAMfDT5Y9sTVrLUiagp72G0RxbTRq1RYP8pNK2HMdpiuI3aYdDBHF7bselUw_fDEV0GCgdIqimuaHIbRpBibyHIxAHmzG-Xy_UMt1S1bS6vHZVfpC9buk_M"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233550382239 and registered email id.","data":{"2520":{"id":2520,"name":"Gideon ","mobile_number":"550382239","email":"gideonfrimpong22@gmail.com","key":"4dcabe5f8989c21dbc0cc6fc45c2e694","password":"112fe3c4d55eb2a5b2316b9235c825a4","fcm_reg_id":"coe4zaJJISw:APA91bHWsTdomDWi3APOlvAMfDT5Y9sTVrLUiagp72G0RxbTRq1RYP8pNK2HMdpiuI3aYdDBHF7bselUw_fDEV0GCgdIqimuaHIbRpBibyHIxAHmzG-Xy_UMt1S1bS6vHZVfpC9buk_M","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-05-05 22:21:54","updated_date":"2021-05-05 22:21:54","status":"1"}}}

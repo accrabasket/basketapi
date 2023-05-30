@@ -1,0 +1,29 @@
+
+ Request - 2021-11-03 16:05:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6863,"subject":"Order placed","msg":"New Order order_P_291 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-11-02 14:51:50","updated_date":null},{"id":6861,"subject":"Order placed","msg":"New Order order_P_290 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-10-31 12:42:13","updated_date":null}],"totalRecord":2}
+ Request - 2021-11-03 16:05:10
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-03 16:06:08
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-03 16:06:10
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-03 16:06:10
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-03 16:06:12
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-03 16:07:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

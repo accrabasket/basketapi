@@ -1,0 +1,9 @@
+
+ Request - 2021-05-23 21:35:08
+{"method":"addtocart","guest_user_id":"7aad0f082c843945","number_of_item":"1","merchant_inventry_id":"3216","action":"add","item_name":"Pennette Lisce - Pasta(Pennette Lisce - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-23 21:35:23
+{"method":"addtocart","guest_user_id":"7aad0f082c843945","number_of_item":"1","merchant_inventry_id":"3216","action":"delete","item_name":"Pennette Lisce - Pasta(Pennette Lisce - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

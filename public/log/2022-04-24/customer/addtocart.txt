@@ -1,0 +1,17 @@
+
+ Request - 2022-04-24 12:04:56
+{"method":"addtocart","guest_user_id":"66c8371d630f3f12","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-24 12:05:00
+{"method":"addtocart","guest_user_id":"66c8371d630f3f12","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-24 12:51:42
+{"method":"addtocart","guest_user_id":"3c8093ec7be48408","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-24 12:51:44
+{"method":"addtocart","guest_user_id":"3c8093ec7be48408","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

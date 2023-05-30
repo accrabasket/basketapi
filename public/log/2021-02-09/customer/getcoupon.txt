@@ -1,0 +1,9 @@
+
+ Request - 2021-02-09 13:39:18
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-02-09 13:42:34
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

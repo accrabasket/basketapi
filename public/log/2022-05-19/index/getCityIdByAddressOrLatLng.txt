@@ -1,0 +1,13 @@
+
+ Request - 2022-05-19 04:00:22
+{"method":"getCityIdByAddressOrLatLng","address":"PR25+R94, O4333 +25401102840666, Nairobi, Kenya","lat":"-1.2979468","lng":"36.8080356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PR25+R94, O4333 +25401102840666, Nairobi, Kenya"}}
+ Request - 2022-05-19 11:51:54
+{"method":"getCityIdByAddressOrLatLng","address":"12 BP1839 ABIDJAN 12, Abidjan, Côte d'Ivoire","lat":"5.2669411","lng":"-3.8933753"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7484+QJ Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2022-05-19 18:04:47
+{"method":"getCityIdByAddressOrLatLng","address":"Séguéla, Côte d'Ivoire","lat":"8.1255847","lng":"-6.9482169"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"43G2+6P Gb\u00e9togo, C\u00f4te d'Ivoire"}}

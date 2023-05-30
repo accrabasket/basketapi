@@ -1,0 +1,5 @@
+
+ Request - 2022-12-27 13:08:16
+{"method":"getCityIdByAddressOrLatLng","address":"Kawuri, Borno, Nigeria","lat":"11.5227887","lng":"13.6719105"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GMFC+4Q Bama, Nigeria"}}

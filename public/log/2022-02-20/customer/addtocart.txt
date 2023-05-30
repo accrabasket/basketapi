@@ -1,0 +1,13 @@
+
+ Request - 2022-02-20 05:45:37
+{"method":"addtocart","guest_user_id":"d2ad63f7d3324716","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-20 05:45:39
+{"method":"addtocart","guest_user_id":"d2ad63f7d3324716","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-20 05:45:48
+{"method":"addtocart","guest_user_id":"d2ad63f7d3324716","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,25 @@
+
+ Request - 2022-02-22 08:16:32
+{"method":"getCityIdByAddressOrLatLng","address":"Matli - Tando Ghulam Ali Rd, Badin, Sindh, Pakistan","lat":"25.112119","lng":"68.8800014"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4V6J+R2 Tando Ghul\u0101m Ali, Pakistan"}}
+ Request - 2022-02-22 09:38:16
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Keur Madiabel, Sénégal","lat":"13.8473719","lng":"-16.0520779"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RWWX+W5 Keur Madiabel, Senegal"}}
+ Request - 2022-02-22 10:15:28
+{"method":"getCityIdByAddressOrLatLng","address":"J88C+Q8W, Lusaka, Zambia","lat":"-15.3830586","lng":"28.3208695"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J88C+Q8W, Lusaka, Zambia"}}
+ Request - 2022-02-22 14:17:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Zimbabwe","lat":"-17.8666404","lng":"31.231919"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"46MJ+8Q Ruwa, Zimbabwe"}}
+ Request - 2022-02-22 14:35:18
+{"method":"getCityIdByAddressOrLatLng","address":"VQ85+WFP، الأساملة الكبرى 82661، السعودية","lat":"16.8676597","lng":"42.7585036"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VQ85+WFP, Al-Asamlah Alkobra 82661, Saudi Arabia"}}
+ Request - 2022-02-22 16:58:50
+{"method":"getCityIdByAddressOrLatLng","address":"CC2R+XXM, Man, Côte d'Ivoire","lat":"7.4028031","lng":"-7.557646"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CC2R+XXM, Man, C\u00f4te d'Ivoire"}}

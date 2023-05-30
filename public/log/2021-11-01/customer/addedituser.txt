@@ -1,0 +1,5 @@
+
+ Request - 2021-11-01 10:53:20
+{"method":"addedituser","city_id":"1","password":"young smith","name":"KWAME","email":"KEAMESTAGES1234@gmail.com","mobile_number":"244238922","country_code":"+233","id":"0","fcm_reg_id":"esMEviL4oZk:APA91bEz5eW0EXVeVOZrxYhAuUkRc2PI3_NnFRw9tBubReffQDEXBOIa-BUXuE0Lbk61uOA-uxCtI0hWPCrzTKoHP3MfR6uPz0Xhx7H8QZ-vfbBtk6dLKrNozEKR-1RwXXlE936yWQPo"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233244238922 and registered email id.","data":{"5687":{"id":5687,"name":"KWAME","mobile_number":"244238922","email":"KEAMESTAGES1234@gmail.com","key":"8754d74f68efbef43843a09102f97c9d","password":"4665e6e0de3fb829edf4a9a9a8a5d828","fcm_reg_id":"esMEviL4oZk:APA91bEz5eW0EXVeVOZrxYhAuUkRc2PI3_NnFRw9tBubReffQDEXBOIa-BUXuE0Lbk61uOA-uxCtI0hWPCrzTKoHP3MfR6uPz0Xhx7H8QZ-vfbBtk6dLKrNozEKR-1RwXXlE936yWQPo","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-11-01 10:53:20","updated_date":"2021-11-01 10:53:20","status":"1"}}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-03-05 16:55:27
+{"method":"getCityIdByAddressOrLatLng","address":"Boulevard Abrogoua, Abidjan, Côte d'Ivoire","lat":"5.3564604","lng":"-4.0272279"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Boulevard Abrogoua, Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-03-05 17:55:38
+{"method":"getCityIdByAddressOrLatLng","address":"Kinshasa, République démocratique du Congo","lat":"-4.4419311","lng":"15.2662931"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Avenue Mpolo num\u00e9ro 1060, Commune de la Gombe- Kinshasa, R\u00e9publique, d\u00e9mocratique, Non loin de la place du march\u00e9, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2021-03-05 20:09:40
+{"method":"getCityIdByAddressOrLatLng","address":"Lakki Marwat, Khyber Pakhtunkhwa, Pakistan","lat":"32.5377588","lng":"70.8897252"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Lakki Marwat, Khyber Pakhtunkhwa, Pakistan"}}

@@ -1,0 +1,29 @@
+
+ Request - 2021-10-05 01:12:35
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nouakchott, Mauritanie","lat":"18.1296651","lng":"-16.0003526"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nouakchott, Mauritania"}}
+ Request - 2021-10-05 03:22:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroun","lat":"5.6106403","lng":"10.2402105"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Cameroon"}}
+ Request - 2021-10-05 12:09:07
+{"method":"getCityIdByAddressOrLatLng","address":"F8GF+6P2, कटरा बाँदा, बाँदा, उत्तर प्रदेश 210001, भारत","lat":"25.4749107","lng":"80.3249663"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F8GF+6P2, Katra Banda, Banda, Uttar Pradesh 210001, India"}}
+ Request - 2021-10-05 12:17:45
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Rawalpindi, Punjab 46000, Pakistan","lat":"33.5716256","lng":"73.0568319"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H3C4+MP Rawalpindi, Pakistan"}}
+ Request - 2021-10-05 15:01:39
+{"method":"getCityIdByAddressOrLatLng","address":"GJ SH 6, Shiracha, Gujarat 370405, India","lat":"22.8400211","lng":"69.5542404"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GJ SH 6, Shiracha, Gujarat 370405, India"}}
+ Request - 2021-10-05 16:50:24
+{"method":"getCityIdByAddressOrLatLng","address":"Omifunfun-Legbira-Idanre, 340108, Idanre, Nigeria","lat":"7.0915069","lng":"5.1498857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"34RX+JX Idanre, Nigeria"}}
+ Request - 2021-10-05 21:06:17
+{"method":"getCityIdByAddressOrLatLng","address":"Abra, Lebanon","lat":"33.5666371","lng":"35.3984976"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Abra, Lebanon"}}

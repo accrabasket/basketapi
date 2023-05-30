@@ -1,0 +1,9 @@
+
+ Request - 2022-08-11 09:17:09
+{"method":"updatecart","user_id":"8598","guest_user_id":"37fc8f86884a55c1"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2022-08-11 21:56:40
+{"method":"updatecart","user_id":"185","guest_user_id":"d0bb0d29676f07e5"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}

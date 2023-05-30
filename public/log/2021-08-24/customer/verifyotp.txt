@@ -1,0 +1,5 @@
+
+ Request - 2021-08-24 16:48:16
+{"method":"verifyotp","country_code":"+233","mobile_number":"561278340","otp_type":"register","otp":"6320"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"7e75e400e3e1a32f24ca326c8eb23e21"}}

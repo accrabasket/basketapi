@@ -1,0 +1,13 @@
+
+ Request - 2021-01-02 11:13:26
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-01-02 23:26:02
+{"method":"addtocart","guest_user_id":"5440ea301da4a593","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-02 23:26:04
+{"method":"addtocart","guest_user_id":"5440ea301da4a593","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

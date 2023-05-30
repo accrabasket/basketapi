@@ -1,0 +1,21 @@
+
+ Request - 2022-11-11 12:28:26
+{"method":"getCityIdByAddressOrLatLng","address":"F5XJ+JGR, Caracas 1071, Miranda, Venezuela","lat":"10.4991433","lng":"-66.8188445"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F5XJ+JGR, Caracas 1071, Miranda, Venezuela"}}
+ Request - 2022-11-11 16:09:13
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bajaur Agency, Khyber Pakhtunkhwa, Pakistan","lat":"34.7775266","lng":"71.6178288"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJH9+24 Mula kali, Pakistan"}}
+ Request - 2022-11-11 18:11:53
+{"method":"getCityIdByAddressOrLatLng","address":"Karnaphuly Tunl Rd, Bangladesh","lat":"22.2274314","lng":"91.8121801"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Karnaphuly Tunl Rd, Bangladesh"}}
+ Request - 2022-11-11 18:58:25
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Kedoya Raya Blok B No.43, RT.6\/RW.7, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520, Indonesia","lat":"-6.1660081","lng":"106.7649199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Kedoya Raya Blok B No.43, RT.6\/RW.7, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520, Indonesia"}}
+ Request - 2022-11-11 19:04:49
+{"method":"getCityIdByAddressOrLatLng","address":"G3C3+H5X, Caracas 1030, Distrito Capital, Venezuela","lat":"10.522065","lng":"-66.9464675"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G3C3+H5X, Caracas 1030, Capital District, Venezuela"}}

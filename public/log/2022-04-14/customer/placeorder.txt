@@ -1,0 +1,17 @@
+
+ Request - 2022-04-14 16:45:54
+{"method":"placeorder","user_id":"8220","shipping_address_id":"615","time_slot_id":"4","delivery_date":"2022-04-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_315"}}
+ Request - 2022-04-14 16:45:58
+{"method":"placeorder","user_id":"8220","shipping_address_id":"615","time_slot_id":"4","delivery_date":"2022-04-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2022-04-14 16:46:02
+{"method":"placeorder","user_id":"8220","shipping_address_id":"615","time_slot_id":"4","delivery_date":"2022-04-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2022-04-14 16:46:04
+{"method":"placeorder","user_id":"8220","shipping_address_id":"615","time_slot_id":"4","delivery_date":"2022-04-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}

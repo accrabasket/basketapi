@@ -1,0 +1,13 @@
+
+ Request - 2022-12-24 01:32:21
+{"method":"getCityIdByAddressOrLatLng","address":"NH701, 193225","lat":"34.3683174","lng":"73.80446524"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9R93+8Q Forest Block, Jammu and Kashmir"}}
+ Request - 2022-12-24 03:44:09
+{"method":"getCityIdByAddressOrLatLng","address":"Kp.pasir putih mentangorRt001\/Rw022, Kibing, Kec. Batu Aji, Kota Batam, Kepulauan Riau 29424, Indonesia","lat":"1.052576","lng":"103.9827066"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kp.pasir putih mentangorRt001\/Rw022, Kibing, Kec. Batu Aji, Kota Batam, Kepulauan Riau 29424, Indonesia"}}
+ Request - 2022-12-24 18:54:58
+{"method":"getCityIdByAddressOrLatLng","address":"F3GP+XMJ, Manpurwa, Bihar 845420, India","lat":"26.4776748","lng":"85.0877849"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F3GP+XMJ, Manpurwa, Bihar 845420, India"}}

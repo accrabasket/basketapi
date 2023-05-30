@@ -1,0 +1,13 @@
+
+ Request - 2022-01-30 07:22:27
+{"method":"getCityIdByAddressOrLatLng","address":"Şabaniye, Yeşilova 2. Sk. No:3, 65300 Van Merkez\/Van, Türkiye","lat":"38.4810685","lng":"43.3825313"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u015eabaniye, Ye\u015filova 2. Sk. No:3, 65300 Van Merkez\/Van, Turkey"}}
+ Request - 2022-01-30 11:56:53
+{"method":"getCityIdByAddressOrLatLng","address":"F8P6+VPP, Kpasa, Ghana","lat":"8.4863526","lng":"0.3111809"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F8P6+VPP, Kpasa, Ghana"}}
+ Request - 2022-01-30 11:56:55
+{"method":"getCityIdByAddressOrLatLng","address":"F8P6+VPP, Kpasa, Ghana","lat":"8.4863526","lng":"0.3111809"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F8P6+VPP, Kpasa, Ghana"}}

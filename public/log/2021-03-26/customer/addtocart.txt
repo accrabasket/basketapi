@@ -1,0 +1,77 @@
+
+ Request - 2021-03-26 09:12:08
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:12:20
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:12:37
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:12:49
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"458","action":"delete","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:13:06
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:13:09
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:13:18
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:13:22
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:14:36
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:14:47
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:14:50
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:14:53
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:14:58
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:15:47
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 09:16:04
+{"method":"addtocart","guest_user_id":"22e432421e0306cb","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 18:30:41
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"311","action":"delete","item_name":"Red Chilli Whole(Red Chilli Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 18:35:10
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"311","action":"add","item_name":"Red Chilli Whole(Red Chilli Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 18:56:45
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"310","action":"delete","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-26 18:58:09
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"258","action":"delete","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

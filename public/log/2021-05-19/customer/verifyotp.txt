@@ -1,0 +1,5 @@
+
+ Request - 2021-05-19 14:58:02
+{"method":"verifyotp","country_code":"+233","mobile_number":"507289115","otp_type":"register","otp":"4434"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"aa20e13c7e184d5a0ab8716fcad4f430"}}

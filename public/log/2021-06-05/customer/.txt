@@ -1,0 +1,5 @@
+
+ Request - 2021-06-05 16:15:46
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"3587","action":"add","item_name":"Rose 
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}

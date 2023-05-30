@@ -1,0 +1,125 @@
+
+ Request - 2022-05-21 03:22:19
+{"method":"getitemintocart","guest_user_id":"8ff5cf28a422504a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 03:22:30
+{"method":"getitemintocart","guest_user_id":"8ff5cf28a422504a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 04:57:40
+{"method":"getitemintocart","guest_user_id":"442fdfce59288cb9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 05:21:04
+{"method":"getitemintocart","guest_user_id":"b667d5bdb291c1bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 06:08:44
+{"method":"getitemintocart","guest_user_id":"ceb7d09e2e213286"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 06:24:04
+{"method":"getitemintocart","guest_user_id":"3021d8271b28f276"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 14:19:46
+{"method":"getitemintocart","guest_user_id":"f06903d8c9761380"}
+ Response :- 
+{"status":"success","data":{"704":{"id":21129,"user_id":0,"guest_user_id":"f06903d8c9761380","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":1,"created_date":"2022-05-06 03:03:50"},"3452":{"id":21130,"user_id":0,"guest_user_id":"f06903d8c9761380","merchant_inventry_id":3452,"item_name":"Peach Shampoo(Peach Shampoo)","number_of_item":1,"created_date":"2022-05-06 03:04:04"},"207":{"id":21153,"user_id":0,"guest_user_id":"f06903d8c9761380","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2022-05-09 07:30:06"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"},"3452":{"id":3452,"price":"10.95","product_id":3916,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Peach Shampoo","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Amalfi","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":null}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}],"3916":[{"id":4996,"type":"product","image_id":3916,"image_name":"OSU0570.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 14:22:09
+{"method":"getitemintocart","guest_user_id":"e38070577a305dd6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 15:18:57
+{"method":"getitemintocart","guest_user_id":"9f4cdc15466abf7f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 15:19:41
+{"method":"getitemintocart","guest_user_id":"9f4cdc15466abf7f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 15:20:25
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 15:22:23
+{"method":"getitemintocart","guest_user_id":"9f4cdc15466abf7f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 15:24:51
+{"method":"getitemintocart","guest_user_id":"9f4cdc15466abf7f"}
+ Response :- 
+{"status":"success","data":{"742":{"id":21242,"user_id":0,"guest_user_id":"9f4cdc15466abf7f","merchant_inventry_id":742,"item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)","number_of_item":1,"created_date":"2022-05-21 15:24:51"}},"productDetails":{"status":"success","data":{"742":{"id":742,"price":"58.99","product_id":1026,"merchant_id":4,"store_id":4,"merchant_product_code":"38491","product_name":"Vegetable Cooking Oil","product_desc":"The Frytol brand delivers superior quality, purity and taste because only the good gets in. Staying true to its Ghanaian roots, while being committed to deliver consistent quality, Frytol is made from palm oil partly produced by local farmers which makes it great for all of your cooking requirements; whether you\u2019re frying or using oil as a recipe ingredient, the purity of Frytol oil will ensure your food tastes delicious.\r\nOther benefits of Frytol Pure Vegetable Oil include its stability under the Ghanaian climate. It does not oxidize in sunlight. It is suitable for all types of cooking, frying and baking and brings out the expected natural taste on any meals prepared with it.\r\nIt is produced and packaged locally in Ghana in a state of the art refinery- ISO, FDA and GSA certified manufacturing environment which guarantees 100% product quality, safety and freshness.","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"Frytol","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":5,"tax_value":"3"}},"productImageData":{"1026":[{"id":986,"type":"product","image_id":1026,"image_name":"1026_1545156151.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 15:24:55
+{"method":"getitemintocart","guest_user_id":"9f4cdc15466abf7f"}
+ Response :- 
+{"status":"success","data":{"742":{"id":21242,"user_id":0,"guest_user_id":"9f4cdc15466abf7f","merchant_inventry_id":742,"item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)","number_of_item":1,"created_date":"2022-05-21 15:24:51"}},"productDetails":{"status":"success","data":{"742":{"id":742,"price":"58.99","product_id":1026,"merchant_id":4,"store_id":4,"merchant_product_code":"38491","product_name":"Vegetable Cooking Oil","product_desc":"The Frytol brand delivers superior quality, purity and taste because only the good gets in. Staying true to its Ghanaian roots, while being committed to deliver consistent quality, Frytol is made from palm oil partly produced by local farmers which makes it great for all of your cooking requirements; whether you\u2019re frying or using oil as a recipe ingredient, the purity of Frytol oil will ensure your food tastes delicious.\r\nOther benefits of Frytol Pure Vegetable Oil include its stability under the Ghanaian climate. It does not oxidize in sunlight. It is suitable for all types of cooking, frying and baking and brings out the expected natural taste on any meals prepared with it.\r\nIt is produced and packaged locally in Ghana in a state of the art refinery- ISO, FDA and GSA certified manufacturing environment which guarantees 100% product quality, safety and freshness.","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"Frytol","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":5,"tax_value":"3"}},"productImageData":{"1026":[{"id":986,"type":"product","image_id":1026,"image_name":"1026_1545156151.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 15:24:55
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 17:10:22
+{"method":"getitemintocart","guest_user_id":"619f0bbe2971babd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 17:11:41
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 17:11:56
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 17:12:03
+{"method":"getitemintocart","guest_user_id":"619f0bbe2971babd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 17:12:17
+{"method":"getitemintocart","guest_user_id":"619f0bbe2971babd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 17:12:47
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 17:14:29
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 17:14:32
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 21:01:05
+{"method":"getitemintocart","guest_user_id":"09e4b74c8542af5f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 21:01:32
+{"method":"getitemintocart","guest_user_id":"09e4b74c8542af5f"}
+ Response :- 
+{"status":"success","data":{"3821":{"id":21248,"user_id":0,"guest_user_id":"09e4b74c8542af5f","merchant_inventry_id":3821,"item_name":"Potatoes(Potatoes)","number_of_item":1,"created_date":"2022-05-21 21:01:32"}},"productDetails":{"status":"success","data":{"3821":{"id":3821,"price":"13.00","product_id":4293,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Potatoes","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4293":[{"id":5386,"type":"product","image_id":4293,"image_name":"OSU4915.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 21:01:35
+{"method":"getitemintocart","guest_user_id":"09e4b74c8542af5f"}
+ Response :- 
+{"status":"success","data":{"3821":{"id":21248,"user_id":0,"guest_user_id":"09e4b74c8542af5f","merchant_inventry_id":3821,"item_name":"Potatoes(Potatoes)","number_of_item":1,"created_date":"2022-05-21 21:01:32"},"3808":{"id":21249,"user_id":0,"guest_user_id":"09e4b74c8542af5f","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":1,"created_date":"2022-05-21 21:01:34"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null},"3821":{"id":3821,"price":"13.00","product_id":4293,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Potatoes","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}],"4293":[{"id":5386,"type":"product","image_id":4293,"image_name":"OSU4915.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 22:23:22
+{"method":"getitemintocart","guest_user_id":"6273d4c205e1880a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-21 22:23:58
+{"method":"getitemintocart","guest_user_id":"6273d4c205e1880a"}
+ Response :- 
+{"status":"success","data":{"246":{"id":21250,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2022-05-21 22:23:57"}},"productDetails":{"status":"success","data":{"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 22:24:05
+{"method":"getitemintocart","guest_user_id":"6273d4c205e1880a"}
+ Response :- 
+{"status":"success","data":{"246":{"id":21250,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2022-05-21 22:23:57"},"232":{"id":21251,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2022-05-21 22:24:05"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}],"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 22:24:12
+{"method":"getitemintocart","guest_user_id":"6273d4c205e1880a"}
+ Response :- 
+{"status":"success","data":{"246":{"id":21250,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2022-05-21 22:23:57"},"232":{"id":21251,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2022-05-21 22:24:05"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}],"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-21 22:24:17
+{"method":"getitemintocart","guest_user_id":"6273d4c205e1880a"}
+ Response :- 
+{"status":"success","data":{"246":{"id":21250,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":2,"created_date":"2022-05-21 22:23:57"},"232":{"id":21251,"user_id":0,"guest_user_id":"6273d4c205e1880a","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2022-05-21 22:24:05"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}],"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

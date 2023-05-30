@@ -1,0 +1,13 @@
+
+ Request - 2022-01-13 03:18:50
+{"method":"countryList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":4,"country_name":"Ghana","country_phone_code":"+233","created_on":"2017-11-21 00:00:00","updated_on":null}}}
+ Request - 2022-01-13 03:18:55
+{"method":"countryList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":4,"country_name":"Ghana","country_phone_code":"+233","created_on":"2017-11-21 00:00:00","updated_on":null}}}
+ Request - 2022-01-13 03:19:06
+{"method":"countryList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":4,"country_name":"Ghana","country_phone_code":"+233","created_on":"2017-11-21 00:00:00","updated_on":null}}}

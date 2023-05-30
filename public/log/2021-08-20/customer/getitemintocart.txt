@@ -1,0 +1,33 @@
+
+ Request - 2021-08-20 09:36:43
+{"method":"getitemintocart","guest_user_id":"e0790d503c1439c5"}
+ Response :- 
+{"status":"success","data":{"936":{"id":15223,"user_id":0,"guest_user_id":"e0790d503c1439c5","merchant_inventry_id":936,"item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)","number_of_item":1,"created_date":"2021-05-30 12:44:15"}},"productDetails":{"status":"success","data":{"936":{"id":936,"price":"84.99","product_id":902,"merchant_id":4,"store_id":4,"merchant_product_code":"69639","product_name":"Baby Pants Jumbo Pack","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Pampers","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":52,"tax_value":"3"}},"productImageData":[]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-20 09:51:32
+{"method":"getitemintocart","guest_user_id":"e0790d503c1439c5"}
+ Response :- 
+{"status":"success","data":{"936":{"id":15223,"user_id":0,"guest_user_id":"e0790d503c1439c5","merchant_inventry_id":936,"item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)","number_of_item":1,"created_date":"2021-05-30 12:44:15"}},"productDetails":{"status":"success","data":{"936":{"id":936,"price":"84.99","product_id":902,"merchant_id":4,"store_id":4,"merchant_product_code":"69639","product_name":"Baby Pants Jumbo Pack","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Pampers","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":52,"tax_value":"3"}},"productImageData":[]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-20 11:18:42
+{"method":"getitemintocart","guest_user_id":"f46c3ee1dc849eb3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-20 11:34:24
+{"method":"getitemintocart","guest_user_id":"f46c3ee1dc849eb3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-20 14:45:48
+{"method":"getitemintocart","guest_user_id":"b31dd863f3749a0e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-20 14:46:23
+{"method":"getitemintocart","guest_user_id":"b31dd863f3749a0e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-20 16:22:35
+{"method":"getitemintocart","guest_user_id":"f46c3ee1dc849eb3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-20 21:16:31
+{"method":"getitemintocart","guest_user_id":"0a3b504fbadce707"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

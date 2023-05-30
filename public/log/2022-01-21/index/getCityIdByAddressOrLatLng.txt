@@ -1,0 +1,13 @@
+
+ Request - 2022-01-21 00:54:55
+{"method":"getCityIdByAddressOrLatLng","address":"8WGM+J84, Waterloo, Sierra Leone","lat":"8.3246665","lng":"-13.0675633"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8WFJ+VX Waterloo, Sierra Leone"}}
+ Request - 2022-01-21 20:08:10
+{"method":"getCityIdByAddressOrLatLng","address":"Pirgachha Nekmamud Rd, Pirgachha, Bangladesh","lat":"25.6574156","lng":"89.4164288"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Pirgachha Nekmamud Rd, Pirgachha, Bangladesh"}}
+ Request - 2022-01-21 21:12:23
+{"method":"getCityIdByAddressOrLatLng","address":"N14, Dédougou, Burkina Faso","lat":"12.4481809","lng":"-3.4462121"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CHX3+7G Dedougou, Burkina Faso"}}

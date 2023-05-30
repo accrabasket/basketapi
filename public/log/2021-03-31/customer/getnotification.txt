@@ -1,0 +1,545 @@
+
+ Request - 2021-03-31 03:43:44
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6097,"subject":"Order placed","msg":"New Order order_P_217 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-30 20:52:20","updated_date":null},{"id":6095,"subject":"Order placed","msg":"New Order order_P_217 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-30 20:52:05","updated_date":null},{"id":6093,"subject":"Order placed","msg":"New Order order_P_217 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-30 20:51:50","updated_date":null},{"id":6091,"subject":"Order placed","msg":"New Order order_P_217 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-30 20:51:35","updated_date":null}],"totalRecord":4}
+ Request - 2021-03-31 03:43:48
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 03:44:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 03:45:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 03:46:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 03:47:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 03:48:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 03:49:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 08:47:59
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 08:48:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 08:48:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 08:48:47
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 08:50:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 08:50:52
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 08:50:57
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 10:54:11
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 10:54:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 10:54:17
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 10:54:44
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:44:45
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:44:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:44:52
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:45:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:46:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:46:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:46:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:46:55
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:47:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:49:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 12:50:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:17:08
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:17:11
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:17:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:18:12
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:20:56
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:21:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:22:32
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:26:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6099,"subject":"Order placed","msg":"New Order order_m4_589 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-03-31 05:34:27","updated_date":null}],"totalRecord":1}
+ Request - 2021-03-31 13:26:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:27:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:28:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:29:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:30:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:31:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:32:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:33:37
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:34:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:35:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:36:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:37:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:38:33
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:38:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:38:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:38:49
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:39:08
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:39:26
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:39:31
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:39:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:40:31
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:40:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:41:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:42:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:43:40
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:44:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:45:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:46:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:47:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:48:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:49:14
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:49:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:49:25
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:49:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:50:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:50:56
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:50:58
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:51:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:52:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:53:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:54:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:55:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:56:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:57:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:58:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 13:59:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 14:00:40
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 14:01:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:47:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:47:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:48:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:49:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:50:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:51:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:52:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:53:05
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:54:06
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:55:07
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:56:07
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:57:08
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:58:10
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 16:59:11
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:00:12
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:01:13
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:02:14
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:02:26
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:03:27
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:04:27
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:09:28
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:10:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:11:30
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:12:31
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:13:32
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:14:33
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:15:34
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:16:35
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:17:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:18:37
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:19:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:20:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:21:40
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:40:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:40:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:41:31
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:42:31
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:59:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 17:59:16
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:00:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:01:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:02:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:03:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:04:15
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:05:16
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:06:16
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:07:16
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:14:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:15:13
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-03-31 18:15:25
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

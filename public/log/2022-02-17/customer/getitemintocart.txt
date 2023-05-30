@@ -1,0 +1,17 @@
+
+ Request - 2022-02-17 10:51:09
+{"method":"getitemintocart","guest_user_id":"df5432ca6bf38423"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-17 12:35:34
+{"method":"getitemintocart","guest_user_id":"2fe5a6713d790510"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-17 19:58:20
+{"method":"getitemintocart","guest_user_id":"1655ff359d3a097f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-17 20:19:35
+{"method":"getitemintocart","guest_user_id":"29a4aece488b55ae"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

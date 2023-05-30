@@ -1,0 +1,13 @@
+
+ Request - 2021-04-04 14:25:42
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"Appiadu-Kokoben,KNUST-Kumasi","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"Botchway house","landmark":"behind Jesus Grace Academy,black gate and blue roof","zipcode":"4380"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":430}}
+ Request - 2021-04-04 20:23:25
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"Appiadu-Kokoben,KNUST-Kumasi","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"Botchway house","landmark":"behind Jesus Grace Academy,","zipcode":"4380","id":"430"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-04-04 20:26:27
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"Appiadu-Kokoben,KNUST-Kumasi","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"Botchway house","landmark":"behind Jesus Grace Academy, black gate, blue roof","zipcode":"9827","id":"430"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

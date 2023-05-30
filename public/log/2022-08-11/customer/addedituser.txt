@@ -1,0 +1,5 @@
+
+ Request - 2022-08-11 09:16:48
+{"method":"addedituser","city_id":"1","password":"undezillions91","name":"Isaac Nii Quaye ","email":"sagadesage.iq@gmail.com","mobile_number":"277728755","country_code":"+233","id":"0","fcm_reg_id":"d0e1-gbiUkc:APA91bGDj9_xB0Q8jEqiqqyk0GzmEhE51SSX7arKbrMYrjFlCF79S62_qkC-uVx4xeQKQAGoWP1XSPyh2ILF_KgAnWQdcBDYQS8AqEoxtvnoZJL4lU8ghrQDO3RSbc3EslqKOiwAZ4he"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233277728755 and registered email id.","data":{"8598":{"id":8598,"name":"Isaac Nii Quaye ","mobile_number":"277728755","email":"sagadesage.iq@gmail.com","key":"0a0865b868f17b0abec475765702b7c4","password":"188fb7bc5b8c54a4fc49bfbcab504d90","fcm_reg_id":"d0e1-gbiUkc:APA91bGDj9_xB0Q8jEqiqqyk0GzmEhE51SSX7arKbrMYrjFlCF79S62_qkC-uVx4xeQKQAGoWP1XSPyh2ILF_KgAnWQdcBDYQS8AqEoxtvnoZJL4lU8ghrQDO3RSbc3EslqKOiwAZ4he","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-08-11 09:16:48","updated_date":"2022-08-11 09:16:48","status":"1"}}}

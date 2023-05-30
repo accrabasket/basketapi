@@ -1,0 +1,5 @@
+
+ Request - 2021-03-29 14:11:59
+{"method":"getaddresslist","user_id":"800"}
+ Response :- 
+{"status":"success","data":{"360":{"id":360,"user_id":800,"address_nickname":"","contact_name":"Amith-tel","city_id":1,"city_name":"Osu, Accra, Ghana","house_number":"Flat No 1, Kyerba House,","street_detail":"","landmark":"near Rajni Supermarket and Mamamia Restaurant","zipcode":"","area":"7th Lane Osu","lat":"5.5570305","lng":"-0.1762717","created_date":"2021-01-11 09:26:56","updated_date":"2021-01-11 09:26:56"},"366":{"id":366,"user_id":800,"address_nickname":"","contact_name":"Moctesr","city_id":1,"city_name":"Kpeshie, Accra, Ghana","house_number":"11","street_detail":"","landmark":"Vbh","zipcode":"","area":"Ghh","lat":"5.6226568","lng":"-0.173518","created_date":"2021-01-15 03:24:00","updated_date":"2021-01-15 03:24:00"}}}

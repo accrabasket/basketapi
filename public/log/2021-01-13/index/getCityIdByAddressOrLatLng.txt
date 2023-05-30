@@ -1,0 +1,17 @@
+
+ Request - 2021-01-13 00:08:46
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, မိုင်းနောင်, Myanmar (Burma)","lat":"21.6463164","lng":"98.1227622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u1019\u102d\u102f\u1004\u103a\u1038\u1014\u1031\u102c\u1004\u103a, Myanmar (Burma)"}}
+ Request - 2021-01-13 05:59:19
+{"method":"getCityIdByAddressOrLatLng","address":"10 Kacha Sanda Rd, National Town Lahore, Punjab 54000, Pakistan","lat":"31.5601121","lng":"74.29183"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Kacha Sanda Rd, National Town Lahore, Punjab 54000, Pakistan"}}
+ Request - 2021-01-13 06:12:29
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nigeria","lat":"6.1907294","lng":"6.9680581"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nigeria"}}
+ Request - 2021-01-13 09:26:07
+{"method":"getCityIdByAddressOrLatLng","address":"33 Kyaik Waing Pagoda Rd, Yangon, Myanmar (Burma)","lat":"16.8680747","lng":"96.13781"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"33 Kyaik Waing Pagoda Rd, Yangon, Myanmar (Burma)"}}

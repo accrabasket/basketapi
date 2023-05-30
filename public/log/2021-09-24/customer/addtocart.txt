@@ -1,0 +1,29 @@
+
+ Request - 2021-09-24 07:12:09
+{"method":"addtocart","guest_user_id":"8783b3868f3a03bd","number_of_item":"1","merchant_inventry_id":"229","action":"add","item_name":"Cinnamon Powder(Cinnamon Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-24 07:12:15
+{"method":"addtocart","guest_user_id":"8783b3868f3a03bd","number_of_item":"1","merchant_inventry_id":"1044","action":"add","item_name":"Mixed Pickle(Mixed Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-24 07:12:15
+{"method":"addtocart","guest_user_id":"8783b3868f3a03bd","number_of_item":"1","merchant_inventry_id":"1035","action":"add","item_name":"Hot Chilli Pickle(Hot Chilli Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-24 14:07:09
+{"method":"addtocart","guest_user_id":"80cb11b7e030ef51","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-24 14:07:27
+{"method":"addtocart","guest_user_id":"80cb11b7e030ef51","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-24 14:07:28
+{"method":"addtocart","guest_user_id":"80cb11b7e030ef51","number_of_item":"1","merchant_inventry_id":"586","action":"delete","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-24 14:13:18
+{"method":"addtocart","guest_user_id":"80cb11b7e030ef51","number_of_item":"1","merchant_inventry_id":"1350","action":"add","item_name":"Shiraz 100% Wine(Shiraz 100% Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,21 @@
+
+ Request - 2022-02-07 05:01:53
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7026,"subject":"Order placed","msg":"New Order order_m4_813 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-02-05 19:32:34","updated_date":null},{"id":7024,"subject":"Order placed","msg":"New Order order_m4_812 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-02-05 19:29:21","updated_date":null}],"totalRecord":2}
+ Request - 2022-02-07 05:02:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-07 05:02:12
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-07 05:02:19
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-07 05:02:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

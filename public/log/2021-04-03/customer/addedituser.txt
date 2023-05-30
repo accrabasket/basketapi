@@ -1,0 +1,77 @@
+
+ Request - 2021-04-03 17:29:21
+{"method":"addedituser","city_id":"1","password":"lukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233558241250 and registered email id.","data":{"2250":{"id":2250,"name":"Brinna Botchway","mobile_number":"558241250","email":"brinnabotchway@gmail.com","key":"cf5a45e1ed145ab9bd670f234eb7dc6d","password":"9ab8a6fd6f8d48ac6880406ef43c1bde","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-03 17:29:21","updated_date":"2021-04-03 17:29:21","status":"1"}}}
+ Request - 2021-04-03 17:30:38
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:30:45
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:31:07
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0244714367","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:31:34
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0244714367","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:31:49
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"ritabotch@gmail.com","mobile_number":"0244714367","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233244714367 and registered email id.","data":{"2251":{"id":2251,"name":"Brinna Botchway","mobile_number":"244714367","email":"ritabotch@gmail.com","key":"05cc66a7b45351f329b07b8b9f66a910","password":"43bfcd409d4547d37e4947c9bcc0f1de","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-03 17:31:49","updated_date":"2021-04-03 17:31:49","status":"1"}}}
+ Request - 2021-04-03 17:36:43
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:36:47
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:37:41
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"ritabotch@gmail.com","mobile_number":"0244714367","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:37:43
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"ritabotch@gmail.com","mobile_number":"0244714367","country_code":"+233","id":"0","fcm_reg_id":"eNMSRMhNiKM:APA91bG2x5hEK5wMfrXCHFmwGEuV-hQT4-c3b68SO8TFK9xc78lTn9Q3kiLeXxGAlfNlg3Zm-eChSP-3vzQrEdVOzlBFVDYCbIk5mruqfMgKKb2SxnwY7AiZf1ESKVHT7CgA92uP8lMV"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:54
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:56
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:57
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:57
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:58
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:58
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:59
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:40:59
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-03 17:48:10
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brinnabotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"0","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

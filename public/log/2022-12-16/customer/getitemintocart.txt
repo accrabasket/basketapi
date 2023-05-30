@@ -1,0 +1,37 @@
+
+ Request - 2022-12-16 01:02:36
+{"method":"getitemintocart","guest_user_id":"34da18ea524aa381"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-16 02:53:40
+{"method":"getitemintocart","guest_user_id":"7befee933b4789c7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-16 06:16:59
+{"method":"getitemintocart","guest_user_id":"2db802d03b1e51ec"}
+ Response :- 
+{"status":"success","data":{"428":{"id":22853,"user_id":0,"guest_user_id":"2db802d03b1e51ec","merchant_inventry_id":428,"item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)","number_of_item":3,"created_date":"2022-11-25 06:47:07"}},"productDetails":{"status":"success","data":{"428":{"id":428,"price":"11.30","product_id":593,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Floral - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"593":[{"id":553,"type":"product","image_id":593,"image_name":"8699415063025.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-16 11:37:36
+{"method":"getitemintocart","guest_user_id":"7befee933b4789c7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-16 16:56:11
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-16 16:56:11
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-16 20:14:02
+{"method":"getitemintocart","guest_user_id":"f3f4f4bfdcad5cf1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-16 20:14:51
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-12-16 20:15:13
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

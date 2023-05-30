@@ -1,0 +1,5 @@
+
+ Request - 2022-02-02 12:09:46
+{"method":"addedituser","city_id":"1","password":"Olawale101","name":"Freshlord Olatunde","email":"freshlord101@gmail.com","mobile_number":"07063766018","country_code":"+233","id":"0","fcm_reg_id":"cz4e9_Qkzu4:APA91bEVXVC-nur27pYnV1KOPStCPCv721GWT3nK5VgaFq600GvcOHKjT5gLXgLdIr9TLdC6-Oa9nlJIZXmbNnP3_RWMVrN8FtCm37_xlRuswaEo6h9zxujpcGUEIiGA272OT7gScTop"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2337063766018 and registered email id.","data":{"7628":{"id":7628,"name":"Freshlord Olatunde","mobile_number":"7063766018","email":"freshlord101@gmail.com","key":"cd2ade12598d628df4bab716358a03c9","password":"fe0f8cb91b40c878f9683abaf0f4d34f","fcm_reg_id":"cz4e9_Qkzu4:APA91bEVXVC-nur27pYnV1KOPStCPCv721GWT3nK5VgaFq600GvcOHKjT5gLXgLdIr9TLdC6-Oa9nlJIZXmbNnP3_RWMVrN8FtCm37_xlRuswaEo6h9zxujpcGUEIiGA272OT7gScTop","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-02-02 12:09:46","updated_date":"2022-02-02 12:09:46","status":"1"}}}

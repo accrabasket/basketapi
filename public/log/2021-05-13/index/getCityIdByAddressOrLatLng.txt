@@ -1,0 +1,21 @@
+
+ Request - 2021-05-13 05:58:50
+{"method":"getCityIdByAddressOrLatLng","address":"Sultan Bathery Rd, Kerala 673592, India","lat":"11.65606","lng":"76.2832104"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sultan Bathery Rd, Kerala 673592, India"}}
+ Request - 2021-05-13 06:20:11
+{"method":"getCityIdByAddressOrLatLng","address":"Delhi–Multan Rd, Adda Machianwala Adda Machian Wala, Vehari, Punjab, Pakistan","lat":"30.1046648","lng":"72.5258437"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Delhi\u2013Multan Rd, Adda Machianwala Adda Machian Wala, Vehari, Punjab, Pakistan"}}
+ Request - 2021-05-13 15:10:21
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tongi, Bangladesh","lat":"23.9081075","lng":"90.423867"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Tongi, Bangladesh"}}
+ Request - 2021-05-13 15:43:38
+{"method":"getCityIdByAddressOrLatLng","address":"Gorakhpur, Uttar Pradesh, Inde","lat":"26.7605545","lng":"83.3731675"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Gorakhpur - Sonauli Rd, Bashratpur, Gorakhpur, Uttar Pradesh 273001, India"}}
+ Request - 2021-05-13 20:21:49
+{"method":"getCityIdByAddressOrLatLng","address":"Avenue Kolwezi, Lubumbashi, République démocratique du Congo","lat":"-11.6924907","lng":"27.4818821"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Avenue Kolwezi, Lubumbashi, Democratic Republic of the Congo"}}

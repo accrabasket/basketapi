@@ -1,0 +1,13 @@
+
+ Request - 2022-08-06 05:01:21
+{"method":"getCityIdByAddressOrLatLng","address":"7FHJ+2QH, Bhojpur, Bihar 802301, India","lat":"25.2780608","lng":"84.4817361"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7FHJ+2QH, Bhojpur, Bihar 802301, India"}}
+ Request - 2022-08-06 18:06:45
+{"method":"getCityIdByAddressOrLatLng","address":"2 Dina Bypass, Khokhran, Jhelum, Punjab, Pakistan","lat":"33.0359206","lng":"73.615538"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2 Dina Bypass, Khokhran, Jhelum, Punjab, Pakistan"}}
+ Request - 2022-08-06 21:54:13
+{"method":"getCityIdByAddressOrLatLng","address":"JVP4+6FP, Accra, Ghana","lat":"5.6356338","lng":"-0.1437393"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JVP4+6FP, Accra, Ghana"}}

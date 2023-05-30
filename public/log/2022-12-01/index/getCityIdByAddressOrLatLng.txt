@@ -1,0 +1,17 @@
+
+ Request - 2022-12-01 06:10:27
+{"method":"getCityIdByAddressOrLatLng","address":"内蒙古自治区通辽市科尔沁区哲里木大街","lat":"43.63963963963964","lng":"122.27048385052113"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"China, Nei Meng Gu Zi Zhi Qu, Tong Liao Shi, Ke Er Qin Qu, \u5efa\u56fd\u8def\u4e1c\u5df7 \u90ae\u653f\u7f16\u7801: 028005"}}
+ Request - 2022-12-01 09:50:13
+{"method":"getCityIdByAddressOrLatLng","address":"Dihi, Jharkhand 829206, India","lat":"23.8280616","lng":"84.5724962"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RHHC+6X Dihi, Jharkhand, India"}}
+ Request - 2022-12-01 16:50:00
+{"method":"getCityIdByAddressOrLatLng","address":"N26, République démocratique du Congo","lat":"2.910391666666667","lng":"29.539525000000005"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WG6Q+5R Dubele, Democratic Republic of the Congo"}}
+ Request - 2022-12-01 16:56:02
+{"method":"getCityIdByAddressOrLatLng","address":"Textbook Ct, Lawrenceville, GA 30044, यूनाइटेड स्टेट्‍स","lat":"33.9165914","lng":"-84.0255924"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"521 Textbook Ct, Lawrenceville, GA 30044, USA"}}

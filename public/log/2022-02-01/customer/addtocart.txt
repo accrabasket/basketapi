@@ -1,0 +1,13 @@
+
+ Request - 2022-02-01 13:03:50
+{"method":"addtocart","guest_user_id":"8af72e684da6108f","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-01 13:04:03
+{"method":"addtocart","guest_user_id":"8af72e684da6108f","number_of_item":"1","merchant_inventry_id":"3587","action":"add","item_name":"Rose & Honey Long Lasting Soap(Rose & Honey Long Lasting Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-01 13:05:14
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"472","action":"add","item_name":"Pineapple Vodka(Pineapple Vodka)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

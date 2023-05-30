@@ -1,0 +1,9 @@
+
+ Request - 2021-10-09 06:08:53
+{"method":"getaddresslist","user_id":"5074"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-10-09 06:10:20
+{"method":"getaddresslist","user_id":"5074"}
+ Response :- 
+{"status":"success","data":{"550":{"id":550,"user_id":5074,"address_nickname":"LEGON HALL ","contact_name":"Flora Hammond ","city_id":1,"city_name":"JRW6+PH6, Accra, Ghana","house_number":"LEGON HALL ANNEX B ","street_detail":"MENSAH SARBAH CRESCENT ","landmark":"UNIVERSITY OF GHANA ","zipcode":"2233","area":"","lat":"5.6469019","lng":"","created_date":"2021-10-09 06:10:20","updated_date":"2021-10-09 06:10:20"}}}

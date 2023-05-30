@@ -1,0 +1,5 @@
+
+ Request - 2021-06-04 04:56:42
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"35":{"id":35,"promotion_name":"Meat-new","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":3},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":4}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"35":[{"id":4926,"type":"promotion","image_id":35,"image_name":"35_1619775338.png"}],"20":[{"id":4927,"type":"promotion","image_id":20,"image_name":"20_1619775811.jpg"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,25 @@
+
+ Request - 2022-06-16 00:50:56
+{"method":"getitemintocart","guest_user_id":"efdb9ca10e3363b6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-16 00:51:54
+{"method":"getitemintocart","guest_user_id":"efdb9ca10e3363b6"}
+ Response :- 
+{"status":"success","data":{"428":{"id":21797,"user_id":0,"guest_user_id":"efdb9ca10e3363b6","merchant_inventry_id":428,"item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)","number_of_item":1,"created_date":"2022-06-16 00:51:53"}},"productDetails":{"status":"success","data":{"428":{"id":428,"price":"11.30","product_id":593,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Floral - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"593":[{"id":553,"type":"product","image_id":593,"image_name":"8699415063025.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-16 03:51:43
+{"method":"getitemintocart","guest_user_id":"b13caf5f8e3526a3"}
+ Response :- 
+{"status":"success","data":{"452":{"id":21583,"user_id":0,"guest_user_id":"b13caf5f8e3526a3","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2022-06-08 14:23:29"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-16 06:42:21
+{"method":"getitemintocart","guest_user_id":"4404d57aa11822f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-16 09:23:48
+{"method":"getitemintocart","guest_user_id":"4404d57aa11822f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-16 09:23:48
+{"method":"getitemintocart","guest_user_id":"4404d57aa11822f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

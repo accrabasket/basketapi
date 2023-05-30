@@ -1,0 +1,13 @@
+
+ Request - 2022-06-29 22:41:55
+{"method":"addedituser","city_id":"1","password":"Dadaben1","name":"Benjamin Sagoe ","email":"kwekus2005@gmail.com","mobile_number":"0626301214","country_code":"+233","id":"0","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233626301214 and registered email id.","data":{"8460":{"id":8460,"name":"Benjamin Sagoe ","mobile_number":"626301214","email":"kwekus2005@gmail.com","key":"d53f2dc75ae547749f58393ef526f865","password":"806c8ebba3ce7e2d17519fd2806e0f66","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-06-29 22:41:55","updated_date":"2022-06-29 22:41:55","status":"1"}}}
+ Request - 2022-06-29 22:44:14
+{"method":"addedituser","city_id":"1","password":"Dadaben1","name":"Benjamin Sagoe ","email":"kwekus2005@gmail.com","mobile_number":"0262301214","country_code":"+233","id":"0","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-06-29 22:44:18
+{"method":"addedituser","city_id":"1","password":"Dadaben1","name":"Benjamin Sagoe ","email":"kwekus2005@gmail.com","mobile_number":"0262301214","country_code":"+233","id":"0","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

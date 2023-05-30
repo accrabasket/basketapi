@@ -1,0 +1,5 @@
+
+ Request - 2021-01-30 04:00:26
+{"parent_category_id":"1","category_name":"Pickles","category_des":"","category_sequence":"8","id":"100","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}

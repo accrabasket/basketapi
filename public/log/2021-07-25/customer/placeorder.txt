@@ -1,0 +1,9 @@
+
+ Request - 2021-07-25 19:55:20
+{"method":"placeorder","user_id":"3331","shipping_address_id":"498","time_slot_id":"3","delivery_date":"2021-07-26","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_702"}}
+ Request - 2021-07-25 19:57:45
+{"method":"placeorder","user_id":"3331","shipping_address_id":"498","time_slot_id":"2","delivery_date":"2021-07-26","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m15_26","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"3331","TransactionId":"f02d73fe60564433301e596e3115178e","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m15_26","Amount":105,"Signature":"f4cba68e2488f26b9a467e35f51181a354e250fd099923dffc4818e826dfa72c"}}}}

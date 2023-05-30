@@ -1,0 +1,9 @@
+
+ Request - 2022-09-30 22:48:53
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"54559956"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23354559956","otp_type":"register","user_id":"0","otp":2017,"expiry_date":"2022-09-30 23:03:53"}}
+ Request - 2022-09-30 22:50:22
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"54559956"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23354559956","otp_type":"register","user_id":"0","otp":1841,"expiry_date":"2022-09-30 23:05:22"}}

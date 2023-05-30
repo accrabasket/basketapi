@@ -1,0 +1,141 @@
+
+ Request - 2021-02-15 11:21:29
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:21:30
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:21:32
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:22:01
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:22:03
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:22:05
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:03
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:08
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:12
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:15
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:32
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:33
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"460","action":"add","item_name":"Original Irish Cream"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:35
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:37
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:39
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:40
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"466","action":"add","item_name":"Vodka"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:42
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:44
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"468","action":"add","item_name":"California Rose"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:46
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"469","action":"add","item_name":"Moscato Sangria White Wine"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:48
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"470","action":"add","item_name":"Pink Moscato Sangria Wine"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:50
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"472","action":"add","item_name":"Pineapple Vodka"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 11:28:51
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"473","action":"add","item_name":"Vodka"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 12:00:12
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 12:00:14
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 12:00:15
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 13:42:48
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 13:42:49
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 13:51:48
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 13:51:49
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 13:52:52
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 13:52:53
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 14:12:32
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 14:12:34
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 14:12:35
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-15 16:59:33
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

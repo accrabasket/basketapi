@@ -1,0 +1,17 @@
+
+ Request - 2021-07-25 19:50:56
+{"method":"addtocart","guest_user_id":"14058f08bb390cd1","number_of_item":"1","merchant_inventry_id":"498","action":"add","item_name":"Barrel Aged Whisky(Barrel Aged Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-25 19:51:42
+{"method":"addtocart","guest_user_id":"14058f08bb390cd1","number_of_item":"1","merchant_inventry_id":"521","action":"add","item_name":"Ice Edition - Blanc Sparkling Wine(Ice Edition - Blanc Sparkling Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-25 19:52:35
+{"method":"addtocart","guest_user_id":"14058f08bb390cd1","number_of_item":"1","merchant_inventry_id":"1243","action":"add","item_name":"Premium Grain Spirit Whisky(Premium Grain Spirit Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-25 19:57:08
+{"method":"addtocart","user_id":"3331","number_of_item":"1","merchant_inventry_id":"3398","action":"add","item_name":"Odex Bleach - Blue\/Regular Scent(Odex Bleach - Blue\/Regular Scent)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

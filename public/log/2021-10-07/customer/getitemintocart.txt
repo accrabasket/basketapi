@@ -1,0 +1,69 @@
+
+ Request - 2021-10-07 03:23:10
+{"method":"getitemintocart","guest_user_id":"13e2acf947d34323"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 11:21:05
+{"method":"getitemintocart","guest_user_id":"37b4f7b346c0e9e4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 11:45:59
+{"method":"getitemintocart","guest_user_id":"fcf25ea01bef0f54"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 15:43:55
+{"method":"getitemintocart","guest_user_id":"5bf338d8a3fe1b1d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 18:13:18
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 18:14:14
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"success","data":{"1004":{"id":17489,"user_id":0,"guest_user_id":"ec628f16a323d56f","merchant_inventry_id":1004,"item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )","number_of_item":1,"created_date":"2021-10-07 18:14:14"}},"productDetails":{"status":"success","data":{"1004":{"id":1004,"price":"6.99","product_id":1287,"merchant_id":4,"store_id":4,"merchant_product_code":"74978","product_name":"Cassava Flour Kokonte  ","product_desc":"Meannan Foods was founded in 2005 to encourage and facilitate the production, processing, packaging and marketing of quality Ghanaian food, with special focus on locally produced EGGs. The local food value-chain in promotion is pursued in the most efficient and cost effective manner to ensure access and availability to users and also provide ready market for small-scale Agro and poultry farmers. Meannan Foods can be located in Tema.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"Meannan","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":750,"tax_value":"3"}},"productImageData":{"1287":[{"id":1564,"type":"product","image_id":1287,"image_name":"74978.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-07 18:14:19
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 18:14:21
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"success","data":{"1004":{"id":17490,"user_id":0,"guest_user_id":"ec628f16a323d56f","merchant_inventry_id":1004,"item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )","number_of_item":1,"created_date":"2021-10-07 18:14:21"}},"productDetails":{"status":"success","data":{"1004":{"id":1004,"price":"6.99","product_id":1287,"merchant_id":4,"store_id":4,"merchant_product_code":"74978","product_name":"Cassava Flour Kokonte  ","product_desc":"Meannan Foods was founded in 2005 to encourage and facilitate the production, processing, packaging and marketing of quality Ghanaian food, with special focus on locally produced EGGs. The local food value-chain in promotion is pursued in the most efficient and cost effective manner to ensure access and availability to users and also provide ready market for small-scale Agro and poultry farmers. Meannan Foods can be located in Tema.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"Meannan","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":750,"tax_value":"3"}},"productImageData":{"1287":[{"id":1564,"type":"product","image_id":1287,"image_name":"74978.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-07 18:14:32
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"success","data":{"1004":{"id":17490,"user_id":0,"guest_user_id":"ec628f16a323d56f","merchant_inventry_id":1004,"item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )","number_of_item":1,"created_date":"2021-10-07 18:14:21"}},"productDetails":{"status":"success","data":{"1004":{"id":1004,"price":"6.99","product_id":1287,"merchant_id":4,"store_id":4,"merchant_product_code":"74978","product_name":"Cassava Flour Kokonte  ","product_desc":"Meannan Foods was founded in 2005 to encourage and facilitate the production, processing, packaging and marketing of quality Ghanaian food, with special focus on locally produced EGGs. The local food value-chain in promotion is pursued in the most efficient and cost effective manner to ensure access and availability to users and also provide ready market for small-scale Agro and poultry farmers. Meannan Foods can be located in Tema.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"Meannan","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":750,"tax_value":"3"}},"productImageData":{"1287":[{"id":1564,"type":"product","image_id":1287,"image_name":"74978.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-07 18:19:46
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"success","data":{"1004":{"id":17490,"user_id":0,"guest_user_id":"ec628f16a323d56f","merchant_inventry_id":1004,"item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )","number_of_item":1,"created_date":"2021-10-07 18:14:21"}},"productDetails":{"status":"success","data":{"1004":{"id":1004,"price":"6.99","product_id":1287,"merchant_id":4,"store_id":4,"merchant_product_code":"74978","product_name":"Cassava Flour Kokonte  ","product_desc":"Meannan Foods was founded in 2005 to encourage and facilitate the production, processing, packaging and marketing of quality Ghanaian food, with special focus on locally produced EGGs. The local food value-chain in promotion is pursued in the most efficient and cost effective manner to ensure access and availability to users and also provide ready market for small-scale Agro and poultry farmers. Meannan Foods can be located in Tema.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"Meannan","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":750,"tax_value":"3"}},"productImageData":{"1287":[{"id":1564,"type":"product","image_id":1287,"image_name":"74978.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-07 18:24:24
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"success","data":{"1004":{"id":17490,"user_id":0,"guest_user_id":"ec628f16a323d56f","merchant_inventry_id":1004,"item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )","number_of_item":1,"created_date":"2021-10-07 18:14:21"}},"productDetails":{"status":"success","data":{"1004":{"id":1004,"price":"6.99","product_id":1287,"merchant_id":4,"store_id":4,"merchant_product_code":"74978","product_name":"Cassava Flour Kokonte  ","product_desc":"Meannan Foods was founded in 2005 to encourage and facilitate the production, processing, packaging and marketing of quality Ghanaian food, with special focus on locally produced EGGs. The local food value-chain in promotion is pursued in the most efficient and cost effective manner to ensure access and availability to users and also provide ready market for small-scale Agro and poultry farmers. Meannan Foods can be located in Tema.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"Meannan","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":750,"tax_value":"3"}},"productImageData":{"1287":[{"id":1564,"type":"product","image_id":1287,"image_name":"74978.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-07 18:38:28
+{"method":"getitemintocart","guest_user_id":"5d3d2e6792ff314c"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17480,"user_id":0,"guest_user_id":"5d3d2e6792ff314c","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-10-06 16:50:08"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-07 21:27:15
+{"method":"getitemintocart","guest_user_id":"37b4f7b346c0e9e4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 22:20:20
+{"method":"getitemintocart","guest_user_id":"2e9b62bca7cfd6cb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 22:20:39
+{"method":"getitemintocart","guest_user_id":"2e9b62bca7cfd6cb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 22:43:13
+{"method":"getitemintocart","guest_user_id":"774cff3eefb3cc71"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-07 22:45:24
+{"method":"getitemintocart","guest_user_id":"774cff3eefb3cc71"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

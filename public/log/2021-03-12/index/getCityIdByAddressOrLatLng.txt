@@ -1,0 +1,17 @@
+
+ Request - 2021-03-12 00:50:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tj. Lago, Kabupaten Banyu Asin, Sumatera Selatan 30961, Indonesia","lat":"-2.6736483","lng":"104.6648611"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Tj. Lago, Kabupaten Banyu Asin, Sumatera Selatan 30961, Indonesia"}}
+ Request - 2021-03-12 06:51:17
+{"method":"getCityIdByAddressOrLatLng","address":"N2, Rao, Sénégal","lat":"15.9231608","lng":"-16.3874058"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N2, Rao, Senegal"}}
+ Request - 2021-03-12 16:59:06
+{"method":"getCityIdByAddressOrLatLng","address":"Jukwa Rd, Cape Coast, Ghana","lat":"5.1225773","lng":"-1.2684938"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jukwa Rd, Cape Coast, Ghana"}}
+ Request - 2021-03-12 23:22:30
+{"method":"getCityIdByAddressOrLatLng","address":"N6, New Fodowa, Ghana","lat":"6.6014143","lng":"-0.8876265"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N6, New Fodowa, Ghana"}}

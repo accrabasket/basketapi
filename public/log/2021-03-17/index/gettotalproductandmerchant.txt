@@ -1,0 +1,17 @@
+
+ Request - 2021-03-17 03:09:20
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":2,"totalNumberOfProduct":1}}
+ Request - 2021-03-17 05:35:25
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":8,"totalNumberOfProduct":3374}}
+ Request - 2021-03-17 08:42:48
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":8,"totalNumberOfProduct":3374}}
+ Request - 2021-03-17 14:44:06
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":8,"totalNumberOfProduct":3374}}

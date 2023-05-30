@@ -1,0 +1,5 @@
+
+ Request - 2021-01-02 11:14:48
+{"method":"getaddresslist","user_id":"0"}
+ Response :- 
+{"status":"fail","msg":"User not supplied"}

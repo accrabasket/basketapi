@@ -1,0 +1,9 @@
+
+ Request - 2022-06-29 22:44:48
+{"method":"login","email":"kwekus2005@gmail.com","password":"Dadaben1","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD"}
+ Response :- 
+{"status":"success","data":{"8460":{"id":8460,"name":"Benjamin Sagoe ","mobile_number":"626301214","email":"kwekus2005@gmail.com","key":"d53f2dc75ae547749f58393ef526f865","password":"806c8ebba3ce7e2d17519fd2806e0f66","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-06-29 22:41:55","updated_date":"2022-06-29 22:41:55","status":"1"}},"totalNumberOfUser":1,"wallet_key":"806c8ebba3ce7e2d17519fd2806e0f66"}
+ Request - 2022-06-29 22:45:05
+{"method":"login","email":"kwekus2005@gmail.com","password":"Dadaben1","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD"}
+ Response :- 
+{"status":"success","data":{"8460":{"id":8460,"name":"Benjamin Sagoe ","mobile_number":"626301214","email":"kwekus2005@gmail.com","key":"d53f2dc75ae547749f58393ef526f865","password":"806c8ebba3ce7e2d17519fd2806e0f66","fcm_reg_id":"fK_zVsX1Ny4:APA91bHvQznQyBkXeKJiNbMp6Kt4aJ-xVHHmvEGnOcLX7YE3d5gJJQqzs2iPQe68M7pumjmcWatX3komvRS1U2L9EoHpigI7FxJy02C418HSsr8_WaNWRx8jaJ7YmFfB3Aqjis5oxwQD","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-06-29 22:41:55","updated_date":"2022-06-29 22:41:55","status":"1"}},"totalNumberOfUser":1,"wallet_key":"806c8ebba3ce7e2d17519fd2806e0f66"}

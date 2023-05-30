@@ -1,0 +1,9 @@
+
+ Request - 2021-04-04 14:13:21
+{"method":"verifyotp","country_code":"+233","mobile_number":"0596710478","otp_type":"register","otp":"8756"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-04-04 14:18:08
+{"method":"verifyotp","country_code":"+233","mobile_number":"0596710478","otp_type":"register","otp":"4380"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"d67a19fcd330693f70d7ea307a140737"}}

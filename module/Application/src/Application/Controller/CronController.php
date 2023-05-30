@@ -22,6 +22,7 @@ class CronController extends AbstractActionController {
         $this->commonLib = new common();
     }
     public function sendnotificationAction() {
+//	print_r($_SERVER);die;
         $response = $this->cronLib->sendNotification();
         $this->cronLib->sendSms();
         echo json_encode($response);
@@ -66,8 +67,8 @@ class CronController extends AbstractActionController {
         $requestParams = json_encode($_REQUEST);
         $responseStr = json_encode($response);
         echo $responseStr;
-        $logText = $requestParams."\n Response :- \n".$responseStr."boyd".$entityBody;  
-        $this->commonLib->writeDebugLog($logText, 'cron', 'updatepaymentstatus');
+        //$logText = $requestParams."\n Response :- \n".$responseStr."boyd".$entityBody;  
+       // $this->commonLib->writeDebugLog($logText, 'cron', 'updatepaymentstatus');
      //   exit;
 //header('Location:myapp://com.afrobaskets:sucess:0:0:0:0');
 exit;

@@ -1,0 +1,13 @@
+
+ Request - 2021-11-30 12:35:42
+{"method":"getCityIdByAddressOrLatLng","address":"JQ2Q+RGQ, Beldour, Bihar 852161, India","lat":"25.6020924","lng":"86.7888547"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JQ2Q+9HW, Tilathi, Beldour, Bihar 852161, India"}}
+ Request - 2021-11-30 15:39:18
+{"method":"getCityIdByAddressOrLatLng","address":"C. 3 9, Santiago De Los Caballeros 51000, República Dominicana","lat":"19.465641666666667","lng":"-70.67322166666666"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C. 3 9, Santiago De Los Caballeros 51000, Dominican Republic"}}
+ Request - 2021-11-30 18:50:16
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, አዋሳ, Ethiopia","lat":"7.0701138","lng":"38.4827544"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u12a0\u12cb\u1233, Ethiopia"}}

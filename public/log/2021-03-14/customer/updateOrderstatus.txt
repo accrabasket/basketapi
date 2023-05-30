@@ -1,0 +1,9 @@
+
+ Request - 2021-03-14 05:43:50
+{"role":"merchant","order_status":"ready_to_dispatch","order_id":"order_m1_1","method":"updateOrderstatus","merchant_id":2}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed"],"merchant_id":2,"order_id":"order_m1_1"}}
+ Request - 2021-03-14 05:50:11
+{"order_id":"order_m1_1","store_id":"1","method":"updateOrderstatus","order_status":"cancelled","user_id":1}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":1,"order_id":"order_m1_1","store_id":"1"}}

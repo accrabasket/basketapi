@@ -1,0 +1,13 @@
+
+ Request - 2021-03-08 12:26:06
+{"method":"getCityIdByAddressOrLatLng","address":"Piazza della Vittoria, 11, 85028 Rionero In Vulture PZ, Italy","lat":"40.9236546","lng":"15.6722298"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Piazza della Vittoria, 11, 85028 Rionero In Vulture PZ, Italy"}}
+ Request - 2021-03-08 18:49:20
+{"method":"getCityIdByAddressOrLatLng","address":"Apple St, Accra, Ghana","lat":"5.6246068","lng":"-0.1311758"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Apple St, Accra, Ghana"}}
+ Request - 2021-03-08 21:07:43
+{"method":"getCityIdByAddressOrLatLng","address":"111 8th Ave, New York, NY 10011, USA","lat":"40.7414688","lng":"-74.0033873"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"325 W 15th St, New York, NY 10011, USA"}}

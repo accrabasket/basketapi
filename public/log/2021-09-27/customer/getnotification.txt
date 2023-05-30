@@ -1,0 +1,25 @@
+
+ Request - 2021-09-27 05:42:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-09-27 11:11:22
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-09-27 13:56:07
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-09-27 19:44:22
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6726,"subject":"Order placed","msg":"New Order order_m4_733 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-09-27 14:59:21","updated_date":null},{"id":6724,"subject":"Order placed","msg":"New Order order_m15_34 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-09-27 14:57:17","updated_date":null}],"totalRecord":2}
+ Request - 2021-09-27 19:44:28
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6726,"subject":"Order placed","msg":"New Order order_m4_733 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-09-27 14:59:21","updated_date":null},{"id":6724,"subject":"Order placed","msg":"New Order order_m15_34 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-09-27 14:57:17","updated_date":null}],"totalRecord":2}
+ Request - 2021-09-27 19:45:27
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6726,"subject":"Order placed","msg":"New Order order_m4_733 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-09-27 14:59:21","updated_date":null},{"id":6724,"subject":"Order placed","msg":"New Order order_m15_34 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-09-27 14:57:17","updated_date":null}],"totalRecord":2}

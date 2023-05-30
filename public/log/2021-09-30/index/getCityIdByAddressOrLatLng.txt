@@ -1,0 +1,13 @@
+
+ Request - 2021-09-30 08:26:35
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Porto-Novo, Bénin","lat":"6.5007093","lng":"2.6243547"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Porto-Novo, Benin"}}
+ Request - 2021-09-30 11:22:36
+{"method":"getCityIdByAddressOrLatLng","address":"Aengus Rd, South Sudan","lat":"4.819551","lng":"31.550737"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RH92+R7 Juba, South Sudan"}}
+ Request - 2021-09-30 17:56:58
+{"method":"getCityIdByAddressOrLatLng","address":"322101, Kwale, Nigeria","lat":"5.7098271","lng":"6.4343621"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, 322101, Kwale, Nigeria"}}

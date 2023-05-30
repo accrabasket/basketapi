@@ -1,0 +1,69 @@
+
+ Request - 2022-09-15 07:44:54
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 08:19:23
+{"method":"getitemintocart","guest_user_id":"9fe00eda737682a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 08:19:54
+{"method":"getitemintocart","guest_user_id":"2c94fc40bf1612d6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 08:21:03
+{"method":"getitemintocart","guest_user_id":"9fe00eda737682a7"}
+ Response :- 
+{"status":"success","data":{"525":{"id":22538,"user_id":0,"guest_user_id":"9fe00eda737682a7","merchant_inventry_id":525,"item_name":"Chardonnay Wine(Chardonnay Wine)","number_of_item":1,"created_date":"2022-09-15 08:21:03"}},"productDetails":{"status":"success","data":{"525":{"id":525,"price":"33.99","product_id":809,"merchant_id":4,"store_id":4,"merchant_product_code":"18343","product_name":"Chardonnay Wine","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Long Mountain","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"809":[{"id":663,"type":"product","image_id":809,"image_name":"18343.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-15 08:21:08
+{"method":"getitemintocart","guest_user_id":"9fe00eda737682a7"}
+ Response :- 
+{"status":"success","data":{"525":{"id":22538,"user_id":0,"guest_user_id":"9fe00eda737682a7","merchant_inventry_id":525,"item_name":"Chardonnay Wine(Chardonnay Wine)","number_of_item":2,"created_date":"2022-09-15 08:21:03"}},"productDetails":{"status":"success","data":{"525":{"id":525,"price":"33.99","product_id":809,"merchant_id":4,"store_id":4,"merchant_product_code":"18343","product_name":"Chardonnay Wine","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Long Mountain","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"809":[{"id":663,"type":"product","image_id":809,"image_name":"18343.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-15 08:21:10
+{"method":"getitemintocart","guest_user_id":"9fe00eda737682a7"}
+ Response :- 
+{"status":"success","data":{"525":{"id":22538,"user_id":0,"guest_user_id":"9fe00eda737682a7","merchant_inventry_id":525,"item_name":"Chardonnay Wine(Chardonnay Wine)","number_of_item":1,"created_date":"2022-09-15 08:21:03"}},"productDetails":{"status":"success","data":{"525":{"id":525,"price":"33.99","product_id":809,"merchant_id":4,"store_id":4,"merchant_product_code":"18343","product_name":"Chardonnay Wine","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Long Mountain","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"809":[{"id":663,"type":"product","image_id":809,"image_name":"18343.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-15 09:48:31
+{"method":"getitemintocart","guest_user_id":"9fe00eda737682a7"}
+ Response :- 
+{"status":"success","data":{"525":{"id":22538,"user_id":0,"guest_user_id":"9fe00eda737682a7","merchant_inventry_id":525,"item_name":"Chardonnay Wine(Chardonnay Wine)","number_of_item":1,"created_date":"2022-09-15 08:21:03"}},"productDetails":{"status":"success","data":{"525":{"id":525,"price":"33.99","product_id":809,"merchant_id":4,"store_id":4,"merchant_product_code":"18343","product_name":"Chardonnay Wine","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Long Mountain","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"809":[{"id":663,"type":"product","image_id":809,"image_name":"18343.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-15 09:49:37
+{"method":"getitemintocart","guest_user_id":"9fe00eda737682a7"}
+ Response :- 
+{"status":"success","data":{"525":{"id":22538,"user_id":0,"guest_user_id":"9fe00eda737682a7","merchant_inventry_id":525,"item_name":"Chardonnay Wine(Chardonnay Wine)","number_of_item":1,"created_date":"2022-09-15 08:21:03"}},"productDetails":{"status":"success","data":{"525":{"id":525,"price":"33.99","product_id":809,"merchant_id":4,"store_id":4,"merchant_product_code":"18343","product_name":"Chardonnay Wine","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Long Mountain","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"809":[{"id":663,"type":"product","image_id":809,"image_name":"18343.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-15 10:02:40
+{"method":"getitemintocart","guest_user_id":"d74f92079a2d35dd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 11:31:32
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 11:31:32
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 11:31:34
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 12:44:09
+{"method":"getitemintocart","guest_user_id":"442fdfce59288cb9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 15:27:48
+{"method":"getitemintocart","guest_user_id":"69c483ba2e004183"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 17:32:42
+{"method":"getitemintocart","guest_user_id":"9140e3cd87d1730c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 17:32:57
+{"method":"getitemintocart","guest_user_id":"9140e3cd87d1730c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-15 20:46:51
+{"method":"getitemintocart","guest_user_id":"3bbfb0f51a98cc28"}
+ Response :- 
+{"status":"success","data":{"3822":{"id":21164,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":3822,"item_name":"Turkey Wings(Turkey Wings)","number_of_item":1,"created_date":"2022-05-10 08:52:59"}},"productDetails":{"status":"success","data":{"3822":{"id":3822,"price":"29.00","product_id":4294,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Turkey Wings","product_desc":"We offer an array of specialty beef, pork and chicken proteins meant to add variety, flavor and authenticity to your meat case.","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"Lara Mart","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4294":[{"id":5387,"type":"product","image_id":4294,"image_name":"OSU4870.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

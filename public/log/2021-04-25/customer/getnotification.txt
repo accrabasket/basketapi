@@ -1,0 +1,5 @@
+
+ Request - 2021-04-25 09:41:28
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

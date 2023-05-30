@@ -1,0 +1,5 @@
+
+ Request - 2021-01-28 12:33:36
+{"order_id":"order_m4_453","rider_id":"24","method":"assignordertorider"}
+ Response :- 
+{"status":"success","msg":"order assigned to rider."}

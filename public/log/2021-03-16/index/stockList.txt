@@ -1,0 +1,33 @@
+
+ Request - 2021-03-16 03:26:16
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"},"2":{"id":2,"merchant_product_code":null,"product_id":1,"attribute_id":2,"store_id":1,"merchant_id":2,"price":"10.00","stock":10,"created_date":"2021-03-14 13:18:00","updated_date":"2021-03-14 13:18:00","name":"fruit-500","unit":"grams","quantity":500,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":2}
+ Request - 2021-03-16 03:26:16
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"},"2":{"id":2,"merchant_product_code":null,"product_id":1,"attribute_id":2,"store_id":1,"merchant_id":2,"price":"10.00","stock":10,"created_date":"2021-03-14 13:18:00","updated_date":"2021-03-14 13:18:00","name":"fruit-500","unit":"grams","quantity":500,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":2}
+ Request - 2021-03-16 03:26:33
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-16 03:26:38
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-16 03:26:41
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"},"2":{"id":2,"merchant_product_code":null,"product_id":1,"attribute_id":2,"store_id":1,"merchant_id":2,"price":"10.00","stock":10,"created_date":"2021-03-14 13:18:00","updated_date":"2021-03-14 13:18:00","name":"fruit-500","unit":"grams","quantity":500,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":2}
+ Request - 2021-03-16 03:26:42
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"},"2":{"id":2,"merchant_product_code":null,"product_id":1,"attribute_id":2,"store_id":1,"merchant_id":2,"price":"10.00","stock":10,"created_date":"2021-03-14 13:18:00","updated_date":"2021-03-14 13:18:00","name":"fruit-500","unit":"grams","quantity":500,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":2}
+ Request - 2021-03-16 03:27:45
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"},"2":{"id":2,"merchant_product_code":null,"product_id":1,"attribute_id":2,"store_id":1,"merchant_id":2,"price":"10.00","stock":10,"created_date":"2021-03-14 13:18:00","updated_date":"2021-03-14 13:18:00","name":"fruit-500","unit":"grams","quantity":500,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":2}
+ Request - 2021-03-16 03:27:45
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"},"2":{"id":2,"merchant_product_code":null,"product_id":1,"attribute_id":2,"store_id":1,"merchant_id":2,"price":"10.00","stock":10,"created_date":"2021-03-14 13:18:00","updated_date":"2021-03-14 13:18:00","name":"fruit-500","unit":"grams","quantity":500,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":2}

@@ -1,0 +1,5 @@
+
+ Request - 2022-08-23 15:22:33
+{"method":"getCityIdByAddressOrLatLng","address":"JJ2C+F6C, Bhagwanpura, Alwar, Rajasthan 301001, India","lat":"27.600626666666667","lng":"76.61992000000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JJ2C+F6C, Bhagwanpura, Alwar, Rajasthan 301001, India"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-03-10 17:37:44
+{"method":"verifyotp","country_code":"+233","mobile_number":"552246870","otp_type":"register","otp":"9323"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"22d4b020222474fec673c7202ea5deec"}}

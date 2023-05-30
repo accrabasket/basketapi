@@ -1,0 +1,9 @@
+
+ Request - 2022-09-24 03:46:20
+{"method":"getCityIdByAddressOrLatLng","address":"Sector 4, Dhaka 1230, Bangladesh","lat":"23.8656465","lng":"90.4043375"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sector 4, Dhaka 1230, Bangladesh"}}
+ Request - 2022-09-24 18:53:07
+{"method":"getCityIdByAddressOrLatLng","address":"Sinyor, Ethiopia","lat":"10.2283694","lng":"34.9632369"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6XH7+87 Ondonoli, Ethiopia"}}

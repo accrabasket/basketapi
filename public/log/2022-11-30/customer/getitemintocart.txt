@@ -1,0 +1,49 @@
+
+ Request - 2022-11-30 02:00:26
+{"method":"getitemintocart","guest_user_id":"0b13b2933e8ea13c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 02:50:18
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-11-30 08:33:28
+{"method":"getitemintocart","guest_user_id":"106c28ed84d2f467"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 09:32:27
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-11-30 13:34:21
+{"method":"getitemintocart","guest_user_id":"bbbb0beff94b41a8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 16:08:37
+{"method":"getitemintocart","guest_user_id":"ac494534dc5582a3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 18:54:59
+{"method":"getitemintocart","guest_user_id":"ab1bccad74efa7ce"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 23:26:53
+{"method":"getitemintocart","guest_user_id":"ea731ae5f61782b0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 23:27:52
+{"method":"getitemintocart","guest_user_id":"ea731ae5f61782b0"}
+ Response :- 
+{"status":"success","data":{"226":{"id":22856,"user_id":0,"guest_user_id":"ea731ae5f61782b0","merchant_inventry_id":226,"item_name":"Chick Peas(Chick Peas)","number_of_item":1,"created_date":"2022-11-30 23:27:52"}},"productDetails":{"status":"success","data":{"226":{"id":226,"price":"4.20","product_id":382,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Chick Peas","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Chick Peas, Water, Salt, Antioxidant: Ascorbic Acid\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"382":[{"id":299,"type":"product","image_id":382,"image_name":"8000066447162.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-30 23:27:59
+{"method":"getitemintocart","guest_user_id":"ea731ae5f61782b0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-30 23:28:05
+{"method":"getitemintocart","guest_user_id":"ea731ae5f61782b0"}
+ Response :- 
+{"status":"success","data":{"343":{"id":22857,"user_id":0,"guest_user_id":"ea731ae5f61782b0","merchant_inventry_id":343,"item_name":"Sunflower Oil(Sunflower Oil)","number_of_item":1,"created_date":"2022-11-30 23:28:04"}},"productDetails":{"status":"success","data":{"343":{"id":343,"price":"40.80","product_id":479,"merchant_id":3,"store_id":2,"merchant_product_code":null,"product_name":"Sunflower Oil","product_desc":"Sunflower oil is a sensitive product. Thanks to our comprehensive and advanced technology, we produce by preserving the natural structure of sunflower oil. With the ideal structure for your body, Zade Sunflower oil is a stomach friendly product. It is identified with your food with its ideal colour and consistency, revealing the taste of your food with its taste and lightness","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"ZADE","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":3,"tax_value":"3"}},"productImageData":{"479":[{"id":450,"type":"product","image_id":479,"image_name":"479_1537506214.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-30 23:28:12
+{"method":"getitemintocart","guest_user_id":"ea731ae5f61782b0"}
+ Response :- 
+{"status":"success","data":{"343":{"id":22857,"user_id":0,"guest_user_id":"ea731ae5f61782b0","merchant_inventry_id":343,"item_name":"Sunflower Oil(Sunflower Oil)","number_of_item":1,"created_date":"2022-11-30 23:28:04"}},"productDetails":{"status":"success","data":{"343":{"id":343,"price":"40.80","product_id":479,"merchant_id":3,"store_id":2,"merchant_product_code":null,"product_name":"Sunflower Oil","product_desc":"Sunflower oil is a sensitive product. Thanks to our comprehensive and advanced technology, we produce by preserving the natural structure of sunflower oil. With the ideal structure for your body, Zade Sunflower oil is a stomach friendly product. It is identified with your food with its ideal colour and consistency, revealing the taste of your food with its taste and lightness","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"ZADE","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":3,"tax_value":"3"}},"productImageData":{"479":[{"id":450,"type":"product","image_id":479,"image_name":"479_1537506214.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

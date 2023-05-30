@@ -1,0 +1,22 @@
+
+ Request - 2021-11-01 09:14:24
+{"method":"getBallance","user_id":3091,"wallet_key":"4b2008ffdc230e3ee745fd49dd8b252d"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-11-01 09:15:04
+{"method":"getBallance","user_id":3091,"wallet_key":"4b2008ffdc230e3ee745fd49dd8b252d"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-11-01 09:15:33
+{"method":"getBallance","user_id":3091,"wallet_key":"4b2008ffdc230e3ee745fd49dd8b252d"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}

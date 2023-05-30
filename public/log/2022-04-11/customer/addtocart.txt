@@ -1,0 +1,145 @@
+
+ Request - 2022-04-11 19:57:54
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 19:58:50
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"1630","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 19:59:36
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"1659","action":"add","item_name":"Strawberry Jam(Strawberry Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:46
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:47
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:48
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:49
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:50
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:50
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:51
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:52
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:53
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:00:54
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:03:39
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"786","action":"add","item_name":"Milo Actigen E - Drink(Milo Actigen E - Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:03:42
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"786","action":"add","item_name":"Milo Actigen E - Drink(Milo Actigen E - Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:04:39
+{"method":"addtocart","guest_user_id":"643401a6832acf1c","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:25:37
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:25:38
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:27:16
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"1630","action":"delete","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:28:02
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"733","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:28:04
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"733","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:28:14
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"733","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:28:14
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"733","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:00
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:03
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:04
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:05
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:05
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:06
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:07
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:08
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:09
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:10
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:15
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"786","action":"delete","item_name":"Milo Actigen E - Drink(Milo Actigen E - Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:29:17
+{"method":"addtocart","user_id":"8220","number_of_item":"1","merchant_inventry_id":"786","action":"delete","item_name":"Milo Actigen E - Drink(Milo Actigen E - Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-11 20:51:24
+{"method":"addtocart","guest_user_id":"75000a747ce4d9f7","number_of_item":"1","merchant_inventry_id":"248","action":"add","item_name":"Fish Curry Masala(Fish Curry Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

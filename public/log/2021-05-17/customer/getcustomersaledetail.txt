@@ -1,0 +1,5 @@
+
+ Request - 2021-05-17 11:22:15
+{"start_date":"2021-05-17","end_date":"2021-05-17","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-05-17":{"count":3,"created_date":"2021-05-17"}},"allOrderByDate":{"2021-05-17":{"count":6,"created_date":"2021-05-17"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":6,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

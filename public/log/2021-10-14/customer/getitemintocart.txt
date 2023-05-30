@@ -1,0 +1,41 @@
+
+ Request - 2021-10-14 01:44:55
+{"method":"getitemintocart","guest_user_id":"288d102123cc911f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 04:59:18
+{"method":"getitemintocart","guest_user_id":"cea224999e8f15c8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 08:09:50
+{"method":"getitemintocart","guest_user_id":"860f65300c002417"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 11:09:20
+{"method":"getitemintocart","guest_user_id":"9114a4918c4c170d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 12:08:18
+{"method":"getitemintocart","guest_user_id":"ae1dcaa4fc07fe9a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 15:41:12
+{"method":"getitemintocart","guest_user_id":"6176948e0d92bb3e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 15:43:01
+{"method":"getitemintocart","guest_user_id":"6176948e0d92bb3e"}
+ Response :- 
+{"status":"success","data":{"276":{"id":17559,"user_id":0,"guest_user_id":"6176948e0d92bb3e","merchant_inventry_id":276,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2021-10-14 15:43:00"}},"productDetails":{"status":"success","data":{"276":{"id":276,"price":"14.00","product_id":423,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Miksi has a marginally higher fat content yet still contains all the essential vitamins and minerals needed to keep you and your family healthy. With a smooth and creamy taste, our milk powder is as delicious as it is nutritious.\r\nEnriched with nourishing vitamins, Promasidor\u2019s second fat-filled milk powder Miksi boasts a rich and creamy taste.\r\nContaining the right amount of protein, calcium, vitamins and minerals necessary for good health, Miksi fat-filled milk powder has also been enriched with vitamins A and D to ensure optimal nutritional benefits. This powdered milk has a marginally higher fat content which gives it its milky smooth taste, yet it contains no cholesterol.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"MIKSI","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"423":[{"id":347,"type":"product","image_id":423,"image_name":"NEH00002.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-14 15:43:09
+{"method":"getitemintocart","guest_user_id":"6176948e0d92bb3e"}
+ Response :- 
+{"status":"success","data":{"276":{"id":17559,"user_id":0,"guest_user_id":"6176948e0d92bb3e","merchant_inventry_id":276,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2021-10-14 15:43:00"}},"productDetails":{"status":"success","data":{"276":{"id":276,"price":"14.00","product_id":423,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Miksi has a marginally higher fat content yet still contains all the essential vitamins and minerals needed to keep you and your family healthy. With a smooth and creamy taste, our milk powder is as delicious as it is nutritious.\r\nEnriched with nourishing vitamins, Promasidor\u2019s second fat-filled milk powder Miksi boasts a rich and creamy taste.\r\nContaining the right amount of protein, calcium, vitamins and minerals necessary for good health, Miksi fat-filled milk powder has also been enriched with vitamins A and D to ensure optimal nutritional benefits. This powdered milk has a marginally higher fat content which gives it its milky smooth taste, yet it contains no cholesterol.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"MIKSI","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"423":[{"id":347,"type":"product","image_id":423,"image_name":"NEH00002.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-14 15:43:13
+{"method":"getitemintocart","guest_user_id":"6176948e0d92bb3e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-14 19:13:54
+{"method":"getitemintocart","guest_user_id":"77d964405d5a1af9"}
+ Response :- 
+{"status":"success","data":{"2251":{"id":16607,"user_id":0,"guest_user_id":"77d964405d5a1af9","merchant_inventry_id":2251,"item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)","number_of_item":2,"created_date":"2021-08-12 11:33:03"}},"productDetails":{"status":"success","data":{"2251":{"id":2251,"price":"6.49","product_id":2584,"merchant_id":4,"store_id":4,"merchant_product_code":"D677   ","product_name":"Faxe 10% Can Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"{\"Ingredients\":\"Water,Barley malt, Glucose Syrup, Maize,  Hops. \"}","brand_name":"Faxe","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"2584":[{"id":3144,"type":"product","image_id":2584,"image_name":"D677.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

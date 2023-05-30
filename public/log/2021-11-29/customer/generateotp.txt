@@ -1,0 +1,5 @@
+
+ Request - 2021-11-29 18:28:30
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":3519,"expiry_date":"2021-11-29 18:43:30"}}

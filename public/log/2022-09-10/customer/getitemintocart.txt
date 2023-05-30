@@ -1,0 +1,45 @@
+
+ Request - 2022-09-10 13:56:27
+{"method":"getitemintocart","guest_user_id":"344f733667ba23c7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-10 14:50:00
+{"method":"getitemintocart","guest_user_id":"0e003a40aae4ea20"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-10 14:55:16
+{"method":"getitemintocart","guest_user_id":"0e003a40aae4ea20"}
+ Response :- 
+{"status":"success","data":{"408":{"id":22498,"user_id":0,"guest_user_id":"0e003a40aae4ea20","merchant_inventry_id":408,"item_name":"Super 25 % Extra - Basmati Rice(Super 25 % Extra - Basmati Rice)","number_of_item":1,"created_date":"2022-09-10 14:55:16"}},"productDetails":{"status":"success","data":{"408":{"id":408,"price":"120.00","product_id":578,"merchant_id":3,"store_id":2,"merchant_product_code":"6902251031","product_name":"Super 25 % Extra - Basmati Rice","product_desc":"India Gate Basmati Rice is the longest basmati rice grain in the world, and has won India\u2019s most preferred brand by AMGF for six consecutive years. It has become synonymous to highquality and premium rice. Basmati rice, as we all know is the most relished food grain around the world due to its aroma, flavour and taste. Harvested in the foothills of the Himalayas, this perfumed rice grain, when cooked swells lengthwise and becomes fluffy. These characteristics are not found in other type of rice and thus making basmati rice a much-favoured food grain.","default_discount_type":"","default_discount_value":"0","category_id":57,"custom_info":"","brand_name":"India Gate","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":6.25,"tax_value":"3"}},"productImageData":{"578":[{"id":534,"type":"product","image_id":578,"image_name":"690225103107.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-10 15:19:06
+{"method":"getitemintocart","guest_user_id":"8d562a92d7cdfef3"}
+ Response :- 
+{"status":"success","data":{"613":{"id":22355,"user_id":0,"guest_user_id":"8d562a92d7cdfef3","merchant_inventry_id":613,"item_name":"All Butter Shortbread(All Butter Shortbread)","number_of_item":1,"created_date":"2022-08-21 19:12:17"}},"productDetails":{"status":"success","data":{"613":{"id":613,"price":"17.49","product_id":894,"merchant_id":4,"store_id":4,"merchant_product_code":"X724   ","product_name":"All Butter Shortbread","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":95,"custom_info":"{\"Ingredients\":\"Flour (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Butter (31%)(Milk), Sugar, Salt, Wheat Starch.\",\"Allergy Information\":\"Sesame Seeds, Soya, Wheat & Milk\"}","brand_name":"McVitie\u2019s","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"894":[{"id":950,"type":"product","image_id":894,"image_name":"894_1545143370.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-10 15:43:51
+{"method":"getitemintocart","guest_user_id":"3021d8271b28f276"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-10 16:58:12
+{"method":"getitemintocart","guest_user_id":"0e003a40aae4ea20"}
+ Response :- 
+{"status":"success","data":{"408":{"id":22498,"user_id":0,"guest_user_id":"0e003a40aae4ea20","merchant_inventry_id":408,"item_name":"Super 25 % Extra - Basmati Rice(Super 25 % Extra - Basmati Rice)","number_of_item":1,"created_date":"2022-09-10 14:55:16"}},"productDetails":{"status":"success","data":{"408":{"id":408,"price":"120.00","product_id":578,"merchant_id":3,"store_id":2,"merchant_product_code":"6902251031","product_name":"Super 25 % Extra - Basmati Rice","product_desc":"India Gate Basmati Rice is the longest basmati rice grain in the world, and has won India\u2019s most preferred brand by AMGF for six consecutive years. It has become synonymous to highquality and premium rice. Basmati rice, as we all know is the most relished food grain around the world due to its aroma, flavour and taste. Harvested in the foothills of the Himalayas, this perfumed rice grain, when cooked swells lengthwise and becomes fluffy. These characteristics are not found in other type of rice and thus making basmati rice a much-favoured food grain.","default_discount_type":"","default_discount_value":"0","category_id":57,"custom_info":"","brand_name":"India Gate","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":6.25,"tax_value":"3"}},"productImageData":{"578":[{"id":534,"type":"product","image_id":578,"image_name":"690225103107.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-10 19:14:28
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-10 20:16:10
+{"method":"getitemintocart","guest_user_id":"c02ab244d363794d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-10 20:35:22
+{"method":"getitemintocart","guest_user_id":"0e003a40aae4ea20"}
+ Response :- 
+{"status":"success","data":{"408":{"id":22498,"user_id":0,"guest_user_id":"0e003a40aae4ea20","merchant_inventry_id":408,"item_name":"Super 25 % Extra - Basmati Rice(Super 25 % Extra - Basmati Rice)","number_of_item":1,"created_date":"2022-09-10 14:55:16"}},"productDetails":{"status":"success","data":{"408":{"id":408,"price":"120.00","product_id":578,"merchant_id":3,"store_id":2,"merchant_product_code":"6902251031","product_name":"Super 25 % Extra - Basmati Rice","product_desc":"India Gate Basmati Rice is the longest basmati rice grain in the world, and has won India\u2019s most preferred brand by AMGF for six consecutive years. It has become synonymous to highquality and premium rice. Basmati rice, as we all know is the most relished food grain around the world due to its aroma, flavour and taste. Harvested in the foothills of the Himalayas, this perfumed rice grain, when cooked swells lengthwise and becomes fluffy. These characteristics are not found in other type of rice and thus making basmati rice a much-favoured food grain.","default_discount_type":"","default_discount_value":"0","category_id":57,"custom_info":"","brand_name":"India Gate","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":6.25,"tax_value":"3"}},"productImageData":{"578":[{"id":534,"type":"product","image_id":578,"image_name":"690225103107.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-10 21:38:06
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-10 22:57:50
+{"method":"getitemintocart","guest_user_id":"6efa0ac5719a33e5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

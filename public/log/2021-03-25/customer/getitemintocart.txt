@@ -1,0 +1,25 @@
+
+ Request - 2021-03-25 07:44:35
+{"method":"getitemintocart","guest_user_id":"idns1nedkducnqrjqdgu1oaql5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-25 07:59:26
+{"method":"getitemintocart","guest_user_id":"15e0b691470b6a50"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-25 14:43:07
+{"method":"getitemintocart","guest_user_id":"e64d7fe06090bc86"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-25 20:14:21
+{"method":"getitemintocart","guest_user_id":"9cb49b648425d187"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-25 20:29:34
+{"method":"getitemintocart","guest_user_id":"9cb49b648425d187"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-25 22:22:36
+{"method":"getitemintocart","guest_user_id":"58ce924cbdff39e9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

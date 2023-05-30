@@ -1,0 +1,25 @@
+
+ Request - 2022-04-12 07:17:30
+{"method":"getCityIdByAddressOrLatLng","address":"See Below, Addis Ababa, Ethiopia","lat":"8.9883022","lng":"38.7768065"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"See Below, Addis Ababa, Ethiopia"}}
+ Request - 2022-04-12 10:39:48
+{"method":"getCityIdByAddressOrLatLng","address":"Administration Block, Gulu, Uganda","lat":"2.7881815","lng":"32.3158975"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Administration Block, Gulu, Uganda"}}
+ Request - 2022-04-12 17:11:57
+{"method":"getCityIdByAddressOrLatLng","address":"Oceanview, Victoria Island 106104, Lagos, Nigeria","lat":"6.4231163","lng":"3.4278157"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Oceanview, Victoria Island 106104, Lagos, Nigeria"}}
+ Request - 2022-04-12 19:11:48
+{"method":"getCityIdByAddressOrLatLng","address":"Under Bridge Bus Stop, Ahmadu Bello Way, Garki 900110, Abuja, Nigeria","lat":"9.0206776","lng":"7.4824673"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Under Bridge Bus Stop, Ahmadu Bello Way, Garki 2 900110, Abuja, Nigeria"}}
+ Request - 2022-04-12 21:11:52
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kampala, Uganda","lat":"0.2342672","lng":"32.5745677"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6HMF+PR Kampala, Uganda"}}
+ Request - 2022-04-12 22:18:19
+{"method":"getCityIdByAddressOrLatLng","address":"MWCM+MMG, Bouaké, Côte d'Ivoire","lat":"7.6707235","lng":"-5.0649112"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MWCM+MMG, Bouake, C\u00f4te d'Ivoire"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-10-01 13:14:23
+{"method":"verifyotp","country_code":"+233","mobile_number":"557499919","otp_type":"register","otp":"6620"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"eb4bf2e1653026ee22dc8dd122fa8eca"}}

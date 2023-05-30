@@ -1,0 +1,21 @@
+
+ Request - 2021-07-31 06:03:33
+{"method":"getCityIdByAddressOrLatLng","address":"RN1, Niger","lat":"14.5581329","lng":"1.0803175"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RN1, Niger"}}
+ Request - 2021-07-31 08:36:34
+{"method":"getCityIdByAddressOrLatLng","address":"506, Kanhai, Sector 45, Gurugram, Haryana 122003, India","lat":"28.4422807","lng":"77.0702555"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"506, Kanhai, Sector 45, Gurugram, Haryana 122003, India"}}
+ Request - 2021-07-31 11:47:04
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sufiabad Lahore, Punjab, Pakistan","lat":"31.424965","lng":"74.3646808"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sufiabad Lahore, Punjab, Pakistan"}}
+ Request - 2021-07-31 16:11:44
+{"method":"getCityIdByAddressOrLatLng","address":"HFX5+MRC, Twifo Praso, Ghana","lat":"5.5992754","lng":"-1.5391731"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HFX5+MRC, Twifo Praso, Ghana"}}
+ Request - 2021-07-31 18:57:14
+{"method":"getCityIdByAddressOrLatLng","address":"OKE-OGBO, IGBADO-OLUWA STREET, Iwara Rd, Ife, Nigeria","lat":"7.4784497","lng":"4.5884004"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"OKE-OGBO, IGBADO-OLUWA STREET, Iwara Rd, Ife, Nigeria"}}

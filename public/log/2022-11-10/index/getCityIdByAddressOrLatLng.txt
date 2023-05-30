@@ -1,0 +1,9 @@
+
+ Request - 2022-11-10 17:09:14
+{"method":"getCityIdByAddressOrLatLng","address":"Bastoi Halt, Bastoi, Uttar Pradesh 204215, India","lat":"27.6699593","lng":"78.3040227"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Bastoi Halt, Bastoi, Uttar Pradesh 204215, India"}}
+ Request - 2022-11-10 17:23:29
+{"method":"getCityIdByAddressOrLatLng","address":"22 Edo Technical School Road, Uselu 300103, Benin City, Nigeria","lat":"6.3790507","lng":"5.6163907"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"22 Edo Technical School Road, Uselu 300103, Benin City, Nigeria"}}

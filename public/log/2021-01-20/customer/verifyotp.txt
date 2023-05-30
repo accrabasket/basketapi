@@ -1,0 +1,5 @@
+
+ Request - 2021-01-20 02:28:01
+{"method":"verifyotp","country_code":"+233","mobile_number":"0245004247","otp_type":"register","otp":"9290"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"da536bf3c0ac878de936f5ddec0ebb76"}}

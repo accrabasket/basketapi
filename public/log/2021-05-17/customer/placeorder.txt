@@ -1,0 +1,9 @@
+
+ Request - 2021-05-17 09:29:40
+{"method":"placeorder","user_id":"800","shipping_address_id":"360","time_slot_id":"1","delivery_date":"2021-05-17","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-05-17 09:40:03
+{"method":"placeorder","user_id":"800","shipping_address_id":"360","time_slot_id":"1","delivery_date":"2021-05-17","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m2_748"}}

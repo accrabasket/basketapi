@@ -1,0 +1,9 @@
+
+ Request - 2023-02-20 10:04:19
+{"method":"getitemintocart","guest_user_id":"4f2c156cdabd1577"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-02-20 10:07:28
+{"method":"getitemintocart","guest_user_id":"4f2c156cdabd1577"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

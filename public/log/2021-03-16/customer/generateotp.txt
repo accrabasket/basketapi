@@ -1,0 +1,13 @@
+
+ Request - 2021-03-16 10:54:34
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"552518559"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233552518559","otp_type":"register","user_id":"0","otp":9821,"expiry_date":"2021-03-16 11:09:34"}}
+ Request - 2021-03-16 10:55:15
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"552518559"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233552518559","otp_type":"register","user_id":"0","otp":8604,"expiry_date":"2021-03-16 11:10:15"}}
+ Request - 2021-03-16 10:56:03
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"552518559"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233552518559","otp_type":"register","user_id":"0","otp":4940,"expiry_date":"2021-03-16 11:11:03"}}

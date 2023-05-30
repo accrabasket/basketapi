@@ -1,0 +1,13 @@
+
+ Request - 2021-04-14 12:50:22
+{"method":"getCityIdByAddressOrLatLng","address":"Magdhar, Madhya Pradesh, India","lat":"23.299179","lng":"81.0573533"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Magdhar, Madhya Pradesh 484552, India"}}
+ Request - 2021-04-14 17:27:45
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Morocco","lat":"31.8586182","lng":"-6.9573175"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Morocco"}}
+ Request - 2021-04-14 18:08:12
+{"method":"getCityIdByAddressOrLatLng","address":"N8, Ghana","lat":"5.831062","lng":"-1.3124332"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N8, Ghana"}}

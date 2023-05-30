@@ -1,0 +1,9 @@
+
+ Request - 2021-03-04 15:44:45
+{"product_name":"Natural Brown Sugar Bottle","brand_name":"Blessed Child","nutrition":"","category_id":"81","promotion_id":"","item_code":"12254","hotdeals":0,"offers":0,"new_arrival":0,"custom_info":"{\"Storage Instructions\":\"Store in cool dry place away from direct sunlight.\"}","status":"1","product_desc":"","id":"3028","attribute":[{"name":"Natural Brown Sugar Bottle","unit":"gm","quantity":"850","commission_value":"0.0000","commission_type":"flat","id":"3074"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3028","attribute":["3074"]}}
+ Request - 2021-03-04 15:45:17
+{"product_name":"Brown Sugar - Sugar Sticks","brand_name":"Sunny Gold","nutrition":"","category_id":"81","promotion_id":"","item_code":"65902","hotdeals":0,"offers":0,"new_arrival":0,"custom_info":"{\"Ingredients\":\"Unrefined Pure Cane Sugar\"}","status":"1","product_desc":"Oxy Industries Ltd is currently leading the Ghanaian Market with our Quality and attractively Packaged Food products under the brand name \u201cSUNNY GOLD\u201d.\r\nOur strength lies in innovation and careful research into quality and attractive food packaging that will Meet the Safety and Convenience of our cherished consumers.","id":"906","attribute":[{"name":"Brown Sugar - Sugar Sticks","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","id":"1016"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"906","attribute":["1016"]}}

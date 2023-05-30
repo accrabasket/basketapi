@@ -1,0 +1,29 @@
+
+ Request - 2021-02-15 01:34:13
+{"method":"getCityIdByAddressOrLatLng","address":"48 عباس علي عيسى، بولاق الدكرور، الجيزة، مصر","lat":"30.0377824","lng":"31.1934081"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"48 Abbas Ali Eissa, Boulaq Ad Dakrour, Bolak Al Dakrour, Giza Governorate, Egypt"}}
+ Request - 2021-02-15 03:52:09
+{"method":"getCityIdByAddressOrLatLng","address":"Htipawkalo, Myanmar (Burma)","lat":"16.0273193","lng":"98.0537428"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Htipawkalo, Myanmar (Burma)"}}
+ Request - 2021-02-15 06:27:05
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 11, Gulshan Colony, Jhang, Punjab, Pakistan","lat":"31.2611748","lng":"72.3161279"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 11, Gulshan Colony, Jhang, Punjab, Pakistan"}}
+ Request - 2021-02-15 08:07:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ashoknagar, Karnataka 585321, India","lat":"16.753927","lng":"77.1941007"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ashoknagar, Karnataka 585321, India"}}
+ Request - 2021-02-15 09:53:02
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Umerkot, Sindh, Pakistan","lat":"25.4920582","lng":"69.6442048"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Umerkot, Sindh, Pakistan"}}
+ Request - 2021-02-15 17:31:17
+{"method":"getCityIdByAddressOrLatLng","address":"Avenue De L'argent, Kambove Likasi, Katanga, Democratic Republic of the Congo","lat":"-10.999415","lng":"26.737063"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Croisement des avenues de l'Argent et Mobutu 105 commune de Panda, Likasi, Democratic Republic of the Congo"}}
+ Request - 2021-02-15 18:16:22
+{"method":"getCityIdByAddressOrLatLng","address":"Sukkur, Sindh, Pakistan","lat":"27.7243563","lng":"68.8228082"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nisar Ahmed Siddiqui Rd, Delhi Muslim Housing Society, Sukkur, Sindh, Pakistan"}}

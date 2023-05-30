@@ -1,0 +1,29 @@
+
+ Request - 2021-03-31 17:41:45
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-03 00:00:00","end_date":"2021-04-03 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-03-31 17:42:06
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-03 00:00:00","end_date":"2021-04-01 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-03-31 17:42:21
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-30 00:00:00","end_date":"2021-04-01 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-03-31 18:14:42
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-30 00:00:00","end_date":"2021-04-01 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-03-31 18:15:42
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-03 00:00:00","end_date":"2021-04-03 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-03-31 18:15:46
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-03 00:00:00","end_date":"2021-04-03 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-03-31 18:16:05
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-03-03 00:00:00","end_date":"2021-03-31 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}

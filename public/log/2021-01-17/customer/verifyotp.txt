@@ -1,0 +1,5 @@
+
+ Request - 2021-01-17 09:53:32
+{"method":"verifyotp","country_code":"+233","mobile_number":"0544104016","otp_type":"register","otp":"7322"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"8908f59203315cb032c6f7636c87c81c"}}

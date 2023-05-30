@@ -1,0 +1,29 @@
+
+ Request - 2021-02-14 05:51:01
+{"id":"4","start_time_slot":"10","end_time_slot":"13","created_on":"2018-08-13 11:53:55","updated_on":"null","method":"addedittimeslot"}
+ Response :- 
+{"status":"false","msg":"time slot allready exist."}
+ Request - 2021-02-14 05:51:20
+{"id":"4","start_time_slot":"10","end_time_slot":"13","created_on":"2018-08-13 11:53:55","updated_on":"null","method":"addedittimeslot"}
+ Response :- 
+{"status":"false","msg":"time slot allready exist."}
+ Request - 2021-02-14 05:51:34
+{"start_time_slot":"10","end_time_slot":"13","method":"addedittimeslot"}
+ Response :- 
+{"status":"success","msg":"Record Saved Successfully."}
+ Request - 2021-02-14 05:52:22
+{"start_time_slot":"13","end_time_slot":"15","method":"addedittimeslot"}
+ Response :- 
+{"status":"success","msg":"Record Saved Successfully."}
+ Request - 2021-02-14 05:52:33
+{"id":"8","start_time_slot":"13","end_time_slot":"16","created_on":"2021-02-14 05:52:22","updated_on":"null","method":"addedittimeslot"}
+ Response :- 
+{"status":"false","msg":"time slot allready exist."}
+ Request - 2021-02-14 05:52:47
+{"start_time_slot":"13","end_time_slot":"16","method":"addedittimeslot"}
+ Response :- 
+{"status":"success","msg":"Record Saved Successfully."}
+ Request - 2021-02-14 05:53:20
+{"start_time_slot":"16","end_time_slot":"19","method":"addedittimeslot"}
+ Response :- 
+{"status":"success","msg":"Record Saved Successfully."}

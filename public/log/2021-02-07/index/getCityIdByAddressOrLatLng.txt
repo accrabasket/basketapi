@@ -1,0 +1,21 @@
+
+ Request - 2021-02-07 05:31:35
+{"method":"getCityIdByAddressOrLatLng","address":"Japon, 〒104-0061 Tokyo, 都, Ginza, 1-chōme−8, 中央区 銀座１−８−７ VORT銀座DDI６F","lat":"35.6740678","lng":"139.7685956"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1-ch\u014dme-8-7 Ginza, Chuo City, Tokyo 104-0061, Japan"}}
+ Request - 2021-02-07 07:02:44
+{"method":"getCityIdByAddressOrLatLng","address":"28\/A Shah Saheb Ln, Dhaka 1100, Bangladesh","lat":"23.7131898","lng":"90.4201236"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"28a Shah Saheb Ln, Dhaka 1100, Bangladesh"}}
+ Request - 2021-02-07 07:13:20
+{"method":"getCityIdByAddressOrLatLng","address":"Avenue Pierre Mulele, Kinshasa, République démocratique du Congo","lat":"-4.334794","lng":"15.2953745"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Avenue Pierre Mulele, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2021-02-07 16:03:08
+{"method":"getCityIdByAddressOrLatLng","address":"250 Afro Osro St, Accra, Ghana","lat":"5.5841941","lng":"-0.1399918"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"250 Afro Osro St, Accra, Ghana"}}
+ Request - 2021-02-07 18:57:14
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Sénégal","lat":"14.7167326","lng":"-17.1755932"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Senegal"}}

@@ -1,0 +1,9 @@
+
+ Request - 2023-03-13 08:18:15
+{"method":"getitemintocart","guest_user_id":"a4bc0a6c8511ed16"}
+ Response :- 
+{"status":"success","data":{"2846":{"id":22585,"user_id":0,"guest_user_id":"a4bc0a6c8511ed16","merchant_inventry_id":2846,"item_name":"Chicken Sausage(Chicken Sausage)","number_of_item":1,"created_date":"2022-09-23 13:27:54"}},"productDetails":{"status":"success","data":{"2846":{"id":2846,"price":"7.00","product_id":3216,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Chicken Sausage","product_desc":"","default_discount_type":"","default_discount_value":"","category_id":125,"custom_info":"","brand_name":"Perdix","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"20","unit":"gm","quantity":340,"tax_value":"3"}},"productImageData":{"3216":[{"id":3881,"type":"product","image_id":3216,"image_name":"VID155.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2023-03-13 11:10:51
+{"method":"getitemintocart","guest_user_id":"54002e29eb78a41a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

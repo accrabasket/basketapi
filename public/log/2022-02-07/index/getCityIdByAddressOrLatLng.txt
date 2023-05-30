@@ -1,0 +1,13 @@
+
+ Request - 2022-02-07 06:05:56
+{"method":"getCityIdByAddressOrLatLng","address":"P7H4+8C7, Colline Kayovu, Rwanda","lat":"-2.2712592","lng":"30.2575829"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P7H5+F2 Colline Kayovu, Rwanda"}}
+ Request - 2022-02-07 08:51:15
+{"method":"getCityIdByAddressOrLatLng","address":"147\/148 Ngwa Rd, Aba 450103, Aba, Nigeria","lat":"5.0989754","lng":"7.3856183"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"147\/148 Ngwa Rd, Aba 450103, Aba, Nigeria"}}
+ Request - 2022-02-07 08:51:42
+{"method":"getCityIdByAddressOrLatLng","address":"147\/148 Ngwa Rd, Aba 450103, Aba, Nigeria","lat":"5.0989754","lng":"7.3856183"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"147\/148 Ngwa Rd, Aba 450103, Aba, Nigeria"}}

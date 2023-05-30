@@ -1,0 +1,13 @@
+
+ Request - 2021-10-07 18:14:14
+{"method":"addtocart","guest_user_id":"ec628f16a323d56f","number_of_item":"1","merchant_inventry_id":"1004","action":"add","item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-07 18:14:19
+{"method":"addtocart","guest_user_id":"ec628f16a323d56f","number_of_item":"1","merchant_inventry_id":"1004","action":"delete","item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-07 18:14:21
+{"method":"addtocart","guest_user_id":"ec628f16a323d56f","number_of_item":"1","merchant_inventry_id":"1004","action":"add","item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

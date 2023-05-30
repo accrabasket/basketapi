@@ -1,0 +1,5 @@
+
+ Request - 2022-03-22 12:54:20
+{"start_date":"2022-03-22","end_date":"2022-03-22","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2022-03-22":{"count":2,"created_date":"2022-03-22"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

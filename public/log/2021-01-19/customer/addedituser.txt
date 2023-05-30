@@ -1,0 +1,65 @@
+
+ Request - 2021-01-19 00:44:47
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233543537513 and registered email id.","data":{"1750":{"id":1750,"name":"Gh Baker","mobile_number":"543537513","email":"bakergh477@gmail.com","key":"b1ba6efa79688cd9a855e531b6bd1a6f","password":"9a5c7711d8d09165b1988c0e7734266a","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-19 00:44:47","updated_date":"2021-01-19 00:44:47","status":"1"}}}
+ Request - 2021-01-19 00:48:55
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:48:59
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:00
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:03
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:07
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:08
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:09
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:12
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:15
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0543537513","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:50
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0552579928","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:54
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0552579928","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:49:59
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"0552579928","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:50:01
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"552579928","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:50:04
+{"method":"addedituser","city_id":"1","password":"ghbaker477","name":"Gh Baker","email":"bakergh477@gmail.com","mobile_number":"552579928","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-19 00:50:44
+{"method":"addedituser","city_id":"1","password":"ghbaker4771","name":"hhgfff","email":"bakhergh477@gmail.com","mobile_number":"0552579928","country_code":"+233","id":"0","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233552579928 and registered email id.","data":{"1751":{"id":1751,"name":"hhgfff","mobile_number":"552579928","email":"bakhergh477@gmail.com","key":"fc1ffc91be50dfd93083a9b16889492b","password":"c76d83eda380997335185ffeb55d3199","fcm_reg_id":"em6WxB4ERq0:APA91bG16gYx9d7sNK-0dKuMbIod5e8XT9V26uk07cUZORCZeyZlZf4NUwCWvhCxhns-l-PQZyWa4kG7NqswedhV3qm6Dn9yOgSKb6h9Kfl0Y3fq5LAt_OfyazbBE5vpMUMgdYpbW71I","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-19 00:50:44","updated_date":"2021-01-19 00:50:44","status":"1"}}}

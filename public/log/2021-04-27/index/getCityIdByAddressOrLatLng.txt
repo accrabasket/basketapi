@@ -1,0 +1,9 @@
+
+ Request - 2021-04-27 19:15:36
+{"method":"getCityIdByAddressOrLatLng","address":"Daurala Sugar Mills, Uttar Pradesh, India","lat":"29.1020857","lng":"77.7080064"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Daurala Sugar Mills, Uttar Pradesh 250110, India"}}
+ Request - 2021-04-27 19:24:22
+{"method":"getCityIdByAddressOrLatLng","address":"W7, Tazmalt, Algérie","lat":"36.3841762","lng":"4.4022051"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W7, Tazmalt, Algeria"}}

@@ -1,0 +1,49 @@
+
+ Request - 2022-01-13 03:16:55
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:17:13
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"732","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:17:20
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:17:32
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"343","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:17:50
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"1538","action":"add","item_name":"Pineapple Jam(Pineapple Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:17:55
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"1538","action":"add","item_name":"Pineapple Jam(Pineapple Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:18:26
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"1538","action":"add","item_name":"Pineapple Jam(Pineapple Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:20:05
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 03:20:49
+{"method":"addtocart","guest_user_id":"f54524d99ddf9ae6","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 12:08:16
+{"method":"addtocart","guest_user_id":"7b8bbca9b163ca14","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 12:08:31
+{"method":"addtocart","guest_user_id":"7b8bbca9b163ca14","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-13 12:08:34
+{"method":"addtocart","guest_user_id":"7b8bbca9b163ca14","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

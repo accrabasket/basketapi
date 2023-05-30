@@ -1,0 +1,65 @@
+
+ Request - 2022-10-22 03:37:43
+{"method":"getitemintocart","guest_user_id":"f8d2aed257314cfc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 04:59:53
+{"method":"getitemintocart","guest_user_id":"18f1204b6573eb2e"}
+ Response :- 
+{"status":"success","data":{"215":{"id":22278,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":215,"item_name":"Black Eye Beans(Black Eye Beans)","number_of_item":4,"created_date":"2022-08-16 08:16:41"},"225":{"id":22280,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":225,"item_name":"Chhole Masala(Chhole Masala)","number_of_item":2,"created_date":"2022-08-16 08:17:10"}},"productDetails":{"status":"success","data":{"215":{"id":215,"price":"22.50","product_id":374,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Eye Beans","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"},"225":{"id":225,"price":"13.50","product_id":381,"merchant_id":3,"store_id":2,"merchant_product_code":"8901786091","product_name":"Chhole Masala","product_desc":"An exquisite blend of 24 pure spices, this is perhaps the most elaborate blend in the Everest repertoire. This blend is evenly balanced for taste and flavour and imparts a rare character to chhole, made from chickpeas.\nUsed almost invariably in a variety of preparations involving chickpeas - chhole being the most popular. Served hot with rotis or fluffy bhaturas, chhole is a regular fare for lunch and dinner in North India.","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"{\"Ingredients\":\"Asafoetida, Bishops Weed, Black Cardamom, Black Pepper, Black Salt, Cardamom, Cassia, Cassia Leaf, Chilli, Cloves, Cardamom Seeds, Cumin, Dry Ginger, Dry Mango, Fennel, Kachri, Mace, Mint Leaf, Mustard, Nutmeg, Pomegranate Seeds, Common Salt, Tamarind, Turmeric, Fennel Seeds.\",\"Preparation and Usage\":\"Before you begin: Soak 100 gms Kabuli Channa overnight. Cook and keep aside. Heat 3 tbsp of oil, fry 2 chopped onions till golden brown. Add 1 tsp each of coriander and chilli powder.\\nAdd 1 tbsp Everest Chhole Masala. Fry for 3 mins on a low flame. Add 1 chopped tomato, 3 slit green chillies and \\u00bd inch ginger, finely sliced. Add boiled chhole. Add salt, cook for 5 mins.\\nFor added flavour add 1\\\/2 tsp Everest Chaat Masala and Everest Kasuri Methi.\"}","brand_name":"EVEREST","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"374":[{"id":291,"type":"product","image_id":374,"image_name":"6033000220189.jpg"}],"381":[{"id":298,"type":"product","image_id":381,"image_name":"8901786091003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-22 08:22:06
+{"method":"getitemintocart","guest_user_id":"f5e3dc266d2850a5"}
+ Response :- 
+{"status":"success","data":{"221":{"id":22492,"user_id":0,"guest_user_id":"f5e3dc266d2850a5","merchant_inventry_id":221,"item_name":"Cashew Nut Whole(Cashew Nut Whole)","number_of_item":1,"created_date":"2022-09-08 11:24:34"}},"productDetails":{"status":"success","data":{"221":{"id":221,"price":"9.50","product_id":379,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000221","product_name":"Cashew Nut Whole","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\r\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"379":[{"id":296,"type":"product","image_id":379,"image_name":"6033000221247.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-22 09:34:25
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"success","data":{"3479":{"id":22243,"user_id":0,"guest_user_id":"f9bdb3f682132c7b","merchant_inventry_id":3479,"item_name":"Hand Sanitizer(Hand Sanitizer)","number_of_item":1,"created_date":"2022-08-05 10:29:22"}},"productDetails":{"status":"success","data":{"3479":{"id":3479,"price":"26.00","product_id":3943,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Hand Sanitizer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Beak & Skiff","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":150,"tax_value":null}},"productImageData":{"3943":[{"id":5023,"type":"product","image_id":3943,"image_name":"OSU1234.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-22 09:38:32
+{"method":"getitemintocart","guest_user_id":"986f5a3ef5fd2380"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 10:40:06
+{"method":"getitemintocart","guest_user_id":"c9f62fbfe3c01f93"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 11:24:45
+{"method":"getitemintocart","guest_user_id":"9b21fbcea9c60b1c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 12:58:07
+{"method":"getitemintocart","guest_user_id":"78704fa0c54a33dc"}
+ Response :- 
+{"status":"success","data":{"221":{"id":22777,"user_id":0,"guest_user_id":"78704fa0c54a33dc","merchant_inventry_id":221,"item_name":"Cashew Nut Whole(Cashew Nut Whole)","number_of_item":1,"created_date":"2022-10-18 09:36:41"}},"productDetails":{"status":"success","data":{"221":{"id":221,"price":"9.50","product_id":379,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000221","product_name":"Cashew Nut Whole","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\r\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"379":[{"id":296,"type":"product","image_id":379,"image_name":"6033000221247.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-22 13:43:55
+{"method":"getitemintocart","guest_user_id":"898e25b6555028ac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 14:04:01
+{"method":"getitemintocart","guest_user_id":"09c4b89ef96e5e38"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 18:12:47
+{"method":"getitemintocart","guest_user_id":"09ebf0c8ab6f0c82"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 18:58:52
+{"method":"getitemintocart","guest_user_id":"ea9ecff7ac179eae"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 19:29:58
+{"method":"getitemintocart","guest_user_id":"18f1204b6573eb2e"}
+ Response :- 
+{"status":"success","data":{"215":{"id":22278,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":215,"item_name":"Black Eye Beans(Black Eye Beans)","number_of_item":4,"created_date":"2022-08-16 08:16:41"},"225":{"id":22280,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":225,"item_name":"Chhole Masala(Chhole Masala)","number_of_item":2,"created_date":"2022-08-16 08:17:10"}},"productDetails":{"status":"success","data":{"215":{"id":215,"price":"22.50","product_id":374,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Eye Beans","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"},"225":{"id":225,"price":"13.50","product_id":381,"merchant_id":3,"store_id":2,"merchant_product_code":"8901786091","product_name":"Chhole Masala","product_desc":"An exquisite blend of 24 pure spices, this is perhaps the most elaborate blend in the Everest repertoire. This blend is evenly balanced for taste and flavour and imparts a rare character to chhole, made from chickpeas.\nUsed almost invariably in a variety of preparations involving chickpeas - chhole being the most popular. Served hot with rotis or fluffy bhaturas, chhole is a regular fare for lunch and dinner in North India.","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"{\"Ingredients\":\"Asafoetida, Bishops Weed, Black Cardamom, Black Pepper, Black Salt, Cardamom, Cassia, Cassia Leaf, Chilli, Cloves, Cardamom Seeds, Cumin, Dry Ginger, Dry Mango, Fennel, Kachri, Mace, Mint Leaf, Mustard, Nutmeg, Pomegranate Seeds, Common Salt, Tamarind, Turmeric, Fennel Seeds.\",\"Preparation and Usage\":\"Before you begin: Soak 100 gms Kabuli Channa overnight. Cook and keep aside. Heat 3 tbsp of oil, fry 2 chopped onions till golden brown. Add 1 tsp each of coriander and chilli powder.\\nAdd 1 tbsp Everest Chhole Masala. Fry for 3 mins on a low flame. Add 1 chopped tomato, 3 slit green chillies and \\u00bd inch ginger, finely sliced. Add boiled chhole. Add salt, cook for 5 mins.\\nFor added flavour add 1\\\/2 tsp Everest Chaat Masala and Everest Kasuri Methi.\"}","brand_name":"EVEREST","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"374":[{"id":291,"type":"product","image_id":374,"image_name":"6033000220189.jpg"}],"381":[{"id":298,"type":"product","image_id":381,"image_name":"8901786091003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-22 19:52:51
+{"method":"getitemintocart","guest_user_id":"79e20b99043c8fc4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 19:54:09
+{"method":"getitemintocart","guest_user_id":"79e20b99043c8fc4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-22 20:00:16
+{"method":"getitemintocart","guest_user_id":"79e20b99043c8fc4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

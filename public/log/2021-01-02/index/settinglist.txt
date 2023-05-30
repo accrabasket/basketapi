@@ -1,0 +1,17 @@
+
+ Request - 2021-01-02 05:20:56
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-01-02 05:21:23
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"50.00","free_delivery":"1000.00","shipping_charges":"0.00"}}
+ Request - 2021-01-02 05:40:06
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-01-02 05:48:34
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"80.00","free_delivery":"1000.00","shipping_charges":"17.00"}}

@@ -1,0 +1,29 @@
+
+ Request - 2021-09-03 15:43:05
+{"method":"addtocart","guest_user_id":"5b6fb269484b62e3","number_of_item":"1","merchant_inventry_id":"487","action":"add","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-03 17:34:02
+{"method":"addtocart","guest_user_id":"6eb8f294eb5fbb48","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-03 17:34:20
+{"method":"addtocart","guest_user_id":"6eb8f294eb5fbb48","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-03 17:34:21
+{"method":"addtocart","guest_user_id":"6eb8f294eb5fbb48","number_of_item":"1","merchant_inventry_id":"2837","action":"delete","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-03 17:34:22
+{"method":"addtocart","guest_user_id":"6eb8f294eb5fbb48","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-03 17:34:23
+{"method":"addtocart","guest_user_id":"6eb8f294eb5fbb48","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-03 17:34:24
+{"method":"addtocart","guest_user_id":"6eb8f294eb5fbb48","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

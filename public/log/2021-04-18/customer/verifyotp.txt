@@ -1,0 +1,13 @@
+
+ Request - 2021-04-18 16:26:35
+{"method":"verifyotp","country_code":"+233","mobile_number":"557792812","otp_type":"register","otp":"6157"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-04-18 16:26:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"557792812","otp_type":"register","otp":"6157"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-04-18 16:26:51
+{"method":"verifyotp","country_code":"+233","mobile_number":"557792812","otp_type":"register","otp":"4363"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"dc736fc02bad98991f2ee3e70767df0f"}}

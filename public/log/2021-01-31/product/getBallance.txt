@@ -1,0 +1,15 @@
+
+ Request - 2021-01-31 07:05:44
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-01-31 07:05:48
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}

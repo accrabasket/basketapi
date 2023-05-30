@@ -1,0 +1,9 @@
+
+ Request - 2022-06-27 02:57:05
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":8327}}
+ Request - 2022-06-27 02:58:32
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":8327}}

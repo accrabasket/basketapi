@@ -1,0 +1,25 @@
+
+ Request - 2021-11-19 03:55:04
+{"method":"getCityIdByAddressOrLatLng","address":"Jabbar Rd, Alla Dher, Swabi, Punjab, Pakistan","lat":"33.954888","lng":"72.2686681"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X739+XF Alla Dher, Pakistan"}}
+ Request - 2021-11-19 07:39:42
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Fatick, Sénégal","lat":"14.3376949","lng":"-16.408476"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8HQR+3J Fatick, Senegal"}}
+ Request - 2021-11-19 08:24:51
+{"method":"getCityIdByAddressOrLatLng","address":"Rue Nana Yilen, Kilwin, Ouagadougou, Burkina Faso","lat":"12.3904812","lng":"-1.5834457"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9CR8+5J Ouagadougou, Burkina Faso"}}
+ Request - 2021-11-19 09:37:48
+{"method":"getCityIdByAddressOrLatLng","address":"Madina, Ghana","lat":"5.659972499999999","lng":"-0.1626763"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Madina, Ghana"}}
+ Request - 2021-11-19 19:32:24
+{"method":"getCityIdByAddressOrLatLng","address":"Anyaa Palas Town, London Hill Road, Ghana","lat":"5.5987821","lng":"-0.30201"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Anyaa Palas Town, London Hill Road, Ghana"}}
+ Request - 2021-11-19 20:35:16
+{"method":"getCityIdByAddressOrLatLng","address":"Shop No - S-3,Safdarjung Hospital, Gate Number 1, Ansari Nagar East, New Delhi, Delhi 110029, India","lat":"28.5678741","lng":"77.208719"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shop No - S-3,Safdarjung Hospital, Gate Number 1, Ansari Nagar East, New Delhi, Delhi 110029, India"}}

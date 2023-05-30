@@ -1,0 +1,5 @@
+
+ Request - 2021-11-06 17:00:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"08060489584","otp_type":"register","otp":"3217"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

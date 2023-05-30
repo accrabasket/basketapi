@@ -1,0 +1,17 @@
+
+ Request - 2022-06-15 09:55:30
+{"method":"getCityIdByAddressOrLatLng","address":"C5 nungua, Accra, Ghana","lat":"5.5979944","lng":"-0.0806629"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C5 nungua, Accra, Ghana"}}
+ Request - 2022-06-15 17:19:12
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Raya Kalong II No.25, Kalong II, Kec. Leuwisadeng, Kabupaten Bogor, Jawa Barat 16640, Indonesia","lat":"-6.563332","lng":"106.5677986"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Raya Kalong II No.25, Kalong II, Kec. Leuwisadeng, Kabupaten Bogor, Jawa Barat 16640, Indonesia"}}
+ Request - 2022-06-15 21:11:07
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.7129212","lng":"-0.3649791"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2022-06-15 21:11:22
+{"method":"getCityIdByAddressOrLatLng","address":"10 Av. Al Ahram شارع الأهرام, Berkane, Maroc","lat":"34.9361453","lng":"-2.3309448"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Av. Al Ahram \u0634\u0627\u0631\u0639 \u0627\u0644\u0623\u0647\u0631\u0627\u0645, Berkane, Morocco"}}

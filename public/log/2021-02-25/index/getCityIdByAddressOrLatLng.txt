@@ -1,0 +1,21 @@
+
+ Request - 2021-02-25 05:54:49
+{"method":"getCityIdByAddressOrLatLng","address":"36 Akwei St, Accra, Ghana","lat":"5.5993582","lng":"-0.2341102"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"36 Akwei St, Accra, Ghana"}}
+ Request - 2021-02-25 11:57:27
+{"method":"getCityIdByAddressOrLatLng","address":"R 20, Diebougou, Burkina Faso","lat":"10.9561369","lng":"-3.2594626"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R 20, Diebougou, Burkina Faso"}}
+ Request - 2021-02-25 13:44:39
+{"method":"getCityIdByAddressOrLatLng","address":"Agbado-Ijoko Rd, Ijoko, Nigeria","lat":"6.7238668","lng":"3.2874447"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Agbado-Ijoko Rd, Ijoko, Nigeria"}}
+ Request - 2021-02-25 13:44:43
+{"method":"getCityIdByAddressOrLatLng","address":"Agbado-Ijoko Rd, Ijoko, Nigeria","lat":"6.7238668","lng":"3.2874447"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Agbado-Ijoko Rd, Ijoko, Nigeria"}}
+ Request - 2021-02-25 19:56:29
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Boudouaou, Algérie","lat":"36.7314342","lng":"3.4020156"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Boudouaou, Algeria"}}

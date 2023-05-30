@@ -1,0 +1,13 @@
+
+ Request - 2021-11-09 00:17:20
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Yundum, The Gambia","lat":"13.3379258","lng":"-16.6671416"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"88QM+54 Yundum, The Gambia"}}
+ Request - 2021-11-09 13:43:35
+{"method":"getCityIdByAddressOrLatLng","address":"8WHV+987, हत्ता, महाराष्ट्र 431705, भारत","lat":"19.3268304","lng":"76.9439609"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8WGV+PH Hatta, Maharashtra, India"}}
+ Request - 2021-11-09 19:33:35
+{"method":"getCityIdByAddressOrLatLng","address":"X5WW+3WR, 372106, Obbo Aiyegunle, Nigeria","lat":"7.995289","lng":"5.1945823"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X5WV+4R Obbo Aiyegunle, Nigeria"}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-03-16 10:41:28
+{"method":"getCityIdByAddressOrLatLng","address":"Adenta Municipality, Ghana","lat":"5.7141674","lng":"-0.15418"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Adenta Municipality, Ghana"}}
+ Request - 2021-03-16 11:31:00
+{"method":"getCityIdByAddressOrLatLng","address":"Cantonment, FL 32533, USA","lat":"30.6053644","lng":"-87.34464919999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ambedkar Road Indira Nagar Dehu Road Pimpri-Chinchwad, Maharashtra 412101, Cantonment, FL 32533, USA"}}
+ Request - 2021-03-16 12:03:12
+{"method":"getCityIdByAddressOrLatLng","address":"13 Dade Link, Accra, Ghana","lat":"5.575647","lng":"-0.1732298"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"13 Dade Link, Accra, Ghana"}}
+ Request - 2021-03-16 14:18:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Mekane Selam, Ethiopia","lat":"10.7483326","lng":"38.7556339"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Mekane Selam, Ethiopia"}}
+ Request - 2021-03-16 19:31:55
+{"method":"getCityIdByAddressOrLatLng","address":"SH 174A, Karapalayam, Tamil Nadu 641664, India","lat":"10.9513751","lng":"77.3218529"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"SH 174A, Karapalayam, Tamil Nadu 641664, India"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-01-11 04:13:39
+{"method":"getCityIdByAddressOrLatLng","address":"khajurahatउत्तर प्रदेश, Mejruddeenpur, Uttar Pradesh 224206, India","lat":"26.5292496","lng":"82.1371929"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"khajurahat\u0909\u0924\u094d\u0924\u0930 \u092a\u094d\u0930\u0926\u0947\u0936, Mejruddeenpur, Uttar Pradesh 224206, India"}}
+ Request - 2022-01-11 08:51:43
+{"method":"getCityIdByAddressOrLatLng","address":"Porto-Novo, Benin","lat":"6.4968574","lng":"2.6288523"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Dowa, Porto-Novo, Benin"}}
+ Request - 2022-01-11 13:53:14
+{"method":"getCityIdByAddressOrLatLng","address":"Goaso, Ghana","lat":"6.8018106","lng":"-2.514842"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Goaso, Ghana"}}
+ Request - 2022-01-11 16:06:55
+{"method":"getCityIdByAddressOrLatLng","address":"Madar Rd","lat":"34.4639533","lng":"73.5622685"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8J6MFH76+HW"}}

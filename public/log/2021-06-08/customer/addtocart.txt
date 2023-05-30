@@ -1,0 +1,113 @@
+
+ Request - 2021-06-08 07:50:47
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"add","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 07:51:06
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"delete","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 07:51:08
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"add","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 07:51:10
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"add","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 07:51:12
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"delete","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 07:51:14
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"delete","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 07:51:16
+{"method":"addtocart","guest_user_id":"1dd4e508cc261139","number_of_item":"1","merchant_inventry_id":"504","action":"add","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:17:49
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:17:54
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:17:56
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:17:59
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:01
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:03
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"620","action":"add","item_name":"Banana Flavoured Milk(Banana Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:10
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"625","action":"add","item_name":"Chocolate Flavoured Milk(Chocolate Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:12
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"650","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:15
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"651","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:17
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"653","action":"add","item_name":"Filled Evaporated Milk - Green(Filled Evaporated Milk - Green)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:19
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"654","action":"add","item_name":"Filled Evaporated Milk - Green(Filled Evaporated Milk - Green)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:21
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"659","action":"add","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:26
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"659","action":"add","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:27
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"663","action":"add","item_name":"Ideal Balance - Evaporated Milk(Ideal Balance - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:30
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"664","action":"add","item_name":"Ideal Original - Evaporated Milk(Ideal Original - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:32
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"665","action":"add","item_name":"Ideal Original - Evaporated Milk(Ideal Original - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:35
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"666","action":"add","item_name":"Ideal Value - Evaporated Milk(Ideal Value - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:36
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"696","action":"add","item_name":"Milk Powder - Tin(Milk Powder - Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:39
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"723","action":"add","item_name":"Semi-Skimmed UHT Milk(Semi-Skimmed UHT Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:41
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"726","action":"add","item_name":"Skimmed UHT Milk (Low-Fat)(Skimmed UHT Milk (Low-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-08 13:18:48
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"1884","action":"add","item_name":"Flavoured Yoghurt - Fruit Salad(Flavoured Yoghurt - Fruit Salad)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

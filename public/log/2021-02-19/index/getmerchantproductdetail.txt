@@ -1,0 +1,61 @@
+
+ Request - 2021-02-19 04:18:49
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 05:47:20
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","merchant_id":7,"method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 08:11:59
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 09:50:32
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 11:16:24
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 11:24:14
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 11:24:42
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 11:34:17
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 12:30:11
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 12:46:39
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 13:04:13
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","merchant_id":4,"method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 13:05:32
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","merchant_id":3,"method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 13:24:07
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 15:26:17
+{"start_date":"2021-02-19","end_date":"2021-02-19","report":"day","merchant_id":4,"method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-02-19 15:26:45
+{"start_date":"2021-01-01","end_date":"2021-02-19","report":"day","merchant_id":4,"method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-02-04 19:17:06
+{"method":"login","email":"1","password":"1"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-02-04 19:17:12
+{"method":"login","email":"1","password":"1لتبلهبعغلت"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

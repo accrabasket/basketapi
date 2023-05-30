@@ -1,0 +1,45 @@
+
+ Request - 2021-03-14 04:40:45
+{"country_id":"1","method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:10:26
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:13:40
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:13:59
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:23:58
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:24:33
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:28:44
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:28:46
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 05:28:47
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 13:09:51
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-14 20:46:18
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}

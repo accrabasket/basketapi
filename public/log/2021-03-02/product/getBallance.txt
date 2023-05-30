@@ -1,0 +1,36 @@
+
+ Request - 2021-03-02 20:12:51
+{"method":"getBallance","user_id":90,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-03-02 20:13:24
+{"method":"getBallance","user_id":90,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-03-02 20:14:38
+{"method":"getBallance","user_id":90,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"57.97"}}
+ Request - 2021-03-02 20:14:49
+{"method":"getBallance","user_id":90,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"57.97"}}
+ Request - 2021-03-02 20:15:13
+{"method":"getBallance","user_id":90,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"57.97"}}

@@ -1,0 +1,69 @@
+
+ Request - 2021-06-13 00:31:57
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:32:10
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"435","action":"add","item_name":"Ocean - Shower Gel(Ocean - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:32:52
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:32:54
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:34:09
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:34:17
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"438","action":"add","item_name":"Tropical - Hand Soap(Tropical - Hand Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:34:25
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:35:19
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:35:34
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:35:47
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"502","action":"add","item_name":"Large Beer(Large Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:35:55
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"1682","action":"add","item_name":"Lager Beer Bottle(Lager Beer Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:36:11
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:36:16
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"462","action":"delete","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:36:21
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:37:08
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:37:17
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-13 00:37:37
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"1066","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

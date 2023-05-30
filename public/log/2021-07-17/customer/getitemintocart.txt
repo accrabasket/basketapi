@@ -1,0 +1,57 @@
+
+ Request - 2021-07-17 01:51:06
+{"method":"getitemintocart","guest_user_id":"88091a0cb75263a5"}
+ Response :- 
+{"status":"success","data":{"882":{"id":15906,"user_id":0,"guest_user_id":"88091a0cb75263a5","merchant_inventry_id":882,"item_name":"Vietnam Jasmine Rice(Vietnam Jasmine Rice)","number_of_item":1,"created_date":"2021-07-02 07:37:11"},"888":{"id":15907,"user_id":0,"guest_user_id":"88091a0cb75263a5","merchant_inventry_id":888,"item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-02 07:37:15"},"893":{"id":15908,"user_id":0,"guest_user_id":"88091a0cb75263a5","merchant_inventry_id":893,"item_name":"Thai Jasmine Rice(Thai Jasmine Rice)","number_of_item":1,"created_date":"2021-07-02 07:37:18"},"889":{"id":15909,"user_id":0,"guest_user_id":"88091a0cb75263a5","merchant_inventry_id":889,"item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-02 07:37:20"},"985":{"id":15910,"user_id":0,"guest_user_id":"88091a0cb75263a5","merchant_inventry_id":985,"item_name":"Farfalloni n. 79(Farfalloni n. 79)","number_of_item":1,"created_date":"2021-07-02 07:37:28"}},"productDetails":{"status":"success","data":{"882":{"id":882,"price":"39.99","product_id":1166,"merchant_id":4,"store_id":4,"merchant_product_code":"61542","product_name":"Vietnam Jasmine Rice","product_desc":"Vietnam Jasmine Rice from Vietnam, the Rice Bowl of the World, has an unbelievably rich taste and can be steamed, boiled or made in your choice of rice delicacy. For those soft rice dishes for either children or adult such as Omo tuo or rice water, Fortune Vietnam will deliver that perfect combination of taste and texture.","default_discount_type":"","default_discount_value":"0","category_id":82,"custom_info":"","brand_name":"Fortune","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"kg","quantity":5,"tax_value":"3"},"888":{"id":888,"price":"3.99","product_id":1172,"merchant_id":4,"store_id":4,"merchant_product_code":"N115   ","product_name":"Mackerel in Tomato Sauce","product_desc":"Geisha is renowned for its high quality. In order to do this, we maintain a global production network and utilize advanced technology processing at our facilities around the world. We maintain offices in many countries to inspect and ensure that our product maintains the highest standards to meet our consumer\u2019s expectations. Be assured when you select Geisha Brand products you're receiving quality, consistency and continuity deserving of the finest kitchens.","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"","brand_name":"Geisha","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":155,"tax_value":"3"},"889":{"id":889,"price":"9.49","product_id":1173,"merchant_id":4,"store_id":4,"merchant_product_code":"D711   ","product_name":"Mackerel in Tomato Sauce","product_desc":"Geisha is renowned for its high quality. In order to do this, we maintain a global production network and utilize advanced technology processing at our facilities around the world. We maintain offices in many countries to inspect and ensure that our product maintains the highest standards to meet our consumer\u2019s expectations. Be assured when you select Geisha Brand products you're receiving quality, consistency and continuity deserving of the finest kitchens.","default_discount_type":"","default_discount_value":"0","category_id":90,"custom_info":"","brand_name":"Geisha","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"gm","quantity":425,"tax_value":"3"},"893":{"id":893,"price":"78.99","product_id":1177,"merchant_id":4,"store_id":4,"merchant_product_code":"D310   ","product_name":"Thai Jasmine Rice","product_desc":"Gino Thai Jasmine Rice is handpicked for its lustre, purity and aroma. After being cooked, Gino Thai Jasmine rice is fluffy and white with an irresistible aroma and delicate flavour that blends well with any accompaniment.","default_discount_type":"","default_discount_value":"0","category_id":82,"custom_info":"","brand_name":"Gino","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"kg","quantity":5,"tax_value":"3"},"985":{"id":985,"price":"10.99","product_id":1268,"merchant_id":4,"store_id":4,"merchant_product_code":"31628","product_name":"Farfalloni n. 79","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":91,"custom_info":"{\"Ingredients\":\"Durum wheat semolina, water\",\"Storage\":\"Store in a cool, dry place\"}","brand_name":"Granoro","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"1172":[{"id":752,"type":"product","image_id":1172,"image_name":"1172_1545067580.jpg"}],"1177":[{"id":968,"type":"product","image_id":1177,"image_name":"1177_1545153848.jpg"}],"1166":[{"id":969,"type":"product","image_id":1166,"image_name":"1166_1545153912.jpg"}],"1268":[{"id":1537,"type":"product","image_id":1268,"image_name":"31628.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-17 03:25:15
+{"method":"getitemintocart","guest_user_id":"48fd27d9dda2e030"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 03:25:27
+{"method":"getitemintocart","guest_user_id":"48fd27d9dda2e030"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 03:25:39
+{"method":"getitemintocart","guest_user_id":"48fd27d9dda2e030"}
+ Response :- 
+{"status":"success","data":{"2830":{"id":16389,"user_id":0,"guest_user_id":"48fd27d9dda2e030","merchant_inventry_id":2830,"item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-17 03:25:38"}},"productDetails":{"status":"success","data":{"2830":{"id":2830,"price":"3.00","product_id":3200,"merchant_id":8,"store_id":12,"merchant_product_code":"VID062","product_name":"Mackerel in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Mackerel, Vegetable Oil, Tomato Sauce, Salt.\",\"Allergy Information\":\"Fish.\",\"Storage Instructions\":\"Store in a cool and dry place.\"}","brand_name":"Atlanta","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":155,"tax_value":"3"}},"productImageData":{"3200":[{"id":3862,"type":"product","image_id":3200,"image_name":"VID062.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-17 03:25:42
+{"method":"getitemintocart","guest_user_id":"48fd27d9dda2e030"}
+ Response :- 
+{"status":"success","data":{"2830":{"id":16389,"user_id":0,"guest_user_id":"48fd27d9dda2e030","merchant_inventry_id":2830,"item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-17 03:25:38"},"2831":{"id":16390,"user_id":0,"guest_user_id":"48fd27d9dda2e030","merchant_inventry_id":2831,"item_name":"Sardines in Vegetable Oil(Sardines in Vegetable Oil)","number_of_item":1,"created_date":"2021-07-17 03:25:41"}},"productDetails":{"status":"success","data":{"2830":{"id":2830,"price":"3.00","product_id":3200,"merchant_id":8,"store_id":12,"merchant_product_code":"VID062","product_name":"Mackerel in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Mackerel, Vegetable Oil, Tomato Sauce, Salt.\",\"Allergy Information\":\"Fish.\",\"Storage Instructions\":\"Store in a cool and dry place.\"}","brand_name":"Atlanta","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":155,"tax_value":"3"},"2831":{"id":2831,"price":"4.00","product_id":3201,"merchant_id":8,"store_id":12,"merchant_product_code":"VID063","product_name":"Sardines in Vegetable Oil","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Sardines, Vegetable Oil, Salt.\",\"Allergy Information\":\"Fish.\",\"Storage Instructions\":\"Store in a cool and dry place.\"}","brand_name":"Atlanta","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":125,"tax_value":"3"}},"productImageData":{"3200":[{"id":3862,"type":"product","image_id":3200,"image_name":"VID062.jpg"}],"3201":[{"id":3863,"type":"product","image_id":3201,"image_name":"VID063.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-17 06:55:25
+{"method":"getitemintocart","guest_user_id":"765d637393019c47"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 07:15:47
+{"method":"getitemintocart","guest_user_id":"200d153fae591adf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 09:37:39
+{"method":"getitemintocart","guest_user_id":"c7d1f1c440e3af19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 13:40:00
+{"method":"getitemintocart","guest_user_id":"a67a10e8622060d1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 13:50:06
+{"method":"getitemintocart","guest_user_id":"1007314823447338"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 14:57:27
+{"method":"getitemintocart","guest_user_id":"6025e89f48d84330"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 15:00:37
+{"method":"getitemintocart","guest_user_id":"24ed8cc0730f0a25"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 17:32:32
+{"method":"getitemintocart","guest_user_id":"c130862adef6400b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-17 18:54:11
+{"method":"getitemintocart","guest_user_id":"414125f3e3eee660"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

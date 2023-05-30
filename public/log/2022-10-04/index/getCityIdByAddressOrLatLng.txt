@@ -1,0 +1,17 @@
+
+ Request - 2022-10-04 04:37:23
+{"method":"getCityIdByAddressOrLatLng","address":"J89Q+J5G, bangamelo, Kinshasa, République démocratique du Congo","lat":"-4.3805419","lng":"15.3374508"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J89Q+J5G, bangamelo, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-10-04 15:59:36
+{"method":"getCityIdByAddressOrLatLng","address":"Burma Camp, Accra, Ghana","lat":"5.5958462","lng":"-0.1518394"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Burma Camp, Accra, Ghana"}}
+ Request - 2022-10-04 16:00:39
+{"method":"getCityIdByAddressOrLatLng","address":"Accra, Ghana","lat":"5.6037168","lng":"-0.1869644"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Accra, Ghana"}}
+ Request - 2022-10-04 23:24:42
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Côte d'Ivoire","lat":"5.853887","lng":"-3.8265725"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V53F+H9 Lobo-Akoudzin, C\u00f4te d'Ivoire"}}

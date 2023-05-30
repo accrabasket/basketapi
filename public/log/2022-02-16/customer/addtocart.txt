@@ -1,0 +1,13 @@
+
+ Request - 2022-02-16 02:46:38
+{"method":"addtocart","guest_user_id":"a1fedc10fa0863d2","number_of_item":"1","merchant_inventry_id":"466","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-16 02:46:42
+{"method":"addtocart","guest_user_id":"a1fedc10fa0863d2","number_of_item":"1","merchant_inventry_id":"466","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-16 02:46:44
+{"method":"addtocart","guest_user_id":"a1fedc10fa0863d2","number_of_item":"1","merchant_inventry_id":"466","action":"delete","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

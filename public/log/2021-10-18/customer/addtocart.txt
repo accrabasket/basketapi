@@ -1,0 +1,29 @@
+
+ Request - 2021-10-18 09:16:29
+{"method":"addtocart","guest_user_id":"34b958c773dafe38","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-18 09:16:31
+{"method":"addtocart","guest_user_id":"34b958c773dafe38","number_of_item":"1","merchant_inventry_id":"3820","action":"delete","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-18 16:59:59
+{"method":"addtocart","guest_user_id":"9308309fe2ce2434","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-18 17:00:01
+{"method":"addtocart","guest_user_id":"9308309fe2ce2434","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-18 17:00:01
+{"method":"addtocart","guest_user_id":"9308309fe2ce2434","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-18 17:00:02
+{"method":"addtocart","guest_user_id":"9308309fe2ce2434","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-18 17:00:21
+{"method":"addtocart","guest_user_id":"9308309fe2ce2434","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

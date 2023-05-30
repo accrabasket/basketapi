@@ -1,0 +1,29 @@
+
+ Request - 2021-11-25 05:35:46
+{"method":"getCityIdByAddressOrLatLng","address":"PV74+2FQ, Kakuma, Kenya","lat":"3.712714","lng":"34.8561031"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PV74+2FQ, Kakuma, Kenya"}}
+ Request - 2021-11-25 08:54:21
+{"method":"getCityIdByAddressOrLatLng","address":"HC4G+VGP, Balochni, Faisalabad, Punjab, Pakistan","lat":"31.5575303","lng":"73.4266766"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HC4G+VGP, Balochni, Faisalabad, Punjab, Pakistan"}}
+ Request - 2021-11-25 17:03:20
+{"method":"getCityIdByAddressOrLatLng","address":"Rail Line Under Bridge, Gohgawari, Kareli, Madhya Pradesh 487221, India","lat":"22.9290562","lng":"79.0551482"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rail Line Under Bridge, Gohgawari, Kareli, Madhya Pradesh 487221, India"}}
+ Request - 2021-11-25 19:57:32
+{"method":"getCityIdByAddressOrLatLng","address":"Senya Beraku, Ghana","lat":"5.3911374","lng":"-0.4950746"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Senya Beraku, Ghana"}}
+ Request - 2021-11-25 21:07:26
+{"method":"getCityIdByAddressOrLatLng","address":"8H2G+9MM, Kampala, Ouganda","lat":"0.3009215","lng":"32.5764772"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8H2G+9MM, Kampala, Uganda"}}
+ Request - 2021-11-25 22:48:11
+{"method":"getCityIdByAddressOrLatLng","address":"9439، الربوة، أبها 62523 2839، السعودية","lat":"18.2149618","lng":"42.5249558"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9439, Al Rabwah, Abha 62523\u00a02839, Saudi Arabia"}}
+ Request - 2021-11-25 22:48:11
+{"method":"getCityIdByAddressOrLatLng","address":"9439، الربوة، أبها 62523 2839، السعودية","lat":"18.2149618","lng":"42.5249558"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9439, Al Rabwah, Abha 62523\u00a02839, Saudi Arabia"}}

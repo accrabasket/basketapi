@@ -1,0 +1,13 @@
+
+ Request - 2022-03-04 06:16:45
+{"method":"getCityIdByAddressOrLatLng","address":"HJX2+CFF, Dhar, Madhya Pradesh 454774, India","lat":"22.5987279","lng":"75.6014535"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HJX2+CFF, Dhar, Madhya Pradesh 454774, India"}}
+ Request - 2022-03-04 06:42:55
+{"method":"getCityIdByAddressOrLatLng","address":"Ratera, Haryana, India","lat":"28.9599986","lng":"75.8795378"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XV5H+XR Ratera, Haryana, India"}}
+ Request - 2022-03-04 15:50:39
+{"method":"getCityIdByAddressOrLatLng","address":"Old Oyo Rd, 200136, Ibadan, Nigeria","lat":"7.5146399","lng":"3.9134331"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Old Oyo Rd, 200136, Ibadan, Nigeria"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-04-04 14:13:22
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0596710478"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330596710478","otp_type":"register","user_id":"0","otp":2240,"expiry_date":"2021-04-04 14:28:22"}}

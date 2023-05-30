@@ -1,0 +1,5 @@
+
+ Request - 2021-03-16 10:56:47
+{"method":"verifyotp","country_code":"+233","mobile_number":"552518559","otp_type":"register","otp":"4940"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"ccfaeb92d2a2c07105ff13340d665d39"}}

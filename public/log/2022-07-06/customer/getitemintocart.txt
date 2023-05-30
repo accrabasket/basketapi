@@ -1,0 +1,77 @@
+
+ Request - 2022-07-06 00:49:35
+{"method":"getitemintocart","guest_user_id":"2d12d16cf74da31c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 03:18:52
+{"method":"getitemintocart","guest_user_id":"e6e4b04fbd00f880"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 03:23:03
+{"method":"getitemintocart","guest_user_id":"1bd966ade4c88fe5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 04:59:26
+{"method":"getitemintocart","guest_user_id":"712c3d5694d02ff7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 05:04:27
+{"method":"getitemintocart","guest_user_id":"712c3d5694d02ff7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 08:45:07
+{"method":"getitemintocart","guest_user_id":"4a51a9bcb5e1d1e4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 08:46:18
+{"method":"getitemintocart","guest_user_id":"4a51a9bcb5e1d1e4"}
+ Response :- 
+{"status":"success","data":{"674":{"id":21943,"user_id":0,"guest_user_id":"4a51a9bcb5e1d1e4","merchant_inventry_id":674,"item_name":"MEN Cool Kick - Anti-Perspirant Deodorant Roll-On(MEN Cool Kick - Anti-Perspirant Deodorant Roll-On)","number_of_item":1,"created_date":"2022-07-06 08:46:18"}},"productDetails":{"status":"success","data":{"674":{"id":674,"price":"9.99","product_id":958,"merchant_id":4,"store_id":4,"merchant_product_code":"16833","product_name":"MEN Cool Kick - Anti-Perspirant Deodorant Roll-On","product_desc":"NIVEA MEN Cool Kick Roll-on, for men who want an instant cool kick of freshness with effective anti-perspirant protection. It is a roll-on deodorant, which gives instant freshness, even after a long journey or a workout. Enriched with a Cool Care formula, this roll-on gives a long-lasting feeling of freshness. Its effective anti-perspirant formula regulates sweat and reduces formation of odour causing bacteria in the underarms to ensure day-long body odour protection. A roll-on for the man who is always on the move. Its long-lasting masculine fragrance revitalizes all the senses and gives day-long freshness and confidence to breeze through the day. This roll-on for men ensures effective body odour protection in all your daily tasks and activities.\r\nThat\u2019s not all; this roll-on for men has the optimal combination of reliable deodorant protection and the NIVEA MEN Care Complex, which makes it especially caring for your underarms. It has been dermatologically proven to cause no harm to ","default_discount_type":"","default_discount_value":"0","category_id":84,"custom_info":"{\"Ingredients\":\"Aqua, Alcohol Denat., Aluminum Chlorohydrate, PEG-8, Hydrogenated Castor Oil, Parfum, Octyldodecanol, Hydroxyethylcellulose, Citric Acid.\",\"Preparation and Usage\":\"Usage: Apply 4-6 swipes per underarm. Allow the product to dry completely.Use daily for best results. Do not apply on irritated or damaged skin.\"}","brand_name":"NIVEA","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":50,"tax_value":"3"}},"productImageData":{"958":[{"id":885,"type":"product","image_id":958,"image_name":"958_1545139818.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-06 08:46:24
+{"method":"getitemintocart","guest_user_id":"4a51a9bcb5e1d1e4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 09:35:23
+{"method":"getitemintocart","guest_user_id":"638af325d5d32033"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 11:56:42
+{"method":"getitemintocart","guest_user_id":"abd620e503965db2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 14:23:26
+{"method":"getitemintocart","guest_user_id":"247151f99233a768"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 17:07:53
+{"method":"getitemintocart","guest_user_id":"9bbb825f44bb17a8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 18:31:33
+{"method":"getitemintocart","guest_user_id":"1a6086e6d5fa5361"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 18:34:37
+{"method":"getitemintocart","guest_user_id":"1a6086e6d5fa5361"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 19:39:44
+{"method":"getitemintocart","guest_user_id":"f815576c7c249595"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 19:40:47
+{"method":"getitemintocart","guest_user_id":"400640e4c19e6dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 20:30:53
+{"method":"getitemintocart","guest_user_id":"0f0f07f51cc3e6a0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-06 20:31:22
+{"method":"getitemintocart","guest_user_id":"0f0f07f51cc3e6a0"}
+ Response :- 
+{"status":"success","data":{"221":{"id":21944,"user_id":0,"guest_user_id":"0f0f07f51cc3e6a0","merchant_inventry_id":221,"item_name":"Cashew Nut Whole(Cashew Nut Whole)","number_of_item":1,"created_date":"2022-07-06 20:31:21"}},"productDetails":{"status":"success","data":{"221":{"id":221,"price":"9.50","product_id":379,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000221","product_name":"Cashew Nut Whole","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\r\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"379":[{"id":296,"type":"product","image_id":379,"image_name":"6033000221247.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-06 20:31:24
+{"method":"getitemintocart","guest_user_id":"0f0f07f51cc3e6a0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

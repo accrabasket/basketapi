@@ -1,0 +1,29 @@
+
+ Request - 2021-03-23 03:26:17
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-03-23 17:11:25
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-03-23 23:34:44
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-03-23 23:35:04
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}

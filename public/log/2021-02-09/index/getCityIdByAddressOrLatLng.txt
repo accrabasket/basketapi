@@ -1,0 +1,9 @@
+
+ Request - 2021-02-09 14:39:23
+{"method":"getCityIdByAddressOrLatLng","address":"Mawlamyine - Hpa An Hwy, Myanmar (Burma)","lat":"16.7172771","lng":"97.663902"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mawlamyine - Hpa An Hwy, Myanmar (Burma)"}}
+ Request - 2021-02-09 23:31:57
+{"method":"getCityIdByAddressOrLatLng","address":"Assin Foso TownKumasi-Yamoransa Rd Opp. First Allied Bank, Foso, Ghana","lat":"5.7068436","lng":"-1.2842497"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Assin Foso TownKumasi-Yamoransa Rd Opp. First Allied Bank, Foso, Ghana"}}

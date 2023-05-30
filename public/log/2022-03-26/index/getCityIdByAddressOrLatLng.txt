@@ -1,0 +1,17 @@
+
+ Request - 2022-03-26 10:45:50
+{"method":"getCityIdByAddressOrLatLng","address":"77FX+CRV, 321107, Umunede, Nigeria","lat":"6.2730766","lng":"6.2983303"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"77FX+CRV, 321107, Umunede, Nigeria"}}
+ Request - 2022-03-26 12:52:14
+{"method":"getCityIdByAddressOrLatLng","address":"Tando Adam - Sanghar Rd, Sanghar, Sindh, پاکستان","lat":"25.8360244","lng":"68.77887"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RQPH+CG Tando \u0100dam, Pakistan"}}
+ Request - 2022-03-26 13:15:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Gambie","lat":"13.7158743","lng":"-14.8285863"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P58C+8H Dialatoye, The Gambia"}}
+ Request - 2022-03-26 20:44:21
+{"method":"getCityIdByAddressOrLatLng","address":"Kobenri، موريتانيا","lat":"15.5250062","lng":"-9.4893235"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GGG6+27 Moribougou, Mauritania"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-07-10 10:38:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Imt Manesar, Gurugram, Haryana 122052, India","lat":"28.37631","lng":"76.9320764"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Imt Manesar, Gurugram, Haryana 122052, India"}}
+ Request - 2021-07-10 14:03:45
+{"method":"getCityIdByAddressOrLatLng","address":"20 Kojotso Street, Accra, Ghana","lat":"5.5916823","lng":"-0.2581501"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"20 Kojotso Street, Accra, Ghana"}}
+ Request - 2021-07-10 19:56:24
+{"method":"getCityIdByAddressOrLatLng","address":"Ministries Post Office, PMB 54, Accra-Ghana, Onyasia Cres, Accra +233, Ghana","lat":"5.600072","lng":"-0.1935955"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ministries Post Office, PMB 54, Accra-Ghana, Onyasia Cres, Accra +233, Ghana"}}

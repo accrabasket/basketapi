@@ -1,0 +1,9 @@
+
+ Request - 2021-06-10 11:10:19
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3767}}
+ Request - 2021-06-10 14:32:47
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3767}}

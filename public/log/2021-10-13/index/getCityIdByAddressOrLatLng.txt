@@ -1,0 +1,13 @@
+
+ Request - 2021-10-13 02:00:39
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Shahpur, Bihar 848204, India","lat":"25.7196177","lng":"86.0661825"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P398+RF Milki, Bihar, India"}}
+ Request - 2021-10-13 09:43:05
+{"method":"getCityIdByAddressOrLatLng","address":"Partabpura Haripur Rd, Haripur Khalsa, Punjab 144035, India","lat":"31.0430736","lng":"75.7300621"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2PVJ+62 Haripur, Punjab, India"}}
+ Request - 2021-10-13 17:27:52
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uganda","lat":"0.4719091","lng":"32.6084916"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FJC5+Q9 Kabanyoro, Uganda"}}

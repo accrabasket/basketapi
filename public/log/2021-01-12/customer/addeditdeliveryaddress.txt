@@ -1,0 +1,5 @@
+
+ Request - 2021-01-12 16:41:53
+{"method":"addeditdeliveryaddress","house_number":"0244556677","area":"","street_detail":"shd3","contact_name":"Emmanuel","city_name":"N8, Ghana","city_id":"1","lat":"5.8297458","long":"-1.3115299","user_id":"1691","address_nickname":"djddhdh","landmark":"sjdjd","zipcode":"1234"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":362}}

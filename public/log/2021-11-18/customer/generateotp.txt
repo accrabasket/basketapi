@@ -1,0 +1,29 @@
+
+ Request - 2021-11-18 12:55:04
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":8010,"expiry_date":"2021-11-18 13:10:04"}}
+ Request - 2021-11-18 12:55:23
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":1834,"expiry_date":"2021-11-18 13:10:23"}}
+ Request - 2021-11-18 12:55:42
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":7468,"expiry_date":"2021-11-18 13:10:42"}}
+ Request - 2021-11-18 12:55:52
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":7147,"expiry_date":"2021-11-18 13:10:52"}}
+ Request - 2021-11-18 12:56:19
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":1329,"expiry_date":"2021-11-18 13:11:19"}}
+ Request - 2021-11-18 12:56:23
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":3558,"expiry_date":"2021-11-18 13:11:23"}}
+ Request - 2021-11-18 12:59:25
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"7654724950"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2337654724950","otp_type":"register","user_id":"0","otp":7057,"expiry_date":"2021-11-18 13:14:25"}}

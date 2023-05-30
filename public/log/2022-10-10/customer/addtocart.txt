@@ -1,0 +1,45 @@
+
+ Request - 2022-10-10 04:46:43
+{"method":"addtocart","guest_user_id":"a215a1a725604c0a","number_of_item":"1","merchant_inventry_id":"1618","action":"add","item_name":"Perk Milk Shortcake Biscuits(Perk Milk Shortcake Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 04:46:45
+{"method":"addtocart","guest_user_id":"a215a1a725604c0a","number_of_item":"1","merchant_inventry_id":"1637","action":"add","item_name":"Digestive Sugar Free Biscuits(Digestive Sugar Free Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 04:46:56
+{"method":"addtocart","guest_user_id":"a215a1a725604c0a","number_of_item":"1","merchant_inventry_id":"1292","action":"add","item_name":"Miniatures Chocolate(Miniatures Chocolate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 12:01:12
+{"method":"addtocart","guest_user_id":"be38c91c23188128","number_of_item":"1","merchant_inventry_id":"1647","action":"add","item_name":"Raspberry Vodka(Raspberry Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:28:19
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:28:23
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:28:26
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:28:29
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"704","action":"delete","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:29:08
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"266","action":"add","item_name":"Ground Black Pepper (Powder)(Ground Black Pepper (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:29:14
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"266","action":"delete","item_name":"Ground Black Pepper (Powder)(Ground Black Pepper (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-10 17:29:34
+{"method":"addtocart","guest_user_id":"b7e1a3e301e8cf3a","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

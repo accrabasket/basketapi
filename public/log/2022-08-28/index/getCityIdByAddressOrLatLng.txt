@@ -1,0 +1,9 @@
+
+ Request - 2022-08-28 00:11:42
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Gunung Agung No.65, Cempaka, Gn. Agung, Kecamatan Bumijawa, Kabupaten Tegal, Jawa Tengah 52466, Indonesia","lat":"-7.1713961","lng":"109.0782002"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Gunung Agung No.65, Cempaka, Gn. Agung, Kecamatan Bumijawa, Kabupaten Tegal, Jawa Tengah 52466, Indonesia"}}
+ Request - 2022-08-28 17:18:08
+{"method":"getCityIdByAddressOrLatLng","address":"V3X8+354, Essa Nagri Eissa Nagri, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8976929","lng":"67.0651876"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V3X8+354, Essa Nagri Eissa Nagri, Karachi, Karachi City, Sindh, Pakistan"}}

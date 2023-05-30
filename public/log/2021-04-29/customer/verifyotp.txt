@@ -1,0 +1,5 @@
+
+ Request - 2021-04-29 10:15:12
+{"method":"verifyotp","country_code":"+233","mobile_number":"917987416880","otp_type":"register","otp":"1237"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"7adc40073079d140d9418cfabd7e9553"}}

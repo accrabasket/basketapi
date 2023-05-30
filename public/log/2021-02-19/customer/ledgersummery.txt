@@ -1,0 +1,5 @@
+
+ Request - 2021-02-19 15:20:01
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-01-01 00:00:00","end_date":"2021-02-19 23:59:59"}
+ Response :- 
+{"status":"success","data":{"0":{"id":222,"order_id":"order_m4_454","merchant_id":4,"total_amount":"509.52","commission_amount":"0.00","discount_amount":"23.96","type":"credit","merchant_amount":"508.48","created_date":"2021-01-25 22:53:59","updated_date":"2021-01-25 22:53:59"},"1":{"id":218,"order_id":"order_m4_433","merchant_id":4,"total_amount":"148.66","commission_amount":"0.00","discount_amount":"3.80","type":"credit","merchant_amount":"135.46","created_date":"2021-01-04 01:05:03","updated_date":"2021-01-04 01:05:03"},"total_summery":false}}

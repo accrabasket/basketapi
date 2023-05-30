@@ -1,0 +1,29 @@
+
+ Request - 2021-11-24 03:47:04
+{"method":"getCityIdByAddressOrLatLng","address":"175b Erediauwa Street, Oka 300104, Benin City, Nigeria","lat":"6.2979468","lng":"5.6471859"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"175b Erediauwa Street, Oka 300104, Benin City, Nigeria"}}
+ Request - 2021-11-24 06:44:16
+{"method":"getCityIdByAddressOrLatLng","address":"C68, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110065, India","lat":"28.5666648","lng":"77.270851"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C68, Bharat Nagar, New Friends Colony, New Delhi, Delhi 110065, India"}}
+ Request - 2021-11-24 10:20:34
+{"method":"getCityIdByAddressOrLatLng","address":"QJHV+92F, Jigani, Karnataka 560105, India","lat":"12.7780574","lng":"77.6427036"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJHV+92F, Jigani, Karnataka 560105, India"}}
+ Request - 2021-11-24 10:35:21
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Sénégal","lat":"14.6935534","lng":"-16.9035825"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M3VW+CH Noto, Senegal"}}
+ Request - 2021-11-24 11:51:38
+{"method":"getCityIdByAddressOrLatLng","address":"QX57+V74, Figuil, Cameroun","lat":"9.7589401","lng":"13.9627052"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QX57+V74, Figuil, Cameroon"}}
+ Request - 2021-11-24 16:33:28
+{"method":"getCityIdByAddressOrLatLng","address":"227 School Rd, Aba 450101, Aba, Nigeria","lat":"5.1035479","lng":"7.3779205"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"227 School Rd, Aba 450101, Aba, Nigeria"}}
+ Request - 2021-11-24 18:30:50
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Kb. Jeruk No.38, Kb. Jeruk, Kec. Andir, Kota Bandung, Jawa Barat 40181, Indonesia","lat":"-6.9161244","lng":"107.6002752"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Kb. Jeruk No.38, Kb. Jeruk, Kec. Andir, Kota Bandung, Jawa Barat 40181, Indonesia"}}

@@ -1,0 +1,5 @@
+
+ Request - 2022-08-11 22:00:58
+{"method":"getcoupon","user_id":"185","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

@@ -1,0 +1,37 @@
+
+ Request - 2021-04-04 08:03:13
+{"method":"addtocart","guest_user_id":"9f14f4420cc25a91","number_of_item":"1","merchant_inventry_id":"634","action":"add","item_name":"Digestives – Milk Chocolate Biscuits(Digestives – Milk Chocolate Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 08:04:26
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"634","action":"add","item_name":"Digestives – Milk Chocolate Biscuits(Digestives – Milk Chocolate Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 08:04:30
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"634","action":"delete","item_name":"Digestives – Milk Chocolate Biscuits(Digestives – Milk Chocolate Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 08:04:55
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 13:11:11
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"234","action":"delete","item_name":"Coriander Powder(Coriander Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 13:11:13
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"323","action":"delete","item_name":"Sambhar Masala(Sambhar Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 13:11:15
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"1878","action":"delete","item_name":"Chakki Atta Wheat Flour(Chakki Atta Wheat Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 13:11:16
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"311","action":"delete","item_name":"Red Chilli Whole(Red Chilli Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-04 14:38:50
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"3320","action":"add","item_name":"Cheddar Cheese Chips(Cheddar Cheese Chips)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

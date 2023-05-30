@@ -1,0 +1,13 @@
+
+ Request - 2021-05-20 10:20:03
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-05-20 10:50:58
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-05-20 14:55:39
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}

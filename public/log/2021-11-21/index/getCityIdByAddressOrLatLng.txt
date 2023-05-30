@@ -1,0 +1,21 @@
+
+ Request - 2021-11-21 05:11:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Datialbori, Assam 782127, India","lat":"26.4109136","lng":"92.3441446"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C86V+9M Datialbori, Assam, India"}}
+ Request - 2021-11-21 05:39:43
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Dunkwa-On-Offin, Ghana","lat":"5.9729363","lng":"-1.7872073"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Dunkwa-On-Offin, Ghana"}}
+ Request - 2021-11-21 14:22:01
+{"method":"getCityIdByAddressOrLatLng","address":"56J6+J78, Varsana, Gujarat 370240, India","lat":"23.1821628","lng":"70.2086494"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"56J5+VF Varsana, Gujarat, India"}}
+ Request - 2021-11-21 18:34:16
+{"method":"getCityIdByAddressOrLatLng","address":"Kinshasa, République démocratique du Congo","lat":"-4.4419311","lng":"15.2662931"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Avenue Mpolo num\u00e9ro 1060, Commune de la Gombe- Kinshasa, R\u00e9publique, d\u00e9mocratique, Non loin de la place du march\u00e9, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2021-11-21 21:19:35
+{"method":"getCityIdByAddressOrLatLng","address":"Rue de l'Espérance Abidjan, Abidjan, Côte d'Ivoire","lat":"5.3798548","lng":"-3.9492059"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue de l'Esp\u00e9rance Abidjan, Abidjan, C\u00f4te d'Ivoire"}}

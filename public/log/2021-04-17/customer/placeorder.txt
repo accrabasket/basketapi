@@ -1,0 +1,45 @@
+
+ Request - 2021-04-17 11:39:23
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"2","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 11:39:27
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"2","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 14:12:41
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"3","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 14:13:55
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"3","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 14:17:21
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"3","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_231"}}
+ Request - 2021-04-17 14:25:52
+{"method":"placeorder","user_id":"2263","shipping_address_id":"437","time_slot_id":"3","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 14:25:59
+{"method":"placeorder","user_id":"2263","shipping_address_id":"437","time_slot_id":"3","delivery_date":"2021-04-17","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 14:27:43
+{"method":"placeorder","user_id":"2263","shipping_address_id":"437","time_slot_id":"2","delivery_date":"2021-04-18","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 14:58:50
+{"method":"placeorder","user_id":"2263","shipping_address_id":"437","time_slot_id":"2","delivery_date":"2021-04-18","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_232"}}
+ Request - 2021-04-17 15:27:07
+{"method":"placeorder","user_id":"2263","shipping_address_id":"437","time_slot_id":"2","delivery_date":"2021-04-18","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-17 20:33:45
+{"method":"placeorder","user_id":"2263","shipping_address_id":"433","time_slot_id":"2","delivery_date":"2021-04-18","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}

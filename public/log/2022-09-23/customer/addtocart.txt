@@ -1,0 +1,21 @@
+
+ Request - 2022-09-23 12:08:46
+{"method":"addtocart","guest_user_id":"e6276038c26c3f49","number_of_item":"1","merchant_inventry_id":"3808","action":"add","item_name":"Onion Local(Onion Local)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-23 12:08:48
+{"method":"addtocart","guest_user_id":"e6276038c26c3f49","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-23 12:08:52
+{"method":"addtocart","guest_user_id":"e6276038c26c3f49","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-23 12:08:58
+{"method":"addtocart","guest_user_id":"e6276038c26c3f49","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-23 13:27:54
+{"method":"addtocart","guest_user_id":"a4bc0a6c8511ed16","number_of_item":"1","merchant_inventry_id":"2846","action":"add","item_name":"Chicken Sausage(Chicken Sausage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

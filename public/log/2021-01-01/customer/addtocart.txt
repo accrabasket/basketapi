@@ -1,0 +1,9 @@
+
+ Request - 2021-01-01 05:46:32
+{"method":"addtocart","guest_user_id":"cc6a476c57013271","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-01 19:44:40
+{"method":"addtocart","guest_user_id":"53057080ed8d51a3","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,21 @@
+
+ Request - 2021-10-18 00:42:31
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Rajasthan 333304, India","lat":"27.8103586","lng":"75.2935396"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R76V+4C Beri, Rajasthan, India"}}
+ Request - 2021-10-18 02:37:46
+{"method":"getCityIdByAddressOrLatLng","address":"8WQC+8FP, Elenga, Bangladesh","lat":"24.3383695","lng":"89.9211455"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8WQC+8FP, Elenga, Bangladesh"}}
+ Request - 2021-10-18 05:04:37
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Poros, Bencah Kelubi, Kec. Tapung, Kabupaten Kampar, Riau 28464, Indonesia","lat":"0.6103836","lng":"101.2500766"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J762+52 Bencah Kelubi, Kampar Regency, Riau, Indonesia"}}
+ Request - 2021-10-18 09:16:07
+{"method":"getCityIdByAddressOrLatLng","address":"53, Zayed Dunes،, قسم الشيخ زايد، الجيزة، مصر","lat":"30.0366857","lng":"30.9847962"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"53, Zayed Dunes\u060c, \u0642\u0633\u0645 \u0627\u0644\u0634\u064a\u062e \u0632\u0627\u064a\u062f\u060c \u0627\u0644\u062c\u064a\u0632\u0629\u060c Egypt"}}
+ Request - 2021-10-18 20:24:47
+{"method":"getCityIdByAddressOrLatLng","address":"N1, République démocratique du Congo","lat":"-11.241713","lng":"27.1826125"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q55M+82 Kipoi, Democratic Republic of the Congo"}}

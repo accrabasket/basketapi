@@ -1,0 +1,29 @@
+
+ Request - 2021-11-28 00:32:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Mahuawan, Bihar 824208, India","lat":"24.6990528","lng":"84.5766675"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MHXG+JM Mahuawan, Bihar, India"}}
+ Request - 2021-11-28 08:01:37
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tanzania","lat":"-8.8599019","lng":"34.8398233"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4RRQ+2W Makambako, Tanzania"}}
+ Request - 2021-11-28 08:45:30
+{"method":"getCityIdByAddressOrLatLng","address":"निनावी रस्ता, कांडेकर वस्ती, खंडाळा, महाराष्ट्र 414006, भारत","lat":"18.9955625","lng":"74.7062382"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XPW4+6F Khandala, Maharashtra, India"}}
+ Request - 2021-11-28 13:50:31
+{"method":"getCityIdByAddressOrLatLng","address":"8W3H+2FX, Amet, Rajasthan 313332, India","lat":"25.3027404","lng":"73.92992"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8W3H+2FX, Amet, Rajasthan 313332, India"}}
+ Request - 2021-11-28 15:56:58
+{"method":"getCityIdByAddressOrLatLng","address":"Av. Sablière, République démocratique du Congo","lat":"-4.2588781","lng":"15.5761996"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PHRG+CF Mikala, Democratic Republic of the Congo"}}
+ Request - 2021-11-28 15:57:11
+{"method":"getCityIdByAddressOrLatLng","address":"Av. Sablière, République démocratique du Congo","lat":"-4.2588781","lng":"15.5761996"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PHRG+CF Mikala, Democratic Republic of the Congo"}}
+ Request - 2021-11-28 15:57:21
+{"method":"getCityIdByAddressOrLatLng","address":"Av. Sablière, République démocratique du Congo","lat":"-4.2588781","lng":"15.5761996"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PHRG+CF Mikala, Democratic Republic of the Congo"}}

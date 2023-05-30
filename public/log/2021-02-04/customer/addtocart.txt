@@ -1,0 +1,13 @@
+
+ Request - 2021-02-04 04:47:54
+{"method":"addtocart","guest_user_id":"77605dee8c07bae3","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-04 19:16:39
+{"method":"addtocart","guest_user_id":"1f8cd19052f31456","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-04 19:16:44
+{"method":"addtocart","guest_user_id":"1f8cd19052f31456","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

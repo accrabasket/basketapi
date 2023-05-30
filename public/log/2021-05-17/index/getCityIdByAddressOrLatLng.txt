@@ -1,0 +1,13 @@
+
+ Request - 2021-05-17 07:32:02
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ziniaré, Burkina Faso","lat":"12.5779092","lng":"-1.3046971"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ziniar\u00e9, Burkina Faso"}}
+ Request - 2021-05-17 07:49:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uttar Pradesh 209866, India","lat":"26.2391309","lng":"80.8203044"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Uttar Pradesh 209866, India"}}
+ Request - 2021-05-17 16:34:29
+{"method":"getCityIdByAddressOrLatLng","address":"Temple St, Kwashieman, Ghana","lat":"5.6005659","lng":"-0.2680195"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Temple St, Kwashieman, Ghana"}}

@@ -1,0 +1,13 @@
+
+ Request - 2023-01-18 19:20:42
+{"method":"getCityIdByAddressOrLatLng","address":"F4W3+4QG Commissariat de police, Maradi, Niger","lat":"13.4950083","lng":"7.1051532"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-18 19:55:22
+{"method":"getCityIdByAddressOrLatLng","address":"P7CC+8XH Parc Marien Ngouabi, POTO-POTO, Brazzaville, République du Congo","lat":"-4.2787832","lng":"15.2718643"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-18 19:55:25
+{"method":"getCityIdByAddressOrLatLng","address":"P7CC+8XH Parc Marien Ngouabi, POTO-POTO, Brazzaville, République du Congo","lat":"-4.2787832","lng":"15.2718643"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

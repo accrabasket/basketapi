@@ -1,0 +1,9 @@
+
+ Request - 2021-04-09 17:36:45
+{"method":"login","email":"tettehpearl099@gmail.com","password":"ekua4567","fcm_reg_id":"cOFWEhKGxzE:APA91bEuRYrpZs0KQRNez6gksbJetc28lEsKJNClOGbPWDe1AMw1lchav9KCt3w0vP8337pcmILj4OiatpUvAV-GrWTQb2NbLtNotu-_ObnxtkEeVaEIGJPd17nfQVIPyACcWOTx1yGx"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-09 17:39:25
+{"method":"login","email":"tettehpearl099@gmail.com","password":"ekuasmoothy","fcm_reg_id":"cOFWEhKGxzE:APA91bEuRYrpZs0KQRNez6gksbJetc28lEsKJNClOGbPWDe1AMw1lchav9KCt3w0vP8337pcmILj4OiatpUvAV-GrWTQb2NbLtNotu-_ObnxtkEeVaEIGJPd17nfQVIPyACcWOTx1yGx"}
+ Response :- 
+{"status":"success","data":{"2344":{"id":2344,"name":"Pearl Tetteh","mobile_number":"548159010","email":"tettehpearl099@gmail.com","key":"619154632bdfe20930e91342a552a6e3","password":"2fa58e22825eb3f9a3b942ac3d60c451","fcm_reg_id":"cOFWEhKGxzE:APA91bEuRYrpZs0KQRNez6gksbJetc28lEsKJNClOGbPWDe1AMw1lchav9KCt3w0vP8337pcmILj4OiatpUvAV-GrWTQb2NbLtNotu-_ObnxtkEeVaEIGJPd17nfQVIPyACcWOTx1yGx","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-04-09 17:37:44","updated_date":"2021-04-09 17:37:44","status":"1"}},"totalNumberOfUser":1,"wallet_key":"2fa58e22825eb3f9a3b942ac3d60c451"}

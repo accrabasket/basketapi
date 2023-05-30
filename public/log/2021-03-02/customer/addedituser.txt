@@ -1,0 +1,5 @@
+
+ Request - 2021-03-02 21:37:38
+{"method":"addedituser","city_id":"1","password":"myhome2021","name":"Simran Gursharan Kaur","email":"kgursharan81@gmail.com","mobile_number":"279790988","country_code":"+233","id":"0","fcm_reg_id":"dv3Cs31_1bc:APA91bHSbsMW1XzFeC6nA92fnss2Ou2VloSD-wNxDf5FpvdnrqeobmMNYW2UYQMLuk20GAW2EC8re-C5pZzvXlfDedVnms3QnT6t_8926H6uSjdOEIMAw1Gwf2emekf8Jq-9eWMX2-d0"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233279790988 and registered email id.","data":{"2054":{"id":2054,"name":"Simran Gursharan Kaur","mobile_number":"279790988","email":"kgursharan81@gmail.com","key":"78a240f7bb2511822cb6391da0717c55","password":"133be95d74dcda78b8f3e7a1861dc36e","fcm_reg_id":"dv3Cs31_1bc:APA91bHSbsMW1XzFeC6nA92fnss2Ou2VloSD-wNxDf5FpvdnrqeobmMNYW2UYQMLuk20GAW2EC8re-C5pZzvXlfDedVnms3QnT6t_8926H6uSjdOEIMAw1Gwf2emekf8Jq-9eWMX2-d0","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-02 21:37:38","updated_date":"2021-03-02 21:37:38","status":"1"}}}

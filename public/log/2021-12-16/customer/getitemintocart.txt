@@ -1,0 +1,45 @@
+
+ Request - 2021-12-16 00:45:41
+{"method":"getitemintocart","guest_user_id":"b890854f9a893a6c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 00:47:42
+{"method":"getitemintocart","guest_user_id":"b890854f9a893a6c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 00:49:40
+{"method":"getitemintocart","guest_user_id":"b890854f9a893a6c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 00:50:54
+{"method":"getitemintocart","guest_user_id":"b890854f9a893a6c"}
+ Response :- 
+{"status":"success","data":{"1044":{"id":18869,"user_id":0,"guest_user_id":"b890854f9a893a6c","merchant_inventry_id":1044,"item_name":"Mixed Pickle(Mixed Pickle)","number_of_item":1,"created_date":"2021-12-16 00:50:53"}},"productDetails":{"status":"success","data":{"1044":{"id":1044,"price":"21.99","product_id":1327,"merchant_id":4,"store_id":4,"merchant_product_code":"10375","product_name":"Mixed Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Mango (34 percent), Limes (20 percent), Sunflower Oil, Salt, Chili (10 percent), Vinegar, Fenugreek, Mustard, Ground Spices, Garlic, Asafoetida\",\"Storage\":\"Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"}},"productImageData":{"1327":[{"id":1608,"type":"product","image_id":1327,"image_name":"10375.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-16 00:50:59
+{"method":"getitemintocart","guest_user_id":"b890854f9a893a6c"}
+ Response :- 
+{"status":"success","data":{"1044":{"id":18869,"user_id":0,"guest_user_id":"b890854f9a893a6c","merchant_inventry_id":1044,"item_name":"Mixed Pickle(Mixed Pickle)","number_of_item":1,"created_date":"2021-12-16 00:50:53"}},"productDetails":{"status":"success","data":{"1044":{"id":1044,"price":"21.99","product_id":1327,"merchant_id":4,"store_id":4,"merchant_product_code":"10375","product_name":"Mixed Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Mango (34 percent), Limes (20 percent), Sunflower Oil, Salt, Chili (10 percent), Vinegar, Fenugreek, Mustard, Ground Spices, Garlic, Asafoetida\",\"Storage\":\"Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"}},"productImageData":{"1327":[{"id":1608,"type":"product","image_id":1327,"image_name":"10375.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-16 00:51:10
+{"method":"getitemintocart","guest_user_id":"b890854f9a893a6c"}
+ Response :- 
+{"status":"success","data":{"1044":{"id":18869,"user_id":0,"guest_user_id":"b890854f9a893a6c","merchant_inventry_id":1044,"item_name":"Mixed Pickle(Mixed Pickle)","number_of_item":1,"created_date":"2021-12-16 00:50:53"}},"productDetails":{"status":"success","data":{"1044":{"id":1044,"price":"21.99","product_id":1327,"merchant_id":4,"store_id":4,"merchant_product_code":"10375","product_name":"Mixed Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Mango (34 percent), Limes (20 percent), Sunflower Oil, Salt, Chili (10 percent), Vinegar, Fenugreek, Mustard, Ground Spices, Garlic, Asafoetida\",\"Storage\":\"Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"}},"productImageData":{"1327":[{"id":1608,"type":"product","image_id":1327,"image_name":"10375.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-16 05:45:30
+{"method":"getitemintocart","guest_user_id":"6a26d053c6695b81"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 08:08:04
+{"method":"getitemintocart","guest_user_id":"3ac6718cda0f6104"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 16:19:28
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 17:28:05
+{"method":"getitemintocart","guest_user_id":"37a24f7e8bf09cc1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-16 19:16:08
+{"method":"getitemintocart","guest_user_id":"d01053b6f1b20f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

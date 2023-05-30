@@ -1,0 +1,13 @@
+
+ Request - 2022-09-25 05:46:37
+{"method":"getCityIdByAddressOrLatLng","address":"275R+4FW, Mogadishu, Somalia","lat":"2.0083867","lng":"45.2910274"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"275R+4FW, Mogadishu, Somalia"}}
+ Request - 2022-09-25 07:24:30
+{"method":"getCityIdByAddressOrLatLng","address":"الحاج عبد الله،، XH7P+Q4M، الحاج عبد الله، السودان","lat":"13.9663621","lng":"33.5838233"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XH8M+GG Hajj Abd Allah, Sudan"}}
+ Request - 2022-09-25 09:04:38
+{"method":"getCityIdByAddressOrLatLng","address":"5646+2H2, Kashmir Rd, Fareed Town, Gujranwala, Punjab, Pakistan","lat":"32.1550172","lng":"74.2114534"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5646+2H2, Kashmir Rd, Fareed Town, Gujranwala, Punjab, Pakistan"}}

@@ -1,0 +1,17 @@
+
+ Request - 2023-05-17 01:50:40
+{"method":"getitemintocart","guest_user_id":"7602fc4127ec5104"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-05-17 07:24:05
+{"method":"getitemintocart","guest_user_id":"67cd923e67747f6b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-05-17 08:23:56
+{"method":"getitemintocart","guest_user_id":"910f5c3a94c06987"}
+ Response :- 
+{"status":"success","data":{"733":{"id":20451,"user_id":0,"guest_user_id":"910f5c3a94c06987","merchant_inventry_id":733,"item_name":"Sunflower Oil(Sunflower Oil)","number_of_item":1,"created_date":"2022-03-24 11:27:42"},"3807":{"id":20453,"user_id":0,"guest_user_id":"910f5c3a94c06987","merchant_inventry_id":3807,"item_name":"Lemon Loose(Lemon Loose)","number_of_item":1,"created_date":"2022-03-24 19:15:00"}},"productDetails":{"status":"success","data":{"733":{"id":733,"price":"81.99","product_id":1017,"merchant_id":4,"store_id":4,"merchant_product_code":"4817","product_name":"Sunflower Oil","product_desc":"Produced with crops obtained from the rich soils of our country, ORKIDE Sunflower Oil is meticulously produced at our facilities enriched with the latest technology.","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"{\"Storage Instructions\":\"Should be stored in cool places, where sunlight does not reach\"}","brand_name":"Orkide","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"liter","quantity":5,"tax_value":"3"},"3807":{"id":3807,"price":"17.95","product_id":4277,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Lemon Loose","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"1017":[{"id":992,"type":"product","image_id":1017,"image_name":"1017_1545156795.jpg"}],"4277":[{"id":5370,"type":"product","image_id":4277,"image_name":"OSU4893.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2023-05-17 13:05:03
+{"method":"getitemintocart","guest_user_id":"0ce6ca1bad7058e0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

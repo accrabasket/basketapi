@@ -1,0 +1,9 @@
+
+ Request - 2022-07-10 08:50:24
+{"method":"getCityIdByAddressOrLatLng","address":"Office 622,6th Floor Westwalk Towers, Durban Central, Durban, 4001, South Africa","lat":"-29.8593501","lng":"31.0200365"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Office 622,6th Floor Westwalk Towers, Durban Central, Durban, 4001, South Africa"}}
+ Request - 2022-07-10 16:35:48
+{"method":"getCityIdByAddressOrLatLng","address":"Lettaş Durağı, Hamitköy Yolu, Küçük Kaymaklı 99010","lat":"35.2092756","lng":"33.3790903"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Letta\u015f Dura\u011f\u0131, Hamitk\u00f6y Yolu, Hamitk\u00f6y 99010"}}

@@ -1,0 +1,29 @@
+
+ Request - 2023-04-11 22:16:02
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-11 22:16:07
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-11 22:16:15
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-11 22:16:39
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-11 22:16:39
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-11 22:16:44
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-11 22:16:47
+{"method":"getCityIdByAddressOrLatLng","address":"2QXF+6F4, Addis Ababa, Ethiopia","lat":"9.0487686","lng":"38.773953"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

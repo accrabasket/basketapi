@@ -1,0 +1,17 @@
+
+ Request - 2022-05-15 12:19:09
+{"method":"getCityIdByAddressOrLatLng","address":"MCHH+29H, Kumasi, Ghana","lat":"6.6767983","lng":"-1.5714354"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MCHH+29H, Kumasi, Ghana"}}
+ Request - 2022-05-15 12:40:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ethiopia","lat":"8.9252444","lng":"39.3726999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W9GF+33 Balchi, Ethiopia"}}
+ Request - 2022-05-15 15:32:15
+{"method":"getCityIdByAddressOrLatLng","address":"C37G+Q8H، رميثة،،، العراق","lat":"31.4131223","lng":"45.0755033"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C37G+Q8H\u060c \u0631\u0645\u064a\u062b\u0629\u060c\u060c\u060c Iraq"}}
+ Request - 2022-05-15 17:40:06
+{"method":"getCityIdByAddressOrLatLng","address":"Chakwal Rd, Chakwal, Punjab, Pakistan","lat":"32.7998832","lng":"72.9665408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Chakwal Rd, Chakwal, Punjab, Pakistan"}}

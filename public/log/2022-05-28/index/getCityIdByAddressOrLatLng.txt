@@ -1,0 +1,17 @@
+
+ Request - 2022-05-28 09:19:25
+{"method":"getCityIdByAddressOrLatLng","address":"HMMP+FHH, Bangko Sempurna, Kec. Bangko Pusako, Kabupaten Rokan Hilir, Riau 28992, Indonesia","lat":"1.5842431","lng":"100.6867174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HMMP+FHH, Bangko Sempurna, Bangko Pusako, Rokan Hilir Regency, Riau 28992, Indonesia"}}
+ Request - 2022-05-28 12:59:32
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nauwa Mahmoodpur, Uttar Pradesh 261125, India","lat":"27.6553668","lng":"80.6827987"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MM4M+44 Nauwa Mahmoodpur, Uttar Pradesh, India"}}
+ Request - 2022-05-28 18:25:50
+{"method":"getCityIdByAddressOrLatLng","address":"76VM+FRX, Numan Rd, 640284, Ngurore, Nigeria","lat":"9.2945781","lng":"12.2349442"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"76VM+FRX, Numan Rd, 640284, Ngurore, Nigeria"}}
+ Request - 2022-05-28 22:01:18
+{"method":"getCityIdByAddressOrLatLng","address":"A7, Côte d'Ivoire","lat":"6.7763899","lng":"-7.3869346"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJG7+H6 Duekoue, C\u00f4te d'Ivoire"}}

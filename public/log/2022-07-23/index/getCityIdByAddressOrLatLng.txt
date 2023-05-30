@@ -1,0 +1,33 @@
+
+ Request - 2022-07-23 07:12:54
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Soa, Cameroun","lat":"3.9840373","lng":"11.599958"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XHMX+JX Soa, Cameroon"}}
+ Request - 2022-07-23 07:22:19
+{"method":"getCityIdByAddressOrLatLng","address":"R8CV+5CX, Padam Nagar, Khandwa, Madhya Pradesh 450001, India","lat":"21.8204386","lng":"76.3436368"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R8CV+5CX, Padam Nagar, Khandwa, Madhya Pradesh 450001, India"}}
+ Request - 2022-07-23 07:33:07
+{"method":"getCityIdByAddressOrLatLng","address":"C59V+XMR, Bangladesh","lat":"24.4199929","lng":"90.1944325"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C59V+XMR, Bangladesh"}}
+ Request - 2022-07-23 13:22:28
+{"method":"getCityIdByAddressOrLatLng","address":"F6QW+59P، الشرقاط، العراق","lat":"35.48833666666667","lng":"43.24604833333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F6QW+59P, Al Shirqat, Iraq"}}
+ Request - 2022-07-23 14:40:11
+{"method":"getCityIdByAddressOrLatLng","address":"VVV8+FVR, 930105, Jos, Nigeria","lat":"9.8937185","lng":"8.867824"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VVV8+FVR, 930105, Jos, Nigeria"}}
+ Request - 2022-07-23 16:27:19
+{"method":"getCityIdByAddressOrLatLng","address":"Block-31, GARIB NAWAZ NAGAR, Industrial Area, Rakhial, Ahmedabad, Gujarat 380038, India","lat":"23.0166981","lng":"72.6297155"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Block-31, GARIB NAWAZ NAGAR, Industrial Area, Rakhial, Ahmedabad, Gujarat 380038, India"}}
+ Request - 2022-07-23 19:49:13
+{"method":"getCityIdByAddressOrLatLng","address":"6FV59W63+JH9, 9 Ile tutun, 200263, Ibadan, Nigeria","lat":"7.3609491","lng":"3.9035524"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6FV59W63+JH9, 9 Ile tutun, 200263, Ibadan, Nigeria"}}
+ Request - 2022-07-23 20:06:17
+{"method":"getCityIdByAddressOrLatLng","address":"15 Shobande St, Akoka 100001, Lagos, Nigeria","lat":"6.5289893","lng":"3.3866355"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"15 Shobande St, Akoka 100001, Lagos, Nigeria"}}

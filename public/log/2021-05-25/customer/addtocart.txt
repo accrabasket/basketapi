@@ -1,0 +1,25 @@
+
+ Request - 2021-05-25 06:55:01
+{"method":"addtocart","guest_user_id":"d1e8c5d4465d8325","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-25 06:55:07
+{"method":"addtocart","guest_user_id":"d1e8c5d4465d8325","number_of_item":"1","merchant_inventry_id":"650","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-25 06:55:21
+{"method":"addtocart","guest_user_id":"d1e8c5d4465d8325","number_of_item":"1","merchant_inventry_id":"803","action":"add","item_name":"Original Classic Soymilk(Original Classic Soymilk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-25 06:55:24
+{"method":"addtocart","guest_user_id":"d1e8c5d4465d8325","number_of_item":"1","merchant_inventry_id":"803","action":"add","item_name":"Original Classic Soymilk(Original Classic Soymilk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-25 06:55:41
+{"method":"addtocart","guest_user_id":"d1e8c5d4465d8325","number_of_item":"1","merchant_inventry_id":"2731","action":"add","item_name":"Carrot(Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-25 06:55:42
+{"method":"addtocart","guest_user_id":"d1e8c5d4465d8325","number_of_item":"1","merchant_inventry_id":"2782","action":"add","item_name":"Cauliflower(Cauliflower)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

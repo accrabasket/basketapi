@@ -1,0 +1,21 @@
+
+ Request - 2021-12-11 03:18:58
+{"method":"getCityIdByAddressOrLatLng","address":"নামবিহীন রাস্তা, পাটনিপারা, ত্রিপুরা 799211, ভারত","lat":"23.8857325","lng":"91.4463385"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VCPW+7G Patnipara, Tripura, India"}}
+ Request - 2021-12-11 09:28:43
+{"method":"getCityIdByAddressOrLatLng","address":"CGF5+99W, Bher Bheri Bill, Assam 782123, India","lat":"26.4239822","lng":"92.5099079"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CGF5+HX Bher Bheri Bill, Assam, India"}}
+ Request - 2021-12-11 12:03:11
+{"method":"getCityIdByAddressOrLatLng","address":"Greater Accra Region, Ghana","lat":"5.6949254","lng":"-0.1484749"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Greater Accra Region, Ghana"}}
+ Request - 2021-12-11 12:03:15
+{"method":"getCityIdByAddressOrLatLng","address":"Greater Accra Region, Ghana","lat":"5.6949254","lng":"-0.1484749"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Greater Accra Region, Ghana"}}
+ Request - 2021-12-11 16:33:38
+{"method":"getCityIdByAddressOrLatLng","address":"8414 احمد النعيمى، العزيزية، المدينة المنورة 42379 4332، السعودية","lat":"24.4348453","lng":"39.4896654"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8414 \u0627\u062d\u0645\u062f \u0627\u0644\u0646\u0639\u064a\u0645\u0649\u060c Al Aziziyyah, Medina 42379\u00a04332, Saudi Arabia"}}

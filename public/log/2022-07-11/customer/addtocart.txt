@@ -1,0 +1,29 @@
+
+ Request - 2022-07-11 03:22:54
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-11 03:22:59
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-11 03:23:01
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-11 03:23:05
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-11 03:23:07
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-11 03:23:09
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-11 03:23:16
+{"method":"addtocart","guest_user_id":"47c66790589a1b54","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

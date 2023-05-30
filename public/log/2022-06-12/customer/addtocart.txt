@@ -1,0 +1,5 @@
+
+ Request - 2022-06-12 12:16:12
+{"method":"addtocart","guest_user_id":"a25c4269c94bedac","number_of_item":"1","merchant_inventry_id":"2846","action":"add","item_name":"Chicken Sausage(Chicken Sausage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

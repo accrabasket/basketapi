@@ -1,0 +1,5 @@
+
+ Request - 2021-10-21 10:43:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

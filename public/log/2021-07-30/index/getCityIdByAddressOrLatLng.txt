@@ -1,0 +1,5 @@
+
+ Request - 2021-07-30 14:14:32
+{"method":"getCityIdByAddressOrLatLng","address":"4RMF+5CM, Bangladesh","lat":"25.1337449","lng":"89.825337"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4RMF+5CM, Bangladesh"}}

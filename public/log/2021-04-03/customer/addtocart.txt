@@ -1,0 +1,29 @@
+
+ Request - 2021-04-03 13:50:03
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3110","action":"add","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-03 14:00:34
+{"method":"addtocart","guest_user_id":"7f1fb89622e2ebd8","number_of_item":"1","merchant_inventry_id":"3110","action":"add","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-03 14:00:38
+{"method":"addtocart","guest_user_id":"7f1fb89622e2ebd8","number_of_item":"1","merchant_inventry_id":"3110","action":"add","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-03 14:02:47
+{"method":"addtocart","guest_user_id":"7f1fb89622e2ebd8","number_of_item":"1","merchant_inventry_id":"3110","action":"add","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-03 14:02:48
+{"method":"addtocart","guest_user_id":"7f1fb89622e2ebd8","number_of_item":"1","merchant_inventry_id":"3110","action":"add","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-03 14:03:38
+{"method":"addtocart","guest_user_id":"7f1fb89622e2ebd8","number_of_item":"1","merchant_inventry_id":"3110","action":"delete","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-03 14:03:39
+{"method":"addtocart","guest_user_id":"7f1fb89622e2ebd8","number_of_item":"1","merchant_inventry_id":"3110","action":"delete","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

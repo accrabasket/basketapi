@@ -1,0 +1,13 @@
+
+ Request - 2021-03-24 10:36:04
+{"method":"placeorder","user_id":"1444","shipping_address_id":"427","time_slot_id":"2","delivery_date":"2021-03-24","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-03-24 10:36:16
+{"method":"placeorder","user_id":"1444","shipping_address_id":"427","time_slot_id":"2","delivery_date":"2021-03-24","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-03-24 10:37:00
+{"method":"placeorder","user_id":"1444","shipping_address_id":"427","time_slot_id":"2","delivery_date":"2021-03-24","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m2_727","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1444","TransactionId":"93cf88c1b3ca6a7c3fc929041f6ecd7f","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m2_727","Amount":126.04,"Signature":"0f97f319fc1482c27d4e8fb38cd919a41232437259e5b4cb94c6c620e5234a77"}}}}

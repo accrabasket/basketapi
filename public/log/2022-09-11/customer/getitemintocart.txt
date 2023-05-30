@@ -1,0 +1,49 @@
+
+ Request - 2022-09-11 01:31:02
+{"method":"getitemintocart","guest_user_id":"40479942e675b372"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 01:33:00
+{"method":"getitemintocart","guest_user_id":"40479942e675b372"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 01:33:50
+{"method":"getitemintocart","guest_user_id":"40479942e675b372"}
+ Response :- 
+{"status":"success","data":{"774":{"id":22499,"user_id":0,"guest_user_id":"40479942e675b372","merchant_inventry_id":774,"item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)","number_of_item":1,"created_date":"2022-09-11 01:33:50"}},"productDetails":{"status":"success","data":{"774":{"id":774,"price":"7.69","product_id":1058,"merchant_id":4,"store_id":4,"merchant_product_code":"X936   ","product_name":"La Vache qui rit - Cheese","product_desc":"The Laughing Cow combines the goodness of cheese with a mild and smooth taste that\u2019s sure to make you smile! Made in Canada from a blend of Canadian cheeses, and individually wrapped in foil, it\u2019s a delicious snack to share. For a simple and delicious snack spread it on a bagel, on crackers or even on apple slices. Or just pop one in your mouth to satisfy a craving!","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Modified Milk Ingredients, Cheeses (Pasteurized Milk, Modified Milk Ingredients, Bacterial Culture, Salt, Calcium Chloride, Microbial Enzyme), Sodium Phosphates, Salt, Citric Acid.\"}","brand_name":"Laughing Cow","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":120,"tax_value":"3"}},"productImageData":{"1058":[{"id":1066,"type":"product","image_id":1058,"image_name":"1058_1551272208.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-11 07:17:24
+{"method":"getitemintocart","guest_user_id":"b8c2cf63d212d303"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 09:01:46
+{"method":"getitemintocart","guest_user_id":"39f76d95249f713c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 10:14:51
+{"method":"getitemintocart","guest_user_id":"b8c2cf63d212d303"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 12:43:27
+{"method":"getitemintocart","guest_user_id":"b8c2cf63d212d303"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 12:55:07
+{"method":"getitemintocart","guest_user_id":"400640e4c19e6dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 15:02:33
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 15:12:19
+{"method":"getitemintocart","guest_user_id":"b8c2cf63d212d303"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 17:16:33
+{"method":"getitemintocart","guest_user_id":"6892da2ec1c748fc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-11 17:27:58
+{"method":"getitemintocart","guest_user_id":"6892da2ec1c748fc"}
+ Response :- 
+{"status":"success","data":{"214":{"id":22500,"user_id":0,"guest_user_id":"6892da2ec1c748fc","merchant_inventry_id":214,"item_name":"Black Chana(Black Chana)","number_of_item":1,"created_date":"2022-09-11 17:27:58"}},"productDetails":{"status":"success","data":{"214":{"id":214,"price":"15.50","product_id":373,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Chana","product_desc":"Create a memorable Mediterranean dish right in you own kitchen with this Kala Chana. Also know as chickpeas, they are simple to prepare and can make a delightful addition to a variety of meals. They are high in fiber, carbohydrates and protein, making them an optimal addition to your menu. The calcium and iron they provide promotes positive bone health and supports healthy blood.","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"}},"productImageData":{"373":[{"id":290,"type":"product","image_id":373,"image_name":"6033000220158.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

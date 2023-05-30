@@ -1,0 +1,21 @@
+
+ Request - 2021-08-04 20:23:28
+{"method":"addtocart","guest_user_id":"e4c090ffd4669ecc","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-04 20:23:41
+{"method":"addtocart","guest_user_id":"e4c090ffd4669ecc","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-04 22:25:52
+{"method":"addtocart","guest_user_id":"e4c090ffd4669ecc","number_of_item":"1","merchant_inventry_id":"252","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-04 22:25:55
+{"method":"addtocart","guest_user_id":"e4c090ffd4669ecc","number_of_item":"1","merchant_inventry_id":"252","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-04 22:25:59
+{"method":"addtocart","guest_user_id":"e4c090ffd4669ecc","number_of_item":"1","merchant_inventry_id":"613","action":"delete","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

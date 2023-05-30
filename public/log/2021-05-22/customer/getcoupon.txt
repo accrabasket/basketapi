@@ -1,0 +1,185 @@
+
+ Request - 2021-05-22 07:09:13
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:09:28
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:09:52
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:13:18
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:13:22
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:13:37
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:35:45
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:35:58
+{"method":"getcoupon","user_id":"800","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"4":{"id":4,"user_id":0,"coupon_name":"SHOP500","discount_value":10,"minumum_order_price":500,"discount_type":"percent","max_discount_value":50,"desc":"Get 10% instant discount.\r\nMinimum transaction GHC 500. Maximum discount GHC 50.\r\n\r\nNote: This coupon expires on Dec 31, 2020","start_date":"2019-03-19","end_date":"2019-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 07:37:55
+{"method":"getcoupon","user_id":"800","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"4":{"id":4,"user_id":0,"coupon_name":"SHOP500","discount_value":10,"minumum_order_price":500,"discount_type":"percent","max_discount_value":50,"desc":"Get 10% instant discount.\r\nMinimum transaction GHC 500. Maximum discount GHC 50.\r\n\r\nNote: This coupon expires on Dec 31, 2020","start_date":"2019-03-19","end_date":"2019-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 07:38:10
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:38:20
+{"method":"getcoupon","user_id":"800","only_active_coupon":"2","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:39:02
+{"method":"getcoupon","user_id":"800","only_active_coupon":"2","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:39:05
+{"method":"getcoupon","user_id":"800","only_active_coupon":"2","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:39:13
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:40:01
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-22 07:40:45
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 07:41:01
+{"method":"getcoupon","user_id":"800","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"4":{"id":4,"user_id":0,"coupon_name":"SHOP500","discount_value":10,"minumum_order_price":500,"discount_type":"percent","max_discount_value":50,"desc":"Get 10% instant discount.\r\nMinimum transaction GHC 500. Maximum discount GHC 50.\r\n\r\nNote: This coupon expires on Dec 31, 2020","start_date":"2019-03-19","end_date":"2019-12-31","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":3}}
+ Request - 2021-05-22 07:41:45
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 07:42:54
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 09:54:20
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 09:58:29
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 09:59:17
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 09:59:27
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:10:05
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:10:09
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:10:13
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:12:56
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:14:42
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:15:05
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:29:12
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:34:26
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:36:00
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:43:44
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:44:05
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:50:05
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:51:14
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 10:55:15
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 14:11:34
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 14:25:15
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 14:36:44
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 15:11:27
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 15:14:58
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 15:15:07
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 15:17:52
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 15:18:31
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}
+ Request - 2021-05-22 15:21:21
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"},"27":{"id":27,"user_id":800,"coupon_name":"AIRTGO100","discount_value":5,"minumum_order_price":100,"discount_type":"percent","max_discount_value":1,"desc":"Get 5% instant discount.\r\nMinimum transaction GHC 100.\r\n\r\nNote: This coupon expires on Dec 31, 2021 ","start_date":"2020-09-01","end_date":"2021-12-31","show_coupon":"1"}},"totalRecords":{"count":2}}

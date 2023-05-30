@@ -1,0 +1,41 @@
+
+ Request - 2021-09-15 04:48:53
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-15 07:25:05
+{"method":"getitemintocart","guest_user_id":"e0790d503c1439c5"}
+ Response :- 
+{"status":"success","data":{"936":{"id":15223,"user_id":0,"guest_user_id":"e0790d503c1439c5","merchant_inventry_id":936,"item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)","number_of_item":1,"created_date":"2021-05-30 12:44:15"}},"productDetails":{"status":"success","data":{"936":{"id":936,"price":"84.99","product_id":902,"merchant_id":4,"store_id":4,"merchant_product_code":"69639","product_name":"Baby Pants Jumbo Pack","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Pampers","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":52,"tax_value":"3"}},"productImageData":[]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-15 13:33:12
+{"method":"getitemintocart","guest_user_id":"28ec441daf552981"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-15 13:34:27
+{"method":"getitemintocart","guest_user_id":"28ec441daf552981"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-15 13:35:40
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-15 13:35:57
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"},"2837":{"id":17069,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":2837,"item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)","number_of_item":3,"created_date":"2021-09-03 17:34:22"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"2837":{"id":2837,"price":"33.00","product_id":3207,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk solids (25%), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476).\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3207":[{"id":3869,"type":"product","image_id":3207,"image_name":"VID120.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-15 13:41:11
+{"method":"getitemintocart","guest_user_id":"28ec441daf552981"}
+ Response :- 
+{"status":"success","data":{"697":{"id":17205,"user_id":0,"guest_user_id":"28ec441daf552981","merchant_inventry_id":697,"item_name":"Natural Care - Baby Wipes(Natural Care - Baby Wipes)","number_of_item":1,"created_date":"2021-09-15 13:41:10"}},"productDetails":{"status":"success","data":{"697":{"id":697,"price":"12.49","product_id":981,"merchant_id":4,"store_id":4,"merchant_product_code":"19387","product_name":"Natural Care - Baby Wipes","product_desc":"America's #1 branded baby wipe is pure and gentle. Our hypoallergenic Natural Care baby wipes are paraben, fragrance, and alcohol free. Our wipes are made with 99% water, providing a pure and gentle clean for your baby\u2019s soft and delicate skin.","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"{\"Ingredients\":\"We use Water to remove impurities from your baby's skin. Of course, it\\u2019s 99% purified water that\\u2019s been filtered three times. \\r\\nButoxy PEG-4 PG-Amodimethicone makes wipes softer so they slide gently across your baby\\u2019s skin.\\r\\nCoco-Glucoside comes from coconut oil and glucose (a simple sugar from grains like rice). It helps promote healthy skin.\\r\\nAloe Vera, it\\u2019s listed on our product as Aloe Barbadensis Leaf Juice.\\r\\nWe use Caprylyl Glycol as a gentle conditioner to help soothe your baby\\u2019s delicate skin.\\r\\nWe use Malic Acid (found in apples) to match the pH of baby\\u2019s skin. If the pH rises too high, it disrupts the skin's natural, healthy state.\\r\\nSodium Benzoate is used to keep foods like bread and fruit juice fresh. We use it to prevent the growth of bacteria in each pack.\\r\\nFound in citrus fruits like lemons, oranges and grapefruit, Sodium Citrate ensures our wipes stay fresh.\\r\\nWe add Vitamin E to our wipes, or as it\\u2019s less commonly known: Tocopheryl Acetate.\"}","brand_name":"Huggies","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":64,"tax_value":"3"}},"productImageData":{"981":[{"id":995,"type":"product","image_id":981,"image_name":"981_1545157210.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-15 14:17:23
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-09-15 14:33:43
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-09-15 20:25:07
+{"method":"getitemintocart","guest_user_id":"89eed1f2badb446c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,45 @@
+
+ Request - 2021-04-02 04:06:47
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-02 09:01:54
+{"method":"getitemintocart","guest_user_id":"15e0b691470b6a50"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-02 17:06:15
+{"method":"getitemintocart","guest_user_id":"d81ba9b45da0f93d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-02 17:06:39
+{"method":"getitemintocart","guest_user_id":"d81ba9b45da0f93d"}
+ Response :- 
+{"status":"success","data":{"766":{"id":13819,"user_id":0,"guest_user_id":"d81ba9b45da0f93d","merchant_inventry_id":766,"item_name":"First Infant Milk(First Infant Milk)","number_of_item":1,"created_date":"2021-04-02 17:06:38"}},"productDetails":{"status":"success","data":{"766":{"id":766,"price":"55.00","product_id":1050,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"First Infant Milk","product_desc":"Our expert team at SMA Nutrition is dedicated to understanding the complex structure of breast milk and to applying the learnings from nature to our own products. We have been leading research in baby nutrition for over 100 years and have produced SMA PRO First Infant Milk, a nutritionally complete breast milk substitute, expertly created with nature in mind to support babies\u2019 unique nutritional needs.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Lactose (Milk), Vegetable Oils (Palm, Rapeseed, Coconut, Sunflower), Demineralised Whey (Milk), Skimmed Milk, Galacto-Oligosaccharides (GOS), Potassium Citrate, Calcium Citrate, Emulsifier (Soya Lecithin), Fructo-Oligosaccharides (FOS), Fish Oil (DHA), Magnesium Chloride, L-Phenylalanine, Sodium Chloride, Sodium Citrate, Calcium Phosphate, Vitamin C, Arachidonic Acid-Rich Oil (AA), Choline Bitartrate, Taurine, Ferrous Sulphate, L-Histidine, Inositol, Zinc Sulphate, Antioxidants (Ascorbyl Palmitate, Tocopherol-Rich Extract), Vitamin E, L-Carnitine, Niacin, Pantothenic Acid, Copper Sulphate, Vitamin A, Thiamin, Vitamin B6, Manganese Sulphate, Riboflavin, Folic Acid, Potassium Iodide, Sodium Selenate, Vitamin D, Vitamin K, Vitamin B12, Biotin.\"}","brand_name":"SMA Pro","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"1050":[{"id":1068,"type":"product","image_id":1050,"image_name":"1050_1551272309.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-02 17:06:49
+{"method":"getitemintocart","guest_user_id":"d81ba9b45da0f93d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-02 17:08:15
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-02 17:08:33
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"success","data":{"2103":{"id":13820,"user_id":459,"guest_user_id":"","merchant_inventry_id":2103,"item_name":"Irish Whiskey(Irish Whiskey)","number_of_item":1,"created_date":"2021-04-02 17:08:33"}},"productDetails":{"status":"success","data":{"2103":{"id":2103,"price":"120.44","product_id":2436,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL511","product_name":"Irish Whiskey","product_desc":"Jameson Irish Whiskey is a blended Irish whiskey. What\u2019s that we hear you say. Well first we take the best of pot still and fine grain whiskeys. Then we triple distil them - not because we have to because we want to as it gives it its signature smoothness. Finally, we age them in oak casks for a minimum of 4 years.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"2436":[{"id":3476,"type":"product","image_id":2436,"image_name":"AFL511.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-02 17:08:35
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"success","data":{"2103":{"id":13820,"user_id":459,"guest_user_id":"","merchant_inventry_id":2103,"item_name":"Irish Whiskey(Irish Whiskey)","number_of_item":1,"created_date":"2021-04-02 17:08:33"}},"productDetails":{"status":"success","data":{"2103":{"id":2103,"price":"120.44","product_id":2436,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL511","product_name":"Irish Whiskey","product_desc":"Jameson Irish Whiskey is a blended Irish whiskey. What\u2019s that we hear you say. Well first we take the best of pot still and fine grain whiskeys. Then we triple distil them - not because we have to because we want to as it gives it its signature smoothness. Finally, we age them in oak casks for a minimum of 4 years.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"2436":[{"id":3476,"type":"product","image_id":2436,"image_name":"AFL511.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-02 17:09:47
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"success","data":{"2103":{"id":13820,"user_id":459,"guest_user_id":"","merchant_inventry_id":2103,"item_name":"Irish Whiskey(Irish Whiskey)","number_of_item":1,"created_date":"2021-04-02 17:08:33"}},"productDetails":{"status":"success","data":{"2103":{"id":2103,"price":"120.44","product_id":2436,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL511","product_name":"Irish Whiskey","product_desc":"Jameson Irish Whiskey is a blended Irish whiskey. What\u2019s that we hear you say. Well first we take the best of pot still and fine grain whiskeys. Then we triple distil them - not because we have to because we want to as it gives it its signature smoothness. Finally, we age them in oak casks for a minimum of 4 years.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"2436":[{"id":3476,"type":"product","image_id":2436,"image_name":"AFL511.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-02 17:09:50
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"success","data":{"2103":{"id":13820,"user_id":459,"guest_user_id":"","merchant_inventry_id":2103,"item_name":"Irish Whiskey(Irish Whiskey)","number_of_item":1,"created_date":"2021-04-02 17:08:33"}},"productDetails":{"status":"success","data":{"2103":{"id":2103,"price":"120.44","product_id":2436,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL511","product_name":"Irish Whiskey","product_desc":"Jameson Irish Whiskey is a blended Irish whiskey. What\u2019s that we hear you say. Well first we take the best of pot still and fine grain whiskeys. Then we triple distil them - not because we have to because we want to as it gives it its signature smoothness. Finally, we age them in oak casks for a minimum of 4 years.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"2436":[{"id":3476,"type":"product","image_id":2436,"image_name":"AFL511.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-02 18:29:47
+{"method":"getitemintocart","guest_user_id":"15e0b691470b6a50"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

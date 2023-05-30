@@ -1,0 +1,33 @@
+
+ Request - 2021-03-11 09:31:04
+{"method":"getitemintocart","guest_user_id":"8f05dc245f8aa287"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-11 09:41:39
+{"method":"getitemintocart","guest_user_id":"8f05dc245f8aa287"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-11 09:56:42
+{"method":"getitemintocart","guest_user_id":"59ba6df5047320c3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-11 11:14:31
+{"method":"getitemintocart","guest_user_id":"8f05dc245f8aa287"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-11 11:14:59
+{"method":"getitemintocart","guest_user_id":"8f05dc245f8aa287"}
+ Response :- 
+{"status":"success","data":{"436":{"id":13262,"user_id":0,"guest_user_id":"8f05dc245f8aa287","merchant_inventry_id":436,"item_name":"Pine - Multi Surface Cleaner(Pine - Multi Surface Cleaner)","number_of_item":1,"created_date":"2021-03-11 11:14:59"}},"productDetails":{"status":"success","data":{"436":{"id":436,"price":"11.30","product_id":601,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Pine - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"litre","quantity":1}},"productImageData":{"601":[{"id":561,"type":"product","image_id":601,"image_name":"8699415063049.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-11 12:13:19
+{"method":"getitemintocart","guest_user_id":"a267ba5e5c86377e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-11 12:13:20
+{"method":"getitemintocart","guest_user_id":"a267ba5e5c86377e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-11 19:48:19
+{"method":"getitemintocart","guest_user_id":"05fb70d23cc31c59"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

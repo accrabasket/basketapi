@@ -1,0 +1,5 @@
+
+ Request - 2021-06-24 22:22:36
+{"method":"verifyotp","country_code":"+233","mobile_number":"0543683916","otp_type":"register","otp":"5056"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"3b9b02c45772a73c322d587864b0d199"}}

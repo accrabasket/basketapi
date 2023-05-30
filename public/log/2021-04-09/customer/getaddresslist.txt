@@ -1,0 +1,9 @@
+
+ Request - 2021-04-09 17:46:05
+{"method":"getaddresslist","user_id":"2344"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-04-09 17:51:38
+{"method":"getaddresslist","user_id":"2344"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}

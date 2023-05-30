@@ -1,0 +1,13 @@
+
+ Request - 2021-09-14 08:04:07
+{"method":"addtocart","guest_user_id":"4b9bf85f9855acd4","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-14 14:19:46
+{"method":"addtocart","guest_user_id":"788740a7b9ed0c2f","number_of_item":"1","merchant_inventry_id":"589","action":"add","item_name":"Guava - Fruit Juice(Guava - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-14 14:19:47
+{"method":"addtocart","guest_user_id":"788740a7b9ed0c2f","number_of_item":"1","merchant_inventry_id":"588","action":"add","item_name":"Cranberry and Kiwi - Fruit Juice(Cranberry and Kiwi - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

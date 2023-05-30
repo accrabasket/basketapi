@@ -1,0 +1,13 @@
+
+ Request - 2021-11-03 06:21:31
+{"method":"addtocart","guest_user_id":"6a9b5628608f7a53","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-03 06:21:33
+{"method":"addtocart","guest_user_id":"6a9b5628608f7a53","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-03 06:21:35
+{"method":"addtocart","guest_user_id":"6a9b5628608f7a53","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2022-01-23 01:49:23
+{"method":"getCityIdByAddressOrLatLng","address":"3294, Baldev Nagar, Kakowal Village, Ludhiana, Punjab 141012, India","lat":"30.9475722","lng":"75.870012"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3294, Baldev Nagar, Kakowal Village, Ludhiana, Punjab 141012, India"}}
+ Request - 2022-01-23 13:58:28
+{"method":"getCityIdByAddressOrLatLng","address":"PVVG+8MG, Nairobi, Kenya","lat":"-1.25686","lng":"36.8764673"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PVVG+8MG, Nairobi, Kenya"}}
+ Request - 2022-01-23 18:15:23
+{"method":"getCityIdByAddressOrLatLng","address":"2794، الرحاب، صبيا 85457 6438، السعودية","lat":"17.1642924","lng":"42.6433829"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2794, Al Rihab, Sabya 85457\u00a06438, Saudi Arabia"}}
+ Request - 2022-01-23 19:53:59
+{"method":"getCityIdByAddressOrLatLng","address":"Lom-et-Djérem Ngoura Colomine, Cameroun","lat":"4.9987756","lng":"14.3712194"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Lom-et-Dj\u00e9rem Ngoura Colomine, Cameroon"}}

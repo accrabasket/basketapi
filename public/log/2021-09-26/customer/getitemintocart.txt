@@ -1,0 +1,65 @@
+
+ Request - 2021-09-26 07:19:28
+{"method":"getitemintocart","guest_user_id":"aed521d66d77a27f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 08:39:33
+{"method":"getitemintocart","guest_user_id":"fcf25ea01bef0f54"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 09:51:44
+{"method":"getitemintocart","guest_user_id":"b6dc249e698277a2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 09:51:47
+{"method":"getitemintocart","guest_user_id":"b6dc249e698277a2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 14:06:14
+{"method":"getitemintocart","guest_user_id":"4863ee9f943d1e2f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 14:06:23
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-09-26 14:52:09
+{"method":"getitemintocart","guest_user_id":"fcf25ea01bef0f54"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 15:43:00
+{"method":"getitemintocart","guest_user_id":"5474737dbc13c22f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 16:03:11
+{"method":"getitemintocart","guest_user_id":"8c9bfed3deaa10f1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 16:03:28
+{"method":"getitemintocart","guest_user_id":"8c9bfed3deaa10f1"}
+ Response :- 
+{"status":"success","data":{"288":{"id":17300,"user_id":0,"guest_user_id":"8c9bfed3deaa10f1","merchant_inventry_id":288,"item_name":"Masala Tea(Masala Tea)","number_of_item":1,"created_date":"2021-09-26 16:03:28"}},"productDetails":{"status":"success","data":{"288":{"id":288,"price":"58.50","product_id":433,"merchant_id":3,"store_id":2,"merchant_product_code":"8901095900","product_name":"Masala Tea","product_desc":"Fortified with spices that are proven to have excellent antioxidant properties and great, robust flavour, Society Masala Tea is meant to be. Brew yourself a cup or two of this elixir, and feel your troubles, stresses and qualms, just melt away. Piquant and beautifully balanced, this tea is a 10 on the Richter scale in terms of taste.","default_discount_type":"","default_discount_value":"0","category_id":59,"custom_info":"","brand_name":"Society","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"8","unit":"gm","quantity":450,"tax_value":"3"}},"productImageData":{"433":[{"id":360,"type":"product","image_id":433,"image_name":"8901095900034.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-26 16:50:15
+{"method":"getitemintocart","guest_user_id":"afd3c637b2045a37"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 18:17:25
+{"method":"getitemintocart","guest_user_id":"058e8668e752b8c9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 18:43:23
+{"method":"getitemintocart","guest_user_id":"eee0818f52bc7970"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 18:43:51
+{"method":"getitemintocart","guest_user_id":"eee0818f52bc7970"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 19:59:21
+{"method":"getitemintocart","guest_user_id":"da937f87f4d66232"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-26 20:04:13
+{"method":"getitemintocart","guest_user_id":"87f185c00a9666b5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

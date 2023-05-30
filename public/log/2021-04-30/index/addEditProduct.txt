@@ -1,0 +1,301 @@
+
+ Request - 2021-04-30 05:10:52
+{"product_name":"SOFT CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"absc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3533","attribute":[{"name":"SOFT CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3545"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3533","attribute":["3545"]}}
+ Request - 2021-04-30 05:23:10
+{"product_name":"SOFT CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"absc1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3534","attribute":[{"name":"SOFT CHICKEN","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3546"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3534","attribute":["3546"]}}
+ Request - 2021-04-30 05:24:11
+{"product_name":"HARD CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abhc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3535","attribute":[{"name":"HARD CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3547"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3535","attribute":["3547"]}}
+ Request - 2021-04-30 05:24:19
+{"product_name":"HARD CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abhc1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3536","attribute":[{"name":"HARD CHICKEN","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3548"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3536","attribute":["3548"]}}
+ Request - 2021-04-30 05:25:21
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcw","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3537","attribute":[{"name":"HARD WING","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3549"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3537","attribute":["3549"]}}
+ Request - 2021-04-30 05:25:28
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcw1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3538","attribute":[{"name":"HARD WING","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3550"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3538","attribute":["3550"]}}
+ Request - 2021-04-30 05:25:59
+{"product_name":"CHICKEN DRUMSTICKS","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcds","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3539","attribute":[{"name":"CHICKEN DRUMSTICKS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3551"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3539","attribute":["3551"]}}
+ Request - 2021-04-30 05:26:08
+{"product_name":"CHICKEN DRUMSTICKS","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcds1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3540","attribute":[{"name":"CHICKEN DRUMSTICKS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3552"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3540","attribute":["3552"]}}
+ Request - 2021-04-30 05:26:39
+{"product_name":"FULL CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abfc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3541","attribute":[{"name":"FULL CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3553"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3541","attribute":["3553"]}}
+ Request - 2021-04-30 05:27:23
+{"product_name":"CHICKEN BREAST","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcb","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3542","attribute":[{"name":"CHICKEN BREAST","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3554"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3542","attribute":["3554"]}}
+ Request - 2021-04-30 05:27:31
+{"product_name":"CHICKEN BREAST","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcb1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3543","attribute":[{"name":"CHICKEN BREAST","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3555"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3543","attribute":["3555"]}}
+ Request - 2021-04-30 05:28:10
+{"product_name":"CHICKEN BACK(UPPER)","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcbu","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3544","attribute":[{"name":"CHICKEN BACK(UPPER)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"flat","attribute_discount_value":"15","id":"3556"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3544","attribute":["3556"]}}
+ Request - 2021-04-30 05:28:17
+{"product_name":"CHICKEN BACK(UPPER)","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcbu1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3545","attribute":[{"name":"CHICKEN BACK(UPPER)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"flat","attribute_discount_value":"15","id":"3557"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3545","attribute":["3557"]}}
+ Request - 2021-04-30 05:30:14
+{"product_name":"TURKEY WINGS","brand_name":"SEARA","nutrition":"","category_id":"125","promotion_id":"","item_code":"abtw","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3546","attribute":[{"name":"TURKEY WINGS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3558"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3546","attribute":["3558"]}}
+ Request - 2021-04-30 05:30:22
+{"product_name":"TURKEY WINGS","brand_name":"SEARA","nutrition":"","category_id":"125","promotion_id":"","item_code":"abtw1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3547","attribute":[{"name":"TURKEY WINGS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3559"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3547","attribute":["3559"]}}
+ Request - 2021-04-30 05:31:07
+{"product_name":"GIZZARD","brand_name":"PERDIX","nutrition":"","category_id":"125","promotion_id":"","item_code":"abgg","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3565","attribute":[{"name":"GIZZARD","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3577"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3565","attribute":["3577"]}}
+ Request - 2021-04-30 05:32:19
+{"product_name":"SAUSAGE","brand_name":"SADIA","nutrition":"","category_id":"125","promotion_id":"","item_code":"abss","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3566","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3578"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3566","attribute":["3578"]}}
+ Request - 2021-04-30 05:32:25
+{"product_name":"SAUSAGE","brand_name":"NANA","nutrition":"","category_id":"125","promotion_id":"","item_code":"absn","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3567","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3579"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3567","attribute":["3579"]}}
+ Request - 2021-04-30 05:32:32
+{"product_name":"SAUSAGE","brand_name":"SEARA","nutrition":"","category_id":"125","promotion_id":"","item_code":"abse","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3568","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3580"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3568","attribute":["3580"]}}
+ Request - 2021-04-30 05:32:40
+{"product_name":"SAUSAGE","brand_name":"DOUX","nutrition":"","category_id":"125","promotion_id":"","item_code":"absd","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3569","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3581"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3569","attribute":["3581"]}}
+ Request - 2021-04-30 05:35:07
+{"product_name":"CHICKEN BACK(UPPER)","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcbu","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3544","attribute":[{"name":"CHICKEN BACK(UPPER)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3556"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3544","attribute":["3556"]}}
+ Request - 2021-04-30 05:35:13
+{"product_name":"CHICKEN BACK(UPPER)","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcbu1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3545","attribute":[{"name":"CHICKEN BACK(UPPER)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3557"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3545","attribute":["3557"]}}
+ Request - 2021-04-30 06:01:17
+{"product_name":"Chicken Breast","brand_name":"Seara","nutrition":"","category_id":"125","promotion_id":"","item_code":"VID156","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"Seara is a global food brand that is fully committed to high quality products, offering a large portfolio in the In - Natura meats and poultry segments (frozen and fresh), as well as prepared and industrialized food solutions.","tax_id":"3","id":"3217","attribute":[{"name":"Chicken Breast","unit":"kg","quantity":"2","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3256"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3217","attribute":["3256"]}}
+ Request - 2021-04-30 06:01:25
+{"product_name":"Chicken Breast","brand_name":"","nutrition":"","category_id":"125","promotion_id":"","item_code":"VID157","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3218","attribute":[{"name":"Chicken Breast","unit":"kg","quantity":"2","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3257"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3218","attribute":["3257"]}}
+ Request - 2021-04-30 06:04:17
+{"product_name":"Chicken Sausage","brand_name":"Perdix","nutrition":"","category_id":"125","promotion_id":"","item_code":"VID155","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3216","attribute":[{"name":"Chicken Sausage","unit":"gm","quantity":"340","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3255"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3216","attribute":["3255"]}}
+ Request - 2021-04-30 06:05:04
+{"product_name":"SOFT CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"absc1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3534","attribute":[{"name":"SOFT CHICKEN","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3546"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3534","attribute":["3546"]}}
+ Request - 2021-04-30 06:06:33
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcw1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3538","attribute":[{"name":"HARD WING","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3550"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3538","attribute":["3550"]}}
+ Request - 2021-04-30 06:07:24
+{"product_name":"HARD CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abhc1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3536","attribute":[{"name":"HARD CHICKEN","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"16","id":"3548"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3536","attribute":["3548"]}}
+ Request - 2021-04-30 06:08:12
+{"product_name":"FULL CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abfc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3541","attribute":[{"name":"FULL CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3553"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3541","attribute":["3553"]}}
+ Request - 2021-04-30 06:09:03
+{"product_name":"CHICKEN DRUMSTICKS","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"","item_code":"abcds1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3540","attribute":[{"name":"CHICKEN DRUMSTICKS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3552"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3540","attribute":["3552"]}}
+ Request - 2021-04-30 09:15:21
+{"product_name":"COW MEAT (BONED)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"","item_code":"abcm","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3570","attribute":[{"name":"COW MEAT (BONED)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"10","id":"3582"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3570","attribute":["3582"]}}
+ Request - 2021-04-30 09:16:20
+{"product_name":"COW MEAT (BONED)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"","item_code":"abcm1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3571","attribute":[{"name":"COW MEAT (BONED)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3583"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3571","attribute":["3583"]}}
+ Request - 2021-04-30 09:16:31
+{"product_name":"COW MEAT (BONED)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"","item_code":"abcm","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3570","attribute":[{"name":"COW MEAT (BONED)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3582"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3570","attribute":["3582"]}}
+ Request - 2021-04-30 09:16:42
+{"product_name":"COW MEAT (BONELA)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"","item_code":"abcmb","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3572","attribute":[{"name":"COW MEAT (BONELA)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3584"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3572","attribute":["3584"]}}
+ Request - 2021-04-30 09:16:49
+{"product_name":"COW MEAT (BONELA)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"","item_code":"abcmb1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3573","attribute":[{"name":"COW MEAT (BONELA)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3585"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3573","attribute":["3585"]}}
+ Request - 2021-04-30 09:23:07
+{"product_name":"SHRIMPS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"abshr1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3580","attribute":[{"name":"SHRIMPS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","id":"3592"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3580","attribute":["3592"]}}
+ Request - 2021-04-30 09:26:16
+{"product_name":"SNAIL","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"absl1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3578","attribute":[{"name":"SNAIL","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3590"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3578","attribute":["3590"]}}
+ Request - 2021-04-30 09:26:38
+{"product_name":"LOBSTERS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"ablob1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3579","attribute":[{"name":"LOBSTERS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3591"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3579","attribute":["3591"]}}
+ Request - 2021-04-30 09:26:58
+{"product_name":"SHRIMPS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"abshr1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3580","attribute":[{"name":"SHRIMPS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3592"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3580","attribute":["3592"]}}
+ Request - 2021-04-30 09:27:21
+{"product_name":"OCTOPUS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"aboct1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3581","attribute":[{"name":"OCTOPUS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3593"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3581","attribute":["3593"]}}
+ Request - 2021-04-30 09:27:48
+{"product_name":"SQUID","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"absq1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3582","attribute":[{"name":"SQUID","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3594"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3582","attribute":["3594"]}}
+ Request - 2021-04-30 09:28:13
+{"product_name":"PRAWNS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"","item_code":"abpr1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3583","attribute":[{"name":"PRAWNS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3595"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3583","attribute":["3595"]}}
+ Request - 2021-04-30 09:45:26
+{"product_name":"Chicken Sausage","brand_name":"Perdix","nutrition":"","category_id":"125","promotion_id":"35","item_code":"VID155","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3216","attribute":[{"name":"Chicken Sausage","unit":"gm","quantity":"340","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3255"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3216","attribute":["3255"]}}
+ Request - 2021-04-30 09:45:34
+{"product_name":"Chicken Breast","brand_name":"Seara","nutrition":"","category_id":"125","promotion_id":"35","item_code":"VID156","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"Seara is a global food brand that is fully committed to high quality products, offering a large portfolio in the In - Natura meats and poultry segments (frozen and fresh), as well as prepared and industrialized food solutions.","tax_id":"3","id":"3217","attribute":[{"name":"Chicken Breast","unit":"kg","quantity":"2","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3256"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3217","attribute":["3256"]}}
+ Request - 2021-04-30 09:45:41
+{"product_name":"Chicken Breast","brand_name":"","nutrition":"","category_id":"125","promotion_id":"35","item_code":"VID157","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3218","attribute":[{"name":"Chicken Breast","unit":"kg","quantity":"2","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3257"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3218","attribute":["3257"]}}
+ Request - 2021-04-30 09:45:46
+{"product_name":"SOFT CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"absc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3533","attribute":[{"name":"SOFT CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3545"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3533","attribute":["3545"]}}
+ Request - 2021-04-30 09:45:56
+{"product_name":"SOFT CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"absc1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3534","attribute":[{"name":"SOFT CHICKEN","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3546"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3534","attribute":["3546"]}}
+ Request - 2021-04-30 09:46:01
+{"product_name":"HARD CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abhc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3535","attribute":[{"name":"HARD CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3547"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3535","attribute":["3547"]}}
+ Request - 2021-04-30 09:46:06
+{"product_name":"HARD CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abhc1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3536","attribute":[{"name":"HARD CHICKEN","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"16","id":"3548"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3536","attribute":["3548"]}}
+ Request - 2021-04-30 09:46:10
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcw","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3537","attribute":[{"name":"HARD WING","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3549"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3537","attribute":["3549"]}}
+ Request - 2021-04-30 09:46:15
+{"product_name":"Chicken Wings","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcw1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3538","attribute":[{"name":"HARD WING","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3550"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3538","attribute":["3550"]}}
+ Request - 2021-04-30 09:47:19
+{"product_name":"CHICKEN DRUMSTICKS","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcds","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3539","attribute":[{"name":"CHICKEN DRUMSTICKS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3551"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3539","attribute":["3551"]}}
+ Request - 2021-04-30 09:47:24
+{"product_name":"CHICKEN DRUMSTICKS","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcds1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3540","attribute":[{"name":"CHICKEN DRUMSTICKS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3552"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3540","attribute":["3552"]}}
+ Request - 2021-04-30 09:47:31
+{"product_name":"FULL CHICKEN","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abfc","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3541","attribute":[{"name":"FULL CHICKEN","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3553"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3541","attribute":["3553"]}}
+ Request - 2021-04-30 09:47:35
+{"product_name":"CHICKEN BREAST","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcb","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3542","attribute":[{"name":"CHICKEN BREAST","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3554"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3542","attribute":["3554"]}}
+ Request - 2021-04-30 09:47:41
+{"product_name":"CHICKEN BREAST","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcb1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3543","attribute":[{"name":"CHICKEN BREAST","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3555"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3543","attribute":["3555"]}}
+ Request - 2021-04-30 09:47:48
+{"product_name":"CHICKEN BACK(UPPER)","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcbu","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3544","attribute":[{"name":"CHICKEN BACK(UPPER)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3556"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3544","attribute":["3556"]}}
+ Request - 2021-04-30 09:47:54
+{"product_name":"CHICKEN BACK(UPPER)","brand_name":"HOLLAND","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abcbu1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3545","attribute":[{"name":"CHICKEN BACK(UPPER)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3557"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3545","attribute":["3557"]}}
+ Request - 2021-04-30 09:48:58
+{"product_name":"TURKEY WINGS","brand_name":"SEARA","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abtw","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3546","attribute":[{"name":"TURKEY WINGS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3558"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3546","attribute":["3558"]}}
+ Request - 2021-04-30 09:49:03
+{"product_name":"TURKEY WINGS","brand_name":"SEARA","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abtw1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3547","attribute":[{"name":"TURKEY WINGS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3559"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3547","attribute":["3559"]}}
+ Request - 2021-04-30 09:49:22
+{"product_name":"GIZZARD","brand_name":"PERDIX","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abgg","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3565","attribute":[{"name":"GIZZARD","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3577"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3565","attribute":["3577"]}}
+ Request - 2021-04-30 09:49:50
+{"product_name":"SAUSAGE","brand_name":"SADIA","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abss","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3566","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3578"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3566","attribute":["3578"]}}
+ Request - 2021-04-30 09:49:55
+{"product_name":"SAUSAGE","brand_name":"NANA","nutrition":"","category_id":"125","promotion_id":"35","item_code":"absn","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3567","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3579"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3567","attribute":["3579"]}}
+ Request - 2021-04-30 09:50:00
+{"product_name":"SAUSAGE","brand_name":"SEARA","nutrition":"","category_id":"125","promotion_id":"35","item_code":"abse","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3568","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3580"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3568","attribute":["3580"]}}
+ Request - 2021-04-30 09:50:06
+{"product_name":"SAUSAGE","brand_name":"DOUX","nutrition":"","category_id":"125","promotion_id":"35","item_code":"absd","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3569","attribute":[{"name":"SAUSAGE","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3581"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3569","attribute":["3581"]}}
+ Request - 2021-04-30 09:53:06
+{"product_name":"COW MEAT (BONED)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"35","item_code":"abcm","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3570","attribute":[{"name":"COW MEAT (BONED)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3582"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3570","attribute":["3582"]}}
+ Request - 2021-04-30 09:53:12
+{"product_name":"COW MEAT (BONED)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"35","item_code":"abcm1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3571","attribute":[{"name":"COW MEAT (BONED)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3583"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3571","attribute":["3583"]}}
+ Request - 2021-04-30 09:53:17
+{"product_name":"COW MEAT (BONELA)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"35","item_code":"abcmb","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3572","attribute":[{"name":"COW MEAT (BONELA)","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3584"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3572","attribute":["3584"]}}
+ Request - 2021-04-30 09:53:22
+{"product_name":"COW MEAT (BONELA)","brand_name":"LOCAL","nutrition":"","category_id":"124","promotion_id":"35","item_code":"abcmb1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3573","attribute":[{"name":"COW MEAT (BONELA)","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3585"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3573","attribute":["3585"]}}
+ Request - 2021-04-30 09:54:00
+{"product_name":"SNAIL","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"35","item_code":"absl1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3578","attribute":[{"name":"SNAIL","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3590"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3578","attribute":["3590"]}}
+ Request - 2021-04-30 09:54:15
+{"product_name":"Lobster","brand_name":"Oceans Mall","nutrition":"","category_id":"129","promotion_id":"35","item_code":"Haus_529","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3831","attribute":[{"name":"Lobster","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","id":"3839"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3831","attribute":["3839"]}}
+ Request - 2021-04-30 09:54:31
+{"product_name":"SHRIMPS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"35","item_code":"abshr1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3580","attribute":[{"name":"SHRIMPS","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3592"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3580","attribute":["3592"]}}
+ Request - 2021-04-30 09:54:49
+{"product_name":"OCTOPUS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"35","item_code":"aboct1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3581","attribute":[{"name":"OCTOPUS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3593"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3581","attribute":["3593"]}}
+ Request - 2021-04-30 09:55:06
+{"product_name":"SQUID","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"35","item_code":"absq1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3582","attribute":[{"name":"SQUID","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3594"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3582","attribute":["3594"]}}
+ Request - 2021-04-30 09:55:24
+{"product_name":"PRAWNS","brand_name":"LOCAL","nutrition":"","category_id":"129","promotion_id":"35","item_code":"abpr1","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","tax_id":"3","id":"3583","attribute":[{"name":"PRAWNS","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"18","id":"3595"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3583","attribute":["3595"]}}

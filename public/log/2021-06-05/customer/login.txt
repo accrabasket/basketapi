@@ -1,0 +1,17 @@
+
+ Request - 2021-06-05 09:54:24
+{"method":"login","email":"brijeshsoni95@gmail.com ","password":"s.k.sons","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-06-05 09:54:24
+{"method":"login","email":"brijeshsoni95@gmail.com ","password":"s.k.sons","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-06-05 10:37:47
+{"method":"login","email":"liazahara895@gmail.com","password":"lia070393","fcm_reg_id":"eJrRgPGXSGI:APA91bGXNz0igcrVKMGZdetBYGjQC2J5RJrcI_bt-SCyMgLIsyKHTFH53x6yQ0oqaBuhQdsjPQxszqdUb6FRBr-S_oATCANHzQX8KZKw0bnef1eO3DW1sZAgs7iTVHpA3m6nrocjITNB"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-06-05 10:40:53
+{"method":"login","email":"liazahara895@gmail.com","password":"alia@azahra0703","fcm_reg_id":"eJrRgPGXSGI:APA91bGXNz0igcrVKMGZdetBYGjQC2J5RJrcI_bt-SCyMgLIsyKHTFH53x6yQ0oqaBuhQdsjPQxszqdUb6FRBr-S_oATCANHzQX8KZKw0bnef1eO3DW1sZAgs7iTVHpA3m6nrocjITNB"}
+ Response :- 
+{"status":"success","data":{"2665":{"id":2665,"name":"lia zahara","mobile_number":"85881217506","email":"liazahara895@gmail.com","key":"6a82a578f45d01a5ce78565d6dab752e","password":"ff293a94e39204801efb8173c4baf0c2","fcm_reg_id":"eJrRgPGXSGI:APA91bGXNz0igcrVKMGZdetBYGjQC2J5RJrcI_bt-SCyMgLIsyKHTFH53x6yQ0oqaBuhQdsjPQxszqdUb6FRBr-S_oATCANHzQX8KZKw0bnef1eO3DW1sZAgs7iTVHpA3m6nrocjITNB","city_id":1,"address":"","verified_email":1,"verified_mobile":0,"created_date":"2021-06-05 10:39:01","updated_date":"2021-06-05 10:39:01","status":"1"}},"totalNumberOfUser":1,"wallet_key":"ff293a94e39204801efb8173c4baf0c2"}

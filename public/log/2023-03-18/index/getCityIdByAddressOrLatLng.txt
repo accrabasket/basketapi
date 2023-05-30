@@ -1,0 +1,9 @@
+
+ Request - 2023-03-18 04:34:49
+{"method":"getCityIdByAddressOrLatLng","address":"Balogun island Oriada Lagos, 102273, Lagos, Nigeria","lat":"6.4605261","lng":"3.4004783"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-18 04:34:56
+{"method":"getCityIdByAddressOrLatLng","address":"Balogun island Oriada Lagos, 102273, Lagos, Nigeria","lat":"6.4605261","lng":"3.4004783"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

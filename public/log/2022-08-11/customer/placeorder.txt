@@ -1,0 +1,5 @@
+
+ Request - 2022-08-11 22:01:28
+{"method":"placeorder","user_id":"185","shipping_address_id":"137","time_slot_id":"4","delivery_date":"2022-08-12","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_851"}}

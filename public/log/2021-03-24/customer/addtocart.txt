@@ -1,0 +1,29 @@
+
+ Request - 2021-03-24 10:32:31
+{"method":"addtocart","guest_user_id":"e23b7f75dc14d2e4","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-24 10:36:31
+{"method":"addtocart","user_id":"1444","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-24 10:36:34
+{"method":"addtocart","user_id":"1444","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-24 10:36:37
+{"method":"addtocart","user_id":"1444","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-24 10:36:40
+{"method":"addtocart","user_id":"1444","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-24 13:00:32
+{"method":"addtocart","user_id":"2180","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-24 13:03:38
+{"method":"addtocart","user_id":"2180","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

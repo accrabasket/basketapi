@@ -1,0 +1,45 @@
+
+ Request - 2021-02-21 01:28:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kaolack, Sénégal","lat":"14.1639201","lng":"-16.0645044"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kaolack, Senegal"}}
+ Request - 2021-02-21 05:41:04
+{"method":"getCityIdByAddressOrLatLng","address":"Ajayi Rd, Ojodu, Lagos, Nigeria","lat":"6.6407286","lng":"3.3432801"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"62 Ajayi Rd, Ojodu, Lagos, Nigeria"}}
+ Request - 2021-02-21 06:32:20
+{"method":"getCityIdByAddressOrLatLng","address":"Shuping Mill Rd, North Carolina, USA","lat":"35.5263351","lng":"-80.4816324"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1980 Shuping Mill Rd, Rockwell, NC 28138, USA"}}
+ Request - 2021-02-21 07:41:48
+{"method":"getCityIdByAddressOrLatLng","address":"200 Jln Sultan, Singapore 199018","lat":"1.3036547","lng":"103.8612408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"200 Jln Sultan, Singapore 199018"}}
+ Request - 2021-02-21 08:57:54
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Prestea, Ghana","lat":"5.4227217","lng":"-2.150703"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Prestea, Ghana"}}
+ Request - 2021-02-21 10:36:03
+{"method":"getCityIdByAddressOrLatLng","address":"30 Strokins Rd, Kingsclere, Newbury RG20 5RQ, UK","lat":"51.3278153","lng":"-1.2428398"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"30 Strokins Rd, Kingsclere, Newbury RG20 5RQ, UK"}}
+ Request - 2021-02-21 10:54:34
+{"method":"getCityIdByAddressOrLatLng","address":"Yakuplu, 122. Sk. No:33, 34524 Beylikdüzü Osb\/Beylikdüzü\/İstanbul, Turkey","lat":"40.9946144","lng":"28.6702385"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Yakuplu, 122. Sk. No:33, 34524 Beylikd\u00fcz\u00fc Osb\/Beylikd\u00fcz\u00fc\/\u0130stanbul, Turkey"}}
+ Request - 2021-02-21 14:42:14
+{"method":"getCityIdByAddressOrLatLng","address":"Akosombo Rd, Accra, Ghana","lat":"5.6162376","lng":"-0.1791692"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Akosombo Rd, Accra, Ghana"}}
+ Request - 2021-02-21 15:14:08
+{"method":"getCityIdByAddressOrLatLng","address":"Golf Course Ext Rd, Sushant Lok III Extension, Sector 57, Gurugram, Haryana 122005, India","lat":"28.4131664","lng":"77.0760531"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Golf Course Ext Rd, Sushant Lok III Extension, Sector 57, Gurugram, Haryana 122005, India"}}
+ Request - 2021-02-21 18:27:14
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Yaounde, Cameroun","lat":"3.8669","lng":"11.5642531"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Yaounde, Cameroon"}}
+ Request - 2021-02-21 19:25:37
+{"method":"getCityIdByAddressOrLatLng","address":"R413, Mozambique","lat":"-25.4536741","lng":"32.7805376"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R413, Mozambique"}}

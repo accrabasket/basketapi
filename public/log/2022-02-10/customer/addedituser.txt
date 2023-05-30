@@ -1,0 +1,5 @@
+
+ Request - 2022-02-10 04:45:13
+{"method":"addedituser","city_id":"1","password":"kissmememe","name":"Joy Ayo ","email":"joyayo300@gmil.com","mobile_number":"8038897169","country_code":"+233","id":"0","fcm_reg_id":"dZCgVRmQxME:APA91bGCeut9JprQdLwzViVR0EB70DM66xNc0e3GxBaafFW7TY5ZlrJtUatxgtZduHyWQbFR4uHACKx0yeevvAkYCIhJybGrwddh8IFLwMh-vo1-mvLksai9CYKZiWUqjTYe0IesozYN"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2338038897169 and registered email id.","data":{"7775":{"id":7775,"name":"Joy Ayo ","mobile_number":"8038897169","email":"joyayo300@gmil.com","key":"cdf52340a4cc3a004e6fa0d77cbc2df0","password":"48f7c950794b546ea17bfb60395f62ff","fcm_reg_id":"dZCgVRmQxME:APA91bGCeut9JprQdLwzViVR0EB70DM66xNc0e3GxBaafFW7TY5ZlrJtUatxgtZduHyWQbFR4uHACKx0yeevvAkYCIhJybGrwddh8IFLwMh-vo1-mvLksai9CYKZiWUqjTYe0IesozYN","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-02-10 04:45:13","updated_date":"2022-02-10 04:45:13","status":"1"}}}

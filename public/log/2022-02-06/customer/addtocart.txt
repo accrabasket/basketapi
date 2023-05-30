@@ -1,0 +1,149 @@
+
+ Request - 2022-02-06 14:14:53
+{"method":"addtocart","guest_user_id":"295753285887ab96","number_of_item":"1","merchant_inventry_id":"3803","action":"add","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:14:56
+{"method":"addtocart","guest_user_id":"295753285887ab96","number_of_item":"1","merchant_inventry_id":"3803","action":"add","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:15:17
+{"method":"addtocart","guest_user_id":"295753285887ab96","number_of_item":"1","merchant_inventry_id":"3803","action":"add","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:15:19
+{"method":"addtocart","guest_user_id":"295753285887ab96","number_of_item":"1","merchant_inventry_id":"3803","action":"delete","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:21:14
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:21:22
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:21:23
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:21:33
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3808","action":"add","item_name":"Onion Local(Onion Local)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 14:21:34
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3808","action":"add","item_name":"Onion Local(Onion Local)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 15:50:01
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1004","action":"add","item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 15:53:46
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 15:55:37
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3023","action":"add","item_name":"Maxi Thick Extra Long Pads(Maxi Thick Extra Long Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:01:57
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"734","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:05:17
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1036","action":"add","item_name":"Chopped Tomatoes(Chopped Tomatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:06:39
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1002","action":"add","item_name":"Onion Pwder(Onion Pwder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:06:41
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1002","action":"add","item_name":"Onion Pwder(Onion Pwder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:07:40
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2581","action":"add","item_name":"Pepper Sauce(Pepper Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:09:00
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"266","action":"add","item_name":"Ground Black Pepper (Powder)(Ground Black Pepper (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:10:23
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1041","action":"add","item_name":"Ground Ginger Jar(Ground Ginger Jar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:14:48
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"229","action":"add","item_name":"Cinnamon Powder(Cinnamon Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:15:33
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"237","action":"add","item_name":"Cumin Powder(Cumin Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:15:44
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"239","action":"add","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:17:58
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:18:34
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1001","action":"add","item_name":"Mixed Spices(Mixed Spices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:18:48
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1001","action":"add","item_name":"Mixed Spices(Mixed Spices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:19:44
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1173","action":"add","item_name":"Extra Hot Chilli Powder(Extra Hot Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:19:48
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1173","action":"add","item_name":"Extra Hot Chilli Powder(Extra Hot Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:20:51
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3800","action":"add","item_name":"Chicken Gizzards(Chicken Gizzards)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:20:52
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"3800","action":"add","item_name":"Chicken Gizzards(Chicken Gizzards)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:21:21
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2846","action":"add","item_name":"Chicken Sausage(Chicken Sausage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:21:23
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2846","action":"add","item_name":"Chicken Sausage(Chicken Sausage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:21:56
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1723","action":"add","item_name":"Instant Plantain Fufu Flour(Instant Plantain Fufu Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:22:49
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"1036","action":"add","item_name":"Chopped Tomatoes(Chopped Tomatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:23:17
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2581","action":"delete","item_name":"Pepper Sauce(Pepper Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:24:13
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:24:19
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-06 16:24:20
+{"method":"addtocart","user_id":"7698","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

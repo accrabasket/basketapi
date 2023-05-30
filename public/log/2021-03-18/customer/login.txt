@@ -1,0 +1,13 @@
+
+ Request - 2021-03-18 19:53:29
+{"method":"login","email":"lucky04241985@gmail.com","password":"9071077277","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"success","data":{"1829":{"id":1829,"name":"Venky P","mobile_number":"248572471","email":"lucky04241985@gmail.com","key":"58f215317a84eb4070240ae6eaf32530","password":"8f48143489731229ef3a46a31803ae32","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-01-30 16:51:56","updated_date":"2021-01-30 16:51:56","status":"1"}},"totalNumberOfUser":1,"wallet_key":"8f48143489731229ef3a46a31803ae32"}
+ Request - 2021-03-18 19:56:31
+{"method":"login","email":"reddy.palala@gmail.com","password":"9071077277","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-18 19:56:59
+{"method":"login","email":"lucky04241985@gmail.com","password":"9071077277","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"success","data":{"1829":{"id":1829,"name":"Venky P","mobile_number":"204605570","email":"lucky04241985@gmail.com","key":"58f215317a84eb4070240ae6eaf32530","password":"8f48143489731229ef3a46a31803ae32","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-01-30 16:51:56","updated_date":"2021-01-30 16:51:56","status":"1"}},"totalNumberOfUser":1,"wallet_key":"8f48143489731229ef3a46a31803ae32"}

@@ -1,0 +1,13 @@
+
+ Request - 2022-06-13 12:54:27
+{"method":"getCityIdByAddressOrLatLng","address":"XGPV+V83، الاربعين،، قسم الأربعين، السويس 8165162، مصر","lat":"29.9871141","lng":"32.5434173"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XGPV+V83\u060c \u0627\u0644\u0627\u0631\u0628\u0639\u064a\u0646\u060c\u060c Arbaeen, Suez Governorate 8165162, Egypt"}}
+ Request - 2022-06-13 13:49:04
+{"method":"getCityIdByAddressOrLatLng","address":"7X5V+2JH, Gisekuro, Burundi","lat":"-2.7431519","lng":"29.9937447"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7X5V+2JH, Gisekuro, Burundi"}}
+ Request - 2022-06-13 20:11:49
+{"method":"getCityIdByAddressOrLatLng","address":"23PP+84, Beila, موريتانيا","lat":"18.0359931","lng":"-15.9149745"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"23PP+84, Beila, Mauritania"}}

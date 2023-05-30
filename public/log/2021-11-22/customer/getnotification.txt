@@ -1,0 +1,41 @@
+
+ Request - 2021-11-22 01:43:46
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6983,"subject":"Order cancelled","msg":"Order order_m4_790 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-11-20 10:35:42","updated_date":null}],"totalRecord":1}
+ Request - 2021-11-22 01:43:46
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6983,"subject":"Order cancelled","msg":"Order order_m4_790 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-11-20 10:35:42","updated_date":null}],"totalRecord":1}
+ Request - 2021-11-22 06:34:02
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6983,"subject":"Order cancelled","msg":"Order order_m4_790 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-11-20 10:35:42","updated_date":null}],"totalRecord":1}
+ Request - 2021-11-22 06:34:16
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-22 06:35:17
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-22 06:35:57
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-22 06:36:57
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-22 06:37:58
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-22 06:38:46
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-11-22 13:31:30
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

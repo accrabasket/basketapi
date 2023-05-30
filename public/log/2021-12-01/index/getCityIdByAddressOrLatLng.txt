@@ -1,0 +1,17 @@
+
+ Request - 2021-12-01 07:20:06
+{"method":"getCityIdByAddressOrLatLng","address":"WQ77+R32, Kisumu, Kenya","lat":"-0.0852249","lng":"34.762858"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WQ77+R32, Kisumu, Kenya"}}
+ Request - 2021-12-01 08:57:16
+{"method":"getCityIdByAddressOrLatLng","address":"छात्रोत, गुजरात 382750, भारत","lat":"23.465919999999997","lng":"71.86362833333332"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FV87+9F Chhatrot, Gujarat, India"}}
+ Request - 2021-12-01 21:44:53
+{"method":"getCityIdByAddressOrLatLng","address":"R5F6+9RG, Sahid Kharachia, Gujarat 360480, India","lat":"21.8233387","lng":"70.1617669"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R5F6+9RG, Sahid Kharachia, Gujarat 360480, India"}}
+ Request - 2021-12-01 22:29:04
+{"method":"getCityIdByAddressOrLatLng","address":"Orita Rd, 350107, Odigbo, Nigeria","lat":"6.7880886","lng":"4.873944"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QVQF+6H Odigbo, Nigeria"}}

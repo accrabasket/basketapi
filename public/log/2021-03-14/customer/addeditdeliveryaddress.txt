@@ -1,0 +1,9 @@
+
+ Request - 2021-03-14 05:36:39
+{"contact_name":"Rahul","house_number":"45","area":"rrtreter","landmark":"erterter","lat":"4.8965843","lng":"-1.7575553","city_id":1,"city_name":"GPHA Quaters, Takoradi, Ghana","method":"addeditdeliveryaddress","user_id":1}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":1}}
+ Request - 2021-03-14 08:12:55
+{"method":"addeditdeliveryaddress","house_number":"Catholic university college of Ghana, fiapre sunyani","area":"","street_detail":"Catholic university college of Ghana, fiapre sunyani","contact_name":"Aminat","city_name":"Sunyani West District, Ghana","city_id":"1","lat":"7.3512661","long":"-2.383509","user_id":"2130","address_nickname":"Catholic university college of Ghana, fiapre sunyani","landmark":"prince of peace hostel","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":423}}

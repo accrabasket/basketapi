@@ -1,0 +1,17 @@
+
+ Request - 2021-01-02 11:14:34
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"123456782"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233123456782","otp_type":"register","user_id":"0","otp":7663,"expiry_date":"2021-01-02 11:29:34"}}
+ Request - 2021-01-02 11:25:25
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"123456782"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233123456782","otp_type":"register","user_id":"0","otp":9961,"expiry_date":"2021-01-02 11:40:25"}}
+ Request - 2021-01-02 11:25:42
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"123456782"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233123456782","otp_type":"register","user_id":"0","otp":4932,"expiry_date":"2021-01-02 11:40:42"}}
+ Request - 2021-01-02 11:28:37
+{"method":"generateotp","user_id":"0","otp_type":"register"}
+ Response :- 
+{"status":"fail","msg":"Mobile number not supplied"}

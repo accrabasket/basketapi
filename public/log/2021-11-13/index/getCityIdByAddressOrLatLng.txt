@@ -1,0 +1,9 @@
+
+ Request - 2021-11-13 07:21:43
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, सिस्गओं, मध्य प्रदेश 475115, भारत","lat":"26.0229979","lng":"78.5297031"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2GFH+5V Sisgaon, Madhya Pradesh, India"}}
+ Request - 2021-11-13 09:57:37
+{"method":"getCityIdByAddressOrLatLng","address":"Harachandi Rd, Narasinghpatana, Odisha 752011, India","lat":"19.7638407","lng":"85.6898725"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QM7Q+GW Sipasurubili, Odisha, India"}}

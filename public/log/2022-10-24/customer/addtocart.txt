@@ -1,0 +1,13 @@
+
+ Request - 2022-10-24 11:47:10
+{"method":"addtocart","guest_user_id":"0660bfca33ab8a8b","number_of_item":"1","merchant_inventry_id":"742","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-24 11:47:29
+{"method":"addtocart","guest_user_id":"0660bfca33ab8a8b","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-24 11:47:30
+{"method":"addtocart","guest_user_id":"0660bfca33ab8a8b","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

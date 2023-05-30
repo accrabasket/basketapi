@@ -1,0 +1,13 @@
+
+ Request - 2021-04-12 08:55:39
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2254}}
+ Request - 2021-04-12 10:09:40
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2254}}
+ Request - 2021-04-12 17:04:32
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2258}}

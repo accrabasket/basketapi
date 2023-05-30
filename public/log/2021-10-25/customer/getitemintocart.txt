@@ -1,0 +1,101 @@
+
+ Request - 2021-10-25 06:31:43
+{"method":"getitemintocart","guest_user_id":"9114a4918c4c170d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 08:25:54
+{"method":"getitemintocart","guest_user_id":"0954b43724f02962"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 08:30:33
+{"method":"getitemintocart","guest_user_id":"0954b43724f02962"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 08:30:34
+{"method":"getitemintocart","guest_user_id":"0954b43724f02962"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 08:31:23
+{"method":"getitemintocart","guest_user_id":"0954b43724f02962"}
+ Response :- 
+{"status":"success","data":{"460":{"id":17686,"user_id":0,"guest_user_id":"0954b43724f02962","merchant_inventry_id":460,"item_name":"Original Irish Cream(Original Irish Cream)","number_of_item":1,"created_date":"2021-10-25 08:31:21"}},"productDetails":{"status":"success","data":{"460":{"id":460,"price":"84.99","product_id":744,"merchant_id":4,"store_id":4,"merchant_product_code":"N048   ","product_name":"Original Irish Cream","product_desc":"We only use the finest ingredients in our Original Irish Cream Liqueur. we source our Irish Whiskey from a number of quality distilleries including the famous old bushmills distillery, county antrim. the whiskey complements the full, richness of the fresh Irish dairy cream, cocoa and heavenly vanilla that all go into our secret recipe. Together they create a multi-award winning taste sensation for you to enjoy. We believe in staying true to our roots, so every bottle of baileys is produced and bottled exclusively in Ireland.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Storage\":\"Baileys is the only cream liqueur that guarantees its taste for 2 years from the day it was made, opened or unopened, stored in the fridge or not, when stored away from direct sunlight at a temperature range of 0-25 degrees C.\"}","brand_name":"Baileys","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"cl","quantity":75,"tax_value":"3"}},"productImageData":{"744":[{"id":2659,"type":"product","image_id":744,"image_name":"N048.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 08:31:33
+{"method":"getitemintocart","guest_user_id":"0954b43724f02962"}
+ Response :- 
+{"status":"success","data":{"460":{"id":17686,"user_id":0,"guest_user_id":"0954b43724f02962","merchant_inventry_id":460,"item_name":"Original Irish Cream(Original Irish Cream)","number_of_item":1,"created_date":"2021-10-25 08:31:21"}},"productDetails":{"status":"success","data":{"460":{"id":460,"price":"84.99","product_id":744,"merchant_id":4,"store_id":4,"merchant_product_code":"N048   ","product_name":"Original Irish Cream","product_desc":"We only use the finest ingredients in our Original Irish Cream Liqueur. we source our Irish Whiskey from a number of quality distilleries including the famous old bushmills distillery, county antrim. the whiskey complements the full, richness of the fresh Irish dairy cream, cocoa and heavenly vanilla that all go into our secret recipe. Together they create a multi-award winning taste sensation for you to enjoy. We believe in staying true to our roots, so every bottle of baileys is produced and bottled exclusively in Ireland.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Storage\":\"Baileys is the only cream liqueur that guarantees its taste for 2 years from the day it was made, opened or unopened, stored in the fridge or not, when stored away from direct sunlight at a temperature range of 0-25 degrees C.\"}","brand_name":"Baileys","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"cl","quantity":75,"tax_value":"3"}},"productImageData":{"744":[{"id":2659,"type":"product","image_id":744,"image_name":"N048.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 11:09:05
+{"method":"getitemintocart","guest_user_id":"430a9fc766eddb93"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 12:11:57
+{"method":"getitemintocart","guest_user_id":"5e087d0bfb2c0d72"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 13:52:31
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 13:53:12
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17712,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-10-25 13:53:12"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 13:53:15
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 13:53:17
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17713,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-10-25 13:53:16"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 13:53:18
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17713,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":2,"created_date":"2021-10-25 13:53:16"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 13:53:20
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17713,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":3,"created_date":"2021-10-25 13:53:16"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 13:53:21
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17713,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":2,"created_date":"2021-10-25 13:53:16"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 13:53:22
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17713,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-10-25 13:53:16"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 13:53:23
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 13:53:30
+{"method":"getitemintocart","guest_user_id":"77f9ca8334ce4009"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17714,"user_id":0,"guest_user_id":"77f9ca8334ce4009","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-10-25 13:53:30"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-25 16:40:30
+{"method":"getitemintocart","guest_user_id":"430a9fc766eddb93"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 16:40:31
+{"method":"getitemintocart","guest_user_id":"430a9fc766eddb93"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 18:16:40
+{"method":"getitemintocart","guest_user_id":"56b64c3017637099"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 18:56:43
+{"method":"getitemintocart","guest_user_id":"56b64c3017637099"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 19:10:33
+{"method":"getitemintocart","guest_user_id":"3401a46f5c0b47f3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 19:11:28
+{"method":"getitemintocart","guest_user_id":"3401a46f5c0b47f3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-25 22:13:44
+{"method":"getitemintocart","guest_user_id":"520dd19831bbb6c0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,5 @@
+
+ Request - 2022-10-28 04:52:05
+{"method":"addedituser","city_id":"1","password":"asad&1234","name":"saif","email":"saifsolution2005@gmail.com","mobile_number":"9758820216","country_code":"+233","id":"0","fcm_reg_id":"dVGDSmmiTz0:APA91bFYZiqmoRIhyKFLcCobi-V2sXaLL37DU1xP69GTZsr_GpP30vKHzVoO0tkcEhEE6YRaMkYok4GAeS2I1ytjJGrUv6wsrFHnfYeQuDUXJkJi8iS14yURz5axaHp3BWNZUrVEo8kZ"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2339758820216 and registered email id.","data":{"8857":{"id":8857,"name":"saif","mobile_number":"9758820216","email":"saifsolution2005@gmail.com","key":"01b757740e8909aac2a5d302268a6cb1","password":"cbbd5b4eb4cee51b7b094416c1fee867","fcm_reg_id":"dVGDSmmiTz0:APA91bFYZiqmoRIhyKFLcCobi-V2sXaLL37DU1xP69GTZsr_GpP30vKHzVoO0tkcEhEE6YRaMkYok4GAeS2I1ytjJGrUv6wsrFHnfYeQuDUXJkJi8iS14yURz5axaHp3BWNZUrVEo8kZ","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-10-28 04:52:05","updated_date":"2022-10-28 04:52:05","status":"1"}}}

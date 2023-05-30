@@ -1,0 +1,17 @@
+
+ Request - 2022-03-25 12:07:51
+{"method":"addtocart","guest_user_id":"1670ac5408301b3d","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-25 14:00:47
+{"method":"addtocart","guest_user_id":"ff5e0afbbcb3d5cc","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-25 14:00:55
+{"method":"addtocart","guest_user_id":"ff5e0afbbcb3d5cc","number_of_item":"1","merchant_inventry_id":"3775","action":"add","item_name":"GHC 300 Gift Hamper(GHC 300 Gift Hamper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-25 14:01:08
+{"method":"addtocart","guest_user_id":"ff5e0afbbcb3d5cc","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

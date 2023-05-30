@@ -1,0 +1,22 @@
+
+ Request - 2021-02-16 07:56:25
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-02-16 17:08:12
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-02-16 17:09:20
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}

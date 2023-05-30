@@ -1,0 +1,5 @@
+
+ Request - 2021-09-17 07:30:18
+{"product_id":"746","attribute_id":["856"],"store_id":["4"],"price":["103"],"stock":["10"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

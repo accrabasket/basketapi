@@ -1,0 +1,5 @@
+
+ Request - 2021-10-04 17:21:06
+{"method":"login","email":"kikucharityaj@gmail.com","password":"kofi2018","fcm_reg_id":"eP1Hg8RpMic:APA91bHpKwNmqpuhVnhkqmtcLIYPpb-Z5AtXdWftXzrLepUk0zGJ_KiZD5CyOVUy4eYmc3Bei4SnHn8bWctJI8SI3tAC-d0wJMhXHpgy5pX4vTDXdrM8beRR-87Q3Reof6jxW0m-As7u"}
+ Response :- 
+{"status":"success","data":{"3091":{"id":3091,"name":"AJ Tetteh","mobile_number":"548230325","email":"kikucharityaj@gmail.com","key":"7b38f5dae0e2c5377ef8306a2eecbe65","password":"4b2008ffdc230e3ee745fd49dd8b252d","fcm_reg_id":"","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2021-07-08 10:03:31","updated_date":"2021-07-08 10:03:31","status":"1"}},"totalNumberOfUser":1,"wallet_key":"4b2008ffdc230e3ee745fd49dd8b252d"}

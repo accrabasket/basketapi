@@ -1,0 +1,17 @@
+
+ Request - 2021-09-06 08:35:11
+{"method":"getCityIdByAddressOrLatLng","address":"CXRH+9F7, Abidjan, Côte d'Ivoire","lat":"5.4403519","lng":"-4.0218166"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CXRH+9F7, Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-09-06 12:01:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Multhaniya, Gujarat 384220, India","lat":"23.674017","lng":"72.2585321"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Multhaniya, Gujarat 384220, India"}}
+ Request - 2021-09-06 16:53:05
+{"method":"getCityIdByAddressOrLatLng","address":"Shop no. 19, The Landmark Bldg. Nr. Euro School, Undri,, Bellagio, Undri, Pune, Maharashtra 411060, India","lat":"18.4547259","lng":"73.913897"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shop no. 19, The Landmark Bldg. Nr. Euro School, Undri,, Bellagio, Undri, Pune, Maharashtra 411060, India"}}
+ Request - 2021-09-06 17:37:54
+{"method":"getCityIdByAddressOrLatLng","address":"66CX+H4Q, Dobbaspet, Karnataka 562111, India","lat":"13.2216568","lng":"77.24752"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"66CX+H4Q, Dobbaspet, Karnataka 562111, India"}}

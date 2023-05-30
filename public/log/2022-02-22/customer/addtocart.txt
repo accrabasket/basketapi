@@ -1,0 +1,17 @@
+
+ Request - 2022-02-22 08:16:50
+{"method":"addtocart","guest_user_id":"7e777bed8fee7585","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-22 08:16:55
+{"method":"addtocart","guest_user_id":"7e777bed8fee7585","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-22 08:17:14
+{"method":"addtocart","guest_user_id":"7e777bed8fee7585","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-22 09:39:03
+{"method":"addtocart","guest_user_id":"eff2c33f15fa3ac2","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-12-03 22:03:10
+{"method":"addtocart","guest_user_id":"2cf7cc8b8e98a8f1","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-03 22:03:22
+{"method":"addtocart","guest_user_id":"2cf7cc8b8e98a8f1","number_of_item":"1","merchant_inventry_id":"3101","action":"add","item_name":"500 GHC(500 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2022-05-22 07:07:23
+{"method":"getCityIdByAddressOrLatLng","address":"Q5X3+JPQ, Road, 922107, Zungeru, Nigeria","lat":"9.7967492","lng":"6.1545212"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q5W3+MR Zungeru, Nigeria"}}
+ Request - 2022-05-22 07:59:03
+{"method":"getCityIdByAddressOrLatLng","address":"XHJF+8C, Brohani, Ghana","lat":"7.978931666666667","lng":"-2.4254666666666664"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XHJF+8C, Brohani, Ghana"}}
+ Request - 2022-05-22 10:36:57
+{"method":"getCityIdByAddressOrLatLng","address":"7H25+X68, Aurai, Uttar Pradesh 221301, India","lat":"25.2523069","lng":"82.557301"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7H25+X68, Aurai, Uttar Pradesh 221301, India"}}
+ Request - 2022-05-22 22:02:50
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 201103, Ibadan, Nigeria","lat":"7.3406465","lng":"3.9946203"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8XRV+7R Ibadan, Nigeria"}}

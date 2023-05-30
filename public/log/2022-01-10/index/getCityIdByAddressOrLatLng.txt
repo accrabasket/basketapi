@@ -1,0 +1,9 @@
+
+ Request - 2022-01-10 20:01:53
+{"method":"getCityIdByAddressOrLatLng","address":"6159 Uthman Ibn Affan, Al Nuzha, Dammam 32251 2053, Saudi Arabia","lat":"26.3827274","lng":"50.1045788"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6159 Uthman Ibn Affan, Al Nuzha, Dammam 32251\u00a02053, Saudi Arabia"}}
+ Request - 2022-01-10 20:01:59
+{"method":"getCityIdByAddressOrLatLng","address":"6159 Uthman Ibn Affan, Al Nuzha, Dammam 32251 2053, Saudi Arabia","lat":"26.3827274","lng":"50.1045788"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6159 Uthman Ibn Affan, Al Nuzha, Dammam 32251\u00a02053, Saudi Arabia"}}

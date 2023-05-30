@@ -1,0 +1,13 @@
+
+ Request - 2022-10-29 01:38:36
+{"method":"getCityIdByAddressOrLatLng","address":"Prince Avenue, Hamid Colony, Karachi, Karachi City, Sindh 74550, Pakistan","lat":"24.886927","lng":"67.0276846"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Prince Avenue, Hamid Colony, Karachi, Karachi City, Sindh 74550, Pakistan"}}
+ Request - 2022-10-29 05:50:56
+{"method":"getCityIdByAddressOrLatLng","address":"67P9+2GP, Pakhnaha Shiuram, Bihar 843102, India","lat":"26.2338442","lng":"85.2685284"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"67P9+2GP, Pakhnaha Shiuram, Bihar 843102, India"}}
+ Request - 2022-10-29 12:27:12
+{"method":"getCityIdByAddressOrLatLng","address":"J84W+CP8, Bhagat Pura Bhagatpura, Lahore, Punjab, Pakistan","lat":"31.6060891","lng":"74.3466228"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J84W+CP8, Bhagat Pura Bhagatpura, Lahore, Punjab, Pakistan"}}

@@ -1,0 +1,113 @@
+
+ Request - 2021-01-10 10:23:13
+{"method":"addtocart","user_id":"1082","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 10:23:17
+{"method":"addtocart","user_id":"1082","number_of_item":"1","merchant_inventry_id":"233","action":"delete","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 10:23:20
+{"method":"addtocart","user_id":"1082","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:30:18
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2188","action":"add","item_name":"Sugar Bread - Medium(Sugar Bread - Medium)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:30:48
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"3147","action":"add","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:31:53
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:32:13
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2749","action":"add","item_name":"Local Banana(Local Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:32:38
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2808","action":"add","item_name":"Pineapple(Pineapple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:32:42
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2757","action":"add","item_name":"Papaya\/Papaw(Papaya\/Papaw)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:32:50
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2755","action":"add","item_name":"Oranges(Oranges)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:33:06
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2740","action":"add","item_name":"Green Apple - Big(Green Apple - Big)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:33:09
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2741","action":"add","item_name":"Green Apple - Small(Green Apple - Small)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:33:33
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2731","action":"add","item_name":"Carrot(Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:33:46
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2783","action":"add","item_name":"Coconut(Coconut)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:33:52
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2737","action":"add","item_name":"Garden Egg(Garden Egg)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:33:56
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2792","action":"add","item_name":"Green Beans(Green Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:34:04
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2747","action":"add","item_name":"Kale(Kale)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:34:17
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2803","action":"add","item_name":"Okra(Okra)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:34:33
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2769","action":"add","item_name":"Tomatoes(Tomatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:34:34
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2769","action":"add","item_name":"Tomatoes(Tomatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:34:47
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2768","action":"add","item_name":"Sweet Potatoes(Sweet Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:34:50
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2765","action":"add","item_name":"Spring Onion(Spring Onion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:35:00
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2763","action":"add","item_name":"Rounded Spring Onion(Rounded Spring Onion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:35:06
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2764","action":"add","item_name":"Small Green Pepper(Small Green Pepper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:35:19
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2762","action":"add","item_name":"Red Chilli(Red Chilli)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:35:27
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"2760","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:35:57
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-10 18:40:22
+{"method":"addtocart","guest_user_id":"a31765a43bbbec79","number_of_item":"1","merchant_inventry_id":"1005","action":"add","item_name":"Red Palm Oil(Red Palm Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

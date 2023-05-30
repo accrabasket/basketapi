@@ -1,0 +1,17 @@
+
+ Request - 2021-01-11 08:05:10
+{"method":"getCityIdByAddressOrLatLng","address":"PS Mandir Marg, Mandir Marg, Gole Market, New Delhi, Delhi 110001, India","lat":"28.6382611","lng":"77.2026112"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PS Mandir Marg, Mandir Marg, Gole Market, New Delhi, Delhi 110001, India"}}
+ Request - 2021-01-11 10:11:52
+{"method":"getCityIdByAddressOrLatLng","address":"Berekum Sampa Rd, Amanfoaso, Ghana","lat":"7.9166187","lng":"-2.7162527"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Berekum Sampa Rd, Amanfoaso, Ghana"}}
+ Request - 2021-01-11 12:05:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.7042678","lng":"-0.1274785"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2021-01-11 18:09:47
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Asosa, Ethiopia","lat":"10.0646732","lng":"34.5428572"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Asosa, Ethiopia"}}

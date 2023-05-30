@@ -1,0 +1,9 @@
+
+ Request - 2021-06-14 17:09:37
+{"method":"getaddresslist","user_id":"2733"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-06-14 17:15:42
+{"method":"getaddresslist","user_id":"2733"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}

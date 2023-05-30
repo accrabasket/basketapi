@@ -1,0 +1,5 @@
+
+ Request - 2021-05-12 04:59:13
+{"method":"getaddresslist","user_id":"2130"}
+ Response :- 
+{"status":"success","data":{"423":{"id":423,"user_id":2130,"address_nickname":"Catholic university college of Ghana, fiapre sunyani","contact_name":"Aminat","city_id":1,"city_name":"Sunyani West District, Ghana","house_number":"Catholic university college of Ghana, fiapre sunyani","street_detail":"Catholic university college of Ghana, fiapre sunyani","landmark":"prince of peace hostel","zipcode":"","area":"","lat":"7.3512661","lng":"","created_date":"2021-03-14 08:12:55","updated_date":"2021-03-14 08:12:55"}}}

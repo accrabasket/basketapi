@@ -1,0 +1,5 @@
+
+ Request - 2021-07-18 17:47:10
+{"method":"addedituser","city_id":"1","password":"school00","name":"Okine Isaac","email":"okineisaac86@gmail.com","mobile_number":"0242868490","country_code":"+233","id":"0","fcm_reg_id":"dxdC8DxSNWo:APA91bE7zKheASGIeBFHLVmaU_k6ebk1BnqW3qq4C7aAqGb_EZ_Td3_3iLQZCOG0aM-HuHzbvf-ox9YsiqMjZ2TXhnft_ALBlcsB1bX1bzo5PajFOsDPZrkc7H4FWlVBLG7UecrHTqA7"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233242868490 and registered email id.","data":{"3223":{"id":3223,"name":"Okine Isaac","mobile_number":"242868490","email":"okineisaac86@gmail.com","key":"3eb2e9788e2e14ecb2ee97ee693072b4","password":"3ae3735904bcad5cd05d5fd78a3dedb9","fcm_reg_id":"dxdC8DxSNWo:APA91bE7zKheASGIeBFHLVmaU_k6ebk1BnqW3qq4C7aAqGb_EZ_Td3_3iLQZCOG0aM-HuHzbvf-ox9YsiqMjZ2TXhnft_ALBlcsB1bX1bzo5PajFOsDPZrkc7H4FWlVBLG7UecrHTqA7","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-07-18 17:47:10","updated_date":"2021-07-18 17:47:10","status":"1"}}}

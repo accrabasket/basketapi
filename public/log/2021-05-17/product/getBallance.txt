@@ -1,0 +1,29 @@
+
+ Request - 2021-05-17 09:45:34
+{"method":"getBallance","user_id":800,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"1.00"}}
+ Request - 2021-05-17 17:08:00
+{"method":"getBallance","user_id":1829,"wallet_key":"8f48143489731229ef3a46a31803ae32"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-05-17 17:09:28
+{"method":"getBallance","user_id":1829,"wallet_key":"8f48143489731229ef3a46a31803ae32"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-05-17 17:14:47
+{"method":"getBallance","user_id":1829,"wallet_key":"8f48143489731229ef3a46a31803ae32"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}

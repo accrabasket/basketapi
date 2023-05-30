@@ -1,0 +1,21 @@
+
+ Request - 2022-10-06 00:22:13
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2876","action":"delete","item_name":"Richoco - Energy Food Drink(Richoco - Energy Food Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-06 00:22:13
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2876","action":"delete","item_name":"Richoco - Energy Food Drink(Richoco - Energy Food Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-06 15:53:15
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2187","action":"add","item_name":"Ricemix Cereal(Ricemix Cereal)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-06 15:53:38
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1724","action":"add","item_name":"Tom Brown(Tom Brown)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-06 15:59:42
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2182","action":"add","item_name":"Cerealplus-5-in-1 Cereal(Cerealplus-5-in-1 Cereal)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

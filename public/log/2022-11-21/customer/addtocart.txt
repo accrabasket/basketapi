@@ -1,0 +1,77 @@
+
+ Request - 2022-11-21 22:50:21
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:50:25
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:50:27
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"232","action":"delete","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:50:40
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:50:43
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:51:31
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:13
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:20
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:23
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"215","action":"delete","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:26
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"215","action":"delete","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:43
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:51
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:52:54
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:53:06
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"2521","action":"delete","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:53:19
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:53:29
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"214","action":"delete","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:53:57
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"2519","action":"add","item_name":"Luxury Pamper (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:54:10
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"2521","action":"delete","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-21 22:54:29
+{"method":"addtocart","guest_user_id":"6b07c122040b49ba","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

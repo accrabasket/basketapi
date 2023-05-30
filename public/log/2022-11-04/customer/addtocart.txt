@@ -1,0 +1,21 @@
+
+ Request - 2022-11-04 05:14:19
+{"method":"addtocart","guest_user_id":"6892da2ec1c748fc","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-04 05:15:55
+{"method":"addtocart","guest_user_id":"6892da2ec1c748fc","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-04 10:54:23
+{"method":"addtocart","guest_user_id":"2c5b24a375b3f73d","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-04 10:54:36
+{"method":"addtocart","guest_user_id":"2c5b24a375b3f73d","number_of_item":"1","merchant_inventry_id":"2846","action":"add","item_name":"Chicken Sausage(Chicken Sausage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-04 10:55:07
+{"method":"addtocart","guest_user_id":"2c5b24a375b3f73d","number_of_item":"1","merchant_inventry_id":"3799","action":"add","item_name":"Chicken Drumsticks(Chicken Drumsticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

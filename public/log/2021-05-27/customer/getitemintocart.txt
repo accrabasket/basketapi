@@ -1,0 +1,25 @@
+
+ Request - 2021-05-27 01:01:03
+{"method":"getitemintocart","guest_user_id":"87009ac339c4ffd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-27 09:06:46
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-27 12:00:01
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"success","data":{"3396":{"id":15179,"user_id":800,"guest_user_id":"","merchant_inventry_id":3396,"item_name":"THAI JASMINE RICE - 5KG","number_of_item":1,"created_date":"2021-05-27 11:47:03"}},"productDetails":{"status":"success","data":{"3396":{"id":3396,"price":"63.00","product_id":3847,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"THAI JASMINE RICE - 5KG","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":82,"custom_info":"","brand_name":"Lele","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"20","unit":"kg","quantity":5,"tax_value":"3"}},"productImageData":{"3847":[{"id":4898,"type":"product","image_id":3847,"image_name":"5kg.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-05-27 13:44:33
+{"method":"getitemintocart","guest_user_id":"481a866e19e853b6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-27 15:03:59
+{"method":"getitemintocart","guest_user_id":"217fbc6b39777b2f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-27 15:41:06
+{"method":"getitemintocart","guest_user_id":"447f2a9d8cca6763"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

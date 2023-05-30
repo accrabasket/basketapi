@@ -1,0 +1,17 @@
+
+ Request - 2022-09-07 05:20:06
+{"method":"addtocart","guest_user_id":"38cb3fcafd6de870","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-07 05:20:12
+{"method":"addtocart","guest_user_id":"38cb3fcafd6de870","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-07 05:20:14
+{"method":"addtocart","guest_user_id":"38cb3fcafd6de870","number_of_item":"1","merchant_inventry_id":"213","action":"delete","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-07 05:20:36
+{"method":"addtocart","guest_user_id":"38cb3fcafd6de870","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

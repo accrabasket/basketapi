@@ -1,0 +1,29 @@
+
+ Request - 2021-07-02 02:52:19
+{"method":"getCityIdByAddressOrLatLng","address":"Major District Road 807, Perungolathur, Tamil Nadu 606708, India","lat":"12.0451863","lng":"78.9194537"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Major District Road 807, Perungolathur, Tamil Nadu 606708, India"}}
+ Request - 2021-07-02 06:13:46
+{"method":"getCityIdByAddressOrLatLng","address":"Kechene, አዲስ አበባ, Ethiopia","lat":"9.0497564","lng":"38.7615227"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kechene, \u12a0\u12f2\u1235 \u12a0\u1260\u1263, Ethiopia"}}
+ Request - 2021-07-02 08:20:05
+{"method":"getCityIdByAddressOrLatLng","address":"Plot B 12, Block 13D-2 Block 13 D 2 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9112207","lng":"67.0775561"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot B 12, Block 13D-2 Block 13 D 2 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2021-07-02 12:11:15
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, N'Djamena, Tchad","lat":"12.0728386","lng":"15.1001323"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, N'Djamena, Chad"}}
+ Request - 2021-07-02 14:51:24
+{"method":"getCityIdByAddressOrLatLng","address":"N12, Enchi, Ghana","lat":"5.8120075","lng":"-2.8323133"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N12, Enchi, Ghana"}}
+ Request - 2021-07-02 15:05:34
+{"method":"getCityIdByAddressOrLatLng","address":"5 Makera Main Rd, Kakuri, Kaduna, Nigeria","lat":"10.4583125","lng":"7.4156605"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Makera Main Rd, Kakuri, Kaduna, Nigeria"}}
+ Request - 2021-07-02 17:38:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Blantyre, Malawi","lat":"-15.8360401","lng":"35.0930059"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Blantyre, Malawi"}}

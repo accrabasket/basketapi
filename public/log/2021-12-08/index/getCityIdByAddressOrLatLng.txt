@@ -1,0 +1,17 @@
+
+ Request - 2021-12-08 08:10:57
+{"method":"getCityIdByAddressOrLatLng","address":"100 Hartsfield Center Pkwy Suite 100, Atlanta, GA 30354, USA","lat":"33.6552323","lng":"-84.4288369"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Precision Analytics 360, 100 Hartsfield Center Pkwy, Atlanta, GA 30354, USA"}}
+ Request - 2021-12-08 10:14:11
+{"method":"getCityIdByAddressOrLatLng","address":"3QJJ+QWW, Douala, Cameroun","lat":"4.0819185","lng":"9.7826829"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3QJJ+QWW, Douala, Cameroon"}}
+ Request - 2021-12-08 12:08:10
+{"method":"getCityIdByAddressOrLatLng","address":"H82Q+F6V, Lusaka, Zambia","lat":"-15.4489658","lng":"28.337551"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H82Q+F6V, Lusaka, Zambia"}}
+ Request - 2021-12-08 12:08:14
+{"method":"getCityIdByAddressOrLatLng","address":"H82Q+F6V, Lusaka, Zambia","lat":"-15.4489658","lng":"28.337551"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H82Q+F6V, Lusaka, Zambia"}}

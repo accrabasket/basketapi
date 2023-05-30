@@ -1,0 +1,41 @@
+
+ Request - 2022-10-28 04:49:14
+{"method":"getitemintocart","guest_user_id":"0d9c1bd59b6f5360"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 04:51:14
+{"method":"getitemintocart","guest_user_id":"0d9c1bd59b6f5360"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 16:14:48
+{"method":"getitemintocart","guest_user_id":"f257ae1153868f72"}
+ Response :- 
+{"status":"success","data":{"292":{"id":22812,"user_id":0,"guest_user_id":"f257ae1153868f72","merchant_inventry_id":292,"item_name":"Mixed Vegetables with Tomato Sauce(Mixed Vegetables with Tomato Sauce)","number_of_item":1,"created_date":"2022-10-27 21:42:01"}},"productDetails":{"status":"success","data":{"292":{"id":292,"price":"4.20","product_id":437,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066444","product_name":"Mixed Vegetables with Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Mixed Vegetable (60%) in Variable Quantity (White Beans, Processed Peas, Vegetable Mixed: Potatoes, Carrots, Turnip, Cauliflower, Celery, Egg Plants, Onions), Water, tomato Sauce (2%), Oil, Salt.\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"437":[{"id":366,"type":"product","image_id":437,"image_name":"8000066444505.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-28 16:37:27
+{"method":"getitemintocart","guest_user_id":"986f5a3ef5fd2380"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 20:15:53
+{"method":"getitemintocart","guest_user_id":"e5ee58716195f10a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 20:15:53
+{"method":"getitemintocart","guest_user_id":"e5ee58716195f10a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 21:18:46
+{"method":"getitemintocart","guest_user_id":"60da4214d314aa73"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 21:18:46
+{"method":"getitemintocart","guest_user_id":"60da4214d314aa73"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 21:18:46
+{"method":"getitemintocart","guest_user_id":"60da4214d314aa73"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-28 21:19:15
+{"method":"getitemintocart","guest_user_id":"60da4214d314aa73"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

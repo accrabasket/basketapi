@@ -1,0 +1,13 @@
+
+ Request - 2022-04-08 02:06:39
+{"method":"getCityIdByAddressOrLatLng","address":"R. K. Nagar, Baran Road, Police Line, Shiv Nagar, Police Line, Kota, Rajasthan 324001, भारत","lat":"25.1848704","lng":"75.8723278"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R. K. Nagar, Baran Road, Police Line, Shiv Nagar, Police Line, Kota, Rajasthan 324001, India"}}
+ Request - 2022-04-08 14:49:44
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, République démocratique du Congo","lat":"-10.7285023","lng":"25.4391015"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7CCQ+HJ Kolwezi, Democratic Republic of the Congo"}}
+ Request - 2022-04-08 20:17:29
+{"method":"getCityIdByAddressOrLatLng","address":"Ebe, Nigeria","lat":"6.505572","lng":"7.3832284"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G94M+67 Ebe, Nigeria"}}

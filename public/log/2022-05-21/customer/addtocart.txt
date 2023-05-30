@@ -1,0 +1,29 @@
+
+ Request - 2022-05-21 15:24:51
+{"method":"addtocart","guest_user_id":"9f4cdc15466abf7f","number_of_item":"1","merchant_inventry_id":"742","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-21 16:11:40
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"742","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-21 21:01:32
+{"method":"addtocart","guest_user_id":"09e4b74c8542af5f","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-21 21:01:34
+{"method":"addtocart","guest_user_id":"09e4b74c8542af5f","number_of_item":"1","merchant_inventry_id":"3808","action":"add","item_name":"Onion Local(Onion Local)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-21 22:23:57
+{"method":"addtocart","guest_user_id":"6273d4c205e1880a","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-21 22:24:05
+{"method":"addtocart","guest_user_id":"6273d4c205e1880a","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-21 22:24:16
+{"method":"addtocart","guest_user_id":"6273d4c205e1880a","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

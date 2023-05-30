@@ -1,0 +1,13 @@
+
+ Request - 2022-10-20 01:12:12
+{"method":"addtocart","guest_user_id":"3021d8271b28f276","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-20 19:55:21
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"1036","action":"add","item_name":"Chopped Tomatoes(Chopped Tomatoes)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-10-20 19:56:31
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"411","action":"add","item_name":"Feast Rozzana - Basmati Rice(Feast Rozzana - Basmati Rice)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

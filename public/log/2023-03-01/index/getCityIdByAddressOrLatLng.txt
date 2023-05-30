@@ -1,0 +1,45 @@
+
+ Request - 2023-03-01 03:15:25
+{"method":"getCityIdByAddressOrLatLng","address":"GC25+74P, Karangpule, Gumelem Kulon, Kec. Susukan, Kab. Banjarnegara, Jawa Tengah 53475, Indonesia","lat":"-7.4992991","lng":"109.4078784"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 03:15:32
+{"method":"getCityIdByAddressOrLatLng","address":"GC25+74P, Karangpule, Gumelem Kulon, Kec. Susukan, Kab. Banjarnegara, Jawa Tengah 53475, Indonesia","lat":"-7.4992991","lng":"109.4078784"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 10:35:37
+{"method":"getCityIdByAddressOrLatLng","address":"V6R3+2Q, Jafar e Tayyar, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8902672","lng":"67.2040594"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 10:35:50
+{"method":"getCityIdByAddressOrLatLng","address":"V6R3+2Q, Jafar e Tayyar, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8902672","lng":"67.2040594"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 10:35:51
+{"method":"getCityIdByAddressOrLatLng","address":"V6R3+2Q, Jafar e Tayyar, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8902672","lng":"67.2040594"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 15:39:46
+{"method":"getCityIdByAddressOrLatLng","address":"Bihar, India","lat":"25.9644427","lng":"85.2722472"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 15:39:54
+{"method":"getCityIdByAddressOrLatLng","address":"Bihar Sharif, Bihar, India","lat":"25.2049738","lng":"85.517437"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 15:40:05
+{"method":"getCityIdByAddressOrLatLng","address":"Railway Station Rd, Bihar Sharif, Bihar 803101, India","lat":"25.20311","lng":"85.53949"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 15:40:18
+{"method":"getCityIdByAddressOrLatLng","address":"87HW+4P4, Merbil Pabhajan, Assam 786602, India","lat":"27.3287679","lng":"95.2963756"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 15:40:23
+{"method":"getCityIdByAddressOrLatLng","address":"87HW+4P4, Merbil Pabhajan, Assam 786602, India","lat":"27.3287679","lng":"95.2963756"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-01 20:40:27
+{"method":"getCityIdByAddressOrLatLng","address":"Sango Ota-Idi-Iroko Rd, 112106, Ajelete, Ogun State, Nigeria","lat":"6.6992752","lng":"2.8955976"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

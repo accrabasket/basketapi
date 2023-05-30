@@ -1,0 +1,17 @@
+
+ Request - 2022-10-22 03:37:42
+{"method":"getCityIdByAddressOrLatLng","address":"2359+V5P, M20, Mumbwa, Zambia","lat":"-14.9909464","lng":"27.0700303"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"235C+J2 Mumbwa, Zambia"}}
+ Request - 2022-10-22 11:24:44
+{"method":"getCityIdByAddressOrLatLng","address":"Plot L 2236B, Gulzar-e-Hijri Block 4\/1 Metrovil Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9469063","lng":"67.105084"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot L 2236B, Gulzar-e-Hijri Block 4\/1 Metrovil Colony, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-10-22 18:12:47
+{"method":"getCityIdByAddressOrLatLng","address":"GJJX+RCQ, Adjarra, Bénin","lat":"6.5325444","lng":"2.6504155"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GMM2+25 Adjarra, Benin"}}
+ Request - 2022-10-22 18:58:50
+{"method":"getCityIdByAddressOrLatLng","address":"No 4 omosagba street iboropa road, 342101, Ikare-Akoko, Nigeria","lat":"7.5303333","lng":"5.7950126"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"No 4 omosagba street iboropa road, 342101, Ikare-Akoko, Nigeria"}}

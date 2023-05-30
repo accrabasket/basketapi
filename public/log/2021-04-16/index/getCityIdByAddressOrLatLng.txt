@@ -1,0 +1,17 @@
+
+ Request - 2021-04-16 07:01:51
+{"method":"getCityIdByAddressOrLatLng","address":"North East Spill Way Road, Naluchira, Thottappally, Kerala 688561, India","lat":"9.3238814","lng":"76.3885073"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"North East Spill Way Road, Naluchira, Thottappally, Kerala 688561, India"}}
+ Request - 2021-04-16 10:09:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nyanza, Burundi","lat":"-4.3368177","lng":"29.6068512"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nyanza, Burundi"}}
+ Request - 2021-04-16 11:48:47
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-04-16 16:15:15
+{"method":"getCityIdByAddressOrLatLng","address":"71 Lagos Ave, Accra, Ghana","lat":"5.6403512","lng":"-0.1652245"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"71 Lagos Ave, Accra, Ghana"}}

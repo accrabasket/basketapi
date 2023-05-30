@@ -1,0 +1,13 @@
+
+ Request - 2021-03-01 12:07:16
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Juba، جوبا، جنوب السودان","lat":"4.8751206","lng":"31.5722475"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Juba\u060c Juba, South Sudan"}}
+ Request - 2021-03-01 15:10:36
+{"method":"getCityIdByAddressOrLatLng","address":"24 Tarnside Cl, Smallbridge, Rochdale OL16 2QD, UK","lat":"53.6329732","lng":"-2.128181"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"21 Tarnside Cl, Smallbridge, Rochdale OL16 2QD, UK"}}
+ Request - 2021-03-01 15:52:41
+{"method":"getCityIdByAddressOrLatLng","address":"24 Tarnside Cl, Smallbridge, Rochdale OL16 2QD, UK","lat":"53.6329732","lng":"-2.128181"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"21 Tarnside Cl, Smallbridge, Rochdale OL16 2QD, UK"}}

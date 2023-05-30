@@ -1,0 +1,45 @@
+
+ Request - 2021-02-22 20:39:49
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"627","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:39:54
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"628","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:39:58
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"628","action":"delete","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:40:41
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"1724","action":"add","item_name":"Tom Brown(Tom Brown)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:41:08
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"1724","action":"delete","item_name":"Tom Brown(Tom Brown)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:41:12
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"627","action":"delete","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:41:25
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:41:32
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:41:47
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:42:00
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"344","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-22 20:42:06
+{"method":"addtocart","guest_user_id":"dcaff1b5799f8b10","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,61 @@
+
+ Request - 2022-04-09 03:35:08
+{"method":"getitemintocart","guest_user_id":"96d4579c7194a13d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 04:55:07
+{"method":"getitemintocart","guest_user_id":"96d4579c7194a13d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 06:29:17
+{"method":"getitemintocart","guest_user_id":"2594e19ada49e44b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 06:44:50
+{"method":"getitemintocart","guest_user_id":"2594e19ada49e44b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 06:46:11
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-04-09 06:49:27
+{"method":"getitemintocart","guest_user_id":"39338785f51ab407"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 06:53:41
+{"method":"getitemintocart","guest_user_id":"2594e19ada49e44b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 07:42:59
+{"method":"getitemintocart","guest_user_id":"2594e19ada49e44b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 10:44:37
+{"method":"getitemintocart","guest_user_id":"24a10e7faa0873e1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 12:30:00
+{"method":"getitemintocart","guest_user_id":"2594e19ada49e44b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 12:31:08
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-04-09 12:31:08
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-04-09 12:32:17
+{"method":"getitemintocart","guest_user_id":"2594e19ada49e44b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 12:49:07
+{"method":"getitemintocart","guest_user_id":"800f7639358d59d0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-04-09 19:55:15
+{"method":"getitemintocart","guest_user_id":"0c0a22bd7a251dec"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

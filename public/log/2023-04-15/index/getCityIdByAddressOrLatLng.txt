@@ -1,0 +1,9 @@
+
+ Request - 2023-04-15 10:54:49
+{"method":"getCityIdByAddressOrLatLng","address":"Akruti, 1, Shastri Nagar, Government Colony, Bandra East, Mumbai, Maharashtra 400051, India","lat":"19.0593618","lng":"72.8502713"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-15 16:59:51
+{"method":"getCityIdByAddressOrLatLng","address":"13 Đ. Dã Tượng, Phường 10, Quận 8, Thành phố Hồ Chí Minh, Việt Nam","lat":"10.7463878","lng":"106.6647468"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

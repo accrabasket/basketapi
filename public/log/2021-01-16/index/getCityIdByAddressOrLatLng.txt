@@ -1,0 +1,17 @@
+
+ Request - 2021-01-16 05:49:04
+{"method":"getCityIdByAddressOrLatLng","address":"Vipulbhai Bhanderi Home, રોજીયા થી દોમડા ભાયુના, Domda Bhayuna, Gujarat 360021, ભારત","lat":"22.298079","lng":"70.5307696"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Vipulbhai Bhanderi Home, \u0ab0\u0acb\u0a9c\u0ac0\u0aaf\u0abe \u0aa5\u0ac0 \u0aa6\u0acb\u0aae\u0aa1\u0abe \u0aad\u0abe\u0aaf\u0ac1\u0aa8\u0abe, Domda Bhayuna, Gujarat 360021, India"}}
+ Request - 2021-01-16 09:32:31
+{"method":"getCityIdByAddressOrLatLng","address":"Hospital Rd Link Ext, Tema, Ghana","lat":"5.6735391","lng":"-0.0327498"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hospital Rd Link Ext, Tema, Ghana"}}
+ Request - 2021-01-16 09:32:42
+{"method":"getCityIdByAddressOrLatLng","address":"Hospital Rd Link Ext, Tema, Ghana","lat":"5.6735372","lng":"-0.0327407"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hospital Rd Link Ext, Tema, Ghana"}}
+ Request - 2021-01-16 19:13:06
+{"method":"getCityIdByAddressOrLatLng","address":"Carretera Morelia - Salamanca Km. 45.3, 58840 Cuitzeo Michoacán de Ocampo, Mich., Mexico","lat":"20.0701325","lng":"-101.1571349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Uriangato - Morelia, Michoac\u00e1n, Mexico"}}

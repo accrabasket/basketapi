@@ -1,0 +1,5 @@
+
+ Request - 2022-06-26 15:36:26
+{"method":"getCityIdByAddressOrLatLng","address":"HHGC+F2R, Ikorodu 104102, Ikorodu, Nigeria","lat":"6.5761801","lng":"3.5694069"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HHGC+F2R, Ikorodu 104102, Ikorodu, Nigeria"}}

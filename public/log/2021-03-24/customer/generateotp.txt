@@ -1,0 +1,13 @@
+
+ Request - 2021-03-24 12:57:15
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0267134268"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330267134268","otp_type":"register","user_id":"0","otp":9402,"expiry_date":"2021-03-24 13:12:15"}}
+ Request - 2021-03-24 13:10:53
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"208075326"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233208075326","otp_type":"register","user_id":"0","otp":3007,"expiry_date":"2021-03-24 13:25:53"}}
+ Request - 2021-03-24 13:11:00
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"208075326"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233208075326","otp_type":"register","user_id":"0","otp":1093,"expiry_date":"2021-03-24 13:26:00"}}

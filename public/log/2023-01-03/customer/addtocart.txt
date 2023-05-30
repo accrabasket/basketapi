@@ -1,0 +1,5 @@
+
+ Request - 2023-01-03 19:15:56
+{"method":"addtocart","guest_user_id":"c26a633e94376722","number_of_item":"1","merchant_inventry_id":"3099","action":"add","item_name":"200 GHC(200 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

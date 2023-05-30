@@ -1,0 +1,13 @@
+
+ Request - 2021-03-03 03:19:48
+{"method":"getCityIdByAddressOrLatLng","address":"222, Road, Jinkethimmanahalli, Ramamurthy Nagar, Bengaluru, Karnataka 560043, India","lat":"13.0294419","lng":"77.6823068"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"222, Road, Jinkethimmanahalli, Ramamurthy Nagar, Bengaluru, Karnataka 560043, India"}}
+ Request - 2021-03-03 10:00:17
+{"method":"getCityIdByAddressOrLatLng","address":"Street No 4, Mandi Bahauddin, Punjab, Pakistan","lat":"32.5604083","lng":"73.4738158"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Street No 4, Mandi Bahauddin, Punjab, Pakistan"}}
+ Request - 2021-03-03 21:30:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.953213","lng":"-1.7589017"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

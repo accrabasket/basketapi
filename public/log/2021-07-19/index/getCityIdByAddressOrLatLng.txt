@@ -1,0 +1,13 @@
+
+ Request - 2021-07-19 01:23:06
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bangladesh","lat":"23.5886172","lng":"90.4958124"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bangladesh"}}
+ Request - 2021-07-19 08:30:52
+{"method":"getCityIdByAddressOrLatLng","address":"طريق السويس - اسماعيلية الزراعى، الإسماعيلية، مصر","lat":"30.2814827","lng":"32.3396679"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Al Sweis - Ismaelia Al Zerai Rd, Al Ismailia, Ismailia Governorate, Egypt"}}
+ Request - 2021-07-19 12:35:37
+{"method":"getCityIdByAddressOrLatLng","address":"Lalpur - Ishwardi Hwy, Ishurdi, Bangladesh","lat":"24.1195269","lng":"89.0713448"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Lalpur - Ishwardi Hwy, Ishurdi, Bangladesh"}}

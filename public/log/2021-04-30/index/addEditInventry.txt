@@ -1,0 +1,141 @@
+
+ Request - 2021-04-30 05:08:47
+{"product_id":"3533","attribute_id":["3545"],"store_id":["13"],"price":["7.00"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:12:49
+{"product_id":"3534","attribute_id":["3546"],"store_id":["13"],"price":["13.80"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:13:08
+{"product_id":"3535","attribute_id":["3547"],"store_id":["13"],"price":["8"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:13:25
+{"product_id":"3536","attribute_id":["3548"],"store_id":["13"],"price":["16.00"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:13:41
+{"product_id":"3537","attribute_id":["3549"],"store_id":["13"],"price":["9"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:13:55
+{"product_id":"3539","attribute_id":["3551"],"store_id":["13"],"price":["8"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:14:10
+{"product_id":"3540","attribute_id":["3552"],"store_id":["13"],"price":["15.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:14:27
+{"product_id":"3541","attribute_id":["3553"],"store_id":["13"],"price":["23.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:14:38
+{"product_id":"3542","attribute_id":["3554"],"store_id":["13"],"price":["14"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:14:54
+{"product_id":"3543","attribute_id":["3555"],"store_id":["13"],"price":["27.00"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:15:07
+{"product_id":"3544","attribute_id":["3556"],"store_id":["13"],"price":["4.60"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:15:20
+{"product_id":"3545","attribute_id":["3557"],"store_id":["13"],"price":["9.00"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:16:18
+{"product_id":"3543","attribute_id":["3555"],"store_id":["13"],"price":["31"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:16:38
+{"product_id":"3544","attribute_id":["3556"],"store_id":["13"],"price":["5.29"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:16:49
+{"product_id":"3545","attribute_id":["3557"],"store_id":["13"],"price":["10"],"stock":["20"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:16:58
+{"product_id":"3544","attribute_id":["3556"],"store_id":["13"],"price":["5"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:20:15
+{"product_id":"3566","attribute_id":["3578"],"store_id":["13"],"price":["10.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:20:26
+{"product_id":"3567","attribute_id":["3579"],"store_id":["13"],"price":["9.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:20:37
+{"product_id":"3568","attribute_id":["3580"],"store_id":["13"],"price":["9.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:20:54
+{"product_id":"3569","attribute_id":["3581"],"store_id":["13"],"price":["13.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:28:59
+{"product_id":"3546","attribute_id":["3558"],"store_id":["13"],"price":["11.50"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:29:10
+{"product_id":"3547","attribute_id":["3559"],"store_id":["13"],"price":["23.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:30:49
+{"product_id":"3565","attribute_id":["3577"],"store_id":["13"],"price":["17.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:59:17
+{"product_id":"3217","attribute_id":["3256"],"store_id":["12"],"price":["60.00"],"stock":["10"],"merchant_id":8,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 05:59:35
+{"product_id":"3218","attribute_id":["3257"],"store_id":["12"],"price":["57.00"],"stock":["10"],"merchant_id":8,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:13:43
+{"product_id":"3570","attribute_id":["3582"],"store_id":["13"],"price":["15.50"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:14:02
+{"product_id":"3571","attribute_id":["3583"],"store_id":["13"],"price":["32.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:14:17
+{"product_id":"3572","attribute_id":["3584"],"store_id":["13"],"price":["17.00"],"stock":["9"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:14:30
+{"product_id":"3573","attribute_id":["3585"],"store_id":["13"],"price":["32.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:21:53
+{"product_id":"3578","attribute_id":["3590"],"store_id":["13"],"price":["41.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:22:35
+{"product_id":"3579","attribute_id":["3591"],"store_id":["13"],"price":["80.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:23:41
+{"product_id":"3580","attribute_id":["3592"],"store_id":["13"],"price":["46.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:24:08
+{"product_id":"3581","attribute_id":["3593"],"store_id":["13"],"price":["58.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:24:26
+{"product_id":"3582","attribute_id":["3594"],"store_id":["13"],"price":["58.00"],"stock":["9"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-04-30 09:24:59
+{"product_id":"3583","attribute_id":["3595"],"store_id":["13"],"price":["115.00"],"stock":["10"],"merchant_id":9,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

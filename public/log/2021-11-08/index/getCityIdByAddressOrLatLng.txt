@@ -1,0 +1,17 @@
+
+ Request - 2021-11-08 02:44:49
+{"method":"getCityIdByAddressOrLatLng","address":"VQ7P+5CM, Abhishekapakkam, Puducherry 605007, India","lat":"11.8628944","lng":"79.7843166"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VQ7M+5P Abhishekapakkam, India"}}
+ Request - 2021-11-08 14:57:34
+{"method":"getCityIdByAddressOrLatLng","address":"अजमेर मार्ग, डोडियाना, राजस्थान 341031, भारत","lat":"26.5883852","lng":"74.3515992"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ajmer Rd, Dodiyana, Rajasthan 341031, India"}}
+ Request - 2021-11-08 15:35:11
+{"method":"getCityIdByAddressOrLatLng","address":"Sokoto-Shagari-Aleeiro-Jega Rd, 852101, Sifawa, Nigeria","lat":"12.8415178","lng":"5.1421774"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R4RR+JV Sifawa, Nigeria"}}
+ Request - 2021-11-08 23:12:08
+{"method":"getCityIdByAddressOrLatLng","address":"32 Ohikere St, Apapa 102103, Lagos, Nigeria","lat":"6.4499862","lng":"3.3346417"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"32 Ohikere St, Apapa 102103, Lagos, Nigeria"}}

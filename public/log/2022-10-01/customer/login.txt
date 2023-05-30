@@ -1,0 +1,5 @@
+
+ Request - 2022-10-01 14:07:57
+{"method":"login","email":"oquashie@ymail.com","password":"Famenla31","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"success","data":{"8855":{"id":8855,"name":"OHPAR ","mobile_number":"54559956","email":"oquashie@ymail.com","key":"28097dfa4bac4a219acd7afc1cc8a59e","password":"9cf2701f3b1bf3b5b42dbe8d5b3aae82","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-09-30 20:03:39","updated_date":"2022-09-30 21:54:49","status":"1"}},"totalNumberOfUser":1,"wallet_key":"9cf2701f3b1bf3b5b42dbe8d5b3aae82"}

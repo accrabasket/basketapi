@@ -1,0 +1,25 @@
+
+ Request - 2022-01-01 07:24:19
+{"method":"getitemintocart","guest_user_id":"adae6783e27140b0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-01 07:24:45
+{"method":"getitemintocart","guest_user_id":"adae6783e27140b0"}
+ Response :- 
+{"status":"success","data":{"213":{"id":19107,"user_id":0,"guest_user_id":"adae6783e27140b0","merchant_inventry_id":213,"item_name":"Black Cardamom(Black Cardamom)","number_of_item":1,"created_date":"2022-01-01 07:24:43"}},"productDetails":{"status":"success","data":{"213":{"id":213,"price":"21.00","product_id":372,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Cardamom","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"372":[{"id":289,"type":"product","image_id":372,"image_name":"6033000220554.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-01 07:25:57
+{"method":"getitemintocart","guest_user_id":"b30f1df97fb33ce9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-01 07:26:09
+{"method":"getitemintocart","guest_user_id":"b30f1df97fb33ce9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-01 19:38:07
+{"method":"getitemintocart","guest_user_id":"54002e29eb78a41a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-01 21:37:55
+{"method":"getitemintocart","guest_user_id":"d002c555d1a59016"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

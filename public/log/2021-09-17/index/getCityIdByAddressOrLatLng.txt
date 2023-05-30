@@ -1,0 +1,13 @@
+
+ Request - 2021-09-17 14:55:39
+{"method":"getCityIdByAddressOrLatLng","address":"31 Kofi Annan St, Accra, Ghana","lat":"5.6152737","lng":"-0.1836242"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"31 Kofi Annan St, Accra, Ghana"}}
+ Request - 2021-09-17 17:11:31
+{"method":"getCityIdByAddressOrLatLng","address":"3 Rue Molière, 95400 Villiers-le-Bel, France","lat":"49.0000723","lng":"2.4157712"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3 Rue Moli\u00e8re, 95400 Villiers-le-Bel, France"}}
+ Request - 2021-09-17 19:21:36
+{"method":"getCityIdByAddressOrLatLng","address":"58 Wilkinson Road, Freetown, Sierra Leone","lat":"8.481231","lng":"-13.269028"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"58 Wilkinson Road, Freetown, Sierra Leone"}}

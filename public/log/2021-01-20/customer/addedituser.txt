@@ -1,0 +1,5 @@
+
+ Request - 2021-01-20 02:27:38
+{"method":"addedituser","city_id":"1","password":"4\/3PIErsquare","name":"Kofi ","email":"kofiahendev@gmail.com","mobile_number":"0245004247","country_code":"+233","id":"0","fcm_reg_id":"cnvAcDM8uu8:APA91bG5L0aZSfhpGMMTMrrB67OYaX4wEFzqKmaV3XkgRWjf2qWDM4k86bAVzxSFhr68sA7VxVjrbhKDwLLC2Hq8dXo71Pgffc4GLXt-xRPFb33G7vsO5NjoWBdpiMQOgCJWBvUa_FgM"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233245004247 and registered email id.","data":{"1765":{"id":1765,"name":"Kofi ","mobile_number":"245004247","email":"kofiahendev@gmail.com","key":"cc95c301bdea5eb4571eb21491973bee","password":"71bfc63c52e39f8ebd95ca022f846b5a","fcm_reg_id":"cnvAcDM8uu8:APA91bG5L0aZSfhpGMMTMrrB67OYaX4wEFzqKmaV3XkgRWjf2qWDM4k86bAVzxSFhr68sA7VxVjrbhKDwLLC2Hq8dXo71Pgffc4GLXt-xRPFb33G7vsO5NjoWBdpiMQOgCJWBvUa_FgM","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-20 02:27:38","updated_date":"2021-01-20 02:27:38","status":"1"}}}

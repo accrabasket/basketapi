@@ -1,0 +1,13 @@
+
+ Request - 2022-02-27 01:07:33
+{"method":"getCityIdByAddressOrLatLng","address":"A3, Kenya","lat":"-1.1595708","lng":"37.4512981"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RFR2+5G Kithimani, Kenya"}}
+ Request - 2022-02-27 06:51:21
+{"method":"getCityIdByAddressOrLatLng","address":"XFHW+RPM، السماد، عتاقة، السويس، مصر","lat":"29.9803634","lng":"32.4964597"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XFHW+RPM, Al Semad, Attaka, Suez Governorate, Egypt"}}
+ Request - 2022-02-27 17:32:09
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 210101, Ogbomosho, Nigeria","lat":"8.1006842","lng":"4.2324556"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"462J+7X Ogbomosho, Nigeria"}}

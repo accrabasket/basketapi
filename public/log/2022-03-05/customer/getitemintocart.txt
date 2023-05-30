@@ -1,0 +1,65 @@
+
+ Request - 2022-03-05 00:04:34
+{"method":"getitemintocart","guest_user_id":"58058395ce1a6803"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 05:45:08
+{"method":"getitemintocart","guest_user_id":"3ff7fae74edcca7a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 08:47:40
+{"method":"getitemintocart","guest_user_id":"2a151ebf479bc068"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 12:19:02
+{"method":"getitemintocart","guest_user_id":"0e616dc5bab42789"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 14:16:54
+{"method":"getitemintocart","guest_user_id":"9b250cbf19a1fc9e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 16:09:35
+{"method":"getitemintocart","guest_user_id":"b201f60e744a59a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 16:11:13
+{"method":"getitemintocart","guest_user_id":"b201f60e744a59a7"}
+ Response :- 
+{"status":"success","data":{"3099":{"id":20099,"user_id":0,"guest_user_id":"b201f60e744a59a7","merchant_inventry_id":3099,"item_name":"200 GHC(200 GHC)","number_of_item":1,"created_date":"2022-03-05 16:11:12"}},"productDetails":{"status":"success","data":{"3099":{"id":3099,"price":"200.00","product_id":3530,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"200 GHC","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":128,"custom_info":"","brand_name":"Gift Card","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"card","quantity":1,"tax_value":"3"}},"productImageData":{"3530":[{"id":4265,"type":"product","image_id":3530,"image_name":"3530_1602087528.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-03-05 16:11:20
+{"method":"getitemintocart","guest_user_id":"b201f60e744a59a7"}
+ Response :- 
+{"status":"success","data":{"3099":{"id":20099,"user_id":0,"guest_user_id":"b201f60e744a59a7","merchant_inventry_id":3099,"item_name":"200 GHC(200 GHC)","number_of_item":1,"created_date":"2022-03-05 16:11:12"}},"productDetails":{"status":"success","data":{"3099":{"id":3099,"price":"200.00","product_id":3530,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"200 GHC","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":128,"custom_info":"","brand_name":"Gift Card","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"card","quantity":1,"tax_value":"3"}},"productImageData":{"3530":[{"id":4265,"type":"product","image_id":3530,"image_name":"3530_1602087528.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-03-05 16:11:30
+{"method":"getitemintocart","guest_user_id":"b201f60e744a59a7"}
+ Response :- 
+{"status":"success","data":{"3099":{"id":20099,"user_id":0,"guest_user_id":"b201f60e744a59a7","merchant_inventry_id":3099,"item_name":"200 GHC(200 GHC)","number_of_item":2,"created_date":"2022-03-05 16:11:12"}},"productDetails":{"status":"success","data":{"3099":{"id":3099,"price":"200.00","product_id":3530,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"200 GHC","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":128,"custom_info":"","brand_name":"Gift Card","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"card","quantity":1,"tax_value":"3"}},"productImageData":{"3530":[{"id":4265,"type":"product","image_id":3530,"image_name":"3530_1602087528.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-03-05 18:05:12
+{"method":"getitemintocart","guest_user_id":"2a9512fe6e778e21"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 18:05:35
+{"method":"getitemintocart","guest_user_id":"2a9512fe6e778e21"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 18:32:22
+{"method":"getitemintocart","guest_user_id":"95a6c1558baf0b27"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 20:32:44
+{"method":"getitemintocart","guest_user_id":"4175cadff0adc931"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 20:57:28
+{"method":"getitemintocart","guest_user_id":"98e175681a5da324"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 21:01:47
+{"method":"getitemintocart","guest_user_id":"29a4aece488b55ae"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-05 21:06:34
+{"method":"getitemintocart","guest_user_id":"29a4aece488b55ae"}
+ Response :- 
+{"status":"success","data":{"217":{"id":20100,"user_id":0,"guest_user_id":"29a4aece488b55ae","merchant_inventry_id":217,"item_name":"Black Salt(Black Salt)","number_of_item":1,"created_date":"2022-03-05 21:06:34"}},"productDetails":{"status":"success","data":{"217":{"id":217,"price":"7.50","product_id":376,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Salt","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":58,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"376":[{"id":293,"type":"product","image_id":376,"image_name":"6033000220561.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

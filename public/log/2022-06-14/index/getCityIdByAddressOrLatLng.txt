@@ -1,0 +1,9 @@
+
+ Request - 2022-06-14 16:06:56
+{"method":"getCityIdByAddressOrLatLng","address":"الوحدات، Amman، عمّان،، WWX8+QPP، عمّان، الأردن","lat":"31.9491967","lng":"35.916701"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0627\u0644\u0648\u062d\u062f\u0627\u062a\u060c Amman\u060c \u0639\u0645\u0651\u0627\u0646\u060c\u060c WWX8+QPP, Amman, Jordan"}}
+ Request - 2022-06-14 16:09:24
+{"method":"getCityIdByAddressOrLatLng","address":"VHFJ+FRV, Mbuji-Mayi, République démocratique du Congo","lat":"-6.1256391","lng":"23.582708"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VHFJ+FRV, Mbuji-Mayi, Democratic Republic of the Congo"}}

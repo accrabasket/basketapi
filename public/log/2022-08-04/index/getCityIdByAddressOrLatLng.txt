@@ -1,0 +1,13 @@
+
+ Request - 2022-08-04 18:49:31
+{"method":"getCityIdByAddressOrLatLng","address":"2HM3+HWP, Arba Minch, Ethiopia","lat":"6.0344326","lng":"37.5549749"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2HM3+HWP, Arba Minch, Ethiopia"}}
+ Request - 2022-08-04 20:47:50
+{"method":"getCityIdByAddressOrLatLng","address":"Ikot Iwud-Nung Udoe Rd, 521109, Ede Obom, Nigeria","lat":"4.8930755","lng":"7.9332394"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VWVM+67 Ede Obom, Nigeria"}}
+ Request - 2022-08-04 20:49:16
+{"method":"getCityIdByAddressOrLatLng","address":"W394+WJQ, Hussainabad Food St, Hussainabad Karimabad Block 3 Gulberg Town, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9202427","lng":"67.0565003"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W394+WJQ, Hussainabad Food St, Hussainabad Karimabad Block 3 Gulberg Town, Karachi, Karachi City, Sindh, Pakistan"}}

@@ -1,0 +1,9 @@
+
+ Request - 2022-08-12 18:24:32
+{"method":"getcoupon","user_id":"8598","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2022-08-12 18:28:27
+{"method":"getcoupon","user_id":"8598","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-09-03 15:16:13
+{"id":"1","minimum_order":"1","free_delivery":"1000.00","shipping_charges":"0","method":"saveSetting"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-09-03 16:45:01
+{"id":"1","minimum_order":"100","free_delivery":"1000.00","shipping_charges":"17","method":"saveSetting"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-09-03 17:13:33
+{"id":"1","minimum_order":"1","free_delivery":"1000.00","shipping_charges":"17.00","method":"saveSetting"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-09-03 17:13:37
+{"id":"1","minimum_order":"1","free_delivery":"1000.00","shipping_charges":"17.00","method":"saveSetting"}
+ Response :- 
+{"status":"fail","msg":"No record saved "}
+ Request - 2021-09-03 17:42:49
+{"id":"1","minimum_order":"100","free_delivery":"1000.00","shipping_charges":"17.00","method":"saveSetting"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

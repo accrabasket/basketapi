@@ -1,0 +1,17 @@
+
+ Request - 2022-11-30 02:00:26
+{"method":"getCityIdByAddressOrLatLng","address":"VJFV+7Q5, Bukit Harum, Kec. Menthobi Raya, Kabupaten Lamandau, Kalimantan Tengah 74117, Indonesia","lat":"-2.1275001","lng":"111.644718"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VJFV+7Q5, Bukit Harum, Menthobi Raya, Lamandau Regency, Central Kalimantan 74117, Indonesia"}}
+ Request - 2022-11-30 16:08:36
+{"method":"getCityIdByAddressOrLatLng","address":"XFQ5+6MF, Sector D-2 Phase 3 Hayatabad, Peshawar, Khyber Pakhtunkhwa, Pakistan","lat":"33.988157","lng":"71.4586428"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XFQ5+6MF, Sector D-2 Phase 3 Hayatabad, Peshawar, Khyber Pakhtunkhwa, Pakistan"}}
+ Request - 2022-11-30 18:54:58
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Ouagadougou, Burkina Faso","lat":"12.3910417","lng":"-1.4520781"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9GRX+C5 Ouagadougou, Burkina Faso"}}
+ Request - 2022-11-30 23:26:53
+{"method":"getCityIdByAddressOrLatLng","address":"VRH7+2XX, 490101, Oso, Ebonyi, Nigeria","lat":"5.8778682","lng":"7.8128321"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VRH7+44 Oso, Nigeria"}}

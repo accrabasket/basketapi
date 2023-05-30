@@ -1,0 +1,117 @@
+
+ Request - 2022-04-04 19:15:58
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:05
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:10
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"303","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:12
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:15
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"314","action":"add","item_name":"Red Label Tea(Red Label Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:18
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"337","action":"add","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:20
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"337","action":"add","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:23
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"348","action":"add","item_name":"Tea(Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:26
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"349","action":"add","item_name":"Tea in Jar(Tea in Jar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:28
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"350","action":"add","item_name":"Tea Masala(Tea Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:31
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"464","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:34
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:35
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"464","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:37
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:40
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"465","action":"delete","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:40
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"465","action":"delete","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:42
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"464","action":"delete","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:42
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"350","action":"delete","item_name":"Tea Masala(Tea Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:50
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"349","action":"delete","item_name":"Tea in Jar(Tea in Jar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:53
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"348","action":"delete","item_name":"Tea(Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:57
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"337","action":"delete","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:16:59
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"337","action":"delete","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:17:05
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"314","action":"delete","item_name":"Red Label Tea(Red Label Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:17:08
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"304","action":"delete","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:17:11
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"303","action":"delete","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:17:14
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"288","action":"delete","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 19:17:17
+{"method":"addtocart","guest_user_id":"6781d7d0e8fad79d","number_of_item":"1","merchant_inventry_id":"246","action":"delete","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 21:36:07
+{"method":"addtocart","guest_user_id":"84001533838d783b","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-04 21:36:19
+{"method":"addtocart","guest_user_id":"84001533838d783b","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

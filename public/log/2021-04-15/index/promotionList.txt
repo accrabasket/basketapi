@@ -1,0 +1,65 @@
+
+ Request - 2021-04-15 13:18:30
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:18:35
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:23:25
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4914,"type":"promotion","image_id":20,"image_name":"20_1618492739.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:23:28
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4914,"type":"promotion","image_id":20,"image_name":"20_1618492739.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:24:08
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4916,"type":"promotion","image_id":20,"image_name":"20_1618493035.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:24:11
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4916,"type":"promotion","image_id":20,"image_name":"20_1618493035.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:29:30
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4917,"type":"promotion","image_id":20,"image_name":"20_1618493067.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:29:32
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4917,"type":"promotion","image_id":20,"image_name":"20_1618493067.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:32:37
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4918,"type":"promotion","image_id":20,"image_name":"20_1618493394.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:32:40
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4918,"type":"promotion","image_id":20,"image_name":"20_1618493394.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:34:12
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4921,"type":"promotion","image_id":20,"image_name":"20_1618493596.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:34:15
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4921,"type":"promotion","image_id":20,"image_name":"20_1618493596.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:36:14
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4922,"type":"promotion","image_id":20,"image_name":"20_1618493677.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:36:16
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4922,"type":"promotion","image_id":20,"image_name":"20_1618493677.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:40:29
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}],"20":[{"id":4923,"type":"promotion","image_id":20,"image_name":"20_1618493794.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-15 13:40:33
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2}},"images":{"20":[{"id":4923,"type":"promotion","image_id":20,"image_name":"20_1618493794.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

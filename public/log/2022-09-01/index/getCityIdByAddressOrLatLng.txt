@@ -1,0 +1,17 @@
+
+ Request - 2022-09-01 06:20:39
+{"method":"getCityIdByAddressOrLatLng","address":"D-65, Andheri Ghatkopar Link Road, साईनाथ नगर, Damodar Park, घाटकोपर वेस्ट, मुंबई, महाराष्ट्र 400086, India","lat":"19.0930455","lng":"72.9104356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"D-65, Andheri Ghatkopar Link Road, \u0938\u093e\u0908\u0928\u093e\u0925 \u0928\u0917\u0930, Damodar Park, \u0918\u093e\u091f\u0915\u094b\u092a\u0930 \u0935\u0947\u0938\u094d\u091f, \u092e\u0941\u0902\u092c\u0908, \u092e\u0939\u093e\u0930\u093e\u0937\u094d\u091f\u094d\u0930 400086, India"}}
+ Request - 2022-09-01 14:33:55
+{"method":"getCityIdByAddressOrLatLng","address":"5FQF+R25, Sarafa Bazar Rd, Inner City, Multan, Punjab, Pakistan","lat":"30.1895815","lng":"71.4723992"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5FQF+R25, Sarafa Bazar Rd, Inner City, Multan, Punjab, Pakistan"}}
+ Request - 2022-09-01 23:35:09
+{"method":"getCityIdByAddressOrLatLng","address":"G393+W72, Ugwu Orji 460108, Owerri, Nigeria","lat":"5.5200695","lng":"7.052701"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G393+W72, Ugwu Orji 460108, Owerri, Nigeria"}}
+ Request - 2022-09-01 23:35:10
+{"method":"getCityIdByAddressOrLatLng","address":"G393+W72, Ugwu Orji 460108, Owerri, Nigeria","lat":"5.5200695","lng":"7.052701"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G393+W72, Ugwu Orji 460108, Owerri, Nigeria"}}

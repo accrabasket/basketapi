@@ -1,0 +1,21 @@
+
+ Request - 2021-07-29 11:26:55
+{"method":"storeList","merchant_id":3}
+ Response :- 
+{"status":"success","data":{"2":{"id":2,"store_name":"Neha Supermarket","location_id":1,"address":"55, Dadeban Rd Ext, Accra, Ghana","lat":"5.6009594","lng":"-0.19569990000002","status":"1","merchant_id":3,"created_on":"2018-09-21 06:30:42","updated_on":null}}}
+ Request - 2021-07-29 11:27:30
+{"method":"storeList","merchant_id":3}
+ Response :- 
+{"status":"success","data":{"2":{"id":2,"store_name":"Neha Supermarket","location_id":1,"address":"55, Dadeban Rd Ext, Accra, Ghana","lat":"5.6009594","lng":"-0.19569990000002","status":"1","merchant_id":3,"created_on":"2018-09-21 06:30:42","updated_on":null}}}
+ Request - 2021-07-29 11:28:25
+{"method":"storeList","merchant_id":3}
+ Response :- 
+{"status":"success","data":{"2":{"id":2,"store_name":"Neha Supermarket","location_id":1,"address":"55, Dadeban Rd Ext, Accra, Ghana","lat":"5.6009594","lng":"-0.19569990000002","status":"1","merchant_id":3,"created_on":"2018-09-21 06:30:42","updated_on":null}}}
+ Request - 2021-07-29 11:28:43
+{"method":"storeList","merchant_id":3}
+ Response :- 
+{"status":"success","data":{"2":{"id":2,"store_name":"Neha Supermarket","location_id":1,"address":"55, Dadeban Rd Ext, Accra, Ghana","lat":"5.6009594","lng":"-0.19569990000002","status":"1","merchant_id":3,"created_on":"2018-09-21 06:30:42","updated_on":null}}}
+ Request - 2021-07-29 11:29:00
+{"method":"storeList","merchant_id":3}
+ Response :- 
+{"status":"success","data":{"2":{"id":2,"store_name":"Neha Supermarket","location_id":1,"address":"55, Dadeban Rd Ext, Accra, Ghana","lat":"5.6009594","lng":"-0.19569990000002","status":"1","merchant_id":3,"created_on":"2018-09-21 06:30:42","updated_on":null}}}

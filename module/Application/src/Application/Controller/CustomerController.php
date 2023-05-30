@@ -167,6 +167,7 @@ class CustomerController extends AbstractActionController {
                     if(!isset($parameters['pagination'])) {
                         $parameters['pagination'] = true;
                     }
+                    $parameters['show_coupon'] = '1';
                     $response = $this->customerLib->getCoupon($parameters);
                     break;
                 case 'customerfeedback':

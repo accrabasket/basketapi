@@ -1,0 +1,17 @@
+
+ Request - 2022-09-26 00:41:09
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Aholouyèmè, Bénin","lat":"6.4377293","lng":"2.5753751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CHQG+35 Aholouyeme, Benin"}}
+ Request - 2022-09-26 11:15:12
+{"method":"getCityIdByAddressOrLatLng","address":"8C85+QJP, Hyderabad, Sindh, Pakistan","lat":"25.3175607","lng":"68.4097582"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8C85+QJP, Hyderabad, Sindh, Pakistan"}}
+ Request - 2022-09-26 12:35:36
+{"method":"getCityIdByAddressOrLatLng","address":"Appolonia - Afienya Rd, Afienya, Ghana","lat":"5.7851295","lng":"-0.0240498"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Appolonia - Afienya Rd, Afienya, Ghana"}}
+ Request - 2022-09-26 12:35:39
+{"method":"getCityIdByAddressOrLatLng","address":"Appolonia - Afienya Rd, Afienya, Ghana","lat":"5.7851295","lng":"-0.0240498"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Appolonia - Afienya Rd, Afienya, Ghana"}}

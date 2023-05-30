@@ -1,0 +1,81 @@
+
+ Request - 2022-10-04 15:54:43
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2050","action":"add","item_name":"Baby Wet Wipes - Pure Chamomile(Baby Wet Wipes - Pure Chamomile)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:54:47
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2051","action":"add","item_name":"Baby Wet Wipes - Midnight Rose(Baby Wet Wipes - Midnight Rose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:55:54
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1391","action":"add","item_name":"Original Bar Soap(Original Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:56:00
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1391","action":"add","item_name":"Original Bar Soap(Original Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:56:16
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1391","action":"delete","item_name":"Original Bar Soap(Original Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:56:18
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1394","action":"add","item_name":"Anti-Bacterial Cool Bar Soap(Anti-Bacterial Cool Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:56:26
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1400","action":"add","item_name":"Anti-Bacterial Bar Soap Fresh(Anti-Bacterial Bar Soap Fresh)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:57:08
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3489","action":"add","item_name":"Antiseptic Liquid - Original(Antiseptic Liquid - Original)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:57:17
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3488","action":"add","item_name":"Antiseptic Liquid - Zesty Lime Fresh(Antiseptic Liquid - Zesty Lime Fresh)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:57:24
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3484","action":"add","item_name":"Antibacterial Soap -Zesty Lime Fresh(Antibacterial Soap -Zesty Lime Fresh)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 15:57:26
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3485","action":"add","item_name":"Antibacterial Soap - Cooling Menthol(Antibacterial Soap - Cooling Menthol)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 16:30:59
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"831","action":"add","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 16:31:31
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1400","action":"delete","item_name":"Anti-Bacterial Bar Soap Fresh(Anti-Bacterial Bar Soap Fresh)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 16:31:44
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1394","action":"delete","item_name":"Anti-Bacterial Cool Bar Soap(Anti-Bacterial Cool Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 16:31:51
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"1391","action":"delete","item_name":"Original Bar Soap(Original Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 16:31:55
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3484","action":"add","item_name":"Antibacterial Soap -Zesty Lime Fresh(Antibacterial Soap -Zesty Lime Fresh)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 16:32:00
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3485","action":"add","item_name":"Antibacterial Soap - Cooling Menthol(Antibacterial Soap - Cooling Menthol)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 17:29:00
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"2876","action":"add","item_name":"Richoco - Energy Food Drink(Richoco - Energy Food Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 17:40:13
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3803","action":"delete","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-04 17:40:16
+{"method":"addtocart","user_id":"8856","number_of_item":"1","merchant_inventry_id":"3803","action":"delete","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

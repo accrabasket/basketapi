@@ -1,0 +1,97 @@
+
+ Request - 2021-08-13 07:43:17
+{"method":"addtocart","guest_user_id":"6b0a30719f104c59","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 07:43:29
+{"method":"addtocart","guest_user_id":"6b0a30719f104c59","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 07:43:35
+{"method":"addtocart","guest_user_id":"6b0a30719f104c59","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:10
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:15
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:18
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:22
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:28
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:30
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:32
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"464","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:34
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:35
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"466","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:39
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:41
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:46
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"499","action":"add","item_name":"London Dry Gin Export(London Dry Gin Export)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:47
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"498","action":"add","item_name":"Barrel Aged Whisky(Barrel Aged Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:49
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"487","action":"add","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:52
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"486","action":"add","item_name":"Fanta Orange Pet - Soft Drink(Fanta Orange Pet - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:54
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"480","action":"add","item_name":"Coke Pet - Soft Drink(Coke Pet - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:58
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"477","action":"add","item_name":"Sauvignon Blanc Wine(Sauvignon Blanc Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:53:59
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"476","action":"add","item_name":"Chardonnay Wine(Chardonnay Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:54:03
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"473","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:54:04
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"472","action":"add","item_name":"Pineapple Vodka(Pineapple Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-13 09:54:11
+{"method":"addtocart","guest_user_id":"06a1d453147daba8","number_of_item":"1","merchant_inventry_id":"460","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

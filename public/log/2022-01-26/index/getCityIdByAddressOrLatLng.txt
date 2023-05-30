@@ -1,0 +1,13 @@
+
+ Request - 2022-01-26 00:13:02
+{"method":"getCityIdByAddressOrLatLng","address":"Düsseldorf, Allemagne","lat":"51.2277411","lng":"6.7734556"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M\u00fchlenstra\u00dfe 14, 40213 D\u00fcsseldorf, Germany"}}
+ Request - 2022-01-26 06:05:26
+{"method":"getCityIdByAddressOrLatLng","address":"5P35+WHP, Monohardi, Bangladesh","lat":"24.1540066","lng":"90.7080043"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5P35+WHP, Monohardi, Bangladesh"}}
+ Request - 2022-01-26 15:50:34
+{"method":"getCityIdByAddressOrLatLng","address":"Sunyani, Techiman, Ghana","lat":"7.5767541","lng":"-1.9513129"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sunyani, Techiman, Ghana"}}

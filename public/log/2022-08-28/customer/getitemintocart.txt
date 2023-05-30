@@ -1,0 +1,21 @@
+
+ Request - 2022-08-28 00:11:43
+{"method":"getitemintocart","guest_user_id":"c4ac0d227f5c8b5d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-28 05:53:32
+{"method":"getitemintocart","guest_user_id":"12811fe8c5d7074f"}
+ Response :- 
+{"status":"success","data":{"343":{"id":20008,"user_id":0,"guest_user_id":"12811fe8c5d7074f","merchant_inventry_id":343,"item_name":"Sunflower Oil(Sunflower Oil)","number_of_item":1,"created_date":"2022-02-27 01:11:51"}},"productDetails":{"status":"success","data":{"343":{"id":343,"price":"40.80","product_id":479,"merchant_id":3,"store_id":2,"merchant_product_code":null,"product_name":"Sunflower Oil","product_desc":"Sunflower oil is a sensitive product. Thanks to our comprehensive and advanced technology, we produce by preserving the natural structure of sunflower oil. With the ideal structure for your body, Zade Sunflower oil is a stomach friendly product. It is identified with your food with its ideal colour and consistency, revealing the taste of your food with its taste and lightness","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"ZADE","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":3,"tax_value":"3"}},"productImageData":{"479":[{"id":450,"type":"product","image_id":479,"image_name":"479_1537506214.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-28 16:24:56
+{"method":"getitemintocart","guest_user_id":"c4f92f5a4589b920"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-28 17:18:09
+{"method":"getitemintocart","guest_user_id":"626ae95f1a47e0d2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-28 18:08:14
+{"method":"getitemintocart","guest_user_id":"d3c5477269674365"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

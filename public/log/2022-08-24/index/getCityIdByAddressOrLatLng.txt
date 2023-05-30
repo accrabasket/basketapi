@@ -1,0 +1,9 @@
+
+ Request - 2022-08-24 10:33:04
+{"method":"getCityIdByAddressOrLatLng","address":"6Q5G+92F, Angecha, Ethiopia","lat":"7.2090995","lng":"37.774416"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6Q5G+92F, Angecha, Ethiopia"}}
+ Request - 2022-08-24 14:15:05
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Senegal","lat":"14.1058384","lng":"-15.4915748"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4G45+89 Kilometre Six, Senegal"}}

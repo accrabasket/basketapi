@@ -1,0 +1,5 @@
+
+ Request - 2021-11-05 12:30:48
+{"method":"addedituser","city_id":"1","password":"Construction234!","name":"OFORI BOATENG AUGUSTINE ","email":"akob3001@yahoo.com","mobile_number":"0246962914","country_code":"+233","id":"0","fcm_reg_id":"fkd3rVRYbiQ:APA91bF2kE6MezQkauWwnZYW38lDGWKdYuB1_XGJLO-ZBQ7_cVKZxO3RqeUy0cEf1fht0uXq1hOS5t8dcvahq_NdXmUoBwJsn5TrLo17-pCGBX698w9dufGJwbirSqc0zoWAzWBXYU4Z"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233246962914 and registered email id.","data":{"5809":{"id":5809,"name":"OFORI BOATENG AUGUSTINE ","mobile_number":"246962914","email":"akob3001@yahoo.com","key":"af8f0528780f7bf586b2770674563744","password":"30f23adbc0b1abb427f2ba5a52be9aaf","fcm_reg_id":"fkd3rVRYbiQ:APA91bF2kE6MezQkauWwnZYW38lDGWKdYuB1_XGJLO-ZBQ7_cVKZxO3RqeUy0cEf1fht0uXq1hOS5t8dcvahq_NdXmUoBwJsn5TrLo17-pCGBX698w9dufGJwbirSqc0zoWAzWBXYU4Z","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-11-05 12:30:47","updated_date":"2021-11-05 12:30:47","status":"1"}}}

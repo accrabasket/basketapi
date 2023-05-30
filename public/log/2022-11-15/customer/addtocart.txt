@@ -1,0 +1,25 @@
+
+ Request - 2022-11-15 08:12:22
+{"method":"addtocart","guest_user_id":"7368b3c6b52f664d","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-15 08:14:38
+{"method":"addtocart","guest_user_id":"7368b3c6b52f664d","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-15 08:14:40
+{"method":"addtocart","guest_user_id":"7368b3c6b52f664d","number_of_item":"1","merchant_inventry_id":"753","action":"delete","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-15 08:14:53
+{"method":"addtocart","guest_user_id":"7368b3c6b52f664d","number_of_item":"1","merchant_inventry_id":"632","action":"add","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-15 08:15:13
+{"method":"addtocart","guest_user_id":"7368b3c6b52f664d","number_of_item":"1","merchant_inventry_id":"771","action":"add","item_name":"Kingsbite Milk Chocolate (10 Tabs\/Box)(Kingsbite Milk Chocolate (10 Tabs\/Box))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-15 08:15:43
+{"method":"addtocart","guest_user_id":"7368b3c6b52f664d","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

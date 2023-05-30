@@ -1,0 +1,21 @@
+
+ Request - 2022-11-10 09:03:35
+{"method":"getitemintocart","user_id":"8220"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-10 09:04:05
+{"method":"getitemintocart","user_id":"8220"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-10 15:36:00
+{"method":"getitemintocart","guest_user_id":"2c5b24a375b3f73d"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":22825,"user_id":0,"guest_user_id":"2c5b24a375b3f73d","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":1,"created_date":"2022-11-04 10:54:23"},"2846":{"id":22826,"user_id":0,"guest_user_id":"2c5b24a375b3f73d","merchant_inventry_id":2846,"item_name":"Chicken Sausage(Chicken Sausage)","number_of_item":1,"created_date":"2022-11-04 10:54:36"},"3799":{"id":22827,"user_id":0,"guest_user_id":"2c5b24a375b3f73d","merchant_inventry_id":3799,"item_name":"Chicken Drumsticks(Chicken Drumsticks)","number_of_item":1,"created_date":"2022-11-04 10:55:07"}},"productDetails":{"status":"success","data":{"2846":{"id":2846,"price":"7.00","product_id":3216,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Chicken Sausage","product_desc":"","default_discount_type":"","default_discount_value":"","category_id":125,"custom_info":"","brand_name":"Perdix","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"20","unit":"gm","quantity":340,"tax_value":"3"},"3799":{"id":3799,"price":"18.50","product_id":4269,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Chicken Drumsticks","product_desc":"We offer an array of specialty beef, pork and chicken proteins meant to add variety, flavor and authenticity to your meat case.","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"Lara Mart","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null},"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"3216":[{"id":3881,"type":"product","image_id":3216,"image_name":"VID155.jpg"}],"4269":[{"id":5362,"type":"product","image_id":4269,"image_name":"OSU4947.jpg"}],"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-10 17:09:15
+{"method":"getitemintocart","guest_user_id":"77474e7866fcbc83"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-10 17:23:31
+{"method":"getitemintocart","guest_user_id":"dbad756e03e3370d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

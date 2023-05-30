@@ -1,0 +1,29 @@
+
+ Request - 2022-10-17 06:59:24
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-10-17 07:01:04
+{"method":"addtocart","guest_user_id":"4a796cf7ae54f8fb","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-17 07:03:21
+{"method":"addtocart","guest_user_id":"4a796cf7ae54f8fb","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-17 07:03:23
+{"method":"addtocart","guest_user_id":"4a796cf7ae54f8fb","number_of_item":"1","merchant_inventry_id":"753","action":"delete","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-17 07:03:37
+{"method":"addtocart","guest_user_id":"4a796cf7ae54f8fb","number_of_item":"1","merchant_inventry_id":"632","action":"add","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-17 07:03:59
+{"method":"addtocart","guest_user_id":"4a796cf7ae54f8fb","number_of_item":"1","merchant_inventry_id":"771","action":"add","item_name":"Kingsbite Milk Chocolate (10 Tabs\/Box)(Kingsbite Milk Chocolate (10 Tabs\/Box))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-17 07:04:29
+{"method":"addtocart","guest_user_id":"4a796cf7ae54f8fb","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

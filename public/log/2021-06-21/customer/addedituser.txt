@@ -1,0 +1,5 @@
+
+ Request - 2021-06-21 04:01:34
+{"method":"addedituser","city_id":"1","password":"78561620","name":"ALUSINE","email":"jonahsandy56@gmail.com","mobile_number":"33568720","country_code":"+233","id":"0","fcm_reg_id":"e3UEIjSvCxc:APA91bFeyFgA_zSiW__gaBVEM-BDrMcixjsL5znvHZZzKZWT7VwyNTa_xVH65HgRd4OLUGHGOf2JjwHawgOKVEKubPvKDgLi1kpahJhkTBTeY_v4jpTEFH0gmveVwfIByn-mro9tyN9N"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +23333568720 and registered email id.","data":{"2809":{"id":2809,"name":"ALUSINE","mobile_number":"33568720","email":"jonahsandy56@gmail.com","key":"879ea3cf787c4f93d7bde1c4516aa8e1","password":"04adbc5da7b6b7d6053018f07e26c8c8","fcm_reg_id":"e3UEIjSvCxc:APA91bFeyFgA_zSiW__gaBVEM-BDrMcixjsL5znvHZZzKZWT7VwyNTa_xVH65HgRd4OLUGHGOf2JjwHawgOKVEKubPvKDgLi1kpahJhkTBTeY_v4jpTEFH0gmveVwfIByn-mro9tyN9N","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-06-21 04:01:34","updated_date":"2021-06-21 04:01:34","status":"1"}}}

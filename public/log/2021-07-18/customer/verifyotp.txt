@@ -1,0 +1,5 @@
+
+ Request - 2021-07-18 17:47:28
+{"method":"verifyotp","country_code":"+233","mobile_number":"0242868490","otp_type":"register","otp":"2615"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"f223d8ed8c2a9cd982bec2dbd623025f"}}

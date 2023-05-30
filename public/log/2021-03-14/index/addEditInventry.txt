@@ -1,0 +1,5 @@
+
+ Request - 2021-03-14 05:02:25
+{"product_id":"","attribute_id":null,"store_id":["1"],"price":null,"stock":null,"merchant_id":2,"method":"addEditInventry"}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}

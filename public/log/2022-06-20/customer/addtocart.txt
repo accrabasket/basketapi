@@ -1,0 +1,89 @@
+
+ Request - 2022-06-20 08:02:28
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:32
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"292","action":"add","item_name":"Mixed Vegetables with Tomato Sauce(Mixed Vegetables with Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:34
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"305","action":"add","item_name":"Processed Peas(Processed Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:36
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:37
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:39
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:41
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:42
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:45
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:48
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"312","action":"add","item_name":"Red Kidney Beans(Red Kidney Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:50
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"306","action":"add","item_name":"Pure Refined Iodised Salt(Pure Refined Iodised Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:02:54
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"322","action":"add","item_name":"Salt(Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 08:03:54
+{"method":"addtocart","guest_user_id":"a89fe639059acac9","number_of_item":"1","merchant_inventry_id":"735","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:01:02
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"3410","action":"add","item_name":"Beef Salami(Beef Salami)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:01:42
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"3410","action":"delete","item_name":"Beef Salami(Beef Salami)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:03:06
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"2250","action":"add","item_name":"Golden Lager Beer(Golden Lager Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:03:08
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"2250","action":"add","item_name":"Golden Lager Beer(Golden Lager Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:03:30
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"1066","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:03:47
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"3517","action":"add","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:03:56
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"3539","action":"add","item_name":"Anti-Bacterial Re-Energise Bar Soap(Anti-Bacterial Re-Energise Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:04:25
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"3158","action":"add","item_name":"Stech - Supernova Universal 4G LTE Router - White(Supernova Universal 4G LTE Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-20 16:04:30
+{"method":"addtocart","guest_user_id":"04fde0b1594823dc","number_of_item":"1","merchant_inventry_id":"3159","action":"add","item_name":"Stech - Flash Mifi Router - White(Flash Mifi Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

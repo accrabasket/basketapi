@@ -1,0 +1,13 @@
+
+ Request - 2021-04-28 01:46:06
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-28 01:46:13
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-28 01:46:15
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"461","action":"delete","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

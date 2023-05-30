@@ -1,0 +1,5 @@
+
+ Request - 2021-12-24 04:54:34
+{"start_date":"2021-12-24","end_date":"2021-12-24","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-12-24":{"count":2,"created_date":"2021-12-24"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

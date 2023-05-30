@@ -1,0 +1,21 @@
+
+ Request - 2021-01-20 02:24:51
+{"method":"getCityIdByAddressOrLatLng","address":"Kasoa, Ghana","lat":"5.5344155","lng":"-0.4252737"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kasoa, Ghana"}}
+ Request - 2021-01-20 02:24:52
+{"method":"getCityIdByAddressOrLatLng","address":"Kasoa, Ghana","lat":"5.5344155","lng":"-0.4252737"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kasoa, Ghana"}}
+ Request - 2021-01-20 17:39:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, الأردن","lat":"32.5865317","lng":"35.8557709"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Jordan"}}
+ Request - 2021-01-20 19:43:34
+{"method":"getCityIdByAddressOrLatLng","address":"Ghana","lat":"7.946527","lng":"-1.023194"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ghana"}}
+ Request - 2021-01-20 23:17:41
+{"method":"getCityIdByAddressOrLatLng","address":"A2, Côte d'Ivoire","lat":"5.8963138","lng":"-4.5680912"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A2, C\u00f4te d'Ivoire"}}

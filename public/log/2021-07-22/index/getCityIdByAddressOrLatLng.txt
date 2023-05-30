@@ -1,0 +1,17 @@
+
+ Request - 2021-07-22 07:56:38
+{"method":"getCityIdByAddressOrLatLng","address":"East Savile Road, Edinburgh EH16 5LZ, UK","lat":"55.9308108","lng":"-3.1711719"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"East Savile Road, Edinburgh EH16, UK"}}
+ Request - 2021-07-22 13:46:53
+{"method":"getCityIdByAddressOrLatLng","address":"Tumprang Road, Assam 782485, India","lat":"25.9065723","lng":"92.752316"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tumprang Road, Assam 782485, India"}}
+ Request - 2021-07-22 15:15:45
+{"method":"getCityIdByAddressOrLatLng","address":"Hafir Adalama، Soudan","lat":"19.5108333","lng":"36.99416669999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Port Sudan, Sudan"}}
+ Request - 2021-07-22 16:29:29
+{"method":"getCityIdByAddressOrLatLng","address":"C19, Kenya","lat":"-0.387337","lng":"34.6305101"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C19, Kenya"}}

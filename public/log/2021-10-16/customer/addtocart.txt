@@ -1,0 +1,41 @@
+
+ Request - 2021-10-16 08:27:03
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 08:27:16
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"704","action":"delete","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 08:27:22
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3519","action":"add","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 08:27:27
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3587","action":"add","item_name":"Rose & Honey Long Lasting Soap(Rose & Honey Long Lasting Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 08:27:33
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3587","action":"add","item_name":"Rose & Honey Long Lasting Soap(Rose & Honey Long Lasting Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 08:27:34
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3519","action":"add","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 08:41:41
+{"method":"addtocart","guest_user_id":"cf8af4362b5a9403","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 16:12:47
+{"method":"addtocart","guest_user_id":"53062706b6137b89","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 16:13:05
+{"method":"addtocart","guest_user_id":"53062706b6137b89","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-16 16:13:07
+{"method":"addtocart","guest_user_id":"53062706b6137b89","number_of_item":"1","merchant_inventry_id":"3452","action":"delete","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

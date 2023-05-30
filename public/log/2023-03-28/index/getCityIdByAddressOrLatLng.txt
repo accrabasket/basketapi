@@ -1,0 +1,29 @@
+
+ Request - 2023-03-28 13:45:33
+{"method":"getCityIdByAddressOrLatLng","address":"G83V+C9Q, বাংলাদেশ","lat":"22.5022697","lng":"90.3433485"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-28 13:45:37
+{"method":"getCityIdByAddressOrLatLng","address":"G83V+C9Q, বাংলাদেশ","lat":"22.5022697","lng":"90.3433485"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-28 22:10:39
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroon","lat":"6.402166","lng":"11.3220116"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-28 22:10:41
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroon","lat":"6.402166","lng":"11.3220116"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-28 22:10:52
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroon","lat":"6.402166","lng":"11.3220116"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-28 22:19:32
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroon","lat":"6.402166","lng":"11.3220116"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-28 22:19:33
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroon","lat":"6.402166","lng":"11.3220116"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

@@ -1,0 +1,5 @@
+
+ Request - 2022-04-18 19:51:47
+{"method":"login","email":"cleansmellltd@gmail.com","password":"YOLANDA100","fcm_reg_id":"c2VwB1wIBHM:APA91bH3QBAenZJOEwMwpHcK6B9mqWTkLSykICWiosGTwDZW5Nv26zna8EYtAK3AWJgAmziawpQx2oLaFH3jMxceU54QuoGpDEUjcHQ4FWt5DarJhPml2_GrlI13JYpVSXZBcHl62wcD"}
+ Response :- 
+{"status":"success","data":{"8254":{"id":8254,"name":"WIPE SOAP","mobile_number":"553000039","email":"cleansmellltd@gmail.com","key":"d1addce86ea43092c4a520969ec3c9fd","password":"85a0c52b3203b1d24bd7668c19cd099c","fcm_reg_id":"c2VwB1wIBHM:APA91bH3QBAenZJOEwMwpHcK6B9mqWTkLSykICWiosGTwDZW5Nv26zna8EYtAK3AWJgAmziawpQx2oLaFH3jMxceU54QuoGpDEUjcHQ4FWt5DarJhPml2_GrlI13JYpVSXZBcHl62wcD","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-04-18 19:51:03","updated_date":"2022-04-18 19:51:03","status":"1"}},"totalNumberOfUser":1,"wallet_key":"85a0c52b3203b1d24bd7668c19cd099c"}

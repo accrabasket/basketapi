@@ -1,0 +1,81 @@
+
+ Request - 2022-02-02 04:00:44
+{"method":"getitemintocart","guest_user_id":"60b9dc022f80eade"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 06:19:06
+{"method":"getitemintocart","guest_user_id":"aa154236a4f5db53"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 06:28:28
+{"method":"getitemintocart","guest_user_id":"7f53f20f7d402c86"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 07:49:14
+{"method":"getitemintocart","guest_user_id":"bc77418303569a0f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 07:49:28
+{"method":"getitemintocart","guest_user_id":"bc77418303569a0f"}
+ Response :- 
+{"status":"success","data":{"704":{"id":19627,"user_id":0,"guest_user_id":"bc77418303569a0f","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":1,"created_date":"2022-02-02 07:49:27"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-02 07:49:39
+{"method":"getitemintocart","guest_user_id":"bc77418303569a0f"}
+ Response :- 
+{"status":"success","data":{"704":{"id":19627,"user_id":0,"guest_user_id":"bc77418303569a0f","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":2,"created_date":"2022-02-02 07:49:27"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-02 07:49:43
+{"method":"getitemintocart","guest_user_id":"bc77418303569a0f"}
+ Response :- 
+{"status":"success","data":{"704":{"id":19627,"user_id":0,"guest_user_id":"bc77418303569a0f","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":3,"created_date":"2022-02-02 07:49:27"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-02 09:11:27
+{"method":"getitemintocart","guest_user_id":"81d45d9481d8e747"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 09:46:35
+{"method":"getitemintocart","guest_user_id":"978cd0def928599a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 12:08:44
+{"method":"getitemintocart","guest_user_id":"ca366476301f549d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 12:13:15
+{"method":"getitemintocart","user_id":"7628"}
+ Response :- 
+{"status":"success","data":{"2517":{"id":19628,"user_id":7628,"guest_user_id":"","merchant_inventry_id":2517,"item_name":"Clean & Shave (Gift Hampers)","number_of_item":1,"created_date":"2022-02-02 12:13:15"}},"productDetails":{"status":"success","data":{"2517":{"id":2517,"price":"280.00","product_id":2876,"merchant_id":4,"store_id":4,"merchant_product_code":"HAMP08","product_name":"Clean & Shave ","product_desc":"Get a clean and shave  delightful scent  gifts for him to show your love . Leave that man smelling absolutely fantastic fresh with signature scents  ","default_discount_type":"","default_discount_value":"0","category_id":114,"custom_info":"{\"Details\":\"Total No. of Items in the Hamper : 14\\r\\n-- DRY IMPACT - ANTI-PERSPIRANT DEODORANT:50ml x2\\r\\n-- IRRESISTIBLY SMOOTH - BODY LOTION (NIVEA):400ml x1   \\r\\n-- MEN COOL KICK - ANTI-PERSPIRANT DEODORANT :50ml x 2 \\r\\n-- MEN COOL KICK - SHOWER GEL (NIVEA) :500ml x 1  \\r\\n-- MEN ENERGY - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SENSITIVE - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SILVER PROTECT - ANTI-PERSPIRANT :50ml x2  \\r\\n-- PROTECT & CARE - SHAVING FOAM (NIVEA) :200ml x1\\r\\n-- SENSITIVE POST SHAVE BALM (NIVEA) :100ml x1   \\r\\n-- RICH NOURISHING - BODY LOTION (NIVEA):250ml x1  \\r\\n-- SOFT - LIGHT MOISTURISER (NIVEA) :200ml x1\"}","brand_name":"Gift hamper","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"pcs","quantity":1,"tax_value":"3"}},"productImageData":{"2876":[{"id":3514,"type":"product","image_id":2876,"image_name":"clean_shave_hamper.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-02 12:31:33
+{"method":"getitemintocart","guest_user_id":"6078ad86c6b3dd5d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 13:00:03
+{"method":"getitemintocart","guest_user_id":"6078ad86c6b3dd5d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 13:03:26
+{"method":"getitemintocart","guest_user_id":"f130798afd0584eb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 14:05:26
+{"method":"getitemintocart","guest_user_id":"bc77418303569a0f"}
+ Response :- 
+{"status":"success","data":{"704":{"id":19627,"user_id":0,"guest_user_id":"bc77418303569a0f","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":3,"created_date":"2022-02-02 07:49:27"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-02 14:13:09
+{"method":"getitemintocart","guest_user_id":"bc77418303569a0f"}
+ Response :- 
+{"status":"success","data":{"704":{"id":19627,"user_id":0,"guest_user_id":"bc77418303569a0f","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":3,"created_date":"2022-02-02 07:49:27"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-02 18:39:41
+{"method":"getitemintocart","guest_user_id":"5df842f6aba9ee8f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 18:39:41
+{"method":"getitemintocart","guest_user_id":"5df842f6aba9ee8f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 18:47:08
+{"method":"getitemintocart","guest_user_id":"e5b9a568a4a522ae"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-02 18:49:16
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

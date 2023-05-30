@@ -1,0 +1,13 @@
+
+ Request - 2022-04-24 04:43:03
+{"method":"getCityIdByAddressOrLatLng","address":"200 Jln Sultan, Singapore 199018","lat":"1.3036547","lng":"103.8612408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"200 Jln Sultan, Singapore 199018"}}
+ Request - 2022-04-24 08:08:54
+{"method":"getCityIdByAddressOrLatLng","address":"3462+5WQ, Malda Town Sta Rd, Narhatta, West Bengal 732128, India","lat":"25.0602959","lng":"88.1026124"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3462+5WQ, Malda Town Sta Rd, Narhatta, West Bengal 732128, India"}}
+ Request - 2022-04-24 12:51:28
+{"method":"getCityIdByAddressOrLatLng","address":"WMH5+997, Shikarpur, Sindh, Pakistan","lat":"27.9273822","lng":"68.6583008"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WMH5+997, Shikarpur, Sindh, Pakistan"}}

@@ -1,0 +1,25 @@
+
+ Request - 2021-06-07 00:11:28
+{"method":"getCityIdByAddressOrLatLng","address":"Mankad Khada, Gujarat 393151, India","lat":"21.8798834","lng":"73.9256488"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Gujarat 391152, India"}}
+ Request - 2021-06-07 01:31:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Gujranwala, Punjab, Pakistan","lat":"32.0298221","lng":"74.1649156"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Gujranwala, Punjab, Pakistan"}}
+ Request - 2021-06-07 06:18:16
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Roha, Maharashtra 402109, India","lat":"18.4405861","lng":"73.1069574"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Roha, Maharashtra 402109, India"}}
+ Request - 2021-06-07 09:03:08
+{"method":"getCityIdByAddressOrLatLng","address":"станция Опытная, Полігон, Миколаївська область, Украина, 57217","lat":"46.9799553","lng":"32.122459"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Doslidna station, Polihon, Mykolaivs'ka oblast, Ukraine, 57217"}}
+ Request - 2021-06-07 10:25:04
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Côte d'Ivoire","lat":"5.0258937","lng":"-6.7260394"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, C\u00f4te d'Ivoire"}}
+ Request - 2021-06-07 16:50:17
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uganda","lat":"-0.2080536","lng":"30.681141"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Uganda"}}

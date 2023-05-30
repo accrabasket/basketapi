@@ -1,0 +1,25 @@
+
+ Request - 2021-07-31 08:36:35
+{"method":"getitemintocart","guest_user_id":"2c124f97fb1b3068"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-31 09:44:18
+{"method":"getitemintocart","guest_user_id":"4b18ab3d3daa849e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-31 11:47:04
+{"method":"getitemintocart","guest_user_id":"101f89eb31ebf613"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-31 16:11:45
+{"method":"getitemintocart","guest_user_id":"88660707bdf62796"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-31 16:12:38
+{"method":"getitemintocart","guest_user_id":"88660707bdf62796"}
+ Response :- 
+{"status":"success","data":{"304":{"id":16554,"user_id":0,"guest_user_id":"88660707bdf62796","merchant_inventry_id":304,"item_name":"Premium Tea(Premium Tea)","number_of_item":2,"created_date":"2021-07-31 16:12:37"}},"productDetails":{"status":"success","data":{"304":{"id":304,"price":"43.50","product_id":449,"merchant_id":3,"store_id":2,"merchant_product_code":"8901747000","product_name":"Premium Tea","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":59,"custom_info":"","brand_name":"Wagh Bakri","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":495,"tax_value":"3"}},"productImageData":{"449":[{"id":379,"type":"product","image_id":449,"image_name":"8901747000730.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-31 18:57:17
+{"method":"getitemintocart","guest_user_id":"db7a6e9e30592141"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

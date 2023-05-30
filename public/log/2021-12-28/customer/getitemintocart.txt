@@ -1,0 +1,25 @@
+
+ Request - 2021-12-28 01:50:09
+{"method":"getitemintocart","guest_user_id":"5412a91eb02ed9ff"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-28 09:42:34
+{"method":"getitemintocart","guest_user_id":"9fc749374fc08009"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-28 13:38:58
+{"method":"getitemintocart","guest_user_id":"33f43c93608277c4"}
+ Response :- 
+{"status":"success","data":{"615":{"id":17979,"user_id":0,"guest_user_id":"33f43c93608277c4","merchant_inventry_id":615,"item_name":"All Butter Shortbread(All Butter Shortbread)","number_of_item":1,"created_date":"2021-11-08 14:58:07"}},"productDetails":{"status":"success","data":{"615":{"id":615,"price":"22.49","product_id":896,"merchant_id":4,"store_id":4,"merchant_product_code":"57960","product_name":"All Butter Shortbread","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":95,"custom_info":"{\"Ingredients\":\"Flour (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Butter (31%)(Milk), Sugar, Salt, Wheat Starch.\",\"Allergy Information\":\"Sesame Seeds, Soya, Wheat & Milk\"}","brand_name":"McVitie\u2019s","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":280,"tax_value":"3"}},"productImageData":{"896":[{"id":954,"type":"product","image_id":896,"image_name":"896_1545143438.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-28 17:02:35
+{"method":"getitemintocart","guest_user_id":"5e2cc38f080e91b6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-28 18:22:59
+{"method":"getitemintocart","guest_user_id":"00f1459d0b546b9c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-28 22:06:00
+{"method":"getitemintocart","guest_user_id":"56b64c3017637099"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

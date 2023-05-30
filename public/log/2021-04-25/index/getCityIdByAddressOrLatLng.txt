@@ -1,0 +1,17 @@
+
+ Request - 2021-04-25 06:44:58
+{"method":"getCityIdByAddressOrLatLng","address":"Amechi Street, Gariki, Énúgwu, Nigeria","lat":"6.3881373","lng":"7.5018328"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Nnamani St, Gariki, Enugu, Nigeria"}}
+ Request - 2021-04-25 10:38:17
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kabol, Afghanistan","lat":"34.5474993","lng":"69.363198"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kabol, Afghanistan"}}
+ Request - 2021-04-25 20:37:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Addis Ababa, Ethiopia","lat":"8.9625749","lng":"38.7546523"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Addis Ababa, Ethiopia"}}
+ Request - 2021-04-25 20:46:04
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, N'Djamena, تشاد‎","lat":"12.1633949","lng":"15.1113475"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, N'Djamena, Chad"}}

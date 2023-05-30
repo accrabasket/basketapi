@@ -1,0 +1,97 @@
+
+ Request - 2022-07-09 00:33:35
+{"method":"getitemintocart","guest_user_id":"400640e4c19e6dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 03:56:24
+{"method":"getitemintocart","guest_user_id":"aa2b751735f441f7"}
+ Response :- 
+{"status":"success","data":{"502":{"id":16722,"user_id":0,"guest_user_id":"aa2b751735f441f7","merchant_inventry_id":502,"item_name":"Large Beer(Large Beer)","number_of_item":11,"created_date":"2021-08-14 12:46:32"},"452":{"id":16731,"user_id":0,"guest_user_id":"aa2b751735f441f7","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-08-14 21:04:29"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"},"502":{"id":502,"price":"8.49","product_id":786,"merchant_id":4,"store_id":4,"merchant_product_code":"26940","product_name":"Large Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"","brand_name":"Heineken","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"786":[{"id":643,"type":"product","image_id":786,"image_name":"26940.jpg"}],"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-09 04:31:37
+{"method":"getitemintocart","guest_user_id":"80726f5265e7d0cd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 04:46:20
+{"method":"getitemintocart","guest_user_id":"fcfbbd018cf47d09"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 04:49:04
+{"method":"getitemintocart","guest_user_id":"fcfbbd018cf47d09"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 06:21:54
+{"method":"getitemintocart","guest_user_id":"f8e2defa50e98453"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 06:44:55
+{"method":"getitemintocart","guest_user_id":"af1c496bec6cac34"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 06:45:13
+{"method":"getitemintocart","guest_user_id":"af1c496bec6cac34"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 06:55:20
+{"method":"getitemintocart","guest_user_id":"f8e2defa50e98453"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 06:55:23
+{"method":"getitemintocart","guest_user_id":"f8e2defa50e98453"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 06:56:32
+{"method":"getitemintocart","guest_user_id":"f8e2defa50e98453"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 07:00:28
+{"method":"getitemintocart","guest_user_id":"755b5c7e397b0e49"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 07:17:35
+{"method":"getitemintocart","guest_user_id":"1f01326903150d73"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 08:24:58
+{"method":"getitemintocart","guest_user_id":"4e2e11482865dc37"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 08:25:28
+{"method":"getitemintocart","guest_user_id":"4e2e11482865dc37"}
+ Response :- 
+{"status":"success","data":{"275":{"id":21968,"user_id":0,"guest_user_id":"4e2e11482865dc37","merchant_inventry_id":275,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2022-07-09 08:25:28"}},"productDetails":{"status":"success","data":{"275":{"id":275,"price":"19.50","product_id":422,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Cowbell Our Milk has become synonymous with quality and value. The vision of providing quality, affordable milk powder to the people of Africa has led Cowbell to be Africa\u2019s number one milk brand in small sachets.\r\nThe regular additions to the Cowbell product range are testament to the Group\u2019s commitment to the provision of innovative and value-added milk products. We have extended the brand into flavoured milks, UHT, condensed and evaporated as well as processed cheese. It is this dedication to service and consistency that has contributed to the continual success of Cowbell as a brand and Promasidor as a whole.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Skimmed Milk and Vegetable Fat Base\",\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\",\"Preparation and Usage\":\"Made with fresh skimmed cows' milk and vegetable fat, our powdered milk products dissolve easily in hot or cold water to instantly create a delicious beverage that contains no cholesterol and are enhanced with Vitarich, a fortified blend of vitamins A, C, D, E and K.\"}","brand_name":"Cowbell","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"422":[{"id":346,"type":"product","image_id":422,"image_name":"NEH00003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-09 08:25:34
+{"method":"getitemintocart","guest_user_id":"4e2e11482865dc37"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 08:25:36
+{"method":"getitemintocart","guest_user_id":"4e2e11482865dc37"}
+ Response :- 
+{"status":"success","data":{"275":{"id":21969,"user_id":0,"guest_user_id":"4e2e11482865dc37","merchant_inventry_id":275,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2022-07-09 08:25:36"}},"productDetails":{"status":"success","data":{"275":{"id":275,"price":"19.50","product_id":422,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Cowbell Our Milk has become synonymous with quality and value. The vision of providing quality, affordable milk powder to the people of Africa has led Cowbell to be Africa\u2019s number one milk brand in small sachets.\r\nThe regular additions to the Cowbell product range are testament to the Group\u2019s commitment to the provision of innovative and value-added milk products. We have extended the brand into flavoured milks, UHT, condensed and evaporated as well as processed cheese. It is this dedication to service and consistency that has contributed to the continual success of Cowbell as a brand and Promasidor as a whole.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Skimmed Milk and Vegetable Fat Base\",\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\",\"Preparation and Usage\":\"Made with fresh skimmed cows' milk and vegetable fat, our powdered milk products dissolve easily in hot or cold water to instantly create a delicious beverage that contains no cholesterol and are enhanced with Vitarich, a fortified blend of vitamins A, C, D, E and K.\"}","brand_name":"Cowbell","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"422":[{"id":346,"type":"product","image_id":422,"image_name":"NEH00003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-09 09:17:46
+{"method":"getitemintocart","guest_user_id":"d01053b6f1b20f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 09:17:47
+{"method":"getitemintocart","guest_user_id":"d01053b6f1b20f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 12:36:24
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 13:53:24
+{"method":"getitemintocart","guest_user_id":"09facd6a820d756a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 23:02:09
+{"method":"getitemintocart","guest_user_id":"2336152444be87ef"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-09 23:02:43
+{"method":"getitemintocart","guest_user_id":"2336152444be87ef"}
+ Response :- 
+{"status":"success","data":{"297":{"id":21970,"user_id":0,"guest_user_id":"2336152444be87ef","merchant_inventry_id":297,"item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)","number_of_item":1,"created_date":"2022-07-09 23:02:43"}},"productDetails":{"status":"success","data":{"297":{"id":297,"price":"17.10","product_id":442,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000083","product_name":"NIDO Essentia Milk Powder","product_desc":"NIDO Essentia is a powdered milk beverage with 13 vitamins and minerals to help support your child\u2019s healthy growth and brain development in the preschool years.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"Nestle","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":365,"tax_value":"3"}},"productImageData":{"442":[{"id":372,"type":"product","image_id":442,"image_name":"NEH00001.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-09 23:03:19
+{"method":"getitemintocart","guest_user_id":"2336152444be87ef"}
+ Response :- 
+{"status":"success","data":{"297":{"id":21970,"user_id":0,"guest_user_id":"2336152444be87ef","merchant_inventry_id":297,"item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)","number_of_item":1,"created_date":"2022-07-09 23:02:43"},"3807":{"id":21971,"user_id":0,"guest_user_id":"2336152444be87ef","merchant_inventry_id":3807,"item_name":"Lemon Loose(Lemon Loose)","number_of_item":1,"created_date":"2022-07-09 23:03:19"}},"productDetails":{"status":"success","data":{"297":{"id":297,"price":"17.10","product_id":442,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000083","product_name":"NIDO Essentia Milk Powder","product_desc":"NIDO Essentia is a powdered milk beverage with 13 vitamins and minerals to help support your child\u2019s healthy growth and brain development in the preschool years.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"Nestle","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":365,"tax_value":"3"},"3807":{"id":3807,"price":"17.95","product_id":4277,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Lemon Loose","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"442":[{"id":372,"type":"product","image_id":442,"image_name":"NEH00001.jpg"}],"4277":[{"id":5370,"type":"product","image_id":4277,"image_name":"OSU4893.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

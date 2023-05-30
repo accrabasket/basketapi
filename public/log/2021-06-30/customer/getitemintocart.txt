@@ -1,0 +1,57 @@
+
+ Request - 2021-06-30 04:15:49
+{"method":"getitemintocart","guest_user_id":"32fdd2e48056e07d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 10:22:20
+{"method":"getitemintocart","guest_user_id":"cb94dc3a9be23b60"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 10:23:14
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-06-30 11:34:57
+{"method":"getitemintocart","guest_user_id":"85e034bc2f16cf24"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 11:42:55
+{"method":"getitemintocart","guest_user_id":"85e034bc2f16cf24"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 13:26:35
+{"method":"getitemintocart","guest_user_id":"2f904ff55ae563fd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 14:32:41
+{"method":"getitemintocart","guest_user_id":"41caecb1f1ee2524"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 16:52:53
+{"method":"getitemintocart","guest_user_id":"928a5a097f090be8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 16:53:11
+{"method":"getitemintocart","guest_user_id":"928a5a097f090be8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 16:53:41
+{"method":"getitemintocart","guest_user_id":"928a5a097f090be8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 19:19:30
+{"method":"getitemintocart","guest_user_id":"39dd15c3fb264dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 19:28:33
+{"method":"getitemintocart","guest_user_id":"3a24df87ec73f2bb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 19:31:50
+{"method":"getitemintocart","guest_user_id":"3a24df87ec73f2bb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-30 19:32:30
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

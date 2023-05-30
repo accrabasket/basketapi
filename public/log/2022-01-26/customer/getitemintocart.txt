@@ -1,0 +1,33 @@
+
+ Request - 2022-01-26 00:13:04
+{"method":"getitemintocart","guest_user_id":"e0e5c98208696972"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-26 00:13:57
+{"method":"getitemintocart","guest_user_id":"e0e5c98208696972"}
+ Response :- 
+{"status":"success","data":{"207":{"id":19572,"user_id":0,"guest_user_id":"e0e5c98208696972","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2022-01-26 00:13:53"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-26 00:14:08
+{"method":"getitemintocart","guest_user_id":"e0e5c98208696972"}
+ Response :- 
+{"status":"success","data":{"207":{"id":19572,"user_id":0,"guest_user_id":"e0e5c98208696972","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2022-01-26 00:13:53"},"215":{"id":19573,"user_id":0,"guest_user_id":"e0e5c98208696972","merchant_inventry_id":215,"item_name":"Black Eye Beans(Black Eye Beans)","number_of_item":1,"created_date":"2022-01-26 00:14:07"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"215":{"id":215,"price":"22.50","product_id":374,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Eye Beans","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"374":[{"id":291,"type":"product","image_id":374,"image_name":"6033000220189.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-26 05:40:07
+{"method":"getitemintocart","guest_user_id":"d01053b6f1b20f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-26 06:05:27
+{"method":"getitemintocart","guest_user_id":"b5c14bc80dacedb0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-26 15:50:35
+{"method":"getitemintocart","guest_user_id":"dca1f3562c15662a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-26 19:37:52
+{"method":"getitemintocart","guest_user_id":"51c3ad22cd7a69d2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-26 23:21:33
+{"method":"getitemintocart","guest_user_id":"1c295953d31b69cc"}
+ Response :- 
+{"status":"success","data":{"3773":{"id":18898,"user_id":0,"guest_user_id":"1c295953d31b69cc","merchant_inventry_id":3773,"item_name":"GHC 225 Gift Hamper(GHC 225 Gift Hamper)","number_of_item":1,"created_date":"2021-12-20 15:25:59"}},"productDetails":{"status":"success","data":{"3773":{"id":3773,"price":"225.00","product_id":4242,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"GHC 225 Gift Hamper","product_desc":"Total No. of Items in the Hamper : 5\r\n\r\n--- JAMESON WHISKEY 40% 100CL x1\r\n--- BALLANTINE'S FINEST WHISKY 40% 100CL x1\r\n--- Fitch & Leedes Club Soda 200ml x2\r\n--- Kingsbite Milk Chocolate 50g x1\r\n\r\n","default_discount_type":"","default_discount_value":"0","category_id":140,"custom_info":"","brand_name":"","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":1,"tax_value":null}},"productImageData":{"4242":[{"id":5335,"type":"product","image_id":4242,"image_name":"4242_1623748353.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

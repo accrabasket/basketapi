@@ -1,0 +1,17 @@
+
+ Request - 2022-06-13 20:12:20
+{"method":"addtocart","guest_user_id":"6976b666db740762","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-13 20:12:43
+{"method":"addtocart","guest_user_id":"6976b666db740762","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-13 20:13:14
+{"method":"addtocart","guest_user_id":"6976b666db740762","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-13 20:13:17
+{"method":"addtocart","guest_user_id":"6976b666db740762","number_of_item":"1","merchant_inventry_id":"614","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

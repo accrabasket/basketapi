@@ -1,0 +1,29 @@
+
+ Request - 2023-05-14 01:16:28
+{"method":"getCityIdByAddressOrLatLng","address":"Ola mummy shopping complex ibadan, 201103, Ibadan, Oyo, Nigeria","lat":"7.3379327","lng":"3.9484735"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-14 01:16:31
+{"method":"getCityIdByAddressOrLatLng","address":"Ola mummy shopping complex ibadan, 201103, Ibadan, Oyo, Nigeria","lat":"7.3379327","lng":"3.9484735"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-14 01:16:32
+{"method":"getCityIdByAddressOrLatLng","address":"Ola mummy shopping complex ibadan, 201103, Ibadan, Oyo, Nigeria","lat":"7.3379327","lng":"3.9484735"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-14 01:16:33
+{"method":"getCityIdByAddressOrLatLng","address":"Ola mummy shopping complex ibadan, 201103, Ibadan, Oyo, Nigeria","lat":"7.3379327","lng":"3.9484735"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-14 01:16:34
+{"method":"getCityIdByAddressOrLatLng","address":"Ola mummy shopping complex ibadan, 201103, Ibadan, Oyo, Nigeria","lat":"7.3379327","lng":"3.9484735"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-14 01:16:35
+{"method":"getCityIdByAddressOrLatLng","address":"Ola mummy shopping complex ibadan, 201103, Ibadan, Oyo, Nigeria","lat":"7.3379327","lng":"3.9484735"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-14 16:42:42
+{"method":"getCityIdByAddressOrLatLng","address":"CC59+WWW، بغداد، العراق","lat":"33.4102464","lng":"44.4197871"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

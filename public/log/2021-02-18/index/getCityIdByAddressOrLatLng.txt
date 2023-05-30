@@ -1,0 +1,9 @@
+
+ Request - 2021-02-18 12:44:10
+{"method":"getCityIdByAddressOrLatLng","address":"Mela Panga Rd, Mouja Panga, Bangladesh","lat":"26.1527991","lng":"88.8787745"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mela Panga Rd, Mouja Panga, Bangladesh"}}
+ Request - 2021-02-18 13:43:24
+{"method":"getCityIdByAddressOrLatLng","address":"Rue 311, Bamako, Mali","lat":"12.6268285","lng":"-8.0292502"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue 311, Bamako, Mali"}}

@@ -1,0 +1,13 @@
+
+ Request - 2022-12-19 11:22:20
+{"method":"getCityIdByAddressOrLatLng","address":"W33X+VWQ, Jl, Jayabakti, Kec. Cabangbungin, Kabupaten Bekasi, Jawa Barat 17720, Indonesia","lat":"-6.0950043","lng":"107.0999009"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W33X+VWQ, Jl, Jayabakti, Kec. Cabangbungin, Kabupaten Bekasi, Jawa Barat 17720, Indonesia"}}
+ Request - 2022-12-19 12:06:12
+{"method":"getCityIdByAddressOrLatLng","address":"JXQM+Q4F, Tema, Ghana","lat":"5.6391473","lng":"-0.0172566"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JXQM+Q4F, Tema, Ghana"}}
+ Request - 2022-12-19 23:36:38
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Guinée","lat":"11.708541666666667","lng":"-9.191376666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PR55+CC Dalamban, Guinea"}}

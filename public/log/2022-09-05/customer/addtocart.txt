@@ -1,0 +1,13 @@
+
+ Request - 2022-09-05 16:16:38
+{"method":"addtocart","guest_user_id":"62a77fba3532b230","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-05 16:17:59
+{"method":"addtocart","guest_user_id":"62a77fba3532b230","number_of_item":"1","merchant_inventry_id":"3974","action":"add","item_name":"Baby Diapers 4 Maxi 9-13Kg(Baby Diapers 4 Maxi 9-13Kg)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-05 16:18:09
+{"method":"addtocart","guest_user_id":"62a77fba3532b230","number_of_item":"1","merchant_inventry_id":"810","action":"add","item_name":"Soft & Smooth Baby Soap(Soft & Smooth Baby Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

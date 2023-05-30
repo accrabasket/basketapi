@@ -1,0 +1,37 @@
+
+ Request - 2021-01-19 00:46:20
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543537513","otp_type":"register","user_id":"0","otp":2688,"expiry_date":"2021-01-19 01:01:20"}}
+ Request - 2021-01-19 00:46:26
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543537513","otp_type":"register","user_id":"0","otp":4347,"expiry_date":"2021-01-19 01:01:26"}}
+ Request - 2021-01-19 00:46:31
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543537513","otp_type":"register","user_id":"0","otp":9893,"expiry_date":"2021-01-19 01:01:31"}}
+ Request - 2021-01-19 00:47:20
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543537513","otp_type":"register","user_id":"0","otp":2808,"expiry_date":"2021-01-19 01:02:20"}}
+ Request - 2021-01-19 00:47:36
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543537513","otp_type":"register","user_id":"0","otp":8327,"expiry_date":"2021-01-19 01:02:36"}}
+ Request - 2021-01-19 00:47:38
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543537513","otp_type":"register","user_id":"0","otp":7896,"expiry_date":"2021-01-19 01:02:38"}}
+ Request - 2021-01-19 00:47:56
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233543537513","otp_type":"register","user_id":"0","otp":8063,"expiry_date":"2021-01-19 01:02:56"}}
+ Request - 2021-01-19 00:47:59
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"543537513"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233543537513","otp_type":"register","user_id":"0","otp":1263,"expiry_date":"2021-01-19 01:02:59"}}
+ Request - 2021-01-19 00:51:00
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0552579928"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330552579928","otp_type":"register","user_id":"0","otp":8218,"expiry_date":"2021-01-19 01:06:00"}}

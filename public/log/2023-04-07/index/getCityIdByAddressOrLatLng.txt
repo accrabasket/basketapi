@@ -1,0 +1,69 @@
+
+ Request - 2023-04-07 04:35:06
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Masjid Al Ittihad No.53, Bojong Pd. Terong, Kec. Cipayung, Kota Depok, Jawa Barat 16436, Indonesia","lat":"-6.4331274","lng":"106.8029508"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 04:35:08
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Masjid Al Ittihad No.53, Bojong Pd. Terong, Kec. Cipayung, Kota Depok, Jawa Barat 16436, Indonesia","lat":"-6.4331274","lng":"106.8029508"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 04:35:09
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Masjid Al Ittihad No.53, Bojong Pd. Terong, Kec. Cipayung, Kota Depok, Jawa Barat 16436, Indonesia","lat":"-6.4331274","lng":"106.8029508"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:02
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:05
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:06
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:07
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:08
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:09
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:10
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:13
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:16
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:34
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 15:16:34
+{"method":"getCityIdByAddressOrLatLng","address":"rue 04.060 Porte 215, Kaya, Burkina Faso","lat":"13.0714258","lng":"-1.0842105"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 17:30:08
+{"method":"getCityIdByAddressOrLatLng","address":"JQ52+H6C, Tanjungsari Bar., Kec. Cikaum, Kabupaten Subang, Jawa Barat 41253, Indonesia","lat":"-6.3914075","lng":"107.7500559"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 17:30:17
+{"method":"getCityIdByAddressOrLatLng","address":"JQ52+H6C, Tanjungsari Bar., Kec. Cikaum, Kabupaten Subang, Jawa Barat 41253, Indonesia","lat":"-6.3914075","lng":"107.7500559"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-07 17:30:27
+{"method":"getCityIdByAddressOrLatLng","address":"JQ52+H6C, Tanjungsari Bar., Kec. Cikaum, Kabupaten Subang, Jawa Barat 41253, Indonesia","lat":"-6.3914075","lng":"107.7500559"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

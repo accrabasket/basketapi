@@ -1,0 +1,81 @@
+
+ Request - 2022-06-22 01:35:09
+{"method":"getitemintocart","guest_user_id":"0cfe37b77130cef8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 01:35:33
+{"method":"getitemintocart","guest_user_id":"0cfe37b77130cef8"}
+ Response :- 
+{"status":"success","data":{"233":{"id":21839,"user_id":0,"guest_user_id":"0cfe37b77130cef8","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-06-22 01:35:33"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 01:43:31
+{"method":"getitemintocart","guest_user_id":"dde03a86e40a6235"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 05:38:08
+{"method":"getitemintocart","guest_user_id":"db942031356cde3f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 10:07:06
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 10:07:39
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 10:08:14
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"success","data":{"2660":{"id":21840,"user_id":0,"guest_user_id":"92fe3d41a048d587","merchant_inventry_id":2660,"item_name":"Extra Long Ultra Thin Sanitary Pads(Extra Long Ultra Thin Sanitary Pads)","number_of_item":1,"created_date":"2022-06-22 10:08:14"}},"productDetails":{"status":"success","data":{"2660":{"id":2660,"price":"5.79","product_id":3022,"merchant_id":4,"store_id":4,"merchant_product_code":"9226","product_name":"Extra Long Ultra Thin Sanitary Pads","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":104,"custom_info":"","brand_name":"Always","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Per pack","quantity":7,"tax_value":"3"}},"productImageData":{"3022":[{"id":3672,"type":"product","image_id":3022,"image_name":"09226.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 10:08:19
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 10:08:41
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 10:08:57
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"success","data":{"233":{"id":21841,"user_id":0,"guest_user_id":"92fe3d41a048d587","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-06-22 10:08:57"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 10:09:16
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"success","data":{"233":{"id":21841,"user_id":0,"guest_user_id":"92fe3d41a048d587","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-06-22 10:08:57"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 10:09:51
+{"method":"getitemintocart","guest_user_id":"92fe3d41a048d587"}
+ Response :- 
+{"status":"success","data":{"233":{"id":21841,"user_id":0,"guest_user_id":"92fe3d41a048d587","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-06-22 10:08:57"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 10:14:08
+{"method":"getitemintocart","guest_user_id":"4175cadff0adc931"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 13:16:20
+{"method":"getitemintocart","guest_user_id":"eae0d60f1ef3052d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 13:16:22
+{"method":"getitemintocart","guest_user_id":"eae0d60f1ef3052d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 13:58:11
+{"method":"getitemintocart","guest_user_id":"4fd5c66d76416ab3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 15:49:16
+{"method":"getitemintocart","guest_user_id":"62ced845eb1a76d6"}
+ Response :- 
+{"status":"success","data":{"388":{"id":21325,"user_id":0,"guest_user_id":"62ced845eb1a76d6","merchant_inventry_id":388,"item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)","number_of_item":1,"created_date":"2022-05-28 14:50:26"},"586":{"id":21784,"user_id":0,"guest_user_id":"62ced845eb1a76d6","merchant_inventry_id":586,"item_name":"Apple - Fruit Juice(Apple - Fruit Juice)","number_of_item":1,"created_date":"2022-06-15 17:04:05"}},"productDetails":{"status":"success","data":{"388":{"id":388,"price":"7.20","product_id":516,"merchant_id":3,"store_id":2,"merchant_product_code":"7501056349","product_name":"Pink\/Rosa Beauty Bathing Bar","product_desc":"Ordinary soaps strip your skin of its natural moisture, leaving it dry and rough. Dove Pink\/Rosa Beauty Bathing Bar is different. It leaves your skin glowing by retaining your skin\u2019s natural moisture rather than stripping it away.\r\nWith its 1\/4 moisturising cream formula, you can now start your moisturising regime in the shower itself. This gentle cleansing formula gives you softer, smoother and glowing skin. It\u2019s mild enough to be used on your face, body and hands. Add it to your skin care routine and see the tender love and care it leaves your skin with.We think that skin cleansing should be an act of beauty for your skin that leaves it feeling soft and cared for. And Dove Pink\/Rosa Beauty Bar also has a delicate blush of colour that adds a touch of feminine sophistication to your bathroom. Combined with our 1\/4 moisturizing cream, Dove Pink Beauty Bar helps nourish your skin during washing. Dove Pink\/Rosa Beauty Bathing Bar are specially formulated to deliver skin natural nouris","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"{\"Ingredients\":\"Sodium Lauroyl Isethionate Stearic Acid , Sodium Palmitate, Water, Lauric Acid, Sodium Isethionate, Sodium Stearate, Cocamidopropyl Betaine, Sodium Palm Kernelate, Glycerin, Perfume, Sodium Chloride, Zinc Oxide, Propylene Glycol, Tetrasodium EDTA, Tetrasodium Etidronate, Alumlna, Titanlum Diaoxide, Alpha Isomethyl Ionone, Butylphenyl Mythylproplonal, Citronellol, Coumarin, Hexyl Clnnamal, Limonene, Linalool, CI 14700, CI 17200\",\"Preparation and Usage\":\"First, wet your hands and then rub the Dove Pink\\\/Rosa Beauty Bathing Bar gently between them until the bar lathers up. Massage the lather over your body before rinsing with warm water. \"}","brand_name":"Dove","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"0.70","unit":"gm","quantity":135,"tax_value":"3"},"586":{"id":586,"price":"12.99","product_id":870,"merchant_id":4,"store_id":4,"merchant_product_code":"X951   ","product_name":"Apple - Fruit Juice","product_desc":"Retreat from today\u2019s busy lifestyle with pure and refreshing indulgence from Mother Nature. Ceres has enriched 8 flavours in the 100% fruit juice range with fruit cells, letting you savour the moment and experience more of nature\u2019s goodness. Presented in sleek new packaging, the range is an oasis of flavour and texture, providing simplicity and clarity with every sip.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Storage Instructions\":\"Store in cool dry place away from direct sunlight.\",\"Shelf Life\":\"12-Month shelf life\"}","brand_name":"Ceres","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"516":[{"id":469,"type":"product","image_id":516,"image_name":"516_1537896204.jpg"}],"870":[{"id":795,"type":"product","image_id":870,"image_name":"870_1545115051.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 16:14:09
+{"method":"getitemintocart","guest_user_id":"4175cadff0adc931"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-22 16:32:00
+{"method":"getitemintocart","guest_user_id":"0cfe37b77130cef8"}
+ Response :- 
+{"status":"success","data":{"233":{"id":21839,"user_id":0,"guest_user_id":"0cfe37b77130cef8","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-06-22 01:35:33"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-22 19:05:50
+{"method":"getitemintocart","guest_user_id":"eae0d60f1ef3052d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

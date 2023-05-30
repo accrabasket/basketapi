@@ -1,0 +1,5 @@
+
+ Request - 2021-07-25 19:54:42
+{"method":"addeditdeliveryaddress","house_number":"cs66","area":"","street_detail":"Assin fosu","contact_name":"Qweku","city_name":"N8, Ghana","city_id":"1","lat":"5.8286376","long":"-1.3106891","user_id":"3331","address_nickname":"Nana Ba Suspect","landmark":"Fosu","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":498}}

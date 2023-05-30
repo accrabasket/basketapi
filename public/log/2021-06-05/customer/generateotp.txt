@@ -1,0 +1,17 @@
+
+ Request - 2021-06-05 10:39:18
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"085881217506"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233085881217506","otp_type":"register","user_id":"0","otp":6582,"expiry_date":"2021-06-05 10:54:18"}}
+ Request - 2021-06-05 10:39:31
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"085881217506"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233085881217506","otp_type":"register","user_id":"0","otp":3611,"expiry_date":"2021-06-05 10:54:31"}}
+ Request - 2021-06-05 10:39:34
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"085881217506"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233085881217506","otp_type":"register","user_id":"0","otp":8906,"expiry_date":"2021-06-05 10:54:34"}}
+ Request - 2021-06-05 10:40:33
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"085881217506"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233085881217506","otp_type":"register","user_id":"0","otp":1763,"expiry_date":"2021-06-05 10:55:33"}}

@@ -1,0 +1,37 @@
+
+ Request - 2021-03-24 10:32:08
+{"method":"getCityIdByAddressOrLatLng","address":"Accra, Ghana","lat":"5.6037168","lng":"-0.1869644"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Accra, Ghana"}}
+ Request - 2021-03-24 12:11:58
+{"method":"getCityIdByAddressOrLatLng","address":"Kraków, Poland","lat":"50.06465009999999","lng":"19.9449799"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"epkk taxi way [new], Krak\u00f3w, Poland"}}
+ Request - 2021-03-24 12:55:14
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Accra, Ghana","lat":"5.5868299","lng":"-0.0908855"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Accra, Ghana"}}
+ Request - 2021-03-24 13:05:01
+{"method":"getCityIdByAddressOrLatLng","address":"Sunyani, Ghana","lat":"7.3349414","lng":"-2.312303099999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sunyani, Ghana"}}
+ Request - 2021-03-24 13:12:04
+{"method":"getCityIdByAddressOrLatLng","address":"Sunyani West District, Ghana","lat":"7.3514268","lng":"-2.3834158"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sunyani West District, Ghana"}}
+ Request - 2021-03-24 13:12:16
+{"method":"getCityIdByAddressOrLatLng","address":"Sunyani West District, Ghana","lat":"7.3514268","lng":"-2.3834158"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sunyani West District, Ghana"}}
+ Request - 2021-03-24 19:37:42
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kasoa, Ghana","lat":"5.5020406","lng":"-0.4353512"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kasoa, Ghana"}}
+ Request - 2021-03-24 19:37:43
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kasoa, Ghana","lat":"5.5020406","lng":"-0.4353512"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kasoa, Ghana"}}
+ Request - 2021-03-24 20:40:55
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Burkina Faso","lat":"11.7361638","lng":"-0.651369"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Burkina Faso"}}

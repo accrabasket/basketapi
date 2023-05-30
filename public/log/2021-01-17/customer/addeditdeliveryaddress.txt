@@ -1,0 +1,5 @@
+
+ Request - 2021-01-17 09:55:15
+{"method":"addeditdeliveryaddress","house_number":"G-50","area":"","street_detail":"dwaboronoso atreet","contact_name":"Mark","city_name":"202 N8, Foso, Ghana","city_id":"1","lat":"5.7045732","long":"-1.2854571","user_id":"1736","address_nickname":"OTF","landmark":"assin","zipcode":"1234"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":368}}

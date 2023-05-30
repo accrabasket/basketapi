@@ -1,0 +1,13 @@
+
+ Request - 2021-02-21 08:59:06
+{"method":"login","email":"1","password":"1","fcm_reg_id":"eMIWKb2TwI4:APA91bGzVKtQghhqw2b6kYtrz4ebcWXcUEYbrdbGavDz5M_FuhrpYdIqn31NPGjtd3lazWHXF8RWoN9I0M80d5ei7SkCK_HcJ0viYHzVg1m4zt97UsoInJ098OrEeCtvQn6GzkCjNw6E"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-02-21 08:59:21
+{"method":"login","email":"1KojoDaniel","password":"1","fcm_reg_id":"eMIWKb2TwI4:APA91bGzVKtQghhqw2b6kYtrz4ebcWXcUEYbrdbGavDz5M_FuhrpYdIqn31NPGjtd3lazWHXF8RWoN9I0M80d5ei7SkCK_HcJ0viYHzVg1m4zt97UsoInJ098OrEeCtvQn6GzkCjNw6E"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-02-21 08:59:24
+{"method":"login","email":"1KojoDaniel","password":"1","fcm_reg_id":"eMIWKb2TwI4:APA91bGzVKtQghhqw2b6kYtrz4ebcWXcUEYbrdbGavDz5M_FuhrpYdIqn31NPGjtd3lazWHXF8RWoN9I0M80d5ei7SkCK_HcJ0viYHzVg1m4zt97UsoInJ098OrEeCtvQn6GzkCjNw6E"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

@@ -1,0 +1,9 @@
+
+ Request - 2021-04-12 06:08:11
+{"method":"updatecart","user_id":"2377","guest_user_id":"957d64f8c4bd6ff3"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-04-12 17:07:19
+{"method":"updatecart","user_id":"2377"}
+ Response :- 
+{"status":"fail","msg":"Please enter guest user id"}

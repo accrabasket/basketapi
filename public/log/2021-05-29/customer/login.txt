@@ -1,0 +1,9 @@
+
+ Request - 2021-05-29 15:00:31
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234Mahesh"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-05-29 15:00:44
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"ffbf1c5818fe6b9edf8dc72ac463e12e","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"fUkYoGZpFs4:APA91bEcMczRyLOmSj8smq-qV4D57fHs5xcbVXzlCuVkewh28lww3Gvk_jDdJrzABDbSTSOTj-Yu-LkEVQ0-NO8qm53hMz02OYVLaE5hPcXFq4GVjrE1pAx3R3jBY9fbld-4UIs89boS","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2021-05-03 16:59:31","status":""}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}

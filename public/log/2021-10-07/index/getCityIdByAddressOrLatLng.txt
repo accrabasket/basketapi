@@ -1,0 +1,17 @@
+
+ Request - 2021-10-07 11:21:02
+{"method":"getCityIdByAddressOrLatLng","address":"Av. de La Fraternité, Bouaké, Côte d'Ivoire","lat":"7.6805012","lng":"-5.0382406"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MXJ6+6P Bouake, C\u00f4te d'Ivoire"}}
+ Request - 2021-10-07 18:13:17
+{"method":"getCityIdByAddressOrLatLng","address":"2V7Q+C25, Amman, Jordan","lat":"32.0136924","lng":"35.8877311"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2V7Q+C25, Amman, Jordan"}}
+ Request - 2021-10-07 22:20:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, مركز الدلنجات، البحيرة، مصر","lat":"30.4573835","lng":"30.7821448"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Markaz Ad Delingat, El Beheira Governorate, Egypt"}}
+ Request - 2021-10-07 22:43:12
+{"method":"getCityIdByAddressOrLatLng","address":"2542 Monterey Rd, San Jose, CA 95111, États-Unis","lat":"37.2980813","lng":"-121.8540497"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2542 Monterey Rd, San Jose, CA 95111, USA"}}

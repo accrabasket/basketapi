@@ -1,0 +1,9 @@
+
+ Request - 2021-03-15 19:16:50
+{"method":"assignedordertorider","order_status":"current_order","user_id":"24"}
+ Response :- 
+{"status":"fail","msg":"No Record Found"}
+ Request - 2021-03-15 19:16:51
+{"method":"assignedordertorider","order_status":"dispatched","user_id":"24"}
+ Response :- 
+{"status":"fail","msg":"No Record Found"}

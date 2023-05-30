@@ -1,0 +1,29 @@
+
+ Request - 2023-04-30 07:03:34
+{"method":"getCityIdByAddressOrLatLng","address":"HM4Q+25V, Kellampalli, Andhra Pradesh 523240, India","lat":"15.5549657","lng":"79.6886222"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-30 07:03:34
+{"method":"getCityIdByAddressOrLatLng","address":"HM4Q+25V, Kellampalli, Andhra Pradesh 523240, India","lat":"15.5549657","lng":"79.6886222"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-30 09:52:47
+{"method":"getCityIdByAddressOrLatLng","address":"9HM8+QVM, Wedza, Zimbabwe","lat":"-18.615601","lng":"31.5689312"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-30 13:59:43
+{"method":"getCityIdByAddressOrLatLng","address":"452V+JF7, ထားဝယ်, မြန်မာ","lat":"14.1007561","lng":"98.1934611"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-30 13:59:49
+{"method":"getCityIdByAddressOrLatLng","address":"452V+JF7, ထားဝယ်, မြန်မာ","lat":"14.1007561","lng":"98.1934611"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-30 15:54:55
+{"method":"getCityIdByAddressOrLatLng","address":"3536+Q2Q, R. Direita do BFA, Belas, Angola","lat":"-8.9457004","lng":"13.1598954"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-30 17:11:52
+{"method":"getCityIdByAddressOrLatLng","address":"Kadugli, Sudan","lat":"10.7042278","lng":"30.073676"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

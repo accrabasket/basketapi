@@ -1,0 +1,5 @@
+
+ Request - 2021-09-04 08:22:10
+{"method":"addtocart","guest_user_id":"3da53acf2646912f","number_of_item":"1","merchant_inventry_id":"350","action":"add","item_name":"Tea Masala(Tea Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

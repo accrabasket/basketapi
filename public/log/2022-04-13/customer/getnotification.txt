@@ -1,0 +1,17 @@
+
+ Request - 2022-04-13 09:14:00
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7071,"subject":"Order cancelled","msg":"Order order_P_314 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-04-05 19:35:13","updated_date":null},{"id":7069,"subject":"Order placed","msg":"New Order order_P_314 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-04-04 08:17:11","updated_date":null},{"id":7067,"subject":"Order placed","msg":"New Order order_P_313 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-04-04 07:49:19","updated_date":null},{"id":7066,"subject":"Order cancelled","msg":"Order order_P_265 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-04-04 07:11:40","updated_date":null},{"id":7065,"subject":"Order cancelled","msg":"Order order_P_312 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-04-04 07:11:06","updated_date":null},{"id":7063,"subject":"Order placed","msg":"New Order order_P_312 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-04-03 20:41:32","updated_date":null},{"id":7061,"subject":"Order placed","msg":"New Order order_m15_98 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-30 17:11:28","updated_date":null},{"id":7059,"subject":"Order placed","msg":"New Order order_m15_97 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-30 17:04:30","updated_date":null},{"id":7057,"subject":"Order placed","msg":"New Order order_m4_822 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-30 16:08:41","updated_date":null},{"id":7055,"subject":"Order placed","msg":"New Order order_m15_96 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-30 14:17:01","updated_date":null}],"totalRecord":13}
+ Request - 2022-04-13 09:15:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-04-13 09:16:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-04-13 09:17:01
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

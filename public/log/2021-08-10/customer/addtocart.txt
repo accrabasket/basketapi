@@ -1,0 +1,13 @@
+
+ Request - 2021-08-10 17:31:33
+{"method":"addtocart","guest_user_id":"af0dcd58aea50472","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-10 17:31:36
+{"method":"addtocart","guest_user_id":"af0dcd58aea50472","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-10 17:31:37
+{"method":"addtocart","guest_user_id":"af0dcd58aea50472","number_of_item":"1","merchant_inventry_id":"388","action":"add","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

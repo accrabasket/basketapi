@@ -1,0 +1,13 @@
+
+ Request - 2021-12-23 00:55:12
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Jaksa Agung Suprapto No.86, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia","lat":"-7.1594942","lng":"112.6489397"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Jaksa Agung Suprapto No.86, Ngipik, Karangpoh, Kec. Gresik, Kabupaten Gresik, Jawa Timur 61118, Indonesia"}}
+ Request - 2021-12-23 08:14:37
+{"method":"getCityIdByAddressOrLatLng","address":"Abuja-Keffi Rd, 961105, Asokoro, Nigeria","lat":"9.0028685","lng":"7.6729543"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Abuja-Keffi Rd, 961105, Asokoro, Nigeria"}}
+ Request - 2021-12-23 20:08:07
+{"method":"getCityIdByAddressOrLatLng","address":"PV6V+HH2, Wenchi, Ghana","lat":"7.7122489","lng":"-2.1062149"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PV6V+HH2, Wenchi, Ghana"}}

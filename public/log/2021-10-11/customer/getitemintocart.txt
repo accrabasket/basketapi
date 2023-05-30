@@ -1,0 +1,25 @@
+
+ Request - 2021-10-11 02:33:06
+{"method":"getitemintocart","guest_user_id":"13e2acf947d34323"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-11 11:25:28
+{"method":"getitemintocart","guest_user_id":"ec628f16a323d56f"}
+ Response :- 
+{"status":"success","data":{"1004":{"id":17490,"user_id":0,"guest_user_id":"ec628f16a323d56f","merchant_inventry_id":1004,"item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )","number_of_item":1,"created_date":"2021-10-07 18:14:21"}},"productDetails":{"status":"success","data":{"1004":{"id":1004,"price":"6.99","product_id":1287,"merchant_id":4,"store_id":4,"merchant_product_code":"74978","product_name":"Cassava Flour Kokonte  ","product_desc":"Meannan Foods was founded in 2005 to encourage and facilitate the production, processing, packaging and marketing of quality Ghanaian food, with special focus on locally produced EGGs. The local food value-chain in promotion is pursued in the most efficient and cost effective manner to ensure access and availability to users and also provide ready market for small-scale Agro and poultry farmers. Meannan Foods can be located in Tema.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"Meannan","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":750,"tax_value":"3"}},"productImageData":{"1287":[{"id":1564,"type":"product","image_id":1287,"image_name":"74978.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-11 13:01:41
+{"method":"getitemintocart","guest_user_id":"ce14212113aeb3ab"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-11 13:05:43
+{"method":"getitemintocart","guest_user_id":"39136cada1e7b5f4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-11 13:06:28
+{"method":"getitemintocart","guest_user_id":"39136cada1e7b5f4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-11 13:30:00
+{"method":"getitemintocart","guest_user_id":"ce14212113aeb3ab"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

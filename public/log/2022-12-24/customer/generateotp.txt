@@ -1,0 +1,5 @@
+
+ Request - 2022-12-24 19:01:18
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"9631574725"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2339631574725","otp_type":"register","user_id":"0","otp":8930,"expiry_date":"2022-12-24 19:16:18"}}

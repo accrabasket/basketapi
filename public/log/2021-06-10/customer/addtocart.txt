@@ -1,0 +1,13 @@
+
+ Request - 2021-06-10 04:25:49
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"659","action":"delete","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-10 04:25:54
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-10 04:26:08
+{"method":"addtocart","guest_user_id":"4ec91e117d0c362d","number_of_item":"1","merchant_inventry_id":"2723","action":"add","item_name":"Apple Pear(Apple Pear)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

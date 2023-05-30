@@ -1,0 +1,5 @@
+
+ Request - 2021-03-14 05:42:01
+{"delivery_date":"2021-03-14","time_slot_id":"1","shipping_address_id":"1","payment_type":"cash_on_delevery","payableAmount":"20","user_id":1,"method":"placeorder"}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m1_1"}}

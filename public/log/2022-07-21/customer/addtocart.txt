@@ -1,0 +1,17 @@
+
+ Request - 2022-07-21 05:54:47
+{"method":"addtocart","guest_user_id":"f5397ca1848bc80a","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-21 05:54:51
+{"method":"addtocart","guest_user_id":"f5397ca1848bc80a","number_of_item":"1","merchant_inventry_id":"732","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-21 08:12:49
+{"method":"addtocart","guest_user_id":"eec9db7ab6744b5d","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-21 08:13:03
+{"method":"addtocart","guest_user_id":"eec9db7ab6744b5d","number_of_item":"1","merchant_inventry_id":"3459","action":"add","item_name":"Growing Up Milk(Growing Up Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

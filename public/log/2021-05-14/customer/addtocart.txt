@@ -1,0 +1,45 @@
+
+ Request - 2021-05-14 07:04:39
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:04:44
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:04:47
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:04:59
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:05:01
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:05:11
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:05:15
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:06:14
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"233","action":"delete","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:06:17
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:06:21
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-14 07:06:34
+{"method":"addtocart","guest_user_id":"494b249e1b95599d","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

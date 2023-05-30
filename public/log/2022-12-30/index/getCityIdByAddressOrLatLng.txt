@@ -1,0 +1,13 @@
+
+ Request - 2022-12-30 16:47:38
+{"method":"getCityIdByAddressOrLatLng","address":"200 Kampala - Entebbe Rd, Entebbe, Uganda","lat":"0.0889832","lng":"32.4893559"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"200 Kampala - Entebbe Rd, Entebbe, Uganda"}}
+ Request - 2022-12-30 17:26:24
+{"method":"getCityIdByAddressOrLatLng","address":"7RP8+MF3, Girga, Sohag Governorate 1621427، مصر","lat":"26.286158333333333","lng":"31.815708333333337"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7RP8+MF3, Girga, Sohag Governorate 1621427, Egypt"}}
+ Request - 2022-12-30 20:01:36
+{"method":"getCityIdByAddressOrLatLng","address":"7XGF+W8F, 100 St, Kuwait City, Kuwait","lat":"29.2767101","lng":"47.9731946"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7XGF+W8F, 100 St, Kuwait City, Kuwait"}}

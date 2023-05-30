@@ -1,0 +1,29 @@
+
+ Request - 2021-05-09 01:56:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Méréto, Sénégal","lat":"13.8473514","lng":"-14.4808828"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, M\u00e9r\u00e9to, Senegal"}}
+ Request - 2021-05-09 07:59:48
+{"method":"getCityIdByAddressOrLatLng","address":"63 Nicholas Dr E, Des Plaines, IL 60016, USA","lat":"42.0491638","lng":"-87.9016091"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"63 Nicholas Dr E, Des Plaines, IL 60016, USA"}}
+ Request - 2021-05-09 08:02:19
+{"method":"getCityIdByAddressOrLatLng","address":"63 Nicholas Dr E, Des Plaines, IL 60016, USA","lat":"42.0491599","lng":"-87.9015872"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"63 Nicholas Dr E, Des Plaines, IL 60016, USA"}}
+ Request - 2021-05-09 08:02:27
+{"method":"getCityIdByAddressOrLatLng","address":"43 Nicholas Dr E, Des Plaines, IL 60016, USA","lat":"42.0491748","lng":"-87.901595"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"43 Nicholas Dr E, Des Plaines, IL 60016, USA"}}
+ Request - 2021-05-09 12:27:05
+{"method":"getCityIdByAddressOrLatLng","address":"شارع مسجد مصعب، منيا القمح، مركز منيا القمح، الشرقية، مصر","lat":"30.5177172","lng":"31.3413413"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Masgeed Mosaeb St, Manyat Al Kamh, Minya El Qamh, Ash Sharqia Governorate, Egypt"}}
+ Request - 2021-05-09 20:38:55
+{"method":"getCityIdByAddressOrLatLng","address":"Swabi - Jahangira Rd, Maneri Payan, Swabi, Khyber Pakhtunkhwa, Pakistan","lat":"34.1184058","lng":"72.465202"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Swabi - Jahangira Rd, Maneri Payan, Swabi, Khyber Pakhtunkhwa, Pakistan"}}
+ Request - 2021-05-09 21:53:52
+{"method":"getCityIdByAddressOrLatLng","address":"168 Avenue de la Révolution, Pointe-Noire, République du Congo","lat":"-4.7892863","lng":"11.8721204"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"168 Avenue de la R\u00e9volution, Pointe-Noire, Republic of the Congo"}}

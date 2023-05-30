@@ -1,0 +1,41 @@
+
+ Request - 2021-03-14 05:35:38
+{"email":"rahul123@yopmail.com","password":"123","method":"login"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"name":"Rahul","mobile_number":"434874444","email":"rahul123@yopmail.com","key":"4f753f577e46e003022a5bc286028bea","password":"202cb962ac59075b964b07152d234b70","fcm_reg_id":"","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-14 05:35:04","updated_date":"2021-03-14 05:35:04","status":"1"}},"totalNumberOfUser":1,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+ Request - 2021-03-14 08:09:35
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-14 08:09:40
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-14 08:09:49
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-14 08:09:57
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-14 08:10:47
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"success","data":{"2130":{"id":2130,"name":"Aminat Busari","mobile_number":"274282523","email":"modeminabusari@gmail.com","key":"5634e60d19b41faf0ea81d85cce74de7","password":"e07b8e7f62a4d150f1bb04be432c02b0","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-14 08:10:36","updated_date":"2021-03-14 08:10:36","status":"1"}},"totalNumberOfUser":1,"wallet_key":"e07b8e7f62a4d150f1bb04be432c02b0"}
+ Request - 2021-03-14 08:10:50
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"success","data":{"2130":{"id":2130,"name":"Aminat Busari","mobile_number":"274282523","email":"modeminabusari@gmail.com","key":"5634e60d19b41faf0ea81d85cce74de7","password":"e07b8e7f62a4d150f1bb04be432c02b0","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-14 08:10:36","updated_date":"2021-03-14 08:10:36","status":"1"}},"totalNumberOfUser":1,"wallet_key":"e07b8e7f62a4d150f1bb04be432c02b0"}
+ Request - 2021-03-14 08:11:05
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"success","data":{"2130":{"id":2130,"name":"Aminat Busari","mobile_number":"274282523","email":"modeminabusari@gmail.com","key":"5634e60d19b41faf0ea81d85cce74de7","password":"e07b8e7f62a4d150f1bb04be432c02b0","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-14 08:10:36","updated_date":"2021-03-14 08:10:36","status":"1"}},"totalNumberOfUser":1,"wallet_key":"e07b8e7f62a4d150f1bb04be432c02b0"}
+ Request - 2021-03-14 08:11:17
+{"method":"login","email":"modeminabusari@gmail.com","password":"modesola","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx"}
+ Response :- 
+{"status":"success","data":{"2130":{"id":2130,"name":"Aminat Busari","mobile_number":"274282523","email":"modeminabusari@gmail.com","key":"5634e60d19b41faf0ea81d85cce74de7","password":"e07b8e7f62a4d150f1bb04be432c02b0","fcm_reg_id":"frEjhm6QIck:APA91bGvHH2q4YwNOFDdAdwqra1zL7FUnH76l2D81sAqfFAkweTe4BRDP9BQFnDUrKdldQ0XP4p19mCv4MjPdYNkCxWiYQ3lyQgYzMU11yiNPA8Ls_1_h1alF11uRGZWVF5QE0ZWNQtx","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-03-14 08:10:36","updated_date":"2021-03-14 08:10:36","status":"1"}},"totalNumberOfUser":1,"wallet_key":"e07b8e7f62a4d150f1bb04be432c02b0"}
+ Request - 2021-03-14 13:11:16
+{"email":"ashish23.sept@gmail.com","password":"123","method":"login"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

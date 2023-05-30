@@ -1,0 +1,25 @@
+
+ Request - 2023-04-18 00:43:54
+{"method":"getCityIdByAddressOrLatLng","address":"Goirkestraat 96, 5046 GN Tilburg, Netherlands","lat":"51.570852","lng":"5.079463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-18 00:44:13
+{"method":"getCityIdByAddressOrLatLng","address":"55 Centre Ave, Toronto, ON M5G 2H5, Canada","lat":"43.6545057","lng":"-79.3867448"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-18 00:44:36
+{"method":"getCityIdByAddressOrLatLng","address":"Textorstraße, Frankfurt am Main, Germany","lat":"50.1007847","lng":"8.684271299999999"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-18 00:44:56
+{"method":"getCityIdByAddressOrLatLng","address":"200 Jln Sultan, Singapore 199018","lat":"1.3036547","lng":"103.8612408"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-18 04:29:08
+{"method":"getCityIdByAddressOrLatLng","address":"Goirkestraat 96, 5046 GN Tilburg, Netherlands","lat":"51.570852","lng":"5.079463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-18 04:29:38
+{"method":"getCityIdByAddressOrLatLng","address":"55 Centre Ave, Toronto, ON M5G 2H5, Canada","lat":"43.6545057","lng":"-79.3867448"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

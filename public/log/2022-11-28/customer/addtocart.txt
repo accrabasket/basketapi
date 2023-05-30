@@ -1,0 +1,21 @@
+
+ Request - 2022-11-28 01:33:02
+{"method":"addtocart","guest_user_id":"1f31982858fd7a89","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-28 01:33:15
+{"method":"addtocart","guest_user_id":"1f31982858fd7a89","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-28 01:33:16
+{"method":"addtocart","guest_user_id":"1f31982858fd7a89","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-28 01:33:37
+{"method":"addtocart","guest_user_id":"1f31982858fd7a89","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-28 01:33:41
+{"method":"addtocart","guest_user_id":"1f31982858fd7a89","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,21 @@
+
+ Request - 2021-02-11 02:42:19
+{"method":"getCityIdByAddressOrLatLng","address":"76 Philip St, Freetown, Sierra Leone","lat":"8.4425161","lng":"-13.1688081"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"76 Philip St, Freetown, Sierra Leone"}}
+ Request - 2021-02-11 02:42:25
+{"method":"getCityIdByAddressOrLatLng","address":"76 Philip St, Freetown, Sierra Leone","lat":"8.4425161","lng":"-13.1688081"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"76 Philip St, Freetown, Sierra Leone"}}
+ Request - 2021-02-11 13:34:49
+{"method":"getCityIdByAddressOrLatLng","address":"Izmir, İzmir, Turquie","lat":"38.423734","lng":"27.142826"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0130smet Kaptan, 9 Eyl\u00fcl Meydan\u0131 No:3, 35210 Konak\/\u0130zmir, Turkey"}}
+ Request - 2021-02-11 17:58:25
+{"method":"getCityIdByAddressOrLatLng","address":"N21, Koudougou, Burkina Faso","lat":"12.2537376","lng":"-2.3779013"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N21, Koudougou, Burkina Faso"}}
+ Request - 2021-02-11 23:02:21
+{"method":"getCityIdByAddressOrLatLng","address":"Park Ave, Accra, Ghana","lat":"5.5959086","lng":"-0.0875682"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Park Ave, Accra, Ghana"}}

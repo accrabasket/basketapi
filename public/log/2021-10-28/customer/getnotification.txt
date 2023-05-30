@@ -1,0 +1,5 @@
+
+ Request - 2021-10-28 01:56:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6860,"subject":"Order cancelled","msg":"Order order_P_289 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-10-22 16:33:23","updated_date":null}],"totalRecord":1}

@@ -1,0 +1,5 @@
+
+ Request - 2022-01-24 15:16:59
+{"method":"getCityIdByAddressOrLatLng","address":"Zero Avenue de Musicien, Kisangani, République démocratique du Congo","lat":"0.5213488","lng":"25.1987349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G5CX+GF Kisangani, Democratic Republic of the Congo"}}

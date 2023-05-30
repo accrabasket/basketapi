@@ -1,0 +1,17 @@
+
+ Request - 2021-02-05 15:56:09
+{"method":"addtocart","guest_user_id":"2e3702d97955282f","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-05 15:56:12
+{"method":"addtocart","guest_user_id":"2e3702d97955282f","number_of_item":"1","merchant_inventry_id":"215","action":"delete","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-05 20:24:18
+{"method":"addtocart","guest_user_id":"7cb568334d95ba56","number_of_item":"1","merchant_inventry_id":"3203","action":"add","item_name":"Original Steak Sauce(Original Steak Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-05 20:24:30
+{"method":"addtocart","guest_user_id":"7cb568334d95ba56","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

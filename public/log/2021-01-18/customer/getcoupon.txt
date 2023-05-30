@@ -1,0 +1,13 @@
+
+ Request - 2021-01-18 15:18:49
+{"method":"getcoupon","user_id":"1736","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-01-18 15:20:19
+{"method":"getcoupon","user_id":"1736","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-01-18 15:23:04
+{"method":"getcoupon","user_id":"1736","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

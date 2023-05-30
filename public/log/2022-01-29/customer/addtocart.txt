@@ -1,0 +1,25 @@
+
+ Request - 2022-01-29 20:28:07
+{"method":"addtocart","guest_user_id":"5d3d2e6792ff314c","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-29 20:28:55
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-01-29 22:55:33
+{"method":"addtocart","guest_user_id":"2c251291281b3e53","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-29 22:55:40
+{"method":"addtocart","guest_user_id":"2c251291281b3e53","number_of_item":"1","merchant_inventry_id":"820","action":"add","item_name":"Anneleen Apple Non-Alcoholic Drink(Anneleen Apple Non-Alcoholic Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-29 22:55:49
+{"method":"addtocart","guest_user_id":"2c251291281b3e53","number_of_item":"1","merchant_inventry_id":"848","action":"add","item_name":"Red Communion Wine(Red Communion Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-29 22:57:29
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

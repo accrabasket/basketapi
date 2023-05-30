@@ -1,0 +1,17 @@
+
+ Request - 2023-02-04 10:05:19
+{"method":"getCityIdByAddressOrLatLng","address":"JQV6+MXG, St Johns - Dome - Kwabenya - Brekusu Rd, Taifa, Ghana","lat":"5.6443","lng":"-0.2376387"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JQV6+MXG, St Johns - Dome - Kwabenya - Brekusu Rd, Taifa, Ghana"}}
+ Request - 2023-02-04 12:02:14
+{"method":"getCityIdByAddressOrLatLng","address":"Man, Côte d'Ivoire","lat":"7.549553333333334","lng":"-7.118726666666666"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-04 12:02:29
+{"method":"getCityIdByAddressOrLatLng","address":"Man, Côte d'Ivoire","lat":"7.549553333333334","lng":"-7.118726666666666"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-04 12:02:31
+{"method":"getCityIdByAddressOrLatLng","address":"Man, Côte d'Ivoire","lat":"7.549553333333334","lng":"-7.118726666666666"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

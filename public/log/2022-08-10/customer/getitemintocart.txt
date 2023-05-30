@@ -1,0 +1,45 @@
+
+ Request - 2022-08-10 04:34:56
+{"method":"getitemintocart","guest_user_id":"8904908e08d01fcb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 06:29:17
+{"method":"getitemintocart","guest_user_id":"40479942e675b372"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 11:48:27
+{"method":"getitemintocart","guest_user_id":"6c2ed82bd5844111"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 11:48:30
+{"method":"getitemintocart","guest_user_id":"6c2ed82bd5844111"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 16:05:39
+{"method":"getitemintocart","guest_user_id":"400640e4c19e6dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 16:47:29
+{"method":"getitemintocart","guest_user_id":"0a1d94c0700672d7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 17:10:44
+{"method":"getitemintocart","guest_user_id":"2ccc57cfdb5c5423"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 17:24:17
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"success","data":{"3479":{"id":22243,"user_id":0,"guest_user_id":"f9bdb3f682132c7b","merchant_inventry_id":3479,"item_name":"Hand Sanitizer(Hand Sanitizer)","number_of_item":1,"created_date":"2022-08-05 10:29:22"}},"productDetails":{"status":"success","data":{"3479":{"id":3479,"price":"26.00","product_id":3943,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Hand Sanitizer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Beak & Skiff","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":150,"tax_value":null}},"productImageData":{"3943":[{"id":5023,"type":"product","image_id":3943,"image_name":"OSU1234.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-10 18:30:52
+{"method":"getitemintocart","guest_user_id":"3742bca957ee6e4e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 18:44:40
+{"method":"getitemintocart","guest_user_id":"95418f6b984c1a62"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-10 18:46:43
+{"method":"getitemintocart","guest_user_id":"95418f6b984c1a62"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

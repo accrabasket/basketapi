@@ -1,0 +1,9 @@
+
+ Request - 2021-06-12 11:42:50
+{"method":"addeditdeliveryaddress","house_number":"69","area":"","street_detail":"Nii Nortei Nyanchi","contact_name":"Eberhard Messer","city_name":"N1, Accra, Ghana","city_id":"1","lat":"5.6181862","long":"-0.1892905","user_id":"2715","address_nickname":"Luxor Garden Arartments","landmark":"Apart 3A","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":472}}
+ Request - 2021-06-12 11:43:22
+{"method":"addeditdeliveryaddress","house_number":"69","area":"","street_detail":"Nii Nortei Nyanchi","contact_name":"Eberhard Messer","city_name":"N1, Accra, Ghana","city_id":"1","lat":"5.6181862","long":"-0.1892905","user_id":"2715","address_nickname":"Luxor Garden Apartments","landmark":"Apart 3A","zipcode":"","id":"472"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

@@ -1,0 +1,17 @@
+
+ Request - 2021-07-06 03:26:17
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Khairahi, Uttar Pradesh 271201, India","lat":"27.4103188","lng":"82.101475"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Khairahi, Uttar Pradesh 271201, India"}}
+ Request - 2021-07-06 06:42:32
+{"method":"getCityIdByAddressOrLatLng","address":"SH 15, Gobichettipalayam, Tamil Nadu 638476, India","lat":"11.453504","lng":"77.4492217"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"SH 15, Gobichettipalayam, Tamil Nadu 638476, India"}}
+ Request - 2021-07-06 08:30:01
+{"method":"getCityIdByAddressOrLatLng","address":"Golani Bus Stop, Dar es Salaam, Tanzania","lat":"-6.7898192","lng":"39.1512787"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Golani Bus Stop, Dar es Salaam, Tanzania"}}
+ Request - 2021-07-06 09:19:55
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"6.5191748","lng":"-1.9615096"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

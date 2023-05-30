@@ -1,0 +1,21 @@
+
+ Request - 2022-10-12 00:32:39
+{"method":"getCityIdByAddressOrLatLng","address":"Suite 18,IPMAN Secretariat Complex, Ppmc Depot, 300104, Nigeria","lat":"6.3430223","lng":"5.7018516"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Suite 18,IPMAN Secretariat Complex, Ppmc Depot, 300104, Nigeria"}}
+ Request - 2022-10-12 02:13:04
+{"method":"getCityIdByAddressOrLatLng","address":"HGH4+G9R, Long Cang, Cần Đước, Long An, Việt Nam","lat":"10.5766651","lng":"106.505751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HGG4+M8 C\u1ea7n \u0110\u01b0\u1edbc District, Long An, Vietnam"}}
+ Request - 2022-10-12 02:13:04
+{"method":"getCityIdByAddressOrLatLng","address":"HGH4+G9R, Long Cang, Cần Đước, Long An, Việt Nam","lat":"10.5766651","lng":"106.505751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HGG4+M8 C\u1ea7n \u0110\u01b0\u1edbc District, Long An, Vietnam"}}
+ Request - 2022-10-12 13:17:33
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Lubumbashi, République démocratique du Congo","lat":"-11.6469807","lng":"27.5064706"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9G34+6H Lubumbashi, Democratic Republic of the Congo"}}
+ Request - 2022-10-12 15:48:24
+{"method":"getCityIdByAddressOrLatLng","address":"5XWP+HHW, Quetta, Balochistan, Pakistan","lat":"30.196632","lng":"66.9867291"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5XWP+HHW, Quetta, Balochistan, Pakistan"}}

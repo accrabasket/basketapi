@@ -1,0 +1,9 @@
+
+ Request - 2022-12-15 22:28:34
+{"method":"addtocart","guest_user_id":"d23e17375323a89e","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-15 22:29:02
+{"method":"addtocart","guest_user_id":"d23e17375323a89e","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

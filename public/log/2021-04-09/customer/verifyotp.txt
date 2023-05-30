@@ -1,0 +1,5 @@
+
+ Request - 2021-04-09 17:38:03
+{"method":"verifyotp","country_code":"+233","mobile_number":"548159010","otp_type":"register","otp":"1550"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"4e1b79279fbc1ce9c367e882a79059b3"}}

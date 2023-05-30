@@ -1,0 +1,9 @@
+
+ Request - 2021-04-03 17:29:52
+{"method":"verifyotp","country_code":"+233","mobile_number":"0558241250","otp_type":"register","otp":"6278"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"50e8d1a3e32dc5bed3c7c280ed2c1b45"}}
+ Request - 2021-04-03 17:34:19
+{"method":"verifyotp","country_code":"+233","mobile_number":"0244714367","otp_type":"register","otp":"6278"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

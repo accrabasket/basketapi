@@ -1,0 +1,13 @@
+
+ Request - 2021-08-19 08:29:01
+{"method":"getCityIdByAddressOrLatLng","address":"Rue H143, Abidjan, Côte d'Ivoire","lat":"5.2951221","lng":"-3.9575854"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue H143, Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-08-19 08:58:40
+{"method":"getCityIdByAddressOrLatLng","address":"Sita kund ward 1, Telyani, Uttar Pradesh 261401, India","lat":"27.4347811","lng":"80.4748882"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sita kund ward 1, Telyani, Uttar Pradesh 261401, India"}}
+ Request - 2021-08-19 17:40:55
+{"method":"getCityIdByAddressOrLatLng","address":"4C2J+9R8, Sufaid Sang, Peshawar, Khyber Pakhtunkhwa, Pakistan","lat":"34.100712","lng":"71.4323482"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4C2J+9R8, Sufaid Sang, Peshawar, Khyber Pakhtunkhwa, Pakistan"}}

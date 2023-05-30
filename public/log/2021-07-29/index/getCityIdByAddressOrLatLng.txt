@@ -1,0 +1,9 @@
+
+ Request - 2021-07-29 16:02:28
+{"method":"getCityIdByAddressOrLatLng","address":"Banjuni Rd, Nairobi, Kenya","lat":"-1.2749342","lng":"36.826911"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Banjuni Rd, Nairobi, Kenya"}}
+ Request - 2021-07-29 20:51:48
+{"method":"getCityIdByAddressOrLatLng","address":"Behzadi Chakar Kot Hangu Bypass, Khattak Colony, Kohat, Khyber Pakhtunkhwa, Pakistan","lat":"33.5602412","lng":"71.4514337"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Behzadi Chakar Kot Hangu Bypass, Khattak Colony, Kohat, Khyber Pakhtunkhwa, Pakistan"}}

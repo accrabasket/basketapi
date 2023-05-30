@@ -1,0 +1,5 @@
+
+ Request - 2021-10-26 16:29:43
+{"method":"addedituser","city_id":"1","password":"caroline123","name":"ohene ","email":"assiamahassiamoheneyaw@gmail.com","mobile_number":"0249332947","country_code":"+233","id":"0","fcm_reg_id":"fSTUn5KNXhQ:APA91bGlLj5Oy3jD9vHeXnUwcgmVw2b6BYWWF-XgScIEJ0nCsW_ntPGAuSDpsnV_Xvzno1GZte_8IrZIGfxxs5Ngvp9F6GyiYAOcQJHR5utmjuCV6cY43SsuQs_-0tjQnxJGkvkgmvIm"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233249332947 and registered email id.","data":{"5536":{"id":5536,"name":"ohene ","mobile_number":"249332947","email":"assiamahassiamoheneyaw@gmail.com","key":"e3d0a5d978ee56a80c82816bbec5f350","password":"e8a380a73c615e1c646a203049d02375","fcm_reg_id":"fSTUn5KNXhQ:APA91bGlLj5Oy3jD9vHeXnUwcgmVw2b6BYWWF-XgScIEJ0nCsW_ntPGAuSDpsnV_Xvzno1GZte_8IrZIGfxxs5Ngvp9F6GyiYAOcQJHR5utmjuCV6cY43SsuQs_-0tjQnxJGkvkgmvIm","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-10-26 16:29:43","updated_date":"2021-10-26 16:29:43","status":"1"}}}

@@ -1,0 +1,5 @@
+
+ Request - 2022-05-03 20:05:32
+{"method":"getcoupon","user_id":"8304","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

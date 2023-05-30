@@ -1,0 +1,33 @@
+
+ Request - 2022-11-22 07:56:31
+{"method":"getitemintocart","guest_user_id":"67cd923e67747f6b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-22 12:47:59
+{"method":"getitemintocart","guest_user_id":"1312b62036ef0fab"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-22 12:48:42
+{"method":"getitemintocart","guest_user_id":"1312b62036ef0fab"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":22852,"user_id":0,"guest_user_id":"1312b62036ef0fab","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":1,"created_date":"2022-11-22 12:48:41"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-22 12:48:54
+{"method":"getitemintocart","guest_user_id":"1312b62036ef0fab"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":22852,"user_id":0,"guest_user_id":"1312b62036ef0fab","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":1,"created_date":"2022-11-22 12:48:41"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-22 16:32:49
+{"method":"getitemintocart","guest_user_id":"cc9a293f0167aed1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-22 16:32:49
+{"method":"getitemintocart","guest_user_id":"cc9a293f0167aed1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-22 17:29:07
+{"method":"getitemintocart","guest_user_id":"f815576c7c249595"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-22 19:41:08
+{"method":"getitemintocart","guest_user_id":"73c4908f55d1676a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

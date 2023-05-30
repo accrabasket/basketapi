@@ -1,0 +1,5 @@
+
+ Request - 2022-02-18 10:44:12
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3100","action":"add","item_name":"300 GHC(300 GHC)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

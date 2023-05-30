@@ -1,0 +1,9 @@
+
+ Request - 2022-12-24 18:59:44
+{"method":"login","email":"1","password":"1","fcm_reg_id":"ebivoSD-88g:APA91bFxV_wo8H4eBsJpzMCln8awJ1qmZR3bA6gMCD47RtcnXrl47aMUfFGbmZ-wVWEb8nPidPGLNEfgah1xDCOci15-KAY4XmEnjjQ6pDNq2hrIqq9bm_hyARVsH7sXSoRruddUDe3x"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-12-24 18:59:48
+{"method":"login","email":"1","password":"1","fcm_reg_id":"ebivoSD-88g:APA91bFxV_wo8H4eBsJpzMCln8awJ1qmZR3bA6gMCD47RtcnXrl47aMUfFGbmZ-wVWEb8nPidPGLNEfgah1xDCOci15-KAY4XmEnjjQ6pDNq2hrIqq9bm_hyARVsH7sXSoRruddUDe3x"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

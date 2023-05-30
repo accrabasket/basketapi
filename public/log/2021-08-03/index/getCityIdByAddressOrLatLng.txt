@@ -1,0 +1,9 @@
+
+ Request - 2021-08-03 05:14:54
+{"method":"getCityIdByAddressOrLatLng","address":"Noor Shah Rd, Chak 39\/3.R, Okara, Punjab, Pakistan","lat":"30.8205939","lng":"73.3935195"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Noor Shah Rd, Chak 39\/3.R, Okara, Punjab, Pakistan"}}
+ Request - 2021-08-03 06:09:06
+{"method":"getCityIdByAddressOrLatLng","address":"Chak 53M Rd, Lodhran, Punjab, Pakistan","lat":"29.6913864","lng":"71.4590635"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Chak 53M Rd, Lodhran, Punjab, Pakistan"}}

@@ -1,0 +1,177 @@
+
+ Request - 2022-04-10 12:56:49
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 12:56:57
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"732","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 13:01:37
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"3517","action":"add","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 13:01:40
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"3517","action":"add","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 13:02:23
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"3517","action":"delete","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 13:02:26
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"3517","action":"add","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 13:02:54
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"3459","action":"add","item_name":"Growing Up Milk(Growing Up Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 13:02:58
+{"method":"addtocart","guest_user_id":"eb436011ba605b8e","number_of_item":"1","merchant_inventry_id":"3459","action":"add","item_name":"Growing Up Milk(Growing Up Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:12
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"243","action":"delete","item_name":"Deggi Mirch(Deggi Mirch)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:18
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"267","action":"delete","item_name":"Ground Turmeric (Powder)(Ground Turmeric (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:24
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"294","action":"delete","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:26
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"294","action":"delete","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:30
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"302","action":"delete","item_name":"Poha Rice Flake(Poha Rice Flake)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:40
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"369","action":"delete","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:20:59
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1097","action":"delete","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:03
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1171","action":"delete","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:07
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1205","action":"delete","item_name":"Polished Red Lentils(Polished Red Lentils)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:29
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"428","action":"delete","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:35
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"672","action":"delete","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:39
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"793","action":"delete","item_name":"Multi Insect Killer(Multi Insect Killer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:42
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"835","action":"delete","item_name":"Disinfectant(Disinfectant)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:21:54
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1255","action":"delete","item_name":"Automatic Washing Machine Powder(Automatic Washing Machine Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:09
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2406","action":"delete","item_name":"Lunch Napkis Plain(Lunch Napkis Plain)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:11
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2406","action":"delete","item_name":"Lunch Napkis Plain(Lunch Napkis Plain)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:43
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"217","action":"delete","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:48
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"307","action":"delete","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:49
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"322","action":"delete","item_name":"Salt(Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:50
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"343","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:54
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"623","action":"delete","item_name":"Brown Sugar - Zipper Sachet Pack(Brown Sugar - Zipper Sachet Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:55
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"623","action":"delete","item_name":"Brown Sugar - Zipper Sachet Pack(Brown Sugar - Zipper Sachet Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:56
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"623","action":"delete","item_name":"Brown Sugar - Zipper Sachet Pack(Brown Sugar - Zipper Sachet Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:22:59
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"759","action":"delete","item_name":"Corn Flakes(Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:08
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:10
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:11
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:12
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:14
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"delete","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:21
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1019","action":"delete","item_name":"Brown Sugar - Bottled Cubes(Brown Sugar - Bottled Cubes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:23:27
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1541","action":"delete","item_name":"Orange Marmalade Jam(Orange Marmalade Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:24:00
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2717","action":"delete","item_name":"Tomato Ketchup(Tomato Ketchup)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:24:59
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:25:24
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"238","action":"add","item_name":"Cumin Seeds(Cumin Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:25:28
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"243","action":"add","item_name":"Deggi Mirch(Deggi Mirch)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-10 18:30:27
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"441","action":"add","item_name":"Sabudana(Sabudana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2021-07-17 03:25:38
+{"method":"addtocart","guest_user_id":"48fd27d9dda2e030","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-17 03:25:41
+{"method":"addtocart","guest_user_id":"48fd27d9dda2e030","number_of_item":"1","merchant_inventry_id":"2831","action":"add","item_name":"Sardines in Vegetable Oil(Sardines in Vegetable Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

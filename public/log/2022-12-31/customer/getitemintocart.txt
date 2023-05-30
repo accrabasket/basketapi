@@ -1,0 +1,21 @@
+
+ Request - 2022-12-31 06:19:19
+{"method":"getitemintocart","guest_user_id":"053bb4b010381815"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-31 09:52:55
+{"method":"getitemintocart","guest_user_id":"67cd923e67747f6b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-31 12:35:09
+{"method":"getitemintocart","guest_user_id":"afedf297ae896c34"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-31 16:31:12
+{"method":"getitemintocart","guest_user_id":"f28b2d246ec87104"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-31 16:31:58
+{"method":"getitemintocart","guest_user_id":"f28b2d246ec87104"}
+ Response :- 
+{"status":"success","data":{"233":{"id":22894,"user_id":0,"guest_user_id":"f28b2d246ec87104","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-12-31 16:31:58"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

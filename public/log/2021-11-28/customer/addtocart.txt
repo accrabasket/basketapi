@@ -1,0 +1,9 @@
+
+ Request - 2021-11-28 08:50:26
+{"method":"addtocart","guest_user_id":"9cc5e9daba9566a7","number_of_item":"1","merchant_inventry_id":"1502","action":"add","item_name":"Original Coffee Candy(Original Coffee Candy)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-28 15:57:57
+{"method":"addtocart","guest_user_id":"976007ef02aea8fd","number_of_item":"1","merchant_inventry_id":"487","action":"add","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,101 @@
+
+ Request - 2021-04-23 00:36:07
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"2728","action":"add","item_name":"Crunchy Broccoli(Crunchy Broccoli)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 00:36:15
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"2728","action":"delete","item_name":"Crunchy Broccoli(Crunchy Broccoli)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:30:49
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:02
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:04
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2065","action":"delete","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:06
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:08
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:10
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:38
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:42
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:45
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 05:31:47
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:51:20
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"1098","action":"add","item_name":"Khara Boondi(Khara Boondi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:51:22
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"1098","action":"add","item_name":"Khara Boondi(Khara Boondi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:51:24
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"1098","action":"delete","item_name":"Khara Boondi(Khara Boondi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:51:27
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"1098","action":"delete","item_name":"Khara Boondi(Khara Boondi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:52:09
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"774","action":"add","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:52:12
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"774","action":"add","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:52:40
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"774","action":"delete","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 10:52:42
+{"method":"addtocart","guest_user_id":"cae51ccb4032a6dd","number_of_item":"1","merchant_inventry_id":"774","action":"delete","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 16:09:06
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2962","action":"add","item_name":"Creamy Cheese(Creamy Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 17:10:58
+{"method":"addtocart","guest_user_id":"7cf3328f7244d31f","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 17:11:21
+{"method":"addtocart","guest_user_id":"7cf3328f7244d31f","number_of_item":"1","merchant_inventry_id":"213","action":"delete","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 20:29:46
+{"method":"addtocart","user_id":"2123","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-23 20:29:57
+{"method":"addtocart","user_id":"2123","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

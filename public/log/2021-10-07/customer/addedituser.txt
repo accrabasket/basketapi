@@ -1,0 +1,5 @@
+
+ Request - 2021-10-07 18:16:28
+{"method":"addedituser","city_id":"1","password":"093796","name":"konje","email":"Abdisa","mobile_number":"0935100687","country_code":"+233","id":"0","fcm_reg_id":"eq7RQeCWHw0:APA91bGrHIhv-WSfOCle58vx7-JKirWEtRd8NbN1cNagkAVOSOk9OoaQS-VrlO46zalNLui0iCdh5pp-DwUMq56ZZM-UYf6Mf55VvLPNSLfeuoRDc3NOwzgNJ2-SZgVSp_C07b1XzJNd"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233935100687 and registered email id.","data":{"5021":{"id":5021,"name":"konje","mobile_number":"935100687","email":"Abdisa","key":"c43b63101454a73d47f08ce7d474ba4b","password":"0c5468a33541b07d5d32131db8bd1f0c","fcm_reg_id":"eq7RQeCWHw0:APA91bGrHIhv-WSfOCle58vx7-JKirWEtRd8NbN1cNagkAVOSOk9OoaQS-VrlO46zalNLui0iCdh5pp-DwUMq56ZZM-UYf6Mf55VvLPNSLfeuoRDc3NOwzgNJ2-SZgVSp_C07b1XzJNd","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-10-07 18:16:28","updated_date":"2021-10-07 18:16:28","status":"1"}}}

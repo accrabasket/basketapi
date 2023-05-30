@@ -1,0 +1,13 @@
+
+ Request - 2022-05-14 02:08:01
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. DKI 2 Blok H4 No.32, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16320, Indonesia","lat":"-6.4863373","lng":"106.7732713"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. DKI 2 Blok H4 No.32, Tajurhalang, Kec. Tajur Halang, Kabupaten Bogor, Jawa Barat 16320, Indonesia"}}
+ Request - 2022-05-14 03:04:22
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Letjen Sutoyo No.117, Kramat, Kranjingan, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68126, Indonesia","lat":"-8.1934451","lng":"113.7154949"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Letjen Sutoyo No.117, Kramat, Kranjingan, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68126, Indonesia"}}
+ Request - 2022-05-14 17:01:58
+{"method":"getCityIdByAddressOrLatLng","address":"Asunafo North, Ghana","lat":"6.8236388","lng":"-2.531709"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Asunafo North, Ghana"}}

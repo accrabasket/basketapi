@@ -1,0 +1,17 @@
+
+ Request - 2022-02-21 09:03:44
+{"method":"getCityIdByAddressOrLatLng","address":"89XV+645، بغداد، العراق","lat":"33.3479216","lng":"44.3930642"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"89XV+645\u060c \u0628\u063a\u062f\u0627\u062f\u060c Iraq"}}
+ Request - 2022-02-21 12:03:51
+{"method":"getCityIdByAddressOrLatLng","address":"Singapore","lat":"1.352083","lng":"103.819836"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"AIRPORT, CAG, Singapore 858877"}}
+ Request - 2022-02-21 19:06:24
+{"method":"getCityIdByAddressOrLatLng","address":"فوة، مدينة فوه، فوه، كفر الشيخ، مصر","lat":"31.2035483","lng":"30.55022190000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0641\u0648\u0629\u060c \u0645\u062f\u064a\u0646\u0629 \u0641\u0648\u0647\u060c \u0641\u0648\u0647\u060c\u060c Madinet Fowa, Fuwa, Kafr El Sheikh Governorate, Egypt"}}
+ Request - 2022-02-21 19:06:30
+{"method":"getCityIdByAddressOrLatLng","address":"فوة، مدينة فوه، فوه، كفر الشيخ، مصر","lat":"31.2035483","lng":"30.55022190000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0641\u0648\u0629\u060c \u0645\u062f\u064a\u0646\u0629 \u0641\u0648\u0647\u060c \u0641\u0648\u0647\u060c\u060c Madinet Fowa, Fuwa, Kafr El Sheikh Governorate, Egypt"}}

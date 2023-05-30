@@ -1,0 +1,21 @@
+
+ Request - 2021-04-12 06:10:56
+{"method":"applycoupon","user_id":"2377"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-04-12 06:35:16
+{"method":"applycoupon","user_id":"2377"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-04-12 17:27:50
+{"method":"applycoupon","user_id":"2377"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-04-12 17:27:53
+{"method":"applycoupon","user_id":"2377"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-04-12 19:20:26
+{"method":"applycoupon","user_id":"2377"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}

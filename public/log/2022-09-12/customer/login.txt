@@ -1,0 +1,13 @@
+
+ Request - 2022-09-12 09:53:54
+{"method":"login","email":"thadanihritika1980@gmail.com","password":"ayush123","fcm_reg_id":"dTDqNtj4TZ4:APA91bGPcOF3ATLjt8XThskOxPR69FdlzNAfXkKjCUwf3lqZaY0FQrBNKocgws2poiFMBLjZUP3uSgfBWNCCvWaT6PAI3dZwALrPg7xVmdEFrOlq103qCwH7M3DsJoaL-Us78pZGMtYM"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-09-12 09:53:58
+{"method":"login","email":"thadanihritika1980@gmail.com","password":"ayush123","fcm_reg_id":"dTDqNtj4TZ4:APA91bGPcOF3ATLjt8XThskOxPR69FdlzNAfXkKjCUwf3lqZaY0FQrBNKocgws2poiFMBLjZUP3uSgfBWNCCvWaT6PAI3dZwALrPg7xVmdEFrOlq103qCwH7M3DsJoaL-Us78pZGMtYM"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-09-12 09:54:41
+{"method":"login","email":"thadanihritika1980@gmail.com","password":"ayush123","fcm_reg_id":"dTDqNtj4TZ4:APA91bGPcOF3ATLjt8XThskOxPR69FdlzNAfXkKjCUwf3lqZaY0FQrBNKocgws2poiFMBLjZUP3uSgfBWNCCvWaT6PAI3dZwALrPg7xVmdEFrOlq103qCwH7M3DsJoaL-Us78pZGMtYM"}
+ Response :- 
+{"status":"success","data":{"8758":{"id":8758,"name":"hritika ","mobile_number":"244135805","email":"thadanihritika1980@gmail.com","key":"c5a05b7d94a43d0451ec0123365aff33","password":"691c720c3152c8686e0ff812a767c552","fcm_reg_id":"dTDqNtj4TZ4:APA91bGPcOF3ATLjt8XThskOxPR69FdlzNAfXkKjCUwf3lqZaY0FQrBNKocgws2poiFMBLjZUP3uSgfBWNCCvWaT6PAI3dZwALrPg7xVmdEFrOlq103qCwH7M3DsJoaL-Us78pZGMtYM","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-09-12 09:54:26","updated_date":"2022-09-12 09:54:26","status":"1"}},"totalNumberOfUser":1,"wallet_key":"691c720c3152c8686e0ff812a767c552"}

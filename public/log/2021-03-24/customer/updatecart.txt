@@ -1,0 +1,13 @@
+
+ Request - 2021-03-24 10:35:06
+{"method":"updatecart","user_id":"1444","guest_user_id":"e23b7f75dc14d2e4"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-03-24 12:57:35
+{"method":"updatecart","user_id":"2180","guest_user_id":"5474737dbc13c22f"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-03-24 13:11:48
+{"method":"updatecart","user_id":"2181","guest_user_id":"eb7b8eec6aee29f1"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}

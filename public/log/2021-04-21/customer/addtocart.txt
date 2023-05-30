@@ -1,0 +1,9 @@
+
+ Request - 2021-04-21 15:41:21
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2399","action":"add","item_name":"Easy Creamy U'GO - Peach & Passionfruit(Easy Creamy U'GO - Peach & Passionfruit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-21 15:41:30
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2400","action":"add","item_name":"Easy Creamy U'GO - Raspberry(Easy Creamy U'GO - Raspberry)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

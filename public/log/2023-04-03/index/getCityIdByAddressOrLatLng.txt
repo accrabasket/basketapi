@@ -1,0 +1,5 @@
+
+ Request - 2023-04-03 15:17:27
+{"method":"getCityIdByAddressOrLatLng","address":"GG86+X9P, Ahdi Road, Mangat, Mandi Bahauddin, Punjab, Pakistan","lat":"32.5157615","lng":"73.5124768"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

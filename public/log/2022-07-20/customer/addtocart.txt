@@ -1,0 +1,21 @@
+
+ Request - 2022-07-20 08:30:47
+{"method":"addtocart","guest_user_id":"a7447e23902203fa","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-20 08:30:50
+{"method":"addtocart","guest_user_id":"a7447e23902203fa","number_of_item":"1","merchant_inventry_id":"732","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-20 08:30:52
+{"method":"addtocart","guest_user_id":"a7447e23902203fa","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-20 08:30:54
+{"method":"addtocart","guest_user_id":"a7447e23902203fa","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-20 08:30:55
+{"method":"addtocart","guest_user_id":"a7447e23902203fa","number_of_item":"1","merchant_inventry_id":"732","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

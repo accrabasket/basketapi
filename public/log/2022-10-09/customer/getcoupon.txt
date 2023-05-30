@@ -1,0 +1,9 @@
+
+ Request - 2022-10-09 22:49:23
+{"method":"getcoupon","user_id":"8856","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2022-10-09 23:25:14
+{"method":"getcoupon","user_id":"8856","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

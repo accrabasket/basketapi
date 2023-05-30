@@ -1,0 +1,33 @@
+
+ Request - 2021-05-17 15:47:53
+{%22method%22:%22productlist%22,%22product_type%22:%22hotdeals%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 15:47:53
+{%22method%22:%22productlist%22,%22product_type%22:%22new_arrival%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 15:48:38
+{%22method%22:%22productlist%22,%22product_type%22:%22hotdeals%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 15:48:38
+{%22method%22:%22productlist%22,%22product_type%22:%22new_arrival%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 16:53:16
+{%22method%22:%22productlist%22,%22product_type%22:%22hotdeals%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 16:53:16
+{%22method%22:%22productlist%22,%22product_type%22:%22new_arrival%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 17:09:33
+{%22method%22:%22productlist%22,%22product_type%22:%22hotdeals%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}
+ Request - 2021-05-17 17:09:33
+{%22method%22:%22productlist%22,%22product_type%22:%22new_arrival%22,%22city_id%22:%221%22,%22pagination%22:%221%22,%22page%22:1}
+ Response :- 
+{"status":"fail","msg":"Method not supplied "}

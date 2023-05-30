@@ -1,0 +1,13 @@
+
+ Request - 2022-03-27 10:41:00
+{"method":"getCityIdByAddressOrLatLng","address":"Charlotte, NC 28280, USA","lat":"35.227086899999996","lng":"-80.8431267"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"102 S Tryon St, Charlotte, NC 28202, USA"}}
+ Request - 2022-03-27 18:54:47
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, بابنوسة،، بابنوسة، السودان","lat":"11.327135","lng":"27.7994521"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8QGX+VQ Babanusa, Sudan"}}
+ Request - 2022-03-27 19:56:12
+{"method":"getCityIdByAddressOrLatLng","address":"2598، محاسن، الهفوف والمبرز 36422 8744، السعودية","lat":"25.4145883","lng":"49.5431531"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2598, Mahasin, Al Hufuf and Al Mubarraz 36422\u00a08744, Saudi Arabia"}}

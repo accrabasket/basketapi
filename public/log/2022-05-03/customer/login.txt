@@ -1,0 +1,9 @@
+
+ Request - 2022-05-03 19:59:53
+{"method":"login","email":"semundi1205@gmail.com","password":"Stephen1205","fcm_reg_id":"eY0I0ooRgVg:APA91bHsrzL_xLnwyjoZa3EEEWhusqlQGLRwcf2MxmmhOEXw5TIJUqRdtEyHhRzWw6M1j3JGf3YrzIM3L43LnIINGBHv5bv62jsfitkPZNlwxto-2PjFrzysKI-6myGgy1mzuZS0XF6H"}
+ Response :- 
+{"status":"success","data":{"8304":{"id":8304,"name":"Selina Mensah","mobile_number":"276240025","email":"semundi1205@gmail.com","key":"a979b49cd07b9fd4a64f40cdb9794a23","password":"b4dcb1f59f4fb69c333dd99ecbe904d3","fcm_reg_id":"eY0I0ooRgVg:APA91bHsrzL_xLnwyjoZa3EEEWhusqlQGLRwcf2MxmmhOEXw5TIJUqRdtEyHhRzWw6M1j3JGf3YrzIM3L43LnIINGBHv5bv62jsfitkPZNlwxto-2PjFrzysKI-6myGgy1mzuZS0XF6H","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-05-03 19:58:47","updated_date":"2022-05-03 19:58:47","status":"1"}},"totalNumberOfUser":1,"wallet_key":"b4dcb1f59f4fb69c333dd99ecbe904d3"}
+ Request - 2022-05-03 21:43:39
+{"method":"login","email":"taishanibiswas@gmail.com ","password":"Debagni@2009","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz"}
+ Response :- 
+{"status":"success","data":{"8307":{"id":8307,"name":"Debo","mobile_number":"256928082","email":"taishanibiswas@gmail.com","key":"adcea77937f574c0c1711e709ce85e7a","password":"6ebfb1c19b8ed938af21d90314820fb4","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-05-03 21:41:39","updated_date":"2022-05-03 21:41:39","status":"1"}},"totalNumberOfUser":1,"wallet_key":"6ebfb1c19b8ed938af21d90314820fb4"}

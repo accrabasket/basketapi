@@ -1,0 +1,21 @@
+
+ Request - 2022-01-04 08:06:14
+{"method":"addtocart","guest_user_id":"3b3fa191a5ff895c","number_of_item":"1","merchant_inventry_id":"820","action":"add","item_name":"Anneleen Apple Non-Alcoholic Drink(Anneleen Apple Non-Alcoholic Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-04 09:13:05
+{"method":"addtocart","guest_user_id":"839b8c027c297d73","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-04 09:13:07
+{"method":"addtocart","guest_user_id":"839b8c027c297d73","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-04 09:13:10
+{"method":"addtocart","guest_user_id":"839b8c027c297d73","number_of_item":"1","merchant_inventry_id":"651","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-04 09:13:16
+{"method":"addtocart","guest_user_id":"839b8c027c297d73","number_of_item":"1","merchant_inventry_id":"651","action":"delete","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

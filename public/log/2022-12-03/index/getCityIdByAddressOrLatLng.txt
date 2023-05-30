@@ -1,0 +1,9 @@
+
+ Request - 2022-12-03 13:56:16
+{"method":"getCityIdByAddressOrLatLng","address":"JW8G+XG5, RT.005\/RW.011, Jatikarya, Kec. Jatisampurna, Kota Bks, Jawa Barat 17435, Indonesia","lat":"-6.3825247","lng":"106.926405"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JW8G+XG5, RT.005\/RW.011, Jatikarya, Kec. Jatisampurna, Kota Bks, Jawa Barat 17435, Indonesia"}}
+ Request - 2022-12-03 22:02:25
+{"method":"getCityIdByAddressOrLatLng","address":"Q4M5+QVG, Diosso, Burkina Faso","lat":"10.7857119","lng":"-3.8917838"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q4P5+77 Diosso, Burkina Faso"}}

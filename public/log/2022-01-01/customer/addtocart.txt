@@ -1,0 +1,5 @@
+
+ Request - 2022-01-01 07:24:43
+{"method":"addtocart","guest_user_id":"adae6783e27140b0","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

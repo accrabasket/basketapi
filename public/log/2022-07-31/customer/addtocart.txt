@@ -1,0 +1,9 @@
+
+ Request - 2022-07-31 01:53:55
+{"method":"addtocart","guest_user_id":"3b3fa191a5ff895c","number_of_item":"1","merchant_inventry_id":"900","action":"add","item_name":"Large Beer Can(Large Beer Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-31 01:54:18
+{"method":"addtocart","guest_user_id":"3b3fa191a5ff895c","number_of_item":"1","merchant_inventry_id":"2251","action":"add","item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

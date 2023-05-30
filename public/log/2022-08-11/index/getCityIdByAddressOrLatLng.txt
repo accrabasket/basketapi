@@ -1,0 +1,21 @@
+
+ Request - 2022-08-11 05:55:32
+{"method":"getCityIdByAddressOrLatLng","address":"Textorstraße, Frankfurt am Main, Germany","lat":"50.1012363","lng":"8.6855292"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Textorstra\u00dfe 42, 60594 Frankfurt am Main, Germany"}}
+ Request - 2022-08-11 08:52:49
+{"method":"getCityIdByAddressOrLatLng","address":"Indus Hwy, Miran, Dera Ismail Khan, Khyber Pakhtunkhwa, Pakistan","lat":"31.385808","lng":"70.7073682"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9PP4+8W Miran, Pakistan"}}
+ Request - 2022-08-11 09:14:59
+{"method":"getCityIdByAddressOrLatLng","address":"4 Djanie Ashie Rd, Accra, Ghana","lat":"5.6365995","lng":"-0.1598563"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 Djanie Ashie Rd, Accra, Ghana"}}
+ Request - 2022-08-11 14:55:55
+{"method":"getCityIdByAddressOrLatLng","address":"Yeşilkent, İnönü Cd. No:17, 34325 Avcılar\/İstanbul, تركيا","lat":"41.0365239","lng":"28.6994789"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ye\u015filkent, \u0130n\u00f6n\u00fc Cd. No:17, 34325 Avc\u0131lar\/\u0130stanbul, Turkey"}}
+ Request - 2022-08-11 21:53:09
+{"method":"getCityIdByAddressOrLatLng","address":"4 OPPOSITE ALEXANDER PLAZA HOTEL, Ist Ringway, Accra, Ghana","lat":"5.5690827","lng":"-0.1856466"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 OPPOSITE ALEXANDER PLAZA HOTEL, Ist Ringway, Accra, Ghana"}}

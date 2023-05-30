@@ -1,0 +1,9 @@
+
+ Request - 2022-09-17 10:44:12
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Mianwali, Punjab, Pakistan","lat":"32.7078266","lng":"71.8043197"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PR53+4P Rikhi, Pakistan"}}
+ Request - 2022-09-17 13:41:39
+{"method":"getCityIdByAddressOrLatLng","address":"Durgapur - Lamua Rd, Uttar Pradesh 261001, India","lat":"27.614028333333334","lng":"80.57088999999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JH7C+J9 Hempur, Uttar Pradesh, India"}}

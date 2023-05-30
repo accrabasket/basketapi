@@ -1,0 +1,9 @@
+
+ Request - 2021-04-02 17:08:38
+{"method":"getaddresslist","user_id":"459"}
+ Response :- 
+{"status":"success","data":{"298":{"id":298,"user_id":459,"address_nickname":"","contact_name":"michael","city_id":1,"city_name":"Anyaa-Awoshie Rd, Accra, Ghana","house_number":"2 anyaa ridege","street_detail":"","landmark":"ridge community school anyaa","zipcode":"","area":"ridge","lat":"5.619286199999999","lng":"-0.2950987","created_date":"2020-11-02 14:52:32","updated_date":"2020-11-02 14:52:32"}}}
+ Request - 2021-04-02 17:09:53
+{"method":"getaddresslist","user_id":"459"}
+ Response :- 
+{"status":"success","data":{"298":{"id":298,"user_id":459,"address_nickname":"","contact_name":"michael","city_id":1,"city_name":"Anyaa-Awoshie Rd, Accra, Ghana","house_number":"2 anyaa ridege","street_detail":"","landmark":"ridge community school anyaa","zipcode":"","area":"ridge","lat":"5.619286199999999","lng":"-0.2950987","created_date":"2020-11-02 14:52:32","updated_date":"2020-11-02 14:52:32"}}}

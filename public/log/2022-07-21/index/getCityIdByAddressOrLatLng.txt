@@ -1,0 +1,17 @@
+
+ Request - 2022-07-21 05:51:54
+{"method":"getCityIdByAddressOrLatLng","address":"99, Kambekar St, Mandvi, Mumbai, Maharashtra 400003, India","lat":"18.9554038","lng":"72.834008"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"99, Kambekar St, Mandvi, Mumbai, Maharashtra 400003, India"}}
+ Request - 2022-07-21 08:12:43
+{"method":"getCityIdByAddressOrLatLng","address":"X46X+CX2, Qaim Bharwana, Jhang, Punjab, Pakistan","lat":"30.961037","lng":"72.1498698"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X46X+CX2, Qaim Bharwana, Jhang, Punjab, Pakistan"}}
+ Request - 2022-07-21 11:55:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Konongo, Ghana","lat":"6.6310633","lng":"-1.2312115"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Konongo, Ghana"}}
+ Request - 2022-07-21 15:35:06
+{"method":"getCityIdByAddressOrLatLng","address":"PV7Q+XJ8، المعمورة،، ليبيا","lat":"32.7163821","lng":"12.8916489"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PV8R+HM Almamoura, Libya"}}

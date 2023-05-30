@@ -1,0 +1,17 @@
+
+ Request - 2023-02-12 08:23:27
+{"method":"getCityIdByAddressOrLatLng","address":"6M2R+HP2, Bobo-Dioulasso, Burkina Faso","lat":"11.2013263","lng":"-4.3079972"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-12 19:31:12
+{"method":"getCityIdByAddressOrLatLng","address":"GR76+47W, Huyula, Kec. Randangan, Kabupaten Pohuwato, Gorontalo 96469, Indonesia","lat":"0.5122986","lng":"121.8113574"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-12 19:31:25
+{"method":"getCityIdByAddressOrLatLng","address":"GR76+47W, Huyula, Kec. Randangan, Kabupaten Pohuwato, Gorontalo 96469, Indonesia","lat":"0.5122986","lng":"121.8113574"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-12 21:14:59
+{"method":"getCityIdByAddressOrLatLng","address":"7J2V+7XW, Rte de Ouagadougou, Koudougou, Burkina Faso","lat":"12.2513604","lng":"-2.3556068"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

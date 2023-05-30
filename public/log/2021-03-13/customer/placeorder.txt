@@ -1,0 +1,13 @@
+
+ Request - 2021-03-13 15:00:30
+{"method":"placeorder","user_id":"2123","shipping_address_id":"420","time_slot_id":"10","delivery_date":"2021-03-14","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_566","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"2123","TransactionId":"0b313cd61cd7624aafb3c505414111af","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_566","Amount":443.96,"Signature":"dbdf46e1b5ff6dfe1269665dcc1b6928cd9e754343d7f92f1d990ff21288e786"}}}}
+ Request - 2021-03-13 15:02:52
+{"method":"placeorder","user_id":"2123","shipping_address_id":"420","time_slot_id":"10","delivery_date":"2021-03-14","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_567","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"2123","TransactionId":"f3add4df174bddd2e941fcadc1310a77","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_567","Amount":279.98,"Signature":"7cfba0788be2b5c29adee8abe1ab3cb6332afee88812022e9bf44dfb123a1cbe"}}}}
+ Request - 2021-03-13 15:08:09
+{"method":"placeorder","user_id":"2123","shipping_address_id":"420","time_slot_id":"10","delivery_date":"2021-03-14","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_569","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"2123","TransactionId":"91a3764e6f370512138c698270cae2bd","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_569","Amount":169.99,"Signature":"223bf5e633d03cb92ed9bc0be20c8432846ae6cc797e3d962230a2efd8f786de"}}}}

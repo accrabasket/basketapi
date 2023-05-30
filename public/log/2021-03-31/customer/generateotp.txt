@@ -1,0 +1,9 @@
+
+ Request - 2021-03-31 21:37:00
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"70354741"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23370354741","otp_type":"register","user_id":"0","otp":2182,"expiry_date":"2021-03-31 21:52:00"}}
+ Request - 2021-03-31 21:37:24
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"70354741"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23370354741","otp_type":"register","user_id":"0","otp":8897,"expiry_date":"2021-03-31 21:52:24"}}

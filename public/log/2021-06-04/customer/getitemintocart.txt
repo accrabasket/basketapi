@@ -1,0 +1,49 @@
+
+ Request - 2021-06-04 05:20:51
+{"method":"getitemintocart","guest_user_id":"8a04d17bebd61fe1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 06:21:34
+{"method":"getitemintocart","guest_user_id":"e0ff727032e65dda"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 11:07:47
+{"method":"getitemintocart","guest_user_id":"adafdb7907f3c9f2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 17:35:07
+{"method":"getitemintocart","guest_user_id":"9789fc4fc52b4b7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 20:21:45
+{"method":"getitemintocart","guest_user_id":"3bc64a2be4462db7"}
+ Response :- 
+{"status":"success","data":{"232":{"id":14778,"user_id":0,"guest_user_id":"3bc64a2be4462db7","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2021-05-13 20:22:05"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-04 21:35:53
+{"method":"getitemintocart","guest_user_id":"aeb9dbf900f2c910"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 21:39:26
+{"method":"getitemintocart","guest_user_id":"aeb9dbf900f2c910"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 22:52:37
+{"method":"getitemintocart","guest_user_id":"59382d97e3d6c869"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-04 22:53:14
+{"method":"getitemintocart","guest_user_id":"59382d97e3d6c869"}
+ Response :- 
+{"status":"success","data":{"467":{"id":15317,"user_id":0,"guest_user_id":"59382d97e3d6c869","merchant_inventry_id":467,"item_name":"London Dry Gin(London Dry Gin)","number_of_item":1,"created_date":"2021-06-04 22:53:13"}},"productDetails":{"status":"success","data":{"467":{"id":467,"price":"135.99","product_id":751,"merchant_id":4,"store_id":4,"merchant_product_code":"77022","product_name":"London Dry Gin","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bulldog","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":700,"tax_value":"3"}},"productImageData":{"751":[{"id":598,"type":"product","image_id":751,"image_name":"77022.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-04 22:53:18
+{"method":"getitemintocart","guest_user_id":"59382d97e3d6c869"}
+ Response :- 
+{"status":"success","data":{"467":{"id":15317,"user_id":0,"guest_user_id":"59382d97e3d6c869","merchant_inventry_id":467,"item_name":"London Dry Gin(London Dry Gin)","number_of_item":2,"created_date":"2021-06-04 22:53:13"}},"productDetails":{"status":"success","data":{"467":{"id":467,"price":"135.99","product_id":751,"merchant_id":4,"store_id":4,"merchant_product_code":"77022","product_name":"London Dry Gin","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bulldog","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":700,"tax_value":"3"}},"productImageData":{"751":[{"id":598,"type":"product","image_id":751,"image_name":"77022.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-04 22:54:02
+{"method":"getitemintocart","guest_user_id":"59382d97e3d6c869"}
+ Response :- 
+{"status":"success","data":{"467":{"id":15317,"user_id":0,"guest_user_id":"59382d97e3d6c869","merchant_inventry_id":467,"item_name":"London Dry Gin(London Dry Gin)","number_of_item":2,"created_date":"2021-06-04 22:53:13"}},"productDetails":{"status":"success","data":{"467":{"id":467,"price":"135.99","product_id":751,"merchant_id":4,"store_id":4,"merchant_product_code":"77022","product_name":"London Dry Gin","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bulldog","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":700,"tax_value":"3"}},"productImageData":{"751":[{"id":598,"type":"product","image_id":751,"image_name":"77022.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-04 22:54:25
+{"method":"getitemintocart","guest_user_id":"59382d97e3d6c869"}
+ Response :- 
+{"status":"success","data":{"467":{"id":15317,"user_id":0,"guest_user_id":"59382d97e3d6c869","merchant_inventry_id":467,"item_name":"London Dry Gin(London Dry Gin)","number_of_item":2,"created_date":"2021-06-04 22:53:13"}},"productDetails":{"status":"success","data":{"467":{"id":467,"price":"135.99","product_id":751,"merchant_id":4,"store_id":4,"merchant_product_code":"77022","product_name":"London Dry Gin","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bulldog","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":700,"tax_value":"3"}},"productImageData":{"751":[{"id":598,"type":"product","image_id":751,"image_name":"77022.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

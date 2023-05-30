@@ -752,8 +752,9 @@ class customer {
                     /* coupon End*/                    
                 }
                     
-                
+              
                 $result = $this->customerModel->createOrder($orderData);                
+             }
                 if(!empty($result)) {
                     $notificationData = array();
                     $notifyOrderId = $orderId;
@@ -801,7 +802,7 @@ class customer {
                     $this->customerModel->rollback();
                     return $response;                        
                 }
-            }
+            
             if($result) {
                 $this->customerModel->deleteCart(array('user_id'=>$parameters['user_id']));
                 $this->customerModel->commit();

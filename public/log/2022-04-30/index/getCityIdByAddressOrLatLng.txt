@@ -1,0 +1,5 @@
+
+ Request - 2022-04-30 06:04:16
+{"method":"getCityIdByAddressOrLatLng","address":"ถนนทีไมมีชือ, Tambon Ban Du, Amphoe Mueang Chiang Rai, Chang Wat Chiang Rai 57100, Thailand","lat":"19.981233596801758","lng":"99.82638549804688"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XRJG+FH Ban Du, Mueang Chiang Rai District, Chiang Rai, Thailand"}}

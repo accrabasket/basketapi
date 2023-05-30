@@ -1,0 +1,5 @@
+
+ Request - 2021-06-24 22:22:25
+{"method":"addedituser","city_id":"1","password":"ragazer","name":"Amenda Boateng","email":"ragazer470@gmail.com","mobile_number":"0543683916","country_code":"+233","id":"0","fcm_reg_id":"cLN_2IsyCzM:APA91bFvbHZlQNFPoZzjxHz1RtiI7LG06XS9b9K2daX5lttSphZ_xK9Dv8hET9Hhhn3a_FibD7qiVSqo9wjEcsKSeINRuTAYjWrv3iWQzc9yfSNOiF1i26iVBqYdBeVwYSCK7cfWSMC4"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233543683916 and registered email id.","data":{"2860":{"id":2860,"name":"Amenda Boateng","mobile_number":"543683916","email":"ragazer470@gmail.com","key":"0f226b5941e561e32afa2e1886231543","password":"f12ec5929ce5a08ac698daa53f2d92d2","fcm_reg_id":"cLN_2IsyCzM:APA91bFvbHZlQNFPoZzjxHz1RtiI7LG06XS9b9K2daX5lttSphZ_xK9Dv8hET9Hhhn3a_FibD7qiVSqo9wjEcsKSeINRuTAYjWrv3iWQzc9yfSNOiF1i26iVBqYdBeVwYSCK7cfWSMC4","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-06-24 22:22:25","updated_date":"2021-06-24 22:22:25","status":"1"}}}

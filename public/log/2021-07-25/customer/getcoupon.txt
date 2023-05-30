@@ -1,0 +1,9 @@
+
+ Request - 2021-07-25 19:55:10
+{"method":"getcoupon","user_id":"3331","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-07-25 19:57:34
+{"method":"getcoupon","user_id":"3331","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

@@ -1,0 +1,29 @@
+
+ Request - 2022-06-27 04:57:24
+{"method":"getCityIdByAddressOrLatLng","address":"P97G+88M, Kageshwori Manohara 44600, Nepal","lat":"27.7134797","lng":"85.3760512"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P97G+88M, Kageshwori Manohara 44600, Nepal"}}
+ Request - 2022-06-27 07:28:14
+{"method":"getCityIdByAddressOrLatLng","address":"Raj Muhammad Rd","lat":"34.2601272","lng":"73.7214901"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8J6M7P6C+3H"}}
+ Request - 2022-06-27 09:01:49
+{"method":"getCityIdByAddressOrLatLng","address":"R725+VVM, Hemayetpur, Bangladesh","lat":"23.8023093","lng":"90.259269"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R725+VVM, Hemayetpur, Bangladesh"}}
+ Request - 2022-06-27 12:10:51
+{"method":"getCityIdByAddressOrLatLng","address":"Sangam Town Khanna Dak, J4HF+8PR, Khanna Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.6283374","lng":"73.1242214"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sangam Town Khanna Dak, J4HF+8PR, Khanna Islamabad, Islamabad Capital Territory, Pakistan"}}
+ Request - 2022-06-27 17:49:47
+{"method":"getCityIdByAddressOrLatLng","address":"Plot D 21, National Cement Employees Housing Society Block 10 A Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9086943","lng":"67.1106992"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot D 21, Block 10-A Block 10 A Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-06-27 18:01:01
+{"method":"getCityIdByAddressOrLatLng","address":"182222","lat":"33.0510757","lng":"75.6195357"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3J29+CR Forest Block"}}
+ Request - 2022-06-27 23:33:20
+{"method":"getCityIdByAddressOrLatLng","address":"97 SUN ST Sasigli plane park road, Yendi, Ghana","lat":"9.432025","lng":"-0.0024771"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"97 SUN ST Sasigli plane park road, Yendi, Ghana"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-01-12 16:41:28
+{"method":"updatecart","user_id":"1691","guest_user_id":"a1eb2cfb00038e26"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}
+ Request - 2021-01-12 19:26:01
+{"method":"updatecart","user_id":"1693","guest_user_id":"e49c8cb4f2b03403"}
+ Response :- 
+{"status":"success","msg":"cart Updated"}

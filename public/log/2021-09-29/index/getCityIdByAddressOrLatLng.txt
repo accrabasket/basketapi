@@ -1,0 +1,9 @@
+
+ Request - 2021-09-29 07:34:22
+{"method":"getCityIdByAddressOrLatLng","address":"Гродно, Гродненская область, 230021 Беларусь","lat":"53.71377299643707","lng":"23.84724151747654"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Limozha St 44, Grodno 230005, Belarus"}}
+ Request - 2021-09-29 13:55:37
+{"method":"getCityIdByAddressOrLatLng","address":"4, Malad - Marve Rd, Malad, Rathodi, Malad West, Mumbai, Maharashtra 400095, India","lat":"19.1953594","lng":"72.8187495"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4, Malad - Marve Rd, Malad, Rathodi, Malad West, Mumbai, Maharashtra 400095, India"}}

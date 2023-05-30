@@ -1,0 +1,9 @@
+
+ Request - 2021-03-01 15:37:44
+{"method":"addtocart","guest_user_id":"2ca0cd965a21cac7","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-01 15:37:50
+{"method":"addtocart","guest_user_id":"2ca0cd965a21cac7","number_of_item":"1","merchant_inventry_id":"276","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

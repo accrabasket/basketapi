@@ -1,0 +1,13 @@
+
+ Request - 2022-06-19 13:57:38
+{"method":"getCityIdByAddressOrLatLng","address":"Yazman, Bahawalpur, Punjab, Pakistan","lat":"29.0515","lng":"71.7805972"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3Q2J+J6 Yazman Mandi, Pakistan"}}
+ Request - 2022-06-19 20:29:59
+{"method":"getCityIdByAddressOrLatLng","address":"45WQ+WR2, Islampura, Gujranwala, Punjab 52250, Pakistan","lat":"32.1471158","lng":"74.1895789"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"45WQ+WR2, Islampura, Gujranwala, Punjab 52250, Pakistan"}}
+ Request - 2022-06-19 21:14:51
+{"method":"getCityIdByAddressOrLatLng","address":"G7P6+M9P، أداما، إثيوبيا","lat":"8.5370177","lng":"39.2607638"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G7P6+M9P, Adama, Ethiopia"}}

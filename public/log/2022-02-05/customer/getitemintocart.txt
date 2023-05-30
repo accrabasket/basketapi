@@ -1,0 +1,53 @@
+
+ Request - 2022-02-05 05:24:48
+{"method":"getitemintocart","guest_user_id":"49b9ad3c841c3c5e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 06:43:02
+{"method":"getitemintocart","guest_user_id":"fa9a5deeb7fe3a14"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 08:00:44
+{"method":"getitemintocart","guest_user_id":"88318a528dabaf83"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 13:50:45
+{"method":"getitemintocart","guest_user_id":"aecec5c15bd50833"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 13:50:51
+{"method":"getitemintocart","guest_user_id":"aecec5c15bd50833"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 13:50:54
+{"method":"getitemintocart","guest_user_id":"aecec5c15bd50833"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 13:55:45
+{"method":"getitemintocart","guest_user_id":"5d5cfc44db3115a4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 13:56:10
+{"method":"getitemintocart","guest_user_id":"5d5cfc44db3115a4"}
+ Response :- 
+{"status":"success","data":{"2830":{"id":19688,"user_id":0,"guest_user_id":"5d5cfc44db3115a4","merchant_inventry_id":2830,"item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)","number_of_item":1,"created_date":"2022-02-05 13:56:10"}},"productDetails":{"status":"success","data":{"2830":{"id":2830,"price":"3.00","product_id":3200,"merchant_id":8,"store_id":12,"merchant_product_code":"VID062","product_name":"Mackerel in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Mackerel, Vegetable Oil, Tomato Sauce, Salt.\",\"Allergy Information\":\"Fish.\",\"Storage Instructions\":\"Store in a cool and dry place.\"}","brand_name":"Atlanta","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":155,"tax_value":"3"}},"productImageData":{"3200":[{"id":3862,"type":"product","image_id":3200,"image_name":"VID062.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-05 15:35:06
+{"method":"getitemintocart","guest_user_id":"8f7bab17da58d2f2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 17:29:36
+{"method":"getitemintocart","guest_user_id":"29a3cb4adf7ece3e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 19:26:16
+{"method":"getitemintocart","guest_user_id":"ddd95036fedcdf22"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 19:26:22
+{"method":"getitemintocart","guest_user_id":"ddd95036fedcdf22"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-05 20:53:22
+{"method":"getitemintocart","guest_user_id":"90909576d30395e9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

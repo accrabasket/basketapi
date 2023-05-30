@@ -1,0 +1,17 @@
+
+ Request - 2021-01-12 14:03:18
+{"method":"getCityIdByAddressOrLatLng","address":"Osun St, Lapaz, Ghana","lat":"5.6105714","lng":"-0.2453589"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Osun St, Lapaz, Ghana"}}
+ Request - 2021-01-12 15:32:51
+{"method":"getCityIdByAddressOrLatLng","address":"8112 Harithah an Najjari, Jabrah, Riyadh 12652 3225, Saudi Arabia","lat":"24.6236789","lng":"46.7180677"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8112 Harithah an Najjari, Jabrah, Riyadh 12652\u00a03225, Saudi Arabia"}}
+ Request - 2021-01-12 16:39:59
+{"method":"getCityIdByAddressOrLatLng","address":"N8, Ghana","lat":"5.8297458","lng":"-1.3115299"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N8, Ghana"}}
+ Request - 2021-01-12 21:07:13
+{"method":"getCityIdByAddressOrLatLng","address":"64 Ezra Rd, Ghana","lat":"5.6415965","lng":"-0.0739936"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"64 Ezra Rd, Ghana"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-11-27 19:47:04
+{"method":"verifyotp","country_code":"+233","mobile_number":"249290466","otp_type":"register","otp":"5832"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-27 19:48:05
+{"method":"verifyotp","country_code":"+233","mobile_number":"249290466","otp_type":"register","otp":"5832"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

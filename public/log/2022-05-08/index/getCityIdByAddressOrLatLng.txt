@@ -1,0 +1,13 @@
+
+ Request - 2022-05-08 01:22:19
+{"method":"getCityIdByAddressOrLatLng","address":"8 Adewunmi St, Aja 106104, Lagos, Nigeria","lat":"6.4680738","lng":"3.5618165"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8 Adewunmi St, Aja 106104, Lagos, Nigeria"}}
+ Request - 2022-05-08 07:42:33
+{"method":"getCityIdByAddressOrLatLng","address":"الظهير الصحراوى لمحافظة القاهرة، محافظة القاهرة‬، مصر","lat":"29.9459518","lng":"31.6887263"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WMWQ+9F Cairo Governorate Desert, Egypt"}}
+ Request - 2022-05-08 16:19:16
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Sénégal","lat":"14.8150949","lng":"-15.8954946"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R483+2R Mbacke, Senegal"}}

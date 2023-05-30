@@ -1,0 +1,5 @@
+
+ Request - 2022-12-06 15:11:18
+{"method":"addtocart","guest_user_id":"10c7f4a45a93be55","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

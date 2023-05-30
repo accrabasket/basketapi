@@ -1,0 +1,9 @@
+
+ Request - 2021-07-10 19:57:02
+{"method":"addtocart","guest_user_id":"13bd0579dc071981","number_of_item":"1","merchant_inventry_id":"229","action":"add","item_name":"Cinnamon Powder(Cinnamon Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-10 20:02:05
+{"method":"addtocart","guest_user_id":"13bd0579dc071981","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

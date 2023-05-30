@@ -12,6 +12,7 @@ namespace Application;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 include __DIR__ . '/config/constant.php';
+
 class Module
 {
     public function onBootstrap(MvcEvent $e)

@@ -1,0 +1,9 @@
+
+ Request - 2022-01-16 08:02:44
+{"method":"addtocart","guest_user_id":"1d83d62a9cceeb56","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-16 08:02:49
+{"method":"addtocart","guest_user_id":"1d83d62a9cceeb56","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

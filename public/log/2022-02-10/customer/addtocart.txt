@@ -1,0 +1,33 @@
+
+ Request - 2022-02-10 04:58:38
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 04:58:44
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 04:59:34
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"844","action":"add","item_name":"Margarine Spread (Margarine Spread )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 05:00:38
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"849","action":"add","item_name":"Rice(Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 05:03:05
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"1625","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 05:04:07
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"1626","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 05:04:25
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"1724","action":"add","item_name":"Tom Brown(Tom Brown)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-10 05:05:44
+{"method":"addtocart","guest_user_id":"1ea8f2fe1ea32f28","number_of_item":"1","merchant_inventry_id":"258","action":"delete","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

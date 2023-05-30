@@ -1,0 +1,5 @@
+
+ Request - 2021-07-29 11:29:01
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-02-12 04:26:13
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":7681}}
+ Request - 2022-02-12 04:39:00
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":7681}}
+ Request - 2022-02-12 04:39:23
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":7681}}
+ Request - 2022-02-12 16:58:25
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":7686}}

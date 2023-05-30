@@ -1,0 +1,25 @@
+
+ Request - 2021-03-09 02:06:43
+{"method":"getCityIdByAddressOrLatLng","address":"Accra, Ghana","lat":"5.6037168","lng":"-0.1869644"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Accra, Ghana"}}
+ Request - 2021-03-09 08:07:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nouasseur, المغرب","lat":"33.361661","lng":"-7.5496048"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nouasseur, Morocco"}}
+ Request - 2021-03-09 10:40:56
+{"method":"getCityIdByAddressOrLatLng","address":"World Boss, 137 Madina Estate, Madina MD620, Ghana","lat":"5.66007","lng":"-0.1595934"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"World Boss, 137 Madina Estate, Madina MD620, Ghana"}}
+ Request - 2021-03-09 14:13:49
+{"method":"getCityIdByAddressOrLatLng","address":"RJ SH 32, Peeladhar, Rajasthan 313905, India","lat":"24.26583","lng":"73.8795788"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RJ SH 32, Peeladhar, Rajasthan 313905, India"}}
+ Request - 2021-03-09 20:21:17
+{"method":"getCityIdByAddressOrLatLng","address":"Masiaka-Yonibana Highway, Sierra Leone","lat":"8.3886514","lng":"-13.1367323"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Masiaka-Yonibana Highway, Sierra Leone"}}
+ Request - 2021-03-09 22:06:00
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Aikaranad North, Kerala 682310, India","lat":"9.9925883","lng":"76.4450855"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Aikaranad North, Kerala 682310, India"}}

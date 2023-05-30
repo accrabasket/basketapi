@@ -1,0 +1,21 @@
+
+ Request - 2022-01-14 10:52:55
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-01-14 13:01:39
+{"method":"addtocart","guest_user_id":"68179128afaa60f7","number_of_item":"1","merchant_inventry_id":"284","action":"add","item_name":"Kitchen King Masala(Kitchen King Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-14 13:01:48
+{"method":"addtocart","guest_user_id":"68179128afaa60f7","number_of_item":"1","merchant_inventry_id":"285","action":"add","item_name":"Kitchen King Masala(Kitchen King Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-14 13:01:54
+{"method":"addtocart","guest_user_id":"68179128afaa60f7","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-14 14:05:45
+{"method":"addtocart","guest_user_id":"5d3d2e6792ff314c","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

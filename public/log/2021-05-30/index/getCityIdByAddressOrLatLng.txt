@@ -1,0 +1,17 @@
+
+ Request - 2021-05-30 11:56:53
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cape Coast, Ghana","lat":"5.1355862","lng":"-1.2766162"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Cape Coast, Ghana"}}
+ Request - 2021-05-30 12:43:55
+{"method":"getCityIdByAddressOrLatLng","address":"67 QL13, Thanh Phú, Bình Long, Bình Phước, Việt Nam","lat":"11.699491","lng":"106.592032"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"67 QL13, Thanh Ph\u00fa, B\u00ecnh Long, B\u00ecnh Ph\u01b0\u1edbc, Vietnam"}}
+ Request - 2021-05-30 23:00:14
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"7.3531134","lng":"-2.3838805"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2021-05-30 23:53:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"6.2860492","lng":"-0.7565629"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

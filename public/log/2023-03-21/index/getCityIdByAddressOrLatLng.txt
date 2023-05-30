@@ -1,0 +1,21 @@
+
+ Request - 2023-03-21 09:48:41
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bahir Dar, Ethiopia","lat":"11.5787028","lng":"37.3895671"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-21 17:49:18
+{"method":"getCityIdByAddressOrLatLng","address":"2J8J+VCQ, Kimende Twp, Kenya","lat":"-0.9827471","lng":"36.6312582"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-21 17:49:20
+{"method":"getCityIdByAddressOrLatLng","address":"2J8J+VCQ, Kimende Twp, Kenya","lat":"-0.9827471","lng":"36.6312582"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-21 17:49:37
+{"method":"getCityIdByAddressOrLatLng","address":"2J8J+VCQ, Kimende Twp, Kenya","lat":"-0.9827471","lng":"36.6312582"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-21 17:49:38
+{"method":"getCityIdByAddressOrLatLng","address":"2J8J+VCQ, Kimende Twp, Kenya","lat":"-0.9827471","lng":"36.6312582"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

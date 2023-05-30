@@ -1,0 +1,73 @@
+
+ Request - 2022-08-29 06:07:52
+{"method":"getitemintocart","guest_user_id":"66c8371d630f3f12"}
+ Response :- 
+{"status":"success","data":{"207":{"id":20918,"user_id":0,"guest_user_id":"66c8371d630f3f12","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2022-04-24 12:04:56"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-29 09:49:46
+{"method":"getitemintocart","guest_user_id":"f0b1e3f806f45e23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 10:35:33
+{"method":"getitemintocart","guest_user_id":"1e9195548920bf12"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 10:36:02
+{"method":"getitemintocart","guest_user_id":"1e9195548920bf12"}
+ Response :- 
+{"status":"success","data":{"672":{"id":22374,"user_id":0,"guest_user_id":"1e9195548920bf12","merchant_inventry_id":672,"item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)","number_of_item":1,"created_date":"2022-08-29 10:36:01"}},"productDetails":{"status":"success","data":{"672":{"id":672,"price":"11.29","product_id":956,"merchant_id":4,"store_id":4,"merchant_product_code":"70100","product_name":"Lemon - Dishwashing Liquid","product_desc":"With the combined cleaning power of 100 lemons, Sunlight Dishwashing Liquid easily removes tough grease leaving your dishes shining bright and residue free.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Anionic detergents, solubilisers, colourants and perfume\",\"Preparation and Usage\":\"Fill the sink with water and add a teaspoon of Sunlight Dishwashing Liquid under running water.\\r\\nAdd dishes to the foamy water and get washing!\"}","brand_name":"Sunlight","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"956":[{"id":832,"type":"product","image_id":956,"image_name":"956_1545121261.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-29 10:36:09
+{"method":"getitemintocart","guest_user_id":"1e9195548920bf12"}
+ Response :- 
+{"status":"success","data":{"672":{"id":22374,"user_id":0,"guest_user_id":"1e9195548920bf12","merchant_inventry_id":672,"item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)","number_of_item":1,"created_date":"2022-08-29 10:36:01"}},"productDetails":{"status":"success","data":{"672":{"id":672,"price":"11.29","product_id":956,"merchant_id":4,"store_id":4,"merchant_product_code":"70100","product_name":"Lemon - Dishwashing Liquid","product_desc":"With the combined cleaning power of 100 lemons, Sunlight Dishwashing Liquid easily removes tough grease leaving your dishes shining bright and residue free.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Anionic detergents, solubilisers, colourants and perfume\",\"Preparation and Usage\":\"Fill the sink with water and add a teaspoon of Sunlight Dishwashing Liquid under running water.\\r\\nAdd dishes to the foamy water and get washing!\"}","brand_name":"Sunlight","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"956":[{"id":832,"type":"product","image_id":956,"image_name":"956_1545121261.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-29 10:36:18
+{"method":"getitemintocart","guest_user_id":"1e9195548920bf12"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 11:25:18
+{"method":"getitemintocart","guest_user_id":"ab7ec43412b536e2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 12:52:17
+{"method":"getitemintocart","guest_user_id":"693d546896dd6471"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 13:18:54
+{"method":"getitemintocart","guest_user_id":"7ac06cf32acd73fa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 14:15:48
+{"method":"getitemintocart","guest_user_id":"485c8206d9da190f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 14:18:52
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 16:24:19
+{"method":"getitemintocart","guest_user_id":"63838fefd4d86ab3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 16:25:02
+{"method":"getitemintocart","guest_user_id":"63838fefd4d86ab3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 19:10:59
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 19:46:41
+{"method":"getitemintocart","guest_user_id":"97d91c655c23e5b1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-29 19:47:28
+{"method":"getitemintocart","guest_user_id":"97d91c655c23e5b1"}
+ Response :- 
+{"status":"success","data":{"275":{"id":22375,"user_id":0,"guest_user_id":"97d91c655c23e5b1","merchant_inventry_id":275,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2022-08-29 19:47:28"}},"productDetails":{"status":"success","data":{"275":{"id":275,"price":"19.50","product_id":422,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Cowbell Our Milk has become synonymous with quality and value. The vision of providing quality, affordable milk powder to the people of Africa has led Cowbell to be Africa\u2019s number one milk brand in small sachets.\r\nThe regular additions to the Cowbell product range are testament to the Group\u2019s commitment to the provision of innovative and value-added milk products. We have extended the brand into flavoured milks, UHT, condensed and evaporated as well as processed cheese. It is this dedication to service and consistency that has contributed to the continual success of Cowbell as a brand and Promasidor as a whole.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Skimmed Milk and Vegetable Fat Base\",\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\",\"Preparation and Usage\":\"Made with fresh skimmed cows' milk and vegetable fat, our powdered milk products dissolve easily in hot or cold water to instantly create a delicious beverage that contains no cholesterol and are enhanced with Vitarich, a fortified blend of vitamins A, C, D, E and K.\"}","brand_name":"Cowbell","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"422":[{"id":346,"type":"product","image_id":422,"image_name":"NEH00003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-29 19:48:26
+{"method":"getitemintocart","guest_user_id":"97d91c655c23e5b1"}
+ Response :- 
+{"status":"success","data":{"275":{"id":22375,"user_id":0,"guest_user_id":"97d91c655c23e5b1","merchant_inventry_id":275,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2022-08-29 19:47:28"},"666":{"id":22376,"user_id":0,"guest_user_id":"97d91c655c23e5b1","merchant_inventry_id":666,"item_name":"Ideal Value - Evaporated Milk(Ideal Value - Evaporated Milk)","number_of_item":1,"created_date":"2022-08-29 19:48:26"}},"productDetails":{"status":"success","data":{"275":{"id":275,"price":"19.50","product_id":422,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Cowbell Our Milk has become synonymous with quality and value. The vision of providing quality, affordable milk powder to the people of Africa has led Cowbell to be Africa\u2019s number one milk brand in small sachets.\r\nThe regular additions to the Cowbell product range are testament to the Group\u2019s commitment to the provision of innovative and value-added milk products. We have extended the brand into flavoured milks, UHT, condensed and evaporated as well as processed cheese. It is this dedication to service and consistency that has contributed to the continual success of Cowbell as a brand and Promasidor as a whole.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Skimmed Milk and Vegetable Fat Base\",\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\",\"Preparation and Usage\":\"Made with fresh skimmed cows' milk and vegetable fat, our powdered milk products dissolve easily in hot or cold water to instantly create a delicious beverage that contains no cholesterol and are enhanced with Vitarich, a fortified blend of vitamins A, C, D, E and K.\"}","brand_name":"Cowbell","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"},"666":{"id":666,"price":"5.99","product_id":950,"merchant_id":4,"store_id":4,"merchant_product_code":"2860","product_name":"Ideal Value - Evaporated Milk","product_desc":"We believe that all foods and beverages can be both tasty and healthy. Food play an important role in a balanced diet and healthy lifestyle. Our brands and products accompany consumers\u2019 lives from birth through adulthood, from breakfast to dinner, at home and on the go. We are working to ensure our products and services, backed by our scientific knowledge can always make a positive contribution to health, development, mood or vitality.\r\nOur nutrition, health and wellness strategy is based on three fundamental beliefs:\r\nPleasure and health: We believe that nutrition must have great taste if it is to be enjoyed as part of a healthy balanced diet. People want their food to be both enjoyable and healthy, so if we are to win their preference our products must deliver in both taste and nutrition. This is challenging, and our team of highly qualified scientists and research experts has an objective to ensure our products across different categories not only taste better but also help people","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Nestle","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":390,"tax_value":"3"}},"productImageData":{"422":[{"id":346,"type":"product","image_id":422,"image_name":"NEH00003.jpg"}],"950":[{"id":1040,"type":"product","image_id":950,"image_name":"950_1551251404.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-29 21:07:59
+{"method":"getitemintocart","guest_user_id":"e499fc066dbbf30d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

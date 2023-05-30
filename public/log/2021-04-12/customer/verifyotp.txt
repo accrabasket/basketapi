@@ -1,0 +1,5 @@
+
+ Request - 2021-04-12 06:07:56
+{"method":"verifyotp","country_code":"+233","mobile_number":"0201332343","otp_type":"register","otp":"4778"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"77d43a76fe5378c80188f35e510e4328"}}

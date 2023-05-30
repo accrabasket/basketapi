@@ -1,0 +1,33 @@
+
+ Request - 2022-10-19 07:55:31
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 07:56:18
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 07:56:23
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 07:56:54
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"615","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 07:56:56
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"632","action":"add","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 21:47:42
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"1115","action":"add","item_name":"Tasty Nuts(Tasty Nuts)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 21:47:45
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"1115","action":"add","item_name":"Tasty Nuts(Tasty Nuts)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-19 21:48:54
+{"method":"addtocart","guest_user_id":"2c178fe10e579b81","number_of_item":"1","merchant_inventry_id":"615","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

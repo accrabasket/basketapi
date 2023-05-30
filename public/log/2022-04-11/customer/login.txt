@@ -1,0 +1,9 @@
+
+ Request - 2022-04-11 20:07:20
+{"method":"login","email":"akuan076@gmail.com ","password":"McPyrate27@","fcm_reg_id":"cszQq_r1RXg:APA91bG76tLFNScWqqPSP8K-k_7oxwqKFgbYIS99wijX5EF-oaHao5uFA5Inkw5FpG7DJswqzjdDg74t3P3hJAMWFjj1bs5VeIOfhqwmcyQHtBx7espbnERp2kODi9xetJxU_RF8NaBQ"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-04-11 20:08:34
+{"method":"login","email":"akuan076@gmail.com ","password":"McPyrate27@","fcm_reg_id":"cszQq_r1RXg:APA91bG76tLFNScWqqPSP8K-k_7oxwqKFgbYIS99wijX5EF-oaHao5uFA5Inkw5FpG7DJswqzjdDg74t3P3hJAMWFjj1bs5VeIOfhqwmcyQHtBx7espbnERp2kODi9xetJxU_RF8NaBQ"}
+ Response :- 
+{"status":"success","data":{"8220":{"id":8220,"name":"Nana Akua","mobile_number":"542259090","email":"akuan076@gmail.com","key":"02295973bdd9a30f2e2d0f945dbed6d3","password":"f19f9f481ecc5d9f4fec642e7533e80f","fcm_reg_id":"cszQq_r1RXg:APA91bG76tLFNScWqqPSP8K-k_7oxwqKFgbYIS99wijX5EF-oaHao5uFA5Inkw5FpG7DJswqzjdDg74t3P3hJAMWFjj1bs5VeIOfhqwmcyQHtBx7espbnERp2kODi9xetJxU_RF8NaBQ","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-04-11 20:08:10","updated_date":"2022-04-11 20:08:10","status":"1"}},"totalNumberOfUser":1,"wallet_key":"f19f9f481ecc5d9f4fec642e7533e80f"}

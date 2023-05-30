@@ -1,0 +1,17 @@
+
+ Request - 2022-10-19 07:55:17
+{"method":"getCityIdByAddressOrLatLng","address":"24, Jalan Intan, Bukit Ungku Aziz, 80300 Johor Bahru, Johor, 马来西亚","lat":"1.4687296","lng":"103.764398"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"24, Jalan Intan, Bukit Ungku Aziz, 80300 Johor Bahru, Johor, Malaysia"}}
+ Request - 2022-10-19 11:08:48
+{"method":"getCityIdByAddressOrLatLng","address":"3JVW+XGM, Douala, Cameroon","lat":"4.0947381","lng":"9.6462652"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3JVW+XGM, Douala, Cameroon"}}
+ Request - 2022-10-19 14:07:50
+{"method":"getCityIdByAddressOrLatLng","address":"A2, Kembolcha, Ethiopia","lat":"11.0881204","lng":"39.7241449"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3PQF+6M Kombolcha, Ethiopia"}}
+ Request - 2022-10-19 15:52:51
+{"method":"getCityIdByAddressOrLatLng","address":"H374+5J9, Moundou, Tchad","lat":"8.5635876","lng":"16.056119"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H374+5J9, Moundou, Chad"}}

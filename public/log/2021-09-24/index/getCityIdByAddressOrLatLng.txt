@@ -1,0 +1,25 @@
+
+ Request - 2021-09-24 12:30:08
+{"method":"getCityIdByAddressOrLatLng","address":"вулиця Євгена Коновальця, 16, Тернопіль, Тернопільська область, Україна, 46002","lat":"49.5569602","lng":"25.6247991"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Yevhena Konoval'tsya St, 16, Ternopil, Ternopil's'ka oblast, Ukraine, 46002"}}
+ Request - 2021-09-24 12:32:03
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kotli Samuran, Sheikhupura, Punjab, Pakistan","lat":"31.5868227","lng":"73.9975109"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kotli Samuran, Sheikhupura, Punjab, Pakistan"}}
+ Request - 2021-09-24 14:06:19
+{"method":"getCityIdByAddressOrLatLng","address":"3Q73+WWJ, Malvan, Gujarat 382745, India","lat":"23.0645517","lng":"71.7547492"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3Q73+WWJ, Malvan, Gujarat 382745, India"}}
+ Request - 2021-09-24 18:40:48
+{"method":"getCityIdByAddressOrLatLng","address":"E-1064, Budh Nagar, Inder Puri, New Delhi, Delhi 110028, India","lat":"28.6338756","lng":"77.145248"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"E-1064, Budh Nagar, Inder Puri, New Delhi, Delhi 110028, India"}}
+ Request - 2021-09-24 19:33:08
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Diama Toubé, Sénégal","lat":"15.9611007","lng":"-16.4522709"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Diama Toub\u00e9, Senegal"}}
+ Request - 2021-09-24 21:59:59
+{"method":"getCityIdByAddressOrLatLng","address":"C. 7 4912, El Alto, Bolivia","lat":"-16.5331651","lng":"-68.1940048"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C. 7 4912, El Alto, Bolivia"}}

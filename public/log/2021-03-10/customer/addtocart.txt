@@ -1,0 +1,229 @@
+
+ Request - 2021-03-10 17:38:54
+{"method":"addtocart","user_id":"2103","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 17:39:09
+{"method":"addtocart","user_id":"2103","number_of_item":"1","merchant_inventry_id":"3142","action":"add","item_name":"COW MEAT (BONELA)(COW MEAT (BONELA))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 17:39:16
+{"method":"addtocart","user_id":"2103","number_of_item":"1","merchant_inventry_id":"3144","action":"add","item_name":"BEEF TRIPE(BEEF TRIPE)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 17:39:18
+{"method":"addtocart","user_id":"2103","number_of_item":"1","merchant_inventry_id":"3144","action":"add","item_name":"BEEF TRIPE(BEEF TRIPE)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 17:39:21
+{"method":"addtocart","user_id":"2103","number_of_item":"1","merchant_inventry_id":"3144","action":"add","item_name":"BEEF TRIPE(BEEF TRIPE)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 17:39:23
+{"method":"addtocart","user_id":"2103","number_of_item":"1","merchant_inventry_id":"3142","action":"add","item_name":"COW MEAT (BONELA)(COW MEAT (BONELA))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 19:59:37
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2731","action":"add","item_name":"Carrot(Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 19:59:42
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2779","action":"add","item_name":"Cabbage(Cabbage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 19:59:54
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2783","action":"add","item_name":"Coconut(Coconut)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 19:59:55
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2783","action":"add","item_name":"Coconut(Coconut)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:00:06
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2738","action":"add","item_name":"Garlic(Garlic)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:00:33
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2794","action":"add","item_name":"Green Lemon(Green Lemon)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:00:43
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2751","action":"add","item_name":"Mixed Bell Pepper(Mixed Bell Pepper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:00:45
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2752","action":"add","item_name":"Mushroom(Mushroom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:00:48
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2754","action":"add","item_name":"Onions(Onions)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:00:51
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2760","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:01:07
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2764","action":"add","item_name":"Small Green Pepper(Small Green Pepper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:01:14
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2751","action":"delete","item_name":"Mixed Bell Pepper(Mixed Bell Pepper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:01:23
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2769","action":"add","item_name":"Tomatoes(Tomatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:01:30
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2771","action":"add","item_name":"White Onions(White Onions)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:01:31
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2771","action":"add","item_name":"White Onions(White Onions)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:01:49
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:02:09
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2740","action":"add","item_name":"Green Apple - Big(Green Apple - Big)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:02:20
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2748","action":"add","item_name":"Kiwi(Kiwi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:02:34
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2757","action":"add","item_name":"Papaya\/Papaw(Papaya\/Papaw)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:02:35
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2757","action":"add","item_name":"Papaya\/Papaw(Papaya\/Papaw)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:02:39
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2757","action":"delete","item_name":"Papaya\/Papaw(Papaya\/Papaw)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:19
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:21
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:22
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:23
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:23
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:24
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"add","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:04:26
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"465","action":"delete","item_name":"Mineral Water(Mineral Water)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:07:52
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"1154","action":"add","item_name":"WC Gel Cleaner - Ocean(WC Gel Cleaner - Ocean)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:08:56
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2629","action":"add","item_name":"Aluminum Foil(Aluminum Foil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:09:11
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2947","action":"add","item_name":"Lavender Bloom - Fabric Conditioner(Lavender Bloom - Fabric Conditioner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:09:34
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"3052","action":"add","item_name":"Strong Kitchen Towel(Strong Kitchen Towel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:09:34
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"3052","action":"add","item_name":"Strong Kitchen Towel(Strong Kitchen Towel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:17:42
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2714","action":"add","item_name":"Corn Flakes Original(Corn Flakes Original)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:17:44
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2714","action":"add","item_name":"Corn Flakes Original(Corn Flakes Original)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:19:25
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:19:36
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:19:37
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:19:38
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:19:58
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:20:59
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2714","action":"delete","item_name":"Corn Flakes Original(Corn Flakes Original)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:24:00
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"1863","action":"add","item_name":"Chopped Ham Pork(Chopped Ham Pork)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:26:39
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"1031","action":"add","item_name":"White Sugar(White Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:27:10
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"755","action":"add","item_name":"Chocolate Spread(Chocolate Spread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:27:42
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"912","action":"add","item_name":"Chicken Bouillon Tablet(Chicken Bouillon Tablet)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:28:26
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2721","action":"add","item_name":"Mayonnaise with Fresh Eggs(Mayonnaise with Fresh Eggs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:28:33
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2721","action":"delete","item_name":"Mayonnaise with Fresh Eggs(Mayonnaise with Fresh Eggs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:28:36
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2722","action":"add","item_name":"Mayonnaise with Fresh Eggs(Mayonnaise with Fresh Eggs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:30:49
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2651","action":"add","item_name":"Chocolate with Coconut Bread Spread(Chocolate with Coconut Bread Spread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:31:53
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2841","action":"add","item_name":"Sunflower Seeds(Sunflower Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-10 20:33:09
+{"method":"addtocart","user_id":"1261","number_of_item":"1","merchant_inventry_id":"2844","action":"add","item_name":"Mixed Nuts(Mixed Nuts)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

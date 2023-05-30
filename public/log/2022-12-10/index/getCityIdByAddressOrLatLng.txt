@@ -1,0 +1,9 @@
+
+ Request - 2022-12-10 08:24:15
+{"method":"getCityIdByAddressOrLatLng","address":"R8H5+G2Q, Ketela T.E. 71\/122, Assam 784184, India","lat":"26.8291616","lng":"93.3078912"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R8H5+G2Q, Ketela T.E. 71\/122, Assam 784184, India"}}
+ Request - 2022-12-10 18:59:16
+{"method":"getCityIdByAddressOrLatLng","address":"8 Bai Bureh Road, Freetown, Sierra Leone","lat":"8.47918","lng":"-13.2044977"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8 Bai Bureh Road, Freetown, Sierra Leone"}}

@@ -1,0 +1,17 @@
+
+ Request - 2021-01-21 11:36:24
+{"method":"getCityIdByAddressOrLatLng","address":"A2, Kenya","lat":"0.25143333333333334","lng":"37.537263333333335"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A2, Kenya"}}
+ Request - 2021-01-21 12:03:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, ဝါဂရု, Myanmar (Burma)","lat":"15.995319","lng":"97.7092551"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Wagaru, Myanmar (Burma)"}}
+ Request - 2021-01-21 18:29:50
+{"method":"getCityIdByAddressOrLatLng","address":"Tarkwa - Esiama Rd, Tarkwa, Ghana","lat":"5.3091804","lng":"-1.9925878"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tarkwa - Esiama Rd, Tarkwa, Ghana"}}
+ Request - 2021-01-21 19:27:15
+{"method":"getCityIdByAddressOrLatLng","address":"wondy, Kindia, Guinée","lat":"10.0372888","lng":"-12.8435532"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"wondy, Kindia, Guinea"}}

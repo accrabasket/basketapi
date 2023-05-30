@@ -1,0 +1,57 @@
+
+ Request - 2022-01-08 03:30:55
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 03:32:02
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":19176,"user_id":0,"guest_user_id":"ff752b56df19d38c","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":1,"created_date":"2022-01-08 03:32:01"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-08 03:32:05
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":19176,"user_id":0,"guest_user_id":"ff752b56df19d38c","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":2,"created_date":"2022-01-08 03:32:01"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-08 03:32:07
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":19176,"user_id":0,"guest_user_id":"ff752b56df19d38c","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":3,"created_date":"2022-01-08 03:32:01"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-08 03:32:10
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":19176,"user_id":0,"guest_user_id":"ff752b56df19d38c","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":3,"created_date":"2022-01-08 03:32:01"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-08 03:32:19
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":19176,"user_id":0,"guest_user_id":"ff752b56df19d38c","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":2,"created_date":"2022-01-08 03:32:01"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-08 03:32:20
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":19176,"user_id":0,"guest_user_id":"ff752b56df19d38c","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":1,"created_date":"2022-01-08 03:32:01"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-08 03:32:22
+{"method":"getitemintocart","guest_user_id":"ff752b56df19d38c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 05:03:37
+{"method":"getitemintocart","guest_user_id":"3059ec5dcb2b2fde"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 08:38:23
+{"method":"getitemintocart","guest_user_id":"faeb6a91443c54d2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 13:49:26
+{"method":"getitemintocart","guest_user_id":"b23a4b5b3d96f73b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 14:21:05
+{"method":"getitemintocart","guest_user_id":"d01053b6f1b20f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 17:49:08
+{"method":"getitemintocart","guest_user_id":"9e55e2728959fc0e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-08 23:15:51
+{"method":"getitemintocart","guest_user_id":"a5982d00351f7501"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,17 @@
+
+ Request - 2022-10-05 00:01:12
+{"method":"getCityIdByAddressOrLatLng","address":"FR4H+5HQ, Bai Bureh Road, Freetown, Sierra Leone","lat":"8.4544972","lng":"-13.1713313"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FR4H+5HQ, Bai Bureh Road, Freetown, Sierra Leone"}}
+ Request - 2022-10-05 06:05:43
+{"method":"getCityIdByAddressOrLatLng","address":"Near by Parthmabank, Rahra, Uttar Pradesh 244255, India","lat":"28.5273415","lng":"78.3132729"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G8G7+W8 Rahra, Uttar Pradesh, India"}}
+ Request - 2022-10-05 12:00:54
+{"method":"getCityIdByAddressOrLatLng","address":"FTC Mosque, FTC Mosque, Karachi Cantonment Karachi, Karachi City, Sindh, Pakistan","lat":"24.8580285","lng":"67.0521698"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FTC Mosque, FTC Mosque, Karachi Cantonment Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-10-05 22:23:48
+{"method":"getCityIdByAddressOrLatLng","address":"4G7G+PP, Kisubi, Uganda","lat":"0.113348","lng":"32.52649"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4G7G+PP, Kisubi, Uganda"}}

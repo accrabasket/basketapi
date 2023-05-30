@@ -1,0 +1,8 @@
+
+ Request - 2021-07-29 08:40:35
+{"method":"getBallance","user_id":559,"wallet_key":"90a825e02bd0f4c6370ef6389494dcab"}
+
+ Response :- 
+
+
+{"status":"success","data":{"amount":"16.00"}}

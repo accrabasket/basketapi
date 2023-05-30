@@ -1,0 +1,41 @@
+
+ Request - 2021-01-24 00:14:20
+{"method":"addtocart","guest_user_id":"c46056d825911295","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:05:52
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:05:59
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:06:09
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"292","action":"add","item_name":"Mixed Vegetables with Tomato Sauce(Mixed Vegetables with Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:06:12
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:06:17
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"619","action":"add","item_name":"Baked Beanz(Baked Beanz)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:06:25
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 06:06:27
+{"method":"addtocart","guest_user_id":"e373dd9e1e02d130","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 19:26:05
+{"method":"addtocart","guest_user_id":"a5e8d91e032c24f8","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-24 19:27:53
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

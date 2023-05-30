@@ -1,0 +1,5 @@
+
+ Request - 2022-04-18 19:51:03
+{"method":"addedituser","city_id":"1","password":"YOLANDA100","name":"WIPE SOAP","email":"cleansmellltd@gmail.com","mobile_number":"0553000039","country_code":"+233","id":"0","fcm_reg_id":"c2VwB1wIBHM:APA91bH3QBAenZJOEwMwpHcK6B9mqWTkLSykICWiosGTwDZW5Nv26zna8EYtAK3AWJgAmziawpQx2oLaFH3jMxceU54QuoGpDEUjcHQ4FWt5DarJhPml2_GrlI13JYpVSXZBcHl62wcD"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233553000039 and registered email id.","data":{"8254":{"id":8254,"name":"WIPE SOAP","mobile_number":"553000039","email":"cleansmellltd@gmail.com","key":"d1addce86ea43092c4a520969ec3c9fd","password":"85a0c52b3203b1d24bd7668c19cd099c","fcm_reg_id":"c2VwB1wIBHM:APA91bH3QBAenZJOEwMwpHcK6B9mqWTkLSykICWiosGTwDZW5Nv26zna8EYtAK3AWJgAmziawpQx2oLaFH3jMxceU54QuoGpDEUjcHQ4FWt5DarJhPml2_GrlI13JYpVSXZBcHl62wcD","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-04-18 19:51:03","updated_date":"2022-04-18 19:51:03","status":"1"}}}

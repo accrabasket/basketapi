@@ -1,0 +1,21 @@
+
+ Request - 2022-08-21 01:51:08
+{"method":"getCityIdByAddressOrLatLng","address":"8JP2+Q4V, Dadahup, Kec. Dadahup, Kabupaten Kapuas, Kalimantan Tengah 73593, Indonesia","lat":"-2.662704","lng":"114.5994329"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8JP2+Q4V, Dadahup, Kapuas Regency, Central Kalimantan 73593, Indonesia"}}
+ Request - 2022-08-21 16:46:38
+{"method":"getCityIdByAddressOrLatLng","address":"VMQM+WFH, Av. Egypt, Tiflet, Maroc","lat":"33.88987","lng":"-6.3161297"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VMQM+WFH, Av. Egypt, Tiflet, Morocco"}}
+ Request - 2022-08-21 17:32:28
+{"method":"getCityIdByAddressOrLatLng","address":"2469+RHJ, 950103, Agbashi, Nigeria","lat":"8.012001","lng":"8.1190078"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2469+RHJ, 950103, Agbashi, Nigeria"}}
+ Request - 2022-08-21 19:12:10
+{"method":"getCityIdByAddressOrLatLng","address":"01 Salambo St, Gammarth 1057, Tunisia","lat":"36.889316","lng":"10.3172322"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"01 Salambo St, Gammarth 1057, Tunisia"}}
+ Request - 2022-08-21 23:56:33
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Wijaya Kusuma Raya No.39, RT.6\/RW.6, Depok Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16432, Indonesia","lat":"-6.3904798","lng":"106.8164371"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Wijaya Kusuma Raya No.39, RT.6\/RW.6, Depok Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16432, Indonesia"}}

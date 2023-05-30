@@ -1,0 +1,9 @@
+
+ Request - 2021-04-30 12:37:13
+{"method":"getCityIdByAddressOrLatLng","address":"2192 25 ب، العزيزية، الدمام 32424 7636، السعودية","lat":"26.4556854","lng":"50.0630616"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2192 25 \u0628\u060c Al Aziziyah, Dammam 32424\u00a07636, Saudi Arabia"}}
+ Request - 2021-04-30 22:01:01
+{"method":"getCityIdByAddressOrLatLng","address":"Rue Kouyou, Brazzaville, République du Congo","lat":"-4.2608291","lng":"15.2816174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue Kouyou, Brazzaville, Republic of the Congo"}}

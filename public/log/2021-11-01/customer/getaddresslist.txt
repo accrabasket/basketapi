@@ -1,0 +1,13 @@
+
+ Request - 2021-11-01 09:14:18
+{"method":"getaddresslist","user_id":"3091"}
+ Response :- 
+{"status":"success","data":{"480":{"id":480,"user_id":3091,"address_nickname":"","contact_name":"AJ Tetteh","city_id":1,"city_name":"Dzorwulu, Accra, Ghana","house_number":"13","street_detail":"","landmark":"Old voltic house","zipcode":"","area":"Old voltic house","lat":"5.6141232","lng":"-0.1956471","created_date":"2021-07-08 10:08:31","updated_date":"2021-07-08 10:08:31"}}}
+ Request - 2021-11-01 09:15:01
+{"method":"getaddresslist","user_id":"3091"}
+ Response :- 
+{"status":"success","data":{"480":{"id":480,"user_id":3091,"address_nickname":"","contact_name":"AJ Tetteh","city_id":1,"city_name":"Dzorwulu, Accra, Ghana","house_number":"13","street_detail":"","landmark":"Old voltic house","zipcode":"","area":"Old voltic house","lat":"5.6141232","lng":"-0.1956471","created_date":"2021-07-08 10:08:31","updated_date":"2021-07-08 10:08:31"}}}
+ Request - 2021-11-01 09:15:31
+{"method":"getaddresslist","user_id":"3091"}
+ Response :- 
+{"status":"success","data":{"480":{"id":480,"user_id":3091,"address_nickname":"","contact_name":"AJ Tetteh","city_id":1,"city_name":"Dzorwulu, Accra, Ghana","house_number":"13","street_detail":"","landmark":"Old voltic house","zipcode":"","area":"Old voltic house","lat":"5.6141232","lng":"-0.1956471","created_date":"2021-07-08 10:08:31","updated_date":"2021-07-08 10:08:31"}}}

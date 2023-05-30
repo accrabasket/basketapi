@@ -1,0 +1,5 @@
+
+ Request - 2021-07-16 10:19:03
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"209504008"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233209504008","otp_type":"register","user_id":"0","otp":6183,"expiry_date":"2021-07-16 10:34:03"}}

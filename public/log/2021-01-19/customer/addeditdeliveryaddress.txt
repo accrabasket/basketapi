@@ -1,0 +1,9 @@
+
+ Request - 2021-01-19 00:52:56
+{"method":"addeditdeliveryaddress","house_number":"vvfc","area":"","street_detail":"yfggffr","contact_name":"bvcfdd","city_name":"Accra - Tema Motorway, Accra, Ghana","city_id":"1","lat":"5.6348604","long":"-0.1437697","user_id":"1751","address_nickname":"ghfdfddd","landmark":"gffddd","zipcode":"1111"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":370}}
+ Request - 2021-01-19 00:54:21
+{"method":"addeditdeliveryaddress","house_number":"vvfc","area":"","street_detail":"yfggffr","contact_name":"bvcfdd","city_name":"Accra - Tema Motorway, Accra, Ghana","city_id":"1","lat":"5.6348604","long":"-0.1437697","user_id":"1751","address_nickname":"ghfdfddd","landmark":"gffddd","zipcode":"1111","id":"370"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

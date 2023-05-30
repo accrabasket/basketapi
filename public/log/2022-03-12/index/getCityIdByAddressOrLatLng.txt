@@ -1,0 +1,17 @@
+
+ Request - 2022-03-12 06:01:04
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2022-03-12 13:11:07
+{"method":"getCityIdByAddressOrLatLng","address":"Ejura, Ghana","lat":"7.4811298","lng":"-1.4290891"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ejura, Ghana"}}
+ Request - 2022-03-12 15:52:01
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Sénégal","lat":"15.4273653","lng":"-16.7181197"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C7GJ+WQ Lompoul sur Mer, Senegal"}}
+ Request - 2022-03-12 16:44:33
+{"method":"getCityIdByAddressOrLatLng","address":"D 46, Niangoloko, Burkina Faso","lat":"10.2905941","lng":"-4.9219491"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"73RH+66 Niangoloko, Burkina Faso"}}

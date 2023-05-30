@@ -1,0 +1,17 @@
+
+ Request - 2022-02-28 07:14:04
+{"method":"getCityIdByAddressOrLatLng","address":"KK 572 St, Kigali, Rwanda","lat":"-1.9769362","lng":"30.0921657"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"23FR+6V Kigali, Rwanda"}}
+ Request - 2022-02-28 10:19:26
+{"method":"getCityIdByAddressOrLatLng","address":"HCWR+5J8, Hyderabad, Telangana 500043, India","lat":"17.5952739","lng":"78.4419777"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HCWR+5J8, Hyderabad, Telangana 500043, India"}}
+ Request - 2022-02-28 12:53:48
+{"method":"getCityIdByAddressOrLatLng","address":"85X9+84C, Goma, République démocratique du Congo","lat":"-1.6516141","lng":"29.1687325"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"85X9+84C, Goma, Democratic Republic of the Congo"}}
+ Request - 2022-02-28 13:52:46
+{"method":"getCityIdByAddressOrLatLng","address":"HQQQ+F28, Accra, Ghana","lat":"5.5887796","lng":"-0.2117481"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HQQQ+F28, Accra, Ghana"}}

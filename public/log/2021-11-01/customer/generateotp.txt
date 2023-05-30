@@ -1,0 +1,13 @@
+
+ Request - 2021-11-01 10:54:25
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"244238922"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233244238922","otp_type":"register","user_id":"0","otp":4393,"expiry_date":"2021-11-01 11:09:25"}}
+ Request - 2021-11-01 10:54:30
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"244238922"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233244238922","otp_type":"register","user_id":"0","otp":6809,"expiry_date":"2021-11-01 11:09:30"}}
+ Request - 2021-11-01 10:54:53
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"244238922"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233244238922","otp_type":"register","user_id":"0","otp":9486,"expiry_date":"2021-11-01 11:09:53"}}

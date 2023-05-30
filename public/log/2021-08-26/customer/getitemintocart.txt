@@ -1,0 +1,141 @@
+
+ Request - 2021-08-26 02:03:39
+{"method":"getitemintocart","guest_user_id":"b6d5108c798c7bb2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 02:03:40
+{"method":"getitemintocart","guest_user_id":"b6d5108c798c7bb2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 02:04:12
+{"method":"getitemintocart","guest_user_id":"b6d5108c798c7bb2"}
+ Response :- 
+{"status":"success","data":{"2838":{"id":16981,"user_id":0,"guest_user_id":"b6d5108c798c7bb2","merchant_inventry_id":2838,"item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)","number_of_item":1,"created_date":"2021-08-26 02:04:12"}},"productDetails":{"status":"success","data":{"2838":{"id":2838,"price":"22.00","product_id":3208,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk Fruit & Nut - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk Solids, Cocoa Butter, Raisins, Cocoa Solids, Almonds, Emulsifiers, Added Flavour.\"}","brand_name":"Cadbury","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":110,"tax_value":"3"}},"productImageData":{"3208":[{"id":3871,"type":"product","image_id":3208,"image_name":"VID121.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 02:04:27
+{"method":"getitemintocart","guest_user_id":"b6d5108c798c7bb2"}
+ Response :- 
+{"status":"success","data":{"2838":{"id":16981,"user_id":0,"guest_user_id":"b6d5108c798c7bb2","merchant_inventry_id":2838,"item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)","number_of_item":1,"created_date":"2021-08-26 02:04:12"},"2839":{"id":16982,"user_id":0,"guest_user_id":"b6d5108c798c7bb2","merchant_inventry_id":2839,"item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)","number_of_item":1,"created_date":"2021-08-26 02:04:23"}},"productDetails":{"status":"success","data":{"2838":{"id":2838,"price":"22.00","product_id":3208,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk Fruit & Nut - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk Solids, Cocoa Butter, Raisins, Cocoa Solids, Almonds, Emulsifiers, Added Flavour.\"}","brand_name":"Cadbury","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":110,"tax_value":"3"},"2839":{"id":2839,"price":"8.50","product_id":3209,"merchant_id":8,"store_id":12,"merchant_product_code":"VID122","product_name":"Dairy Milk Fruit & Nut - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk Solids, Cocoa Butter, Raisins, Cocoa Solids, Almonds, Emulsifiers, Added Flavour.\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":40,"tax_value":"3"}},"productImageData":{"3208":[{"id":3871,"type":"product","image_id":3208,"image_name":"VID121.jpg"}],"3209":[{"id":3873,"type":"product","image_id":3209,"image_name":"VID122.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 02:04:27
+{"method":"getitemintocart","guest_user_id":"b6d5108c798c7bb2"}
+ Response :- 
+{"status":"success","data":{"2838":{"id":16981,"user_id":0,"guest_user_id":"b6d5108c798c7bb2","merchant_inventry_id":2838,"item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)","number_of_item":1,"created_date":"2021-08-26 02:04:12"},"2839":{"id":16982,"user_id":0,"guest_user_id":"b6d5108c798c7bb2","merchant_inventry_id":2839,"item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)","number_of_item":1,"created_date":"2021-08-26 02:04:23"}},"productDetails":{"status":"success","data":{"2838":{"id":2838,"price":"22.00","product_id":3208,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk Fruit & Nut - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk Solids, Cocoa Butter, Raisins, Cocoa Solids, Almonds, Emulsifiers, Added Flavour.\"}","brand_name":"Cadbury","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":110,"tax_value":"3"},"2839":{"id":2839,"price":"8.50","product_id":3209,"merchant_id":8,"store_id":12,"merchant_product_code":"VID122","product_name":"Dairy Milk Fruit & Nut - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk Solids, Cocoa Butter, Raisins, Cocoa Solids, Almonds, Emulsifiers, Added Flavour.\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":40,"tax_value":"3"}},"productImageData":{"3208":[{"id":3871,"type":"product","image_id":3208,"image_name":"VID121.jpg"}],"3209":[{"id":3873,"type":"product","image_id":3209,"image_name":"VID122.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 02:55:48
+{"method":"getitemintocart","guest_user_id":"6b51c157c02450ea"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 03:31:08
+{"method":"getitemintocart","guest_user_id":"c0956fc1083d0e8b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 03:31:30
+{"method":"getitemintocart","guest_user_id":"c0956fc1083d0e8b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 06:10:39
+{"method":"getitemintocart","guest_user_id":"3bc64a2be4462db7"}
+ Response :- 
+{"status":"success","data":{"232":{"id":14778,"user_id":0,"guest_user_id":"3bc64a2be4462db7","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2021-05-13 20:22:05"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 06:13:46
+{"method":"getitemintocart","guest_user_id":"765d637393019c47"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 06:33:10
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 06:47:26
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 06:48:17
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"success","data":{"737":{"id":16983,"user_id":0,"guest_user_id":"3da53acf2646912f","merchant_inventry_id":737,"item_name":"Tom Brown - Zipper Sachet(Tom Brown - Zipper Sachet)","number_of_item":1,"created_date":"2021-08-26 06:48:16"}},"productDetails":{"status":"success","data":{"737":{"id":737,"price":"34.49","product_id":1021,"merchant_id":4,"store_id":4,"merchant_product_code":"65903","product_name":"Tom Brown - Zipper Sachet","product_desc":"Oxy Industries Ltd is currently leading the Ghanaian Market with our Quality and attractively Packaged Food products under the brand name \u201cSUNNY GOLD\u201d.\r\nOur strength lies in innovation and careful research into quality and attractive food packaging that will Meet the Safety and Convenience of our cherished consumers.","default_discount_type":"","default_discount_value":"0","category_id":52,"custom_info":"{\"Ingredients\":\"Rice, Wheat, Soya Beans and Salt\"}","brand_name":"Sunny Gold","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"0","unit":"kg","quantity":1.5,"tax_value":"3"}},"productImageData":{"1021":[{"id":1593,"type":"product","image_id":1021,"image_name":"65903.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 06:48:20
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"success","data":{"737":{"id":16983,"user_id":0,"guest_user_id":"3da53acf2646912f","merchant_inventry_id":737,"item_name":"Tom Brown - Zipper Sachet(Tom Brown - Zipper Sachet)","number_of_item":2,"created_date":"2021-08-26 06:48:16"}},"productDetails":{"status":"success","data":{"737":{"id":737,"price":"34.49","product_id":1021,"merchant_id":4,"store_id":4,"merchant_product_code":"65903","product_name":"Tom Brown - Zipper Sachet","product_desc":"Oxy Industries Ltd is currently leading the Ghanaian Market with our Quality and attractively Packaged Food products under the brand name \u201cSUNNY GOLD\u201d.\r\nOur strength lies in innovation and careful research into quality and attractive food packaging that will Meet the Safety and Convenience of our cherished consumers.","default_discount_type":"","default_discount_value":"0","category_id":52,"custom_info":"{\"Ingredients\":\"Rice, Wheat, Soya Beans and Salt\"}","brand_name":"Sunny Gold","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"0","unit":"kg","quantity":1.5,"tax_value":"3"}},"productImageData":{"1021":[{"id":1593,"type":"product","image_id":1021,"image_name":"65903.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 07:16:04
+{"method":"getitemintocart","guest_user_id":"eddb2faa712cb7c9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 07:44:36
+{"method":"getitemintocart","guest_user_id":"57acd3abb5114206"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 08:04:46
+{"method":"getitemintocart","guest_user_id":"e1ff0568a89b2f6f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 09:14:20
+{"method":"getitemintocart","guest_user_id":"d10eba59713268c1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 09:41:45
+{"method":"getitemintocart","guest_user_id":"b968cb2b36fd7846"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 10:37:32
+{"method":"getitemintocart","guest_user_id":"8bee9a7920fd55b0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 11:00:17
+{"method":"getitemintocart","guest_user_id":"942bcbe42289df84"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 11:00:46
+{"method":"getitemintocart","guest_user_id":"942bcbe42289df84"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 11:19:35
+{"method":"getitemintocart","guest_user_id":"fb496ab1f6e6bd5c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 11:22:15
+{"method":"getitemintocart","guest_user_id":"fb496ab1f6e6bd5c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 11:40:13
+{"method":"getitemintocart","guest_user_id":"569b0ca4edb3f8b8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 13:40:44
+{"method":"getitemintocart","guest_user_id":"1f6951d8de93fce2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 13:41:10
+{"method":"getitemintocart","guest_user_id":"1f6951d8de93fce2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 13:42:00
+{"method":"getitemintocart","guest_user_id":"1f6951d8de93fce2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 15:08:43
+{"method":"getitemintocart","guest_user_id":"a9ab1e1dbf2d5b58"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 15:13:22
+{"method":"getitemintocart","guest_user_id":"5c95467e3023ac0e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 15:14:59
+{"method":"getitemintocart","guest_user_id":"bbdae13c61ab6e39"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 16:02:07
+{"method":"getitemintocart","guest_user_id":"98c21e74761da2f8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 16:07:18
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"success","data":{"737":{"id":16983,"user_id":0,"guest_user_id":"3da53acf2646912f","merchant_inventry_id":737,"item_name":"Tom Brown - Zipper Sachet(Tom Brown - Zipper Sachet)","number_of_item":2,"created_date":"2021-08-26 06:48:16"}},"productDetails":{"status":"success","data":{"737":{"id":737,"price":"34.49","product_id":1021,"merchant_id":4,"store_id":4,"merchant_product_code":"65903","product_name":"Tom Brown - Zipper Sachet","product_desc":"Oxy Industries Ltd is currently leading the Ghanaian Market with our Quality and attractively Packaged Food products under the brand name \u201cSUNNY GOLD\u201d.\r\nOur strength lies in innovation and careful research into quality and attractive food packaging that will Meet the Safety and Convenience of our cherished consumers.","default_discount_type":"","default_discount_value":"0","category_id":52,"custom_info":"{\"Ingredients\":\"Rice, Wheat, Soya Beans and Salt\"}","brand_name":"Sunny Gold","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"0","unit":"kg","quantity":1.5,"tax_value":"3"}},"productImageData":{"1021":[{"id":1593,"type":"product","image_id":1021,"image_name":"65903.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-26 21:24:01
+{"method":"getitemintocart","guest_user_id":"5e84a4230f5d598c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-26 22:32:47
+{"method":"getitemintocart","guest_user_id":"63e454a2f64b6a64"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

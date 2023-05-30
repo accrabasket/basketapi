@@ -1,0 +1,13 @@
+
+ Request - 2022-01-21 07:24:31
+{"method":"getcoupon","user_id":"3091","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2022-01-21 07:50:18
+{"method":"getcoupon","user_id":"3091","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2022-01-21 07:50:59
+{"method":"getcoupon","user_id":"3091","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

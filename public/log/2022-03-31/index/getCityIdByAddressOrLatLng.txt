@@ -1,0 +1,13 @@
+
+ Request - 2022-03-31 10:27:41
+{"method":"getCityIdByAddressOrLatLng","address":"Touba, Sénégal","lat":"14.8665572","lng":"-15.8994956"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V482+J5H, Touba, Senegal"}}
+ Request - 2022-03-31 11:57:04
+{"method":"getCityIdByAddressOrLatLng","address":"25CG+CGV, Belas, Angola","lat":"-8.9781587","lng":"13.1769944"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"25CG+CGV, Belas, Angola"}}
+ Request - 2022-03-31 18:40:59
+{"method":"getCityIdByAddressOrLatLng","address":"4 Ogundana St, Allen 101233, Ikeja, Nigeria","lat":"6.6013243","lng":"3.3535331"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 Ogundana St, Allen 101233, Ikeja, Nigeria"}}

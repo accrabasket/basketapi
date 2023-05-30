@@ -1,0 +1,25 @@
+
+ Request - 2022-03-15 06:44:17
+{"method":"getCityIdByAddressOrLatLng","address":"7QH9+GF3, Port-Gentil, Gabon","lat":"-0.7213878","lng":"8.7689414"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7QH9+GF3, Port-Gentil, Gabon"}}
+ Request - 2022-03-15 09:01:12
+{"method":"getCityIdByAddressOrLatLng","address":"Salash - Fulbari Rd, Hazaratpur, West Bengal 733127, India","lat":"25.3523655","lng":"88.5847627"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9H2M+WW Hazaratpur, West Bengal, India"}}
+ Request - 2022-03-15 13:25:30
+{"method":"getCityIdByAddressOrLatLng","address":"P4HV+P4Q، بيراماجرون، العراق","lat":"35.729058","lng":"45.1431614"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P4HV+P4Q, Piramagroon, Iraq"}}
+ Request - 2022-03-15 14:23:37
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Fatick, Sénégal","lat":"14.3359137","lng":"-16.4154526"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8HPM+9R Fatick, Senegal"}}
+ Request - 2022-03-15 14:46:45
+{"method":"getCityIdByAddressOrLatLng","address":"XFFJ+M7V, Kalyani, West Bengal 741234, India","lat":"22.9744095","lng":"88.4807957"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XFFJ+M7V, Kalyani, West Bengal 741234, India"}}
+ Request - 2022-03-15 23:45:40
+{"method":"getCityIdByAddressOrLatLng","address":"858Q+R35, Batu Merah, Sirimau, Kota Ambon, Maluku, Indonesia","lat":"-3.6831347","lng":"128.1876189"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"858Q+R35, Batu Merah, Sirimau, Kota Ambon, Maluku, Indonesia"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-11-17 04:17:33
+{"start_date":"2021-11-17","end_date":"2021-11-17","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":[],"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-11-17 15:01:41
+{"start_date":"2021-11-17","end_date":"2021-11-17","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-11-17":{"count":23,"created_date":"2021-11-17"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

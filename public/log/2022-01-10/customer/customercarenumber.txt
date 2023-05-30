@@ -1,0 +1,17 @@
+
+ Request - 2022-01-10 00:03:08
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}
+ Request - 2022-01-10 00:19:44
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}
+ Request - 2022-01-10 20:02:03
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}
+ Request - 2022-01-10 20:02:12
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}

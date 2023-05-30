@@ -1,0 +1,29 @@
+
+ Request - 2021-02-07 07:04:25
+{"method":"addtocart","guest_user_id":"4b5c834f22cc3ed5","number_of_item":"1","merchant_inventry_id":"1066","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-07 07:04:43
+{"method":"addtocart","guest_user_id":"4b5c834f22cc3ed5","number_of_item":"1","merchant_inventry_id":"1064","action":"add","item_name":"Dishwashing Liquid - Lemon(Dishwashing Liquid - Lemon)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-07 09:54:46
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"3176","action":"delete","item_name":"SUNFLOWER OIL 12X1L(SUNFLOWER OIL 12X1L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-07 12:40:06
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-07 12:40:08
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-07 12:40:10
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-07 12:40:14
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

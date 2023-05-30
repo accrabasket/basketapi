@@ -1,0 +1,5 @@
+
+ Request - 2021-01-30 16:52:16
+{"method":"verifyotp","country_code":"+233","mobile_number":"0248572471","otp_type":"register","otp":"2400"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"0b9884175e62bf0c12b902c46d3be5f7"}}

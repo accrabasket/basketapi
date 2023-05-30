@@ -1,0 +1,9 @@
+
+ Request - 2021-01-16 09:31:41
+{"method":"getaddresslist","user_id":"307"}
+ Response :- 
+{"status":"success","data":{"163":{"id":163,"user_id":307,"address_nickname":"comm 12","contact_name":"vaibhav","city_id":1,"city_name":"Cashew Lane, Tema, Ghana","house_number":"32","street_detail":"cashew lane","landmark":"ahead of adonai international church ","zipcode":"","area":"","lat":"5.6673802","lng":"-0.1613592","created_date":"2020-03-30 13:09:22","updated_date":"2020-03-30 13:09:22"}}}
+ Request - 2021-01-16 09:33:15
+{"method":"getaddresslist","user_id":"307"}
+ Response :- 
+{"status":"success","data":{"163":{"id":163,"user_id":307,"address_nickname":"comm 12","contact_name":"vaibhav","city_id":1,"city_name":"Cashew Lane, Tema, Ghana","house_number":"32","street_detail":"cashew lane","landmark":"ahead of adonai international church ","zipcode":"","area":"","lat":"5.6673802","lng":"-0.1613592","created_date":"2020-03-30 13:09:22","updated_date":"2020-03-30 13:09:22"},"367":{"id":367,"user_id":307,"address_nickname":"tema ","contact_name":"vaibhav joshi","city_id":1,"city_name":"Hospital Rd Link Ext, Tema, Ghana","house_number":"22 opp good news mission church","street_detail":"comm 12","landmark":"Good news mission church ","zipcode":"","area":"","lat":"5.6735372","lng":"","created_date":"2021-01-16 09:33:15","updated_date":"2021-01-16 09:33:15"}}}

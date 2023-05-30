@@ -1,0 +1,13 @@
+
+ Request - 2021-02-24 09:57:21
+{"method":"addtocart","guest_user_id":"094941797de457ee","number_of_item":"1","merchant_inventry_id":"2518","action":"add","item_name":"Kids Happy Baskets(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-24 09:57:33
+{"method":"addtocart","guest_user_id":"094941797de457ee","number_of_item":"1","merchant_inventry_id":"3100","action":"add","item_name":"300 GHC(300 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-24 09:57:36
+{"method":"addtocart","guest_user_id":"094941797de457ee","number_of_item":"1","merchant_inventry_id":"3101","action":"add","item_name":"500 GHC(500 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

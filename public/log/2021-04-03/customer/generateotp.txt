@@ -1,0 +1,5 @@
+
+ Request - 2021-04-03 17:29:35
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0558241250"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330558241250","otp_type":"register","user_id":"0","otp":8619,"expiry_date":"2021-04-03 17:44:35"}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-10-06 12:04:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroun","lat":"5.570879","lng":"10.2122428"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Cameroon"}}
+ Request - 2021-10-06 12:04:53
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cameroun","lat":"5.570879","lng":"10.2122428"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Cameroon"}}
+ Request - 2021-10-06 14:25:53
+{"method":"getCityIdByAddressOrLatLng","address":"Jhapha Minapur Rd, Minapur, Bihar 843128, India","lat":"26.2723843","lng":"85.3438247"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jhapha Minapur Rd, Minapur, Bihar 843128, India"}}
+ Request - 2021-10-06 16:49:45
+{"method":"getCityIdByAddressOrLatLng","address":"413 17648، السعودية","lat":"25.1612698","lng":"44.6117829"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"413 17648, Saudi Arabia"}}
+ Request - 2021-10-06 21:16:37
+{"method":"getCityIdByAddressOrLatLng","address":"1784 Burnet Ave, Union, NJ 07083, USA","lat":"40.715917","lng":"-74.26851239999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1784 Burnet Ave, Union, NJ 07083, USA"}}

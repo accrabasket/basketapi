@@ -1,0 +1,17 @@
+
+ Request - 2021-04-29 10:14:30
+{"method":"addedituser","city_id":"1","password":"123456789","name":"Himani","email":"honeysuni1992@gmail.com","mobile_number":"917987416880","country_code":"+233","id":"0","fcm_reg_id":"dDXhIiYI8AE:APA91bEC31vqlA6_sNhdDsjZUAPpZ8u5zVoa_oSOfWvVxi1VdD7PIXVLr2Ouj83leGVVXgF7b_0qrFH9mr6P_TyJvY2YquEsCsbD-Wopf21bh2Nqu28oLXFhvjvwuv9k-JcGNwuby8eh"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233917987416880 and registered email id.","data":{"2480":{"id":2480,"name":"Himani","mobile_number":"917987416880","email":"honeysuni1992@gmail.com","key":"dfd277bf1523f410626df85b0dd6bef7","password":"25f9e794323b453885f5181f1b624d0b","fcm_reg_id":"dDXhIiYI8AE:APA91bEC31vqlA6_sNhdDsjZUAPpZ8u5zVoa_oSOfWvVxi1VdD7PIXVLr2Ouj83leGVVXgF7b_0qrFH9mr6P_TyJvY2YquEsCsbD-Wopf21bh2Nqu28oLXFhvjvwuv9k-JcGNwuby8eh","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-29 10:14:30","updated_date":"2021-04-29 10:14:30","status":"1"}}}
+ Request - 2021-04-29 10:21:17
+{"method":"addedituser","city_id":"1","password":"7987416880","name":"Himani","email":"honeysuni1992@gmail.com","mobile_number":"7987416880","country_code":"+233","id":"0","fcm_reg_id":"dDXhIiYI8AE:APA91bEC31vqlA6_sNhdDsjZUAPpZ8u5zVoa_oSOfWvVxi1VdD7PIXVLr2Ouj83leGVVXgF7b_0qrFH9mr6P_TyJvY2YquEsCsbD-Wopf21bh2Nqu28oLXFhvjvwuv9k-JcGNwuby8eh"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-29 10:21:24
+{"method":"addedituser","city_id":"1","password":"7987416880","name":"Himani","email":"honeysuni1992@gmail.com","mobile_number":"7987416880","country_code":"+233","id":"0","fcm_reg_id":"dDXhIiYI8AE:APA91bEC31vqlA6_sNhdDsjZUAPpZ8u5zVoa_oSOfWvVxi1VdD7PIXVLr2Ouj83leGVVXgF7b_0qrFH9mr6P_TyJvY2YquEsCsbD-Wopf21bh2Nqu28oLXFhvjvwuv9k-JcGNwuby8eh"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-29 10:21:34
+{"method":"addedituser","city_id":"1","password":"7987416880","name":"Himani","email":"honeysuni199212@gmail.com","mobile_number":"7987416880","country_code":"+233","id":"0","fcm_reg_id":"dDXhIiYI8AE:APA91bEC31vqlA6_sNhdDsjZUAPpZ8u5zVoa_oSOfWvVxi1VdD7PIXVLr2Ouj83leGVVXgF7b_0qrFH9mr6P_TyJvY2YquEsCsbD-Wopf21bh2Nqu28oLXFhvjvwuv9k-JcGNwuby8eh"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2337987416880 and registered email id.","data":{"2481":{"id":2481,"name":"Himani","mobile_number":"7987416880","email":"honeysuni199212@gmail.com","key":"f2c51df072b02e1f2573a5081f5f01c8","password":"bc6e0c99b9996fcd718feab3902338f8","fcm_reg_id":"dDXhIiYI8AE:APA91bEC31vqlA6_sNhdDsjZUAPpZ8u5zVoa_oSOfWvVxi1VdD7PIXVLr2Ouj83leGVVXgF7b_0qrFH9mr6P_TyJvY2YquEsCsbD-Wopf21bh2Nqu28oLXFhvjvwuv9k-JcGNwuby8eh","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-29 10:21:34","updated_date":"2021-04-29 10:21:34","status":"1"}}}

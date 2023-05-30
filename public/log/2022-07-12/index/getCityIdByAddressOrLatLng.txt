@@ -1,0 +1,41 @@
+
+ Request - 2022-07-12 05:15:25
+{"method":"getCityIdByAddressOrLatLng","address":"V434+FQ6, Karauti, Uttar Pradesh 276204, India","lat":"25.8522972","lng":"83.1080947"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V425+W6 Karauti, Uttar Pradesh, India"}}
+ Request - 2022-07-12 10:09:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"10.9487131","lng":"-0.4807622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2022-07-12 10:09:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"10.9487131","lng":"-0.4807622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2022-07-12 10:09:28
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"10.9487131","lng":"-0.4807622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2022-07-12 10:09:29
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"10.9487131","lng":"-0.4807622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2022-07-12 11:39:14
+{"method":"getCityIdByAddressOrLatLng","address":"4589+3M8, Lomé, Ghana","lat":"6.1135008","lng":"1.169648"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4589+3M8, Lom\u00e9, Ghana"}}
+ Request - 2022-07-12 15:17:55
+{"method":"getCityIdByAddressOrLatLng","address":"F6QW+59P، الشرقاط، العراق","lat":"35.48810666666667","lng":"43.24573333333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F6QW+59P, Al Shirqat, Iraq"}}
+ Request - 2022-07-12 19:08:49
+{"method":"getCityIdByAddressOrLatLng","address":"Shop No. 1, 24\/1 Liaquat Ali Khan Rd, Model Colony Saudabad S1 Saudabad, Karachi, Karachi City, Sindh 75080, Pakistan","lat":"24.8995722","lng":"67.1929676"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shop No. 1, 24\/1 Liaquat Ali Khan Rd, Model Colony Saudabad S1 Saudabad, Karachi, Karachi City, Sindh 75080, Pakistan"}}
+ Request - 2022-07-12 22:32:22
+{"method":"getCityIdByAddressOrLatLng","address":"R2R7+MHW, Intelligence Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8419588","lng":"67.0145001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R2R7+MHW, Intelligence Colony, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-07-12 23:18:06
+{"method":"getCityIdByAddressOrLatLng","address":"G8F4+3QP, Qamar Din St, Combo Colony, Lahore, Punjab 54000, Pakistan","lat":"31.5228953","lng":"74.3069385"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G8F4+3QP, Qamar Din St, Combo Colony, Lahore, Punjab 54000, Pakistan"}}

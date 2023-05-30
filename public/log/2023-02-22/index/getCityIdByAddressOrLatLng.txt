@@ -1,0 +1,5 @@
+
+ Request - 2023-02-22 10:51:49
+{"method":"getCityIdByAddressOrLatLng","address":"Kanzar, Angola","lat":"-7.7900005","lng":"21.4124974"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

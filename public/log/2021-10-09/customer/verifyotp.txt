@@ -1,0 +1,5 @@
+
+ Request - 2021-10-09 06:08:37
+{"method":"verifyotp","country_code":"+233","mobile_number":"0241293008","otp_type":"register","otp":"3343"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"9be65311a70eff32252283f8d0b44b71"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-07-25 19:53:38
+{"method":"getaddresslist","user_id":"3331"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-07-25 19:54:43
+{"method":"getaddresslist","user_id":"3331"}
+ Response :- 
+{"status":"success","data":{"498":{"id":498,"user_id":3331,"address_nickname":"Nana Ba Suspect","contact_name":"Qweku","city_id":1,"city_name":"N8, Ghana","house_number":"cs66","street_detail":"Assin fosu","landmark":"Fosu","zipcode":"","area":"","lat":"5.8286376","lng":"","created_date":"2021-07-25 19:54:42","updated_date":"2021-07-25 19:54:42"}}}
+ Request - 2021-07-25 19:57:12
+{"method":"getaddresslist","user_id":"3331"}
+ Response :- 
+{"status":"success","data":{"498":{"id":498,"user_id":3331,"address_nickname":"Nana Ba Suspect","contact_name":"Qweku","city_id":1,"city_name":"N8, Ghana","house_number":"cs66","street_detail":"Assin fosu","landmark":"Fosu","zipcode":"","area":"","lat":"5.8286376","lng":"","created_date":"2021-07-25 19:54:42","updated_date":"2021-07-25 19:54:42"}}}

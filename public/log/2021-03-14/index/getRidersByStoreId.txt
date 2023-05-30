@@ -1,0 +1,13 @@
+
+ Request - 2021-03-14 05:44:24
+{"store_id":"1","method":"getRidersByStoreId"}
+ Response :- 
+{"status":"success","data":[]}
+ Request - 2021-03-14 05:46:48
+{"store_id":"1","method":"getRidersByStoreId"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"name":"abc","email":"abc@gmail.com","mobile_number":"4747447444","password":"202cb962ac59075b964b07152d234b70","location_id":1,"fcm_reg_id":"","status":1,"created_date":"2021-03-14 05:46:41","updated_date":"2021-03-14 05:46:41","location_name":"gaur city"}}}
+ Request - 2021-03-14 05:49:21
+{"store_id":"1","method":"getRidersByStoreId"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"name":"abc","email":"abc@gmail.com","mobile_number":"4747447444","password":"202cb962ac59075b964b07152d234b70","location_id":1,"fcm_reg_id":"","status":1,"created_date":"2021-03-14 05:46:41","updated_date":"2021-03-14 05:46:41","location_name":"gaur city"}}}

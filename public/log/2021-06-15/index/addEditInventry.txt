@@ -1,0 +1,21 @@
+
+ Request - 2021-06-15 07:54:05
+{"product_id":"4242","attribute_id":["4232"],"store_id":["4"],"price":["225"],"stock":["10"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-06-15 08:41:44
+{"product_id":"4243","attribute_id":["4233"],"store_id":["4"],"price":["300"],"stock":["10"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-06-15 10:02:02
+{"product_id":"4243","attribute_id":["4233"],"store_id":["4"],"price":["300.00"],"stock":["10"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-06-15 10:02:15
+{"product_id":"4244","attribute_id":["4234"],"store_id":["4"],"price":["300"],"stock":["10"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-06-15 10:32:56
+{"product_id":"4245","attribute_id":["4235"],"store_id":["4"],"price":["1200"],"stock":["10"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

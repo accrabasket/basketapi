@@ -1,0 +1,25 @@
+
+ Request - 2022-02-24 07:02:31
+{"method":"getCityIdByAddressOrLatLng","address":"V584+M7G, Tokombéré, Cameroun","lat":"10.8672515","lng":"14.1577068"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V585+W3 Tokomb\u00e9r\u00e9, Cameroon"}}
+ Request - 2022-02-24 11:21:03
+{"method":"getCityIdByAddressOrLatLng","address":"Devtraco Courts, Community 25, Tema, Ghana","lat":"5.733302999999999","lng":"0.03940949999999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Devtraco Courts, Community 25, Tema, Ghana"}}
+ Request - 2022-02-24 15:33:03
+{"method":"getCityIdByAddressOrLatLng","address":"Bihar 847404, India","lat":"26.2134043","lng":"86.2959898"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"677W+99 Dip, Bihar, India"}}
+ Request - 2022-02-24 18:53:11
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Brufut, Brufut, The Gambia","lat":"13.3817138","lng":"-16.7582494"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Brufut, Brufut, The Gambia"}}
+ Request - 2022-02-24 23:07:54
+{"method":"getCityIdByAddressOrLatLng","address":"No 21, 350107, Ore, Nigeria","lat":"6.7522029","lng":"4.9032966"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"No 21, 350107, Ore, Nigeria"}}
+ Request - 2022-02-24 23:42:55
+{"method":"getCityIdByAddressOrLatLng","address":"458X+8PQ, Luanda, Angola","lat":"-8.8837127","lng":"13.1995086"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"458X+8PQ, Luanda, Angola"}}

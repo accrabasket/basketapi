@@ -1,0 +1,25 @@
+
+ Request - 2022-02-05 05:24:44
+{"method":"getCityIdByAddressOrLatLng","address":"JFMG+FR2، أم درمان، السودان","lat":"15.6336889","lng":"32.4775503"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JFMG+FR2, Omdurman, Sudan"}}
+ Request - 2022-02-05 06:43:01
+{"method":"getCityIdByAddressOrLatLng","address":"Along Eleventh Street, Eastleigh, Nairobi, Kenya","lat":"-1.277108","lng":"36.8521616"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Along Eleventh Street, Eastleigh, Nairobi, Kenya"}}
+ Request - 2022-02-05 11:28:37
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Raya Lintas Pantai Timur Sumatera No.15, Pematang Pasir, Ketapang, Kabupaten Lampung Selatan, Lampung 35597, Indonesia","lat":"-5.6671192","lng":"105.7806426"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Raya Lintas Pantai Timur Sumatera No.15, Pematang Pasir, Ketapang, Kabupaten Lampung Selatan, Lampung 35597, Indonesia"}}
+ Request - 2022-02-05 13:55:44
+{"method":"getCityIdByAddressOrLatLng","address":"PowerTrade Engineering Limited Factory, N5, Bangladesh","lat":"23.913816","lng":"90.1877858"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W57Q+G4 Kulla, Bangladesh"}}
+ Request - 2022-02-05 15:35:05
+{"method":"getCityIdByAddressOrLatLng","address":"Assam, India","lat":"26.2006043","lng":"92.9375739"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6W2Q+62 Parokhuwa, Assam, India"}}
+ Request - 2022-02-05 20:53:20
+{"method":"getCityIdByAddressOrLatLng","address":"47 Lusanga, Kinshasa, République démocratique du Congo","lat":"-4.3877651","lng":"15.3191555"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"47 Lusanga, Kinshasa, Democratic Republic of the Congo"}}

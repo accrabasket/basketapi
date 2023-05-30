@@ -1,0 +1,153 @@
+
+ Request - 2021-11-11 10:25:03
+{"method":"addtocart","guest_user_id":"0b046245a7042e97","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 10:25:18
+{"method":"addtocart","guest_user_id":"0b046245a7042e97","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 10:25:26
+{"method":"addtocart","guest_user_id":"0b046245a7042e97","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 10:25:52
+{"method":"addtocart","guest_user_id":"0b046245a7042e97","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 10:25:59
+{"method":"addtocart","guest_user_id":"0b046245a7042e97","number_of_item":"1","merchant_inventry_id":"214","action":"delete","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 10:26:02
+{"method":"addtocart","guest_user_id":"0b046245a7042e97","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:43
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:45
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:47
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:49
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:52
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:53
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"620","action":"add","item_name":"Banana Flavoured Milk(Banana Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:54
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"625","action":"add","item_name":"Chocolate Flavoured Milk(Chocolate Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:55
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"650","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:56
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"651","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:57
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"653","action":"add","item_name":"Filled Evaporated Milk - Green(Filled Evaporated Milk - Green)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:29:58
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"651","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:01
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"654","action":"add","item_name":"Filled Evaporated Milk - Green(Filled Evaporated Milk - Green)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:02
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"659","action":"add","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:02
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"663","action":"add","item_name":"Ideal Balance - Evaporated Milk(Ideal Balance - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:07
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"664","action":"add","item_name":"Ideal Original - Evaporated Milk(Ideal Original - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:09
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"665","action":"add","item_name":"Ideal Original - Evaporated Milk(Ideal Original - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:10
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"666","action":"add","item_name":"Ideal Value - Evaporated Milk(Ideal Value - Evaporated Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:11
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"696","action":"add","item_name":"Milk Powder - Tin(Milk Powder - Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:13
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"723","action":"add","item_name":"Semi-Skimmed UHT Milk(Semi-Skimmed UHT Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:15
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"726","action":"add","item_name":"Skimmed UHT Milk (Low-Fat)(Skimmed UHT Milk (Low-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:17
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"731","action":"add","item_name":"Strawberry Flavoured Milk(Strawberry Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:19
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"736","action":"add","item_name":"Sweetened Condensed Milk(Sweetened Condensed Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:21
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"738","action":"add","item_name":"Vanilla Flavoured Milk(Vanilla Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:24
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:25
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"774","action":"add","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:26
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"783","action":"add","item_name":"Milk Powder - Sachet(Milk Powder - Sachet)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:28
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"796","action":"add","item_name":"Nido Fortified Milk Powder(Nido Fortified Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:33
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"797","action":"add","item_name":"Nido Fortified Milk Powder(Nido Fortified Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:34
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"798","action":"add","item_name":"Nido Fortified Milk Powder(Nido Fortified Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:36
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"803","action":"add","item_name":"Original Classic Soymilk(Original Classic Soymilk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:37
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"816","action":"add","item_name":"UHT Whole Milk(UHT Whole Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-11 22:30:39
+{"method":"addtocart","guest_user_id":"fc85ad7349241d7c","number_of_item":"1","merchant_inventry_id":"876","action":"add","item_name":"Full Cream Milk(Full Cream Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

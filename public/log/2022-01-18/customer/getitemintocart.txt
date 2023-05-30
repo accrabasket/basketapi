@@ -1,0 +1,33 @@
+
+ Request - 2022-01-18 00:58:57
+{"method":"getitemintocart","guest_user_id":"8ef2ec6fc63dddd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-18 01:18:45
+{"method":"getitemintocart","guest_user_id":"8ef2ec6fc63dddd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-18 01:19:18
+{"method":"getitemintocart","guest_user_id":"8ef2ec6fc63dddd8"}
+ Response :- 
+{"status":"success","data":{"428":{"id":19298,"user_id":0,"guest_user_id":"8ef2ec6fc63dddd8","merchant_inventry_id":428,"item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)","number_of_item":1,"created_date":"2022-01-18 01:19:18"}},"productDetails":{"status":"success","data":{"428":{"id":428,"price":"11.30","product_id":593,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Floral - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"593":[{"id":553,"type":"product","image_id":593,"image_name":"8699415063025.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-18 01:20:01
+{"method":"getitemintocart","guest_user_id":"8ef2ec6fc63dddd8"}
+ Response :- 
+{"status":"success","data":{"428":{"id":19298,"user_id":0,"guest_user_id":"8ef2ec6fc63dddd8","merchant_inventry_id":428,"item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)","number_of_item":1,"created_date":"2022-01-18 01:19:18"},"236":{"id":19299,"user_id":0,"guest_user_id":"8ef2ec6fc63dddd8","merchant_inventry_id":236,"item_name":"Corn Flour(Corn Flour)","number_of_item":1,"created_date":"2022-01-18 01:20:01"}},"productDetails":{"status":"success","data":{"236":{"id":236,"price":"8.50","product_id":391,"merchant_id":3,"store_id":2,"merchant_product_code":"6291023141","product_name":"Corn Flour","product_desc":"Corn starch, or corn flour, is the starch of the corn (maize) grain. It is different from maize flour or makkai ka atta. Maize flour is milled from the whole kernel, while corn starch is obtained from the endosperm portion of the kernel.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"FreshCo","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"},"428":{"id":428,"price":"11.30","product_id":593,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Floral - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"391":[{"id":309,"type":"product","image_id":391,"image_name":"6291023141427.jpg"}],"593":[{"id":553,"type":"product","image_id":593,"image_name":"8699415063025.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-18 11:30:34
+{"method":"getitemintocart","guest_user_id":"b23a4b5b3d96f73b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-18 12:17:26
+{"method":"getitemintocart","guest_user_id":"1b56d2d935befc91"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-18 13:06:08
+{"method":"getitemintocart","guest_user_id":"b23a4b5b3d96f73b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-18 22:38:20
+{"method":"getitemintocart","guest_user_id":"d8ada71a5230165e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,25 @@
+
+ Request - 2021-01-08 15:51:42
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2020-12-03 14:00:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+ Request - 2021-01-08 15:55:14
+{"method":"login","email":"undefined ","password":"undefined"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-01-08 15:55:42
+{"method":"login","email":"undefined ","password":"undefined"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-01-08 15:55:43
+{"method":"login","email":"undefined ","password":"undefined"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-01-08 15:56:42
+{"method":"login","email":"undefined ","password":"undefined"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-01-08 16:25:17
+{"method":"login","email":"maheshchindi@gmail.com ","password":"12345678"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"25d55ad283aa400af464c76d713c07ad","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2021-01-08 16:22:43","status":"1"}},"totalNumberOfUser":1,"wallet_key":"25d55ad283aa400af464c76d713c07ad"}

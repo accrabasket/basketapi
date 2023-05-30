@@ -1,0 +1,41 @@
+
+ Request - 2021-09-03 15:15:46
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-09-03 15:16:27
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"1.00","free_delivery":"1000.00","shipping_charges":"0.00"}}
+ Request - 2021-09-03 15:16:35
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"1.00","free_delivery":"1000.00","shipping_charges":"0.00"}}
+ Request - 2021-09-03 16:44:46
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"1.00","free_delivery":"1000.00","shipping_charges":"0.00"}}
+ Request - 2021-09-03 17:13:26
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-09-03 17:13:39
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"1.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-09-03 17:14:02
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"1.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-09-03 17:42:27
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"1.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-09-03 17:42:51
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}
+ Request - 2021-09-03 17:44:16
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}

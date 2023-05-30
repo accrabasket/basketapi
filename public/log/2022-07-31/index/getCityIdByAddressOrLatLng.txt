@@ -1,0 +1,21 @@
+
+ Request - 2022-07-31 04:10:33
+{"method":"getCityIdByAddressOrLatLng","address":"8XG9+JFP, Panton Bahagia, Kec. Arongan Lambalek, Kabupaten Aceh Barat, Aceh 23652, Indonesia","lat":"4.32579","lng":"95.9698747"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8XG9+8W Panton Bahagia, West Aceh Regency, Aceh, Indonesia"}}
+ Request - 2022-07-31 05:47:58
+{"method":"getCityIdByAddressOrLatLng","address":"F7XJ+W9, Mohra Bakhtan, Rawalpindi, Punjab, Pakistan","lat":"33.4995954","lng":"73.2805157"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F7XJ+W9, Mohra Bakhtan, Rawalpindi, Punjab, Pakistan"}}
+ Request - 2022-07-31 08:01:21
+{"method":"getCityIdByAddressOrLatLng","address":"Huigenbos 905, 1102 KA Amsterdam, Netherlands","lat":"52.3075292","lng":"4.9574783"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Huigenbos 905, 1102 KA Amsterdam, Netherlands"}}
+ Request - 2022-07-31 15:07:43
+{"method":"getCityIdByAddressOrLatLng","address":"JGJF+CRM, Banepa 45210, Nepal","lat":"27.630919","lng":"85.5247394"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JGJF+CRM, Banepa 45210, Nepal"}}
+ Request - 2022-07-31 15:11:39
+{"method":"getCityIdByAddressOrLatLng","address":"MH82+VVC, Shahana Lok, Mandi Bahauddin, Punjab, Pakistan","lat":"32.6659527","lng":"73.5537074"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MH83+9F Shahana Lok, Pakistan"}}

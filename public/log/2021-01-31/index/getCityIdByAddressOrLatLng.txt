@@ -1,0 +1,25 @@
+
+ Request - 2021-01-31 01:45:05
+{"method":"getCityIdByAddressOrLatLng","address":"73 Orgle Rd, Accra, Ghana","lat":"5.5794512","lng":"-0.2304141"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"73 Orgle Rd, Accra, Ghana"}}
+ Request - 2021-01-31 07:03:30
+{"method":"getCityIdByAddressOrLatLng","address":"Carretera Morelia - Salamanca Km. 45.3, 58840 Cuitzeo Michoacán de Ocampo, Mich., Mexico","lat":"20.0701325","lng":"-101.1571349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Uriangato - Morelia, Michoac\u00e1n, Mexico"}}
+ Request - 2021-01-31 07:17:56
+{"method":"getCityIdByAddressOrLatLng","address":"ADFIBSS Egbu, Awaka, Nigeria","lat":"5.4696858","lng":"7.0735424"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"ADFIBSS Egbu, Awaka, Nigeria"}}
+ Request - 2021-01-31 16:41:15
+{"method":"getCityIdByAddressOrLatLng","address":"Awasa, Ethiopia","lat":"7.031811666666666","lng":"38.46924166666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Awasa, Ethiopia"}}
+ Request - 2021-01-31 18:34:51
+{"method":"getCityIdByAddressOrLatLng","address":"Circular Rd, Naudero, Larkana, Sindh, Pakistan","lat":"27.6627668","lng":"68.3570889"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Circular Rd, Naudero, Larkana, Sindh, Pakistan"}}
+ Request - 2021-01-31 22:01:14
+{"method":"getCityIdByAddressOrLatLng","address":"Apam Junction, Kasoa, Ghana","lat":"5.5256592","lng":"-0.4191457"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Apam Junction, Kasoa, Ghana"}}

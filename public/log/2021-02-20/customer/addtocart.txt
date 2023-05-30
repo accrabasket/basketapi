@@ -1,0 +1,37 @@
+
+ Request - 2021-02-20 11:01:07
+{"method":"addtocart","guest_user_id":"bf605efb6a4e2ba7","number_of_item":"1","merchant_inventry_id":"2731","action":"add","item_name":"Carrot(Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 19:50:58
+{"method":"addtocart","guest_user_id":"a3c9d9921b4d2975","number_of_item":"1","merchant_inventry_id":"312","action":"add","item_name":"Red Kidney Beans(Red Kidney Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 19:51:04
+{"method":"addtocart","guest_user_id":"a3c9d9921b4d2975","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 19:51:16
+{"method":"addtocart","guest_user_id":"a3c9d9921b4d2975","number_of_item":"1","merchant_inventry_id":"755","action":"add","item_name":"Chocolate Spread(Chocolate Spread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 19:51:38
+{"method":"addtocart","guest_user_id":"a3c9d9921b4d2975","number_of_item":"1","merchant_inventry_id":"777","action":"add","item_name":"Mayonnaise(Mayonnaise)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 19:51:54
+{"method":"addtocart","guest_user_id":"a3c9d9921b4d2975","number_of_item":"1","merchant_inventry_id":"844","action":"add","item_name":"Margarine Spread (Margarine Spread )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 19:51:56
+{"method":"addtocart","guest_user_id":"a3c9d9921b4d2975","number_of_item":"1","merchant_inventry_id":"849","action":"add","item_name":"Rice(Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 20:59:01
+{"method":"addtocart","guest_user_id":"7ad8c14c8852c23d","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-20 20:59:07
+{"method":"addtocart","guest_user_id":"7ad8c14c8852c23d","number_of_item":"1","merchant_inventry_id":"2067","action":"add","item_name":"Black Barrel Whiskey(Black Barrel Whiskey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

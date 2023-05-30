@@ -1,0 +1,233 @@
+
+ Request - 2021-10-11 05:04:58
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:04:53
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6850,"subject":"Order placed","msg":"New Order order_m15_80 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-08 14:56:47","updated_date":null},{"id":6848,"subject":"Order placed","msg":"New Order order_m15_79 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-08 14:52:40","updated_date":null},{"id":6846,"subject":"Order placed","msg":"New Order order_m15_78 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-08 13:42:32","updated_date":null},{"id":6833,"subject":"Order placed","msg":"New Order order_m15_77 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 21:15:54","updated_date":null},{"id":6831,"subject":"Order placed","msg":"New Order order_m15_76 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 21:11:40","updated_date":null},{"id":6827,"subject":"Order placed","msg":"New Order order_m15_75 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 21:05:30","updated_date":null},{"id":6825,"subject":"Order placed","msg":"New Order order_m15_74 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 21:01:59","updated_date":null},{"id":6823,"subject":"Order placed","msg":"New Order order_m15_73 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 18:50:19","updated_date":null},{"id":6821,"subject":"Order placed","msg":"New Order order_m15_72 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 11:19:42","updated_date":null},{"id":6819,"subject":"Order placed","msg":"New Order order_m15_71 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-07 11:07:42","updated_date":null}],"totalRecord":46}
+ Request - 2021-10-11 06:04:56
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:04:59
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:05:01
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:06:02
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:07:02
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:08:02
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:09:02
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:09:24
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:10:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:11:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:12:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:13:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:14:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:15:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:16:26
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:17:27
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:18:28
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:19:24
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:20:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:21:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:22:24
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:23:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:24:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:25:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:26:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:27:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:28:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:29:25
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:30:26
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:31:27
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:32:28
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:33:29
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:34:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:35:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:36:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:37:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:38:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:39:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:40:30
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:40:47
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:41:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:42:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:43:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:44:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:45:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:46:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:47:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:48:48
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 06:49:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 10:06:43
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 10:07:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 10:07:43
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 10:08:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 14:21:37
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6851,"subject":"Order placed","msg":"New Order order_m15_81 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-10-11 12:44:14","updated_date":null}],"totalRecord":1}
+ Request - 2021-10-11 14:21:42
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-10-11 14:21:52
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

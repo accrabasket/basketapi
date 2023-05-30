@@ -1,0 +1,25 @@
+
+ Request - 2021-03-27 00:15:39
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Vijai Pura, Uttar Pradesh 284126, India","lat":"25.0472533","lng":"78.6062721"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Vijai Pura, Uttar Pradesh 284126, India"}}
+ Request - 2021-03-27 03:02:51
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 76, Block C1 Block C 1 Gulberg III, Lahore, Punjab, Pakistan","lat":"31.515097","lng":"74.3488769"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 76, Block C1 Block C 1 Gulberg III, Lahore, Punjab, Pakistan"}}
+ Request - 2021-03-27 03:04:12
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 76, Block C1 Block C 1 Gulberg III, Lahore, Punjab, Pakistan","lat":"31.5150974","lng":"74.3488777"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 76, Block C1 Block C 1 Gulberg III, Lahore, Punjab, Pakistan"}}
+ Request - 2021-03-27 05:52:25
+{"method":"getCityIdByAddressOrLatLng","address":"A1, Koun-Fao, Côte d'Ivoire","lat":"7.47847","lng":"-3.2517273"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A1, Koun-Fao, C\u00f4te d'Ivoire"}}
+ Request - 2021-03-27 06:54:39
+{"method":"getCityIdByAddressOrLatLng","address":"Sunyani, Ghana","lat":"7.3349414","lng":"-2.3123031"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sunyani, Ghana"}}
+ Request - 2021-03-27 07:13:20
+{"method":"getCityIdByAddressOrLatLng","address":"51 أحمد جلال حماد، سيدي بشر بحري، قسم ثان المنتزة، الإسكندرية، مصر","lat":"31.2635891","lng":"29.9925055"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"51 Ahmed Galal Hammad, Sidi Beshr Bahri, Montaza 2, Alexandria Governorate, Egypt"}}

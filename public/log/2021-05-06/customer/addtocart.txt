@@ -1,0 +1,41 @@
+
+ Request - 2021-05-06 07:55:57
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"3317","action":"add","item_name":"Distilled White Vinegar(Distilled White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 07:56:11
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"3095","action":"add","item_name":"Instant Dry Yeast(Instant Dry Yeast)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 07:56:28
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"912","action":"add","item_name":"Chicken Bouillon Tablet(Chicken Bouillon Tablet)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 07:58:58
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"981","action":"add","item_name":"Couscous (Couscous )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 08:00:53
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"3182","action":"add","item_name":"THAI JASMINE RICE 5X5KG(THAI JASMINE RICE 5X5KG)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 08:01:48
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"3186","action":"add","item_name":"CORNED BEEF(12x340G)(CORNED BEEF(12x340G))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 08:02:16
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"3191","action":"add","item_name":"TUNA CHUNKS (24x160G)(TUNA CHUNKS (24x160G))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 08:09:01
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"924","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 08:09:05
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"924","action":"delete","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-06 08:09:45
+{"method":"addtocart","guest_user_id":"c7f82de4260c1891","number_of_item":"1","merchant_inventry_id":"3396","action":"add","item_name":"THAI JASMINE RICE - 5KG(THAI JASMINE RICE - 5KG)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,13 @@
+
+ Request - 2021-07-02 14:53:19
+{"method":"addedituser","city_id":"1","password":"0244913342","name":"Sarah Baiden","email":"sarrabaiden@gmail.com","mobile_number":"244913342","country_code":"+233","id":"0","fcm_reg_id":"dniYRaAs7tU:APA91bFD6i8zCCOEiCuhYn4PY9pH4yPqVSjU23lXCz2KLJypBcgPsAZH3_nmzriVSsDInz9gXvZvK5txL-TstyiJ4wwsJkJ7-gbAqT6sGvFV0O3-qij0DNc9pqKMBnAIrXUuzTu_3r-F"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233244913342 and registered email id.","data":{"2991":{"id":2991,"name":"Sarah Baiden","mobile_number":"244913342","email":"sarrabaiden@gmail.com","key":"261114c4e214f781e43cc646fb7b909f","password":"e20b4108051eaa439c1248cd998a669c","fcm_reg_id":"dniYRaAs7tU:APA91bFD6i8zCCOEiCuhYn4PY9pH4yPqVSjU23lXCz2KLJypBcgPsAZH3_nmzriVSsDInz9gXvZvK5txL-TstyiJ4wwsJkJ7-gbAqT6sGvFV0O3-qij0DNc9pqKMBnAIrXUuzTu_3r-F","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-07-02 14:53:19","updated_date":"2021-07-02 14:53:19","status":"1"}}}
+ Request - 2021-07-02 14:55:03
+{"method":"addedituser","city_id":"1","password":"0244913342","name":"Sarah Baiden","email":"sarrabaiden@gmail.com","mobile_number":"0244913342","country_code":"+233","id":"0","fcm_reg_id":"dniYRaAs7tU:APA91bFD6i8zCCOEiCuhYn4PY9pH4yPqVSjU23lXCz2KLJypBcgPsAZH3_nmzriVSsDInz9gXvZvK5txL-TstyiJ4wwsJkJ7-gbAqT6sGvFV0O3-qij0DNc9pqKMBnAIrXUuzTu_3r-F"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-07-02 14:55:09
+{"method":"addedituser","city_id":"1","password":"0244913342","name":"Sarah Baiden","email":"sarrabaiden@gmail.com","mobile_number":"0244913342","country_code":"+233","id":"0","fcm_reg_id":"dniYRaAs7tU:APA91bFD6i8zCCOEiCuhYn4PY9pH4yPqVSjU23lXCz2KLJypBcgPsAZH3_nmzriVSsDInz9gXvZvK5txL-TstyiJ4wwsJkJ7-gbAqT6sGvFV0O3-qij0DNc9pqKMBnAIrXUuzTu_3r-F"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

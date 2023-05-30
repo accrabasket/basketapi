@@ -1,0 +1,5 @@
+
+ Request - 2022-02-28 10:23:59
+{"method":"addeditdeliveryaddress","house_number":"500045","area":"","street_detail":"Mlrit institute of technology Arundhati hospital dundigal Police station road","contact_name":"Bijoy","city_name":"HCWR+5J8, Hyderabad, Telangana 500043, India","city_id":"1","lat":"17.5952739","long":"78.4419777","user_id":"8047","address_nickname":"Mlrit institute of technology","landmark":"Gandimaisamma","zipcode":"500045"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":607}}

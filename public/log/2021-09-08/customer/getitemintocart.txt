@@ -1,0 +1,29 @@
+
+ Request - 2021-09-08 06:06:07
+{"method":"getitemintocart","guest_user_id":"85ed0e7bef9e9588"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-08 06:06:24
+{"method":"getitemintocart","guest_user_id":"85ed0e7bef9e9588"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-08 07:54:06
+{"method":"getitemintocart","guest_user_id":"85ed0e7bef9e9588"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-08 09:26:22
+{"method":"getitemintocart","guest_user_id":"fa5bab1e4cbe22a1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-08 09:31:46
+{"method":"getitemintocart","guest_user_id":"e0790d503c1439c5"}
+ Response :- 
+{"status":"success","data":{"936":{"id":15223,"user_id":0,"guest_user_id":"e0790d503c1439c5","merchant_inventry_id":936,"item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)","number_of_item":1,"created_date":"2021-05-30 12:44:15"}},"productDetails":{"status":"success","data":{"936":{"id":936,"price":"84.99","product_id":902,"merchant_id":4,"store_id":4,"merchant_product_code":"69639","product_name":"Baby Pants Jumbo Pack","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Pampers","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":52,"tax_value":"3"}},"productImageData":[]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-08 12:32:24
+{"method":"getitemintocart","guest_user_id":"c8570276a60d9e13"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-08 16:00:46
+{"method":"getitemintocart","guest_user_id":"1a2d82e1bcc36b5f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

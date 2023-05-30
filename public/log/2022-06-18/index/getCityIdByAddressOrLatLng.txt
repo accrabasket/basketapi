@@ -1,0 +1,17 @@
+
+ Request - 2022-06-18 08:10:12
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Palsau, Rajasthan 314030, India","lat":"23.4405665","lng":"73.8795788"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CVRH+6R Palsau, Rajasthan, India"}}
+ Request - 2022-06-18 08:46:59
+{"method":"getCityIdByAddressOrLatLng","address":"XWVJ+Q65، الديوانية، العراق","lat":"31.9941017","lng":"44.9303846"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XWVJ+Q65, Al Diwaniyah, Iraq"}}
+ Request - 2022-06-18 11:28:30
+{"method":"getCityIdByAddressOrLatLng","address":"Itu Hwy, 520113, Uyo, Nigeria","lat":"5.0680955","lng":"7.9213257"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3W9C+6G Uyo, Nigeria"}}
+ Request - 2022-06-18 21:28:34
+{"method":"getCityIdByAddressOrLatLng","address":"3WVW+X64, Suntu, Ethiopia","lat":"8.0953914","lng":"36.9462916"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3WVW+X64, Suntu, Ethiopia"}}

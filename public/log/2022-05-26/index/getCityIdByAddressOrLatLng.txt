@@ -1,0 +1,17 @@
+
+ Request - 2022-05-26 00:46:56
+{"method":"getCityIdByAddressOrLatLng","address":"Sasak Lemah Cisemapak, Wargaluyu, Kec. Tanjungmedar, Kabupaten Sumedang, Jawa Barat 45354, Indonesia","lat":"-6.7849467","lng":"107.8507969"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6V82+28 Wargaluyu, Sumedang Regency, West Java, Indonesia"}}
+ Request - 2022-05-26 02:57:50
+{"method":"getCityIdByAddressOrLatLng","address":"W4W8+HMX, Brahmanbaria, Bangladesh","lat":"23.946834","lng":"91.1163649"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W4W8+HMX, Brahmanbaria, Bangladesh"}}
+ Request - 2022-05-26 10:40:40
+{"method":"getCityIdByAddressOrLatLng","address":"RNIE7, Bénin","lat":"11.308286","lng":"2.4507837"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8F52+88 Banikoara, Benin"}}
+ Request - 2022-05-26 17:06:09
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.504108","lng":"34.2159311"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G638+J9 Nambale, Kenya"}}

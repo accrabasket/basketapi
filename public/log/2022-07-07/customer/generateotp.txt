@@ -1,0 +1,5 @@
+
+ Request - 2022-07-07 18:27:02
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"9621014369"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2339621014369","otp_type":"register","user_id":"0","otp":6400,"expiry_date":"2022-07-07 18:42:02"}}

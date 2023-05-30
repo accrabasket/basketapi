@@ -1,0 +1,17 @@
+
+ Request - 2021-03-27 05:52:59
+{"method":"addtocart","guest_user_id":"e8702f5b45903783","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-27 05:53:10
+{"method":"addtocart","guest_user_id":"e8702f5b45903783","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-27 06:57:10
+{"method":"addtocart","guest_user_id":"8cecd83a44aeb92f","number_of_item":"1","merchant_inventry_id":"3149","action":"add","item_name":"SHRIMPS(SHRIMPS)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-27 07:00:25
+{"method":"addtocart","guest_user_id":"8cecd83a44aeb92f","number_of_item":"1","merchant_inventry_id":"2967","action":"add","item_name":"Junior Cheese Slices(Junior Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

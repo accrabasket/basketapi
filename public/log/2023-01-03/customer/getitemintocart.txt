@@ -1,0 +1,13 @@
+
+ Request - 2023-01-03 17:16:56
+{"method":"getitemintocart","guest_user_id":"8904908e08d01fcb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-01-03 19:15:15
+{"method":"getitemintocart","guest_user_id":"c26a633e94376722"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-01-03 19:15:56
+{"method":"getitemintocart","guest_user_id":"c26a633e94376722"}
+ Response :- 
+{"status":"success","data":{"3099":{"id":22903,"user_id":0,"guest_user_id":"c26a633e94376722","merchant_inventry_id":3099,"item_name":"200 GHC(200 GHC)","number_of_item":1,"created_date":"2023-01-03 19:15:56"}},"productDetails":{"status":"success","data":{"3099":{"id":3099,"price":"200.00","product_id":3530,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"200 GHC","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":128,"custom_info":"","brand_name":"Gift Card","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"card","quantity":1,"tax_value":"3"}},"productImageData":{"3530":[{"id":4265,"type":"product","image_id":3530,"image_name":"3530_1602087528.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,33 @@
+
+ Request - 2023-04-06 17:12:31
+{"method":"getCityIdByAddressOrLatLng","address":"3WH9+8WX, Kaya, Burkina Faso","lat":"13.0797249","lng":"-1.0803175"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 17:12:44
+{"method":"getCityIdByAddressOrLatLng","address":"3WH9+8WX, Kaya, Burkina Faso","lat":"13.0797249","lng":"-1.0803175"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 17:13:03
+{"method":"getCityIdByAddressOrLatLng","address":"3WH9+8WX, Kaya, Burkina Faso","lat":"13.0797249","lng":"-1.0803175"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 17:56:04
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، العراق","lat":"33.8574716","lng":"44.8426062"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 17:56:09
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، العراق","lat":"33.8574716","lng":"44.8426062"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 19:00:45
+{"method":"getCityIdByAddressOrLatLng","address":"X2F5+5GQ, Chaitanya Pur, West Bengal 742147, India","lat":"23.9729476","lng":"88.0086357"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 19:00:46
+{"method":"getCityIdByAddressOrLatLng","address":"X2F5+5GQ, Chaitanya Pur, West Bengal 742147, India","lat":"23.9729476","lng":"88.0086357"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-06 19:00:47
+{"method":"getCityIdByAddressOrLatLng","address":"X2F5+5GQ, Chaitanya Pur, West Bengal 742147, India","lat":"23.9729476","lng":"88.0086357"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

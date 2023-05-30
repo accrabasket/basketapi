@@ -1,0 +1,5 @@
+
+ Request - 2022-04-13 02:33:35
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، الناصرية، العراق","lat":"31.0809063","lng":"46.2590593"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"37J5+9J Nasiriyah, Iraq"}}

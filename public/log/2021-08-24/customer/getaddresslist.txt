@@ -1,0 +1,17 @@
+
+ Request - 2021-08-24 16:48:35
+{"method":"getaddresslist","user_id":"3898"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-08-24 16:50:23
+{"method":"getaddresslist","user_id":"3898"}
+ Response :- 
+{"status":"success","data":{"509":{"id":509,"user_id":3898,"address_nickname":"klassic hostel","contact_name":"faith","city_id":1,"city_name":"5P4F+744, Cape Coast, Ghana","house_number":"klassic hostel 507","street_detail":"Abura","landmark":"Cape Coast Technical University","zipcode":"0245","area":"","lat":"5.1549449","lng":"","created_date":"2021-08-24 16:50:23","updated_date":"2021-08-24 16:50:23"}}}
+ Request - 2021-08-24 16:51:16
+{"method":"getaddresslist","user_id":"3898"}
+ Response :- 
+{"status":"success","data":{"509":{"id":509,"user_id":3898,"address_nickname":"klassic hostel","contact_name":"faith","city_id":1,"city_name":"5P4F+744, Cape Coast, Ghana","house_number":"klassic hostel 507","street_detail":"Abura","landmark":"Cape Coast Technical University","zipcode":"0245","area":"","lat":"5.1549449","lng":"","created_date":"2021-08-24 16:50:23","updated_date":"2021-08-24 16:50:23"}}}
+ Request - 2021-08-24 16:52:29
+{"method":"getaddresslist","user_id":"3898"}
+ Response :- 
+{"status":"success","data":{"509":{"id":509,"user_id":3898,"address_nickname":"klassic hostel","contact_name":"faith","city_id":1,"city_name":"5P4F+744, Cape Coast, Ghana","house_number":"klassic hostel 507","street_detail":"Abura","landmark":"Cape Coast Technical University","zipcode":"0245","area":"","lat":"5.1549449","lng":"","created_date":"2021-08-24 16:50:23","updated_date":"2021-08-24 16:50:23"},"510":{"id":510,"user_id":3898,"address_nickname":"curve","contact_name":"Faith","city_id":1,"city_name":"Ashongman Estates, Ghana","house_number":"002","street_detail":"after voltic","landmark":"melcom","zipcode":"0245","area":"","lat":"5.7062442","lng":"","created_date":"2021-08-24 16:52:29","updated_date":"2021-08-24 16:52:29"}}}

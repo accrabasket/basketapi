@@ -1,0 +1,9 @@
+
+ Request - 2022-12-31 06:19:18
+{"method":"getCityIdByAddressOrLatLng","address":"Quốc lộ 279B, Nà Tấu, h. Điện Biên, Điện Biên, Việt Nam","lat":"21.499638","lng":"103.1241205"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F4XF+VJ N\u00e0 T\u1ea5u, \u0110i\u1ec7n Bi\u00ean District, Dien Bien, Vietnam"}}
+ Request - 2022-12-31 16:31:11
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, As Sarawat, Jeddah 22527, Saudi Arabia","lat":"21.3318066","lng":"39.1995654"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"85JX+PR As Sarawat, Jeddah Saudi Arabia"}}

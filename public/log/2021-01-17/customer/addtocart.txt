@@ -1,0 +1,33 @@
+
+ Request - 2021-01-17 09:42:43
+{"method":"addtocart","guest_user_id":"76762ec4794da8a9","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 09:49:52
+{"method":"addtocart","guest_user_id":"76762ec4794da8a9","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 09:50:03
+{"method":"addtocart","guest_user_id":"76762ec4794da8a9","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 09:56:48
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 09:56:52
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 09:56:54
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 09:58:38
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"3167","action":"add","item_name":"GHC 120 HAMPER(GHC 120 HAMPER)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-17 10:02:52
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"2518","action":"add","item_name":"Kids Happy Baskets(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

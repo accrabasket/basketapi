@@ -1,0 +1,5 @@
+
+ Request - 2022-02-11 04:02:39
+{"method":"login","email":"hompiq.developer@gmail.com","password":"12345678","fcm_reg_id":"ezvynUsHt4U:APA91bEnOoJ9I6juSrfsI1o-9yjB4n14SKISZrMirITv-FzCk4Yt8Xhu2raHK3bZHwL7FMc-D8a_H_5gSmMLYTksMLdKXD7Oc5cDglAPYT22J9zhqKu8HeaNh9_9yOOJFgmCJr5ELeII"}
+ Response :- 
+{"status":"success","data":{"7787":{"id":7787,"name":"vicky","mobile_number":"9030303030","email":"hompiq.developer@gmail.com","key":"f7a34ccfb6fc41d768136d95b3fe16cd","password":"25d55ad283aa400af464c76d713c07ad","fcm_reg_id":"ezvynUsHt4U:APA91bEnOoJ9I6juSrfsI1o-9yjB4n14SKISZrMirITv-FzCk4Yt8Xhu2raHK3bZHwL7FMc-D8a_H_5gSmMLYTksMLdKXD7Oc5cDglAPYT22J9zhqKu8HeaNh9_9yOOJFgmCJr5ELeII","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-02-11 04:01:54","updated_date":"2022-02-11 04:01:54","status":"1"}},"totalNumberOfUser":1,"wallet_key":"25d55ad283aa400af464c76d713c07ad"}

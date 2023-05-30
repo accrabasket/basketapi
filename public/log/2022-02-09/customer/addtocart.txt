@@ -1,0 +1,9 @@
+
+ Request - 2022-02-09 06:33:04
+{"method":"addtocart","guest_user_id":"eb3ad7134629b7bf","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-09 09:46:45
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

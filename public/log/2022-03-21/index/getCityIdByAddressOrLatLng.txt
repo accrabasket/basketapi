@@ -1,0 +1,21 @@
+
+ Request - 2022-03-21 00:41:20
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Nusantara No.80, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35136, Indonesia","lat":"-5.3706929","lng":"105.2594139"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Nusantara No.80, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35136, Indonesia"}}
+ Request - 2022-03-21 14:26:46
+{"method":"getCityIdByAddressOrLatLng","address":"Faisalabad Jhang Rd, Faisalabad, Punjab, Pakistan","lat":"31.3578622","lng":"72.8983784"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9V5X+49 Chak 74 JB Thikri Wala, Pakistan"}}
+ Request - 2022-03-21 16:06:24
+{"method":"getCityIdByAddressOrLatLng","address":"J254+QP3, Chour Harpal, Rawalpindi, Punjab 46000, Pakistan","lat":"33.6090772","lng":"73.0065161"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J254+QP3, Chour Harpal, Rawalpindi, Punjab 46000, Pakistan"}}
+ Request - 2022-03-21 18:41:18
+{"method":"getCityIdByAddressOrLatLng","address":"Anyaa-Awoshie Rd, Ghana","lat":"5.6276253","lng":"-0.3120898"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Anyaa-Awoshie Rd, Ghana"}}
+ Request - 2022-03-21 22:07:24
+{"method":"getCityIdByAddressOrLatLng","address":"G7VR+X6M, Ho, Ghana","lat":"6.5443983","lng":"0.2900347"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G7VR+X6M, Ho, Ghana"}}

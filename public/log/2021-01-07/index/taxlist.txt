@@ -1,0 +1,49 @@
+
+ Request - 2021-01-07 05:11:13
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:21:12
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:22:16
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:22:55
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:23:02
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:23:49
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:24:57
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:26:52
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:27:10
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:28:27
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:29:05
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-01-07 05:32:28
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}

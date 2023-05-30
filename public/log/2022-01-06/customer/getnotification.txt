@@ -1,0 +1,13 @@
+
+ Request - 2022-01-06 03:58:24
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7001,"subject":"Order placed","msg":"New Order order_P_302 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-01-04 15:55:53","updated_date":null},{"id":7000,"subject":"Order cancelled","msg":"Order order_P_301 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-01-04 15:51:49","updated_date":null},{"id":6998,"subject":"Order placed","msg":"New Order order_P_301 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-01-04 15:49:00","updated_date":null}],"totalRecord":3}
+ Request - 2022-01-06 03:58:33
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-01-06 09:45:07
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

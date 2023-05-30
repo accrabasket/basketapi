@@ -1,0 +1,13 @@
+
+ Request - 2022-01-17 07:51:49
+{"method":"getCityIdByAddressOrLatLng","address":"M98G+XP8, Kumasi, Ghana","lat":"6.665675","lng":"-1.6218955"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M98G+XP8, Kumasi, Ghana"}}
+ Request - 2022-01-17 12:37:59
+{"method":"getCityIdByAddressOrLatLng","address":"86XJ+R5P, Goma, République démocratique du Congo","lat":"-1.6510069","lng":"29.2308071"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"86XJ+R5P, Goma, Democratic Republic of the Congo"}}
+ Request - 2022-01-17 17:12:52
+{"method":"getCityIdByAddressOrLatLng","address":"C225+PCG, Saifabad, Faisalabad, Punjab, Pakistan","lat":"31.4015874","lng":"73.00898"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C225+PCG, Saifabad, Faisalabad, Punjab, Pakistan"}}

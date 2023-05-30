@@ -1,0 +1,25 @@
+
+ Request - 2022-02-01 13:02:47
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road،, زليتن، ليبيا","lat":"32.4242185","lng":"14.569351"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road\u060c, \u0632\u0644\u064a\u062a\u0646\u060c Libya"}}
+ Request - 2022-02-01 19:26:38
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Sindian, Sénégal","lat":"12.9616239","lng":"-16.1847443"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XR68+J4 Sindian, Senegal"}}
+ Request - 2022-02-01 21:30:16
+{"method":"getCityIdByAddressOrLatLng","address":"111 Igando Rd, Ikotun 102213, Lagos, Nigeria","lat":"6.5538766666666675","lng":"3.2453399999999997"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"111 Igando Rd, Ikotun 102213, Lagos, Nigeria"}}
+ Request - 2022-02-01 22:04:11
+{"method":"getCityIdByAddressOrLatLng","address":"9G47+4M3, Lubumbashi, République démocratique du Congo","lat":"-11.6448953","lng":"27.5141768"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9G47+4M3, Lubumbashi, Democratic Republic of the Congo"}}
+ Request - 2022-02-01 22:04:16
+{"method":"getCityIdByAddressOrLatLng","address":"9G47+4M3, Lubumbashi, République démocratique du Congo","lat":"-11.6448953","lng":"27.5141768"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9G47+4M3, Lubumbashi, Democratic Republic of the Congo"}}
+ Request - 2022-02-01 22:31:24
+{"method":"getCityIdByAddressOrLatLng","address":"شارع قرجي، طرابلس،، Libye","lat":"32.8617639","lng":"13.1068263"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0634\u0627\u0631\u0639 \u0642\u0631\u062c\u064a\u060c \u0637\u0631\u0627\u0628\u0644\u0633\u060c\u060c Libya"}}

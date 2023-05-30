@@ -1,0 +1,9 @@
+
+ Request - 2021-01-09 16:56:23
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":1571}}
+ Request - 2021-01-09 20:18:37
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":1572}}

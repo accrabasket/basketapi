@@ -1,0 +1,21 @@
+
+ Request - 2022-08-07 09:56:22
+{"method":"getCityIdByAddressOrLatLng","address":"W7X9+F8P, Linduk, Kec. Pontang, Kabupaten Serang, Banten 42192, Indonesia","lat":"-6.0519312","lng":"106.2677361"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W7X9+F8P, Linduk, Pontang, Serang Regency, Banten 42192, Indonesia"}}
+ Request - 2022-08-07 10:17:41
+{"method":"getCityIdByAddressOrLatLng","address":"QV64+7WW, 930101, Bukuru, Nigeria","lat":"9.7605786","lng":"8.8572099"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QV64+7WW, 930101, Bukuru, Nigeria"}}
+ Request - 2022-08-07 15:59:21
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2022-08-07 20:57:39
+{"method":"getCityIdByAddressOrLatLng","address":"6FJM+74G, Willi Town, Liberia","lat":"6.2300915","lng":"-10.5195925"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6FJJ+25 Willi Town, Liberia"}}
+ Request - 2022-08-07 23:44:56
+{"method":"getCityIdByAddressOrLatLng","address":"MRCR+796, Madina, Ghana","lat":"5.6707747","lng":"-0.1593316"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MRCR+796, Madina, Ghana"}}

@@ -1,0 +1,13 @@
+
+ Request - 2022-05-30 13:44:27
+{"method":"getCityIdByAddressOrLatLng","address":"R716, Morocco","lat":"33.8497678","lng":"-5.2490205"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RQX2+W9 Bouderbala, Morocco"}}
+ Request - 2022-05-30 14:40:49
+{"method":"getCityIdByAddressOrLatLng","address":"P9PP+449, S J Jahanara Imam Sharani, Dhaka 1205, Bangladesh","lat":"23.7352852","lng":"90.3853294"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P9PP+449, S J Jahanara Imam Sharani, Dhaka 1205, Bangladesh"}}
+ Request - 2022-05-30 23:23:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nkaseim, Ghana","lat":"6.8674033","lng":"-2.4524616"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nkaseim, Ghana"}}

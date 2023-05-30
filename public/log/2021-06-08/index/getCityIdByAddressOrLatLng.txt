@@ -1,0 +1,13 @@
+
+ Request - 2021-06-08 07:48:28
+{"method":"getCityIdByAddressOrLatLng","address":"Prathipadu, Andhra Pradesh 522019, India","lat":"16.1555018","lng":"80.3451571"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Andhra Pradesh 522019, India"}}
+ Request - 2021-06-08 13:17:21
+{"method":"getCityIdByAddressOrLatLng","address":"SH 10, Meghalaya 793119, India","lat":"25.7165385","lng":"91.0584696"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"SH 10, Meghalaya 793119, India"}}
+ Request - 2021-06-08 15:30:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Baron Ka Sher, Rajasthan 314011, India","lat":"23.9347051","lng":"73.5997141"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Baron Ka Sher, Rajasthan 314011, India"}}

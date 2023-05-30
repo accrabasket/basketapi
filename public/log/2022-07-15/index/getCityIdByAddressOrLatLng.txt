@@ -1,0 +1,21 @@
+
+ Request - 2022-07-15 07:37:42
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kirkuk, Iraq","lat":"35.5013759","lng":"44.3999985"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G92X+HX Kirkuk, Iraq"}}
+ Request - 2022-07-15 13:18:30
+{"method":"getCityIdByAddressOrLatLng","address":"3F89+FR8, Wuse 900011, market, Nigeria","lat":"9.0662998","lng":"7.4693871"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3F89+FR8, Wuse 900011, market, Nigeria"}}
+ Request - 2022-07-15 14:40:42
+{"method":"getCityIdByAddressOrLatLng","address":"вулиця Празька, 24, Київ, Украина, 02000","lat":"50.437725","lng":"30.6407185"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Prazka St, 24, Kyiv, Ukraine, 02000"}}
+ Request - 2022-07-15 15:35:48
+{"method":"getCityIdByAddressOrLatLng","address":"575F+FR9, Kallur Kot, Bhakkar, Punjab, Pakistan","lat":"32.1593189","lng":"71.2738716"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"575F+FR9, Kallur Kot, Bhakkar, Punjab, Pakistan"}}
+ Request - 2022-07-15 18:34:03
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Burkina Faso","lat":"10.8978945","lng":"-4.3740183"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VJXG+59 Koumandara, Burkina Faso"}}

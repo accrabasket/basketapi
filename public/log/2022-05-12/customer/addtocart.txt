@@ -1,0 +1,25 @@
+
+ Request - 2022-05-12 06:43:59
+{"method":"addtocart","guest_user_id":"90087e7ee4ac379a","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-12 10:10:09
+{"method":"addtocart","guest_user_id":"df4a4508c4d480c3","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-12 10:10:25
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-12 10:11:52
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-05-12 10:12:36
+{"method":"addtocart","guest_user_id":"df4a4508c4d480c3","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-12 14:03:24
+{"method":"addtocart","guest_user_id":"6dd91b98878a4d01","number_of_item":"1","merchant_inventry_id":"236","action":"add","item_name":"Corn Flour(Corn Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

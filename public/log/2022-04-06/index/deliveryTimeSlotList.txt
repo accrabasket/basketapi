@@ -1,0 +1,101 @@
+
+ Request - 2022-04-06 00:22:44
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"2022-04-06":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 00:22:44"}
+ Request - 2022-04-06 01:22:16
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"2022-04-06":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 01:22:16"}
+ Request - 2022-04-06 03:41:18
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"2022-04-06":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 03:41:18"}
+ Request - 2022-04-06 05:25:26
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"2022-04-06":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 05:25:26"}
+ Request - 2022-04-06 07:42:13
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"2022-04-06":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 07:42:13"}
+ Request - 2022-04-06 07:42:26
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"2022-04-06":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 07:42:26"}
+ Request - 2022-04-06 13:45:03
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 13:45:03"}
+ Request - 2022-04-06 13:58:31
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 13:58:31"}
+ Request - 2022-04-06 16:38:50
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 16:38:50"}
+ Request - 2022-04-06 16:40:04
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 16:40:04"}
+ Request - 2022-04-06 16:40:10
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 16:40:10"}
+ Request - 2022-04-06 16:40:32
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 16:40:32"}
+ Request - 2022-04-06 16:40:36
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 16:40:36"}
+ Request - 2022-04-06 17:50:45
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 17:50:45"}
+ Request - 2022-04-06 17:56:40
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 17:56:40"}
+ Request - 2022-04-06 17:57:44
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 17:57:44"}
+ Request - 2022-04-06 17:57:57
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 17:57:57"}
+ Request - 2022-04-06 17:59:35
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 17:59:35"}
+ Request - 2022-04-06 18:00:22
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 18:00:22"}
+ Request - 2022-04-06 18:02:33
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 18:02:33"}
+ Request - 2022-04-06 18:05:25
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 18:05:25"}
+ Request - 2022-04-06 18:07:35
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 18:07:35"}
+ Request - 2022-04-06 19:39:53
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 19:39:53"}
+ Request - 2022-04-06 20:41:50
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 20:41:50"}
+ Request - 2022-04-06 23:52:40
+{"method":"deliveryTimeSlotList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}},"datewisetimeslot":{"2022-04-07":{"1":{"id":1,"start_time_slot":10,"end_time_slot":13,"created_on":"2021-02-14 05:51:34","updated_on":null},"4":{"id":4,"start_time_slot":13,"end_time_slot":19,"created_on":"2022-01-10 07:03:19","updated_on":null}}},"response_time":"2022-04-06 23:52:40"}

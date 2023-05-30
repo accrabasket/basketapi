@@ -1,0 +1,5 @@
+
+ Request - 2022-10-26 00:53:23
+{"method":"updateOrderstatus","user_id":"8856","order_id":"order_P_333","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"8856","order_id":"order_P_333"}}

@@ -1,0 +1,9 @@
+
+ Request - 2022-10-11 00:48:05
+{"method":"getCityIdByAddressOrLatLng","address":"JRHF+8F6, अस्तौन खास, मध्य प्रदेश 472005, भारत","lat":"24.628656","lng":"78.8242837"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JRHF+8F6, Astaun Khas, Madhya Pradesh 472005, India"}}
+ Request - 2022-10-11 06:33:13
+{"method":"getCityIdByAddressOrLatLng","address":"HG99+JQ7, Rd Number 2, Dumra, Bihar 843314, India","lat":"26.5691659","lng":"85.5197649"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HG99+JQ7, Rd Number 2, Dumra, Bihar 843314, India"}}

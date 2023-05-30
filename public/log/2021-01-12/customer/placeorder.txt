@@ -1,0 +1,5 @@
+
+ Request - 2021-01-12 16:42:29
+{"method":"placeorder","user_id":"1691","shipping_address_id":"362","time_slot_id":"3","delivery_date":"2021-01-13","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_439","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1691","TransactionId":"d3ef034b957385d5c867cf598221d865","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_439","Amount":335.99,"Signature":"374024ff69236f5e63fd3fd5f0969d8b54b8f16725eebd1debb075ad3ffdb54c"}}}}

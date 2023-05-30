@@ -1,0 +1,13 @@
+
+ Request - 2023-04-23 01:53:10
+{"method":"getitemintocart","guest_user_id":"f5e3dc266d2850a5"}
+ Response :- 
+{"status":"success","data":{"221":{"id":22492,"user_id":0,"guest_user_id":"f5e3dc266d2850a5","merchant_inventry_id":221,"item_name":"Cashew Nut Whole(Cashew Nut Whole)","number_of_item":1,"created_date":"2022-09-08 11:24:34"}},"productDetails":{"status":"success","data":{"221":{"id":221,"price":"9.50","product_id":379,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000221","product_name":"Cashew Nut Whole","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\r\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"379":[{"id":296,"type":"product","image_id":379,"image_name":"6033000221247.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2023-04-23 19:48:05
+{"method":"getitemintocart","guest_user_id":"e994b059f873457f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-04-23 19:48:16
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

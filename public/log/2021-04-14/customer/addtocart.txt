@@ -1,0 +1,141 @@
+
+ Request - 2021-04-14 16:53:16
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2192","action":"add","item_name":"Chocolate Cookies(Chocolate Cookies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 16:55:07
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2836","action":"add","item_name":"Strawberry Jam(Strawberry Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 16:55:25
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"3319","action":"delete","item_name":"Yellow Mustard - 100% Natural(Yellow Mustard - 100% Natural)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:07
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:12
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:15
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:24
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"3177","action":"add","item_name":"SUNFLOWER OIL 6x1.8L(SUNFLOWER OIL 6x1.8L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:26
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"3176","action":"add","item_name":"SUNFLOWER OIL 12X1L(SUNFLOWER OIL 12X1L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:32
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"3178","action":"add","item_name":"SUNFLOWER OIL 6x3L(SUNFLOWER OIL 6x3L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:35
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"3179","action":"add","item_name":"SUNFLOWER OIL 3x5L(SUNFLOWER OIL 3x5L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:28:43
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:29:00
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:29:06
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:29:17
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:29:19
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 17:41:02
+{"method":"addtocart","guest_user_id":"291232a4f177bce6","number_of_item":"1","merchant_inventry_id":"3203","action":"add","item_name":"Original Steak Sauce(Original Steak Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:08:39
+{"method":"addtocart","guest_user_id":"a1eb2cfb00038e26","number_of_item":"1","merchant_inventry_id":"881","action":"add","item_name":"Vietnam Jasmine Rice(Vietnam Jasmine Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:08:43
+{"method":"addtocart","guest_user_id":"a1eb2cfb00038e26","number_of_item":"1","merchant_inventry_id":"881","action":"add","item_name":"Vietnam Jasmine Rice(Vietnam Jasmine Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:08:48
+{"method":"addtocart","guest_user_id":"a1eb2cfb00038e26","number_of_item":"1","merchant_inventry_id":"881","action":"delete","item_name":"Vietnam Jasmine Rice(Vietnam Jasmine Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:12:51
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:12:57
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:13:40
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:13:42
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:13:44
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:13:46
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:14:55
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:14:57
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:17:39
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:17:40
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:17:41
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:17:43
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:20:13
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:20:19
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:20:21
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-14 18:20:23
+{"method":"addtocart","user_id":"1439","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

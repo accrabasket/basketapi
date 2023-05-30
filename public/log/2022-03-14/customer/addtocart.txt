@@ -1,0 +1,121 @@
+
+ Request - 2022-03-14 11:48:49
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"431","action":"add","item_name":"Lemon - Shower Gel(Lemon - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:48:53
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"435","action":"add","item_name":"Ocean - Shower Gel(Ocean - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:49:03
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"427","action":"add","item_name":"Coconut - Shower Gel(Coconut - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:49:06
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"427","action":"add","item_name":"Coconut - Shower Gel(Coconut - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:49:10
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"438","action":"add","item_name":"Tropical - Hand Soap(Tropical - Hand Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:49:35
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:49:38
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:50:11
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"656","action":"add","item_name":"Fresh Natural - Anti-Perspirant Deodorant Roll-On(Fresh Natural - Anti-Perspirant Deodorant Roll-On)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:50:45
+{"method":"addtocart","guest_user_id":"49ac09054c5980a5","number_of_item":"1","merchant_inventry_id":"612","action":"add","item_name":"All Around Protection Fresh Mint Toothpaste(All Around Protection Fresh Mint Toothpaste)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 11:51:32
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-03-14 19:14:36
+{"method":"addtocart","guest_user_id":"7b60c1e7c85b8d0c","number_of_item":"1","merchant_inventry_id":"1004","action":"add","item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 19:15:06
+{"method":"addtocart","guest_user_id":"7b60c1e7c85b8d0c","number_of_item":"1","merchant_inventry_id":"1004","action":"delete","item_name":"Cassava Flour Kokonte  (Cassava Flour Kokonte  )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 19:16:42
+{"method":"addtocart","guest_user_id":"7b60c1e7c85b8d0c","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 19:16:47
+{"method":"addtocart","guest_user_id":"7b60c1e7c85b8d0c","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 19:17:41
+{"method":"addtocart","guest_user_id":"7b60c1e7c85b8d0c","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:39:36
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"621","action":"delete","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:39:50
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"672","action":"delete","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:40:52
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3025","action":"add","item_name":"Ultra Thin Extra Long Super Pads(Ultra Thin Extra Long Super Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:41:08
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2660","action":"add","item_name":"Extra Long Ultra Thin Sanitary Pads(Extra Long Ultra Thin Sanitary Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:41:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"230","action":"add","item_name":"Cinnamon Stick(Cinnamon Stick)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:42:00
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"261","action":"add","item_name":"Green Cardamom(Green Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:42:44
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"286","action":"add","item_name":"Madras Curry Powder(Madras Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:43:05
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"323","action":"add","item_name":"Sambhar Masala(Sambhar Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:43:19
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"329","action":"add","item_name":"Soya Chunk(Soya Chunk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:43:34
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"326","action":"add","item_name":"Sona Masoori(Sona Masoori)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:43:54
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"369","action":"add","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:43:58
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"375","action":"add","item_name":"Whole Cloves(Whole Cloves)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:44:29
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1044","action":"add","item_name":"Mixed Pickle(Mixed Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:44:38
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1097","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-14 22:45:01
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1019","action":"add","item_name":"Brown Sugar - Bottled Cubes(Brown Sugar - Bottled Cubes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

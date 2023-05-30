@@ -1,0 +1,5 @@
+
+ Request - 2022-06-29 22:45:00
+{"method":"verifyotp","country_code":"+233","mobile_number":"626301214","otp_type":"register","otp":"9985"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"2f2cfb446170be6e0187c9fe4f07c77e"}}

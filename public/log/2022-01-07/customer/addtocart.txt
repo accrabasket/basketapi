@@ -1,0 +1,5 @@
+
+ Request - 2022-01-07 00:02:07
+{"method":"addtocart","guest_user_id":"67c9452c01584ba6","number_of_item":"1","merchant_inventry_id":"2068","action":"add","item_name":"Irish Whiskey(Irish Whiskey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

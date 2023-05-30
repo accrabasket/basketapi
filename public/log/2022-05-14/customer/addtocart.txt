@@ -1,0 +1,21 @@
+
+ Request - 2022-05-14 17:03:00
+{"method":"addtocart","guest_user_id":"5534a72ed51d30f1","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-14 17:03:17
+{"method":"addtocart","guest_user_id":"5534a72ed51d30f1","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-14 17:03:19
+{"method":"addtocart","guest_user_id":"5534a72ed51d30f1","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-14 17:03:21
+{"method":"addtocart","guest_user_id":"5534a72ed51d30f1","number_of_item":"1","merchant_inventry_id":"586","action":"delete","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-14 17:03:22
+{"method":"addtocart","guest_user_id":"5534a72ed51d30f1","number_of_item":"1","merchant_inventry_id":"586","action":"delete","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

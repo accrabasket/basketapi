@@ -1,0 +1,21 @@
+
+ Request - 2021-06-02 12:16:07
+{"method":"getCityIdByAddressOrLatLng","address":"5 Oladele Kadiri Cl, Aguda, Lagos, Nigeria","lat":"6.6299751","lng":"3.3438773"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Oladele Kadiri Cl, Aguda, Ojodu, Nigeria"}}
+ Request - 2021-06-02 12:16:08
+{"method":"getCityIdByAddressOrLatLng","address":"5 Oladele Kadiri Cl, Aguda, Lagos, Nigeria","lat":"6.6299751","lng":"3.3438773"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Oladele Kadiri Cl, Aguda, Ojodu, Nigeria"}}
+ Request - 2021-06-02 12:36:12
+{"method":"getCityIdByAddressOrLatLng","address":"Via Crocifissa di Rosa, 68, 25123 Brescia BS, Italy","lat":"45.5503409","lng":"10.2274832"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Via Crocifissa di Rosa, 68, 25123 Brescia BS, Italy"}}
+ Request - 2021-06-02 21:27:51
+{"method":"getCityIdByAddressOrLatLng","address":"Logantown Road, Liberia","lat":"6.3718753","lng":"-10.7850214"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Logantown Road, Liberia"}}
+ Request - 2021-06-02 23:01:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Guinée","lat":"10.4313627","lng":"-9.7488753"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Guinea"}}

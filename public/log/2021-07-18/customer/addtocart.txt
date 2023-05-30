@@ -1,0 +1,49 @@
+
+ Request - 2021-07-18 17:40:33
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:40:43
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:40:55
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:41:44
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:41:46
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:41:47
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:42:04
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:42:51
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"1558","action":"add","item_name":"Mixed Fruit Jam(Mixed Fruit Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:44:18
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"2735","action":"add","item_name":"Eggplant(Eggplant)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:44:29
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"2735","action":"delete","item_name":"Eggplant(Eggplant)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:44:43
+{"method":"addtocart","guest_user_id":"ec5381fa75a1b305","number_of_item":"1","merchant_inventry_id":"2793","action":"add","item_name":"Green Chilli(Green Chilli)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-18 17:51:57
+{"method":"addtocart","user_id":"3223","number_of_item":"1","merchant_inventry_id":"2760","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

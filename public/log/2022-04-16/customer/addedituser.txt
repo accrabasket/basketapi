@@ -1,0 +1,21 @@
+
+ Request - 2022-04-16 23:37:45
+{"method":"addedituser","city_id":"1","password":"SPARK_735KKK","name":"Maria Claudia Augusta De Matteis","email":"frickybel1z@gmail.com","mobile_number":"0274836301","country_code":"+233","id":"0","fcm_reg_id":"e0RTFgb-RlY:APA91bGdmaaGc7fpNgOGjVCY75ta_OFOcBlRgTQwRoqiW0niM8LZlgu4bVVArFO9SuoJ_SOINob6W9DfULpJ2a2RkPhHdXpr07dWjkSH7EkE8vh90SY_xe9QNyEE5QET_wuAJxlNgQtT"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233274836301 and registered email id.","data":{"8248":{"id":8248,"name":"Maria Claudia Augusta De Matteis","mobile_number":"274836301","email":"frickybel1z@gmail.com","key":"56750a4e11f7e3dc3527d91809bdb66c","password":"40b82faa69894683ec15a914905ca6a1","fcm_reg_id":"e0RTFgb-RlY:APA91bGdmaaGc7fpNgOGjVCY75ta_OFOcBlRgTQwRoqiW0niM8LZlgu4bVVArFO9SuoJ_SOINob6W9DfULpJ2a2RkPhHdXpr07dWjkSH7EkE8vh90SY_xe9QNyEE5QET_wuAJxlNgQtT","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-04-16 23:37:45","updated_date":"2022-04-16 23:37:45","status":"1"}}}
+ Request - 2022-04-16 23:39:17
+{"method":"addedituser","city_id":"1","password":"SPARK_735KKK","name":"Maria Claudia Augusta De Matteis","email":"frickybel1z@gmail.com","mobile_number":"0274836301","country_code":"+233","id":"0","fcm_reg_id":"e0RTFgb-RlY:APA91bGdmaaGc7fpNgOGjVCY75ta_OFOcBlRgTQwRoqiW0niM8LZlgu4bVVArFO9SuoJ_SOINob6W9DfULpJ2a2RkPhHdXpr07dWjkSH7EkE8vh90SY_xe9QNyEE5QET_wuAJxlNgQtT"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-04-16 23:39:21
+{"method":"addedituser","city_id":"1","password":"SPARK_735KKK","name":"Maria Claudia Augusta De Matteis","email":"frickybel1z@gmail.com","mobile_number":"0274836301","country_code":"+233","id":"0","fcm_reg_id":"e0RTFgb-RlY:APA91bGdmaaGc7fpNgOGjVCY75ta_OFOcBlRgTQwRoqiW0niM8LZlgu4bVVArFO9SuoJ_SOINob6W9DfULpJ2a2RkPhHdXpr07dWjkSH7EkE8vh90SY_xe9QNyEE5QET_wuAJxlNgQtT"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-04-16 23:39:27
+{"method":"addedituser","city_id":"1","password":"SPARK_735KKK","name":"Maria Claudia Augusta De Matteis","email":"frickybel1z@gmail.com","mobile_number":"0274836301","country_code":"+233","id":"0","fcm_reg_id":"e0RTFgb-RlY:APA91bGdmaaGc7fpNgOGjVCY75ta_OFOcBlRgTQwRoqiW0niM8LZlgu4bVVArFO9SuoJ_SOINob6W9DfULpJ2a2RkPhHdXpr07dWjkSH7EkE8vh90SY_xe9QNyEE5QET_wuAJxlNgQtT"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-04-16 23:39:33
+{"method":"addedituser","city_id":"1","password":"SPARK_735KKK","name":"Maria Claudia Augusta De Matteis","email":"frickybel1z@gmail.com","mobile_number":"0274836301","country_code":"+233","id":"0","fcm_reg_id":"e0RTFgb-RlY:APA91bGdmaaGc7fpNgOGjVCY75ta_OFOcBlRgTQwRoqiW0niM8LZlgu4bVVArFO9SuoJ_SOINob6W9DfULpJ2a2RkPhHdXpr07dWjkSH7EkE8vh90SY_xe9QNyEE5QET_wuAJxlNgQtT"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

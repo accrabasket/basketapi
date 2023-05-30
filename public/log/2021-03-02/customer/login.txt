@@ -1,0 +1,17 @@
+
+ Request - 2021-03-02 20:12:27
+{"method":"login","email":"raviducat@gmail.com","password":"123","fcm_reg_id":"f8wuBn-ZeJA:APA91bHMxtplNmjWRGJO34kQ6OuW0t91lXndEXyicjNg2wLlEnJCNHmhtT13mAa4d29f40NlOa9HVZscIeo4BBYt3eOvFb5GdYBBZq9gYSg-q_9gM2x1etnuKQbo8drdsRb2UUlNbZM7"}
+ Response :- 
+{"status":"success","data":{"90":{"id":90,"name":"ravi ranjan","mobile_number":"8130450522","email":"raviducat@gmail.com","key":"b25d93f99c1552dcd159afd545008ef1","password":"202cb962ac59075b964b07152d234b70","fcm_reg_id":"f1kfdRGAZIM:APA91bH4obuO2NqcW5Uhk8_yFMhqK9-NYLKqlYd4dLq5nOsOCn8zyYNXhmSxhYXzYCco2eAzgcxmn99EJc4wJdOm12I2MJowOIad0r1W0nzzAFai5lzgNrRC7Fjgo7uW6CF8QjY0usi3","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2018-12-14 03:24:58","updated_date":"2020-02-22 03:21:05","status":"1"}},"totalNumberOfUser":1,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+ Request - 2021-03-02 20:13:09
+{"method":"login","email":"raviducat@gmail.com","password":"123","fcm_reg_id":"f8wuBn-ZeJA:APA91bHMxtplNmjWRGJO34kQ6OuW0t91lXndEXyicjNg2wLlEnJCNHmhtT13mAa4d29f40NlOa9HVZscIeo4BBYt3eOvFb5GdYBBZq9gYSg-q_9gM2x1etnuKQbo8drdsRb2UUlNbZM7"}
+ Response :- 
+{"status":"success","data":{"90":{"id":90,"name":"ravi ranjan","mobile_number":"8130450522","email":"raviducat@gmail.com","key":"b25d93f99c1552dcd159afd545008ef1","password":"202cb962ac59075b964b07152d234b70","fcm_reg_id":"f8wuBn-ZeJA:APA91bHMxtplNmjWRGJO34kQ6OuW0t91lXndEXyicjNg2wLlEnJCNHmhtT13mAa4d29f40NlOa9HVZscIeo4BBYt3eOvFb5GdYBBZq9gYSg-q_9gM2x1etnuKQbo8drdsRb2UUlNbZM7","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2018-12-14 03:24:58","updated_date":"2020-02-22 03:21:05","status":"1"}},"totalNumberOfUser":1,"wallet_key":"202cb962ac59075b964b07152d234b70"}
+ Request - 2021-03-02 21:36:42
+{"method":"login","email":"Kgursharan81@gmail.com ","password":"timeisuseless","fcm_reg_id":"dv3Cs31_1bc:APA91bHSbsMW1XzFeC6nA92fnss2Ou2VloSD-wNxDf5FpvdnrqeobmMNYW2UYQMLuk20GAW2EC8re-C5pZzvXlfDedVnms3QnT6t_8926H6uSjdOEIMAw1Gwf2emekf8Jq-9eWMX2-d0"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-02 21:38:30
+{"method":"login","email":"Kgursharan81@gmail.com ","password":"myhome2021","fcm_reg_id":"dv3Cs31_1bc:APA91bHSbsMW1XzFeC6nA92fnss2Ou2VloSD-wNxDf5FpvdnrqeobmMNYW2UYQMLuk20GAW2EC8re-C5pZzvXlfDedVnms3QnT6t_8926H6uSjdOEIMAw1Gwf2emekf8Jq-9eWMX2-d0"}
+ Response :- 
+{"status":"success","data":{"2054":{"id":2054,"name":"Simran Gursharan Kaur","mobile_number":"279790988","email":"kgursharan81@gmail.com","key":"78a240f7bb2511822cb6391da0717c55","password":"133be95d74dcda78b8f3e7a1861dc36e","fcm_reg_id":"dv3Cs31_1bc:APA91bHSbsMW1XzFeC6nA92fnss2Ou2VloSD-wNxDf5FpvdnrqeobmMNYW2UYQMLuk20GAW2EC8re-C5pZzvXlfDedVnms3QnT6t_8926H6uSjdOEIMAw1Gwf2emekf8Jq-9eWMX2-d0","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-03-02 21:37:38","updated_date":"2021-03-02 21:37:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"133be95d74dcda78b8f3e7a1861dc36e"}

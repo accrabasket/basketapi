@@ -1,0 +1,65 @@
+
+ Request - 2021-02-08 11:00:10
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_177","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"800","TransactionId":"531722b0d22d83c24e0d64f1e10e5de7","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_P_177","Amount":277.34,"Signature":"c23b87a0824da0679f2273c6dcbdc4781828fbaec99e6e3e72718ffc53a28efc"}}}}
+ Request - 2021-02-08 11:09:36
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"Ezipay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 11:33:31
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 11:33:54
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 11:44:08
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"6","delivery_date":"2021-02-09","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 12:18:40
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"6","delivery_date":"2021-02-09","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 12:19:33
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"3","delivery_date":"2021-02-09","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_179"}}
+ Request - 2021-02-08 12:29:57
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 12:31:19
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 12:31:25
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 12:32:42
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_180"}}
+ Request - 2021-02-08 12:37:13
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"3","delivery_date":"2021-02-09","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_470"}}
+ Request - 2021-02-08 12:37:36
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_471"}}
+ Request - 2021-02-08 13:09:05
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-08 13:09:29
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_181"}}
+ Request - 2021-02-08 13:10:49
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-08","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_473"}}

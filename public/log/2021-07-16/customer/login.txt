@@ -1,0 +1,25 @@
+
+ Request - 2021-07-16 10:19:38
+{"method":"login","email":"popcaan12@gmail.com","password":"popcaan1234","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-07-16 10:19:49
+{"method":"login","email":"popcaan12@gmail.com","password":"popcaan1234","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-07-16 10:21:37
+{"method":"login","email":"popcaan12@gmail.com","password":"popcaan1234","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-07-16 10:22:10
+{"method":"login","email":"popcaan12@gmail.com","password":"popcaan1234","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-07-16 10:25:31
+{"method":"login","email":"gideon1234@email.com","password":"gideon1234","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-07-16 10:25:39
+{"method":"login","email":"gideon1234@email.com","password":"gideon123","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

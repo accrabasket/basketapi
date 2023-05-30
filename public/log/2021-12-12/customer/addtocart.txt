@@ -1,0 +1,17 @@
+
+ Request - 2021-12-12 19:40:49
+{"method":"addtocart","guest_user_id":"dcf1bef5f644d7c0","number_of_item":"1","merchant_inventry_id":"3198","action":"add","item_name":"GHC 200 FRUIT BASKET(GHC 200 FRUIT BASKET)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-12 19:41:22
+{"method":"addtocart","guest_user_id":"dcf1bef5f644d7c0","number_of_item":"1","merchant_inventry_id":"2519","action":"add","item_name":"Luxury Pamper (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-12 19:41:45
+{"method":"addtocart","guest_user_id":"dcf1bef5f644d7c0","number_of_item":"1","merchant_inventry_id":"625","action":"add","item_name":"Chocolate Flavoured Milk(Chocolate Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-12 21:39:06
+{"method":"addtocart","guest_user_id":"c7b0e2f289ac9bb9","number_of_item":"1","merchant_inventry_id":"236","action":"add","item_name":"Corn Flour(Corn Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

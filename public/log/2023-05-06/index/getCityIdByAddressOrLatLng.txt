@@ -1,0 +1,33 @@
+
+ Request - 2023-05-06 07:34:49
+{"method":"getCityIdByAddressOrLatLng","address":"PM3C+VJ5, Barouk, Lebanon","lat":"33.7066186","lng":"35.672203"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 07:34:53
+{"method":"getCityIdByAddressOrLatLng","address":"PM3C+VJ5, Barouk, Lebanon","lat":"33.7066186","lng":"35.672203"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 11:27:59
+{"method":"getCityIdByAddressOrLatLng","address":"56JG+599, Jhangi Qazian Rd, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan","lat":"34.1809688","lng":"73.2253155"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 11:28:04
+{"method":"getCityIdByAddressOrLatLng","address":"56JG+599, Jhangi Qazian Rd, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan","lat":"34.1809688","lng":"73.2253155"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 11:28:14
+{"method":"getCityIdByAddressOrLatLng","address":"56JG+599, Jhangi Qazian Rd, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan","lat":"34.1809688","lng":"73.2253155"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 11:28:18
+{"method":"getCityIdByAddressOrLatLng","address":"56JG+599, Jhangi Qazian Rd, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan","lat":"34.1809688","lng":"73.2253155"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 11:28:20
+{"method":"getCityIdByAddressOrLatLng","address":"56JG+599, Jhangi Qazian Rd, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan","lat":"34.1809688","lng":"73.2253155"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-06 12:48:33
+{"method":"getCityIdByAddressOrLatLng","address":"Неизвестная дорога, Akhcha, Узбекистан","lat":"40.9855504","lng":"71.049591"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

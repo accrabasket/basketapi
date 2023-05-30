@@ -1,0 +1,29 @@
+
+ Request - 2023-05-16 12:04:11
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398328","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-16 12:04:15
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398328","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-16 12:04:16
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398328","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-16 12:04:18
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398328","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-16 12:04:19
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398328","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-16 12:04:21
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398328","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-16 12:04:31
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، النيل، العراق","lat":"32.5398325","lng":"44.5451289"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

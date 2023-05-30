@@ -1,0 +1,21 @@
+
+ Request - 2021-04-20 09:10:36
+{"method":"addtocart","guest_user_id":"c7d696151beb1e3c","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-20 09:11:47
+{"method":"addtocart","guest_user_id":"c7d696151beb1e3c","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-20 09:12:00
+{"method":"addtocart","guest_user_id":"c7d696151beb1e3c","number_of_item":"1","merchant_inventry_id":"356","action":"delete","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-20 09:12:05
+{"method":"addtocart","guest_user_id":"c7d696151beb1e3c","number_of_item":"1","merchant_inventry_id":"659","action":"add","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-20 16:07:05
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"1525","action":"add","item_name":"Frooto Mango Juice(Frooto Mango Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,5 @@
+
+ Request - 2022-12-31 16:31:58
+{"method":"addtocart","guest_user_id":"f28b2d246ec87104","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

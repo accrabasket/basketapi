@@ -1,0 +1,21 @@
+
+ Request - 2021-02-03 12:33:33
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Chitungwiza, Zimbabwe","lat":"-18.0192924","lng":"31.0734598"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Chitungwiza, Zimbabwe"}}
+ Request - 2021-02-03 15:24:44
+{"method":"getCityIdByAddressOrLatLng","address":"Katsina Rd, Kano City, Kano, Nigeria","lat":"12.0294972","lng":"8.5013446"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Katsina Rd, Kano City, Kano, Nigeria"}}
+ Request - 2021-02-03 20:38:53
+{"method":"getCityIdByAddressOrLatLng","address":"Goaso, Ghana","lat":"6.8018106","lng":"-2.514842"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Goaso, Ghana"}}
+ Request - 2021-02-03 20:38:54
+{"method":"getCityIdByAddressOrLatLng","address":"Goaso, Ghana","lat":"6.8018106","lng":"-2.514842"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Goaso, Ghana"}}
+ Request - 2021-02-03 21:23:26
+{"method":"getCityIdByAddressOrLatLng","address":"N3, Sénégal","lat":"14.7721307","lng":"-16.0065291"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N3, Senegal"}}

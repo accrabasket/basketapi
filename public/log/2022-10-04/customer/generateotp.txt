@@ -1,0 +1,33 @@
+
+ Request - 2022-10-04 15:47:49
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":5766,"expiry_date":"2022-10-04 16:02:49"}}
+ Request - 2022-10-04 15:47:56
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":6044,"expiry_date":"2022-10-04 16:02:56"}}
+ Request - 2022-10-04 15:48:02
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":7483,"expiry_date":"2022-10-04 16:03:02"}}
+ Request - 2022-10-04 15:48:43
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":4067,"expiry_date":"2022-10-04 16:03:43"}}
+ Request - 2022-10-04 15:49:07
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":6976,"expiry_date":"2022-10-04 16:04:07"}}
+ Request - 2022-10-04 15:49:14
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":8332,"expiry_date":"2022-10-04 16:04:14"}}
+ Request - 2022-10-04 15:49:24
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":8339,"expiry_date":"2022-10-04 16:04:24"}}
+ Request - 2022-10-04 15:50:07
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"545599561"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233545599561","otp_type":"register","user_id":"0","otp":7426,"expiry_date":"2022-10-04 16:05:07"}}

@@ -1,0 +1,25 @@
+
+ Request - 2021-09-18 12:56:15
+{"method":"getCityIdByAddressOrLatLng","address":"5V6X+64J, Kaolack, Sénégal","lat":"14.1607555","lng":"-16.1041417"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5V6X+64J, Kaolack, Senegal"}}
+ Request - 2021-09-18 14:36:55
+{"method":"getCityIdByAddressOrLatLng","address":"2708 Atlas Dr, Bismarck, ND 58503, USA","lat":"46.8361036","lng":"-100.792822"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2708 Atlas Dr, Bismarck, ND 58503, USA"}}
+ Request - 2021-09-18 16:35:54
+{"method":"getCityIdByAddressOrLatLng","address":"10 Sq. Rameau, 94500 Champigny-sur-Marne, France","lat":"48.8053567","lng":"2.5485762"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Sq. Rameau, 94500 Champigny-sur-Marne, France"}}
+ Request - 2021-09-18 18:31:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Thiès, Sénégal","lat":"14.7754934","lng":"-16.9242398"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Thi\u00e8s, Senegal"}}
+ Request - 2021-09-18 20:46:13
+{"method":"getCityIdByAddressOrLatLng","address":"R. Escultor Cissano, Matola, Moçambique","lat":"-25.9289644","lng":"32.4784701"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R. Escultor Cissano, Matola, Mozambique"}}
+ Request - 2021-09-18 23:51:05
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road 24577، السعودية","lat":"21.236934","lng":"39.8276172"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road 24577, Saudi Arabia"}}

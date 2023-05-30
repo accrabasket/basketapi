@@ -1,0 +1,5 @@
+
+ Request - 2022-06-29 22:47:22
+{"method":"addeditdeliveryaddress","house_number":"342,Mallam junction ","area":"","street_detail":"Mallam junction,opposite total filling station ","contact_name":"Justina Acheampong ","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"8460","address_nickname":"Mallam junction ","landmark":"Accra kaneshie high way","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":648}}

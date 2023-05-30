@@ -1,0 +1,17 @@
+
+ Request - 2021-06-01 08:21:17
+{"method":"getCityIdByAddressOrLatLng","address":"N12, Bole, Ghana","lat":"9.0278429","lng":"-2.4859194"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N12, Bole, Ghana"}}
+ Request - 2021-06-01 15:24:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Toto Sel., Kabila, Kabupaten Bone Bolango, Gorontalo 96128, Indonesia","lat":"0.5596312","lng":"123.0893881"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Toto Sel., Kabila, Kabupaten Bone Bolango, Gorontalo 96128, Indonesia"}}
+ Request - 2021-06-01 17:27:18
+{"method":"getCityIdByAddressOrLatLng","address":"Graphic Road, Greater Accra, Ghana","lat":"5.5550045","lng":"-0.2182854"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Graphic Road, Greater Accra, Ghana"}}
+ Request - 2021-06-01 17:52:30
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sandogo, Burkina Faso","lat":"12.2804879","lng":"-1.5800599"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sandogo, Burkina Faso"}}

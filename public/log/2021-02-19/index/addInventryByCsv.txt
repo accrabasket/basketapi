@@ -1,0 +1,1913 @@
+
+ Request - 2021-02-19 06:41:42
+{"product_id":"3137","product_name":"Apple Pear","category_name":"Fruits","atribute_name":["Apple Pear"],"attribute_id":["3182"],"store_name":"","price":["10.5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3138","product_name":"Avocados","category_name":"Fruits","atribute_name":["Avocados"],"attribute_id":["3183"],"store_name":"","price":["10.5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3139","product_name":"Green Baby Spinach","category_name":"Vegetables","atribute_name":["Green Baby Spinach"],"attribute_id":["3184"],"store_name":"","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3140","product_name":"Banana","category_name":"Fruits","atribute_name":["Banana"],"attribute_id":["3185"],"store_name":"","price":["8.5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3141","product_name":"Blueberries","category_name":"Fruits","atribute_name":["Blueberries"],"attribute_id":["3186"],"store_name":"","price":["42"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3142","product_name":"Crunchy Broccoli","category_name":"Vegetables","atribute_name":["Crunchy Broccoli"],"attribute_id":["3187"],"store_name":"","price":["42"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3143","product_name":"Cabbage","category_name":"Vegetables","atribute_name":["Cabbage"],"attribute_id":["3188"],"store_name":"","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3144","product_name":"Cantaloupe\/Rockmelon Whole","category_name":"Fruits","atribute_name":["Cantaloupe\/Rockmelon Whole"],"attribute_id":["3189"],"store_name":"","price":["26"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3145","product_name":"Carrot","category_name":"Vegetables","atribute_name":["Carrot"],"attribute_id":["3190"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3146","product_name":"Cauliflower","category_name":"Vegetables","atribute_name":["Cauliflower"],"attribute_id":["3191"],"store_name":"","price":["13"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3147","product_name":"Coconut","category_name":"Vegetables","atribute_name":["Coconut"],"attribute_id":["3192"],"store_name":"","price":["3.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3148","product_name":"Cucumber","category_name":"Vegetables","atribute_name":["Cucumber"],"attribute_id":["3193"],"store_name":"","price":["7.35"],"stock":["27"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3149","product_name":"Eggplant","category_name":"Vegetables","atribute_name":["Eggplant"],"attribute_id":["3194"],"store_name":"","price":["10.5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3150","product_name":"Frozen Strawberries","category_name":"Fruits","atribute_name":["Frozen Strawberries"],"attribute_id":["3195"],"store_name":"","price":["31.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3151","product_name":"Garden Egg","category_name":"Vegetables","atribute_name":["Garden Egg"],"attribute_id":["3196"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3152","product_name":"Garlic","category_name":"Vegetables","atribute_name":["Garlic"],"attribute_id":["3197"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3153","product_name":"Ginger ","category_name":"Vegetables","atribute_name":["Ginger "],"attribute_id":["3198"],"store_name":"","price":["5.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3154","product_name":"Green Apple - Big","category_name":"Fruits","atribute_name":["Green Apple - Big"],"attribute_id":["3199"],"store_name":"","price":["10.5"],"stock":["26"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3155","product_name":"Green Apple - Small","category_name":"Fruits","atribute_name":["Green Apple - Small"],"attribute_id":["3200"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3156","product_name":"Green Beans","category_name":"Vegetables","atribute_name":["Green Beans"],"attribute_id":["3201"],"store_name":"","price":["6.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3157","product_name":"Green Chilli","category_name":"Vegetables","atribute_name":["Green Chilli"],"attribute_id":["3202"],"store_name":"","price":["5.5"],"stock":["27"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3158","product_name":"Green Lemon","category_name":"Vegetables","atribute_name":["Green Lemon"],"attribute_id":["3203"],"store_name":"","price":["9"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3159","product_name":"Green Peas Frozen","category_name":"Vegetables","atribute_name":["Green Peas Frozen"],"attribute_id":["3204"],"store_name":"","price":["26"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3160","product_name":"Guava","category_name":"Fruits","atribute_name":["Guava"],"attribute_id":["3205"],"store_name":"","price":["10.5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3161","product_name":"Kale","category_name":"Vegetables","atribute_name":["Kale"],"attribute_id":["3206"],"store_name":"","price":["21"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3162","product_name":"Kiwi","category_name":"Fruits","atribute_name":["Kiwi"],"attribute_id":["3207"],"store_name":"","price":["15.75"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3163","product_name":"Local Banana","category_name":"Fruits","atribute_name":["Local Banana"],"attribute_id":["3208"],"store_name":"","price":["15.75"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3164","product_name":"Sweet Juicy Mango","category_name":"Fruits","atribute_name":["Sweet Juicy Mango"],"attribute_id":["3209"],"store_name":"","price":["15.75"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3165","product_name":"Mixed Bell Pepper","category_name":"Vegetables","atribute_name":["Mixed Bell Pepper"],"attribute_id":["3210"],"store_name":"","price":["31.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3166","product_name":"Mushroom","category_name":"Vegetables","atribute_name":["Mushroom"],"attribute_id":["3211"],"store_name":"","price":["21"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3167","product_name":"Okra","category_name":"Vegetables","atribute_name":["Okra"],"attribute_id":["3212"],"store_name":"","price":["6"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3168","product_name":"Onions","category_name":"Vegetables","atribute_name":["Onions"],"attribute_id":["3213"],"store_name":"","price":["10.5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3169","product_name":"Oranges","category_name":"Fruits","atribute_name":["Oranges"],"attribute_id":["3214"],"store_name":"","price":["5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3170","product_name":"Passion Fruit","category_name":"Fruits","atribute_name":["Passion Fruit"],"attribute_id":["3215"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3171","product_name":"Papaya\/Papaw","category_name":"Fruits","atribute_name":["Papaya\/Papaw"],"attribute_id":["3216"],"store_name":"","price":["5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3172","product_name":"Pineapple","category_name":"Fruits","atribute_name":["Pineapple"],"attribute_id":["3217"],"store_name":"","price":["7"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3173","product_name":"Plum","category_name":"Fruits","atribute_name":["Plum"],"attribute_id":["3218"],"store_name":"","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3174","product_name":"Potatoes","category_name":"Vegetables","atribute_name":["Potatoes"],"attribute_id":["3219"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3175","product_name":"Red Apple","category_name":"Fruits","atribute_name":["Red Apple"],"attribute_id":["3220"],"store_name":"","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3176","product_name":"Red Chilli","category_name":"Vegetables","atribute_name":["Red Chilli"],"attribute_id":["3221"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:42
+{"product_id":"3177","product_name":"Rounded Spring Onion","category_name":"Vegetables","atribute_name":["Rounded Spring Onion"],"attribute_id":["3222"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3178","product_name":"Small Green Pepper","category_name":"Vegetables","atribute_name":["Small Green Pepper"],"attribute_id":["3223"],"store_name":"","price":["6"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3179","product_name":"Spring Onion","category_name":"Vegetables","atribute_name":["Spring Onion"],"attribute_id":["3224"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3180","product_name":"Star Fruit","category_name":"Fruits","atribute_name":["Star Fruit"],"attribute_id":["3225"],"store_name":"","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3181","product_name":"Strawberries","category_name":"Fruits","atribute_name":["Strawberries"],"attribute_id":["3226"],"store_name":"","price":["21"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3182","product_name":"Sweet Potatoes","category_name":"Vegetables","atribute_name":["Sweet Potatoes"],"attribute_id":["3227"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3183","product_name":"Tomatoes","category_name":"Vegetables","atribute_name":["Tomatoes"],"attribute_id":["3228"],"store_name":"","price":["10"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3184","product_name":"Watermelon","category_name":"Fruits","atribute_name":["Watermelon"],"attribute_id":["3229"],"store_name":"","price":["11"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3185","product_name":"White Onions","category_name":"Vegetables","atribute_name":["White Onions"],"attribute_id":["3230"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3186","product_name":"Zucchini","category_name":"Vegetables","atribute_name":["Zucchini"],"attribute_id":["3231"],"store_name":"","price":["6"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3654","product_name":"Original Steak Sauce","category_name":"Sauces & Dressings","atribute_name":["Original Steak Sauce"],"attribute_id":["3662"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3655","product_name":"Vinegar","category_name":"Sauces & Dressings","atribute_name":["Vinegar"],"attribute_id":["3663"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3656","product_name":"All Fruit Seedless Raspberry - Jam","category_name":"Jams&Honey","atribute_name":["All Fruit Seedless Raspberry - Jam"],"attribute_id":["3664"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3657","product_name":"All Fruit Strawberry - Jam","category_name":"Jams&Honey","atribute_name":["All Fruit Strawberry - Jam"],"attribute_id":["3665"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3658","product_name":"Almond Roasted No Sugars - Drink","category_name":"Health Drink","atribute_name":["Almond Roasted No Sugars - Drink"],"attribute_id":["3666"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3659","product_name":"Organic Almond Unsweetened - Drink","category_name":"Health Drink","atribute_name":["Organic Almond Unsweetened - Drink"],"attribute_id":["3667"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3660","product_name":"Soya Light - Drink","category_name":"Health Drink","atribute_name":["Soya Light - Drink"],"attribute_id":["3668"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3661","product_name":"Soya No Sugar - Drink","category_name":"Health Drink","atribute_name":["Soya No Sugar - Drink"],"attribute_id":["3669"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3662","product_name":"Green Tea","category_name":"Fruit Juices & Drinks","atribute_name":["Green Tea"],"attribute_id":["3670"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3663","product_name":"Fruit Punch","category_name":"Fruit Juices & Drinks","atribute_name":["Fruit Punch"],"attribute_id":["3671"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3664","product_name":"Farfalle - Pasta","category_name":"Noodles & Pasta","atribute_name":["Farfalle - Pasta"],"attribute_id":["3672"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3665","product_name":"Fusilli - Pasta","category_name":"Noodles & Pasta","atribute_name":["Fusilli - Pasta"],"attribute_id":["3673"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3666","product_name":"Tricolor Fusillini - Pasta","category_name":"Noodles & Pasta","atribute_name":["Tricolor Fusillini - Pasta"],"attribute_id":["3674"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3667","product_name":"Pennette Lisce - Pasta","category_name":"Noodles & Pasta","atribute_name":["Pennette Lisce - Pasta"],"attribute_id":["3675"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3668","product_name":"Kosher Whole Dill Pickles","category_name":"Pickles","atribute_name":["Kosher Whole Dill Pickles"],"attribute_id":["3676"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3669","product_name":"Bay Leaves Whole","category_name":"Masala & Spices","atribute_name":["Bay Leaves Whole"],"attribute_id":["3677"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3670","product_name":"Adobo with Complete Seasoning","category_name":"Masala & Spices","atribute_name":["Adobo with Complete Seasoning"],"attribute_id":["3678"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3671","product_name":"Adobo Seasoning","category_name":"Masala & Spices","atribute_name":["Adobo Seasoning"],"attribute_id":["3679"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3672","product_name":"Barbecue Traditional Blend Seasoning","category_name":"Masala & Spices","atribute_name":["Barbecue Traditional Blend Seasoning"],"attribute_id":["3680"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3673","product_name":"Basil Albahaca","category_name":"Masala & Spices","atribute_name":["Basil Albahaca"],"attribute_id":["3681"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3674","product_name":"Bay Leaves Whole","category_name":"Masala & Spices","atribute_name":["Bay Leaves Whole"],"attribute_id":["3682"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3675","product_name":"Chamomile Tea Bags","category_name":"Tea","atribute_name":["Chamomile Tea Bags"],"attribute_id":["3683"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3676","product_name":"Chili & Lime Seasoning","category_name":"Masala & Spices","atribute_name":["Chili & Lime Seasoning"],"attribute_id":["3684"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3677","product_name":"Chili Sauce With Garlic - Sriracha Hot Sauce","category_name":"Spreads, Sauces, ketchup","atribute_name":["Chili Sauce With Garlic - Sriracha Hot Sauce"],"attribute_id":["3685"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3678","product_name":"Cinnamon Powder","category_name":"Masala & Spices","atribute_name":["Cinnamon Powder"],"attribute_id":["3686"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3679","product_name":"Coconut Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Coconut Milk"],"attribute_id":["3687"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3680","product_name":"Complete Seasoning","category_name":"Masala & Spices","atribute_name":["Complete Seasoning"],"attribute_id":["3688"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3681","product_name":"Complete Seasoning","category_name":"Masala & Spices","atribute_name":["Complete Seasoning"],"attribute_id":["3689"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3682","product_name":"Cranberry Granules","category_name":"Sauces & Dressings","atribute_name":["Cranberry Granules"],"attribute_id":["3690"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3683","product_name":"Cream of Tartar","category_name":"VEG, MEAT & DAIRY","atribute_name":["Cream of Tartar"],"attribute_id":["3691"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3684","product_name":"Curry Powder","category_name":"Masala & Spices","atribute_name":["Curry Powder"],"attribute_id":["3692"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3685","product_name":"Curry Powder","category_name":"Masala & Spices","atribute_name":["Curry Powder"],"attribute_id":["3693"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3686","product_name":"Olive Oil Extra Virgin","category_name":"Cooking Oil","atribute_name":["Olive Oil Extra Virgin"],"attribute_id":["3694"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3687","product_name":"Fennel Seed - Hinojo","category_name":"Masala & Spices","atribute_name":["Fennel Seed - Hinojo"],"attribute_id":["3695"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3688","product_name":"Fried Rice Seasoning","category_name":"Masala & Spices","atribute_name":["Fried Rice Seasoning"],"attribute_id":["3696"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3689","product_name":"Garlic & Parsley","category_name":"Masala & Spices","atribute_name":["Garlic & Parsley"],"attribute_id":["3697"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3690","product_name":"Garlic Powder","category_name":"Masala & Spices","atribute_name":["Garlic Powder"],"attribute_id":["3698"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3691","product_name":"Green Tea Bags","category_name":"Tea","atribute_name":["Green Tea Bags"],"attribute_id":["3699"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3692","product_name":"Black Pepper - Ground","category_name":"Masala & Spices","atribute_name":["Black Pepper - Ground"],"attribute_id":["3700"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3693","product_name":"Ginger - Ground","category_name":"Masala & Spices","atribute_name":["Ginger - Ground"],"attribute_id":["3701"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3694","product_name":"Nutmeg - Ground","category_name":"Masala & Spices","atribute_name":["Nutmeg - Ground"],"attribute_id":["3702"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3695","product_name":"Turmeric - Ground","category_name":"Masala & Spices","atribute_name":["Turmeric - Ground"],"attribute_id":["3703"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3696","product_name":"Pepper White - Ground","category_name":"Masala & Spices","atribute_name":["Pepper White - Ground"],"attribute_id":["3704"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3697","product_name":"Jollof Rice Seasoning","category_name":"Masala & Spices","atribute_name":["Jollof Rice Seasoning"],"attribute_id":["3705"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3698","product_name":"Nutmeg Whole","category_name":"Masala & Spices","atribute_name":["Nutmeg Whole"],"attribute_id":["3706"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3699","product_name":"Pimenton\/Paprika -Ground","category_name":"Masala & Spices","atribute_name":["Pimenton\/Paprika -Ground"],"attribute_id":["3707"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3700","product_name":"Pimenton\/Paprika -Ground","category_name":"Masala & Spices","atribute_name":["Pimenton\/Paprika -Ground"],"attribute_id":["3708"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3701","product_name":"Pink Himalayan Salt Grinder","category_name":"Salt","atribute_name":["Pink Himalayan Salt Grinder"],"attribute_id":["3709"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3702","product_name":"Molokai Coconut - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Molokai Coconut - Antioxidant Cocofusion"],"attribute_id":["3710"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3703","product_name":"Andes Coconut Lime - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Andes Coconut Lime - Antioxidant Cocofusion"],"attribute_id":["3711"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3704","product_name":"Madagascar Coconut Mango - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Madagascar Coconut Mango - Antioxidant Cocofusion"],"attribute_id":["3712"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3705","product_name":"Puna Coconut Pineapple - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Puna Coconut Pineapple - Antioxidant Cocofusion"],"attribute_id":["3713"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3706","product_name":"Brasilia Blueberry - Antioxidant Infusion","category_name":"Fruit Juices & Drinks","atribute_name":["Brasilia Blueberry - Antioxidant Infusion"],"attribute_id":["3714"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3707","product_name":"Zambia Bing Cherry - Antioxidant Infusion","category_name":"Fruit Juices & Drinks","atribute_name":["Zambia Bing Cherry - Antioxidant Infusion"],"attribute_id":["3715"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:43
+{"product_id":"3708","product_name":"Kula Watermelon - Antioxidant Infusion","category_name":"Fruit Juices & Drinks","atribute_name":["Kula Watermelon - Antioxidant Infusion"],"attribute_id":["3716"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3709","product_name":"Button Mushrooms in Water","category_name":"Canned Food","atribute_name":["Button Mushrooms in Water"],"attribute_id":["3717"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3710","product_name":"Sliced Mushrooms in Water","category_name":"Canned Food","atribute_name":["Sliced Mushrooms in Water"],"attribute_id":["3718"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3711","product_name":"Active Vitamin Water Bottle - Lemon Flavoured","category_name":"Mineral Water","atribute_name":["Active Vitamin Water Bottle - Lemon Flavoured"],"attribute_id":["3719"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3712","product_name":"Bottled Mineral Water","category_name":"Mineral Water","atribute_name":["Bottled Mineral Water"],"attribute_id":["3720"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3713","product_name":"Bottled Mineral Water","category_name":"Mineral Water","atribute_name":["Bottled Mineral Water"],"attribute_id":["3721"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3714","product_name":"Table Salt","category_name":"Salt","atribute_name":["Table Salt"],"attribute_id":["3722"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3715","product_name":"Garden Peas in Water","category_name":"Canned Food","atribute_name":["Garden Peas in Water"],"attribute_id":["3723"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3716","product_name":"Parsley Sauce Mix","category_name":"Sauces & Dressings","atribute_name":["Parsley Sauce Mix"],"attribute_id":["3724"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3717","product_name":"Cheese Sauce Mix","category_name":"Sauces & Dressings","atribute_name":["Cheese Sauce Mix"],"attribute_id":["3725"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3718","product_name":"Chicken Gravy Granules","category_name":"Canned Food","atribute_name":["Chicken Gravy Granules"],"attribute_id":["3726"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3719","product_name":"Gravy Granules","category_name":"Canned Food","atribute_name":["Gravy Granules"],"attribute_id":["3727"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3720","product_name":"Coconut Water, Mango & Passion Fruit Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Coconut Water, Mango & Passion Fruit Juice"],"attribute_id":["3728"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3721","product_name":"Mango, Orange & Banana Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Mango, Orange & Banana Juice"],"attribute_id":["3729"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3722","product_name":"Pineapple & Ginger Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Pineapple & Ginger Juice"],"attribute_id":["3730"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3723","product_name":"Pineapple Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Pineapple Juice"],"attribute_id":["3731"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3724","product_name":"Pineapple, Mango and Passion Fruit","category_name":"Fruit Juices & Drinks","atribute_name":["Pineapple, Mango and Passion Fruit"],"attribute_id":["3732"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3725","product_name":"Organic Whole Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Organic Whole Biscuits"],"attribute_id":["3733"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3726","product_name":"Biscuit Topped with Milk Chocolate","category_name":"Biscuits & Cookies","atribute_name":["Biscuit Topped with Milk Chocolate"],"attribute_id":["3734"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3727","product_name":"Organic Chocolate Sticks","category_name":"Biscuits & Cookies","atribute_name":["Organic Chocolate Sticks"],"attribute_id":["3735"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3728","product_name":"Organic Cranberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Cranberry Juice"],"attribute_id":["3736"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3729","product_name":"Organic Oats Drink","category_name":"Health Drink","atribute_name":["Organic Oats Drink"],"attribute_id":["3737"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3730","product_name":"Organic Mayonnaise","category_name":"Sauces & Dressings","atribute_name":["Organic Mayonnaise"],"attribute_id":["3738"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3731","product_name":"Multifruit Fruit Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Multifruit Fruit Juice"],"attribute_id":["3739"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3732","product_name":"Organic Whole Wheat Toast - Pain Grille","category_name":"Biscuits & Cookies","atribute_name":["Organic Whole Wheat Toast - Pain Grille"],"attribute_id":["3740"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3733","product_name":"Organic Rice Drink","category_name":"Health Drink","atribute_name":["Organic Rice Drink"],"attribute_id":["3741"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3734","product_name":"Organic Oat Bran","category_name":"Oats & Pasta","atribute_name":["Organic Oat Bran"],"attribute_id":["3742"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3735","product_name":"Spaghetti","category_name":"Noodles & Pasta","atribute_name":["Spaghetti"],"attribute_id":["3743"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3736","product_name":"Organic Green Tea Sencha","category_name":"Tea","atribute_name":["Organic Green Tea Sencha"],"attribute_id":["3744"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3737","product_name":"Organic Tomato Puree","category_name":"Spreads, Sauces, ketchup","atribute_name":["Organic Tomato Puree"],"attribute_id":["3745"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3738","product_name":"Fine Grain Couscous","category_name":"Flours & Grains","atribute_name":["Fine Grain Couscous"],"attribute_id":["3746"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3739","product_name":"Red Kidney Beans","category_name":"Flours & Grains","atribute_name":["Red Kidney Beans"],"attribute_id":["3747"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3740","product_name":"Dehydrated Basil","category_name":"Masala & Spices","atribute_name":["Dehydrated Basil"],"attribute_id":["3748"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3741","product_name":"Dehydrated Thyme","category_name":"Masala & Spices","atribute_name":["Dehydrated Thyme"],"attribute_id":["3749"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3742","product_name":"Dijon Mustard Mayonnaise","category_name":"Spreads, Sauces, ketchup","atribute_name":["Dijon Mustard Mayonnaise"],"attribute_id":["3750"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3743","product_name":"Anchovy Stuffing Olives","category_name":"Masala & Spices","atribute_name":["Anchovy Stuffing Olives"],"attribute_id":["3751"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3744","product_name":"Pitted Green Olives","category_name":"Masala & Spices","atribute_name":["Pitted Green Olives"],"attribute_id":["3752"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3745","product_name":"Sardines In Extra Virgin Olive Oil","category_name":"Canned Food","atribute_name":["Sardines In Extra Virgin Olive Oil"],"attribute_id":["3753"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3746","product_name":"Sardines In Sunflower Oil","category_name":"Canned Food","atribute_name":["Sardines In Sunflower Oil"],"attribute_id":["3754"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3747","product_name":"Burgundy Sauce","category_name":"Sauces & Dressings","atribute_name":["Burgundy Sauce"],"attribute_id":["3755"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3748","product_name":"Pepper Sauce","category_name":"Sauces & Dressings","atribute_name":["Pepper Sauce"],"attribute_id":["3756"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3749","product_name":"Tartar Sauce","category_name":"Sauces & Dressings","atribute_name":["Tartar Sauce"],"attribute_id":["3757"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3750","product_name":"Dark Chocolate Cereals","category_name":"Oats & Pasta","atribute_name":["Dark Chocolate Cereals"],"attribute_id":["3758"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3751","product_name":"Pure Natural Honey","category_name":"Jams&Honey","atribute_name":["Pure Natural Honey"],"attribute_id":["3759"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3752","product_name":"Pure Natural Honey","category_name":"Jams&Honey","atribute_name":["Pure Natural Honey"],"attribute_id":["3760"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3753","product_name":"Pure Natural Honey","category_name":"Jams&Honey","atribute_name":["Pure Natural Honey"],"attribute_id":["3761"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3754","product_name":"Akuafo Lemon Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Akuafo Lemon Chocolate"],"attribute_id":["3762"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3755","product_name":"Kingsbite Milk Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Kingsbite Milk Chocolate"],"attribute_id":["3763"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3756","product_name":"Kingsbite Milk Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Kingsbite Milk Chocolate"],"attribute_id":["3764"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3757","product_name":"Oranco Milk Chocolate - Orange Flavoured","category_name":"Chocolates & Snacks","atribute_name":["Oranco Milk Chocolate - Orange Flavoured"],"attribute_id":["3765"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3758","product_name":"Tetteh Quarshie (Tq) Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Tetteh Quarshie (Tq) Chocolate"],"attribute_id":["3766"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3759","product_name":"Baked Beanz","category_name":"Canned Food","atribute_name":["Baked Beanz"],"attribute_id":["3767"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3760","product_name":"Real Classic Mayonnaise","category_name":"Spreads, Sauces, ketchup","atribute_name":["Real Classic Mayonnaise"],"attribute_id":["3768"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3761","product_name":"Corned Beef","category_name":"Canned Food","atribute_name":["Corned Beef"],"attribute_id":["3769"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3762","product_name":"Tomato Ketchup","category_name":"Spreads, Sauces, ketchup","atribute_name":["Tomato Ketchup"],"attribute_id":["3770"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3763","product_name":"Ploughmans Pickle","category_name":"Pickles","atribute_name":["Ploughmans Pickle"],"attribute_id":["3771"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3764","product_name":"Salad Cream","category_name":"Sauces & Dressings","atribute_name":["Salad Cream"],"attribute_id":["3772"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3765","product_name":"Sweet Relish","category_name":"Masala & Spices","atribute_name":["Sweet Relish"],"attribute_id":["3773"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3766","product_name":"Tomato Ketchup","category_name":"Spreads, Sauces, ketchup","atribute_name":["Tomato Ketchup"],"attribute_id":["3774"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3767","product_name":"Tomato Ketchup","category_name":"Spreads, Sauces, ketchup","atribute_name":["Tomato Ketchup"],"attribute_id":["3775"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3768","product_name":"Distilled White Vinegar","category_name":"Sauces & Dressings","atribute_name":["Distilled White Vinegar"],"attribute_id":["3776"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3769","product_name":"Vinegar Malt","category_name":"Sauces & Dressings","atribute_name":["Vinegar Malt"],"attribute_id":["3777"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3770","product_name":"Yellow Mustard - 100% Natural","category_name":"Masala & Spices","atribute_name":["Yellow Mustard - 100% Natural"],"attribute_id":["3778"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3771","product_name":"Cheddar Cheese Chips","category_name":"Chocolates & Snacks","atribute_name":["Cheddar Cheese Chips"],"attribute_id":["3779"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3772","product_name":"Hot & Spicy Chips","category_name":"Chocolates & Snacks","atribute_name":["Hot & Spicy Chips"],"attribute_id":["3780"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:44
+{"product_id":"3773","product_name":"Original Chips","category_name":"Chocolates & Snacks","atribute_name":["Original Chips"],"attribute_id":["3781"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3774","product_name":"Prawn Cocktail Flavour Chips","category_name":"Chocolates & Snacks","atribute_name":["Prawn Cocktail Flavour Chips"],"attribute_id":["3782"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3775","product_name":"Salt & Vinegar Chips","category_name":"Chocolates & Snacks","atribute_name":["Salt & Vinegar Chips"],"attribute_id":["3783"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3776","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3784"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3777","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3785"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3778","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3786"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3779","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3787"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3780","product_name":"Texas BBQ Sauce Chips","category_name":"Chocolates & Snacks","atribute_name":["Texas BBQ Sauce Chips"],"attribute_id":["3788"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3781","product_name":"Original Chips","category_name":"Chocolates & Snacks","atribute_name":["Original Chips"],"attribute_id":["3789"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3782","product_name":"Salted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Salted Butter"],"attribute_id":["3790"],"store_name":"Farmers Haus","price":["18"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3783","product_name":"Unsalted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Unsalted Butter"],"attribute_id":["3791"],"store_name":"Farmers Haus","price":["18"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3784","product_name":"Organic Mixed Vegetables","category_name":"Vegetables","atribute_name":["Organic Mixed Vegetables"],"attribute_id":["3792"],"store_name":"Farmers Haus","price":["25"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3785","product_name":"Skimmed Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Skimmed Milk"],"attribute_id":["3793"],"store_name":"Farmers Haus","price":["12.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3786","product_name":"Salted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Salted Butter"],"attribute_id":["3794"],"store_name":"Farmers Haus","price":["20"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3787","product_name":"Unsalted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Unsalted Butter"],"attribute_id":["3795"],"store_name":"Farmers Haus","price":["20"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3788","product_name":"Full Cream Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Full Cream Milk"],"attribute_id":["3796"],"store_name":"Farmers Haus","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3789","product_name":"Semi Skimmed Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Semi Skimmed Milk"],"attribute_id":["3797"],"store_name":"Farmers Haus","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3790","product_name":"Skimmed Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Skimmed Milk"],"attribute_id":["3798"],"store_name":"Farmers Haus","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3791","product_name":"Organic Pasta","category_name":"Oats & Pasta","atribute_name":["Organic Pasta"],"attribute_id":["3799"],"store_name":"Farmers Haus","price":["11.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3792","product_name":"Zero Sugar Thirst Quencher - Glacier Freeze","category_name":"Fruit Juices & Drinks","atribute_name":["Zero Sugar Thirst Quencher - Glacier Freeze"],"attribute_id":["3800"],"store_name":"Farmers Haus","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3793","product_name":"Thirst Quencher - Fierce Blue Cherry","category_name":"Fruit Juices & Drinks","atribute_name":["Thirst Quencher - Fierce Blue Cherry"],"attribute_id":["3801"],"store_name":"Farmers Haus","price":["8"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3794","product_name":"Thirst Quencher - Fierce Grape","category_name":"Fruit Juices & Drinks","atribute_name":["Thirst Quencher - Fierce Grape"],"attribute_id":["3802"],"store_name":"Farmers Haus","price":["8"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3795","product_name":"Thirst Quencher - Fierce Green Apple","category_name":"Fruit Juices & Drinks","atribute_name":["Thirst Quencher - Fierce Green Apple"],"attribute_id":["3803"],"store_name":"Farmers Haus","price":["8"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3796","product_name":"Chick Peas","category_name":"Canned Food","atribute_name":["Chick Peas"],"attribute_id":["3804"],"store_name":"Farmers Haus","price":[" 15.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3797","product_name":"Green Pigeon Peas","category_name":"Canned Food","atribute_name":["Green Pigeon Peas"],"attribute_id":["3805"],"store_name":"Farmers Haus","price":[" 12.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3798","product_name":"Horlicks Original","category_name":"Health Drink","atribute_name":["Horlicks Original"],"attribute_id":["3806"],"store_name":"Farmers Haus","price":[" 20.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3799","product_name":"Horlicks Original","category_name":"Health Drink","atribute_name":["Horlicks Original"],"attribute_id":["3807"],"store_name":"Farmers Haus","price":[" 45.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3800","product_name":"Canola Oil","category_name":"Cooking Oil","atribute_name":["Canola Oil"],"attribute_id":["3808"],"store_name":"Farmers Haus","price":[" 45.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3801","product_name":"Premium Chunk Chicken Breast","category_name":"Canned Food","atribute_name":["Premium Chunk Chicken Breast"],"attribute_id":["3809"],"store_name":"Farmers Haus","price":[" 24.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3802","product_name":"Organic Almond Beverage, Vanilla","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Almond Beverage, Vanilla"],"attribute_id":["3810"],"store_name":"Farmers Haus","price":[" 19.99 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3803","product_name":"Organic Chicken Stock","category_name":"Canned Food","atribute_name":["Organic Chicken Stock"],"attribute_id":["3811"],"store_name":"Farmers Haus","price":[" 22.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3804","product_name":"Organic Reduced Fat Chocolate Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Organic Reduced Fat Chocolate Milk"],"attribute_id":["3812"],"store_name":"Farmers Haus","price":[" 7.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3805","product_name":"Organic Lemonade","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Lemonade"],"attribute_id":["3813"],"store_name":"Farmers Haus","price":[" 48.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3806","product_name":"Organic Pure Maple Syrup","category_name":"Sauces & Dressings","atribute_name":["Organic Pure Maple Syrup"],"attribute_id":["3814"],"store_name":"Farmers Haus","price":[" 140.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3807","product_name":"Organic Raw Honey","category_name":"Jams&Honey","atribute_name":["Organic Raw Honey"],"attribute_id":["3815"],"store_name":"Farmers Haus","price":[" 50.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3808","product_name":"Organic Soy Beverage, Vanilla","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Soy Beverage, Vanilla"],"attribute_id":["3816"],"store_name":"Farmers Haus","price":[" 16.90 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3809","product_name":"Almond Non-Dairy Beverage - Unsweetened","category_name":"Fruit Juices & Drinks","atribute_name":["Almond Non-Dairy Beverage - Unsweetened"],"attribute_id":["3817"],"store_name":"Farmers Haus","price":[" 20.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3810","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3818"],"store_name":"Farmers Haus","price":[" 25.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3811","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3819"],"store_name":"Farmers Haus","price":[" 45.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3812","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3820"],"store_name":"Farmers Haus","price":[" 15.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3813","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3821"],"store_name":"Farmers Haus","price":[" 85.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3814","product_name":"Rich Tea Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Rich Tea Biscuits"],"attribute_id":["3822"],"store_name":"Farmers Haus","price":[" 13.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3815","product_name":"Digestive Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Digestive Biscuits"],"attribute_id":["3823"],"store_name":"Farmers Haus","price":[" 11.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3816","product_name":"Ginger Nuts Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Ginger Nuts Biscuits"],"attribute_id":["3824"],"store_name":"Farmers Haus","price":[" 8.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3817","product_name":"Rich Tea Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Rich Tea Biscuits"],"attribute_id":["3825"],"store_name":"Farmers Haus","price":[" 7.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3818","product_name":"Chunk Chicken Breast","category_name":"Canned Food","atribute_name":["Chunk Chicken Breast"],"attribute_id":["3826"],"store_name":"Farmers Haus","price":[" 21.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3819","product_name":"Cut Green Beans","category_name":"Canned Food","atribute_name":["Cut Green Beans"],"attribute_id":["3827"],"store_name":"Farmers Haus","price":[" 8.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3820","product_name":"Diced Tomatoes in Tomato Juice","category_name":"Canned Food","atribute_name":["Diced Tomatoes in Tomato Juice"],"attribute_id":["3828"],"store_name":"Farmers Haus","price":[" 9.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3821","product_name":"Honey Almond Granola","category_name":"Oats & Pasta","atribute_name":["Honey Almond Granola"],"attribute_id":["3829"],"store_name":"Farmers Haus","price":[" 48.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3822","product_name":"Olive Oil Cooking Spray","category_name":"Cooking Oil","atribute_name":["Olive Oil Cooking Spray"],"attribute_id":["3830"],"store_name":"Farmers Haus","price":[" 26.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3823","product_name":"Tomato Paste","category_name":"Canned Food","atribute_name":["Tomato Paste"],"attribute_id":["3831"],"store_name":"Farmers Haus","price":[" 5.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3824","product_name":"Oats & Honey Crunchy Granola Bars","category_name":"Chocolates & Snacks","atribute_name":["Oats & Honey Crunchy Granola Bars"],"attribute_id":["3832"],"store_name":"Farmers Haus","price":[" 2.99 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3825","product_name":"Trail Mix Fruit & Nut Bars","category_name":"Chocolates & Snacks","atribute_name":["Trail Mix Fruit & Nut Bars"],"attribute_id":["3833"],"store_name":"Farmers Haus","price":[" 3.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3826","product_name":"Crunchy Granola Bars, Oats & Honey","category_name":"Chocolates & Snacks","atribute_name":["Crunchy Granola Bars, Oats & Honey"],"attribute_id":["3834"],"store_name":"Farmers Haus","price":[" 60.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3827","product_name":"Peanut Butter Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Peanut Butter Biscuits"],"attribute_id":["3835"],"store_name":"Farmers Haus","price":[" 6.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3828","product_name":"Peanut Butter Wafer Bars","category_name":"Biscuits & Cookies","atribute_name":["Peanut Butter Wafer Bars"],"attribute_id":["3836"],"store_name":"Farmers Haus","price":[" 6.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3829","product_name":"Cassava Fish","category_name":"FISH PRODUCT","atribute_name":["Cassava Fish"],"attribute_id":["3837"],"store_name":"Farmers Haus","price":[" 60.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3830","product_name":"Grouper Fish","category_name":"FISH PRODUCT","atribute_name":["Grouper Fish"],"attribute_id":["3838"],"store_name":"Farmers Haus","price":[" 65.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3831","product_name":"Lobster","category_name":"SEA FOOD","atribute_name":["Lobster"],"attribute_id":["3839"],"store_name":"Farmers Haus","price":[" 104.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3832","product_name":"Ocean Mix","category_name":"SEA FOOD","atribute_name":["Ocean Mix"],"attribute_id":["3840"],"store_name":"Farmers Haus","price":[" 60.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3833","product_name":"Octopus","category_name":"SEA FOOD","atribute_name":["Octopus"],"attribute_id":["3841"],"store_name":"Farmers Haus","price":[" 28.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3834","product_name":"Prawns","category_name":"SEA FOOD","atribute_name":["Prawns"],"attribute_id":["3842"],"store_name":"Farmers Haus","price":[" 65.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3835","product_name":"Squid","category_name":"SEA FOOD","atribute_name":["Squid"],"attribute_id":["3843"],"store_name":"Farmers Haus","price":[" 42.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:45
+{"product_id":"3836","product_name":"Spiced Tilapia","category_name":"SEA FOOD","atribute_name":["Spiced Tilapia"],"attribute_id":["3844"],"store_name":"Farmers Haus","price":[" 35.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:46
+{"product_id":"3837","product_name":"Cran Grape - Grape Cranberry Juice Drink","category_name":"Fruit Juices & Drinks","atribute_name":["Cran Grape - Grape Cranberry Juice Drink"],"attribute_id":["3845"],"store_name":"Farmers Haus","price":[" 45.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:46
+{"product_id":"3838","product_name":"Cranberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Juice"],"attribute_id":["3846"],"store_name":"Farmers Haus","price":[" 45.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:46
+{"product_id":"3839","product_name":"Cranberry Classic Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Classic Juice"],"attribute_id":["3847"],"store_name":"Farmers Haus","price":[" 11.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:46
+{"product_id":"3840","product_name":"Cranberry Pomegranate Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Pomegranate Juice"],"attribute_id":["3848"],"store_name":"Farmers Haus","price":[" 11.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:46
+{"product_id":"3841","product_name":"Cranberry Raspberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Raspberry Juice"],"attribute_id":["3849"],"store_name":"Farmers Haus","price":[" 11.00 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:41:46
+{"product_id":"3842","product_name":"Cranberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Juice"],"attribute_id":["3850"],"store_name":"Farmers Haus","price":[" 8.50 "],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3137","product_name":"Apple Pear","category_name":"Fruits","atribute_name":["Apple Pear"],"attribute_id":["3182"],"store_name":"","price":["10.5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3138","product_name":"Avocados","category_name":"Fruits","atribute_name":["Avocados"],"attribute_id":["3183"],"store_name":"","price":["10.5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3139","product_name":"Green Baby Spinach","category_name":"Vegetables","atribute_name":["Green Baby Spinach"],"attribute_id":["3184"],"store_name":"","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3140","product_name":"Banana","category_name":"Fruits","atribute_name":["Banana"],"attribute_id":["3185"],"store_name":"","price":["8.5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3141","product_name":"Blueberries","category_name":"Fruits","atribute_name":["Blueberries"],"attribute_id":["3186"],"store_name":"","price":["42"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3142","product_name":"Crunchy Broccoli","category_name":"Vegetables","atribute_name":["Crunchy Broccoli"],"attribute_id":["3187"],"store_name":"","price":["42"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3143","product_name":"Cabbage","category_name":"Vegetables","atribute_name":["Cabbage"],"attribute_id":["3188"],"store_name":"","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3144","product_name":"Cantaloupe\/Rockmelon Whole","category_name":"Fruits","atribute_name":["Cantaloupe\/Rockmelon Whole"],"attribute_id":["3189"],"store_name":"","price":["26"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3145","product_name":"Carrot","category_name":"Vegetables","atribute_name":["Carrot"],"attribute_id":["3190"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3146","product_name":"Cauliflower","category_name":"Vegetables","atribute_name":["Cauliflower"],"attribute_id":["3191"],"store_name":"","price":["13"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3147","product_name":"Coconut","category_name":"Vegetables","atribute_name":["Coconut"],"attribute_id":["3192"],"store_name":"","price":["3.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3148","product_name":"Cucumber","category_name":"Vegetables","atribute_name":["Cucumber"],"attribute_id":["3193"],"store_name":"","price":["7.35"],"stock":["27"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3149","product_name":"Eggplant","category_name":"Vegetables","atribute_name":["Eggplant"],"attribute_id":["3194"],"store_name":"","price":["10.5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3150","product_name":"Frozen Strawberries","category_name":"Fruits","atribute_name":["Frozen Strawberries"],"attribute_id":["3195"],"store_name":"","price":["31.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3151","product_name":"Garden Egg","category_name":"Vegetables","atribute_name":["Garden Egg"],"attribute_id":["3196"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3152","product_name":"Garlic","category_name":"Vegetables","atribute_name":["Garlic"],"attribute_id":["3197"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3153","product_name":"Ginger ","category_name":"Vegetables","atribute_name":["Ginger "],"attribute_id":["3198"],"store_name":"","price":["5.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3154","product_name":"Green Apple - Big","category_name":"Fruits","atribute_name":["Green Apple - Big"],"attribute_id":["3199"],"store_name":"","price":["10.5"],"stock":["26"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3155","product_name":"Green Apple - Small","category_name":"Fruits","atribute_name":["Green Apple - Small"],"attribute_id":["3200"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3156","product_name":"Green Beans","category_name":"Vegetables","atribute_name":["Green Beans"],"attribute_id":["3201"],"store_name":"","price":["6.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3157","product_name":"Green Chilli","category_name":"Vegetables","atribute_name":["Green Chilli"],"attribute_id":["3202"],"store_name":"","price":["5.5"],"stock":["27"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3158","product_name":"Green Lemon","category_name":"Vegetables","atribute_name":["Green Lemon"],"attribute_id":["3203"],"store_name":"","price":["9"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3159","product_name":"Green Peas Frozen","category_name":"Vegetables","atribute_name":["Green Peas Frozen"],"attribute_id":["3204"],"store_name":"","price":["26"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3160","product_name":"Guava","category_name":"Fruits","atribute_name":["Guava"],"attribute_id":["3205"],"store_name":"","price":["10.5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3161","product_name":"Kale","category_name":"Vegetables","atribute_name":["Kale"],"attribute_id":["3206"],"store_name":"","price":["21"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3162","product_name":"Kiwi","category_name":"Fruits","atribute_name":["Kiwi"],"attribute_id":["3207"],"store_name":"","price":["15.75"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3163","product_name":"Local Banana","category_name":"Fruits","atribute_name":["Local Banana"],"attribute_id":["3208"],"store_name":"","price":["15.75"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3164","product_name":"Sweet Juicy Mango","category_name":"Fruits","atribute_name":["Sweet Juicy Mango"],"attribute_id":["3209"],"store_name":"","price":["15.75"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3165","product_name":"Mixed Bell Pepper","category_name":"Vegetables","atribute_name":["Mixed Bell Pepper"],"attribute_id":["3210"],"store_name":"","price":["31.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3166","product_name":"Mushroom","category_name":"Vegetables","atribute_name":["Mushroom"],"attribute_id":["3211"],"store_name":"","price":["21"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3167","product_name":"Okra","category_name":"Vegetables","atribute_name":["Okra"],"attribute_id":["3212"],"store_name":"","price":["6"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3168","product_name":"Onions","category_name":"Vegetables","atribute_name":["Onions"],"attribute_id":["3213"],"store_name":"","price":["10.5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3169","product_name":"Oranges","category_name":"Fruits","atribute_name":["Oranges"],"attribute_id":["3214"],"store_name":"","price":["5"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3170","product_name":"Passion Fruit","category_name":"Fruits","atribute_name":["Passion Fruit"],"attribute_id":["3215"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3171","product_name":"Papaya\/Papaw","category_name":"Fruits","atribute_name":["Papaya\/Papaw"],"attribute_id":["3216"],"store_name":"","price":["5"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3172","product_name":"Pineapple","category_name":"Fruits","atribute_name":["Pineapple"],"attribute_id":["3217"],"store_name":"","price":["7"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3173","product_name":"Plum","category_name":"Fruits","atribute_name":["Plum"],"attribute_id":["3218"],"store_name":"","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:51
+{"product_id":"3174","product_name":"Potatoes","category_name":"Vegetables","atribute_name":["Potatoes"],"attribute_id":["3219"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3175","product_name":"Red Apple","category_name":"Fruits","atribute_name":["Red Apple"],"attribute_id":["3220"],"store_name":"","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3176","product_name":"Red Chilli","category_name":"Vegetables","atribute_name":["Red Chilli"],"attribute_id":["3221"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3177","product_name":"Rounded Spring Onion","category_name":"Vegetables","atribute_name":["Rounded Spring Onion"],"attribute_id":["3222"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3178","product_name":"Small Green Pepper","category_name":"Vegetables","atribute_name":["Small Green Pepper"],"attribute_id":["3223"],"store_name":"","price":["6"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3179","product_name":"Spring Onion","category_name":"Vegetables","atribute_name":["Spring Onion"],"attribute_id":["3224"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3180","product_name":"Star Fruit","category_name":"Fruits","atribute_name":["Star Fruit"],"attribute_id":["3225"],"store_name":"","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3181","product_name":"Strawberries","category_name":"Fruits","atribute_name":["Strawberries"],"attribute_id":["3226"],"store_name":"","price":["21"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3182","product_name":"Sweet Potatoes","category_name":"Vegetables","atribute_name":["Sweet Potatoes"],"attribute_id":["3227"],"store_name":"","price":["10.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3183","product_name":"Tomatoes","category_name":"Vegetables","atribute_name":["Tomatoes"],"attribute_id":["3228"],"store_name":"","price":["10"],"stock":["28"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3184","product_name":"Watermelon","category_name":"Fruits","atribute_name":["Watermelon"],"attribute_id":["3229"],"store_name":"","price":["11"],"stock":["29"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3185","product_name":"White Onions","category_name":"Vegetables","atribute_name":["White Onions"],"attribute_id":["3230"],"store_name":"","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3186","product_name":"Zucchini","category_name":"Vegetables","atribute_name":["Zucchini"],"attribute_id":["3231"],"store_name":"","price":["6"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3654","product_name":"Original Steak Sauce","category_name":"Sauces & Dressings","atribute_name":["Original Steak Sauce"],"attribute_id":["3662"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3655","product_name":"Vinegar","category_name":"Sauces & Dressings","atribute_name":["Vinegar"],"attribute_id":["3663"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3656","product_name":"All Fruit Seedless Raspberry - Jam","category_name":"Jams&Honey","atribute_name":["All Fruit Seedless Raspberry - Jam"],"attribute_id":["3664"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3657","product_name":"All Fruit Strawberry - Jam","category_name":"Jams&Honey","atribute_name":["All Fruit Strawberry - Jam"],"attribute_id":["3665"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3658","product_name":"Almond Roasted No Sugars - Drink","category_name":"Health Drink","atribute_name":["Almond Roasted No Sugars - Drink"],"attribute_id":["3666"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3659","product_name":"Organic Almond Unsweetened - Drink","category_name":"Health Drink","atribute_name":["Organic Almond Unsweetened - Drink"],"attribute_id":["3667"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3660","product_name":"Soya Light - Drink","category_name":"Health Drink","atribute_name":["Soya Light - Drink"],"attribute_id":["3668"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3661","product_name":"Soya No Sugar - Drink","category_name":"Health Drink","atribute_name":["Soya No Sugar - Drink"],"attribute_id":["3669"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3662","product_name":"Green Tea","category_name":"Fruit Juices & Drinks","atribute_name":["Green Tea"],"attribute_id":["3670"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3663","product_name":"Fruit Punch","category_name":"Fruit Juices & Drinks","atribute_name":["Fruit Punch"],"attribute_id":["3671"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3664","product_name":"Farfalle - Pasta","category_name":"Noodles & Pasta","atribute_name":["Farfalle - Pasta"],"attribute_id":["3672"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3665","product_name":"Fusilli - Pasta","category_name":"Noodles & Pasta","atribute_name":["Fusilli - Pasta"],"attribute_id":["3673"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3666","product_name":"Tricolor Fusillini - Pasta","category_name":"Noodles & Pasta","atribute_name":["Tricolor Fusillini - Pasta"],"attribute_id":["3674"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3667","product_name":"Pennette Lisce - Pasta","category_name":"Noodles & Pasta","atribute_name":["Pennette Lisce - Pasta"],"attribute_id":["3675"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3668","product_name":"Kosher Whole Dill Pickles","category_name":"Pickles","atribute_name":["Kosher Whole Dill Pickles"],"attribute_id":["3676"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3669","product_name":"Bay Leaves Whole","category_name":"Masala & Spices","atribute_name":["Bay Leaves Whole"],"attribute_id":["3677"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3670","product_name":"Adobo with Complete Seasoning","category_name":"Masala & Spices","atribute_name":["Adobo with Complete Seasoning"],"attribute_id":["3678"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3671","product_name":"Adobo Seasoning","category_name":"Masala & Spices","atribute_name":["Adobo Seasoning"],"attribute_id":["3679"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3672","product_name":"Barbecue Traditional Blend Seasoning","category_name":"Masala & Spices","atribute_name":["Barbecue Traditional Blend Seasoning"],"attribute_id":["3680"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3673","product_name":"Basil Albahaca","category_name":"Masala & Spices","atribute_name":["Basil Albahaca"],"attribute_id":["3681"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3674","product_name":"Bay Leaves Whole","category_name":"Masala & Spices","atribute_name":["Bay Leaves Whole"],"attribute_id":["3682"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3675","product_name":"Chamomile Tea Bags","category_name":"Tea","atribute_name":["Chamomile Tea Bags"],"attribute_id":["3683"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3676","product_name":"Chili & Lime Seasoning","category_name":"Masala & Spices","atribute_name":["Chili & Lime Seasoning"],"attribute_id":["3684"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3677","product_name":"Chili Sauce With Garlic - Sriracha Hot Sauce","category_name":"Spreads, Sauces, ketchup","atribute_name":["Chili Sauce With Garlic - Sriracha Hot Sauce"],"attribute_id":["3685"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3678","product_name":"Cinnamon Powder","category_name":"Masala & Spices","atribute_name":["Cinnamon Powder"],"attribute_id":["3686"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3679","product_name":"Coconut Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Coconut Milk"],"attribute_id":["3687"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3680","product_name":"Complete Seasoning","category_name":"Masala & Spices","atribute_name":["Complete Seasoning"],"attribute_id":["3688"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3681","product_name":"Complete Seasoning","category_name":"Masala & Spices","atribute_name":["Complete Seasoning"],"attribute_id":["3689"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3682","product_name":"Cranberry Granules","category_name":"Sauces & Dressings","atribute_name":["Cranberry Granules"],"attribute_id":["3690"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3683","product_name":"Cream of Tartar","category_name":"VEG, MEAT & DAIRY","atribute_name":["Cream of Tartar"],"attribute_id":["3691"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3684","product_name":"Curry Powder","category_name":"Masala & Spices","atribute_name":["Curry Powder"],"attribute_id":["3692"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3685","product_name":"Curry Powder","category_name":"Masala & Spices","atribute_name":["Curry Powder"],"attribute_id":["3693"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3686","product_name":"Olive Oil Extra Virgin","category_name":"Cooking Oil","atribute_name":["Olive Oil Extra Virgin"],"attribute_id":["3694"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3687","product_name":"Fennel Seed - Hinojo","category_name":"Masala & Spices","atribute_name":["Fennel Seed - Hinojo"],"attribute_id":["3695"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3688","product_name":"Fried Rice Seasoning","category_name":"Masala & Spices","atribute_name":["Fried Rice Seasoning"],"attribute_id":["3696"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3689","product_name":"Garlic & Parsley","category_name":"Masala & Spices","atribute_name":["Garlic & Parsley"],"attribute_id":["3697"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3690","product_name":"Garlic Powder","category_name":"Masala & Spices","atribute_name":["Garlic Powder"],"attribute_id":["3698"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3691","product_name":"Green Tea Bags","category_name":"Tea","atribute_name":["Green Tea Bags"],"attribute_id":["3699"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3692","product_name":"Black Pepper - Ground","category_name":"Masala & Spices","atribute_name":["Black Pepper - Ground"],"attribute_id":["3700"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3693","product_name":"Ginger - Ground","category_name":"Masala & Spices","atribute_name":["Ginger - Ground"],"attribute_id":["3701"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3694","product_name":"Nutmeg - Ground","category_name":"Masala & Spices","atribute_name":["Nutmeg - Ground"],"attribute_id":["3702"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3695","product_name":"Turmeric - Ground","category_name":"Masala & Spices","atribute_name":["Turmeric - Ground"],"attribute_id":["3703"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3696","product_name":"Pepper White - Ground","category_name":"Masala & Spices","atribute_name":["Pepper White - Ground"],"attribute_id":["3704"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3697","product_name":"Jollof Rice Seasoning","category_name":"Masala & Spices","atribute_name":["Jollof Rice Seasoning"],"attribute_id":["3705"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3698","product_name":"Nutmeg Whole","category_name":"Masala & Spices","atribute_name":["Nutmeg Whole"],"attribute_id":["3706"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3699","product_name":"Pimenton\/Paprika -Ground","category_name":"Masala & Spices","atribute_name":["Pimenton\/Paprika -Ground"],"attribute_id":["3707"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3700","product_name":"Pimenton\/Paprika -Ground","category_name":"Masala & Spices","atribute_name":["Pimenton\/Paprika -Ground"],"attribute_id":["3708"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3701","product_name":"Pink Himalayan Salt Grinder","category_name":"Salt","atribute_name":["Pink Himalayan Salt Grinder"],"attribute_id":["3709"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3702","product_name":"Molokai Coconut - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Molokai Coconut - Antioxidant Cocofusion"],"attribute_id":["3710"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3703","product_name":"Andes Coconut Lime - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Andes Coconut Lime - Antioxidant Cocofusion"],"attribute_id":["3711"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3704","product_name":"Madagascar Coconut Mango - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Madagascar Coconut Mango - Antioxidant Cocofusion"],"attribute_id":["3712"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3705","product_name":"Puna Coconut Pineapple - Antioxidant Cocofusion","category_name":"Fruit Juices & Drinks","atribute_name":["Puna Coconut Pineapple - Antioxidant Cocofusion"],"attribute_id":["3713"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3706","product_name":"Brasilia Blueberry - Antioxidant Infusion","category_name":"Fruit Juices & Drinks","atribute_name":["Brasilia Blueberry - Antioxidant Infusion"],"attribute_id":["3714"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3707","product_name":"Zambia Bing Cherry - Antioxidant Infusion","category_name":"Fruit Juices & Drinks","atribute_name":["Zambia Bing Cherry - Antioxidant Infusion"],"attribute_id":["3715"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3708","product_name":"Kula Watermelon - Antioxidant Infusion","category_name":"Fruit Juices & Drinks","atribute_name":["Kula Watermelon - Antioxidant Infusion"],"attribute_id":["3716"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3709","product_name":"Button Mushrooms in Water","category_name":"Canned Food","atribute_name":["Button Mushrooms in Water"],"attribute_id":["3717"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:52
+{"product_id":"3710","product_name":"Sliced Mushrooms in Water","category_name":"Canned Food","atribute_name":["Sliced Mushrooms in Water"],"attribute_id":["3718"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3711","product_name":"Active Vitamin Water Bottle - Lemon Flavoured","category_name":"Mineral Water","atribute_name":["Active Vitamin Water Bottle - Lemon Flavoured"],"attribute_id":["3719"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3712","product_name":"Bottled Mineral Water","category_name":"Mineral Water","atribute_name":["Bottled Mineral Water"],"attribute_id":["3720"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3713","product_name":"Bottled Mineral Water","category_name":"Mineral Water","atribute_name":["Bottled Mineral Water"],"attribute_id":["3721"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3714","product_name":"Table Salt","category_name":"Salt","atribute_name":["Table Salt"],"attribute_id":["3722"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3715","product_name":"Garden Peas in Water","category_name":"Canned Food","atribute_name":["Garden Peas in Water"],"attribute_id":["3723"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3716","product_name":"Parsley Sauce Mix","category_name":"Sauces & Dressings","atribute_name":["Parsley Sauce Mix"],"attribute_id":["3724"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3717","product_name":"Cheese Sauce Mix","category_name":"Sauces & Dressings","atribute_name":["Cheese Sauce Mix"],"attribute_id":["3725"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3718","product_name":"Chicken Gravy Granules","category_name":"Canned Food","atribute_name":["Chicken Gravy Granules"],"attribute_id":["3726"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3719","product_name":"Gravy Granules","category_name":"Canned Food","atribute_name":["Gravy Granules"],"attribute_id":["3727"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3720","product_name":"Coconut Water, Mango & Passion Fruit Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Coconut Water, Mango & Passion Fruit Juice"],"attribute_id":["3728"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3721","product_name":"Mango, Orange & Banana Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Mango, Orange & Banana Juice"],"attribute_id":["3729"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3722","product_name":"Pineapple & Ginger Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Pineapple & Ginger Juice"],"attribute_id":["3730"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3723","product_name":"Pineapple Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Pineapple Juice"],"attribute_id":["3731"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3724","product_name":"Pineapple, Mango and Passion Fruit","category_name":"Fruit Juices & Drinks","atribute_name":["Pineapple, Mango and Passion Fruit"],"attribute_id":["3732"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3725","product_name":"Organic Whole Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Organic Whole Biscuits"],"attribute_id":["3733"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3726","product_name":"Biscuit Topped with Milk Chocolate","category_name":"Biscuits & Cookies","atribute_name":["Biscuit Topped with Milk Chocolate"],"attribute_id":["3734"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3727","product_name":"Organic Chocolate Sticks","category_name":"Biscuits & Cookies","atribute_name":["Organic Chocolate Sticks"],"attribute_id":["3735"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3728","product_name":"Organic Cranberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Cranberry Juice"],"attribute_id":["3736"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3729","product_name":"Organic Oats Drink","category_name":"Health Drink","atribute_name":["Organic Oats Drink"],"attribute_id":["3737"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3730","product_name":"Organic Mayonnaise","category_name":"Sauces & Dressings","atribute_name":["Organic Mayonnaise"],"attribute_id":["3738"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3731","product_name":"Multifruit Fruit Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Multifruit Fruit Juice"],"attribute_id":["3739"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3732","product_name":"Organic Whole Wheat Toast - Pain Grille","category_name":"Biscuits & Cookies","atribute_name":["Organic Whole Wheat Toast - Pain Grille"],"attribute_id":["3740"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3733","product_name":"Organic Rice Drink","category_name":"Health Drink","atribute_name":["Organic Rice Drink"],"attribute_id":["3741"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3734","product_name":"Organic Oat Bran","category_name":"Oats & Pasta","atribute_name":["Organic Oat Bran"],"attribute_id":["3742"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3735","product_name":"Spaghetti","category_name":"Noodles & Pasta","atribute_name":["Spaghetti"],"attribute_id":["3743"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3736","product_name":"Organic Green Tea Sencha","category_name":"Tea","atribute_name":["Organic Green Tea Sencha"],"attribute_id":["3744"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3737","product_name":"Organic Tomato Puree","category_name":"Spreads, Sauces, ketchup","atribute_name":["Organic Tomato Puree"],"attribute_id":["3745"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3738","product_name":"Fine Grain Couscous","category_name":"Flours & Grains","atribute_name":["Fine Grain Couscous"],"attribute_id":["3746"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3739","product_name":"Red Kidney Beans","category_name":"Flours & Grains","atribute_name":["Red Kidney Beans"],"attribute_id":["3747"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3740","product_name":"Dehydrated Basil","category_name":"Masala & Spices","atribute_name":["Dehydrated Basil"],"attribute_id":["3748"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3741","product_name":"Dehydrated Thyme","category_name":"Masala & Spices","atribute_name":["Dehydrated Thyme"],"attribute_id":["3749"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3742","product_name":"Dijon Mustard Mayonnaise","category_name":"Spreads, Sauces, ketchup","atribute_name":["Dijon Mustard Mayonnaise"],"attribute_id":["3750"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3743","product_name":"Anchovy Stuffing Olives","category_name":"Masala & Spices","atribute_name":["Anchovy Stuffing Olives"],"attribute_id":["3751"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3744","product_name":"Pitted Green Olives","category_name":"Masala & Spices","atribute_name":["Pitted Green Olives"],"attribute_id":["3752"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3745","product_name":"Sardines In Extra Virgin Olive Oil","category_name":"Canned Food","atribute_name":["Sardines In Extra Virgin Olive Oil"],"attribute_id":["3753"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3746","product_name":"Sardines In Sunflower Oil","category_name":"Canned Food","atribute_name":["Sardines In Sunflower Oil"],"attribute_id":["3754"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3747","product_name":"Burgundy Sauce","category_name":"Sauces & Dressings","atribute_name":["Burgundy Sauce"],"attribute_id":["3755"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3748","product_name":"Pepper Sauce","category_name":"Sauces & Dressings","atribute_name":["Pepper Sauce"],"attribute_id":["3756"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3749","product_name":"Tartar Sauce","category_name":"Sauces & Dressings","atribute_name":["Tartar Sauce"],"attribute_id":["3757"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3750","product_name":"Dark Chocolate Cereals","category_name":"Oats & Pasta","atribute_name":["Dark Chocolate Cereals"],"attribute_id":["3758"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3751","product_name":"Pure Natural Honey","category_name":"Jams&Honey","atribute_name":["Pure Natural Honey"],"attribute_id":["3759"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3752","product_name":"Pure Natural Honey","category_name":"Jams&Honey","atribute_name":["Pure Natural Honey"],"attribute_id":["3760"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3753","product_name":"Pure Natural Honey","category_name":"Jams&Honey","atribute_name":["Pure Natural Honey"],"attribute_id":["3761"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3754","product_name":"Akuafo Lemon Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Akuafo Lemon Chocolate"],"attribute_id":["3762"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3755","product_name":"Kingsbite Milk Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Kingsbite Milk Chocolate"],"attribute_id":["3763"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3756","product_name":"Kingsbite Milk Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Kingsbite Milk Chocolate"],"attribute_id":["3764"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3757","product_name":"Oranco Milk Chocolate - Orange Flavoured","category_name":"Chocolates & Snacks","atribute_name":["Oranco Milk Chocolate - Orange Flavoured"],"attribute_id":["3765"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3758","product_name":"Tetteh Quarshie (Tq) Chocolate","category_name":"Chocolates & Snacks","atribute_name":["Tetteh Quarshie (Tq) Chocolate"],"attribute_id":["3766"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3759","product_name":"Baked Beanz","category_name":"Canned Food","atribute_name":["Baked Beanz"],"attribute_id":["3767"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3760","product_name":"Real Classic Mayonnaise","category_name":"Spreads, Sauces, ketchup","atribute_name":["Real Classic Mayonnaise"],"attribute_id":["3768"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3761","product_name":"Corned Beef","category_name":"Canned Food","atribute_name":["Corned Beef"],"attribute_id":["3769"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3762","product_name":"Tomato Ketchup","category_name":"Spreads, Sauces, ketchup","atribute_name":["Tomato Ketchup"],"attribute_id":["3770"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3763","product_name":"Ploughmans Pickle","category_name":"Pickles","atribute_name":["Ploughmans Pickle"],"attribute_id":["3771"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3764","product_name":"Salad Cream","category_name":"Sauces & Dressings","atribute_name":["Salad Cream"],"attribute_id":["3772"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3765","product_name":"Sweet Relish","category_name":"Masala & Spices","atribute_name":["Sweet Relish"],"attribute_id":["3773"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3766","product_name":"Tomato Ketchup","category_name":"Spreads, Sauces, ketchup","atribute_name":["Tomato Ketchup"],"attribute_id":["3774"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3767","product_name":"Tomato Ketchup","category_name":"Spreads, Sauces, ketchup","atribute_name":["Tomato Ketchup"],"attribute_id":["3775"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3768","product_name":"Distilled White Vinegar","category_name":"Sauces & Dressings","atribute_name":["Distilled White Vinegar"],"attribute_id":["3776"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3769","product_name":"Vinegar Malt","category_name":"Sauces & Dressings","atribute_name":["Vinegar Malt"],"attribute_id":["3777"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3770","product_name":"Yellow Mustard - 100% Natural","category_name":"Masala & Spices","atribute_name":["Yellow Mustard - 100% Natural"],"attribute_id":["3778"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3771","product_name":"Cheddar Cheese Chips","category_name":"Chocolates & Snacks","atribute_name":["Cheddar Cheese Chips"],"attribute_id":["3779"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3772","product_name":"Hot & Spicy Chips","category_name":"Chocolates & Snacks","atribute_name":["Hot & Spicy Chips"],"attribute_id":["3780"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3773","product_name":"Original Chips","category_name":"Chocolates & Snacks","atribute_name":["Original Chips"],"attribute_id":["3781"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3774","product_name":"Prawn Cocktail Flavour Chips","category_name":"Chocolates & Snacks","atribute_name":["Prawn Cocktail Flavour Chips"],"attribute_id":["3782"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3775","product_name":"Salt & Vinegar Chips","category_name":"Chocolates & Snacks","atribute_name":["Salt & Vinegar Chips"],"attribute_id":["3783"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:53
+{"product_id":"3776","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3784"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3777","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3785"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3778","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3786"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3779","product_name":"Sour Cream & Onion Chips","category_name":"Chocolates & Snacks","atribute_name":["Sour Cream & Onion Chips"],"attribute_id":["3787"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3780","product_name":"Texas BBQ Sauce Chips","category_name":"Chocolates & Snacks","atribute_name":["Texas BBQ Sauce Chips"],"attribute_id":["3788"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3781","product_name":"Original Chips","category_name":"Chocolates & Snacks","atribute_name":["Original Chips"],"attribute_id":["3789"],"store_name":"Farmers Haus","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"fail","msg":"price not numeric"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3782","product_name":"Salted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Salted Butter"],"attribute_id":["3790"],"store_name":"Farmers Haus","price":["18"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3783","product_name":"Unsalted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Unsalted Butter"],"attribute_id":["3791"],"store_name":"Farmers Haus","price":["18"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3784","product_name":"Organic Mixed Vegetables","category_name":"Vegetables","atribute_name":["Organic Mixed Vegetables"],"attribute_id":["3792"],"store_name":"Farmers Haus","price":["25"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3785","product_name":"Skimmed Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Skimmed Milk"],"attribute_id":["3793"],"store_name":"Farmers Haus","price":["12.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3786","product_name":"Salted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Salted Butter"],"attribute_id":["3794"],"store_name":"Farmers Haus","price":["20"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3787","product_name":"Unsalted Butter","category_name":"VEG, MEAT & DAIRY","atribute_name":["Unsalted Butter"],"attribute_id":["3795"],"store_name":"Farmers Haus","price":["20"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3788","product_name":"Full Cream Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Full Cream Milk"],"attribute_id":["3796"],"store_name":"Farmers Haus","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3789","product_name":"Semi Skimmed Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Semi Skimmed Milk"],"attribute_id":["3797"],"store_name":"Farmers Haus","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3790","product_name":"Skimmed Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Skimmed Milk"],"attribute_id":["3798"],"store_name":"Farmers Haus","price":["16"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3791","product_name":"Organic Pasta","category_name":"Oats & Pasta","atribute_name":["Organic Pasta"],"attribute_id":["3799"],"store_name":"Farmers Haus","price":["11.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3792","product_name":"Zero Sugar Thirst Quencher - Glacier Freeze","category_name":"Fruit Juices & Drinks","atribute_name":["Zero Sugar Thirst Quencher - Glacier Freeze"],"attribute_id":["3800"],"store_name":"Farmers Haus","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3793","product_name":"Thirst Quencher - Fierce Blue Cherry","category_name":"Fruit Juices & Drinks","atribute_name":["Thirst Quencher - Fierce Blue Cherry"],"attribute_id":["3801"],"store_name":"Farmers Haus","price":["8"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3794","product_name":"Thirst Quencher - Fierce Grape","category_name":"Fruit Juices & Drinks","atribute_name":["Thirst Quencher - Fierce Grape"],"attribute_id":["3802"],"store_name":"Farmers Haus","price":["8"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3795","product_name":"Thirst Quencher - Fierce Green Apple","category_name":"Fruit Juices & Drinks","atribute_name":["Thirst Quencher - Fierce Green Apple"],"attribute_id":["3803"],"store_name":"Farmers Haus","price":["8"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3796","product_name":"Chick Peas","category_name":"Canned Food","atribute_name":["Chick Peas"],"attribute_id":["3804"],"store_name":"Farmers Haus","price":["15"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3797","product_name":"Green Pigeon Peas","category_name":"Canned Food","atribute_name":["Green Pigeon Peas"],"attribute_id":["3805"],"store_name":"Farmers Haus","price":["12"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3798","product_name":"Horlicks Original","category_name":"Health Drink","atribute_name":["Horlicks Original"],"attribute_id":["3806"],"store_name":"Farmers Haus","price":["20"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3799","product_name":"Horlicks Original","category_name":"Health Drink","atribute_name":["Horlicks Original"],"attribute_id":["3807"],"store_name":"Farmers Haus","price":["45"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3800","product_name":"Canola Oil","category_name":"Cooking Oil","atribute_name":["Canola Oil"],"attribute_id":["3808"],"store_name":"Farmers Haus","price":["45"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3801","product_name":"Premium Chunk Chicken Breast","category_name":"Canned Food","atribute_name":["Premium Chunk Chicken Breast"],"attribute_id":["3809"],"store_name":"Farmers Haus","price":["24"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3802","product_name":"Organic Almond Beverage, Vanilla","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Almond Beverage, Vanilla"],"attribute_id":["3810"],"store_name":"Farmers Haus","price":["19.99"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3803","product_name":"Organic Chicken Stock","category_name":"Canned Food","atribute_name":["Organic Chicken Stock"],"attribute_id":["3811"],"store_name":"Farmers Haus","price":["22"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3804","product_name":"Organic Reduced Fat Chocolate Milk","category_name":"VEG, MEAT & DAIRY","atribute_name":["Organic Reduced Fat Chocolate Milk"],"attribute_id":["3812"],"store_name":"Farmers Haus","price":["7.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3805","product_name":"Organic Lemonade","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Lemonade"],"attribute_id":["3813"],"store_name":"Farmers Haus","price":["48"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3806","product_name":"Organic Pure Maple Syrup","category_name":"Sauces & Dressings","atribute_name":["Organic Pure Maple Syrup"],"attribute_id":["3814"],"store_name":"Farmers Haus","price":["140"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3807","product_name":"Organic Raw Honey","category_name":"Jams&Honey","atribute_name":["Organic Raw Honey"],"attribute_id":["3815"],"store_name":"Farmers Haus","price":["50"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3808","product_name":"Organic Soy Beverage, Vanilla","category_name":"Fruit Juices & Drinks","atribute_name":["Organic Soy Beverage, Vanilla"],"attribute_id":["3816"],"store_name":"Farmers Haus","price":["16.9"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3809","product_name":"Almond Non-Dairy Beverage - Unsweetened","category_name":"Fruit Juices & Drinks","atribute_name":["Almond Non-Dairy Beverage - Unsweetened"],"attribute_id":["3817"],"store_name":"Farmers Haus","price":["20"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3810","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3818"],"store_name":"Farmers Haus","price":["25"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3811","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3819"],"store_name":"Farmers Haus","price":["45"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3812","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3820"],"store_name":"Farmers Haus","price":["15"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3813","product_name":"Coconut Oil","category_name":"Cooking Oil","atribute_name":["Coconut Oil"],"attribute_id":["3821"],"store_name":"Farmers Haus","price":["85"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3814","product_name":"Rich Tea Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Rich Tea Biscuits"],"attribute_id":["3822"],"store_name":"Farmers Haus","price":["13"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3815","product_name":"Digestive Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Digestive Biscuits"],"attribute_id":["3823"],"store_name":"Farmers Haus","price":["11.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3816","product_name":"Ginger Nuts Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Ginger Nuts Biscuits"],"attribute_id":["3824"],"store_name":"Farmers Haus","price":["8.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3817","product_name":"Rich Tea Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Rich Tea Biscuits"],"attribute_id":["3825"],"store_name":"Farmers Haus","price":["7.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3818","product_name":"Chunk Chicken Breast","category_name":"Canned Food","atribute_name":["Chunk Chicken Breast"],"attribute_id":["3826"],"store_name":"Farmers Haus","price":["21.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3819","product_name":"Cut Green Beans","category_name":"Canned Food","atribute_name":["Cut Green Beans"],"attribute_id":["3827"],"store_name":"Farmers Haus","price":["8.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3820","product_name":"Diced Tomatoes in Tomato Juice","category_name":"Canned Food","atribute_name":["Diced Tomatoes in Tomato Juice"],"attribute_id":["3828"],"store_name":"Farmers Haus","price":["9"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3821","product_name":"Honey Almond Granola","category_name":"Oats & Pasta","atribute_name":["Honey Almond Granola"],"attribute_id":["3829"],"store_name":"Farmers Haus","price":["48"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3822","product_name":"Olive Oil Cooking Spray","category_name":"Cooking Oil","atribute_name":["Olive Oil Cooking Spray"],"attribute_id":["3830"],"store_name":"Farmers Haus","price":["26.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3823","product_name":"Tomato Paste","category_name":"Canned Food","atribute_name":["Tomato Paste"],"attribute_id":["3831"],"store_name":"Farmers Haus","price":["5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3824","product_name":"Oats & Honey Crunchy Granola Bars","category_name":"Chocolates & Snacks","atribute_name":["Oats & Honey Crunchy Granola Bars"],"attribute_id":["3832"],"store_name":"Farmers Haus","price":["2.99"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3825","product_name":"Trail Mix Fruit & Nut Bars","category_name":"Chocolates & Snacks","atribute_name":["Trail Mix Fruit & Nut Bars"],"attribute_id":["3833"],"store_name":"Farmers Haus","price":["3.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3826","product_name":"Crunchy Granola Bars, Oats & Honey","category_name":"Chocolates & Snacks","atribute_name":["Crunchy Granola Bars, Oats & Honey"],"attribute_id":["3834"],"store_name":"Farmers Haus","price":["60"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3827","product_name":"Peanut Butter Biscuits","category_name":"Biscuits & Cookies","atribute_name":["Peanut Butter Biscuits"],"attribute_id":["3835"],"store_name":"Farmers Haus","price":["6"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3828","product_name":"Peanut Butter Wafer Bars","category_name":"Biscuits & Cookies","atribute_name":["Peanut Butter Wafer Bars"],"attribute_id":["3836"],"store_name":"Farmers Haus","price":["6.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3829","product_name":"Cassava Fish","category_name":"FISH PRODUCT","atribute_name":["Cassava Fish"],"attribute_id":["3837"],"store_name":"Farmers Haus","price":["60"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3830","product_name":"Grouper Fish","category_name":"FISH PRODUCT","atribute_name":["Grouper Fish"],"attribute_id":["3838"],"store_name":"Farmers Haus","price":["65"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3831","product_name":"Lobster","category_name":"SEA FOOD","atribute_name":["Lobster"],"attribute_id":["3839"],"store_name":"Farmers Haus","price":["104"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3832","product_name":"Ocean Mix","category_name":"SEA FOOD","atribute_name":["Ocean Mix"],"attribute_id":["3840"],"store_name":"Farmers Haus","price":["60"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3833","product_name":"Octopus","category_name":"SEA FOOD","atribute_name":["Octopus"],"attribute_id":["3841"],"store_name":"Farmers Haus","price":["28.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3834","product_name":"Prawns","category_name":"SEA FOOD","atribute_name":["Prawns"],"attribute_id":["3842"],"store_name":"Farmers Haus","price":["65"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3835","product_name":"Squid","category_name":"SEA FOOD","atribute_name":["Squid"],"attribute_id":["3843"],"store_name":"Farmers Haus","price":["42"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3836","product_name":"Spiced Tilapia","category_name":"SEA FOOD","atribute_name":["Spiced Tilapia"],"attribute_id":["3844"],"store_name":"Farmers Haus","price":["35"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3837","product_name":"Cran Grape - Grape Cranberry Juice Drink","category_name":"Fruit Juices & Drinks","atribute_name":["Cran Grape - Grape Cranberry Juice Drink"],"attribute_id":["3845"],"store_name":"Farmers Haus","price":["45"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:54
+{"product_id":"3838","product_name":"Cranberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Juice"],"attribute_id":["3846"],"store_name":"Farmers Haus","price":["45"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:55
+{"product_id":"3839","product_name":"Cranberry Classic Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Classic Juice"],"attribute_id":["3847"],"store_name":"Farmers Haus","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:55
+{"product_id":"3840","product_name":"Cranberry Pomegranate Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Pomegranate Juice"],"attribute_id":["3848"],"store_name":"Farmers Haus","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:55
+{"product_id":"3841","product_name":"Cranberry Raspberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Raspberry Juice"],"attribute_id":["3849"],"store_name":"Farmers Haus","price":["11"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-19 06:47:55
+{"product_id":"3842","product_name":"Cranberry Juice","category_name":"Fruit Juices & Drinks","atribute_name":["Cranberry Juice"],"attribute_id":["3850"],"store_name":"Farmers Haus","price":["8.5"],"stock":["30"],"method":"addInventryByCsv","merchant_id":7}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

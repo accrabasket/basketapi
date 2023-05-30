@@ -1,0 +1,9 @@
+
+ Request - 2021-01-28 07:10:33
+{"method":"getaddresslist","user_id":"1808"}
+ Response :- 
+{"status":"success","data":{"373":{"id":373,"user_id":1808,"address_nickname":"Frafraha","contact_name":"Sam","city_id":1,"city_name":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana","house_number":"Adenta","street_detail":"Close to the ICGC church ","landmark":"ICGC church ","zipcode":"5238","area":"","lat":"5.7217982","lng":"","created_date":"2021-01-27 09:08:33","updated_date":"2021-01-27 09:08:33"}}}
+ Request - 2021-01-28 07:13:07
+{"method":"getaddresslist","user_id":"1808"}
+ Response :- 
+{"status":"success","data":{"373":{"id":373,"user_id":1808,"address_nickname":"Frafraha","contact_name":"Sam","city_id":1,"city_name":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana","house_number":"Adenta","street_detail":"Close to the ICGC church ","landmark":"ICGC church ","zipcode":"5238","area":"","lat":"5.7217982","lng":"","created_date":"2021-01-27 09:08:33","updated_date":"2021-01-27 09:08:33"}}}

@@ -1,0 +1,9 @@
+
+ Request - 2023-03-09 09:22:04
+{"method":"getitemintocart","guest_user_id":"dd19e7d446ce4594"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-03-09 09:23:31
+{"method":"getitemintocart","guest_user_id":"dd19e7d446ce4594"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":23324,"user_id":0,"guest_user_id":"dd19e7d446ce4594","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":1,"created_date":"2023-03-09 09:23:31"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,25 @@
+
+ Request - 2021-08-11 09:33:28
+{"method":"getitemintocart","guest_user_id":"e138414b741edcb1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-11 09:33:44
+{"method":"getitemintocart","guest_user_id":"e138414b741edcb1"}
+ Response :- 
+{"status":"success","data":{"3406":{"id":16602,"user_id":0,"guest_user_id":"e138414b741edcb1","merchant_inventry_id":3406,"item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)","number_of_item":1,"created_date":"2021-08-11 09:33:44"}},"productDetails":{"status":"success","data":{"3406":{"id":3406,"price":"19.00","product_id":3857,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Pure Game Relaxing 3in1 Shower Gel","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Adidas","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":250,"tax_value":null}},"productImageData":{"3857":[{"id":4937,"type":"product","image_id":3857,"image_name":"OSU0547.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-11 09:35:04
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-08-11 09:35:45
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-08-11 16:00:16
+{"method":"getitemintocart","guest_user_id":"6fd839bf3e045ade"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-11 21:00:01
+{"method":"getitemintocart","guest_user_id":"e4c090ffd4669ecc"}
+ Response :- 
+{"status":"success","data":{"753":{"id":16565,"user_id":0,"guest_user_id":"e4c090ffd4669ecc","merchant_inventry_id":753,"item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))","number_of_item":1,"created_date":"2021-08-04 20:23:41"},"252":{"id":16566,"user_id":0,"guest_user_id":"e4c090ffd4669ecc","merchant_inventry_id":252,"item_name":"Ghee(Ghee)","number_of_item":2,"created_date":"2021-08-04 22:25:52"}},"productDetails":{"status":"success","data":{"252":{"id":252,"price":"99.50","product_id":407,"merchant_id":3,"store_id":2,"merchant_product_code":"8901262030","product_name":"Ghee","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":48,"custom_info":"{\"Ingredients\":\"Milk Fat Min 99.7%, Moisture Max 0.3%\"}","brand_name":"Amul","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"},"753":{"id":753,"price":"5.99","product_id":1037,"merchant_id":4,"store_id":4,"merchant_product_code":"N766   ","product_name":"Choco Milo (50 Cubes)","product_desc":"Nestle Choco Milo is your best choice in chocolate cubes sweet as this sweet is 100% chocolate cubes. It is a long time favorite among kids and adults alike.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Storage Instructions\":\"Store in a cool dry place.\"}","brand_name":"Nestle","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":137.5,"tax_value":"3"}},"productImageData":{"407":[{"id":327,"type":"product","image_id":407,"image_name":"8901262030151.jpg"}],"1037":[{"id":956,"type":"product","image_id":1037,"image_name":"1037_1545143489.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

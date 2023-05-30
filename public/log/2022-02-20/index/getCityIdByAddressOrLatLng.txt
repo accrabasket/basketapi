@@ -1,0 +1,25 @@
+
+ Request - 2022-02-20 00:58:32
+{"method":"getCityIdByAddressOrLatLng","address":"Hutan Kota, Jl. H. Kelik, RT.8\/RW.6, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11630, Indonesia","lat":"-6.2111952","lng":"106.7644838"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hutan Kota, Jl. H. Kelik, RT.8\/RW.6, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11630, Indonesia"}}
+ Request - 2022-02-20 11:43:05
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Dschang, Cameroun","lat":"5.4423156","lng":"10.060968"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C3R6+W9 Dschang, Cameroon"}}
+ Request - 2022-02-20 12:48:45
+{"method":"getCityIdByAddressOrLatLng","address":"Awka South, Anambra, Nigeria","lat":"6.220968","lng":"7.082743"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Awka unizik junction, 420110, Awka, Nigeria"}}
+ Request - 2022-02-20 13:55:21
+{"method":"getCityIdByAddressOrLatLng","address":"Umunze, Nigeria","lat":"5.9621548","lng":"7.238317800000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X66Q+R97, 423103, Umunze, Nigeria"}}
+ Request - 2022-02-20 14:53:41
+{"method":"getCityIdByAddressOrLatLng","address":"Nigeria","lat":"9.081999","lng":"8.675277"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Noma Street Gra Edo G.R.A, 960135, Nigeria"}}
+ Request - 2022-02-20 15:06:10
+{"method":"getCityIdByAddressOrLatLng","address":"1085 Christchurch Rd, Bournemouth BH7 6BQ, UK","lat":"50.7339079","lng":"-1.8173577"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1085 Christchurch Rd, Bournemouth BH7 6BQ, UK"}}

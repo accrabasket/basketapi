@@ -1,0 +1,13 @@
+
+ Request - 2021-02-27 07:01:53
+{"method":"addtocart","guest_user_id":"911b4d7fa2fae13e","number_of_item":"1","merchant_inventry_id":"337","action":"add","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-27 07:01:56
+{"method":"addtocart","guest_user_id":"911b4d7fa2fae13e","number_of_item":"1","merchant_inventry_id":"348","action":"add","item_name":"Tea(Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-27 07:01:59
+{"method":"addtocart","guest_user_id":"911b4d7fa2fae13e","number_of_item":"1","merchant_inventry_id":"350","action":"add","item_name":"Tea Masala(Tea Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,37 @@
+
+ Request - 2021-12-17 04:33:33
+{"method":"getitemintocart","guest_user_id":"00e4216eec16431f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-17 10:41:23
+{"method":"getitemintocart","guest_user_id":"788740a7b9ed0c2f"}
+ Response :- 
+{"status":"success","data":{"589":{"id":17202,"user_id":0,"guest_user_id":"788740a7b9ed0c2f","merchant_inventry_id":589,"item_name":"Guava - Fruit Juice(Guava - Fruit Juice)","number_of_item":1,"created_date":"2021-09-14 14:19:46"},"588":{"id":17203,"user_id":0,"guest_user_id":"788740a7b9ed0c2f","merchant_inventry_id":588,"item_name":"Cranberry and Kiwi - Fruit Juice(Cranberry and Kiwi - Fruit Juice)","number_of_item":1,"created_date":"2021-09-14 14:19:47"}},"productDetails":{"status":"success","data":{"588":{"id":588,"price":"12.99","product_id":872,"merchant_id":4,"store_id":4,"merchant_product_code":"49017","product_name":"Cranberry and Kiwi - Fruit Juice","product_desc":"Retreat from today\u2019s busy lifestyle with pure and refreshing indulgence from Mother Nature. Ceres has enriched 8 flavours in the 100% fruit juice range with fruit cells, letting you savour the moment and experience more of nature\u2019s goodness. Presented in sleek new packaging, the range is an oasis of flavour and texture, providing simplicity and clarity with every sip.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Ingredients\":\"Pear Juice, Cranberry Juice, Kiwi Juice\",\"Shelf Life\":\"12-month shelf life\"}","brand_name":"Ceres","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"},"589":{"id":589,"price":"12.99","product_id":873,"merchant_id":4,"store_id":4,"merchant_product_code":"X954   ","product_name":"Guava - Fruit Juice","product_desc":"Retreat from today\u2019s busy lifestyle with pure and refreshing indulgence from Mother Nature. Ceres has enriched 8 flavours in the 100% fruit juice range with fruit cells, letting you savour the moment and experience more of nature\u2019s goodness. Presented in sleek new packaging, the range is an oasis of flavour and texture, providing simplicity and clarity with every sip.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Shelf Life\":\"12-month shelf life\"}","brand_name":"Ceres","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"872":[{"id":798,"type":"product","image_id":872,"image_name":"872_1545115211.jpg"}],"873":[{"id":800,"type":"product","image_id":873,"image_name":"873_1545115275.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-17 13:00:34
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-17 13:00:47
+{"method":"getitemintocart","guest_user_id":"aaffbaacce227861"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-17 13:01:18
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-17 17:59:43
+{"method":"getitemintocart","guest_user_id":"3ac6718cda0f6104"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-17 18:15:47
+{"method":"getitemintocart","guest_user_id":"51c3ad22cd7a69d2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-17 19:38:25
+{"method":"getitemintocart","guest_user_id":"53062706b6137b89"}
+ Response :- 
+{"status":"success","data":{"3452":{"id":17578,"user_id":0,"guest_user_id":"53062706b6137b89","merchant_inventry_id":3452,"item_name":"Peach Shampoo(Peach Shampoo)","number_of_item":1,"created_date":"2021-10-16 16:12:47"}},"productDetails":{"status":"success","data":{"3452":{"id":3452,"price":"10.95","product_id":3916,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Peach Shampoo","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Amalfi","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":null}},"productImageData":{"3916":[{"id":4996,"type":"product","image_id":3916,"image_name":"OSU0570.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-17 19:39:02
+{"method":"getitemintocart","guest_user_id":"53062706b6137b89"}
+ Response :- 
+{"status":"success","data":{"3452":{"id":17578,"user_id":0,"guest_user_id":"53062706b6137b89","merchant_inventry_id":3452,"item_name":"Peach Shampoo(Peach Shampoo)","number_of_item":1,"created_date":"2021-10-16 16:12:47"},"207":{"id":18870,"user_id":0,"guest_user_id":"53062706b6137b89","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-12-17 19:39:01"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"3452":{"id":3452,"price":"10.95","product_id":3916,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Peach Shampoo","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Amalfi","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":null}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3916":[{"id":4996,"type":"product","image_id":3916,"image_name":"OSU0570.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

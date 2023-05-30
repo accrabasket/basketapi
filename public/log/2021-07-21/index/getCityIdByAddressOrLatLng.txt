@@ -1,0 +1,13 @@
+
+ Request - 2021-07-21 14:12:24
+{"method":"getCityIdByAddressOrLatLng","address":"طريق، جنزور، ليبيا","lat":"32.8131485","lng":"13.0082439"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0637\u0631\u064a\u0642\u060c Janzur, Libya"}}
+ Request - 2021-07-21 19:41:22
+{"method":"getCityIdByAddressOrLatLng","address":"Frederick, MD, USA","lat":"39.41426879999999","lng":"-77.4105409"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3 E Patrick St, Frederick, MD 21701, USA"}}
+ Request - 2021-07-21 20:53:14
+{"method":"getCityIdByAddressOrLatLng","address":"a2 Odoeze Street, Uwani, Enugu, Nigeria","lat":"6.4242202","lng":"7.4978227"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"a2 Odoeze Street, Uwani, Enugu, Nigeria"}}

@@ -1,0 +1,65 @@
+
+ Request - 2022-02-20 00:40:35
+{"method":"getitemintocart","user_id":"5536"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 00:58:33
+{"method":"getitemintocart","guest_user_id":"dd94d2b783282f1c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 05:45:28
+{"method":"getitemintocart","guest_user_id":"d2ad63f7d3324716"}
+ Response :- 
+{"status":"success","data":{"207":{"id":15961,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2021-07-04 11:48:24"},"210":{"id":16018,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":210,"item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-08 14:00:03"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"210":{"id":210,"price":"4.40","product_id":370,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Baked Beans in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Water, Rehydrated Dried Beans (33%), Tomato Paste (3.5%), Sugar, Modified Maize Starch (E1422), Salt, Flavourings and Spices\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"370":[{"id":286,"type":"product","image_id":370,"image_name":"8000066447360.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-20 05:45:37
+{"method":"getitemintocart","guest_user_id":"d2ad63f7d3324716"}
+ Response :- 
+{"status":"success","data":{"207":{"id":15961,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-07-04 11:48:24"},"210":{"id":16018,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":210,"item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-08 14:00:03"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"210":{"id":210,"price":"4.40","product_id":370,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Baked Beans in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Water, Rehydrated Dried Beans (33%), Tomato Paste (3.5%), Sugar, Modified Maize Starch (E1422), Salt, Flavourings and Spices\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"370":[{"id":286,"type":"product","image_id":370,"image_name":"8000066447360.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-20 05:45:39
+{"method":"getitemintocart","guest_user_id":"d2ad63f7d3324716"}
+ Response :- 
+{"status":"success","data":{"207":{"id":15961,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2021-07-04 11:48:24"},"210":{"id":16018,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":210,"item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-08 14:00:03"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"210":{"id":210,"price":"4.40","product_id":370,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Baked Beans in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Water, Rehydrated Dried Beans (33%), Tomato Paste (3.5%), Sugar, Modified Maize Starch (E1422), Salt, Flavourings and Spices\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"370":[{"id":286,"type":"product","image_id":370,"image_name":"8000066447360.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-20 05:45:48
+{"method":"getitemintocart","guest_user_id":"d2ad63f7d3324716"}
+ Response :- 
+{"status":"success","data":{"207":{"id":15961,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":2,"created_date":"2021-07-04 11:48:24"},"210":{"id":16018,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":210,"item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)","number_of_item":1,"created_date":"2021-07-08 14:00:03"},"217":{"id":19898,"user_id":0,"guest_user_id":"d2ad63f7d3324716","merchant_inventry_id":217,"item_name":"Black Salt(Black Salt)","number_of_item":1,"created_date":"2022-02-20 05:45:48"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"210":{"id":210,"price":"4.40","product_id":370,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Baked Beans in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Water, Rehydrated Dried Beans (33%), Tomato Paste (3.5%), Sugar, Modified Maize Starch (E1422), Salt, Flavourings and Spices\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"","unit":"gm","quantity":400,"tax_value":"3"},"217":{"id":217,"price":"7.50","product_id":376,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Salt","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":58,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"370":[{"id":286,"type":"product","image_id":370,"image_name":"8000066447360.jpg"}],"376":[{"id":293,"type":"product","image_id":376,"image_name":"6033000220561.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-20 11:43:05
+{"method":"getitemintocart","guest_user_id":"6b3193b8ed716611"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 11:43:52
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-02-20 12:48:46
+{"method":"getitemintocart","guest_user_id":"d35e564118dd7618"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 13:55:22
+{"method":"getitemintocart","guest_user_id":"1b574ccc081bcf5b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 14:53:42
+{"method":"getitemintocart","guest_user_id":"5085932441a676db"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 15:06:11
+{"method":"getitemintocart","guest_user_id":"28b12e83ed7544a3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 17:31:39
+{"method":"getitemintocart","guest_user_id":"101a07ef9d052c2a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 21:36:26
+{"method":"getitemintocart","guest_user_id":"5085932441a676db"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 22:09:12
+{"method":"getitemintocart","guest_user_id":"d35e564118dd7618"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-20 22:09:42
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

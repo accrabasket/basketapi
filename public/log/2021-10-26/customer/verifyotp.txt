@@ -1,0 +1,5 @@
+
+ Request - 2021-10-26 16:30:03
+{"method":"verifyotp","country_code":"+233","mobile_number":"0249332947","otp_type":"register","otp":"4542"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"9a173a2da7cdf73b2bc8e61f7b438fb6"}}

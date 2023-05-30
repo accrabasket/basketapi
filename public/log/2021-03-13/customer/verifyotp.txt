@@ -1,0 +1,29 @@
+
+ Request - 2021-03-13 12:54:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"501790244","otp_type":"register","otp":"6653"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"12acf8cf32b1f1b44469b283ff628e70"}}
+ Request - 2021-03-13 14:50:58
+{"method":"verifyotp","country_code":"+233","mobile_number":"552012864","otp_type":"register","otp":"8421"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"556a6ea3ce203bd93d73445a577cb623"}}
+ Request - 2021-03-13 14:56:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"209529249","otp_type":"register","otp":"8421"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-13 14:56:39
+{"method":"verifyotp","country_code":"+233","mobile_number":"209529249","otp_type":"register","otp":"8421"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-13 14:56:42
+{"method":"verifyotp","country_code":"+233","mobile_number":"209529249","otp_type":"register","otp":"8421"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-13 14:57:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"209529249","otp_type":"register","otp":"8421"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-13 14:58:20
+{"method":"verifyotp","country_code":"+233","mobile_number":"209529249","otp_type":"register","otp":"5127"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"b33779fc66bdb7d189d18d10a239d284"}}

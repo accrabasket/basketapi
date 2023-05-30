@@ -1,0 +1,49 @@
+
+ Request - 2022-06-12 03:32:11
+{"method":"getitemintocart","guest_user_id":"28234eab2bea3a14"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 05:14:54
+{"method":"getitemintocart","guest_user_id":"9bce0efd9c54d7f4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 07:13:28
+{"method":"getitemintocart","guest_user_id":"d01053b6f1b20f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 08:47:18
+{"method":"getitemintocart","guest_user_id":"50a7eba552aa9f99"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 09:32:22
+{"method":"getitemintocart","guest_user_id":"1ab82ac4b2bddd7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 10:18:39
+{"method":"getitemintocart","guest_user_id":"e0c665ce42483d6a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 12:15:35
+{"method":"getitemintocart","guest_user_id":"a25c4269c94bedac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 12:16:13
+{"method":"getitemintocart","guest_user_id":"a25c4269c94bedac"}
+ Response :- 
+{"status":"success","data":{"2846":{"id":21665,"user_id":0,"guest_user_id":"a25c4269c94bedac","merchant_inventry_id":2846,"item_name":"Chicken Sausage(Chicken Sausage)","number_of_item":1,"created_date":"2022-06-12 12:16:12"}},"productDetails":{"status":"success","data":{"2846":{"id":2846,"price":"7.00","product_id":3216,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Chicken Sausage","product_desc":"","default_discount_type":"","default_discount_value":"","category_id":125,"custom_info":"","brand_name":"Perdix","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"20","unit":"gm","quantity":340,"tax_value":"3"}},"productImageData":{"3216":[{"id":3881,"type":"product","image_id":3216,"image_name":"VID155.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-12 12:55:02
+{"method":"getitemintocart","guest_user_id":"57e0fa18ae6805cf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 13:23:22
+{"method":"getitemintocart","guest_user_id":"d8c78c0dc8e7ef52"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 16:12:04
+{"method":"getitemintocart","guest_user_id":"a07bac9e907aa67d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-12 16:22:12
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

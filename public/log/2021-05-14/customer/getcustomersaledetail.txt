@@ -1,0 +1,21 @@
+
+ Request - 2021-05-14 05:10:49
+{"start_date":"2021-05-14","end_date":"2021-05-14","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":[],"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-05-14 07:26:29
+{"start_date":"2021-05-14","end_date":"2021-05-14","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"allOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"completedOrderByDate":[],"cancelledOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"totalOrder":1,"totalConfirmedOrder":0,"totalCancelledOrder":1}}
+ Request - 2021-05-14 11:38:56
+{"start_date":"2021-05-14","end_date":"2021-05-14","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"allOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"completedOrderByDate":[],"cancelledOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"totalOrder":1,"totalConfirmedOrder":0,"totalCancelledOrder":1}}
+ Request - 2021-05-14 11:40:15
+{"start_date":"2021-05-14","end_date":"2021-05-14","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"allOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"completedOrderByDate":[],"cancelledOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"totalOrder":1,"totalConfirmedOrder":0,"totalCancelledOrder":1}}
+ Request - 2021-05-14 14:20:11
+{"start_date":"2021-05-14","end_date":"2021-05-14","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"allOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"completedOrderByDate":[],"cancelledOrderByDate":{"2021-05-14":{"count":1,"created_date":"2021-05-14"}},"totalOrder":1,"totalConfirmedOrder":0,"totalCancelledOrder":1}}

@@ -1,0 +1,49 @@
+
+ Request - 2021-12-31 01:46:06
+{"method":"getitemintocart","guest_user_id":"53cb3dd8d2445ded"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 01:46:55
+{"method":"getitemintocart","guest_user_id":"53cb3dd8d2445ded"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 05:45:45
+{"method":"getitemintocart","guest_user_id":"520dd19831bbb6c0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 10:16:40
+{"method":"getitemintocart","guest_user_id":"01377dd0e1494b15"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 11:32:42
+{"method":"getitemintocart","guest_user_id":"01377dd0e1494b15"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 16:18:20
+{"method":"getitemintocart","guest_user_id":"024325c4d01b2cba"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 16:47:02
+{"method":"getitemintocart","guest_user_id":"8c9ebf80048d5405"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 16:48:05
+{"method":"getitemintocart","guest_user_id":"8c9ebf80048d5405"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 16:49:21
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-12-31 16:52:59
+{"method":"getitemintocart","guest_user_id":"9b397044d4311b29"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-31 16:53:55
+{"method":"getitemintocart","guest_user_id":"9b397044d4311b29"}
+ Response :- 
+{"status":"success","data":{"1902":{"id":19105,"user_id":0,"guest_user_id":"9b397044d4311b29","merchant_inventry_id":1902,"item_name":"Soyabean Cooking Oil(Soyabean Cooking Oil)","number_of_item":1,"created_date":"2021-12-31 16:53:54"}},"productDetails":{"status":"success","data":{"1902":{"id":1902,"price":"14.99","product_id":2235,"merchant_id":4,"store_id":4,"merchant_product_code":"49364","product_name":"Soyabean Cooking Oil","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"Unoli","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Litre","quantity":1,"tax_value":"3"}},"productImageData":{"2235":[{"id":2406,"type":"product","image_id":2235,"image_name":"49364.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-31 17:38:16
+{"method":"getitemintocart","guest_user_id":"b15e82c107864e69"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

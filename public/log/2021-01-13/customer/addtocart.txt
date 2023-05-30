@@ -1,0 +1,129 @@
+
+ Request - 2021-01-13 00:09:05
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:07
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:09
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:10
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:13
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:16
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:18
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:20
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:23
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:25
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:26
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"229","action":"add","item_name":"Cinnamon Powder(Cinnamon Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:28
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"230","action":"add","item_name":"Cinnamon Stick(Cinnamon Stick)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:30
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:32
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 00:09:34
+{"method":"addtocart","guest_user_id":"e823c3b5a6ce04f3","number_of_item":"1","merchant_inventry_id":"234","action":"add","item_name":"Coriander Powder(Coriander Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 05:59:36
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 05:59:38
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"232","action":"delete","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 05:59:45
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 05:59:52
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"232","action":"delete","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:00:20
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:00:20
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:00:21
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:00:23
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:00:23
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"458","action":"delete","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:00:24
+{"method":"addtocart","guest_user_id":"1b17382cb07da0af","number_of_item":"1","merchant_inventry_id":"459","action":"delete","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:04
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:07
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:14
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:15
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"303","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:17
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:18
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"314","action":"add","item_name":"Red Label Tea(Red Label Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-13 06:13:22
+{"method":"addtocart","guest_user_id":"374205655a5f494b","number_of_item":"1","merchant_inventry_id":"337","action":"add","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

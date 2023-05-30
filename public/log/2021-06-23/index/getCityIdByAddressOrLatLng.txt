@@ -1,0 +1,13 @@
+
+ Request - 2021-06-23 00:37:03
+{"method":"getCityIdByAddressOrLatLng","address":"9 Market High St, Accra, Ghana","lat":"5.6190092","lng":"-0.1043251"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9 Market High St, Accra, Ghana"}}
+ Request - 2021-06-23 04:46:28
+{"method":"getCityIdByAddressOrLatLng","address":"New Medical Road, Modhu Shahid, Munsipara, Sylhet 1207, Bangladesh","lat":"24.8990636","lng":"91.8568299"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"129 Medical College Rd, Sylhet, Bangladesh"}}
+ Request - 2021-06-23 07:15:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kaolack, Sénégal","lat":"14.1509141","lng":"-16.0711822"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kaolack, Senegal"}}

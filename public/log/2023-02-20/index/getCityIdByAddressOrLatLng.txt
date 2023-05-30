@@ -1,0 +1,25 @@
+
+ Request - 2023-02-20 03:17:31
+{"method":"getCityIdByAddressOrLatLng","address":"HPF6+H6W, Darsana- Mujibnagar Rd, Karpashdanga, Bangladesh","lat":"23.5739836","lng":"88.7105468"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-20 03:17:33
+{"method":"getCityIdByAddressOrLatLng","address":"HPF6+H6W, Darsana- Mujibnagar Rd, Karpashdanga, Bangladesh","lat":"23.5739836","lng":"88.7105468"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-20 03:17:34
+{"method":"getCityIdByAddressOrLatLng","address":"HPF6+H6W, Darsana- Mujibnagar Rd, Karpashdanga, Bangladesh","lat":"23.5739836","lng":"88.7105468"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-20 03:17:41
+{"method":"getCityIdByAddressOrLatLng","address":"HPF6+H6W, Darsana- Mujibnagar Rd, Karpashdanga, Bangladesh","lat":"23.5739836","lng":"88.7105468"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-20 03:17:42
+{"method":"getCityIdByAddressOrLatLng","address":"HPF6+H6W, Darsana- Mujibnagar Rd, Karpashdanga, Bangladesh","lat":"23.5739836","lng":"88.7105468"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-20 03:18:56
+{"method":"getCityIdByAddressOrLatLng","address":"HPF6+H22, Karpashdanga, Bangladesh","lat":"23.5740372","lng":"88.710144"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

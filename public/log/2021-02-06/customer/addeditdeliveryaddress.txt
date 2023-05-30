@@ -1,0 +1,21 @@
+
+ Request - 2021-02-06 17:23:34
+{"method":"addeditdeliveryaddress","house_number":"Ggyy","street_detail":"","contact_name":"Ftyy","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"GH hg","landmark":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":380}}
+ Request - 2021-02-06 17:23:35
+{"method":"addeditdeliveryaddress","house_number":"Ggyy","street_detail":"","contact_name":"Ftyy","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"GH hg","landmark":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":381}}
+ Request - 2021-02-06 17:28:26
+{"method":"addeditdeliveryaddress","house_number":"Cffg","street_detail":"Rtyy","contact_name":"Qshhjj","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Ab","landmark":"Rttg"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":382}}
+ Request - 2021-02-06 17:28:27
+{"method":"addeditdeliveryaddress","house_number":"Cffg","street_detail":"Rtyy","contact_name":"Qshhjj","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Ab","landmark":"Rttg"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":383}}
+ Request - 2021-02-06 17:28:28
+{"method":"addeditdeliveryaddress","house_number":"Cffg","street_detail":"Rtyy","contact_name":"Qshhjj","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Ab","landmark":"Rttg"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":384}}

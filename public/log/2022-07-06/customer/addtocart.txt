@@ -1,0 +1,17 @@
+
+ Request - 2022-07-06 08:46:18
+{"method":"addtocart","guest_user_id":"4a51a9bcb5e1d1e4","number_of_item":"1","merchant_inventry_id":"674","action":"add","item_name":"MEN Cool Kick - Anti-Perspirant Deodorant Roll-On(MEN Cool Kick - Anti-Perspirant Deodorant Roll-On)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-06 08:46:24
+{"method":"addtocart","guest_user_id":"4a51a9bcb5e1d1e4","number_of_item":"1","merchant_inventry_id":"674","action":"delete","item_name":"MEN Cool Kick - Anti-Perspirant Deodorant Roll-On(MEN Cool Kick - Anti-Perspirant Deodorant Roll-On)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-06 20:31:21
+{"method":"addtocart","guest_user_id":"0f0f07f51cc3e6a0","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-06 20:31:24
+{"method":"addtocart","guest_user_id":"0f0f07f51cc3e6a0","number_of_item":"1","merchant_inventry_id":"221","action":"delete","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

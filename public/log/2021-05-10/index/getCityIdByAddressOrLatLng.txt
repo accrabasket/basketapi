@@ -1,0 +1,25 @@
+
+ Request - 2021-05-10 00:11:10
+{"method":"getCityIdByAddressOrLatLng","address":"2 Adiembra Rd, Sekondi-Takoradi, Ghana","lat":"4.9309583","lng":"-1.7361559"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2 Adiembra Rd, Sekondi-Takoradi, Ghana"}}
+ Request - 2021-05-10 09:28:52
+{"method":"getCityIdByAddressOrLatLng","address":"79 Cape Coast - Takoradi Rd, Takoradi, Ghana","lat":"4.9218935","lng":"-1.7659003"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"79 Cape Coast - Takoradi Rd, Takoradi, Ghana"}}
+ Request - 2021-05-10 12:18:45
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Mozambique","lat":"-24.905288333333335","lng":"33.51660666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Mozambique"}}
+ Request - 2021-05-10 12:19:13
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Mozambique","lat":"-24.905288333333335","lng":"33.51660666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Mozambique"}}
+ Request - 2021-05-10 19:16:00
+{"method":"getCityIdByAddressOrLatLng","address":"провулок Толстого, 36, Кременчук, Полтавська область, Украина, 39600","lat":"49.0967545","lng":"33.4338317"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tolstoho Ln, 36, Kremenchuk, Poltavs'ka oblast, Ukraine, 39600"}}
+ Request - 2021-05-10 20:18:23
+{"method":"getCityIdByAddressOrLatLng","address":"Avenue Alphonse Demosso, Pointe-Noire, République du Congo","lat":"-4.7727727","lng":"11.8685244"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Avenue Alphonse Demosso, Pointe-Noire, Republic of the Congo"}}

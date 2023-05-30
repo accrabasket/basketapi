@@ -1,0 +1,5 @@
+
+ Request - 2021-03-31 21:35:20
+{"method":"addedituser","city_id":"1","password":"7913","name":"Chirac","email":"chiraclare@gmail.com","mobile_number":"70354741","country_code":"+233","id":"0","fcm_reg_id":"er4WY_X5MDU:APA91bFvzhCsVt62cfgFiewNGRQ8q6D-nidPBNeazQqpdur4qm2WLnFO01fguq54sbIU6ApcQLtD1iz495Ocpm1y8esifEhUviRwqiIZZud5LGG5ZoRe4P2S6WFize3_3-14M-aDQ07u"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +23370354741 and registered email id.","data":{"2221":{"id":2221,"name":"Chirac","mobile_number":"70354741","email":"chiraclare@gmail.com","key":"21285ccc527e9565128e831656b86b05","password":"5527eaab87a00dbe1614481ef174f285","fcm_reg_id":"er4WY_X5MDU:APA91bFvzhCsVt62cfgFiewNGRQ8q6D-nidPBNeazQqpdur4qm2WLnFO01fguq54sbIU6ApcQLtD1iz495Ocpm1y8esifEhUviRwqiIZZud5LGG5ZoRe4P2S6WFize3_3-14M-aDQ07u","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-31 21:35:20","updated_date":"2021-03-31 21:35:20","status":"1"}}}

@@ -1,0 +1,21 @@
+
+ Request - 2022-07-09 08:25:28
+{"method":"addtocart","guest_user_id":"4e2e11482865dc37","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-09 08:25:33
+{"method":"addtocart","guest_user_id":"4e2e11482865dc37","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-09 08:25:36
+{"method":"addtocart","guest_user_id":"4e2e11482865dc37","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-09 23:02:43
+{"method":"addtocart","guest_user_id":"2336152444be87ef","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-09 23:03:19
+{"method":"addtocart","guest_user_id":"2336152444be87ef","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

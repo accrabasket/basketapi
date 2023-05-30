@@ -1,0 +1,13 @@
+
+ Request - 2022-09-20 03:34:07
+{"method":"getCityIdByAddressOrLatLng","address":"Vijayraghavgarh - Barhi Rd, Hantala, Madhya Pradesh 483775, ভারত","lat":"23.963099","lng":"80.660263"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XM76+64 Hantala, Madhya Pradesh, India"}}
+ Request - 2022-09-20 11:02:45
+{"method":"getCityIdByAddressOrLatLng","address":"CVHP+QRQ, Kaikalathur - V.Kalathur Main Rd, Pasumbalur North, Tamil Nadu 621117, India","lat":"11.4283591","lng":"78.8869153"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CVHP+QRQ, Kaikalathur - V.Kalathur Main Rd, Pasumbalur North, Tamil Nadu 621117, India"}}
+ Request - 2022-09-20 11:47:00
+{"method":"getCityIdByAddressOrLatLng","address":"Jalan Tanpa Nama, Mulya Guna, Kec. Tlk. Gelam, Kabupaten Ogan Komering Ilir, Sumatera Selatan, Indonesia","lat":"-3.6061034","lng":"104.811719"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9RV6+HM Mulya Guna, Ogan Komering Ilir Regency, South Sumatra, Indonesia"}}

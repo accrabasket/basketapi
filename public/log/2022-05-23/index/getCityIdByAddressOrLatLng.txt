@@ -1,0 +1,25 @@
+
+ Request - 2022-05-23 07:04:20
+{"method":"getCityIdByAddressOrLatLng","address":"kebonduren, GP89+2MX, Dusun II, Demangan, Kec. Sambi, Kabupaten Boyolali, Jawa Tengah 57376, Indonesia","lat":"-7.4848333","lng":"110.719246"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"kebonduren, GP89+2MX, Dusun II, Demangan, Kec. Sambi, Kabupaten Boyolali, Jawa Tengah 57376, Indonesia"}}
+ Request - 2022-05-23 10:07:18
+{"method":"getCityIdByAddressOrLatLng","address":"7221 ضياء الدين حمزه، 3443، الجامعة، جدة 22342، السعودية","lat":"21.4702594","lng":"39.2510297"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7221 Diya Ad Din Hamzah, 3443, Al Jami`ah, Jeddah 22342, Saudi Arabia"}}
+ Request - 2022-05-23 10:44:23
+{"method":"getCityIdByAddressOrLatLng","address":"V3MH+QGF, C.P. & Berar Society Cp & Berar Chs, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8845451","lng":"67.0788499"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V3MH+QGF, C.P. & Berar Society Cp & Berar Chs, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-05-23 18:37:42
+{"method":"getCityIdByAddressOrLatLng","address":"6, Shogunle 101233, Lagos, Nigeria","lat":"6.578001666666667","lng":"3.3428433333333336"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6, Shogunle 101233, Lagos, Nigeria"}}
+ Request - 2022-05-23 19:05:22
+{"method":"getCityIdByAddressOrLatLng","address":"RMVX+QM4, Kapsokwony, Kenya","lat":"0.8434632","lng":"34.7000832"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RMVX+QM4, Kapsokwony, Kenya"}}
+ Request - 2022-05-23 22:21:58
+{"method":"getCityIdByAddressOrLatLng","address":"14 N Hill Rd, Swansea SA1, UK","lat":"51.6266207","lng":"-3.947401"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"14 N Hill Rd, Swansea SA1, UK"}}

@@ -1,0 +1,5 @@
+
+ Request - 2022-10-16 20:47:14
+{"method":"getcoupon","user_id":"8856","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

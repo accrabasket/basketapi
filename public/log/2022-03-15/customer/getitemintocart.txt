@@ -1,0 +1,49 @@
+
+ Request - 2022-03-15 01:08:24
+{"method":"getitemintocart","guest_user_id":"639d391b029c0598"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 02:24:03
+{"method":"getitemintocart","guest_user_id":"2e54586e4e4d2e64"}
+ Response :- 
+{"status":"success","data":{"788":{"id":17178,"user_id":0,"guest_user_id":"2e54586e4e4d2e64","merchant_inventry_id":788,"item_name":"Morning Fresh Zesty Lemon dishwashing liquid(Morning Fresh Zesty Lemon dishwashing liquid)","number_of_item":1,"created_date":"2021-09-10 05:34:15"}},"productDetails":{"status":"success","data":{"788":{"id":788,"price":"7.99","product_id":1072,"merchant_id":4,"store_id":4,"merchant_product_code":"57878","product_name":"Morning Fresh Zesty Lemon dishwashing liquid","product_desc":"Morning Fresh Australia\u2019s #1 dishwashing liquid with its superior grease cutting power is super concentrated, so only one squirt is enough to power through the greasiest pile of dishes for spotless and sparkling clean dishes. This means your dishes will be cleaner faster and you\u2019ll have more time to enjoy doing the things you love.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Aqua, Sodium Laureth Sulphate, Cocamidopropyl Betaine, Sodium Chloride, Lactic Acid, Sodium Benzoate, Parfum, Limonene, Geraniol, Citral, Linalool, Colorants, Vinegar.\"}","brand_name":"Cussons","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":450,"tax_value":"3"}},"productImageData":{"1072":[{"id":1497,"type":"product","image_id":1072,"image_name":"57878.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-03-15 06:44:17
+{"method":"getitemintocart","guest_user_id":"407a78caad0fde75"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 07:49:29
+{"method":"getitemintocart","guest_user_id":"12811fe8c5d7074f"}
+ Response :- 
+{"status":"success","data":{"343":{"id":20008,"user_id":0,"guest_user_id":"12811fe8c5d7074f","merchant_inventry_id":343,"item_name":"Sunflower Oil(Sunflower Oil)","number_of_item":1,"created_date":"2022-02-27 01:11:51"}},"productDetails":{"status":"success","data":{"343":{"id":343,"price":"40.80","product_id":479,"merchant_id":3,"store_id":2,"merchant_product_code":null,"product_name":"Sunflower Oil","product_desc":"Sunflower oil is a sensitive product. Thanks to our comprehensive and advanced technology, we produce by preserving the natural structure of sunflower oil. With the ideal structure for your body, Zade Sunflower oil is a stomach friendly product. It is identified with your food with its ideal colour and consistency, revealing the taste of your food with its taste and lightness","default_discount_type":"","default_discount_value":"0","category_id":92,"custom_info":"","brand_name":"ZADE","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":3,"tax_value":"3"}},"productImageData":{"479":[{"id":450,"type":"product","image_id":479,"image_name":"479_1537506214.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-03-15 09:01:12
+{"method":"getitemintocart","guest_user_id":"08517c989520abb0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 13:25:30
+{"method":"getitemintocart","guest_user_id":"e98ead3b035dc37f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 14:23:37
+{"method":"getitemintocart","guest_user_id":"cb6709efc5597219"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 14:46:46
+{"method":"getitemintocart","guest_user_id":"5b78a0d5802e28e0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 15:50:25
+{"method":"getitemintocart","guest_user_id":"39f6f0377f0109f5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 22:42:39
+{"method":"getitemintocart","guest_user_id":"39f6f0377f0109f5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 22:42:39
+{"method":"getitemintocart","guest_user_id":"39f6f0377f0109f5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-15 23:45:41
+{"method":"getitemintocart","guest_user_id":"1176721fae826cff"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,13 @@
+
+ Request - 2022-11-26 03:59:26
+{"method":"getCityIdByAddressOrLatLng","address":"المقدادية، العراق","lat":"33.87184","lng":"44.8139212"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VRC7+PH Al Wajihiya, Iraq"}}
+ Request - 2022-11-26 11:26:12
+{"method":"getCityIdByAddressOrLatLng","address":"595V+9HP, Dundera Main Rd, Dundera, Bhilai Steel Plant, Bhilai, Chhattisgarh 491107, India","lat":"21.1581939","lng":"81.3944111"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"595V+9HP, Dundera Main Rd, Dundera, Bhilai Steel Plant, Bhilai, Chhattisgarh 491107, India"}}
+ Request - 2022-11-26 13:53:53
+{"method":"getCityIdByAddressOrLatLng","address":"515, Central Jacob Lines Block 1 Khudadad Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8759738","lng":"67.0448275"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"515, Jamshed Quarters Block 1 Khudadad Colony, Karachi, Karachi City, Sindh, Pakistan"}}

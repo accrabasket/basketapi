@@ -1,0 +1,45 @@
+
+ Request - 2021-12-23 00:55:13
+{"method":"getitemintocart","guest_user_id":"7f5c79ea4cb0a45d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-23 07:57:09
+{"method":"getitemintocart","guest_user_id":"cda8e3ae870e8b11"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-23 08:14:38
+{"method":"getitemintocart","guest_user_id":"71947cbbfd77acaf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-23 10:46:18
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-23 10:46:43
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":18989,"user_id":0,"guest_user_id":"779b84c21ee09a7b","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":1,"created_date":"2021-12-23 10:46:43"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-23 10:46:47
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":18989,"user_id":0,"guest_user_id":"779b84c21ee09a7b","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":2,"created_date":"2021-12-23 10:46:43"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-23 10:46:50
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":18989,"user_id":0,"guest_user_id":"779b84c21ee09a7b","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":3,"created_date":"2021-12-23 10:46:43"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-23 10:46:52
+{"method":"getitemintocart","guest_user_id":"779b84c21ee09a7b"}
+ Response :- 
+{"status":"success","data":{"3808":{"id":18989,"user_id":0,"guest_user_id":"779b84c21ee09a7b","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":4,"created_date":"2021-12-23 10:46:43"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-23 18:42:51
+{"method":"getitemintocart","guest_user_id":"5d3d2e6792ff314c"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17480,"user_id":0,"guest_user_id":"5d3d2e6792ff314c","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-10-06 16:50:08"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-23 20:08:08
+{"method":"getitemintocart","guest_user_id":"95766fb6cf03adfc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-23 21:00:36
+{"method":"getitemintocart","guest_user_id":"f0c8891db6f0f2f9"}
+ Response :- 
+{"status":"success","data":{"466":{"id":17325,"user_id":0,"guest_user_id":"f0c8891db6f0f2f9","merchant_inventry_id":466,"item_name":"Vodka(Vodka)","number_of_item":1,"created_date":"2021-09-30 08:27:03"}},"productDetails":{"status":"success","data":{"466":{"id":466,"price":"285.99","product_id":750,"merchant_id":4,"store_id":4,"merchant_product_code":"48807","product_name":"Vodka","product_desc":"Belvedere Vodka is the first super-premium vodka, created from 600 years of Polish vodka-making tradition. Crafted using 100% Polska rye and water from its own natural well, Belvedere is all natural, contains zero additives or sugar, is certified Kosher by the Orthodox Union, and is produced in accordance with the legal requirements of Polish Vodka. Its taste profile is structured, elegant and balanced, with a subtle sweetness, velvety rich mouthfeel and smooth, clean finish.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Belvedere","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"750":[{"id":597,"type":"product","image_id":750,"image_name":"48807.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

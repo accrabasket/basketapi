@@ -1,0 +1,37 @@
+
+ Request - 2021-02-04 04:47:09
+{"method":"getitemintocart","guest_user_id":"77605dee8c07bae3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-02-04 14:32:13
+{"method":"getitemintocart","guest_user_id":"e75d92c4d0de2e91"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-02-04 16:44:58
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-02-04 16:50:22
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-02-04 17:08:07
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-02-04 19:16:27
+{"method":"getitemintocart","guest_user_id":"1f8cd19052f31456"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-02-04 19:16:39
+{"method":"getitemintocart","guest_user_id":"1f8cd19052f31456"}
+ Response :- 
+{"status":"success","data":{"207":{"id":11993,"user_id":0,"guest_user_id":"1f8cd19052f31456","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-02-04 19:16:39"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-02-04 19:16:45
+{"method":"getitemintocart","guest_user_id":"1f8cd19052f31456"}
+ Response :- 
+{"status":"success","data":{"207":{"id":11993,"user_id":0,"guest_user_id":"1f8cd19052f31456","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-02-04 19:16:39"},"210":{"id":11994,"user_id":0,"guest_user_id":"1f8cd19052f31456","merchant_inventry_id":210,"item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)","number_of_item":1,"created_date":"2021-02-04 19:16:44"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100},"210":{"id":210,"price":"4.40","product_id":370,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Baked Beans in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Water, Rehydrated Dried Beans (33%), Tomato Paste (3.5%), Sugar, Modified Maize Starch (E1422), Salt, Flavourings and Spices\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"","unit":"gm","quantity":400}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"370":[{"id":286,"type":"product","image_id":370,"image_name":"8000066447360.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-02-04 19:17:03
+{"method":"getitemintocart","guest_user_id":"1f8cd19052f31456"}
+ Response :- 
+{"status":"success","data":{"207":{"id":11993,"user_id":0,"guest_user_id":"1f8cd19052f31456","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-02-04 19:16:39"},"210":{"id":11994,"user_id":0,"guest_user_id":"1f8cd19052f31456","merchant_inventry_id":210,"item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)","number_of_item":1,"created_date":"2021-02-04 19:16:44"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100},"210":{"id":210,"price":"4.40","product_id":370,"merchant_id":3,"store_id":2,"merchant_product_code":"8000066447","product_name":"Baked Beans in Tomato Sauce","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":119,"custom_info":"{\"Ingredients\":\"Water, Rehydrated Dried Beans (33%), Tomato Paste (3.5%), Sugar, Modified Maize Starch (E1422), Salt, Flavourings and Spices\"}","brand_name":"MARA","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"","unit":"gm","quantity":400}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"370":[{"id":286,"type":"product","image_id":370,"image_name":"8000066447360.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

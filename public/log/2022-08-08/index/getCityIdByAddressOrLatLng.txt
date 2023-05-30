@@ -1,0 +1,17 @@
+
+ Request - 2022-08-08 00:31:37
+{"method":"getCityIdByAddressOrLatLng","address":"FQJ4+V4, El Alto, Bolivia","lat":"-16.5173597","lng":"-68.2447391"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FQJ4+V4, El Alto, Bolivia"}}
+ Request - 2022-08-08 05:36:59
+{"method":"getCityIdByAddressOrLatLng","address":"8MJ6+2J7, Batabari, Assam 783384, Hindistan","lat":"26.3302496","lng":"90.6620376"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8MJ6+2J7, Batabari, Assam 783384, India"}}
+ Request - 2022-08-08 16:07:19
+{"method":"getCityIdByAddressOrLatLng","address":"JJGE4726، 4726 سلمه بن معبد، 8287، حي غليل، جدة 22413، السعودية","lat":"21.4523169","lng":"39.2052111"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JJGE4726, 4726 Salamah Ibn Mubad, 8287, Ghulail District, Jeddah 22413, Saudi Arabia"}}
+ Request - 2022-08-08 20:15:38
+{"method":"getCityIdByAddressOrLatLng","address":"Cl. 20 #36-26 a 36-100, Bogotá, Colombia","lat":"4.6254057","lng":"-74.0932353"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Cl. 20 #36-26 a 36-100, Bogot\u00e1, Colombia"}}

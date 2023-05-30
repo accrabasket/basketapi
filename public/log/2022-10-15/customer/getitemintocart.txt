@@ -1,0 +1,41 @@
+
+ Request - 2022-10-15 03:48:58
+{"method":"getitemintocart","guest_user_id":"ed1b72c51b992ed9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 12:41:08
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 13:26:28
+{"method":"getitemintocart","guest_user_id":"efd9405027eb8e79"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 15:38:47
+{"method":"getitemintocart","user_id":"8856"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 15:51:00
+{"method":"getitemintocart","guest_user_id":"88081e50684b27af"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 17:11:57
+{"method":"getitemintocart","guest_user_id":"898e25b6555028ac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 19:10:05
+{"method":"getitemintocart","guest_user_id":"2a7606c2dcdd0e91"}
+ Response :- 
+{"status":"success","data":{"430":{"id":21188,"user_id":0,"guest_user_id":"2a7606c2dcdd0e91","merchant_inventry_id":430,"item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)","number_of_item":1,"created_date":"2022-05-16 02:05:24"}},"productDetails":{"status":"success","data":{"430":{"id":430,"price":"11.30","product_id":595,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Lemon - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"litre","quantity":1,"tax_value":"3"}},"productImageData":{"595":[{"id":555,"type":"product","image_id":595,"image_name":"8699415063131.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-15 19:10:06
+{"method":"getitemintocart","guest_user_id":"2a7606c2dcdd0e91"}
+ Response :- 
+{"status":"success","data":{"430":{"id":21188,"user_id":0,"guest_user_id":"2a7606c2dcdd0e91","merchant_inventry_id":430,"item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)","number_of_item":1,"created_date":"2022-05-16 02:05:24"}},"productDetails":{"status":"success","data":{"430":{"id":430,"price":"11.30","product_id":595,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Lemon - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"litre","quantity":1,"tax_value":"3"}},"productImageData":{"595":[{"id":555,"type":"product","image_id":595,"image_name":"8699415063131.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-15 19:33:28
+{"method":"getitemintocart","guest_user_id":"39e7fa5de996fb02"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-15 19:33:29
+{"method":"getitemintocart","guest_user_id":"39e7fa5de996fb02"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,13 @@
+
+ Request - 2021-03-23 03:00:31
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-03-23 03:01:05
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-03-23 03:19:14
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}

@@ -1,0 +1,53 @@
+
+ Request - 2022-02-28 10:19:50
+{"method":"addtocart","guest_user_id":"8e9c573aa5b15059","number_of_item":"1","merchant_inventry_id":"445","action":"add","item_name":"Rajnighandha Incense Sticks(Rajnighandha Incense Sticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 13:57:59
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"226","action":"delete","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 13:59:34
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"2966","action":"add","item_name":"Italian Cheese Slices(Italian Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 13:59:50
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"369","action":"add","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 13:59:51
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"369","action":"add","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 14:00:10
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 14:00:12
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 14:00:18
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 14:00:19
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 15:53:25
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"369","action":"delete","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 15:53:39
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"369","action":"delete","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 15:57:11
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"369","action":"add","item_name":"White Vinegar(White Vinegar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-28 15:57:51
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

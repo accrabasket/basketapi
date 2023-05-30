@@ -1,0 +1,37 @@
+
+ Request - 2022-01-31 00:13:50
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Côte d'Ivoire","lat":"7.1533816","lng":"-6.8396224"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5536+95 Bobinou, C\u00f4te d'Ivoire"}}
+ Request - 2022-01-31 03:59:50
+{"method":"getCityIdByAddressOrLatLng","address":"Halte BUS Transjakarta Cakung Barat, 13910 Jalan Raya Bekasi KM 17 Kompleks Darma Niaga, Jl. Cakung Timur No.23, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia","lat":"-6.1808636","lng":"106.9393859"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Halte BUS Transjakarta Cakung Barat, 13910 Jalan Raya Bekasi KM 17 Kompleks Darma Niaga, Jl. Cakung Timur No.23, Cakung Bar., Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia"}}
+ Request - 2022-01-31 04:42:01
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Dahlia 3 No.31, RT.10\/RW.21, Karangsatria, Kec. Tambun Utara, Kabupaten Bekasi, Jawa Barat 17510, Indonesia","lat":"-6.234175","lng":"107.0496897"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Dahlia 3 No.31, RT.10\/RW.21, Karangsatria, Kec. Tambun Utara, Kabupaten Bekasi, Jawa Barat 17510, Indonesia"}}
+ Request - 2022-01-31 14:08:29
+{"method":"getCityIdByAddressOrLatLng","address":"جزيرة شارونة، مغاغة،، جزيرة شارونة، مركز مغاغة، المنيا، مصر","lat":"28.6309164","lng":"30.8576584"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u062c\u0632\u064a\u0631\u0629 \u0634\u0627\u0631\u0648\u0646\u0629\u060c \u0645\u063a\u0627\u063a\u0629\u060c\u060c Gazirat Sharonah, Maghagha, Menia Governorate, Egypt"}}
+ Request - 2022-01-31 14:49:17
+{"method":"getCityIdByAddressOrLatLng","address":"निनावी रस्ता, येसगांव ख, महाराष्ट्र 423212, भारत","lat":"20.4853497","lng":"74.5941072"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FHPV+4J Yesgaon Kh, Maharashtra, India"}}
+ Request - 2022-01-31 18:02:48
+{"method":"getCityIdByAddressOrLatLng","address":"164 Airport Rd, 900108, Abuja, Nigeria","lat":"9.0161895","lng":"7.4244468"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"164 Airport Rd, 900108, Abuja, Nigeria"}}
+ Request - 2022-01-31 18:02:49
+{"method":"getCityIdByAddressOrLatLng","address":"164 Airport Rd, 900108, Abuja, Nigeria","lat":"9.0161895","lng":"7.4244468"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"164 Airport Rd, 900108, Abuja, Nigeria"}}
+ Request - 2022-01-31 20:15:47
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Tamtama No.235, Petarukan, Kec. Petarukan, Kabupaten Pemalang, Jawa Tengah 52362, Indonesia","lat":"-6.8946839","lng":"109.4485479"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Tamtama No.235, Petarukan, Kec. Petarukan, Kabupaten Pemalang, Jawa Tengah 52362, Indonesia"}}
+ Request - 2022-01-31 20:20:30
+{"method":"getCityIdByAddressOrLatLng","address":"9 Jere St, Garki 900103, Abuja, Nigeria","lat":"9.0269175","lng":"7.4873356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9 Jere St, Garki 900103, Abuja, Nigeria"}}

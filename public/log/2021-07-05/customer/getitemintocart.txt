@@ -1,0 +1,33 @@
+
+ Request - 2021-07-05 06:49:19
+{"method":"getitemintocart","guest_user_id":"05349d2567b04dea"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-05 06:49:52
+{"method":"getitemintocart","guest_user_id":"05349d2567b04dea"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-05 06:50:06
+{"method":"getitemintocart","guest_user_id":"05349d2567b04dea"}
+ Response :- 
+{"status":"success","data":{"232":{"id":15967,"user_id":0,"guest_user_id":"05349d2567b04dea","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":2,"created_date":"2021-07-05 06:50:00"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-05 06:50:15
+{"method":"getitemintocart","guest_user_id":"05349d2567b04dea"}
+ Response :- 
+{"status":"success","data":{"232":{"id":15967,"user_id":0,"guest_user_id":"05349d2567b04dea","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":2,"created_date":"2021-07-05 06:50:00"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-05 06:50:23
+{"method":"getitemintocart","guest_user_id":"05349d2567b04dea"}
+ Response :- 
+{"status":"success","data":{"232":{"id":15967,"user_id":0,"guest_user_id":"05349d2567b04dea","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2021-07-05 06:50:00"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-05 06:50:33
+{"method":"getitemintocart","guest_user_id":"05349d2567b04dea"}
+ Response :- 
+{"status":"success","data":{"232":{"id":15967,"user_id":0,"guest_user_id":"05349d2567b04dea","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2021-07-05 06:50:00"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-05 07:04:20
+{"method":"getitemintocart","guest_user_id":"ea27e971158ecc6c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-05 19:32:30
+{"method":"getitemintocart","guest_user_id":"c9233aa646a1fb95"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

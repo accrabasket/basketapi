@@ -1,0 +1,29 @@
+
+ Request - 2021-04-04 03:27:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Gujranwala, Punjab, Pakistan","lat":"32.1296724","lng":"74.1387581"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Gujranwala, Punjab, Pakistan"}}
+ Request - 2021-04-04 05:00:21
+{"method":"getCityIdByAddressOrLatLng","address":"Chowk Rd, Jhanjhanpur, Siswania, Uttar Pradesh 273303, India","lat":"27.1829594","lng":"83.5601447"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Chowk Rd, Jhanjhanpur, Siswania, Uttar Pradesh 273303, India"}}
+ Request - 2021-04-04 08:01:30
+{"method":"getCityIdByAddressOrLatLng","address":"200 Jln Sultan, Singapore 199018","lat":"1.3036547","lng":"103.8612408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"200 Jln Sultan, Singapore 199018"}}
+ Request - 2021-04-04 14:22:21
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kumasi, Ghana","lat":"6.660807","lng":"-1.5143095"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kumasi, Ghana"}}
+ Request - 2021-04-04 14:23:56
+{"method":"getCityIdByAddressOrLatLng","address":"Kumasi, Ghana","lat":"6.6614703","lng":"-1.5146696"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kumasi, Ghana"}}
+ Request - 2021-04-04 20:29:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kumasi, Ghana","lat":"6.6608072","lng":"-1.5143093"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kumasi, Ghana"}}
+ Request - 2021-04-04 20:30:22
+{"method":"getCityIdByAddressOrLatLng","address":"Kumasi, Ghana","lat":"6.6614703","lng":"-1.5146696"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kumasi, Ghana"}}

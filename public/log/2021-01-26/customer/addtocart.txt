@@ -1,0 +1,17 @@
+
+ Request - 2021-01-26 13:24:07
+{"method":"addtocart","guest_user_id":"f8b52e21d904fc08","number_of_item":"1","merchant_inventry_id":"940","action":"add","item_name":"Soya Chocolate Drink(Soya Chocolate Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-26 13:24:18
+{"method":"addtocart","guest_user_id":"f8b52e21d904fc08","number_of_item":"1","merchant_inventry_id":"940","action":"delete","item_name":"Soya Chocolate Drink(Soya Chocolate Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-26 13:25:00
+{"method":"addtocart","guest_user_id":"f8b52e21d904fc08","number_of_item":"1","merchant_inventry_id":"940","action":"add","item_name":"Soya Chocolate Drink(Soya Chocolate Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-26 13:25:07
+{"method":"addtocart","guest_user_id":"f8b52e21d904fc08","number_of_item":"1","merchant_inventry_id":"940","action":"delete","item_name":"Soya Chocolate Drink(Soya Chocolate Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

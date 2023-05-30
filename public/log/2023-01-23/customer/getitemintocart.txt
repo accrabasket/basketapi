@@ -1,0 +1,13 @@
+
+ Request - 2023-01-23 15:34:37
+{"method":"getitemintocart","guest_user_id":"dbad756e03e3370d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-01-23 15:43:49
+{"method":"getitemintocart","guest_user_id":"3021d8271b28f276"}
+ Response :- 
+{"status":"success","data":{"270":{"id":22783,"user_id":0,"guest_user_id":"3021d8271b28f276","merchant_inventry_id":270,"item_name":"Honey(Honey)","number_of_item":1,"created_date":"2022-10-20 01:12:12"}},"productDetails":{"status":"success","data":{"270":{"id":270,"price":"24.80","product_id":420,"merchant_id":3,"store_id":2,"merchant_product_code":"8901207035","product_name":"Honey","product_desc":"As the largest player in the branded honey market, Dabur has the back-up of widely spread sourcing and stringent quality control measures. Dabur honey sourced selectively from the Himalayas, the Nilgiris and the Sunderbans forests. Collection process follows stringent quality checks to ensure even raw unfiltered honey is of best quality. Raw honey is filtered and cleaned of impurities such as dust, pollen and wax at state-of-the-art facilities. Entire process is mechanized and untouched by hands to ensure hygienic conditions.","default_discount_type":"","default_discount_value":"0","category_id":53,"custom_info":"{\"Ingredients\":\"Honey\",\"Allergy Information\":\"It should not be used by people allergic to BEE products and thus, should not be consumed in case of BEE sting allergies.\"}","brand_name":"Dabur","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"2.30","unit":"gm","quantity":250,"tax_value":"3"}},"productImageData":{"420":[{"id":343,"type":"product","image_id":420,"image_name":"8901207035364.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2023-01-23 15:45:44
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

@@ -1,0 +1,17 @@
+
+ Request - 2022-02-23 19:46:51
+{"method":"addtocart","guest_user_id":"6aa5867537ca8197","number_of_item":"1","merchant_inventry_id":"3158","action":"add","item_name":"Stech - Supernova Universal 4G LTE Router - White(Supernova Universal 4G LTE Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-23 19:50:01
+{"method":"addtocart","guest_user_id":"6aa5867537ca8197","number_of_item":"1","merchant_inventry_id":"3158","action":"delete","item_name":"Stech - Supernova Universal 4G LTE Router - White(Supernova Universal 4G LTE Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-23 19:52:37
+{"method":"addtocart","guest_user_id":"6aa5867537ca8197","number_of_item":"1","merchant_inventry_id":"3158","action":"add","item_name":"Stech - Supernova Universal 4G LTE Router - White(Supernova Universal 4G LTE Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-23 19:53:31
+{"method":"addtocart","guest_user_id":"6aa5867537ca8197","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

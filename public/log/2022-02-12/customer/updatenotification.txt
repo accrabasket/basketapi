@@ -1,0 +1,13 @@
+
+ Request - 2022-02-12 04:26:31
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2022-02-12 04:39:05
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":4}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2022-02-12 04:39:26
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":11}
+ Response :- 
+{"status":"success","data":true}

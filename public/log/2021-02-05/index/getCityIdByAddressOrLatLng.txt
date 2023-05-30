@@ -1,0 +1,9 @@
+
+ Request - 2021-02-05 10:06:57
+{"method":"getCityIdByAddressOrLatLng","address":"shubham industry, B 67, Surat, Gujarat 395006, भारत","lat":"21.197698","lng":"72.9089968"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"shubham industry, B 67, Surat, Gujarat 395006, India"}}
+ Request - 2021-02-05 20:23:30
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Myanmar (Burma)","lat":"22.5239143","lng":"98.1063234"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Myanmar (Burma)"}}

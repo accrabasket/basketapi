@@ -1,0 +1,37 @@
+
+ Request - 2021-05-11 02:06:45
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Dakar, Sénégal","lat":"14.7708733","lng":"-17.3745676"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Dakar, Senegal"}}
+ Request - 2021-05-11 04:20:37
+{"method":"getCityIdByAddressOrLatLng","address":"SH 81B, Lala Kheri, Rajasthan 312619, India","lat":"23.6544933","lng":"74.8617416"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"SH 81B, Lala Kheri, Rajasthan 312619, India"}}
+ Request - 2021-05-11 05:29:12
+{"method":"getCityIdByAddressOrLatLng","address":"Pa Wa, မြန်မာ","lat":"12.0475352","lng":"98.9302263"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Pa Wa, Myanmar (Burma)"}}
+ Request - 2021-05-11 14:32:07
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Agbélouvé, Togo","lat":"6.6706429","lng":"1.1600463"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Agb\u00e9louv\u00e9, Togo"}}
+ Request - 2021-05-11 15:59:23
+{"method":"getCityIdByAddressOrLatLng","address":"682 Zomayi à10 minute de la poste à coté Oranbank, Kpalimé, Togo","lat":"6.9056413","lng":"0.6308953"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"682 Zomayi \u00e010 minute de la poste \u00e0 cot\u00e9 Oranbank, Kpalim\u00e9, Togo"}}
+ Request - 2021-05-11 15:59:24
+{"method":"getCityIdByAddressOrLatLng","address":"682 Zomayi à10 minute de la poste à coté Oranbank, Kpalimé, Togo","lat":"6.9056413","lng":"0.6308953"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"682 Zomayi \u00e010 minute de la poste \u00e0 cot\u00e9 Oranbank, Kpalim\u00e9, Togo"}}
+ Request - 2021-05-11 18:58:37
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Accra, Ghana","lat":"5.6181862","lng":"-0.1892905"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Accra, Ghana"}}
+ Request - 2021-05-11 21:53:42
+{"method":"getCityIdByAddressOrLatLng","address":"Blumhardtstraße 5\/1, 72810 Gomaringen, Germany","lat":"48.4506358","lng":"9.0947706"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Blumhardtstra\u00dfe 5\/1, 72810 Gomaringen, Germany"}}
+ Request - 2021-05-11 22:49:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.8542867","lng":"-2.453152"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

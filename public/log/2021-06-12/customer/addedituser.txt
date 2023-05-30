@@ -1,0 +1,9 @@
+
+ Request - 2021-06-12 11:28:33
+{"method":"addedituser","city_id":"1","password":"Walkabout01","name":"Eberhard Messer","email":"0909er@gmail.com","mobile_number":"0592489461","country_code":"+233","id":"0","fcm_reg_id":"e-JJ8I6sEPw:APA91bFEJEEqeZmaYc2P7gzMifV5vHVT3AvswsdMEmWPqLqJo1BaTo5oO0vfUzndFF7EQ3VfjnxOr7fPC79fv_cQoMM4ft-MC_XnnGhjAbP_37_hHbovUPvQhKyIvv8V9uNfySIGGNja"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233592489461 and registered email id.","data":{"2715":{"id":2715,"name":"Eberhard Messer","mobile_number":"592489461","email":"0909er@gmail.com","key":"3411dbbe7aedbb9243329f5d40ec260e","password":"2d1afc9f502f23d9df58a9602c2fe6ad","fcm_reg_id":"e-JJ8I6sEPw:APA91bFEJEEqeZmaYc2P7gzMifV5vHVT3AvswsdMEmWPqLqJo1BaTo5oO0vfUzndFF7EQ3VfjnxOr7fPC79fv_cQoMM4ft-MC_XnnGhjAbP_37_hHbovUPvQhKyIvv8V9uNfySIGGNja","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-06-12 11:28:32","updated_date":"2021-06-12 11:28:32","status":"1"}}}
+ Request - 2021-06-12 11:29:31
+{"method":"addedituser","city_id":"1","password":"Walkabout01","name":"Eberhard Messer","email":"0909er@gmail.com","mobile_number":"592489461","country_code":"+233","id":"2715","fcm_reg_id":"e-JJ8I6sEPw:APA91bFEJEEqeZmaYc2P7gzMifV5vHVT3AvswsdMEmWPqLqJo1BaTo5oO0vfUzndFF7EQ3VfjnxOr7fPC79fv_cQoMM4ft-MC_XnnGhjAbP_37_hHbovUPvQhKyIvv8V9uNfySIGGNja"}
+ Response :- 
+{"status":"success","msg":"User updated"}

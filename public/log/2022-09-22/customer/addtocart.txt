@@ -1,0 +1,9 @@
+
+ Request - 2022-09-22 08:32:40
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-22 08:32:57
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"3177","action":"add","item_name":"SUNFLOWER OIL 6x1.8L(SUNFLOWER OIL 6x1.8L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

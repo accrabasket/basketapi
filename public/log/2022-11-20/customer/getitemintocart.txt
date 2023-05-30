@@ -1,0 +1,65 @@
+
+ Request - 2022-11-20 02:12:46
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-11-20 12:01:32
+{"method":"getitemintocart","guest_user_id":"ccc840d64bf8545a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 13:10:00
+{"method":"getitemintocart","guest_user_id":"18f1204b6573eb2e"}
+ Response :- 
+{"status":"success","data":{"215":{"id":22278,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":215,"item_name":"Black Eye Beans(Black Eye Beans)","number_of_item":4,"created_date":"2022-08-16 08:16:41"},"225":{"id":22280,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":225,"item_name":"Chhole Masala(Chhole Masala)","number_of_item":2,"created_date":"2022-08-16 08:17:10"}},"productDetails":{"status":"success","data":{"215":{"id":215,"price":"22.50","product_id":374,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Eye Beans","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"},"225":{"id":225,"price":"13.50","product_id":381,"merchant_id":3,"store_id":2,"merchant_product_code":"8901786091","product_name":"Chhole Masala","product_desc":"An exquisite blend of 24 pure spices, this is perhaps the most elaborate blend in the Everest repertoire. This blend is evenly balanced for taste and flavour and imparts a rare character to chhole, made from chickpeas.\nUsed almost invariably in a variety of preparations involving chickpeas - chhole being the most popular. Served hot with rotis or fluffy bhaturas, chhole is a regular fare for lunch and dinner in North India.","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"{\"Ingredients\":\"Asafoetida, Bishops Weed, Black Cardamom, Black Pepper, Black Salt, Cardamom, Cassia, Cassia Leaf, Chilli, Cloves, Cardamom Seeds, Cumin, Dry Ginger, Dry Mango, Fennel, Kachri, Mace, Mint Leaf, Mustard, Nutmeg, Pomegranate Seeds, Common Salt, Tamarind, Turmeric, Fennel Seeds.\",\"Preparation and Usage\":\"Before you begin: Soak 100 gms Kabuli Channa overnight. Cook and keep aside. Heat 3 tbsp of oil, fry 2 chopped onions till golden brown. Add 1 tsp each of coriander and chilli powder.\\nAdd 1 tbsp Everest Chhole Masala. Fry for 3 mins on a low flame. Add 1 chopped tomato, 3 slit green chillies and \\u00bd inch ginger, finely sliced. Add boiled chhole. Add salt, cook for 5 mins.\\nFor added flavour add 1\\\/2 tsp Everest Chaat Masala and Everest Kasuri Methi.\"}","brand_name":"EVEREST","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"374":[{"id":291,"type":"product","image_id":374,"image_name":"6033000220189.jpg"}],"381":[{"id":298,"type":"product","image_id":381,"image_name":"8901786091003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-20 14:29:33
+{"method":"getitemintocart","guest_user_id":"9fbba484f20b0a96"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 16:25:57
+{"method":"getitemintocart","guest_user_id":"aa62e05800d81475"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 16:25:58
+{"method":"getitemintocart","guest_user_id":"aa62e05800d81475"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 16:34:11
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"success","data":{"589":{"id":22633,"user_id":0,"guest_user_id":"855a22280e35a0fe","merchant_inventry_id":589,"item_name":"Guava - Fruit Juice(Guava - Fruit Juice)","number_of_item":1,"created_date":"2022-09-26 09:23:11"}},"productDetails":{"status":"success","data":{"589":{"id":589,"price":"12.99","product_id":873,"merchant_id":4,"store_id":4,"merchant_product_code":"X954   ","product_name":"Guava - Fruit Juice","product_desc":"Retreat from today\u2019s busy lifestyle with pure and refreshing indulgence from Mother Nature. Ceres has enriched 8 flavours in the 100% fruit juice range with fruit cells, letting you savour the moment and experience more of nature\u2019s goodness. Presented in sleek new packaging, the range is an oasis of flavour and texture, providing simplicity and clarity with every sip.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Shelf Life\":\"12-month shelf life\"}","brand_name":"Ceres","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"873":[{"id":800,"type":"product","image_id":873,"image_name":"873_1545115275.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-20 16:45:07
+{"method":"getitemintocart","guest_user_id":"aa62e05800d81475"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 17:27:21
+{"method":"getitemintocart","guest_user_id":"3b8c85e93d30c770"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 17:51:09
+{"method":"getitemintocart","guest_user_id":"cb29629fa78f576c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 17:51:36
+{"method":"getitemintocart","guest_user_id":"cb29629fa78f576c"}
+ Response :- 
+{"status":"success","data":{"207":{"id":22845,"user_id":0,"guest_user_id":"cb29629fa78f576c","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2022-11-20 17:51:33"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-20 17:52:25
+{"method":"getitemintocart","guest_user_id":"f0cbc2c134acee40"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 18:33:43
+{"method":"getitemintocart","guest_user_id":"50a7eba552aa9f99"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 18:33:44
+{"method":"getitemintocart","guest_user_id":"50a7eba552aa9f99"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-20 18:45:46
+{"method":"getitemintocart","guest_user_id":"18f1204b6573eb2e"}
+ Response :- 
+{"status":"success","data":{"215":{"id":22278,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":215,"item_name":"Black Eye Beans(Black Eye Beans)","number_of_item":4,"created_date":"2022-08-16 08:16:41"},"225":{"id":22280,"user_id":0,"guest_user_id":"18f1204b6573eb2e","merchant_inventry_id":225,"item_name":"Chhole Masala(Chhole Masala)","number_of_item":2,"created_date":"2022-08-16 08:17:10"}},"productDetails":{"status":"success","data":{"215":{"id":215,"price":"22.50","product_id":374,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Eye Beans","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"},"225":{"id":225,"price":"13.50","product_id":381,"merchant_id":3,"store_id":2,"merchant_product_code":"8901786091","product_name":"Chhole Masala","product_desc":"An exquisite blend of 24 pure spices, this is perhaps the most elaborate blend in the Everest repertoire. This blend is evenly balanced for taste and flavour and imparts a rare character to chhole, made from chickpeas.\nUsed almost invariably in a variety of preparations involving chickpeas - chhole being the most popular. Served hot with rotis or fluffy bhaturas, chhole is a regular fare for lunch and dinner in North India.","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"{\"Ingredients\":\"Asafoetida, Bishops Weed, Black Cardamom, Black Pepper, Black Salt, Cardamom, Cassia, Cassia Leaf, Chilli, Cloves, Cardamom Seeds, Cumin, Dry Ginger, Dry Mango, Fennel, Kachri, Mace, Mint Leaf, Mustard, Nutmeg, Pomegranate Seeds, Common Salt, Tamarind, Turmeric, Fennel Seeds.\",\"Preparation and Usage\":\"Before you begin: Soak 100 gms Kabuli Channa overnight. Cook and keep aside. Heat 3 tbsp of oil, fry 2 chopped onions till golden brown. Add 1 tsp each of coriander and chilli powder.\\nAdd 1 tbsp Everest Chhole Masala. Fry for 3 mins on a low flame. Add 1 chopped tomato, 3 slit green chillies and \\u00bd inch ginger, finely sliced. Add boiled chhole. Add salt, cook for 5 mins.\\nFor added flavour add 1\\\/2 tsp Everest Chaat Masala and Everest Kasuri Methi.\"}","brand_name":"EVEREST","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"374":[{"id":291,"type":"product","image_id":374,"image_name":"6033000220189.jpg"}],"381":[{"id":298,"type":"product","image_id":381,"image_name":"8901786091003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-20 21:20:42
+{"method":"getitemintocart","guest_user_id":"b4cc6b3fe612c514"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

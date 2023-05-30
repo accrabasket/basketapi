@@ -1,0 +1,5 @@
+
+ Request - 2022-06-08 15:23:02
+{"start_date":"2022-06-08","end_date":"2022-06-08","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2022-06-08":{"count":1,"created_date":"2022-06-08"}},"allOrderByDate":{"2022-06-08":{"count":8,"created_date":"2022-06-08"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":8,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

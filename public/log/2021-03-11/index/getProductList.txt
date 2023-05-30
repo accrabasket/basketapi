@@ -1,0 +1,21 @@
+
+ Request - 2021-03-11 03:20:26
+{"method":"getProductList","all_product":1,"page":1,"pagination":"pagination"}
+ Response :- 
+{"status":"fail","msg":"No record found "}
+ Request - 2021-03-11 03:21:06
+{"method":"getProductList","all_product":1,"page":1,"pagination":"pagination"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"item_code":"test123","product_name":"TestProduct","category_id":2,"promotion_id":0,"product_desc":"test","status":0,"tax_id":0,"discount_type":"","discount_value":"0","custom_info":null,"bullet_desc":null,"brand_name":"","nutrition":"","hotdeals":0,"offers":0,"new_arrival":0,"created_date":"2021-03-11 03:20:48","updated_date":"2021-03-11 03:20:48","category_name":"Testcategory","atribute":""}},"inventry_detail":[],"productimage":[],"attributeimage":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images","totalRecord":1}
+ Request - 2021-03-11 03:21:34
+{"id":"1","method":"getProductList","all_product":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"item_code":"test123","product_name":"TestProduct","category_id":2,"promotion_id":0,"product_desc":"test","status":0,"tax_id":0,"discount_type":"","discount_value":"0","custom_info":null,"bullet_desc":null,"brand_name":"","nutrition":"","hotdeals":0,"offers":0,"new_arrival":0,"created_date":"2021-03-11 03:20:48","updated_date":"2021-03-11 03:20:48","category_name":"Testcategory","atribute":""}},"inventry_detail":[],"productimage":[],"attributeimage":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images","totalRecord":1}
+ Request - 2021-03-11 03:21:38
+{"method":"getProductList","all_product":1,"page":1,"pagination":"pagination"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"item_code":"test123","product_name":"TestProduct","category_id":2,"promotion_id":0,"product_desc":"test","status":1,"tax_id":0,"discount_type":"","discount_value":"0","custom_info":null,"bullet_desc":null,"brand_name":"","nutrition":"","hotdeals":0,"offers":0,"new_arrival":0,"created_date":"2021-03-11 03:20:48","updated_date":"2021-03-11 03:20:48","category_name":"Testcategory","atribute":""}},"inventry_detail":[],"productimage":[],"attributeimage":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images","totalRecord":1}
+ Request - 2021-03-11 03:22:44
+{"method":"getProductList","all_product":1,"page":1,"pagination":"pagination"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"item_code":"test123","product_name":"TestProduct","category_id":2,"promotion_id":0,"product_desc":"test","status":1,"tax_id":0,"discount_type":"","discount_value":"0","custom_info":null,"bullet_desc":null,"brand_name":"","nutrition":"","hotdeals":0,"offers":0,"new_arrival":0,"created_date":"2021-03-11 03:20:48","updated_date":"2021-03-11 03:20:48","category_name":"Testcategory","atribute":""}},"inventry_detail":[],"productimage":[],"attributeimage":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images","totalRecord":1}

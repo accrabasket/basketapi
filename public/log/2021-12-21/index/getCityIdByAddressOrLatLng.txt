@@ -1,0 +1,29 @@
+
+ Request - 2021-12-21 07:08:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Hawija, العراق","lat":"35.3260993","lng":"43.7645181"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Hawija, Iraq"}}
+ Request - 2021-12-21 13:05:21
+{"method":"getCityIdByAddressOrLatLng","address":"Area 51, NV, USA","lat":"37.2430548","lng":"-115.7930198"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"859666V4+6Q"}}
+ Request - 2021-12-21 14:42:25
+{"method":"getCityIdByAddressOrLatLng","address":"SH 18, Khandak, Uttar Pradesh 243638, India","lat":"28.0688578","lng":"78.8196821"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3R99+GV Khandak, Uttar Pradesh, India"}}
+ Request - 2021-12-21 14:45:46
+{"method":"getCityIdByAddressOrLatLng","address":"SH 18, Khandak, Uttar Pradesh 243638, India","lat":"28.0688578","lng":"78.8196821"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3R99+GV Khandak, Uttar Pradesh, India"}}
+ Request - 2021-12-21 19:22:17
+{"method":"getCityIdByAddressOrLatLng","address":"Alamieyesegha, 569101, Nigeria","lat":"4.9471309","lng":"6.3447095"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W8WV+VV Biogbolo, Nigeria"}}
+ Request - 2021-12-21 19:45:16
+{"method":"getCityIdByAddressOrLatLng","address":"VX4J+XCM, Machar Colony, Karachi, Sindh, Pakistan","lat":"24.857329","lng":"66.9812441"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VX4J+XCM, Machar Colony, Karachi, Sindh, Pakistan"}}
+ Request - 2021-12-21 20:26:49
+{"method":"getCityIdByAddressOrLatLng","address":"FRG3+5VX, Freetown, Sierra Leone","lat":"8.4753897","lng":"-13.1951624"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FRG3+5VX, Freetown, Sierra Leone"}}

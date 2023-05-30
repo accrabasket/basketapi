@@ -1,0 +1,9 @@
+
+ Request - 2021-05-29 11:14:41
+{"order_id":"order_m4_631","rider_id":"20","method":"assignordertorider"}
+ Response :- 
+{"status":"success","msg":"order assigned to rider."}
+ Request - 2021-05-29 11:15:30
+{"order_id":"order_m2_758","rider_id":"20","method":"assignordertorider"}
+ Response :- 
+{"status":"success","msg":"order assigned to rider."}

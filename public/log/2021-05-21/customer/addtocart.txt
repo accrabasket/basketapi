@@ -1,0 +1,49 @@
+
+ Request - 2021-05-21 14:24:29
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 18:15:52
+{"method":"addtocart","guest_user_id":"51c3ad22cd7a69d2","number_of_item":"1","merchant_inventry_id":"3199","action":"add","item_name":"GHC 300 FRUIT BASKET(GHC 300 FRUIT BASKET)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 18:16:02
+{"method":"addtocart","guest_user_id":"51c3ad22cd7a69d2","number_of_item":"1","merchant_inventry_id":"3199","action":"delete","item_name":"GHC 300 FRUIT BASKET(GHC 300 FRUIT BASKET)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:30
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:38
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:40
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"388","action":"add","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:42
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"394","action":"add","item_name":"Natural Fresh Liquid Hand Wash - Soap Refill(Natural Fresh Liquid Hand Wash - Soap Refill)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:48
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"424","action":"add","item_name":"Aloe Vera - Shower Gel(Aloe Vera - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:53
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"427","action":"add","item_name":"Coconut - Shower Gel(Coconut - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:21:58
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"427","action":"add","item_name":"Coconut - Shower Gel(Coconut - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:22:12
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"431","action":"add","item_name":"Lemon - Shower Gel(Lemon - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-21 20:22:18
+{"method":"addtocart","guest_user_id":"c7e537e6de86eb61","number_of_item":"1","merchant_inventry_id":"431","action":"add","item_name":"Lemon - Shower Gel(Lemon - Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

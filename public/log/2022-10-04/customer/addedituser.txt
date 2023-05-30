@@ -1,0 +1,5 @@
+
+ Request - 2022-10-04 15:47:01
+{"method":"addedituser","city_id":"1","password":"Domani31","name":"Ohpar Adzo Quashie ","email":"mamayaa470@yahoo.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233545599561 and registered email id.","data":{"8856":{"id":8856,"name":"Ohpar Adzo Quashie ","mobile_number":"545599561","email":"mamayaa470@yahoo.com","key":"ada4c75c8c98b2762bc81516a7e1ee68","password":"85b9693a27b2b3aa897107730f7819f2","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-10-04 15:47:01","updated_date":"2022-10-04 15:47:01","status":"1"}}}

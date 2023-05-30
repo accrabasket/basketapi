@@ -1,0 +1,37 @@
+
+ Request - 2022-11-14 00:07:03
+{"method":"getitemintocart","user_id":"8856"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-14 11:05:33
+{"method":"getitemintocart","guest_user_id":"d3b46bece92a8f6f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-14 18:51:57
+{"method":"getitemintocart","guest_user_id":"611f850e5adc2819"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-14 18:53:37
+{"method":"getitemintocart","guest_user_id":"611f850e5adc2819"}
+ Response :- 
+{"status":"success","data":{"620":{"id":22839,"user_id":0,"guest_user_id":"611f850e5adc2819","merchant_inventry_id":620,"item_name":"Banana Flavoured Milk(Banana Flavoured Milk)","number_of_item":1,"created_date":"2022-11-14 18:53:37"}},"productDetails":{"status":"success","data":{"620":{"id":620,"price":"9.49","product_id":904,"merchant_id":4,"store_id":4,"merchant_product_code":"D494   ","product_name":"Banana Flavoured Milk","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Storage Instructions\":\"Keep refrigerated sfter opening (4 Deg C)\"}","brand_name":"INCOLAC","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"904":[{"id":1036,"type":"product","image_id":904,"image_name":"904_1551250939.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-14 18:53:46
+{"method":"getitemintocart","guest_user_id":"611f850e5adc2819"}
+ Response :- 
+{"status":"success","data":{"620":{"id":22839,"user_id":0,"guest_user_id":"611f850e5adc2819","merchant_inventry_id":620,"item_name":"Banana Flavoured Milk(Banana Flavoured Milk)","number_of_item":1,"created_date":"2022-11-14 18:53:37"},"356":{"id":22840,"user_id":0,"guest_user_id":"611f850e5adc2819","merchant_inventry_id":356,"item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)","number_of_item":1,"created_date":"2022-11-14 18:53:46"}},"productDetails":{"status":"success","data":{"356":{"id":356,"price":"9.00","product_id":488,"merchant_id":3,"store_id":2,"merchant_product_code":"5413721501","product_name":"UHT Milk-Full Cream","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"INCOLAC","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"15","unit":"liter","quantity":1,"tax_value":"3"},"620":{"id":620,"price":"9.49","product_id":904,"merchant_id":4,"store_id":4,"merchant_product_code":"D494   ","product_name":"Banana Flavoured Milk","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Storage Instructions\":\"Keep refrigerated sfter opening (4 Deg C)\"}","brand_name":"INCOLAC","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"488":[{"id":425,"type":"product","image_id":488,"image_name":"5413721501100.jpg"}],"904":[{"id":1036,"type":"product","image_id":904,"image_name":"904_1551250939.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-14 18:54:24
+{"method":"getitemintocart","guest_user_id":"611f850e5adc2819"}
+ Response :- 
+{"status":"success","data":{"620":{"id":22839,"user_id":0,"guest_user_id":"611f850e5adc2819","merchant_inventry_id":620,"item_name":"Banana Flavoured Milk(Banana Flavoured Milk)","number_of_item":1,"created_date":"2022-11-14 18:53:37"},"356":{"id":22840,"user_id":0,"guest_user_id":"611f850e5adc2819","merchant_inventry_id":356,"item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)","number_of_item":1,"created_date":"2022-11-14 18:53:46"}},"productDetails":{"status":"success","data":{"356":{"id":356,"price":"9.00","product_id":488,"merchant_id":3,"store_id":2,"merchant_product_code":"5413721501","product_name":"UHT Milk-Full Cream","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"INCOLAC","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"15","unit":"liter","quantity":1,"tax_value":"3"},"620":{"id":620,"price":"9.49","product_id":904,"merchant_id":4,"store_id":4,"merchant_product_code":"D494   ","product_name":"Banana Flavoured Milk","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Storage Instructions\":\"Keep refrigerated sfter opening (4 Deg C)\"}","brand_name":"INCOLAC","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"488":[{"id":425,"type":"product","image_id":488,"image_name":"5413721501100.jpg"}],"904":[{"id":1036,"type":"product","image_id":904,"image_name":"904_1551250939.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-11-14 19:14:31
+{"method":"getitemintocart","guest_user_id":"073e5d4e07ca26a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-14 19:14:46
+{"method":"getitemintocart","guest_user_id":"073e5d4e07ca26a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-11-14 22:47:59
+{"method":"getitemintocart","guest_user_id":"afedf297ae896c34"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,57 @@
+
+ Request - 2023-03-11 06:57:39
+{"method":"getCityIdByAddressOrLatLng","address":"8VC3+9PG, Nuapur, Odisha 756044, India","lat":"21.3206096","lng":"86.8538733"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 11:02:48
+{"method":"getCityIdByAddressOrLatLng","address":"FPW7+P4J, Jl. Sarolangun - Lubuk Linggau, Bukit Tigo, Kec. Singkut, Kabupaten Sarolangun, Jambi 37482, Indonesia","lat":"-2.5031366666666663","lng":"102.71273666666666"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:00
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:01
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:02
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:02
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:05
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:06
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 16:20:08
+{"method":"getCityIdByAddressOrLatLng","address":"C7QH+G7C، التاجي، العراق","lat":"33.4391734","lng":"44.2771473"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 17:13:29
+{"method":"getCityIdByAddressOrLatLng","address":"FW4F+337, La Paz, Bolivia","lat":"-16.5447502","lng":"-68.0773738"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 17:13:31
+{"method":"getCityIdByAddressOrLatLng","address":"FW4F+337, La Paz, Bolivia","lat":"-16.5447502","lng":"-68.0773738"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 17:13:32
+{"method":"getCityIdByAddressOrLatLng","address":"FW4F+337, La Paz, Bolivia","lat":"-16.5447502","lng":"-68.0773738"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 17:13:33
+{"method":"getCityIdByAddressOrLatLng","address":"FW4F+337, La Paz, Bolivia","lat":"-16.5447502","lng":"-68.0773738"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-11 17:14:01
+{"method":"getCityIdByAddressOrLatLng","address":"FW4F+337, La Paz, Bolivia","lat":"-16.5447502","lng":"-68.0773738"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

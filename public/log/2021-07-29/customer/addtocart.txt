@@ -1,0 +1,73 @@
+
+ Request - 2021-07-29 08:27:30
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"329","action":"add","item_name":"Soya Chunk(Soya Chunk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:27:56
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"381","action":"add","item_name":"Whole White Urid Dal(Whole White Urid Dal)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:28:20
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"1170","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:28:45
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:29:01
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"249","action":"add","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:33:07
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"249","action":"delete","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:33:51
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"267","action":"add","item_name":"Ground Turmeric (Powder)(Ground Turmeric (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:33:54
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"266","action":"add","item_name":"Ground Black Pepper (Powder)(Ground Black Pepper (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:34:35
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"249","action":"add","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:35:04
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"290","action":"add","item_name":"Meat Masala(Meat Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:35:15
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:35:25
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:35:45
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"1002","action":"add","item_name":"Onion Pwder(Onion Pwder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:35:57
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"372","action":"add","item_name":"Whole Black Pepper(Whole Black Pepper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:36:26
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"1172","action":"add","item_name":"Crushed Chilli(Crushed Chilli)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:38:47
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"272","action":"add","item_name":"Idlli Rice(Idlli Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:39:42
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"236","action":"add","item_name":"Corn Flour(Corn Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-29 08:40:04
+{"method":"addtocart","user_id":"559","number_of_item":"1","merchant_inventry_id":"267","action":"delete","item_name":"Ground Turmeric (Powder)(Ground Turmeric (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,141 @@
+
+ Request - 2021-08-28 01:11:58
+{"method":"getitemintocart","guest_user_id":"3b594aa679e791a0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 01:13:02
+{"method":"getitemintocart","guest_user_id":"9114a4918c4c170d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 01:13:05
+{"method":"getitemintocart","guest_user_id":"9114a4918c4c170d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 01:45:55
+{"method":"getitemintocart","guest_user_id":"516e6b48a8e27c47"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 07:39:02
+{"method":"getitemintocart","guest_user_id":"185e59102713186a"}
+ Response :- 
+{"status":"success","data":{"207":{"id":16991,"user_id":0,"guest_user_id":"185e59102713186a","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-08-27 17:12:15"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-28 07:40:39
+{"method":"getitemintocart","guest_user_id":"8e06901a894b97e9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 07:41:37
+{"method":"getitemintocart","guest_user_id":"8e06901a894b97e9"}
+ Response :- 
+{"status":"success","data":{"1292":{"id":16993,"user_id":0,"guest_user_id":"8e06901a894b97e9","merchant_inventry_id":1292,"item_name":"Miniatures Chocolate(Miniatures Chocolate)","number_of_item":1,"created_date":"2021-08-28 07:41:37"}},"productDetails":{"status":"success","data":{"1292":{"id":1292,"price":"26.49","product_id":1604,"merchant_id":4,"store_id":4,"merchant_product_code":"31438","product_name":"Miniatures Chocolate","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Bounty","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"g","quantity":150,"tax_value":"3"}},"productImageData":{"1604":[{"id":2715,"type":"product","image_id":1604,"image_name":"31438.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-28 07:41:40
+{"method":"getitemintocart","guest_user_id":"8e06901a894b97e9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 09:21:14
+{"method":"getitemintocart","guest_user_id":"2a6d9d3dfe5a523e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 10:34:45
+{"method":"getitemintocart","guest_user_id":"fd8c9d0ce09c5fa1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:30:44
+{"method":"getitemintocart","guest_user_id":"2a048dd73e96dccf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:31:18
+{"method":"getitemintocart","guest_user_id":"2a048dd73e96dccf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:33:51
+{"method":"getitemintocart","guest_user_id":"2a048dd73e96dccf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:45:12
+{"method":"getitemintocart","guest_user_id":"34239296d869a7fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:53:06
+{"method":"getitemintocart","guest_user_id":"89822c917524d15e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:56:32
+{"method":"getitemintocart","guest_user_id":"89822c917524d15e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:57:11
+{"method":"getitemintocart","guest_user_id":"89822c917524d15e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 13:58:57
+{"method":"getitemintocart","guest_user_id":"b044e903d45af4cf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 14:07:25
+{"method":"getitemintocart","guest_user_id":"89822c917524d15e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 14:30:38
+{"method":"getitemintocart","guest_user_id":"748ae296ec521ae9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 14:31:07
+{"method":"getitemintocart","guest_user_id":"748ae296ec521ae9"}
+ Response :- 
+{"status":"success","data":{"452":{"id":17001,"user_id":0,"guest_user_id":"748ae296ec521ae9","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-08-28 14:31:07"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-28 14:50:39
+{"method":"getitemintocart","guest_user_id":"be24fec0a321420c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 14:52:26
+{"method":"getitemintocart","guest_user_id":"be24fec0a321420c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 14:53:30
+{"method":"getitemintocart","guest_user_id":"be24fec0a321420c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 17:02:54
+{"method":"getitemintocart","guest_user_id":"9669e8fb3aefbaa8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 17:22:35
+{"method":"getitemintocart","guest_user_id":"b3de23c58299c26f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 17:22:56
+{"method":"getitemintocart","guest_user_id":"b3de23c58299c26f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 18:06:12
+{"method":"getitemintocart","guest_user_id":"d9cf77198575fb2c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 18:06:59
+{"method":"getitemintocart","guest_user_id":"d9cf77198575fb2c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 20:10:22
+{"method":"getitemintocart","guest_user_id":"bff8211bf223efc3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 20:46:28
+{"method":"getitemintocart","guest_user_id":"958a86b0501b8aee"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 20:46:51
+{"method":"getitemintocart","guest_user_id":"958a86b0501b8aee"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 20:52:55
+{"method":"getitemintocart","guest_user_id":"958a86b0501b8aee"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 20:59:40
+{"method":"getitemintocart","guest_user_id":"1f7f70093cd0624a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-28 21:00:10
+{"method":"getitemintocart","guest_user_id":"1f7f70093cd0624a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

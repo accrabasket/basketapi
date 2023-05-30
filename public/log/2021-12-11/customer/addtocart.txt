@@ -1,0 +1,13 @@
+
+ Request - 2021-12-11 09:29:17
+{"method":"addtocart","guest_user_id":"4c86bd0febb3d3a2","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-11 16:19:22
+{"method":"addtocart","user_id":"3091","number_of_item":"1","merchant_inventry_id":"3459","action":"add","item_name":"Growing Up Milk(Growing Up Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-11 16:20:31
+{"method":"addtocart","user_id":"3091","number_of_item":"1","merchant_inventry_id":"2900","action":"add","item_name":"Makdous - Stuffed Eggplants Pickles(Makdous - Stuffed Eggplants Pickles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

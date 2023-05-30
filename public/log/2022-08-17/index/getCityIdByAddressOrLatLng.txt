@@ -1,0 +1,13 @@
+
+ Request - 2022-08-17 08:36:01
+{"method":"getCityIdByAddressOrLatLng","address":"33 Ola Amusa Ave, Ikotun 102213, Lagos, Nigeria","lat":"6.5648645","lng":"3.2739233"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"33 Ola Amusa Ave, Ikotun 102213, Lagos, Nigeria"}}
+ Request - 2022-08-17 14:49:09
+{"method":"getCityIdByAddressOrLatLng","address":"RQFA8548، 8548 وادي الحمض، 3282، حي الفيحاء، Riyadh 14253, Saudi Arabia","lat":"24.6908895","lng":"46.8089599"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RQFA8548\u060c 8548 \u0648\u0627\u062f\u064a \u0627\u0644\u062d\u0645\u0636\u060c 3282\u060c \u062d\u064a \u0627\u0644\u0641\u064a\u062d\u0627\u0621\u060c Riyadh 14253, Saudi Arabia"}}
+ Request - 2022-08-17 16:28:30
+{"method":"getCityIdByAddressOrLatLng","address":"X89F+MWR, Leopard Town Rd, Naval Base 540281, Calabar, Nigeria","lat":"4.9690139","lng":"8.3247571"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X89F+MWR, Leopard Town Rd, Naval Base 540281, Calabar, Nigeria"}}

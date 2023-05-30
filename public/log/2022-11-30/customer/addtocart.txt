@@ -1,0 +1,13 @@
+
+ Request - 2022-11-30 23:27:52
+{"method":"addtocart","guest_user_id":"ea731ae5f61782b0","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-30 23:27:58
+{"method":"addtocart","guest_user_id":"ea731ae5f61782b0","number_of_item":"1","merchant_inventry_id":"226","action":"delete","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-30 23:28:04
+{"method":"addtocart","guest_user_id":"ea731ae5f61782b0","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,37 @@
+
+ Request - 2021-02-10 13:57:45
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 13:57:48
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 13:57:49
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 14:05:10
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 14:05:11
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 14:05:12
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 14:05:15
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 14:32:23
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-10 14:32:24
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

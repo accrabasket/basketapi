@@ -1,0 +1,5 @@
+
+ Request - 2021-01-11 08:54:08
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":1},"18":{"id":18,"promotion_name":"pr1","type":"percent","value":null,"promotion_sequence":2},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,29 @@
+
+ Request - 2021-11-10 07:21:19
+{"method":"getCityIdByAddressOrLatLng","address":"JC7R+P99, Samreboi, Ghana","lat":"5.6134523","lng":"-2.558647"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JC7R+P99, Samreboi, Ghana"}}
+ Request - 2021-11-10 07:21:22
+{"method":"getCityIdByAddressOrLatLng","address":"JC7R+P99, Samreboi, Ghana","lat":"5.6134523","lng":"-2.558647"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JC7R+P99, Samreboi, Ghana"}}
+ Request - 2021-11-10 10:04:50
+{"method":"getCityIdByAddressOrLatLng","address":"CRCR+RJ4, Tripoli, Lebanon","lat":"34.4220742","lng":"35.8417245"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CRCR+RJ4, Tripoli, Lebanon"}}
+ Request - 2021-11-10 10:04:50
+{"method":"getCityIdByAddressOrLatLng","address":"CRCR+RJ4, Tripoli, Lebanon","lat":"34.4220742","lng":"35.8417245"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CRCR+RJ4, Tripoli, Lebanon"}}
+ Request - 2021-11-10 12:09:24
+{"method":"getCityIdByAddressOrLatLng","address":"नरवाना मार्ग, Patran, Punjab 147105, भारत","lat":"29.9398235","lng":"76.069752"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W3Q9+WW Patran, Punjab, India"}}
+ Request - 2021-11-10 20:10:15
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Susuanso, Ghana","lat":"7.2532187","lng":"-2.2410417"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Susuanso, Ghana"}}
+ Request - 2021-11-10 20:10:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Susuanso, Ghana","lat":"7.2532187","lng":"-2.2410417"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Susuanso, Ghana"}}

@@ -1,0 +1,17 @@
+
+ Request - 2021-02-19 04:18:52
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-02-19 05:47:22
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":7}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-02-19 11:24:16
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-02-19 13:06:00
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":3}
+ Response :- 
+{"status":"success","data":true}

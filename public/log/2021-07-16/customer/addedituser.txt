@@ -1,0 +1,17 @@
+
+ Request - 2021-07-16 10:18:47
+{"method":"addedituser","city_id":"1","password":"popcaan1234","name":"popcaan unruly","email":"popcaan123@gmail.com","mobile_number":"209504008","country_code":"+233","id":"0","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233209504008 and registered email id.","data":{"3184":{"id":3184,"name":"popcaan unruly","mobile_number":"209504008","email":"popcaan123@gmail.com","key":"8da3f1fc8429ad09d641b8c26ff4b6b9","password":"6f29e8b41907210f5748594baad1a0d3","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-07-16 10:18:47","updated_date":"2021-07-16 10:18:47","status":"1"}}}
+ Request - 2021-07-16 10:21:13
+{"method":"addedituser","city_id":"1","password":"popcaan1234","name":"popcaan gibson","email":"popcaan112@gmail.com","mobile_number":"561418300","country_code":"+233","id":"0","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233561418300 and registered email id.","data":{"3185":{"id":3185,"name":"popcaan gibson","mobile_number":"561418300","email":"popcaan112@gmail.com","key":"acc22791603e6db02e67103c281a6532","password":"6f29e8b41907210f5748594baad1a0d3","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-07-16 10:21:13","updated_date":"2021-07-16 10:21:13","status":"1"}}}
+ Request - 2021-07-16 10:24:22
+{"method":"addedituser","city_id":"1","password":"gideon1234#","name":"Popcaan Unruly","email":"gideon1234@email.com","mobile_number":"561418300","country_code":"+233","id":"0","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-07-16 10:24:36
+{"method":"addedituser","city_id":"1","password":"gideon1234#","name":"Popcaan Unruly","email":"gideon1234@email.com","mobile_number":"505640629","country_code":"+233","id":"0","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233505640629 and registered email id.","data":{"3186":{"id":3186,"name":"Popcaan Unruly","mobile_number":"505640629","email":"gideon1234@email.com","key":"2c806469c3a9e3955344ced670d2f21b","password":"becd3da062779fa1b7387ca75d9a6b98","fcm_reg_id":"eno3ANkSeag:APA91bGcSO2OeeTEppyAQ1S_Z6E0bNZCegOHTNepBvTwcLEVfhrhjkcqPoAEbSk-4bo3MIYakB3vAcvKxa5C73ZTCGcnhOTpTwZv3uanW6sFu9iagkFkNPZrOPE_fmUFSV09R690ibzL","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-07-16 10:24:36","updated_date":"2021-07-16 10:24:36","status":"1"}}}

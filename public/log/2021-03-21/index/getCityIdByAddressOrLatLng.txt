@@ -1,0 +1,9 @@
+
+ Request - 2021-03-21 12:43:10
+{"method":"getCityIdByAddressOrLatLng","address":"M 23, M Block Market, 2nd floor, Greater Kailash-1, M Block, part 1, Greater Kailash, New Delhi, Delhi 110048, Inde","lat":"28.5497665","lng":"77.2357483"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"23, Greater Kailash-1, M Block, Greater Kailash I, Greater Kailash, New Delhi, Delhi 110048, India"}}
+ Request - 2021-03-21 19:42:37
+{"method":"getCityIdByAddressOrLatLng","address":"55 Avenue de la Nation, Koulouba, Ouagadougou, Burkina Faso","lat":"12.369716","lng":"-1.5255267"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"55 Avenue de la Nation, Koulouba, Ouagadougou, Burkina Faso"}}

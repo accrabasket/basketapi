@@ -1,0 +1,17 @@
+
+ Request - 2021-02-10 10:15:29
+{"method":"getCityIdByAddressOrLatLng","address":"40 Prempen II Avenue, Kumasi, Ghana","lat":"6.6949253","lng":"-1.6217229"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"40 Prempen II Avenue, Kumasi, Ghana"}}
+ Request - 2021-02-10 11:47:44
+{"method":"getCityIdByAddressOrLatLng","address":"Tarkwa, Ghana","lat":"5.301832","lng":"-1.9930466"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tarkwa, Ghana"}}
+ Request - 2021-02-10 15:45:18
+{"method":"getCityIdByAddressOrLatLng","address":"Kato, Ghana","lat":"7.4373634","lng":"-2.5629833"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kato, Ghana"}}
+ Request - 2021-02-10 20:15:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Antananarivo, Madagascar","lat":"-18.9014035","lng":"47.5070952"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Antananarivo, Madagascar"}}

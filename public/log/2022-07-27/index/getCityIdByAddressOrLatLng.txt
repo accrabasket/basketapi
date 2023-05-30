@@ -1,0 +1,33 @@
+
+ Request - 2022-07-27 06:38:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Liberia","lat":"7.1461468","lng":"-10.7992277"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"46W2+F8 Kamdbala Camp, Liberia"}}
+ Request - 2022-07-27 09:10:48
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Raya Parung - Ciputat No.7, Kedaung, Kec. Bojongsari, Kota Depok, Jawa Barat 16517, Indonesia","lat":"-6.3648792","lng":"106.7453948"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Raya Parung - Ciputat No.7, Kedaung, Kec. Bojongsari, Kota Depok, Jawa Barat 16517, Indonesia"}}
+ Request - 2022-07-27 09:15:04
+{"method":"getCityIdByAddressOrLatLng","address":"64MX+3F3, AH47, Near Railway Station, Bahodapur, Moti Jheel, Gwalior, Madhya Pradesh 474010, India","lat":"26.2328417","lng":"78.1486412"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"64MX+3F3, AH47, Near Railway Station, Bahodapur, Moti Jheel, Gwalior, Madhya Pradesh 474010, India"}}
+ Request - 2022-07-27 12:48:04
+{"method":"getCityIdByAddressOrLatLng","address":"WJQ7+P68, Kaliganj, Bangladesh","lat":"23.9395054","lng":"90.6132622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WJQ7+P68, Kaliganj, Bangladesh"}}
+ Request - 2022-07-27 15:55:38
+{"method":"getCityIdByAddressOrLatLng","address":"HF3J+W69, Ibeshe Tuntun Road, Ikorodu 104102, Ikorodu, Nigeria","lat":"6.5549567","lng":"3.4805107"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HF3J+W69, Ibeshe Tuntun Road, Ikorodu 104102, Ikorodu, Nigeria"}}
+ Request - 2022-07-27 18:37:20
+{"method":"getCityIdByAddressOrLatLng","address":"6X9W+F4V, کپڑا بازار, Dijkot, Faisalabad, Punjab, Pakistan","lat":"31.2189113","lng":"72.9953583"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6X9W+F4V, \u06a9\u067e\u0691\u0627 \u0628\u0627\u0632\u0627\u0631, Dijkot, Faisalabad, Punjab, Pakistan"}}
+ Request - 2022-07-27 19:26:02
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Mangga Ubi No.99, RT.5\/RW.7, Kapuk, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11710, Indonesia","lat":"-6.1489103","lng":"106.7601508"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Mangga Ubi No.99, RT.5\/RW.7, Kapuk, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11710, Indonesia"}}
+ Request - 2022-07-27 21:37:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.7416089","lng":"73.1462087"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P4RW+JF Islamabad, Pakistan"}}

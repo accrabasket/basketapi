@@ -1,0 +1,29 @@
+
+ Request - 2021-12-29 09:14:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bordha, Gujarat 391168, India","lat":"22.2453478","lng":"73.9343701"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6WWM+4P Bordha, Gujarat, India"}}
+ Request - 2021-12-29 10:50:41
+{"method":"getCityIdByAddressOrLatLng","address":"Borabanda, Borabanda Railway Station Rd, Allapur, Borabanda, Madhapur, Telangana 500018, India","lat":"17.4592482","lng":"78.4077667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Borabanda, Borabanda Railway Station Rd, Allapur, Borabanda, Madhapur, Telangana 500018, India"}}
+ Request - 2021-12-29 11:52:27
+{"method":"getCityIdByAddressOrLatLng","address":"BHAKTI RESIDENCY 7, KASHYAP PARK, OPP, Narayanwadi, Atladara, Vadodara, Gujarat 390013, India","lat":"22.2742499","lng":"73.146167"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"BHAKTI RESIDENCY 7, KASHYAP PARK, OPP, Narayanwadi, Atladara, Vadodara, Gujarat 390013, India"}}
+ Request - 2021-12-29 13:19:07
+{"method":"getCityIdByAddressOrLatLng","address":"GF4Q+QX4، سان خوسيه، ترلاك، الفلبين","lat":"15.5068918","lng":"120.4899479"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GF4Q+QX4, San Jose, Tarlac, Philippines"}}
+ Request - 2021-12-29 15:06:46
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 981114, Nigeria","lat":"7.4624403","lng":"9.2084242"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F665+X9 Buruku, Nigeria"}}
+ Request - 2021-12-29 20:44:43
+{"method":"getCityIdByAddressOrLatLng","address":"N4, Sénégal","lat":"13.6783711","lng":"-15.6568322"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N4, Senegal"}}
+ Request - 2021-12-29 22:11:56
+{"method":"getCityIdByAddressOrLatLng","address":"42HW+93F, N'Djamena, Tchad","lat":"12.1290345","lng":"15.0445999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"42HW+93F, N'Djamena, Chad"}}

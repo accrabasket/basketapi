@@ -1,0 +1,49 @@
+
+ Request - 2021-12-29 11:53:47
+{"method":"addtocart","guest_user_id":"eb1230ba1c2fa4b7","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 11:53:54
+{"method":"addtocart","guest_user_id":"eb1230ba1c2fa4b7","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 13:19:47
+{"method":"addtocart","guest_user_id":"27434d83f2bb3a4e","number_of_item":"1","merchant_inventry_id":"3728","action":"add","item_name":"Labneh Light(Labneh Light)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 13:20:27
+{"method":"addtocart","guest_user_id":"27434d83f2bb3a4e","number_of_item":"1","merchant_inventry_id":"3728","action":"add","item_name":"Labneh Light(Labneh Light)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 13:20:28
+{"method":"addtocart","guest_user_id":"27434d83f2bb3a4e","number_of_item":"1","merchant_inventry_id":"3728","action":"add","item_name":"Labneh Light(Labneh Light)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 13:20:30
+{"method":"addtocart","guest_user_id":"27434d83f2bb3a4e","number_of_item":"1","merchant_inventry_id":"3728","action":"add","item_name":"Labneh Light(Labneh Light)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 13:28:58
+{"method":"addtocart","guest_user_id":"27434d83f2bb3a4e","number_of_item":"1","merchant_inventry_id":"2618","action":"add","item_name":"Salt & Vinegar Chips(Salt & Vinegar Chips)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 22:13:22
+{"method":"addtocart","guest_user_id":"e39afdcb85b1c9c4","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 22:13:34
+{"method":"addtocart","guest_user_id":"e39afdcb85b1c9c4","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 22:13:50
+{"method":"addtocart","guest_user_id":"e39afdcb85b1c9c4","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-29 22:16:02
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-12-29 22:18:12
+{"method":"addtocart","guest_user_id":"e39afdcb85b1c9c4","number_of_item":"1","merchant_inventry_id":"814","action":"add","item_name":"Tomato Ketchup(Tomato Ketchup)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

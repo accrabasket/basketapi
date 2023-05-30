@@ -1,0 +1,13 @@
+
+ Request - 2022-03-30 06:27:00
+{"method":"addtocart","guest_user_id":"895b8bf490132302","number_of_item":"1","merchant_inventry_id":"3479","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-30 06:27:03
+{"method":"addtocart","guest_user_id":"895b8bf490132302","number_of_item":"1","merchant_inventry_id":"3479","action":"delete","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-30 07:59:40
+{"method":"addtocart","guest_user_id":"476874c35b31e901","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

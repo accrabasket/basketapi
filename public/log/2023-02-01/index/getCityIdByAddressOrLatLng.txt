@@ -1,0 +1,13 @@
+
+ Request - 2023-02-01 07:07:35
+{"method":"getCityIdByAddressOrLatLng","address":"4764+46Q, Bida-Abuja Rd, 901101, Abuja, Federal Capital Territory, Nigeria","lat":"9.1108397","lng":"7.2566885"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-01 07:08:07
+{"method":"getCityIdByAddressOrLatLng","address":"4764+46Q, Bida-Abuja Rd, 901101, Abuja, Federal Capital Territory, Nigeria","lat":"9.1108397","lng":"7.2566885"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-01 23:50:24
+{"method":"getCityIdByAddressOrLatLng","address":"9 Wuraola Ojo Cl, Isheri Olofin 102213, Lagos, Nigeria","lat":"6.5767448","lng":"3.2912188"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

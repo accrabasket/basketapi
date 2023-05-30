@@ -1,0 +1,9 @@
+
+ Request - 2021-07-20 12:36:10
+{"method":"getitemintocart","guest_user_id":"f47bb81cbdc2efbc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-20 16:42:19
+{"method":"getitemintocart","guest_user_id":"5e087d0bfb2c0d72"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

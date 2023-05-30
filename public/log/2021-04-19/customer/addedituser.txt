@@ -1,0 +1,5 @@
+
+ Request - 2021-04-19 08:10:35
+{"method":"addedituser","city_id":"1","password":"Wittyme","name":"Ohemaa baffour ","email":"cbaffour_awuah@st.ug.edu.gh","mobile_number":"505175495","country_code":"+233","id":"0","fcm_reg_id":"faSVyeS-zRM:APA91bG5czLU3S2jH1DH1vc15p2vF4dtjgJW-xW72W5nFlhbE-UskfuS6y5tMz5NFfzmUsi4E1DQ6Q7U4KIFewkJZ_pjGRH6-JvXOz28s8tuYK1PHoDukn37_5EFVxJ5Du5hljc0Lq79"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233505175495 and registered email id.","data":{"2422":{"id":2422,"name":"Ohemaa baffour ","mobile_number":"505175495","email":"cbaffour_awuah@st.ug.edu.gh","key":"7bbd956996e910a81a2f691f3449dba8","password":"bd7d6af9285d36cb4120eea7f6741bc4","fcm_reg_id":"faSVyeS-zRM:APA91bG5czLU3S2jH1DH1vc15p2vF4dtjgJW-xW72W5nFlhbE-UskfuS6y5tMz5NFfzmUsi4E1DQ6Q7U4KIFewkJZ_pjGRH6-JvXOz28s8tuYK1PHoDukn37_5EFVxJ5Du5hljc0Lq79","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-19 08:10:35","updated_date":"2021-04-19 08:10:35","status":"1"}}}

@@ -1,0 +1,73 @@
+
+ Request - 2021-02-21 07:43:20
+{"method":"addtocart","guest_user_id":"e9361298ecf2d5e6","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 07:43:36
+{"method":"addtocart","guest_user_id":"e9361298ecf2d5e6","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 07:44:30
+{"method":"addtocart","guest_user_id":"e9361298ecf2d5e6","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 07:44:40
+{"method":"addtocart","guest_user_id":"e9361298ecf2d5e6","number_of_item":"1","merchant_inventry_id":"458","action":"delete","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 07:45:03
+{"method":"addtocart","guest_user_id":"e9361298ecf2d5e6","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 08:58:22
+{"method":"addtocart","guest_user_id":"ed30581c81fb17af","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 08:58:27
+{"method":"addtocart","guest_user_id":"ed30581c81fb17af","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 08:58:27
+{"method":"addtocart","guest_user_id":"ed30581c81fb17af","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 08:58:33
+{"method":"addtocart","guest_user_id":"ed30581c81fb17af","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 08:58:37
+{"method":"addtocart","guest_user_id":"ed30581c81fb17af","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:21:03
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:21:06
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:21:09
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"213","action":"delete","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:21:10
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"213","action":"delete","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:21:41
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"249","action":"add","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:22:04
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"249","action":"add","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:22:05
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"249","action":"delete","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-21 14:22:05
+{"method":"addtocart","guest_user_id":"6c6450cd183839c5","number_of_item":"1","merchant_inventry_id":"249","action":"delete","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

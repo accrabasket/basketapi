@@ -1,0 +1,733 @@
+
+ Request - 2021-01-20 02:35:06
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 05:30:06
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 06:27:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 07:49:57
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:55:30
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:55:55
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":5576,"subject":"Order placed","msg":"New Order order_m4_451 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-19 00:59:06","updated_date":null},{"id":5574,"subject":"Order placed","msg":"New Order order_m4_450 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-19 00:57:23","updated_date":null},{"id":5572,"subject":"Order placed","msg":"New Order order_m4_449 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-19 00:53:48","updated_date":null},{"id":5570,"subject":"Order placed","msg":"New Order order_m4_448 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-18 15:23:20","updated_date":null},{"id":5568,"subject":"Order placed","msg":"New Order order_m4_447 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-18 15:20:25","updated_date":null},{"id":5566,"subject":"Order placed","msg":"New Order order_m4_446 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-17 14:54:31","updated_date":null},{"id":5560,"subject":"Order placed","msg":"New Order order_P_170 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-17 14:47:54","updated_date":null},{"id":5558,"subject":"Order placed","msg":"New Order order_m4_444 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-17 14:41:36","updated_date":null},{"id":5556,"subject":"Order placed","msg":"New Order order_m4_443 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-17 10:03:31","updated_date":null},{"id":5554,"subject":"Order placed","msg":"New Order order_m4_442 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-01-17 09:59:25","updated_date":null}],"totalRecord":36}
+ Request - 2021-01-20 12:56:02
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:56:21
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:56:42
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:57:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:57:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:58:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:58:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:59:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 12:59:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:00:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:00:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:01:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:01:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:02:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:02:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:03:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:03:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:04:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:04:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:05:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:05:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:06:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:06:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:07:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:07:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:08:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:08:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:09:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:09:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:10:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:10:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:11:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:11:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:12:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:12:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:13:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:13:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:14:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:14:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:15:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:15:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:16:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:16:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:17:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:17:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:18:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:18:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:19:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:19:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:20:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:20:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:21:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:21:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:22:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:22:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:23:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:23:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:24:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:24:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:25:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:25:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:26:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:26:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:27:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:27:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:28:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:28:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:29:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:29:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:30:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:30:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:31:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:31:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:32:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:32:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:33:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:33:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:34:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:34:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:35:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:35:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:36:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:36:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:37:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:37:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:38:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:38:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:39:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:39:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:40:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:40:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:41:06
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:41:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:42:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:42:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:43:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:43:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:44:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:44:45
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:45:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:45:45
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:46:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:46:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:47:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:47:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:48:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:48:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:49:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:49:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:50:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:50:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:51:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:51:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:52:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:52:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:53:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:53:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:54:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:54:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:55:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:55:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:56:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:56:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:57:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:57:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:58:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:58:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:59:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 13:59:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:00:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:00:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:01:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:01:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:02:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:02:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:03:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:03:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:04:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:04:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:05:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:05:44
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:06:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:07:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:08:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:09:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:10:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:11:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:12:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:13:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:14:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:15:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:16:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:17:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:18:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:19:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:20:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:21:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:22:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:23:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:24:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:25:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:26:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:27:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:28:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:29:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:30:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:31:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:32:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:33:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:34:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:35:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:36:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:37:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:38:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:39:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:40:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-01-20 14:41:03
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

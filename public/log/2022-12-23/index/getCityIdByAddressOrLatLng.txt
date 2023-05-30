@@ -1,0 +1,9 @@
+
+ Request - 2022-12-23 05:25:19
+{"method":"getCityIdByAddressOrLatLng","address":"2X2C+RFM, Kasari Road, Mirzanpur, Maharashtra 413406, India","lat":"18.0038361","lng":"75.9700907"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2X3C+G2 Bhalgaon, Maharashtra, India"}}
+ Request - 2022-12-23 14:26:49
+{"method":"getCityIdByAddressOrLatLng","address":"Kota, Rajasthan, India","lat":"25.2138156","lng":"75.8647527"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Chakna center oppo raipura petrolpump, 6V77+GWC, Mahaveer Nagar, Tilak Nagar, Nayapura, Kota, Rajasthan 324002, India"}}

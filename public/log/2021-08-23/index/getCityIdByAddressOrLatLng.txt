@@ -1,0 +1,29 @@
+
+ Request - 2021-08-23 11:25:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Maharashtra 441104, India","lat":"21.1875863","lng":"79.4758375"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Maharashtra 441104, India"}}
+ Request - 2021-08-23 15:12:10
+{"method":"getCityIdByAddressOrLatLng","address":"H43F+5FQ, Rupal, Gujarat 383030, India","lat":"23.5525784","lng":"73.1238251"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H43F+5FQ, Rupal, Gujarat 383030, India"}}
+ Request - 2021-08-23 15:27:46
+{"method":"getCityIdByAddressOrLatLng","address":"R7P4+4W4, Naugarh, Uttar Pradesh 232111, India","lat":"24.8352011","lng":"83.257793"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R7P4+4W4, Naugarh, Uttar Pradesh 232111, India"}}
+ Request - 2021-08-23 16:07:04
+{"method":"getCityIdByAddressOrLatLng","address":"Kolhapur, Maharashtra, India","lat":"16.7049873","lng":"74.24325270000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1325\/23, E Ward, Shivaji Udyam Nagar, Kolhapur, Maharashtra 416003, India"}}
+ Request - 2021-08-23 17:11:55
+{"method":"getCityIdByAddressOrLatLng","address":"বক্তাবলী রোড, ফতুল্লা, বাংলাদেশ","lat":"23.6124195","lng":"90.4681378"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Boktaboli Rd, Fatullah, Bangladesh"}}
+ Request - 2021-08-23 18:23:38
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Katgara, West Bengal 712308, India","lat":"23.0060027","lng":"88.0560645"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Katgara, West Bengal 712308, India"}}
+ Request - 2021-08-23 18:42:14
+{"method":"getCityIdByAddressOrLatLng","address":"RX4M+QVR، عمّان، الأردن","lat":"31.8053334","lng":"35.9825658"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RX4M+QVR, Amman, Jordan"}}

@@ -1,0 +1,17 @@
+
+ Request - 2021-01-22 00:18:18
+{"method":"getitemintocart","guest_user_id":"caf6f7842410563d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-22 01:39:57
+{"method":"getitemintocart","guest_user_id":"af2f2c3aba22f2dc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-22 21:06:55
+{"method":"getitemintocart","guest_user_id":"7936014b3ceb269a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-22 23:04:03
+{"method":"getitemintocart","user_id":"301"}
+ Response :- 
+{"status":"success","data":{"275":{"id":10620,"user_id":301,"guest_user_id":"","merchant_inventry_id":275,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2020-12-16 14:12:12"}},"productDetails":{"status":"success","data":{"275":{"id":275,"price":"19.50","product_id":422,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Cowbell Our Milk has become synonymous with quality and value. The vision of providing quality, affordable milk powder to the people of Africa has led Cowbell to be Africa\u2019s number one milk brand in small sachets.\r\nThe regular additions to the Cowbell product range are testament to the Group\u2019s commitment to the provision of innovative and value-added milk products. We have extended the brand into flavoured milks, UHT, condensed and evaporated as well as processed cheese. It is this dedication to service and consistency that has contributed to the continual success of Cowbell as a brand and Promasidor as a whole.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Skimmed Milk and Vegetable Fat Base\",\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\",\"Preparation and Usage\":\"Made with fresh skimmed cows' milk and vegetable fat, our powdered milk products dissolve easily in hot or cold water to instantly create a delicious beverage that contains no cholesterol and are enhanced with Vitarich, a fortified blend of vitamins A, C, D, E and K.\"}","brand_name":"Cowbell","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400}},"productImageData":{"422":[{"id":346,"type":"product","image_id":422,"image_name":"NEH00003.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,29 @@
+
+ Request - 2022-12-06 06:39:44
+{"method":"getitemintocart","guest_user_id":"bd909276edb3effa"}
+ Response :- 
+{"status":"success","data":{"3101":{"id":22867,"user_id":0,"guest_user_id":"bd909276edb3effa","merchant_inventry_id":3101,"item_name":"500 GHC(500 GHC)","number_of_item":2,"created_date":"2022-12-04 05:59:08"}},"productDetails":{"status":"success","data":{"3101":{"id":3101,"price":"500.00","product_id":3532,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"500 GHC","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":128,"custom_info":"","brand_name":"Gift Card","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"card","quantity":1,"tax_value":"3"}},"productImageData":{"3532":[{"id":4267,"type":"product","image_id":3532,"image_name":"3532_1602087576.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-06 12:52:30
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-06 12:52:30
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-06 12:52:53
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-06 15:10:13
+{"method":"getitemintocart","guest_user_id":"10c7f4a45a93be55"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-06 15:11:18
+{"method":"getitemintocart","guest_user_id":"10c7f4a45a93be55"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":22873,"user_id":0,"guest_user_id":"10c7f4a45a93be55","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":1,"created_date":"2022-12-06 15:11:18"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-06 15:11:22
+{"method":"getitemintocart","guest_user_id":"10c7f4a45a93be55"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":22873,"user_id":0,"guest_user_id":"10c7f4a45a93be55","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":1,"created_date":"2022-12-06 15:11:18"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

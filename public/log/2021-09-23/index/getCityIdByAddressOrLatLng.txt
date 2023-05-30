@@ -1,0 +1,49 @@
+
+ Request - 2021-09-23 02:33:43
+{"method":"getCityIdByAddressOrLatLng","address":"Ring Rd, near Durga Temple, Sambalpur, Odisha 768006, Inde","lat":"21.488932","lng":"83.937789"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ring Rd, Sambalpur, Odisha 768006, India"}}
+ Request - 2021-09-23 05:07:06
+{"method":"getCityIdByAddressOrLatLng","address":"Kabongo, Kenya","lat":"0.3960704","lng":"35.2556988"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kenya"}}
+ Request - 2021-09-23 12:48:16
+{"method":"getCityIdByAddressOrLatLng","address":"72HF+M47, Abidjan, Côte d'Ivoire","lat":"5.2787953","lng":"-3.9771606"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"72HF+M47, Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-09-23 13:39:11
+{"method":"getCityIdByAddressOrLatLng","address":"3G7V+GWX, Saint-Louis, Sénégal","lat":"16.0644913","lng":"-16.4543907"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3G7V+GWX, St Louis, Senegal"}}
+ Request - 2021-09-23 13:46:52
+{"method":"getCityIdByAddressOrLatLng","address":"Moçambique","lat":"-18.665695","lng":"35.529562"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Cheringoma, Mozambique"}}
+ Request - 2021-09-23 14:27:39
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-09-23 14:36:17
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Dakar, Sénégal","lat":"14.7722689","lng":"-17.3579502"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Dakar, Senegal"}}
+ Request - 2021-09-23 14:44:39
+{"method":"getCityIdByAddressOrLatLng","address":"Pavillon I, Dakar, Sénégal","lat":"14.68993262","lng":"-17.46288543"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Pavillon I, Dakar, Senegal"}}
+ Request - 2021-09-23 15:01:38
+{"method":"getCityIdByAddressOrLatLng","address":"Via Carlo Pisacane, 3, 43036 Fidenza PR, Italia","lat":"44.8617934","lng":"10.0754371"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Via Carlo Pisacane, 3, 43036 Fidenza PR, Italy"}}
+ Request - 2021-09-23 18:04:13
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bignona, Sénégal","lat":"12.7994563","lng":"-16.2277956"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bignona, Senegal"}}
+ Request - 2021-09-23 18:12:58
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bamako, Mali","lat":"12.5676742","lng":"-7.9749826"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bamako, Mali"}}
+ Request - 2021-09-23 21:05:25
+{"method":"getCityIdByAddressOrLatLng","address":"93150 Le Blanc-Mesnil, France","lat":"48.9392662","lng":"2.4698535"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"79-31 Rue Saint-Sa\u00ebns, 93150 Le Blanc-Mesnil, France"}}

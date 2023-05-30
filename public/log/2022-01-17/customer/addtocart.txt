@@ -1,0 +1,9 @@
+
+ Request - 2022-01-17 07:53:17
+{"method":"addtocart","guest_user_id":"73a2aa3b662ec1d5","number_of_item":"1","merchant_inventry_id":"1879","action":"add","item_name":"Hide&Seek Choco Rolls(Hide&Seek Choco Rolls)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-17 07:53:26
+{"method":"addtocart","guest_user_id":"73a2aa3b662ec1d5","number_of_item":"1","merchant_inventry_id":"1911","action":"add","item_name":"Hide&Seek Caffe Mocha Biscuit(Hide&Seek Caffe Mocha Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

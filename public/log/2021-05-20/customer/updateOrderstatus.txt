@@ -1,0 +1,5 @@
+
+ Request - 2021-05-20 12:24:46
+{"method":"updateOrderstatus","user_id":"2575","order_id":"order_P_244","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"2575","order_id":"order_P_244"}}

@@ -1,0 +1,29 @@
+
+ Request - 2022-01-03 07:39:15
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-03 09:11:37
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-03 09:12:46
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-03 09:17:24
+{"method":"getitemintocart","guest_user_id":"37a24f7e8bf09cc1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-03 11:48:03
+{"method":"getitemintocart","guest_user_id":"d002c555d1a59016"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-03 16:17:29
+{"method":"getitemintocart","guest_user_id":"978cd0def928599a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-03 23:08:38
+{"method":"getitemintocart","guest_user_id":"008b5cea51978a3b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,13 @@
+
+ Request - 2021-06-28 14:33:27
+{"method":"getCityIdByAddressOrLatLng","address":"295, Avenue Mbartoua, Bertoua, Cameroun","lat":"4.5767656","lng":"13.6836129"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"295, Avenue Mbartoua, Bertoua, Cameroon"}}
+ Request - 2021-06-28 15:48:17
+{"method":"getCityIdByAddressOrLatLng","address":"Plot F 8\/1, Block 2 Nazimabad, Karachi, Karachi City, Sindh 74600, Pakistan","lat":"24.9040304","lng":"67.0339859"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot F 8\/1, Block 2 Nazimabad, Karachi, Karachi City, Sindh 74600, Pakistan"}}
+ Request - 2021-06-28 18:25:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Motikhavdi, Gujarat 361280, ભારત","lat":"22.3626994","lng":"69.8554596"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Motikhavdi, Gujarat 361280, India"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-03-31 20:52:40
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"2986","action":"add","item_name":"Chantilly Cream - Vanilla(Chantilly Cream - Vanilla)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

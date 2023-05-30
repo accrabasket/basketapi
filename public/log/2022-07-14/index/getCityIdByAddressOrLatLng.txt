@@ -1,0 +1,21 @@
+
+ Request - 2022-07-14 00:25:26
+{"method":"getCityIdByAddressOrLatLng","address":"كما السلام","lat":"32.1874636","lng":"34.9724195"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8G4P5XPC+XX"}}
+ Request - 2022-07-14 07:12:17
+{"method":"getCityIdByAddressOrLatLng","address":"24 Isolo Rd, Mushin 102215, Lagos, Nigeria","lat":"6.5283884","lng":"3.3519586"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"24 Isolo Rd, Mushin 102215, Lagos, Nigeria"}}
+ Request - 2022-07-14 09:58:09
+{"method":"getCityIdByAddressOrLatLng","address":"RMHP+C4G, Hassan Abdal, Attock, Punjab, Pakistan","lat":"33.8283769","lng":"72.685611"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RMHP+C4G, Hassan Abdal, Attock, Punjab, Pakistan"}}
+ Request - 2022-07-14 14:50:43
+{"method":"getCityIdByAddressOrLatLng","address":"Minna-Bida Rd, 912104, Nigeria","lat":"9.3738279","lng":"6.3101469"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"98F6+G3 Maar, Nigeria"}}
+ Request - 2022-07-14 23:45:41
+{"method":"getCityIdByAddressOrLatLng","address":"A1, Laoudi-Ba, Côte d'Ivoire","lat":"8.2915595","lng":"-2.9642768"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"72RP+J7 Laoudi-Ba, C\u00f4te d'Ivoire"}}

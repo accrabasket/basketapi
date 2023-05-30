@@ -1,0 +1,25 @@
+
+ Request - 2021-10-01 13:05:04
+{"method":"getCityIdByAddressOrLatLng","address":"31 Kofi Annan St, Accra, Ghana","lat":"5.6153348","lng":"-0.1836152"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"31 Kofi Annan St, Accra, Ghana"}}
+ Request - 2021-10-01 13:14:47
+{"method":"getCityIdByAddressOrLatLng","address":"31 Kofi Annan St, Accra, Ghana","lat":"5.6153348","lng":"-0.1836152"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"31 Kofi Annan St, Accra, Ghana"}}
+ Request - 2021-10-01 16:56:37
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Abidjan, Côte d'Ivoire","lat":"5.3554008","lng":"-3.9296762"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-10-01 17:40:50
+{"method":"getCityIdByAddressOrLatLng","address":"3R4H+3PC, Шахрисабз, Узбекистан","lat":"39.0552302","lng":"66.829169"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3R4H+3PC, Shahrisabz, Uzbekistan"}}
+ Request - 2021-10-01 19:42:02
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kolda, Sénégal","lat":"12.8981445","lng":"-14.929577"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V3XC+75 Kolda, Senegal"}}
+ Request - 2021-10-01 22:27:02
+{"method":"getCityIdByAddressOrLatLng","address":"H24G+W4V، الرمثا، الأردن","lat":"32.5567046","lng":"36.0252525"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H24G+W4V, Ar-Ramtha, Jordan"}}

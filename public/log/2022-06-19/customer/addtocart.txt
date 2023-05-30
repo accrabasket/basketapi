@@ -1,0 +1,5 @@
+
+ Request - 2022-06-19 13:58:24
+{"method":"addtocart","guest_user_id":"11ab055b06f126a4","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

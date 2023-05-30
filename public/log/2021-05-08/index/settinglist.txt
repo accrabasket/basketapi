@@ -1,0 +1,5 @@
+
+ Request - 2021-05-08 08:11:44
+{"method":"settinglist"}
+ Response :- 
+{"status":"success","data":{"id":1,"minimum_order":"100.00","free_delivery":"1000.00","shipping_charges":"17.00"}}

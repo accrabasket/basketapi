@@ -1,0 +1,29 @@
+
+ Request - 2022-08-05 03:36:28
+{"method":"getCityIdByAddressOrLatLng","address":"Mararaba-Makutu-Mapi Rd, 920102, Minna, Nigeria","lat":"9.5474269","lng":"6.5825095"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GHWM+X2 Matumbi, Nigeria"}}
+ Request - 2022-08-05 03:42:43
+{"method":"getCityIdByAddressOrLatLng","address":"Lamba Maira Road, Jhangi Rd, opposite Masjid Muhabat khan, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan","lat":"34.181862","lng":"73.2276952"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Lamba Maira Road, Jhangi Rd, opposite Masjid Muhabat khan, Jhangi Syedan Abbottabad, Khyber Pakhtunkhwa, Pakistan"}}
+ Request - 2022-08-05 05:18:20
+{"method":"getCityIdByAddressOrLatLng","address":"83CV+W9Q, Harar, Ethiopia","lat":"9.3223387","lng":"42.0934816"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"83CV+W9Q, Harar, Ethiopia"}}
+ Request - 2022-08-05 07:18:38
+{"method":"getCityIdByAddressOrLatLng","address":"H4F5+XVR, Niamey, Niger","lat":"13.5747765","lng":"2.109895"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H4F5+XVR, Niamey, Niger"}}
+ Request - 2022-08-05 09:05:36
+{"method":"getCityIdByAddressOrLatLng","address":"Star Badminton Club Rd Morha Bari","lat":"33.1746058","lng":"73.8532662"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8J5M5VF3+R8"}}
+ Request - 2022-08-05 10:12:12
+{"method":"getCityIdByAddressOrLatLng","address":"HPGJ+P6C, Waru, Kec. Parung, Kabupaten Bogor, Jawa Barat 16330, Indonesia","lat":"-6.4231789","lng":"106.7304723"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HPGJ+P6C, Waru, Parung, Bogor Regency, West Java 16330, Indonesia"}}
+ Request - 2022-08-05 19:41:11
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Lachhmipur, Bihar 854104, India","lat":"25.47633","lng":"87.50296666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FGG3+G5 Lachhmipur, Bihar, India"}}

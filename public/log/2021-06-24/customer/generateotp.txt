@@ -1,0 +1,5 @@
+
+ Request - 2021-06-24 22:22:35
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0543683916"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330543683916","otp_type":"register","user_id":"0","otp":8329,"expiry_date":"2021-06-24 22:37:35"}}

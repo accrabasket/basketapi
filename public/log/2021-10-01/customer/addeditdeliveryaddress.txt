@@ -1,0 +1,5 @@
+
+ Request - 2021-10-01 13:20:01
+{"method":"addeditdeliveryaddress","house_number":"wienco agriculture","area":"","street_detail":"Kofi Annan street","contact_name":"Gladys","city_name":"31 Kofi Annan St, Accra, Ghana","city_id":"1","lat":"5.6153348","long":"-0.1836152","user_id":"4757","address_nickname":"nyaho","landmark":"Kofi Annan street","zipcode":"43437"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":522}}

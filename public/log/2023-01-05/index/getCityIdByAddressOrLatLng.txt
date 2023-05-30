@@ -1,0 +1,9 @@
+
+ Request - 2023-01-05 12:40:12
+{"method":"getCityIdByAddressOrLatLng","address":"8QXW+V52, ጅጅጋ, ኢትዮጵያ","lat":"9.3496694","lng":"42.7953659"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8QXW+V52, Jijiga, Ethiopia"}}
+ Request - 2023-01-05 23:46:40
+{"method":"getCityIdByAddressOrLatLng","address":"38 Rue NDS-03, Saint-Louis, Sénégal","lat":"16.0204841","lng":"-16.4910612"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"38 Rue NDS-03, Saint-Louis, Senegal"}}

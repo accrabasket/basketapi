@@ -1,0 +1,5 @@
+
+ Request - 2021-09-06 04:36:40
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

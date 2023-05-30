@@ -1,0 +1,53 @@
+
+ Request - 2021-06-26 05:39:54
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 05:40:29
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"success","data":{"232":{"id":15768,"user_id":800,"guest_user_id":"","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin","number_of_item":1,"created_date":"2021-06-26 05:40:29"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-26 05:40:32
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 05:40:33
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"success","data":{"232":{"id":15769,"user_id":800,"guest_user_id":"","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin","number_of_item":1,"created_date":"2021-06-26 05:40:33"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-26 06:54:40
+{"method":"getitemintocart","guest_user_id":"ea27e971158ecc6c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 07:39:59
+{"method":"getitemintocart","guest_user_id":"d3f2b88e9fb3d536"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 10:45:57
+{"method":"getitemintocart","guest_user_id":"1cdc9db04c867900"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 12:15:57
+{"method":"getitemintocart","guest_user_id":"6fa8fc466138fd88"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 12:16:53
+{"method":"getitemintocart","guest_user_id":"6fa8fc466138fd88"}
+ Response :- 
+{"status":"success","data":{"207":{"id":15770,"user_id":0,"guest_user_id":"6fa8fc466138fd88","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-06-26 12:16:53"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-06-26 13:57:28
+{"method":"getitemintocart","guest_user_id":"de0eedf4f68ef351"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 14:24:13
+{"method":"getitemintocart","guest_user_id":"de0eedf4f68ef351"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 15:04:19
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-26 17:40:57
+{"method":"getitemintocart","guest_user_id":"080c10075c09428e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

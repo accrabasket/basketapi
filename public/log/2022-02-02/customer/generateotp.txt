@@ -1,0 +1,9 @@
+
+ Request - 2022-02-02 12:10:19
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"07063766018"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23307063766018","otp_type":"register","user_id":"0","otp":2431,"expiry_date":"2022-02-02 12:25:19"}}
+ Request - 2022-02-02 12:11:18
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"07063766018"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23307063766018","otp_type":"register","user_id":"0","otp":5214,"expiry_date":"2022-02-02 12:26:18"}}

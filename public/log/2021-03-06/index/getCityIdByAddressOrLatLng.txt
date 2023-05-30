@@ -1,0 +1,17 @@
+
+ Request - 2021-03-06 01:56:16
+{"method":"getCityIdByAddressOrLatLng","address":"Bernarda Chrzanowskiego 82\/3, 80-278 Gdańsk, Pologne","lat":"54.3875507","lng":"18.5771061"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Bernarda Chrzanowskiego 82, 80-278 Gda\u0144sk, Poland"}}
+ Request - 2021-03-06 12:09:56
+{"method":"getCityIdByAddressOrLatLng","address":"1 Bright Street, GRA, Onitsha, Nigeria","lat":"6.1526903","lng":"6.7756665"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1 Bright Street, GRA, Onitsha, Nigeria"}}
+ Request - 2021-03-06 13:06:47
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Guéckédou, Guinée","lat":"8.5607423","lng":"-10.1340039"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Gu\u00e9ck\u00e9dou, Guinea"}}
+ Request - 2021-03-06 22:09:30
+{"method":"getCityIdByAddressOrLatLng","address":"71 الوحدة العربية، الخصوص، عين شمس، محافظة القاهرة‬، مصر","lat":"30.1292057","lng":"31.348505"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"71 Al Wehda Al Arabeya, Al Khosous, Ein Shams, Cairo Governorate, Egypt"}}

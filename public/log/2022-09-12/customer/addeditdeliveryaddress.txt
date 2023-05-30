@@ -1,0 +1,5 @@
+
+ Request - 2022-09-12 10:06:04
+{"method":"addeditdeliveryaddress","house_number":"3 Coconut Avenue\nHouse No- C 670\/3\nAsylum down\n\nAccra, Ghana\nWest Africa","area":"","street_detail":"asylum down ","contact_name":"Hritika","city_name":"06 Afram Ln, Accra, Ghana","city_id":"1","lat":"5.5682754","long":"-0.2040942","user_id":"8758","address_nickname":"hritika ","landmark":"Close to Happy Fm","zipcode":"00233"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":660}}

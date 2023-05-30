@@ -1,0 +1,5 @@
+
+ Request - 2021-06-12 11:28:47
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0592489461"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330592489461","otp_type":"register","user_id":"0","otp":2185,"expiry_date":"2021-06-12 11:43:47"}}

@@ -1,0 +1,33 @@
+
+ Request - 2022-07-17 04:41:02
+{"method":"getitemintocart","guest_user_id":"136acb0c3b99d1ce"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-17 16:21:20
+{"method":"getitemintocart","guest_user_id":"538866635107a709"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-17 18:52:18
+{"method":"getitemintocart","guest_user_id":"26e30f28b13a9e39"}
+ Response :- 
+{"status":"success","data":{"2067":{"id":21967,"user_id":0,"guest_user_id":"26e30f28b13a9e39","merchant_inventry_id":2067,"item_name":"Black Barrel Whiskey(Black Barrel Whiskey)","number_of_item":1,"created_date":"2022-07-08 19:39:47"}},"productDetails":{"status":"success","data":{"2067":{"id":2067,"price":"133.00","product_id":2401,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL512","product_name":"Black Barrel Whiskey","product_desc":"Charring is an age-old method for invigorating barrels to intensify the taste. Jameson Black Barrel is our tribute to our coopers, who painstakingly give their bourbon barrels an additional charring to reveal their untold richness and complexity. The select double charred barrels produce a whiskey with even richer flavor and intense smoothness.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"2401":[{"id":3478,"type":"product","image_id":2401,"image_name":"AFL512.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-17 19:22:05
+{"method":"getitemintocart","guest_user_id":"d4b6479636bb3aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-17 19:22:08
+{"method":"getitemintocart","guest_user_id":"d4b6479636bb3aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-17 19:22:44
+{"method":"getitemintocart","guest_user_id":"d4b6479636bb3aa3"}
+ Response :- 
+{"status":"success","data":{"459":{"id":22083,"user_id":0,"guest_user_id":"d4b6479636bb3aa3","merchant_inventry_id":459,"item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)","number_of_item":1,"created_date":"2022-07-17 19:22:43"}},"productDetails":{"status":"success","data":{"459":{"id":459,"price":"99.99","product_id":742,"merchant_id":4,"store_id":4,"merchant_product_code":"14737","product_name":"Carta Blanca Superior White Rum","product_desc":"Don Facundo spent ten years perfecting his BACARDI Carta Blanca. Smooth and subtle with notes of almond and vanilla, it doesnt dominate like gin or disappear like vodka. Perfect for classic rum cocktails like the Mojito.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bacardi","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"L","quantity":1,"tax_value":"3"}},"productImageData":{"742":[{"id":2658,"type":"product","image_id":742,"image_name":"14737.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-17 19:22:48
+{"method":"getitemintocart","guest_user_id":"d4b6479636bb3aa3"}
+ Response :- 
+{"status":"success","data":{"459":{"id":22083,"user_id":0,"guest_user_id":"d4b6479636bb3aa3","merchant_inventry_id":459,"item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)","number_of_item":1,"created_date":"2022-07-17 19:22:43"}},"productDetails":{"status":"success","data":{"459":{"id":459,"price":"99.99","product_id":742,"merchant_id":4,"store_id":4,"merchant_product_code":"14737","product_name":"Carta Blanca Superior White Rum","product_desc":"Don Facundo spent ten years perfecting his BACARDI Carta Blanca. Smooth and subtle with notes of almond and vanilla, it doesnt dominate like gin or disappear like vodka. Perfect for classic rum cocktails like the Mojito.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bacardi","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"L","quantity":1,"tax_value":"3"}},"productImageData":{"742":[{"id":2658,"type":"product","image_id":742,"image_name":"14737.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-17 20:55:31
+{"method":"getitemintocart","guest_user_id":"b5c8e371ac3b3623"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

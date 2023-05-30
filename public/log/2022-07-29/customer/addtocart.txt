@@ -1,0 +1,13 @@
+
+ Request - 2022-07-29 09:39:18
+{"method":"addtocart","guest_user_id":"6976b666db740762","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-29 14:04:42
+{"method":"addtocart","guest_user_id":"455c33bdb0a3c866","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-29 14:04:44
+{"method":"addtocart","guest_user_id":"455c33bdb0a3c866","number_of_item":"1","merchant_inventry_id":"2521","action":"delete","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

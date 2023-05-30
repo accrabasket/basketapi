@@ -1,0 +1,13 @@
+
+ Request - 2021-01-18 14:19:13
+{"method":"getCityIdByAddressOrLatLng","address":"580001, Dwaravatika Main Rd, CITB Housing Layout, Sai Nagar, Rani Chennamma Nagar, Dharwad, Karnataka 580007, India","lat":"15.4568393","lng":"74.9843441"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"580001, Dwaravatika Main Rd, CITB Housing Layout, Sai Nagar, Rani Chennamma Nagar, Dharwad, Karnataka 580007, India"}}
+ Request - 2021-01-18 16:04:40
+{"method":"getCityIdByAddressOrLatLng","address":"24 Place de la République, 64100 Bayonne, France","lat":"43.495895","lng":"-1.4690938"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"24 Place de la R\u00e9publique, 64100 Bayonne, France"}}
+ Request - 2021-01-18 20:11:00
+{"method":"getCityIdByAddressOrLatLng","address":"68V, проспект Правди, 68В, Київ, Украина, 02000","lat":"50.5066952","lng":"30.4289202"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"68V, Pravdy Ave, 68\u0412, Kyiv, Ukraine, 02000"}}

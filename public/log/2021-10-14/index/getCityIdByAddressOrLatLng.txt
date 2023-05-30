@@ -1,0 +1,13 @@
+
+ Request - 2021-10-14 04:59:17
+{"method":"getCityIdByAddressOrLatLng","address":"N.T.M. Building,1st Floor, 17-C, Vannarpet, Coonoor, Tamil Nadu 643101, India","lat":"11.3449059","lng":"76.7944414"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N.T.M. Building,1st Floor, 17-C, Vannarpet, Coonoor, Tamil Nadu 643101, India"}}
+ Request - 2021-10-14 12:08:17
+{"method":"getCityIdByAddressOrLatLng","address":"College Rd, Gafargaon, Bangladesh","lat":"24.450788333333335","lng":"90.55744333333332"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FH24+8X Gafargaon, Bangladesh"}}
+ Request - 2021-10-14 15:41:11
+{"method":"getCityIdByAddressOrLatLng","address":"B5, Kenya","lat":"-0.3757952","lng":"36.935129"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JWFP+M3 Nyeri, Kenya"}}

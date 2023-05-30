@@ -1,0 +1,5 @@
+
+ Request - 2021-09-10 14:00:10
+{"method":"addeditdeliveryaddress","house_number":"+233265371226","area":"","street_detail":"sabun kudi estates roko down opposite presby church, 2nd floor","contact_name":"M","city_name":"Fifth Link, Accra, Ghana","city_id":"1","lat":"5.5886147","long":"-0.2122953","user_id":"4305","address_nickname":"new town","landmark":"new town","zipcode":"1234"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":516}}

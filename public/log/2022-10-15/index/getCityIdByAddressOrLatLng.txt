@@ -1,0 +1,9 @@
+
+ Request - 2022-10-15 03:48:56
+{"method":"getCityIdByAddressOrLatLng","address":"5X59+39X, Bamboi, Ghana","lat":"8.1583224","lng":"-2.0326764"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5X59+39X, Bamboi, Ghana"}}
+ Request - 2022-10-15 17:11:56
+{"method":"getCityIdByAddressOrLatLng","address":"Gg. Masjid No.34, RT.3\/RW.5, Sukatani, Kec. Tapos, Kota Depok, Jawa Barat 16454, Indonesia","lat":"-6.3957241","lng":"106.8955603"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Gg. Masjid No.34, RT.3\/RW.5, Sukatani, Kec. Tapos, Kota Depok, Jawa Barat 16454, Indonesia"}}

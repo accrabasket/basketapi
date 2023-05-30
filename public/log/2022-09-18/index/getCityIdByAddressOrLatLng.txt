@@ -1,0 +1,17 @@
+
+ Request - 2022-09-18 03:59:39
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2022-09-18 14:28:25
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Vidyasagarpur, Kharagpur, West Bengal 721301, India","lat":"22.3514695","lng":"87.3247511"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"982F+HW Kharagpur, West Bengal, India"}}
+ Request - 2022-09-18 14:36:04
+{"method":"getCityIdByAddressOrLatLng","address":"GRFC+V35, Bangladesh","lat":"23.5243409","lng":"90.8206899"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GRFC+V35, Bangladesh"}}
+ Request - 2022-09-18 17:17:51
+{"method":"getCityIdByAddressOrLatLng","address":"7583+F6M, Wara Kumharan, Kasur, Punjab, Pakistan","lat":"31.2667702","lng":"74.1535397"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7583+F6M, Wara Kumharan, Kasur, Punjab, Pakistan"}}

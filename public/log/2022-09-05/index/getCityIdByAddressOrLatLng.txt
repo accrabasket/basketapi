@@ -1,0 +1,25 @@
+
+ Request - 2022-09-05 03:14:32
+{"method":"getCityIdByAddressOrLatLng","address":"8FWJ+WJG, Bishambharpur, Bihar 841232, India","lat":"26.347436666666667","lng":"84.48088666666666"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8FWJ+WJG, Bishambharpur, Bihar 841232, India"}}
+ Request - 2022-09-05 05:44:43
+{"method":"getCityIdByAddressOrLatLng","address":"C83F+R8, Godomey, Bénin","lat":"6.4036763","lng":"2.3232407"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C83F+R8, Godomey, Benin"}}
+ Request - 2022-09-05 09:07:53
+{"method":"getCityIdByAddressOrLatLng","address":"Number 3 Agua Road, 310119, Irrua, Nigeria","lat":"6.7486942","lng":"6.2278057"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Number 3 Agua Road, 310119, Irrua, Nigeria"}}
+ Request - 2022-09-05 10:57:22
+{"method":"getCityIdByAddressOrLatLng","address":"chand park multani qalooni Aliya town, J93H+6FF, Mehmood Booti, Lahore, Punjab, Pakistan","lat":"31.603043","lng":"74.3784494"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"chand park multani qalooni Aliya town, J93H+6FF, Mehmood Booti, Lahore, Punjab, Pakistan"}}
+ Request - 2022-09-05 16:16:21
+{"method":"getCityIdByAddressOrLatLng","address":"HJ33+68M Lala Park (Lala Bazar), Bishnupur, Assam 788163, India","lat":"24.5532735","lng":"92.603237"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HJ33+68M Lala Park (Lala Bazar), Bishnupur, Assam 788163, India"}}
+ Request - 2022-09-05 20:00:26
+{"method":"getCityIdByAddressOrLatLng","address":"WCQ4+CX6، سوق الشيوخ، العراق","lat":"30.937865","lng":"46.40688"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WCQ4+CX6, Suq Al-Shuyukh, Iraq"}}

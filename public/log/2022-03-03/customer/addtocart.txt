@@ -1,0 +1,61 @@
+
+ Request - 2022-03-03 06:35:46
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:35:50
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:35:51
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:35:58
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"654","action":"add","item_name":"Filled Evaporated Milk - Green(Filled Evaporated Milk - Green)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:07
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"3808","action":"add","item_name":"Onion Local(Onion Local)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:10
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:11
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:23
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:33
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:34
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"2833","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:36:36
+{"method":"addtocart","guest_user_id":"d8b8249640d376ef","number_of_item":"1","merchant_inventry_id":"3410","action":"add","item_name":"Beef Salami(Beef Salami)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 06:37:03
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-03-03 21:57:16
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"441","action":"delete","item_name":"Sabudana(Sabudana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 21:57:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2895","action":"delete","item_name":"Jasmine Vietnam Long Grain Rice(Jasmine Vietnam Long Grain Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-03 21:57:40
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"243","action":"delete","item_name":"Deggi Mirch(Deggi Mirch)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2021-09-17 07:26:53
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":6}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-09-17 07:29:04
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":4}
+ Response :- 
+{"status":"success","data":true}

@@ -1,0 +1,9 @@
+
+ Request - 2021-01-13 09:10:01
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-01-13 12:16:21
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}

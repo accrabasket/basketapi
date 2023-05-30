@@ -1,0 +1,9 @@
+
+ Request - 2021-12-10 00:34:26
+{"method":"getCityIdByAddressOrLatLng","address":"27GV+2JF, Bangladesh","lat":"24.025132","lng":"90.2937398"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"27GV+2JF, Bangladesh"}}
+ Request - 2021-12-10 04:37:54
+{"method":"getCityIdByAddressOrLatLng","address":"Koini - Manjha Rd, Manjha Paschimi, Bihar 841427, India","lat":"26.4092433","lng":"84.5001279"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CG52+M3 Manjha Paschimi, Bihar, India"}}

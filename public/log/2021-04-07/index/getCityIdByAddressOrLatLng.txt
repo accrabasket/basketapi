@@ -1,0 +1,13 @@
+
+ Request - 2021-04-07 19:36:48
+{"method":"getCityIdByAddressOrLatLng","address":"زاخو،، العراق","lat":"37.0565074","lng":"42.6189301"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0632\u0627\u062e\u0648\u060c\u060c Iraq"}}
+ Request - 2021-04-07 20:37:41
+{"method":"getCityIdByAddressOrLatLng","address":"Airport Rd, Rukpokwu, Port Harcourt, Nigeria","lat":"4.909477949999999","lng":"6.999181599999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Airport Rd, Rukpokwu, Port Harcourt, Nigeria"}}
+ Request - 2021-04-07 21:51:25
+{"method":"getCityIdByAddressOrLatLng","address":"Gbawe, Ghana","lat":"5.582413","lng":"-0.3118219"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Gbawe, Ghana"}}

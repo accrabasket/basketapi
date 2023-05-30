@@ -1,0 +1,53 @@
+
+ Request - 2021-03-18 02:52:34
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"3136","action":"add","item_name":"SAUSAGE(SAUSAGE)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 19:58:14
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"234","action":"add","item_name":"Coriander Powder(Coriander Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 19:58:16
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"234","action":"add","item_name":"Coriander Powder(Coriander Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 19:59:59
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:00:08
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"311","action":"add","item_name":"Red Chilli Whole(Red Chilli Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:00:25
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"323","action":"add","item_name":"Sambhar Masala(Sambhar Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:00:29
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"323","action":"add","item_name":"Sambhar Masala(Sambhar Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:03:04
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"1878","action":"add","item_name":"Chakki Atta Wheat Flour(Chakki Atta Wheat Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:06:44
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:16:39
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"323","action":"delete","item_name":"Sambhar Masala(Sambhar Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 20:16:52
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"234","action":"delete","item_name":"Coriander Powder(Coriander Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 22:43:19
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"621","action":"delete","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-18 22:43:38
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2533","action":"add","item_name":"Penne Rigate Pasta(Penne Rigate Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

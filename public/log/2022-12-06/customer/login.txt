@@ -1,0 +1,9 @@
+
+ Request - 2022-12-06 15:11:30
+{"method":"login","email":"1","password":"1","fcm_reg_id":"dBkhh4fLKHc:APA91bH203wuJf81qfQE6kkS8-xfEdgNO0cydXigAcSF7Una1tESw4ye6DyTf7pBUITW-S2zTJGtNDwTTOGP4CpjemG2GwzhpIZJOkOK7c5vt4w7-zk25DBuVQf_691DhUqwLFtEOq_m"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-12-06 15:11:31
+{"method":"login","email":"1","password":"1","fcm_reg_id":"dBkhh4fLKHc:APA91bH203wuJf81qfQE6kkS8-xfEdgNO0cydXigAcSF7Una1tESw4ye6DyTf7pBUITW-S2zTJGtNDwTTOGP4CpjemG2GwzhpIZJOkOK7c5vt4w7-zk25DBuVQf_691DhUqwLFtEOq_m"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

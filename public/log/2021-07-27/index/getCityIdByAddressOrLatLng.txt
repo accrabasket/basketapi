@@ -1,0 +1,13 @@
+
+ Request - 2021-07-27 04:17:44
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Warri, Nigeria","lat":"5.5147847","lng":"5.7196166"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Warri, Nigeria"}}
+ Request - 2021-07-27 11:21:45
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, No.2 Singarijan T.E, Assam 785670, India","lat":"27.1423079","lng":"94.9261677"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, No.2 Singarijan T.E, Assam 785670, India"}}
+ Request - 2021-07-27 20:25:46
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sambargi, Karnataka 591232, India","lat":"16.8743616","lng":"74.9984976"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sambargi, Karnataka 591232, India"}}

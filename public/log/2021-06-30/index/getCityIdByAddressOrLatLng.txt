@@ -1,0 +1,33 @@
+
+ Request - 2021-06-30 04:15:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, La Sierra, Cauca, Colombia","lat":"2.1548628","lng":"-76.7705957"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, La Sierra, Cauca, Colombia"}}
+ Request - 2021-06-30 10:22:16
+{"method":"getCityIdByAddressOrLatLng","address":"411, اليَمَن","lat":"13.4508571","lng":"44.0419801"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"411, Yemen"}}
+ Request - 2021-06-30 11:34:55
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Taher, الجزائر","lat":"36.7600278","lng":"5.876656"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Taher, Algeria"}}
+ Request - 2021-06-30 13:26:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Azərbaycan","lat":"40.5053304","lng":"50.0963611"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Azerbaijan"}}
+ Request - 2021-06-30 14:32:39
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sector 32 A Korangi, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8321016","lng":"67.1286882"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sector 32 A Korangi, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2021-06-30 16:52:53
+{"method":"getCityIdByAddressOrLatLng","address":"25-A Davis Road, Garhi Shahu, Lahore, Punjab, Pakistan","lat":"31.5567468","lng":"74.3398884"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"25-A Davis Road, Garhi Shahu, Lahore, Punjab, Pakistan"}}
+ Request - 2021-06-30 19:19:29
+{"method":"getCityIdByAddressOrLatLng","address":"PO156, Dakar, Sénégal","lat":"14.7493179","lng":"-17.406875"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PO156, Dakar, Senegal"}}
+ Request - 2021-06-30 19:28:32
+{"method":"getCityIdByAddressOrLatLng","address":"Havilah St, Ota, Nigeria","lat":"6.7287516","lng":"3.2432592"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Havilah St, Ota, Nigeria"}}

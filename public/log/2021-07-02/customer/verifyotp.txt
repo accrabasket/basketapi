@@ -1,0 +1,9 @@
+
+ Request - 2021-07-02 16:00:34
+{"method":"verifyotp","country_code":"+233","mobile_number":"244913342","otp_type":"register","otp":"8890"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-07-02 16:01:03
+{"method":"verifyotp","country_code":"+233","mobile_number":"244913342","otp_type":"register","otp":"8890"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

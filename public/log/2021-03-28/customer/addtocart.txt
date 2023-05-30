@@ -1,0 +1,17 @@
+
+ Request - 2021-03-28 11:04:25
+{"method":"addtocart","guest_user_id":"9876c521c6c13cf8","number_of_item":"1","merchant_inventry_id":"842","action":"add","item_name":"Lactogen 2(Lactogen 2)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-28 11:05:14
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"842","action":"add","item_name":"Lactogen 2(Lactogen 2)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-03-28 15:43:09
+{"method":"addtocart","user_id":"2123","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-28 18:53:38
+{"method":"addtocart","guest_user_id":"13a4b25df49c2b8c","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

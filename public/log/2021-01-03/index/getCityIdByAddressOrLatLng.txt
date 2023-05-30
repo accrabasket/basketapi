@@ -1,0 +1,13 @@
+
+ Request - 2021-01-03 08:45:48
+{"method":"getCityIdByAddressOrLatLng","address":"Baliga Hospital Bus Stand, Gundibail-Manipal Rd, Doddangudde, Udupi, Karnataka 576103, India","lat":"13.3592379","lng":"74.7622493"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Baliga Hospital Bus Stand, Gundibail-Manipal Rd, Doddangudde, Udupi, Karnataka 576103, India"}}
+ Request - 2021-01-03 12:16:25
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, République démocratique du Congo","lat":"-4.7560005","lng":"28.6922835"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Democratic Republic of the Congo"}}
+ Request - 2021-01-03 19:33:54
+{"method":"getCityIdByAddressOrLatLng","address":"18 Charles Adebayo street, Kubwa Abuja bawri, Kubwa, Abuja, Nigeria","lat":"9.1420015","lng":"7.3192199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8 Charles Offoboche St, Kubwa, Abuja, Nigeria"}}

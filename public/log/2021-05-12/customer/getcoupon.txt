@@ -1,0 +1,5 @@
+
+ Request - 2021-05-12 04:59:30
+{"method":"getcoupon","user_id":"2130","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

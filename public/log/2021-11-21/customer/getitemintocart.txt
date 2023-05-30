@@ -1,0 +1,37 @@
+
+ Request - 2021-11-21 05:11:24
+{"method":"getitemintocart","guest_user_id":"170035fea4e39a94"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-21 05:39:44
+{"method":"getitemintocart","guest_user_id":"de0f98c9b923ce29"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-21 13:09:07
+{"method":"getitemintocart","guest_user_id":"170035fea4e39a94"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-21 13:10:07
+{"method":"getitemintocart","guest_user_id":"170035fea4e39a94"}
+ Response :- 
+{"status":"success","data":{"236":{"id":18347,"user_id":0,"guest_user_id":"170035fea4e39a94","merchant_inventry_id":236,"item_name":"Corn Flour(Corn Flour)","number_of_item":1,"created_date":"2021-11-21 13:10:07"}},"productDetails":{"status":"success","data":{"236":{"id":236,"price":"8.50","product_id":391,"merchant_id":3,"store_id":2,"merchant_product_code":"6291023141","product_name":"Corn Flour","product_desc":"Corn starch, or corn flour, is the starch of the corn (maize) grain. It is different from maize flour or makkai ka atta. Maize flour is milled from the whole kernel, while corn starch is obtained from the endosperm portion of the kernel.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"FreshCo","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"391":[{"id":309,"type":"product","image_id":391,"image_name":"6291023141427.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-21 13:10:49
+{"method":"getitemintocart","guest_user_id":"170035fea4e39a94"}
+ Response :- 
+{"status":"success","data":{"236":{"id":18347,"user_id":0,"guest_user_id":"170035fea4e39a94","merchant_inventry_id":236,"item_name":"Corn Flour(Corn Flour)","number_of_item":1,"created_date":"2021-11-21 13:10:07"}},"productDetails":{"status":"success","data":{"236":{"id":236,"price":"8.50","product_id":391,"merchant_id":3,"store_id":2,"merchant_product_code":"6291023141","product_name":"Corn Flour","product_desc":"Corn starch, or corn flour, is the starch of the corn (maize) grain. It is different from maize flour or makkai ka atta. Maize flour is milled from the whole kernel, while corn starch is obtained from the endosperm portion of the kernel.","default_discount_type":"","default_discount_value":"0","category_id":50,"custom_info":"","brand_name":"FreshCo","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":400,"tax_value":"3"}},"productImageData":{"391":[{"id":309,"type":"product","image_id":391,"image_name":"6291023141427.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-21 13:10:51
+{"method":"getitemintocart","guest_user_id":"170035fea4e39a94"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-21 14:22:02
+{"method":"getitemintocart","guest_user_id":"cfe15c83c9c2a707"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-21 18:34:18
+{"method":"getitemintocart","guest_user_id":"0fcc3a569e640c1a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-21 21:19:36
+{"method":"getitemintocart","guest_user_id":"2b07cca7dc668133"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

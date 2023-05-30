@@ -1,0 +1,37 @@
+
+ Request - 2021-04-12 06:03:04
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"adams23","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:03:14
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"adams23","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:03:45
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"abena1997","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:04:03
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"adams23","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:04:18
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"abynah997","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:04:20
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"abynah997","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:05:24
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"adams23","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-04-12 06:08:10
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"adams23","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"success","data":{"2377":{"id":2377,"name":"priscilla","mobile_number":"201332343","email":"adamspriscilla13@gmail.com","key":"bc8d0c76cb9061bbdb742318eb29911d","password":"8846d82a3ba3c112a2269991a51825f0","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-04-12 06:07:28","updated_date":"2021-04-12 06:07:28","status":"1"}},"totalNumberOfUser":1,"wallet_key":"8846d82a3ba3c112a2269991a51825f0"}
+ Request - 2021-04-12 17:07:18
+{"method":"login","email":"adamspriscilla13@gmail.com","password":"adams23","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"success","data":{"2377":{"id":2377,"name":"priscilla","mobile_number":"201332343","email":"adamspriscilla13@gmail.com","key":"bc8d0c76cb9061bbdb742318eb29911d","password":"8846d82a3ba3c112a2269991a51825f0","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2021-04-12 06:07:28","updated_date":"2021-04-12 06:07:28","status":"1"}},"totalNumberOfUser":1,"wallet_key":"8846d82a3ba3c112a2269991a51825f0"}

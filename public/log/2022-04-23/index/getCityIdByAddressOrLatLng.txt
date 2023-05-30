@@ -1,0 +1,9 @@
+
+ Request - 2022-04-23 11:43:37
+{"method":"getCityIdByAddressOrLatLng","address":"17 Ave Kasa-Vubu, Kinshasa, République démocratique du Congo","lat":"-4.3467522","lng":"15.2661088"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"17 Ave Kasa-Vubu, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-04-23 11:43:37
+{"method":"getCityIdByAddressOrLatLng","address":"17 Ave Kasa-Vubu, Kinshasa, République démocratique du Congo","lat":"-4.3467522","lng":"15.2661088"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"17 Ave Kasa-Vubu, Kinshasa, Democratic Republic of the Congo"}}

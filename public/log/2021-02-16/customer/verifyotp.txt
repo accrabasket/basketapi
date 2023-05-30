@@ -1,0 +1,25 @@
+
+ Request - 2021-02-16 17:30:28
+{"method":"verifyotp","country_code":"+233","mobile_number":"592030767","otp_type":"register","otp":"2801"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"274fcdffad1b4032a03d3e7c2f86147d"}}
+ Request - 2021-02-16 17:30:31
+{"method":"verifyotp","country_code":"+233","mobile_number":"592030767","otp_type":"register","otp":"2801"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-02-16 17:30:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"592030767","otp_type":"register","otp":"2801"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-02-16 17:31:28
+{"method":"verifyotp","country_code":"+233","mobile_number":"592030767","otp_type":"register","otp":"2801"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-02-16 17:31:36
+{"method":"verifyotp","country_code":"+233","mobile_number":"592030767","otp_type":"register","otp":"2801"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-02-16 17:31:37
+{"method":"verifyotp","country_code":"+233","mobile_number":"592030767","otp_type":"register","otp":"2801"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

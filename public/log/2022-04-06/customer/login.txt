@@ -1,0 +1,5 @@
+
+ Request - 2022-04-06 18:02:32
+{"method":"login","email":"debojita83@gmail.com","password":"Taishani@2010","fcm_reg_id":"dZ6nSzbb1ME:APA91bG5AM5DfSINwCYtwiDrHN50Uf5vZDbB1-9F6BOT2-HUObNwb9xOJ75eQ8haW5zXQ5KJz1lJxH3M9oMdtZYWRBorI-YRfObBaLTRo8Z1vpaQ93GTNhbxpZnCrEt2OpgvhD6rAWjN"}
+ Response :- 
+{"status":"success","data":{"7999":{"id":7999,"name":"Taishani Biswas","mobile_number":"502676497","email":"debojita83@gmail.com","key":"","password":"15dd0a76fbd3a0c684cfac2b15b6a52d","fcm_reg_id":"dcSydyohoos:APA91bGTecqDVrymruHA-oboxguKkeqGVu91VjwuPtsxmIF3nsB_YjSuUciuJ3j9ICrHzsQU0sUQDta05LqxKLaWymjWZ3x2D-kHrOUE8k2EeUmDewQZYzRz-vdFRGs0oNGRUnN7rI3W","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-02-24 12:07:09","updated_date":"2022-04-06 18:02:07","status":"1"}},"totalNumberOfUser":1,"wallet_key":"15dd0a76fbd3a0c684cfac2b15b6a52d"}

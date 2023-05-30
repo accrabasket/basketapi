@@ -1,0 +1,5 @@
+
+ Request - 2021-04-11 17:12:04
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2337","action":"add","item_name":"Portello Drink(Portello Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

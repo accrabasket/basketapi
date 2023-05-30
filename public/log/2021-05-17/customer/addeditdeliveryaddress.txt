@@ -1,0 +1,13 @@
+
+ Request - 2021-05-17 17:07:01
+{"method":"addeditdeliveryaddress","house_number":" 612,GA-554 Kwashie-Bu St, Kwashieman, greater Accra Ghana","area":"","street_detail":"Kwashie-Bu St,","contact_name":"Venky","city_name":"Temple St, Kwashieman, Ghana","city_id":"1","lat":"5.6005659","long":"-0.2680195","user_id":"1829","address_nickname":"venky","landmark":"near school, Kwashie-Bu St, Kwashieman, greater Accra Ghana","zipcode":"12","id":"376"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-05-17 17:07:45
+{"method":"addeditdeliveryaddress","house_number":"612,GA-554 Kwashie-Bu St, Kwashieman, greater Accra Ghana","area":"","street_detail":"Kwashie-Bu St,","contact_name":"Venky","city_name":"Temple St, Kwashieman, Ghana","city_id":"1","lat":"5.6005659","long":"-0.2680195","user_id":"1829","address_nickname":"venky","landmark":"near school, Kwashie-Bu St, Kwashieman, greater Accra Ghana","zipcode":"12","id":"376"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-05-17 17:09:22
+{"method":"addeditdeliveryaddress","house_number":"612,GA-554 Kwashie-Bu St, Kwashieman, greater Accra Ghana","area":"","street_detail":"Kwashie-Bu Street","contact_name":"Venky","city_name":"Temple St, Kwashieman, Ghana","city_id":"1","lat":"5.6005659","long":"-0.2680195","user_id":"1829","address_nickname":"venky","landmark":"near school","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":457}}

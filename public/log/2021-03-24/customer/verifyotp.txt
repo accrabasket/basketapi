@@ -1,0 +1,29 @@
+
+ Request - 2021-03-24 10:34:20
+{"method":"verifyotp","country_code":"+233","mobile_number":"201159592","otp_type":"register","otp":"7343"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"deb94d5288068cf44c9a99272c248a52"}}
+ Request - 2021-03-24 12:57:27
+{"method":"verifyotp","country_code":"+233","mobile_number":"0267134268","otp_type":"register","otp":"9431"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"729533db5df7e3da58a2f61bcb79eecf"}}
+ Request - 2021-03-24 13:10:19
+{"method":"verifyotp","country_code":"+233","mobile_number":"208075326","otp_type":"register","otp":"6486"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"0dc783dcf7800e26cb8b6016ae969294"}}
+ Request - 2021-03-24 13:10:30
+{"method":"verifyotp","country_code":"+233","mobile_number":"208075326","otp_type":"register","otp":"6486"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-24 13:10:47
+{"method":"verifyotp","country_code":"+233","mobile_number":"208075326","otp_type":"register","otp":"6486"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-24 13:11:24
+{"method":"verifyotp","country_code":"+233","mobile_number":"208075326","otp_type":"register","otp":"3007"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-03-24 13:11:35
+{"method":"verifyotp","country_code":"+233","mobile_number":"208075326","otp_type":"register","otp":"1093"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"c0412bf37f6265a19bc7772f8bbe54bd"}}

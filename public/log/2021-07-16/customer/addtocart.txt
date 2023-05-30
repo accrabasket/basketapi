@@ -1,0 +1,9 @@
+
+ Request - 2021-07-16 10:17:02
+{"method":"addtocart","guest_user_id":"e8c8b91bb19337b9","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-16 10:22:37
+{"method":"addtocart","guest_user_id":"e8c8b91bb19337b9","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,29 @@
+
+ Request - 2021-08-31 08:20:19
+{"method":"getCityIdByAddressOrLatLng","address":"MXCJ+HF3, Bouaké, Côte d'Ivoire","lat":"7.6728969","lng":"-5.0192414"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MXCJ+HF3, Bouake, C\u00f4te d'Ivoire"}}
+ Request - 2021-08-31 11:03:36
+{"method":"getCityIdByAddressOrLatLng","address":"C173, Tourief, Tunisie","lat":"36.339223","lng":"8.5827924"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C173, Tourief, Tunisia"}}
+ Request - 2021-08-31 15:07:29
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Côte d'Ivoire","lat":"5.733284","lng":"-4.5378532"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, C\u00f4te d'Ivoire"}}
+ Request - 2021-08-31 15:08:37
+{"method":"getCityIdByAddressOrLatLng","address":"Adunlee St, Accra, Ghana","lat":"5.569491699999999","lng":"-0.2310202"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Adunlee St, Accra, Ghana"}}
+ Request - 2021-08-31 15:08:37
+{"method":"getCityIdByAddressOrLatLng","address":"Adunlee St, Accra, Ghana","lat":"5.569491699999999","lng":"-0.2310202"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Adunlee St, Accra, Ghana"}}
+ Request - 2021-08-31 17:21:44
+{"method":"getCityIdByAddressOrLatLng","address":"KG 353 St, Kigali, Rwanda","lat":"-1.9322507","lng":"30.123022"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"KG 353 St, Kigali, Rwanda"}}
+ Request - 2021-08-31 17:23:35
+{"method":"getCityIdByAddressOrLatLng","address":"Av. Charles Darwin, Praia, Cabo Verde","lat":"14.9125882","lng":"-23.5004096"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Av. Charles Darwin, Praia, Cape Verde"}}

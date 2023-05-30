@@ -1,0 +1,9 @@
+
+ Request - 2022-11-05 02:19:27
+{"method":"getCityIdByAddressOrLatLng","address":"1255 Rue Villeray, Québec, QC G1W 3Y6, Canada","lat":"46.7592901","lng":"-71.2944138"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1255 Rue Villeray, Qu\u00e9bec, QC G1W 3Y6, Canada"}}
+ Request - 2022-11-05 23:52:09
+{"method":"getCityIdByAddressOrLatLng","address":"Q736+XVH, Jl. Tol Serang - Panimbang, Dahu, Kec. Cikeusal, Kabupaten Serang, Banten 42175, Indonesia","lat":"-6.2449963","lng":"106.2621896"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q736+XVH, Jl. Tol Serang - Panimbang, Dahu, Kec. Cikeusal, Kabupaten Serang, Banten 42175, Indonesia"}}

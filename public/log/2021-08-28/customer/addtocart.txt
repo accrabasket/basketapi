@@ -1,0 +1,13 @@
+
+ Request - 2021-08-28 07:41:37
+{"method":"addtocart","guest_user_id":"8e06901a894b97e9","number_of_item":"1","merchant_inventry_id":"1292","action":"add","item_name":"Miniatures Chocolate(Miniatures Chocolate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-28 07:41:40
+{"method":"addtocart","guest_user_id":"8e06901a894b97e9","number_of_item":"1","merchant_inventry_id":"1292","action":"delete","item_name":"Miniatures Chocolate(Miniatures Chocolate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-28 14:31:07
+{"method":"addtocart","guest_user_id":"748ae296ec521ae9","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

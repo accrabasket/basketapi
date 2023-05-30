@@ -1,0 +1,5 @@
+
+ Request - 2021-01-27 09:08:33
+{"method":"addeditdeliveryaddress","house_number":"Adenta","area":"","street_detail":"Close to the ICGC church ","contact_name":"Sam","city_name":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana","city_id":"1","lat":"5.7217982","long":"-0.1553779","user_id":"1808","address_nickname":"Frafraha","landmark":"ICGC church ","zipcode":"5238"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":373}}

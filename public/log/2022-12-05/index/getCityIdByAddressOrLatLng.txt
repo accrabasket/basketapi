@@ -1,0 +1,21 @@
+
+ Request - 2022-12-05 13:36:24
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، قرية الزوية، العراق","lat":"35.8738346","lng":"43.3305094"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V8FJ+G6 \u0642\u0631\u064a\u0629 \u0627\u0644\u0632\u0648\u064a\u0629\u060c Iraq"}}
+ Request - 2022-12-05 15:55:12
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، العباسية، مركز أبو حماد، الشرقية، مصر","lat":"30.4991961","lng":"31.7425214"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FPXV+M2 Abu Hammad, Egypt"}}
+ Request - 2022-12-05 18:13:16
+{"method":"getCityIdByAddressOrLatLng","address":"MQF8+PX9, Barclayville, Liberia","lat":"4.6762321","lng":"-8.2306972"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MQG9+FP Barclayville, Liberia"}}
+ Request - 2022-12-05 18:13:16
+{"method":"getCityIdByAddressOrLatLng","address":"MQF8+PX9, Barclayville, Liberia","lat":"4.6762321","lng":"-8.2306972"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MQG9+FP Barclayville, Liberia"}}
+ Request - 2022-12-05 19:07:45
+{"method":"getCityIdByAddressOrLatLng","address":"VM6F+FXM, Bangladesh","lat":"23.8612979","lng":"89.67736"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VM6G+GW Sagar Kandi, Bangladesh"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-01-19 00:51:03
+{"method":"verifyotp","country_code":"+233","mobile_number":"0552579928","otp_type":"register","otp":"5944"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"08bc1ed8f64d3ab59c02a065c335886b"}}
+ Request - 2021-01-19 00:51:15
+{"method":"verifyotp","country_code":"+233","mobile_number":"543537513","otp_type":"register","otp":"5944"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

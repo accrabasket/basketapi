@@ -1,0 +1,17 @@
+
+ Request - 2021-02-23 10:16:08
+{"method":"login","email":"1","password":"1","fcm_reg_id":"c7D7JIQ59tQ:APA91bGIyscmYVU0kmH1hMqFzR1s8Dpc8msS2pX-h6qBW715cwW10ltT33iWDSjzuq-hGrIKkRLRshXd0tj4mHTl3af5TAtZlmlQeH8jM4N_aaEHDaZ-WX7znePqAgaQ9uZ3NqLyhZRf"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-02-23 10:16:54
+{"method":"login","email":"1","password":"1","fcm_reg_id":"c7D7JIQ59tQ:APA91bGIyscmYVU0kmH1hMqFzR1s8Dpc8msS2pX-h6qBW715cwW10ltT33iWDSjzuq-hGrIKkRLRshXd0tj4mHTl3af5TAtZlmlQeH8jM4N_aaEHDaZ-WX7znePqAgaQ9uZ3NqLyhZRf"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-02-23 10:18:04
+{"method":"login","email":"0678779456","password":"1y53","fcm_reg_id":"c7D7JIQ59tQ:APA91bGIyscmYVU0kmH1hMqFzR1s8Dpc8msS2pX-h6qBW715cwW10ltT33iWDSjzuq-hGrIKkRLRshXd0tj4mHTl3af5TAtZlmlQeH8jM4N_aaEHDaZ-WX7znePqAgaQ9uZ3NqLyhZRf"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-02-23 10:18:08
+{"method":"login","email":"0678779456","password":"1y53","fcm_reg_id":"c7D7JIQ59tQ:APA91bGIyscmYVU0kmH1hMqFzR1s8Dpc8msS2pX-h6qBW715cwW10ltT33iWDSjzuq-hGrIKkRLRshXd0tj4mHTl3af5TAtZlmlQeH8jM4N_aaEHDaZ-WX7znePqAgaQ9uZ3NqLyhZRf"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

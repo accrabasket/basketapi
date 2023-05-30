@@ -1,0 +1,17 @@
+
+ Request - 2021-12-13 19:43:48
+{"method":"addtocart","guest_user_id":"306c70b8a32652ea","number_of_item":"1","merchant_inventry_id":"304","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-13 19:43:54
+{"method":"addtocart","guest_user_id":"306c70b8a32652ea","number_of_item":"1","merchant_inventry_id":"350","action":"add","item_name":"Tea Masala(Tea Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-13 19:43:59
+{"method":"addtocart","guest_user_id":"306c70b8a32652ea","number_of_item":"1","merchant_inventry_id":"589","action":"add","item_name":"Guava - Fruit Juice(Guava - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-13 19:44:08
+{"method":"addtocart","guest_user_id":"306c70b8a32652ea","number_of_item":"1","merchant_inventry_id":"785","action":"add","item_name":"Milo Actigen E - Drink(Milo Actigen E - Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

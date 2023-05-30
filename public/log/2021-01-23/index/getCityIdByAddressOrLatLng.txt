@@ -1,0 +1,13 @@
+
+ Request - 2021-01-23 16:59:06
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tshikapa, République démocratique du Congo","lat":"-6.4109517","lng":"20.7902863"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Tshikapa, Democratic Republic of the Congo"}}
+ Request - 2021-01-23 19:56:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Gombe, Nigeria","lat":"10.3047648","lng":"11.1856277"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Gombe, Nigeria"}}
+ Request - 2021-01-23 23:27:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.6015367","lng":"-0.2979632"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

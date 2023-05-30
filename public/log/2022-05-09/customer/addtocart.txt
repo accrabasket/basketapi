@@ -1,0 +1,89 @@
+
+ Request - 2022-05-09 05:44:04
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:44:12
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"732","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:44:40
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:45:22
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:45:25
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:45:37
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"900","action":"add","item_name":"Large Beer Can(Large Beer Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:46:21
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:46:32
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:46:36
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:46:53
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:46:56
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"900","action":"delete","item_name":"Large Beer Can(Large Beer Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:48:15
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:48:22
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:48:35
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"2661","action":"add","item_name":"Ultra Thin Long With Wings Sanitary Pads(Ultra Thin Long With Wings Sanitary Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:48:55
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:48:59
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"2661","action":"delete","item_name":"Ultra Thin Long With Wings Sanitary Pads(Ultra Thin Long With Wings Sanitary Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:49:02
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:49:07
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:49:09
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"233","action":"delete","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 05:49:41
+{"method":"addtocart","guest_user_id":"36ac694a58c9217d","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 07:30:06
+{"method":"addtocart","guest_user_id":"f06903d8c9761380","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-09 07:30:13
+{"method":"addtocart","guest_user_id":"f06903d8c9761380","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

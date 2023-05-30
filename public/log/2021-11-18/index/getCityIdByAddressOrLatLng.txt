@@ -1,0 +1,49 @@
+
+ Request - 2021-11-18 05:03:44
+{"method":"getCityIdByAddressOrLatLng","address":"Western Province, Rwanda","lat":"-2.4105741","lng":"29.0483705"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H2QX+Q8 Gafunzo, Rwanda"}}
+ Request - 2021-11-18 05:03:44
+{"method":"getCityIdByAddressOrLatLng","address":"Western Province, Rwanda","lat":"-2.4105741","lng":"29.0483705"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H2QX+Q8 Gafunzo, Rwanda"}}
+ Request - 2021-11-18 05:03:44
+{"method":"getCityIdByAddressOrLatLng","address":"Western Province, Rwanda","lat":"-2.4105741","lng":"29.0483705"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H2QX+Q8 Gafunzo, Rwanda"}}
+ Request - 2021-11-18 05:03:44
+{"method":"getCityIdByAddressOrLatLng","address":"Western Province, Rwanda","lat":"-2.4105741","lng":"29.0483705"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H2QX+Q8 Gafunzo, Rwanda"}}
+ Request - 2021-11-18 06:50:21
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 28, Sector 15 Korangi Industrial Area, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8411371","lng":"67.1166477"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 28, Sector 15 Korangi Industrial Area, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2021-11-18 09:57:28
+{"method":"getCityIdByAddressOrLatLng","address":"3 Works Rd, 460281, Owerri, Nigeria","lat":"5.502141","lng":"7.0224472"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3 Works Rd, 460281, Owerri, Nigeria"}}
+ Request - 2021-11-18 10:55:11
+{"method":"getCityIdByAddressOrLatLng","address":"753G+R8P, Purani Mandi, Bhogaon, Uttar Pradesh 205262, India","lat":"27.2549909","lng":"79.175487"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"753G+R8P, Purani Mandi, Bhogaon, Uttar Pradesh 205262, India"}}
+ Request - 2021-11-18 12:40:58
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bangladesh","lat":"23.467801","lng":"91.1162956"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F498+4G Moynamoti, Bangladesh"}}
+ Request - 2021-11-18 12:46:27
+{"method":"getCityIdByAddressOrLatLng","address":"M 2, Abidjan, Côte d'Ivoire","lat":"5.420455","lng":"-3.967449"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C2CM+52 Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-11-18 12:48:43
+{"method":"getCityIdByAddressOrLatLng","address":"Ramnagar, Karma Rd, Aurangabad, Bihar 824101, India","lat":"24.7667641","lng":"84.3648841"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ramnagar, Karma Rd, Aurangabad, Bihar 824101, India"}}
+ Request - 2021-11-18 15:30:02
+{"method":"getCityIdByAddressOrLatLng","address":"Mangalam Chambers, Paud Rd, Sankalp Society, Kothrud, Pune, Maharashtra 411038, India","lat":"18.5087921","lng":"73.8222356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mangalam Chambers, Paud Rd, Sankalp Society, Kothrud, Pune, Maharashtra 411038, India"}}
+ Request - 2021-11-18 16:32:25
+{"method":"getCityIdByAddressOrLatLng","address":"753G+R8P, Purani Mandi, Bhogaon, Uttar Pradesh 205262, India","lat":"27.2527995","lng":"79.175464"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"753G+45 Bhogaon, Uttar Pradesh, India"}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-01-30 16:48:48
+{"method":"addedituser","city_id":"1","password":"9071077277","name":"Venky P","email":"venky.palala@gmail.com","mobile_number":"028572471","country_code":"+233","id":"0","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +23328572471 and registered email id.","data":{"1828":{"id":1828,"name":"Venky P","mobile_number":"28572471","email":"venky.palala@gmail.com","key":"65f5bf2ad080c83eabffd1629e6e4796","password":"8f48143489731229ef3a46a31803ae32","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-30 16:48:48","updated_date":"2021-01-30 16:48:48","status":"1"}}}
+ Request - 2021-01-30 16:50:19
+{"method":"addedituser","city_id":"1","password":"9071077277","name":"Venky P","email":"venky.palala@gmail.com","mobile_number":"248572471","country_code":"+233","id":"0","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-30 16:50:39
+{"method":"addedituser","city_id":"1","password":"9071077277","name":"Venky P","email":"venky.palala@gmail.com","mobile_number":"0248572471","country_code":"+233","id":"0","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-30 16:51:56
+{"method":"addedituser","city_id":"1","password":"9071077277","name":"Venky P","email":"lucky04241985@gmail.com","mobile_number":"0248572471","country_code":"+233","id":"0","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233248572471 and registered email id.","data":{"1829":{"id":1829,"name":"Venky P","mobile_number":"248572471","email":"lucky04241985@gmail.com","key":"58f215317a84eb4070240ae6eaf32530","password":"8f48143489731229ef3a46a31803ae32","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-30 16:51:56","updated_date":"2021-01-30 16:51:56","status":"1"}}}
+ Request - 2021-01-30 16:53:30
+{"method":"addedituser","city_id":"1","password":"9071077277","name":"Venky P","email":"lucky04241985@gmail.com","mobile_number":"248572471","country_code":"+233","id":"1829","fcm_reg_id":"cIaWSchAQ1g:APA91bFpdZTsLfqJ3sPzBmpCmjvo1iBPod9Qh5YP68oOu0HNK1LvIlPWEkV0iyUdzP2-S_vk1D_ahkhG1g9eTYGitFOwFsrx8lVNsWVufFv-Lmr9E3lD1IxFdEhiJbI0JVxwZ-Ifjxpr"}
+ Response :- 
+{"status":"success","msg":"User updated"}

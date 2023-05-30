@@ -1,0 +1,5 @@
+
+ Request - 2023-05-03 16:45:26
+{"method":"getitemintocart","guest_user_id":"0baf2fc4c9a60b98"}
+ Response :- 
+{"status":"success","data":{"858":{"id":23525,"user_id":0,"guest_user_id":"0baf2fc4c9a60b98","merchant_inventry_id":858,"item_name":"Vietnam Rice(Vietnam Rice)","number_of_item":1,"created_date":"2023-04-21 11:58:15"}},"productDetails":{"status":"success","data":{"858":{"id":858,"price":"40.99","product_id":1142,"merchant_id":4,"store_id":4,"merchant_product_code":"30938","product_name":"Vietnam Rice","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":82,"custom_info":"","brand_name":"Cindy","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"kg","quantity":5,"tax_value":"3"}},"productImageData":{"1142":[{"id":755,"type":"product","image_id":1142,"image_name":"1142_1545068031.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-01-25 03:52:49
+{"start_date":"2022-01-25","end_date":"2022-01-25","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2022-01-25 10:00:52
+{"start_date":"2022-01-25","end_date":"2022-01-25","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}

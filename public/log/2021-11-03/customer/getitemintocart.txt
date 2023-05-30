@@ -1,0 +1,57 @@
+
+ Request - 2021-11-03 02:43:14
+{"method":"getitemintocart","guest_user_id":"7f2cb8e5dcb3f456"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 05:19:36
+{"method":"getitemintocart","guest_user_id":"d379302ffdabe50d"}
+ Response :- 
+{"status":"success","data":{"459":{"id":17846,"user_id":0,"guest_user_id":"d379302ffdabe50d","merchant_inventry_id":459,"item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)","number_of_item":1,"created_date":"2021-11-02 09:22:53"}},"productDetails":{"status":"success","data":{"459":{"id":459,"price":"99.99","product_id":742,"merchant_id":4,"store_id":4,"merchant_product_code":"14737","product_name":"Carta Blanca Superior White Rum","product_desc":"Don Facundo spent ten years perfecting his BACARDI Carta Blanca. Smooth and subtle with notes of almond and vanilla, it doesnt dominate like gin or disappear like vodka. Perfect for classic rum cocktails like the Mojito.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bacardi","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"L","quantity":1,"tax_value":"3"}},"productImageData":{"742":[{"id":2658,"type":"product","image_id":742,"image_name":"14737.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-03 06:21:12
+{"method":"getitemintocart","guest_user_id":"6a9b5628608f7a53"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 06:21:31
+{"method":"getitemintocart","guest_user_id":"6a9b5628608f7a53"}
+ Response :- 
+{"status":"success","data":{"288":{"id":17857,"user_id":0,"guest_user_id":"6a9b5628608f7a53","merchant_inventry_id":288,"item_name":"Masala Tea(Masala Tea)","number_of_item":1,"created_date":"2021-11-03 06:21:31"}},"productDetails":{"status":"success","data":{"288":{"id":288,"price":"58.50","product_id":433,"merchant_id":3,"store_id":2,"merchant_product_code":"8901095900","product_name":"Masala Tea","product_desc":"Fortified with spices that are proven to have excellent antioxidant properties and great, robust flavour, Society Masala Tea is meant to be. Brew yourself a cup or two of this elixir, and feel your troubles, stresses and qualms, just melt away. Piquant and beautifully balanced, this tea is a 10 on the Richter scale in terms of taste.","default_discount_type":"","default_discount_value":"0","category_id":59,"custom_info":"","brand_name":"Society","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"8","unit":"gm","quantity":450,"tax_value":"3"}},"productImageData":{"433":[{"id":360,"type":"product","image_id":433,"image_name":"8901095900034.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-03 06:21:34
+{"method":"getitemintocart","guest_user_id":"6a9b5628608f7a53"}
+ Response :- 
+{"status":"success","data":{"288":{"id":17857,"user_id":0,"guest_user_id":"6a9b5628608f7a53","merchant_inventry_id":288,"item_name":"Masala Tea(Masala Tea)","number_of_item":1,"created_date":"2021-11-03 06:21:31"},"246":{"id":17858,"user_id":0,"guest_user_id":"6a9b5628608f7a53","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2021-11-03 06:21:33"}},"productDetails":{"status":"success","data":{"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"288":{"id":288,"price":"58.50","product_id":433,"merchant_id":3,"store_id":2,"merchant_product_code":"8901095900","product_name":"Masala Tea","product_desc":"Fortified with spices that are proven to have excellent antioxidant properties and great, robust flavour, Society Masala Tea is meant to be. Brew yourself a cup or two of this elixir, and feel your troubles, stresses and qualms, just melt away. Piquant and beautifully balanced, this tea is a 10 on the Richter scale in terms of taste.","default_discount_type":"","default_discount_value":"0","category_id":59,"custom_info":"","brand_name":"Society","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"8","unit":"gm","quantity":450,"tax_value":"3"}},"productImageData":{"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}],"433":[{"id":360,"type":"product","image_id":433,"image_name":"8901095900034.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-03 06:21:35
+{"method":"getitemintocart","guest_user_id":"6a9b5628608f7a53"}
+ Response :- 
+{"status":"success","data":{"288":{"id":17857,"user_id":0,"guest_user_id":"6a9b5628608f7a53","merchant_inventry_id":288,"item_name":"Masala Tea(Masala Tea)","number_of_item":1,"created_date":"2021-11-03 06:21:31"},"246":{"id":17858,"user_id":0,"guest_user_id":"6a9b5628608f7a53","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2021-11-03 06:21:33"},"232":{"id":17859,"user_id":0,"guest_user_id":"6a9b5628608f7a53","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2021-11-03 06:21:35"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"288":{"id":288,"price":"58.50","product_id":433,"merchant_id":3,"store_id":2,"merchant_product_code":"8901095900","product_name":"Masala Tea","product_desc":"Fortified with spices that are proven to have excellent antioxidant properties and great, robust flavour, Society Masala Tea is meant to be. Brew yourself a cup or two of this elixir, and feel your troubles, stresses and qualms, just melt away. Piquant and beautifully balanced, this tea is a 10 on the Richter scale in terms of taste.","default_discount_type":"","default_discount_value":"0","category_id":59,"custom_info":"","brand_name":"Society","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"8","unit":"gm","quantity":450,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}],"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}],"433":[{"id":360,"type":"product","image_id":433,"image_name":"8901095900034.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-03 11:08:27
+{"method":"getitemintocart","guest_user_id":"cabf19fdb4130cd0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 11:09:53
+{"method":"getitemintocart","guest_user_id":"cabf19fdb4130cd0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 12:28:34
+{"method":"getitemintocart","guest_user_id":"55e21b86c20ff3e7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 14:35:56
+{"method":"getitemintocart","guest_user_id":"2a86df18ba05a176"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 15:43:28
+{"method":"getitemintocart","guest_user_id":"4c5d7b15906cf85c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 18:03:36
+{"method":"getitemintocart","guest_user_id":"704f9ac17e54e824"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 18:03:39
+{"method":"getitemintocart","guest_user_id":"704f9ac17e54e824"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-03 21:21:13
+{"method":"getitemintocart","guest_user_id":"288d102123cc911f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

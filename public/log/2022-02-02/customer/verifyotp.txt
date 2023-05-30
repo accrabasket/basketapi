@@ -1,0 +1,5 @@
+
+ Request - 2022-02-02 12:11:20
+{"method":"verifyotp","country_code":"+233","mobile_number":"07063766018","otp_type":"register","otp":"4379"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"e5a59798369130117890dc427a3f7113"}}

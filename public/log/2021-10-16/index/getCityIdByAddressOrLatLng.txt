@@ -1,0 +1,25 @@
+
+ Request - 2021-10-16 02:05:26
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Sinta, Sidorukun, Clumprit, Kec. Pagelaran, Malang, Jawa Timur 65174, Indonesia","lat":"-8.2254989","lng":"112.6102072"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJF6+R3 Clumprit, Malang, East Java, Indonesia"}}
+ Request - 2021-10-16 08:26:59
+{"method":"getCityIdByAddressOrLatLng","address":"หลวงพระบาง ลาว","lat":"20.1449121","lng":"102.3871159"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"49VP+XR Ban Pho Tam, Laos"}}
+ Request - 2021-10-16 08:41:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Burkina Faso","lat":"11.9902995","lng":"-3.4115122"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XHRQ+49 Somona, Burkina Faso"}}
+ Request - 2021-10-16 10:56:59
+{"method":"getCityIdByAddressOrLatLng","address":"V7WC+2F4, Bondo, Kenya","lat":"-0.1050535","lng":"34.2711584"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V7WC+2F4, Bondo, Kenya"}}
+ Request - 2021-10-16 10:57:01
+{"method":"getCityIdByAddressOrLatLng","address":"V7WC+2F4, Bondo, Kenya","lat":"-0.1050535","lng":"34.2711584"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V7WC+2F4, Bondo, Kenya"}}
+ Request - 2021-10-16 15:29:28
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road،، الأردن","lat":"32.6113426","lng":"35.6053383"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road\u060c\u060c Jordan"}}

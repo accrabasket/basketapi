@@ -1,0 +1,13 @@
+
+ Request - 2021-12-13 00:09:44
+{"method":"getCityIdByAddressOrLatLng","address":"ગોલવાડા, ગુજરાત 383422, ભારત","lat":"24.2882374","lng":"73.0444017"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"72QV+7Q Golvada, Gujarat, India"}}
+ Request - 2021-12-13 04:47:05
+{"method":"getCityIdByAddressOrLatLng","address":"455M+CX3, Gurha, Uttar Pradesh 283111, India","lat":"27.1076403","lng":"78.1849741"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"455M+CX3, Gurha, Uttar Pradesh 283111, India"}}
+ Request - 2021-12-13 19:43:06
+{"method":"getCityIdByAddressOrLatLng","address":"b234 Tubman Blvd, Monrovia, Liberia","lat":"6.2782014","lng":"-10.758233"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"b234 Tubman Blvd, Monrovia, Liberia"}}

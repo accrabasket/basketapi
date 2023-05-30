@@ -1,0 +1,25 @@
+
+ Request - 2021-04-13 13:35:20
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-13 13:47:08
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-13 13:57:29
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-13 14:51:00
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-13 16:59:31
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-13 17:03:36
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3}},"images":{"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4907,"type":"promotion","image_id":27,"image_name":"27_1617041028.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

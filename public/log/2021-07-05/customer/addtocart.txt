@@ -1,0 +1,13 @@
+
+ Request - 2021-07-05 06:50:00
+{"method":"addtocart","guest_user_id":"05349d2567b04dea","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-05 06:50:04
+{"method":"addtocart","guest_user_id":"05349d2567b04dea","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-05 06:50:21
+{"method":"addtocart","guest_user_id":"05349d2567b04dea","number_of_item":"1","merchant_inventry_id":"232","action":"delete","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

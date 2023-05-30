@@ -1,0 +1,77 @@
+
+ Request - 2021-10-01 01:17:08
+{"method":"getitemintocart","guest_user_id":"9114a4918c4c170d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 01:17:10
+{"method":"getitemintocart","guest_user_id":"9114a4918c4c170d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 05:28:19
+{"method":"getitemintocart","guest_user_id":"8d63b9fcb54750af"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 06:23:49
+{"method":"getitemintocart","guest_user_id":"e0790d503c1439c5"}
+ Response :- 
+{"status":"success","data":{"936":{"id":15223,"user_id":0,"guest_user_id":"e0790d503c1439c5","merchant_inventry_id":936,"item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)","number_of_item":1,"created_date":"2021-05-30 12:44:15"}},"productDetails":{"status":"success","data":{"936":{"id":936,"price":"84.99","product_id":902,"merchant_id":4,"store_id":4,"merchant_product_code":"69639","product_name":"Baby Pants Jumbo Pack","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Pampers","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":52,"tax_value":"3"}},"productImageData":[]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-01 13:05:05
+{"method":"getitemintocart","guest_user_id":"1a8085e0a461edb0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 13:09:32
+{"method":"getitemintocart","guest_user_id":"1a8085e0a461edb0"}
+ Response :- 
+{"status":"success","data":{"2959":{"id":17340,"user_id":0,"guest_user_id":"1a8085e0a461edb0","merchant_inventry_id":2959,"item_name":"American Cheese Slices(American Cheese Slices)","number_of_item":1,"created_date":"2021-10-01 13:09:32"}},"productDetails":{"status":"success","data":{"2959":{"id":2959,"price":"13.20","product_id":3343,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"American Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3343":[{"id":4021,"type":"product","image_id":3343,"image_name":"VID308.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-01 13:09:35
+{"method":"getitemintocart","guest_user_id":"1a8085e0a461edb0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 13:09:36
+{"method":"getitemintocart","guest_user_id":"1a8085e0a461edb0"}
+ Response :- 
+{"status":"success","data":{"2959":{"id":17341,"user_id":0,"guest_user_id":"1a8085e0a461edb0","merchant_inventry_id":2959,"item_name":"American Cheese Slices(American Cheese Slices)","number_of_item":1,"created_date":"2021-10-01 13:09:36"}},"productDetails":{"status":"success","data":{"2959":{"id":2959,"price":"13.20","product_id":3343,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"American Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3343":[{"id":4021,"type":"product","image_id":3343,"image_name":"VID308.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-01 13:09:39
+{"method":"getitemintocart","guest_user_id":"1a8085e0a461edb0"}
+ Response :- 
+{"status":"success","data":{"2959":{"id":17341,"user_id":0,"guest_user_id":"1a8085e0a461edb0","merchant_inventry_id":2959,"item_name":"American Cheese Slices(American Cheese Slices)","number_of_item":1,"created_date":"2021-10-01 13:09:36"}},"productDetails":{"status":"success","data":{"2959":{"id":2959,"price":"13.20","product_id":3343,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"American Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3343":[{"id":4021,"type":"product","image_id":3343,"image_name":"VID308.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-01 13:18:45
+{"method":"getitemintocart","user_id":"4757"}
+ Response :- 
+{"status":"success","data":{"2959":{"id":17341,"user_id":4757,"guest_user_id":"1a8085e0a461edb0","merchant_inventry_id":2959,"item_name":"American Cheese Slices(American Cheese Slices)","number_of_item":1,"created_date":"2021-10-01 13:09:36"}},"productDetails":{"status":"success","data":{"2959":{"id":2959,"price":"13.20","product_id":3343,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"American Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3343":[{"id":4021,"type":"product","image_id":3343,"image_name":"VID308.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-01 15:32:42
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"success","data":{"229":{"id":17294,"user_id":0,"guest_user_id":"8783b3868f3a03bd","merchant_inventry_id":229,"item_name":"Cinnamon Powder(Cinnamon Powder)","number_of_item":1,"created_date":"2021-09-24 07:12:09"},"1044":{"id":17295,"user_id":0,"guest_user_id":"8783b3868f3a03bd","merchant_inventry_id":1044,"item_name":"Mixed Pickle(Mixed Pickle)","number_of_item":1,"created_date":"2021-09-24 07:12:15"},"1035":{"id":17296,"user_id":0,"guest_user_id":"8783b3868f3a03bd","merchant_inventry_id":1035,"item_name":"Hot Chilli Pickle(Hot Chilli Pickle)","number_of_item":1,"created_date":"2021-09-24 07:12:15"}},"productDetails":{"status":"success","data":{"229":{"id":229,"price":"15.50","product_id":385,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Cinnamon Powder","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"1035":{"id":1035,"price":"21.99","product_id":1318,"merchant_id":4,"store_id":4,"merchant_product_code":"10374","product_name":"Hot Chilli Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Green Chilli (56 percent), Sunflower Oil, Salt, Lime Juice, Mustard, Fenugreek, Vinegar, Ginger, Ground, Spices, Asafoetida, Preservative, Acetic Acid\",\"Storage\":\"Once Opened Remove to an Airtight Container. Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"},"1044":{"id":1044,"price":"21.99","product_id":1327,"merchant_id":4,"store_id":4,"merchant_product_code":"10375","product_name":"Mixed Pickle","product_desc":"Natco is the favoured brand for spices and herbs, nuts, poppadoms, lentils, gram flour, grains, chutneys, seeds and more.\nWe have been serving the UK\u2019s growing love for these foods since 1961 and are trusted by homes all across the UK and beyond. We source our products from all over the world, and bring them to our award-winning processing hub in the heart of the Buckingham countryside.\nNatco Foods is part of the Choithram Group which has worldwide activities including supermarkets, manufacturing and distribution. This influence and expertise is what sets us apart from other brands.","default_discount_type":"","default_discount_value":"0","category_id":100,"custom_info":"{\"Ingredients\":\"Mango (34 percent), Limes (20 percent), Sunflower Oil, Salt, Chili (10 percent), Vinegar, Fenugreek, Mustard, Ground Spices, Garlic, Asafoetida\",\"Storage\":\"Store in a Cool Dry Place\",\"Allergen\":\"Mustard\"}","brand_name":"Natco","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":300,"tax_value":"3"}},"productImageData":{"385":[{"id":303,"type":"product","image_id":385,"image_name":"6033000220516.jpg"}],"1318":[{"id":1598,"type":"product","image_id":1318,"image_name":"10374.jpg"}],"1327":[{"id":1608,"type":"product","image_id":1327,"image_name":"10375.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-01 16:56:38
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-10-01 16:56:47
+{"method":"getitemintocart","guest_user_id":"32ef8277c285bc5c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 16:57:23
+{"method":"getitemintocart","guest_user_id":"32ef8277c285bc5c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 17:40:51
+{"method":"getitemintocart","guest_user_id":"41ce97fc138c5af5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 19:42:03
+{"method":"getitemintocart","guest_user_id":"2ce42c66287b3850"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 20:40:11
+{"method":"getitemintocart","guest_user_id":"325cb7a10de8faaa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 21:59:19
+{"method":"getitemintocart","guest_user_id":"32ef8277c285bc5c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-01 22:27:03
+{"method":"getitemintocart","guest_user_id":"4037b79958604861"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

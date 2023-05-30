@@ -1,0 +1,13 @@
+
+ Request - 2023-05-13 09:33:25
+{"method":"getCityIdByAddressOrLatLng","address":"2PP3+MPQ, Douala, Cameroun","lat":"4.0366445","lng":"9.7045597"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-13 09:33:30
+{"method":"getCityIdByAddressOrLatLng","address":"2PP3+MPQ, Douala, Cameroun","lat":"4.0366445","lng":"9.7045597"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-13 09:33:34
+{"method":"getCityIdByAddressOrLatLng","address":"2PP3+MPQ, Douala, Cameroun","lat":"4.0366445","lng":"9.7045597"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-10-06 16:50:08
+{"method":"addtocart","guest_user_id":"5d3d2e6792ff314c","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

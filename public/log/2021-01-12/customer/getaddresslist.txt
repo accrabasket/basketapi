@@ -1,0 +1,9 @@
+
+ Request - 2021-01-12 16:41:30
+{"method":"getaddresslist","user_id":"1691"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-01-12 16:41:54
+{"method":"getaddresslist","user_id":"1691"}
+ Response :- 
+{"status":"success","data":{"362":{"id":362,"user_id":1691,"address_nickname":"djddhdh","contact_name":"Emmanuel","city_id":1,"city_name":"N8, Ghana","house_number":"0244556677","street_detail":"shd3","landmark":"sjdjd","zipcode":"1234","area":"","lat":"5.8297458","lng":"","created_date":"2021-01-12 16:41:53","updated_date":"2021-01-12 16:41:53"}}}

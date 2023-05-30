@@ -1,0 +1,13 @@
+
+ Request - 2021-11-15 19:38:05
+{"method":"getCityIdByAddressOrLatLng","address":"101233, Ikeja, Nigeria","lat":"6.601838","lng":"3.3514863"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sanusi transport nig ,com, Ikeja airport Ikeja, Allen 219379, Lagos, Nigeria"}}
+ Request - 2021-11-15 19:38:11
+{"method":"getCityIdByAddressOrLatLng","address":"101233, Ikeja, Nigeria","lat":"6.601838","lng":"3.3514863"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sanusi transport nig ,com, Ikeja airport Ikeja, Allen 219379, Lagos, Nigeria"}}
+ Request - 2021-11-15 19:55:59
+{"method":"getCityIdByAddressOrLatLng","address":"X6H3+QJX، ترسا، قسم الجيزة، الجيزة، مصر","lat":"29.9795531","lng":"31.2040912"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X6H3+QJX, Tersa, Giza District, Giza Governorate, Egypt"}}

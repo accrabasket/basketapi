@@ -1,0 +1,5 @@
+
+ Request - 2021-01-02 11:14:25
+{"method":"addedituser","city_id":"1","password":"test12345678@c.us","name":"test12345678@c.us","email":"test12345678@c.us","mobile_number":"123456782","country_code":"+233","id":"0"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233123456782 and registered email id.","data":{"1643":{"id":1643,"name":"test12345678@c.us","mobile_number":"123456782","email":"test12345678@c.us","key":"0a9273b3e79771b149119f028385b6c6","password":"5968b2ffe81d39d8b2972079833ed8bf","fcm_reg_id":"","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-02 11:14:25","updated_date":"2021-01-02 11:14:25","status":"1"}}}

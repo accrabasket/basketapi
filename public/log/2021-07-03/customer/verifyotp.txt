@@ -1,0 +1,5 @@
+
+ Request - 2021-07-03 06:49:36
+{"method":"verifyotp","country_code":"+233","mobile_number":"244913342","otp_type":"register","otp":"1620"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"a6e39c841eaa3b40badb61de7ee73d99"}}

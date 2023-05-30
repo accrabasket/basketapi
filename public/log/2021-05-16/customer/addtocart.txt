@@ -1,0 +1,45 @@
+
+ Request - 2021-05-16 17:22:55
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond/Badam"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 17:22:59
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 17:23:02
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 17:24:20
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 17:24:31
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 18:39:20
+{"method":"addtocart","guest_user_id":"93d83ef60ab1928a","number_of_item":"1","merchant_inventry_id":"430","action":"add","item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 18:39:50
+{"method":"addtocart","guest_user_id":"93d83ef60ab1928a","number_of_item":"1","merchant_inventry_id":"430","action":"delete","item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 18:43:57
+{"method":"addtocart","guest_user_id":"93d83ef60ab1928a","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 18:43:59
+{"method":"addtocart","guest_user_id":"93d83ef60ab1928a","number_of_item":"1","merchant_inventry_id":"430","action":"add","item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 18:44:23
+{"method":"addtocart","guest_user_id":"93d83ef60ab1928a","number_of_item":"1","merchant_inventry_id":"607","action":"add","item_name":"2in1 Summer Sensations - Handwash Washing Powder(2-in-1 Summer Sensations - Handwash Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-16 18:44:25
+{"method":"addtocart","guest_user_id":"93d83ef60ab1928a","number_of_item":"1","merchant_inventry_id":"440","action":"add","item_name":"Limefresh - WC Gel(Limefresh - WC Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

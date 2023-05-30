@@ -1,0 +1,25 @@
+
+ Request - 2021-06-05 09:53:54
+{"method":"addedituser","city_id":"1","password":"s.k.sons","name":"Brijesh Soni ","email":"brijeshsoni95@gmail.com","mobile_number":"243550685","country_code":"+233","id":"0","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-06-05 09:54:02
+{"method":"addedituser","city_id":"1","password":"s.k.sons","name":"Brijesh Soni ","email":"brijeshsoni95@gmail.com","mobile_number":"243550685","country_code":"+233","id":"0","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-06-05 09:54:59
+{"method":"addedituser","city_id":"1","password":"s.k.sons","name":"Brijesh ","email":"brijeshsoni95@gmail.com","mobile_number":"243550685","country_code":"+233","id":"0","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-06-05 09:55:04
+{"method":"addedituser","city_id":"1","password":"s.k.sons","name":"Brijesh ","email":"brijeshsoni95@gmail.com","mobile_number":"243550685","country_code":"+233","id":"0","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-06-05 09:55:38
+{"method":"addedituser","city_id":"1","password":"s.k.sons","name":"Brijesh ","email":"brijeshsoni95@gmail.com","mobile_number":"200666679","country_code":"+233","id":"0","fcm_reg_id":"fj3GhuX99Kc:APA91bHvFDQ86oOmjQ14oW1kMslYR65w5XgEOwyHvu4ZBgo_3TB7HcJo_W1GCTnwp2snuT3ubt4glXx_QM7iyqm4DY6kiNKTQFXn8tnorut4HosetsBSTCW71V6s2evc8asRxrPcb5jJ"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-06-05 10:39:01
+{"method":"addedituser","city_id":"1","password":"alia@azahra0703","name":"lia zahara","email":"liazahara895@gmail.com","mobile_number":"085881217506","country_code":"+233","id":"0","fcm_reg_id":"eJrRgPGXSGI:APA91bGXNz0igcrVKMGZdetBYGjQC2J5RJrcI_bt-SCyMgLIsyKHTFH53x6yQ0oqaBuhQdsjPQxszqdUb6FRBr-S_oATCANHzQX8KZKw0bnef1eO3DW1sZAgs7iTVHpA3m6nrocjITNB"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +23385881217506 and registered email id.","data":{"2665":{"id":2665,"name":"lia zahara","mobile_number":"85881217506","email":"liazahara895@gmail.com","key":"6a82a578f45d01a5ce78565d6dab752e","password":"ff293a94e39204801efb8173c4baf0c2","fcm_reg_id":"eJrRgPGXSGI:APA91bGXNz0igcrVKMGZdetBYGjQC2J5RJrcI_bt-SCyMgLIsyKHTFH53x6yQ0oqaBuhQdsjPQxszqdUb6FRBr-S_oATCANHzQX8KZKw0bnef1eO3DW1sZAgs7iTVHpA3m6nrocjITNB","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-06-05 10:39:01","updated_date":"2021-06-05 10:39:01","status":"1"}}}

@@ -1,0 +1,9 @@
+
+ Request - 2022-04-07 01:01:58
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 610111, Nigeria","lat":"11.837837837837839","lng":"13.052370939936448"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R3Q2+4W Maiduguri, Nigeria"}}
+ Request - 2022-04-07 14:18:41
+{"method":"getCityIdByAddressOrLatLng","address":"20 Old Sunset Blvd, Phase 2 Defence Housing Authority, Karachi, Karachi City, Sindh 75600, Pakistan","lat":"24.8342913","lng":"67.0499444"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"20 Old Sunset Blvd, Phase 2 Defence Housing Authority, Karachi, Karachi City, Sindh 75600, Pakistan"}}

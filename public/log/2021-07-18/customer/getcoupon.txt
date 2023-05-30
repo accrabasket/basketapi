@@ -1,0 +1,5 @@
+
+ Request - 2021-07-18 17:49:51
+{"method":"getcoupon","user_id":"3223","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

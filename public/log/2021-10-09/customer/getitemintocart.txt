@@ -1,0 +1,29 @@
+
+ Request - 2021-10-09 06:02:57
+{"method":"getitemintocart","guest_user_id":"7aad0f082c843945"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-09 06:04:42
+{"method":"getitemintocart","guest_user_id":"7aad0f082c843945"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-09 06:05:57
+{"method":"getitemintocart","guest_user_id":"7aad0f082c843945"}
+ Response :- 
+{"status":"success","data":{"807":{"id":17516,"user_id":0,"guest_user_id":"7aad0f082c843945","merchant_inventry_id":807,"item_name":"Savlon Antiseptic Liquid(Savlon Antiseptic Liquid)","number_of_item":1,"created_date":"2021-10-09 06:05:56"}},"productDetails":{"status":"success","data":{"807":{"id":807,"price":"48.99","product_id":1091,"merchant_id":4,"store_id":4,"merchant_product_code":"7982","product_name":"Savlon Antiseptic Liquid","product_desc":"Savlon, from Johnson & Johnson, helps care for and protect you and your loved ones' skin from germs, giving you and your family the freedom to live free and do more. For the past 23 years Savlon has made your skin care its top priority in South Africa, helping prevent the spread of germs. Savlon manufactures a range of antiseptic & hygiene products which keep your skin clean and protected from germs. They are also used in first aid to clean wounds and prevent infections. Johnson & Johnson products are supported by science, recommended by healthcare professionals and trusted by people around the world. For Johnson & Johnson, keeping their safety and care commitment is of great importance to continue earning the consumer's trust. They are committed to listening to their consumers and improving their products to provide consumers with peace of mind when taking the products home. Johnson & Johnson give their consumers the commitment that every product in the Johnson & Johnson Family of Con","default_discount_type":"","default_discount_value":"0","category_id":89,"custom_info":"{\"Ingredients\":\"Each 100 ml contains 3.0 g Cetrimide and 0.3 g Chlorhexidine\",\"Preparation and Usage\":\"Dosage and directions of use for Savlon Antiseptic Liquid:\\r\\nGeneral Antiseptic Cleansing: Dilute 60 - 90 ml in 1.0 - 1.5 litre of water.\\r\\nFirst Aid: Minor cuts, abrasions, stings and insect bites - dilute 5 ml in 100 ml water.\"}","brand_name":"Johnson & Johnson","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"1091":[{"id":904,"type":"product","image_id":1091,"image_name":"1091_1545140922.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-09 06:06:00
+{"method":"getitemintocart","guest_user_id":"7aad0f082c843945"}
+ Response :- 
+{"status":"success","data":{"807":{"id":17516,"user_id":0,"guest_user_id":"7aad0f082c843945","merchant_inventry_id":807,"item_name":"Savlon Antiseptic Liquid(Savlon Antiseptic Liquid)","number_of_item":1,"created_date":"2021-10-09 06:05:56"}},"productDetails":{"status":"success","data":{"807":{"id":807,"price":"48.99","product_id":1091,"merchant_id":4,"store_id":4,"merchant_product_code":"7982","product_name":"Savlon Antiseptic Liquid","product_desc":"Savlon, from Johnson & Johnson, helps care for and protect you and your loved ones' skin from germs, giving you and your family the freedom to live free and do more. For the past 23 years Savlon has made your skin care its top priority in South Africa, helping prevent the spread of germs. Savlon manufactures a range of antiseptic & hygiene products which keep your skin clean and protected from germs. They are also used in first aid to clean wounds and prevent infections. Johnson & Johnson products are supported by science, recommended by healthcare professionals and trusted by people around the world. For Johnson & Johnson, keeping their safety and care commitment is of great importance to continue earning the consumer's trust. They are committed to listening to their consumers and improving their products to provide consumers with peace of mind when taking the products home. Johnson & Johnson give their consumers the commitment that every product in the Johnson & Johnson Family of Con","default_discount_type":"","default_discount_value":"0","category_id":89,"custom_info":"{\"Ingredients\":\"Each 100 ml contains 3.0 g Cetrimide and 0.3 g Chlorhexidine\",\"Preparation and Usage\":\"Dosage and directions of use for Savlon Antiseptic Liquid:\\r\\nGeneral Antiseptic Cleansing: Dilute 60 - 90 ml in 1.0 - 1.5 litre of water.\\r\\nFirst Aid: Minor cuts, abrasions, stings and insect bites - dilute 5 ml in 100 ml water.\"}","brand_name":"Johnson & Johnson","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"1091":[{"id":904,"type":"product","image_id":1091,"image_name":"1091_1545140922.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-09 16:55:49
+{"method":"getitemintocart","guest_user_id":"101cf46c33c48679"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-09 17:00:13
+{"method":"getitemintocart","guest_user_id":"9a2bf4bb8d5dca0c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-09 17:54:35
+{"method":"getitemintocart","guest_user_id":"7d1199d9d89be75e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

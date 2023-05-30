@@ -1,0 +1,17 @@
+
+ Request - 2022-06-21 03:01:19
+{"method":"getCityIdByAddressOrLatLng","address":"8FQR+7H9, Chau. de Kasenga, Lubumbashi, République démocratique du Congo","lat":"-11.6628236","lng":"27.4910366"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8FQR+7H9, Chau. de Kasenga, Lubumbashi, Democratic Republic of the Congo"}}
+ Request - 2022-06-21 07:33:04
+{"method":"getCityIdByAddressOrLatLng","address":"23 Moulvi Tamizuddin Khan Rd, Lalazar, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8461335","lng":"66.9985515"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"23 Moulvi Tamizuddin Khan Rd, Lalazar, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-06-21 07:37:49
+{"method":"getCityIdByAddressOrLatLng","address":"23 Moulvi Tamizuddin Khan Rd, Lalazar, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8460739","lng":"66.998541"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"23 Moulvi Tamizuddin Khan Rd, Lalazar, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-06-21 09:42:52
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, République démocratique du Congo","lat":"-4.4226579","lng":"15.4637418"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HFG7+WF Kinshasa, Democratic Republic of the Congo"}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-03-16 10:50:58
+{"method":"addedituser","city_id":"1","password":"Jamessago055","name":"James","email":"sagojimmy50@gmail.com","mobile_number":"552518559","country_code":"+233","id":"0","fcm_reg_id":"e3K_HqHeVFY:APA91bGGPfB3NGClJzMKtJ_zYOZJD-DsioovZsX5AicXjubgx6-YtUy-ahZfutxekSxyHbDWEjeLgTtfYVCoOB2_SzX08MLeo3ZvNmnCtAtpd7J4KvD_u6vb2gnWUaECoHzwz4Ja-M3g"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233552518559 and registered email id.","data":{"2140":{"id":2140,"name":"James","mobile_number":"552518559","email":"sagojimmy50@gmail.com","key":"c6ff2e634dfcabbda4eb250304301630","password":"95d1bad95e55bb888086fdc36a8379d0","fcm_reg_id":"e3K_HqHeVFY:APA91bGGPfB3NGClJzMKtJ_zYOZJD-DsioovZsX5AicXjubgx6-YtUy-ahZfutxekSxyHbDWEjeLgTtfYVCoOB2_SzX08MLeo3ZvNmnCtAtpd7J4KvD_u6vb2gnWUaECoHzwz4Ja-M3g","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-16 10:50:58","updated_date":"2021-03-16 10:50:58","status":"1"}}}
+ Request - 2021-03-16 10:53:39
+{"method":"addedituser","city_id":"1","password":"Jamessago055","name":"James","email":"sagojimmy50@gmail.com","mobile_number":"552518559","country_code":"+233","id":"0","fcm_reg_id":"e3K_HqHeVFY:APA91bGGPfB3NGClJzMKtJ_zYOZJD-DsioovZsX5AicXjubgx6-YtUy-ahZfutxekSxyHbDWEjeLgTtfYVCoOB2_SzX08MLeo3ZvNmnCtAtpd7J4KvD_u6vb2gnWUaECoHzwz4Ja-M3g"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-16 10:53:46
+{"method":"addedituser","city_id":"1","password":"Jamessago055","name":"James","email":"sagojimmy50@gmail.com","mobile_number":"552518559","country_code":"+233","id":"0","fcm_reg_id":"e3K_HqHeVFY:APA91bGGPfB3NGClJzMKtJ_zYOZJD-DsioovZsX5AicXjubgx6-YtUy-ahZfutxekSxyHbDWEjeLgTtfYVCoOB2_SzX08MLeo3ZvNmnCtAtpd7J4KvD_u6vb2gnWUaECoHzwz4Ja-M3g"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-16 10:53:55
+{"method":"addedituser","city_id":"1","password":"Jamessago055","name":"James","email":"sagojimmy50@gmail.com","mobile_number":"552518559","country_code":"+233","id":"0","fcm_reg_id":"e3K_HqHeVFY:APA91bGGPfB3NGClJzMKtJ_zYOZJD-DsioovZsX5AicXjubgx6-YtUy-ahZfutxekSxyHbDWEjeLgTtfYVCoOB2_SzX08MLeo3ZvNmnCtAtpd7J4KvD_u6vb2gnWUaECoHzwz4Ja-M3g"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-16 10:54:04
+{"method":"addedituser","city_id":"1","password":"Jamessago055","name":"James","email":"sagojimmy50@gmail.com","mobile_number":"552518559","country_code":"+233","id":"0","fcm_reg_id":"e3K_HqHeVFY:APA91bGGPfB3NGClJzMKtJ_zYOZJD-DsioovZsX5AicXjubgx6-YtUy-ahZfutxekSxyHbDWEjeLgTtfYVCoOB2_SzX08MLeo3ZvNmnCtAtpd7J4KvD_u6vb2gnWUaECoHzwz4Ja-M3g"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

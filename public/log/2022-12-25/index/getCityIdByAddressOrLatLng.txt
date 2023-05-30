@@ -1,0 +1,5 @@
+
+ Request - 2022-12-25 15:04:00
+{"method":"getCityIdByAddressOrLatLng","address":"C9V2+6RW, Hoima, Uganda","lat":"1.4435238","lng":"31.3514827"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C9V2+6RW, Hoima, Uganda"}}

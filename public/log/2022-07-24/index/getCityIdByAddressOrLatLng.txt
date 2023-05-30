@@ -1,0 +1,17 @@
+
+ Request - 2022-07-24 02:09:39
+{"method":"getCityIdByAddressOrLatLng","address":"R42P+5Q9, Ibrahim Hyderi Karachi, Karachi City, Sindh, Pakistan","lat":"24.8004928","lng":"67.1369748"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R42P+5Q9, Ibrahim Hyderi Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-07-24 14:05:22
+{"method":"getCityIdByAddressOrLatLng","address":"PPXW+CF7, Bangladesh","lat":"22.7498342","lng":"89.7463569"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PPXW+CF7, Bangladesh"}}
+ Request - 2022-07-24 18:23:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, إثيوبيا","lat":"10.4572756","lng":"34.7566425"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FQ44+WM Belfodio, Ethiopia"}}
+ Request - 2022-07-24 21:16:53
+{"method":"getCityIdByAddressOrLatLng","address":"J3JQ+PW2, Service Rd, Sadiqabad Muslim Town, Rawalpindi, Punjab 46000, Pakistan","lat":"33.6319947","lng":"73.0900054"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J3JQ+PW2, Service Rd, Sadiqabad Muslim Town, Rawalpindi, Punjab 46000, Pakistan"}}

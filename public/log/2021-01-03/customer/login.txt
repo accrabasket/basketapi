@@ -1,0 +1,25 @@
+
+ Request - 2021-01-03 06:10:57
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234324324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"djQaWaJTknc:APA91bFJpa2OTTZhUVIikgST4o7JpAZ9DrWtneVJRuiIawNiOUOUJ9lvhaZVQpQgrOY3BazS8tC640qAnTkCsC0bKjkBwHWrzVHI3_h5Dfjioc-E1y_o69eiFh01fxdOHWrf1PK3whba","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2020-12-03 14:00:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+ Request - 2021-01-03 06:28:58
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234324324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"djQaWaJTknc:APA91bFJpa2OTTZhUVIikgST4o7JpAZ9DrWtneVJRuiIawNiOUOUJ9lvhaZVQpQgrOY3BazS8tC640qAnTkCsC0bKjkBwHWrzVHI3_h5Dfjioc-E1y_o69eiFh01fxdOHWrf1PK3whba","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2020-12-03 14:00:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+ Request - 2021-01-03 07:16:06
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahwsh"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-01-03 07:16:16
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234324324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"djQaWaJTknc:APA91bFJpa2OTTZhUVIikgST4o7JpAZ9DrWtneVJRuiIawNiOUOUJ9lvhaZVQpQgrOY3BazS8tC640qAnTkCsC0bKjkBwHWrzVHI3_h5Dfjioc-E1y_o69eiFh01fxdOHWrf1PK3whba","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2020-12-03 14:00:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+ Request - 2021-01-03 08:47:20
+{"method":"login","email":"maheshchindi@gmail.com","password":"1234@Mahesh","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234324324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"djQaWaJTknc:APA91bFJpa2OTTZhUVIikgST4o7JpAZ9DrWtneVJRuiIawNiOUOUJ9lvhaZVQpQgrOY3BazS8tC640qAnTkCsC0bKjkBwHWrzVHI3_h5Dfjioc-E1y_o69eiFh01fxdOHWrf1PK3whba","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2020-12-03 14:00:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+ Request - 2021-01-03 14:40:22
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"52a035a3b1813d9794d29b548e1c561d","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2020-12-03 14:00:38","status":"1"}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}

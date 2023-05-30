@@ -1,0 +1,5 @@
+
+ Request - 2022-01-20 11:19:07
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3989}}

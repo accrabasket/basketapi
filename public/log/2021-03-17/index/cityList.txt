@@ -1,0 +1,9 @@
+
+ Request - 2021-03-17 03:10:01
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}
+ Request - 2021-03-17 03:12:25
+{"method":"cityList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"city_name":"Noida","city_synonym":"","country_id":1,"customer_care_number":"","created_on":null,"updated_on":null}}}

@@ -1,0 +1,25 @@
+
+ Request - 2021-06-04 06:21:33
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Noli, Rajasthan 313026, India","lat":"24.0474991","lng":"73.9651878"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Noli, Rajasthan 313026, India"}}
+ Request - 2021-06-04 08:29:51
+{"method":"getCityIdByAddressOrLatLng","address":"Tarkwa - Agyempoma Rd, Prestea- Huni Valley District, Ghana","lat":"5.528155","lng":"-1.9150166666666668"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tarkwa - Agyempoma Rd, Prestea- Huni Valley District, Ghana"}}
+ Request - 2021-06-04 17:35:06
+{"method":"getCityIdByAddressOrLatLng","address":"نخل، قسم نخل،، قسم نخل، شمال سيناء، مصر","lat":"29.9082351","lng":"33.7453981"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0646\u062e\u0644\u060c \u0642\u0633\u0645 \u0646\u062e\u0644\u060c\u060c Nakhl, North Sinai Governorate, Egypt"}}
+ Request - 2021-06-04 21:35:52
+{"method":"getCityIdByAddressOrLatLng","address":"5 Dixon Ave, Grimsby DN32 0AJ, UK","lat":"53.5532246","lng":"-0.0772017"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Dixon Ave, Grimsby DN32 0AJ, UK"}}
+ Request - 2021-06-04 22:52:32
+{"method":"getCityIdByAddressOrLatLng","address":"Nnubi Street, Okpoko, Onitsha, Nigeria","lat":"6.1127364","lng":"6.7847036"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nnubi Street, Okpoko, Onitsha, Nigeria"}}
+ Request - 2021-06-04 22:52:36
+{"method":"getCityIdByAddressOrLatLng","address":"Nnubi Street, Okpoko, Onitsha, Nigeria","lat":"6.1127364","lng":"6.7847036"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nnubi Street, Okpoko, Onitsha, Nigeria"}}

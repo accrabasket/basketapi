@@ -1,0 +1,29 @@
+
+ Request - 2022-03-05 00:04:33
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Touba, Sénégal","lat":"14.8484387","lng":"-15.9429993"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R3X4+9R Touba, Senegal"}}
+ Request - 2022-03-05 05:45:07
+{"method":"getCityIdByAddressOrLatLng","address":"N11, Cameroon","lat":"5.9918091","lng":"10.1284912"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X4RH+P9 Bamenda, Cameroon"}}
+ Request - 2022-03-05 08:47:40
+{"method":"getCityIdByAddressOrLatLng","address":"GR7V+93M، إربد، الأردن","lat":"32.5137966","lng":"35.843695"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GR7V+93M, Irbid, Jordan"}}
+ Request - 2022-03-05 12:19:01
+{"method":"getCityIdByAddressOrLatLng","address":"3MC4+46F, Bonabéri, Cameroun","lat":"4.0695692","lng":"9.6555994"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3MC4+46F, Bonab\u00e9ri, Cameroon"}}
+ Request - 2022-03-05 16:09:34
+{"method":"getCityIdByAddressOrLatLng","address":"2 Omolara Badekale St, 105101, Lekki, Nigeria","lat":"6.4767262","lng":"3.7011559"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2 Omolara Badekale St, 105101, Lekki, Nigeria"}}
+ Request - 2022-03-05 18:32:22
+{"method":"getCityIdByAddressOrLatLng","address":"AMAORJI, 470104, Nigeria","lat":"5.8410685","lng":"7.276076"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"AMAORJI, 470104, Nigeria"}}
+ Request - 2022-03-05 20:57:27
+{"method":"getCityIdByAddressOrLatLng","address":"Eggua-Ilara Rd, 110125, Nigeria","lat":"7.0885172","lng":"2.8843687"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3VQM+CP Tata Market, Nigeria"}}

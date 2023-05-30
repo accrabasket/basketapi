@@ -1,0 +1,45 @@
+
+ Request - 2022-03-10 02:36:39
+{"method":"getitemintocart","guest_user_id":"c561b8a2b66a2eec"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 06:33:27
+{"method":"getitemintocart","guest_user_id":"08d063d1c38e1cf0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 07:05:20
+{"method":"getitemintocart","guest_user_id":"88fd789ef3a19e2f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 08:51:00
+{"method":"getitemintocart","guest_user_id":"b667d5bdb291c1bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 08:54:00
+{"method":"getitemintocart","guest_user_id":"b667d5bdb291c1bd"}
+ Response :- 
+{"status":"success","data":{"3043":{"id":20125,"user_id":0,"guest_user_id":"b667d5bdb291c1bd","merchant_inventry_id":3043,"item_name":"Caffeine Free Energy Drink(Caffeine Free Energy Drink)","number_of_item":1,"created_date":"2022-03-10 08:53:59"}},"productDetails":{"status":"success","data":{"3043":{"id":3043,"price":"6.60","product_id":3452,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Caffeine Free Energy Drink","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Shelf Life\":\"12 months\"}","brand_name":"Bullet","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":250,"tax_value":"3"}},"productImageData":{"3452":[{"id":4187,"type":"product","image_id":3452,"image_name":"VID116.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-03-10 08:54:01
+{"method":"getitemintocart","guest_user_id":"b667d5bdb291c1bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 12:25:06
+{"method":"getitemintocart","guest_user_id":"8724c9b648f60bc3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 12:53:08
+{"method":"getitemintocart","guest_user_id":"1f29cd7c1b441c00"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 13:53:29
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 16:57:24
+{"method":"getitemintocart","guest_user_id":"5f25e2359013daf3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-03-10 20:02:12
+{"method":"getitemintocart","guest_user_id":"d98f54e64ba2f318"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

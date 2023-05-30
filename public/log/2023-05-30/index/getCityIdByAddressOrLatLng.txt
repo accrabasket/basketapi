@@ -1,0 +1,17 @@
+
+ Request - 2023-05-30 13:47:22
+{"method":"getCityIdByAddressOrLatLng","address":"F82W+G9H, Ismail Nagar Lahore, Punjab, Pakistan","lat":"31.4515229","lng":"74.34596"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-30 13:47:28
+{"method":"getCityIdByAddressOrLatLng","address":"F82W+G9H, Ismail Nagar Lahore, Punjab, Pakistan","lat":"31.4515229","lng":"74.34596"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-30 13:48:00
+{"method":"getCityIdByAddressOrLatLng","address":"F82W+G9H, Ismail Nagar Lahore, Punjab, Pakistan","lat":"31.4515229","lng":"74.34596"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-30 13:48:01
+{"method":"getCityIdByAddressOrLatLng","address":"F82W+G9H, Ismail Nagar Lahore, Punjab, Pakistan","lat":"31.4515229","lng":"74.34596"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

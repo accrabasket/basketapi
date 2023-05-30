@@ -1,0 +1,57 @@
+
+ Request - 2023-02-19 08:28:37
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:28:45
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:28:47
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:28:59
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:29:06
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:29:09
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:29:10
+{"method":"getCityIdByAddressOrLatLng","address":"नाम-रहित सड़क, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8241189","lng":"80.7132987"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:29:34
+{"method":"getCityIdByAddressOrLatLng","address":"RP98+54V, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8170923","lng":"80.7167639"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 08:29:51
+{"method":"getCityIdByAddressOrLatLng","address":"RP98+54V, बार्टर, उत्तर प्रदेश 262725, भारत","lat":"27.8170923","lng":"80.7167639"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 19:21:55
+{"method":"getCityIdByAddressOrLatLng","address":"Noun, Cameroun","lat":"5.6955801","lng":"11.1244049"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 19:21:57
+{"method":"getCityIdByAddressOrLatLng","address":"Noun, Cameroun","lat":"5.6955801","lng":"11.1244049"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 19:22:01
+{"method":"getCityIdByAddressOrLatLng","address":"Noun, Cameroun","lat":"5.6955801","lng":"11.1244049"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 19:22:05
+{"method":"getCityIdByAddressOrLatLng","address":"Noun, Cameroun","lat":"5.6955801","lng":"11.1244049"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-02-19 19:22:15
+{"method":"getCityIdByAddressOrLatLng","address":"Noun, Cameroun","lat":"5.6955801","lng":"11.1244049"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

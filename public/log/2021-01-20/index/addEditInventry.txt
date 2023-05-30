@@ -1,0 +1,5 @@
+
+ Request - 2021-01-20 12:56:42
+{"product_id":"2072","attribute_id":["2135"],"store_id":["4"],"price":["7"],"stock":["20"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

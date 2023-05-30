@@ -1,0 +1,9 @@
+
+ Request - 2021-04-18 16:30:37
+{"method":"addeditdeliveryaddress","house_number":"ADABRAKA","area":"","street_detail":"Accra Technical University","contact_name":"ABENA","city_name":"51 Kojo Thompson Rd, Accra, Ghana","city_id":"1","lat":"5.5539729","long":"-0.2081888","user_id":"2419","address_nickname":"Kimbu Road","landmark":"KKF HOSTEL","zipcode":"2021"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":444}}
+ Request - 2021-04-18 16:31:29
+{"method":"addeditdeliveryaddress","house_number":"ADABRAKA","area":"","street_detail":"KIMBU ROAD","contact_name":"ABENA","city_name":"51 Kojo Thompson Rd, Accra, Ghana","city_id":"1","lat":"5.5539729","long":"-0.2081888","user_id":"2419","address_nickname":"ACCRA TECHNICAL UNIVERSITY","landmark":"KKF HOSTEL","zipcode":"2021","id":"444"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

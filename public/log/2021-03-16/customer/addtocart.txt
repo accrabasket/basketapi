@@ -1,0 +1,61 @@
+
+ Request - 2021-03-16 01:37:47
+{"method":"addtocart","user_id":"2123","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 01:37:50
+{"method":"addtocart","user_id":"2123","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 01:37:59
+{"method":"addtocart","user_id":"2123","number_of_item":"1","merchant_inventry_id":"460","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 10:43:11
+{"method":"addtocart","guest_user_id":"84d7a72c6f07ceea","number_of_item":"1","merchant_inventry_id":"1799","action":"add","item_name":"Schnapps(Schnapps)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 10:43:39
+{"method":"addtocart","guest_user_id":"84d7a72c6f07ceea","number_of_item":"1","merchant_inventry_id":"1799","action":"add","item_name":"Schnapps(Schnapps)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 10:46:25
+{"method":"addtocart","guest_user_id":"84d7a72c6f07ceea","number_of_item":"1","merchant_inventry_id":"2826","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 10:46:31
+{"method":"addtocart","guest_user_id":"84d7a72c6f07ceea","number_of_item":"1","merchant_inventry_id":"2826","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 11:25:10
+{"method":"addtocart","user_id":"2140","number_of_item":"1","merchant_inventry_id":"2826","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 11:25:19
+{"method":"addtocart","user_id":"2140","number_of_item":"1","merchant_inventry_id":"2826","action":"delete","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 15:15:06
+{"method":"addtocart","guest_user_id":"3d11a1386f8c9cd5","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 15:31:28
+{"method":"addtocart","guest_user_id":"e79f40b44e360c49","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 15:31:37
+{"method":"addtocart","guest_user_id":"e79f40b44e360c49","number_of_item":"1","merchant_inventry_id":"2518","action":"add","item_name":"Kids Happy Baskets(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 15:31:54
+{"method":"addtocart","guest_user_id":"e79f40b44e360c49","number_of_item":"1","merchant_inventry_id":"3099","action":"add","item_name":"200 GHC(200 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 15:31:56
+{"method":"addtocart","guest_user_id":"e79f40b44e360c49","number_of_item":"1","merchant_inventry_id":"3100","action":"add","item_name":"300 GHC(300 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-16 19:32:24
+{"method":"addtocart","guest_user_id":"994bf1017743357f","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

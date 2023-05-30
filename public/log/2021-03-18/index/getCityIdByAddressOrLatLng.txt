@@ -1,0 +1,13 @@
+
+ Request - 2021-03-18 10:28:43
+{"method":"getCityIdByAddressOrLatLng","address":"52 Port Harcourt Rd, Aba, Nigeria","lat":"5.0989792","lng":"7.3579016"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"52 Port Harcourt Rd, Aba, Nigeria"}}
+ Request - 2021-03-18 19:53:57
+{"method":"getCityIdByAddressOrLatLng","address":"Temple St, Kwashieman, Ghana","lat":"5.6005659","lng":"-0.2680195"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Temple St, Kwashieman, Ghana"}}
+ Request - 2021-03-18 21:33:09
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.6378048","lng":"-0.0826183"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

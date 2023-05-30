@@ -1,0 +1,21 @@
+
+ Request - 2022-08-03 02:41:41
+{"method":"getitemintocart","guest_user_id":"bbbb0beff94b41a8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-03 07:06:01
+{"method":"getitemintocart","guest_user_id":"4f1568c07529e275"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-03 08:56:16
+{"method":"getitemintocart","guest_user_id":"f5139ea55fae81f8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-03 10:31:01
+{"method":"getitemintocart","guest_user_id":"fcfbbd018cf47d09"}
+ Response :- 
+{"status":"success","data":{"3774":{"id":22071,"user_id":0,"guest_user_id":"fcfbbd018cf47d09","merchant_inventry_id":3774,"item_name":"GHC 300 Gift Hamper(GHC 300 Gift Hamper)","number_of_item":1,"created_date":"2022-07-14 06:08:32"}},"productDetails":{"status":"success","data":{"3774":{"id":3774,"price":"300.00","product_id":4243,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"GHC 300 Gift Hamper","product_desc":"Total No. of Items in the Hamper : 7\r\n--ABSOLUT VODKA  40% 100CL x1\r\n--ABSOLUT VODKA  40% 37.5CL x1\r\n--ABSOLUT  VODKA MANGO  40% 100CL x1\r\n--ABSOLUT EXTRAKT 70CL x1\r\n--Fitch & Leedes Club Soda 200ml x2\r\n--Kingsbite Milk Chocolate 50g x1\r\n\r\n","default_discount_type":"","default_discount_value":"0","category_id":140,"custom_info":"","brand_name":"","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":1,"tax_value":null}},"productImageData":{"4243":[{"id":5334,"type":"product","image_id":4243,"image_name":"4243_1623747835.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-03 19:04:32
+{"method":"getitemintocart","guest_user_id":"007aca64c999e56e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

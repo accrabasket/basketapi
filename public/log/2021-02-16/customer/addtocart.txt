@@ -1,0 +1,85 @@
+
+ Request - 2021-02-16 02:40:58
+{"method":"addtocart","guest_user_id":"9b4e3c2bc254f11f","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 07:54:15
+{"method":"addtocart","guest_user_id":"9f1a3b065186ac4b","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 07:55:44
+{"method":"addtocart","guest_user_id":"9f1a3b065186ac4b","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 07:55:56
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 07:55:59
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 15:14:24
+{"method":"addtocart","guest_user_id":"9f888f21da5bf610","number_of_item":"1","merchant_inventry_id":"3214","action":"add","item_name":"Fusilli - Pasta(Fusilli - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 15:14:34
+{"method":"addtocart","guest_user_id":"9f888f21da5bf610","number_of_item":"1","merchant_inventry_id":"3214","action":"delete","item_name":"Fusilli - Pasta(Fusilli - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 15:14:42
+{"method":"addtocart","guest_user_id":"9f888f21da5bf610","number_of_item":"1","merchant_inventry_id":"3214","action":"add","item_name":"Fusilli - Pasta(Fusilli - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 15:14:49
+{"method":"addtocart","guest_user_id":"9f888f21da5bf610","number_of_item":"1","merchant_inventry_id":"3214","action":"delete","item_name":"Fusilli - Pasta(Fusilli - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 15:14:50
+{"method":"addtocart","guest_user_id":"9f888f21da5bf610","number_of_item":"1","merchant_inventry_id":"3214","action":"add","item_name":"Fusilli - Pasta(Fusilli - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 15:15:06
+{"method":"addtocart","guest_user_id":"9f888f21da5bf610","number_of_item":"1","merchant_inventry_id":"3214","action":"add","item_name":"Fusilli - Pasta(Fusilli - Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:40:55
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3145","action":"add","item_name":"OXTAIL(OXTAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:41:02
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3144","action":"add","item_name":"BEEF TRIPE(BEEF TRIPE)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:41:31
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3147","action":"add","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:41:33
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3147","action":"add","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:41:45
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3147","action":"add","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:43:39
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3147","action":"delete","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:43:41
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3147","action":"delete","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:43:41
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3147","action":"delete","item_name":"SNAIL(SNAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:43:42
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3144","action":"delete","item_name":"BEEF TRIPE(BEEF TRIPE)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-16 17:43:44
+{"method":"addtocart","guest_user_id":"6d40957ae57da4be","number_of_item":"1","merchant_inventry_id":"3145","action":"delete","item_name":"OXTAIL(OXTAIL)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

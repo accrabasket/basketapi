@@ -1,0 +1,9 @@
+
+ Request - 2021-03-16 01:38:23
+{"method":"getcoupon","user_id":"2123","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-03-16 12:04:58
+{"method":"getcoupon","user_id":"2140","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

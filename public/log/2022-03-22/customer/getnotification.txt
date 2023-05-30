@@ -1,0 +1,21 @@
+
+ Request - 2022-03-22 12:54:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7047,"subject":"Order placed","msg":"New Order order_P_311 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-18 00:02:36","updated_date":null},{"id":7045,"subject":"Order placed","msg":"New Order order_P_310 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-17 11:27:44","updated_date":null},{"id":7043,"subject":"Order placed","msg":"New Order order_P_309 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-03-17 10:15:49","updated_date":null}],"totalRecord":3}
+ Request - 2022-03-22 12:54:32
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-03-22 12:54:43
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-03-22 12:54:54
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-03-22 12:55:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

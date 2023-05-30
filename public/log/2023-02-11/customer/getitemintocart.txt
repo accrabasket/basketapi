@@ -1,0 +1,17 @@
+
+ Request - 2023-02-11 11:56:11
+{"method":"getitemintocart","guest_user_id":"55c74f96334ae7c1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-02-11 11:56:22
+{"method":"getitemintocart","guest_user_id":"55c74f96334ae7c1"}
+ Response :- 
+{"status":"success","data":{"458":{"id":22989,"user_id":0,"guest_user_id":"55c74f96334ae7c1","merchant_inventry_id":458,"item_name":"Gold Rum(Gold Rum)","number_of_item":1,"created_date":"2023-02-11 11:56:22"}},"productDetails":{"status":"success","data":{"458":{"id":458,"price":"99.99","product_id":741,"merchant_id":4,"store_id":4,"merchant_product_code":"7287","product_name":"Gold Rum","product_desc":"BACARDI Gold rum is the proud creation of the Maestros de Ron Bacardi. They expertly craft its rich flavours and golden complexion in toasted oak barrels. And the secret behind that unique mellow character? That comes from a blend of charcoals known only to them.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bacardi","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"L","quantity":1,"tax_value":"3"}},"productImageData":{"741":[{"id":2657,"type":"product","image_id":741,"image_name":"7287.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2023-02-11 16:26:58
+{"method":"getitemintocart","guest_user_id":"67cd923e67747f6b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-02-11 21:52:09
+{"method":"getitemintocart","guest_user_id":"86fb8438b7229a96"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

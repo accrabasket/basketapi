@@ -1,0 +1,29 @@
+
+ Request - 2022-04-16 23:33:05
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"772","action":"add","item_name":"Kingsbite Milk Chocolate (10 Tabs\/Box)(Kingsbite Milk Chocolate (10 Tabs\/Box))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-16 23:33:08
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"929","action":"add","item_name":"Single Duo Chocolate(Single Duo Chocolate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-16 23:33:28
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"1269","action":"add","item_name":"Good Morning Chocolate Flavour Biscuits(Good Morning Chocolate Flavour Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-16 23:34:09
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"1879","action":"add","item_name":"Hide&Seek Choco Rolls(Hide&Seek Choco Rolls)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-16 23:35:07
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"2530","action":"add","item_name":"Assorted Fruits Flavored Candies(Assorted Fruits Flavored Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-16 23:35:58
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"2897","action":"add","item_name":"Yogurt Strawberry Chewy Candy(Yogurt Strawberry Chewy Candy)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-16 23:36:31
+{"method":"addtocart","guest_user_id":"5a51b404fd81df7d","number_of_item":"1","merchant_inventry_id":"929","action":"delete","item_name":"Single Duo Chocolate(Single Duo Chocolate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

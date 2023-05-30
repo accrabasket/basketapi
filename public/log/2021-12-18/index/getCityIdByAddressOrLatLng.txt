@@ -1,0 +1,13 @@
+
+ Request - 2021-12-18 15:06:17
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Atakpamé, Togo","lat":"7.5461293","lng":"1.127357"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G4WG+FW Atakpame, Togo"}}
+ Request - 2021-12-18 16:54:09
+{"method":"getCityIdByAddressOrLatLng","address":"MRM4+J8W, Nairobi, Kenya","lat":"-1.3164846","lng":"36.8063061"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MRM4+J8W, Nairobi, Kenya"}}
+ Request - 2021-12-18 22:08:57
+{"method":"getCityIdByAddressOrLatLng","address":"PGJG+R97, Dakar, Sénégal","lat":"14.7325086","lng":"-17.4735691"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"12 Rue LIB 06, Dakar, Senegal"}}

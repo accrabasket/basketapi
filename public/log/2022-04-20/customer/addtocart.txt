@@ -1,0 +1,9 @@
+
+ Request - 2022-04-20 06:58:44
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"816","action":"add","item_name":"UHT Whole Milk(UHT Whole Milk)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-04-20 06:58:47
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"816","action":"add","item_name":"UHT Whole Milk(UHT Whole Milk)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

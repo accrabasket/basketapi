@@ -1,0 +1,13 @@
+
+ Request - 2021-03-25 14:43:05
+{"method":"getCityIdByAddressOrLatLng","address":"Aboadze Rd, Sekondi-Takoradi, Ghana","lat":"4.9954705","lng":"-1.6778416"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Aboadze Rd, Sekondi-Takoradi, Ghana"}}
+ Request - 2021-03-25 14:43:05
+{"method":"getCityIdByAddressOrLatLng","address":"Aboadze Rd, Sekondi-Takoradi, Ghana","lat":"4.9954705","lng":"-1.6778416"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Aboadze Rd, Sekondi-Takoradi, Ghana"}}
+ Request - 2021-03-25 22:22:36
+{"method":"getCityIdByAddressOrLatLng","address":"Rue sofwe, Lubumbashi, République démocratique du Congo","lat":"-11.6884211","lng":"27.4602474"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue sofwe, Lubumbashi, Democratic Republic of the Congo"}}

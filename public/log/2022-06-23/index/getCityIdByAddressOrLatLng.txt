@@ -1,0 +1,17 @@
+
+ Request - 2022-06-23 06:27:29
+{"method":"getCityIdByAddressOrLatLng","address":"Opposite Adidome Lorry Park, Mafi - Adidome, Ghana","lat":"6.069628183333333","lng":"0.5038869333333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Opposite Adidome Lorry Park, Mafi - Adidome, Ghana"}}
+ Request - 2022-06-23 13:42:13
+{"method":"getCityIdByAddressOrLatLng","address":"Tackie Commey Rd, Accra, Ghana","lat":"5.5446317","lng":"-0.2128452"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tackie Commey Rd, Accra, Ghana"}}
+ Request - 2022-06-23 20:49:53
+{"method":"getCityIdByAddressOrLatLng","address":"PGWQ+V3R, Borpa, Bangladesh","lat":"23.746938","lng":"90.5372727"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PGWQ+V3R, Borpa, Bangladesh"}}
+ Request - 2022-06-23 23:51:37
+{"method":"getCityIdByAddressOrLatLng","address":"PV8Q+F6Q, Borj El Amri, Tunisie","lat":"36.7170948","lng":"9.8872462"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PV8Q+F6Q, Borj El Amri, Tunisia"}}

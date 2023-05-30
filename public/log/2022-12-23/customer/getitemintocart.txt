@@ -1,0 +1,17 @@
+
+ Request - 2022-12-23 05:25:20
+{"method":"getitemintocart","guest_user_id":"7950ee4576e0b304"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-23 09:16:17
+{"method":"getitemintocart","guest_user_id":"67cd923e67747f6b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-23 14:26:50
+{"method":"getitemintocart","guest_user_id":"cd5236fc4f9f7bfe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-23 20:14:05
+{"method":"getitemintocart","guest_user_id":"10c7f4a45a93be55"}
+ Response :- 
+{"status":"success","data":{"3820":{"id":22873,"user_id":0,"guest_user_id":"10c7f4a45a93be55","merchant_inventry_id":3820,"item_name":"Orange(Orange)","number_of_item":1,"created_date":"2022-12-06 15:11:18"}},"productDetails":{"status":"success","data":{"3820":{"id":3820,"price":"15.00","product_id":4292,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Orange","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":122,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Pcs","quantity":1,"tax_value":null}},"productImageData":{"4292":[{"id":5385,"type":"product","image_id":4292,"image_name":"OSU4884.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

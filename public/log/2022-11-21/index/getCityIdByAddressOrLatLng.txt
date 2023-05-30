@@ -1,0 +1,9 @@
+
+ Request - 2022-11-21 12:57:06
+{"method":"getCityIdByAddressOrLatLng","address":"Đường chưa đặt tên, Tân Hải, Phú Tân, Cà Mau, Việt Nam","lat":"8.8981785","lng":"104.8466788"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VRXW+7M Ph\u00fa T\u00e2n District, Ca Mau, Vietnam"}}
+ Request - 2022-11-21 22:49:59
+{"method":"getCityIdByAddressOrLatLng","address":"3176 24th St, San Francisco, CA 94110 アメリカ合衆国","lat":"37.75256","lng":"-122.4158322"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3176 24th St, San Francisco, CA 94110, USA"}}

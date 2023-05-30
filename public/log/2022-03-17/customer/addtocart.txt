@@ -1,0 +1,21 @@
+
+ Request - 2022-03-17 19:56:46
+{"method":"addtocart","guest_user_id":"fde227c2c7950887","number_of_item":"1","merchant_inventry_id":"2071","action":"add","item_name":"Cognac VS Single Distillery(Cognac VS Single Distillery)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-17 19:56:59
+{"method":"addtocart","guest_user_id":"fde227c2c7950887","number_of_item":"1","merchant_inventry_id":"2070","action":"add","item_name":"Cognac XO(Cognac XO)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-17 19:57:13
+{"method":"addtocart","guest_user_id":"fde227c2c7950887","number_of_item":"1","merchant_inventry_id":"2074","action":"add","item_name":"Tequila Gold(Tequila Gold)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-17 20:00:32
+{"method":"addtocart","guest_user_id":"fde227c2c7950887","number_of_item":"1","merchant_inventry_id":"2073","action":"add","item_name":"Mumm Le Rose(Mumm Le Rose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-17 20:00:35
+{"method":"addtocart","guest_user_id":"fde227c2c7950887","number_of_item":"1","merchant_inventry_id":"2080","action":"add","item_name":"Classic Merlot Wine(Classic Merlot Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

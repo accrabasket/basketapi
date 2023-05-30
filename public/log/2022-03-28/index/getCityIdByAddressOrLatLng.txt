@@ -1,0 +1,13 @@
+
+ Request - 2022-03-28 12:03:08
+{"method":"getCityIdByAddressOrLatLng","address":"Mianwali Muzaffargarh Road, Muzaffargarh, Punjab, Pakistan","lat":"30.2799642","lng":"71.2301431"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"76HJ+X3 Ada Sultan Colony, Pakistan"}}
+ Request - 2022-03-28 15:53:54
+{"method":"getCityIdByAddressOrLatLng","address":"5GMP+WXW، واد الفضة، الجزائر","lat":"36.1856707","lng":"1.5377422"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5GMP+WXW, Oued Fodda, Algeria"}}
+ Request - 2022-03-28 16:26:59
+{"method":"getCityIdByAddressOrLatLng","address":"J102, Sector 3, Puth Khurd, New Delhi, Delhi 110039, India","lat":"28.7788622","lng":"77.0523087"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J102, Sector 3, Puth Khurd, New Delhi, Delhi 110039, India"}}

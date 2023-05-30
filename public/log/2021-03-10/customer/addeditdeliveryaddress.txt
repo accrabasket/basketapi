@@ -1,0 +1,9 @@
+
+ Request - 2021-03-10 17:40:39
+{"method":"addeditdeliveryaddress","house_number":"Elijah","area":"","street_detail":"cassava street","contact_name":"Ekow ","city_name":"Cassava St, Ghana","city_id":"1","lat":"5.6888103","long":"-0.1460586","user_id":"2103","address_nickname":"abenwaha, ashaley botwe","landmark":"Chicago pub","zipcode":"00233"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":410}}
+ Request - 2021-03-10 20:45:35
+{"method":"addeditdeliveryaddress","house_number":"-","area":"","street_detail":"Labone, Akosombo street, last house on the left, brown gate","contact_name":"Ralph ","city_name":"5 Dadeban Rd, Accra, Ghana","city_id":"1","lat":"5.5780999","long":"-0.2237097","user_id":"1261","address_nickname":"Akosombo house street","landmark":"Minimac pharmacy ","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":411}}

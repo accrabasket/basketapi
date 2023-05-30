@@ -1,0 +1,13 @@
+
+ Request - 2023-01-10 07:08:56
+{"method":"addtocart","guest_user_id":"b3190e20a40d6918","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-10 07:09:04
+{"method":"addtocart","guest_user_id":"b3190e20a40d6918","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-10 07:09:07
+{"method":"addtocart","guest_user_id":"b3190e20a40d6918","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

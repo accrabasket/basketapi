@@ -1,0 +1,13 @@
+
+ Request - 2021-10-30 04:35:42
+{"method":"getCityIdByAddressOrLatLng","address":"GXX9+WC3, Mogralputhur, Kerala 671124, India","lat":"12.5509292","lng":"74.9697467"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HX29+9V Puthur, Kerala, India"}}
+ Request - 2021-10-30 23:29:45
+{"method":"getCityIdByAddressOrLatLng","address":"PMW9+99F, Katghara, Tarapur Colony, Olandganj, Jaunpur, Uttar Pradesh 222002, India","lat":"25.7456414","lng":"82.669109"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PMW9+99F, Katghara, Tarapur Colony, Olandganj, Jaunpur, Uttar Pradesh 222002, India"}}
+ Request - 2021-10-30 23:30:01
+{"method":"getCityIdByAddressOrLatLng","address":"PMW9+99F, Katghara, Tarapur Colony, Olandganj, Jaunpur, Uttar Pradesh 222002, India","lat":"25.7456414","lng":"82.669109"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PMW9+99F, Katghara, Tarapur Colony, Olandganj, Jaunpur, Uttar Pradesh 222002, India"}}

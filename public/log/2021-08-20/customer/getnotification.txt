@@ -1,0 +1,57 @@
+
+ Request - 2021-08-20 12:21:25
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:21:34
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:21:36
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:22:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:23:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:24:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:25:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 12:34:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 15:13:24
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6675,"subject":"Order placed","msg":"New Order order_P_273 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-20 11:58:21","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-20 15:13:29
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-08-20 15:14:27
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-08-20 15:14:33
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-08-20 15:14:45
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-08-20 15:14:50
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

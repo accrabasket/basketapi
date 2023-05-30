@@ -1,0 +1,49 @@
+
+ Request - 2022-10-02 02:40:38
+{"method":"addtocart","guest_user_id":"6504289e24662994","number_of_item":"1","merchant_inventry_id":"831","action":"delete","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 02:40:44
+{"method":"addtocart","guest_user_id":"6504289e24662994","number_of_item":"1","merchant_inventry_id":"2876","action":"add","item_name":"Richoco - Energy Food Drink(Richoco - Energy Food Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 20:07:30
+{"method":"addtocart","guest_user_id":"4818fec2453e65df","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 20:07:30
+{"method":"addtocart","guest_user_id":"4818fec2453e65df","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 20:22:21
+{"method":"addtocart","guest_user_id":"4818fec2453e65df","number_of_item":"1","merchant_inventry_id":"2676","action":"add","item_name":"Garden Green Peas(Garden Green Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 20:22:29
+{"method":"addtocart","guest_user_id":"4818fec2453e65df","number_of_item":"1","merchant_inventry_id":"2585","action":"add","item_name":"Toor Dal(Toor Dal)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 20:22:35
+{"method":"addtocart","guest_user_id":"4818fec2453e65df","number_of_item":"1","merchant_inventry_id":"272","action":"add","item_name":"Idlli Rice(Idlli Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 20:22:47
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-10-02 20:34:15
+{"method":"addtocart","guest_user_id":"6504289e24662994","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 22:08:03
+{"method":"addtocart","guest_user_id":"0660bfca33ab8a8b","number_of_item":"1","merchant_inventry_id":"388","action":"add","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 22:08:06
+{"method":"addtocart","guest_user_id":"0660bfca33ab8a8b","number_of_item":"1","merchant_inventry_id":"387","action":"delete","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-02 22:19:15
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"628","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

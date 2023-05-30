@@ -1,0 +1,5 @@
+
+ Request - 2022-05-04 17:25:42
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ikorodu 104102, Ikorodu, Nigeria","lat":"6.5465954","lng":"3.5144028"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GGW7+JQ Ikorodu, Nigeria"}}

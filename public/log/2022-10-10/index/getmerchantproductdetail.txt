@@ -1,0 +1,5 @@
+
+ Request - 2022-10-10 09:10:54
+{"start_date":"2022-10-10","end_date":"2022-10-10","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}

@@ -1,0 +1,17 @@
+
+ Request - 2021-11-20 09:10:51
+{"method":"getCityIdByAddressOrLatLng","address":"Qaboola Rd, Ārifwāla, Pakpattan, Punjab, Pakistan","lat":"30.2763503","lng":"73.0661685"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"73G8+GF \u0100rifw\u0101la, Pakistan"}}
+ Request - 2021-11-20 11:10:20
+{"method":"getCityIdByAddressOrLatLng","address":"5X99+7JQ, Sahaspura, Uttar Pradesh 231305, India","lat":"25.1689987","lng":"82.9704857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5X9C+H5 Sahaspura, Uttar Pradesh, India"}}
+ Request - 2021-11-20 16:02:19
+{"method":"getCityIdByAddressOrLatLng","address":"Modesta Village, 12 Chrysanthemum, San Mateo, 1850 Rizal, Philippines","lat":"14.6695252","lng":"121.1360804"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Modesta Village, 12 Chrysanthemum, San Mateo, 1850 Rizal, Philippines"}}
+ Request - 2021-11-20 20:36:53
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Sénégal","lat":"14.742862","lng":"-17.2684335"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PPVJ+4J Keur Ndiaye Lo, Senegal"}}

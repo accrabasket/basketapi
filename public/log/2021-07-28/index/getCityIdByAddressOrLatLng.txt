@@ -1,0 +1,13 @@
+
+ Request - 2021-07-28 07:43:24
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road، اليوسيفية، العراق","lat":"33.0674451","lng":"44.2314175"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road\u060c Yusufiya, Iraq"}}
+ Request - 2021-07-28 18:17:00
+{"method":"getCityIdByAddressOrLatLng","address":"Seidu, Sierra Leone","lat":"9.016675","lng":"-10.59317"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sierra Leone"}}
+ Request - 2021-07-28 19:20:43
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Abidjan, Côte d'Ivoire","lat":"5.2689019","lng":"-3.8924204"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Abidjan, C\u00f4te d'Ivoire"}}

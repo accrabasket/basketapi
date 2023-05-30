@@ -1,0 +1,57 @@
+
+ Request - 2021-06-09 00:19:45
+{"method":"getitemintocart","guest_user_id":"0b880ad49cfb66ce"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 05:35:21
+{"method":"getitemintocart","user_id":"90"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 07:21:50
+{"method":"getitemintocart","guest_user_id":"ea27e971158ecc6c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 09:54:45
+{"method":"getitemintocart","guest_user_id":"fd6d1308ce9dfe13"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 10:03:22
+{"method":"getitemintocart","guest_user_id":"fd6d1308ce9dfe13"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 15:20:43
+{"method":"getitemintocart","guest_user_id":"8783b3868f3a03bd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 17:32:56
+{"method":"getitemintocart","guest_user_id":"62d3e27cc4b8c099"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 18:10:55
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 18:39:19
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 18:40:33
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-06-09 18:40:34
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-06-09 19:41:13
+{"method":"getitemintocart","guest_user_id":"d1cc322dc2cef56d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 20:17:16
+{"method":"getitemintocart","guest_user_id":"f0a4e2bf9076e0cb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-06-09 22:16:51
+{"method":"getitemintocart","guest_user_id":"e059914f1572f7ac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

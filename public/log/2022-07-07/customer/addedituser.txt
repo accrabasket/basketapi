@@ -1,0 +1,5 @@
+
+ Request - 2022-07-07 18:26:55
+{"method":"addedituser","city_id":"1","password":"88535747","name":"Arun Kumar","email":"ak2206232@gmail.com","mobile_number":"9621014369","country_code":"+233","id":"0","fcm_reg_id":"eDEXmBqZtI4:APA91bFRG65nXPSlU3ZEGBW2KVXHeztOOjQHviGfhRtBWVo3gktT-JsSsMOX8Q5ZU2b0V_TfZAVO2NaBxa_oMeSINtrNMOlK3KorBG8HeTf5TJeX__YPpncJBSxN_FypYRr6rC1EUKYw"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2339621014369 and registered email id.","data":{"8484":{"id":8484,"name":"Arun Kumar","mobile_number":"9621014369","email":"ak2206232@gmail.com","key":"1d5ecb6279f31f2bc60c200270bb84ac","password":"f04d29dfe5dbb3b7d6f95c68d865c512","fcm_reg_id":"eDEXmBqZtI4:APA91bFRG65nXPSlU3ZEGBW2KVXHeztOOjQHviGfhRtBWVo3gktT-JsSsMOX8Q5ZU2b0V_TfZAVO2NaBxa_oMeSINtrNMOlK3KorBG8HeTf5TJeX__YPpncJBSxN_FypYRr6rC1EUKYw","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-07-07 18:26:55","updated_date":"2022-07-07 18:26:55","status":"1"}}}

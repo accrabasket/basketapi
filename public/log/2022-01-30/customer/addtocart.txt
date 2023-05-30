@@ -1,0 +1,29 @@
+
+ Request - 2022-01-30 11:57:54
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"588","action":"add","item_name":"Cranberry and Kiwi - Fruit Juice(Cranberry and Kiwi - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-30 11:58:00
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"588","action":"add","item_name":"Cranberry and Kiwi - Fruit Juice(Cranberry and Kiwi - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-30 11:58:18
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"486","action":"add","item_name":"Fanta Orange Pet - Soft Drink(Fanta Orange Pet - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-30 11:58:18
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"486","action":"add","item_name":"Fanta Orange Pet - Soft Drink(Fanta Orange Pet - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-30 11:58:33
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"487","action":"add","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-30 11:58:50
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"487","action":"delete","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-30 11:58:50
+{"method":"addtocart","guest_user_id":"9e9161cea74ba17f","number_of_item":"1","merchant_inventry_id":"487","action":"delete","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-10-05 07:35:03
+{"method":"addtocart","guest_user_id":"9bce0efd9c54d7f4","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-05 07:35:15
+{"method":"addtocart","guest_user_id":"9bce0efd9c54d7f4","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2021-03-13 06:44:06
+{"method":"getCityIdByAddressOrLatLng","address":"Sunyani West District, Ghana","lat":"7.3512661","lng":"-2.383509"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sunyani West District, Ghana"}}
+ Request - 2021-03-13 11:58:44
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Assin Fosu, Ghana","lat":"5.6978314","lng":"-1.2690954"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Assin Fosu, Ghana"}}
+ Request - 2021-03-13 14:46:30
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.6810517","lng":"-1.2742094"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2021-03-13 14:59:28
+{"method":"getCityIdByAddressOrLatLng","address":"Twifo Praso-Foso, Foso, Ghana","lat":"5.6895859","lng":"-1.2805275"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Twifo Praso-Foso, Foso, Ghana"}}

@@ -1,0 +1,57 @@
+
+ Request - 2022-10-13 02:12:30
+{"method":"getitemintocart","guest_user_id":"ed1b72c51b992ed9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 02:13:58
+{"method":"getitemintocart","guest_user_id":"ed1b72c51b992ed9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 12:08:02
+{"method":"getitemintocart","guest_user_id":"3b3fa191a5ff895c"}
+ Response :- 
+{"status":"success","data":{"820":{"id":19156,"user_id":0,"guest_user_id":"3b3fa191a5ff895c","merchant_inventry_id":820,"item_name":"Anneleen Apple Non-Alcoholic Drink(Anneleen Apple Non-Alcoholic Drink)","number_of_item":1,"created_date":"2022-01-04 08:06:14"},"900":{"id":22140,"user_id":0,"guest_user_id":"3b3fa191a5ff895c","merchant_inventry_id":900,"item_name":"Large Beer Can(Large Beer Can)","number_of_item":1,"created_date":"2022-07-31 01:53:55"},"2251":{"id":22141,"user_id":0,"guest_user_id":"3b3fa191a5ff895c","merchant_inventry_id":2251,"item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)","number_of_item":1,"created_date":"2022-07-31 01:54:18"}},"productDetails":{"status":"success","data":{"820":{"id":820,"price":"13.99","product_id":1104,"merchant_id":4,"store_id":4,"merchant_product_code":"40382","product_name":"Anneleen Apple Non-Alcoholic Drink","product_desc":"Discover the bubbly world of our sparkling, non-alcoholic juices and drinks.  You can choose a Sodiko brand or ask our sales team to help you through the process of creating your private label product","default_discount_type":"","default_discount_value":"0","category_id":93,"custom_info":"","brand_name":"Sodiko","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"},"900":{"id":900,"price":"7.99","product_id":1184,"merchant_id":4,"store_id":4,"merchant_product_code":"26941","product_name":"Large Beer Can","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"","brand_name":"Heineken","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"2251":{"id":2251,"price":"6.49","product_id":2584,"merchant_id":4,"store_id":4,"merchant_product_code":"D677   ","product_name":"Faxe 10% Can Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"{\"Ingredients\":\"Water,Barley malt, Glucose Syrup, Maize,  Hops. \"}","brand_name":"Faxe","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"1104":[{"id":710,"type":"product","image_id":1104,"image_name":"40382.jpg"}],"1184":[{"id":792,"type":"product","image_id":1184,"image_name":"1184_1545112816.jpg"}],"2584":[{"id":3144,"type":"product","image_id":2584,"image_name":"D677.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-13 20:14:21
+{"method":"getitemintocart","guest_user_id":"53062706b6137b89"}
+ Response :- 
+{"status":"success","data":{"3452":{"id":17578,"user_id":0,"guest_user_id":"53062706b6137b89","merchant_inventry_id":3452,"item_name":"Peach Shampoo(Peach Shampoo)","number_of_item":1,"created_date":"2021-10-16 16:12:47"},"207":{"id":18870,"user_id":0,"guest_user_id":"53062706b6137b89","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-12-17 19:39:01"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"3452":{"id":3452,"price":"10.95","product_id":3916,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Peach Shampoo","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Amalfi","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":null}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3916":[{"id":4996,"type":"product","image_id":3916,"image_name":"OSU0570.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-13 20:24:54
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 20:26:29
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"success","data":{"452":{"id":22743,"user_id":0,"guest_user_id":"298437614d3df14b","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2022-10-13 20:26:29"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-13 20:26:35
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 20:29:58
+{"method":"getitemintocart","guest_user_id":"c6a14ce2f2c6ac1e"}
+ Response :- 
+{"status":"success","data":{"213":{"id":22111,"user_id":0,"guest_user_id":"c6a14ce2f2c6ac1e","merchant_inventry_id":213,"item_name":"Black Cardamom(Black Cardamom)","number_of_item":1,"created_date":"2022-07-26 16:09:20"}},"productDetails":{"status":"success","data":{"213":{"id":213,"price":"21.00","product_id":372,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Cardamom","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"372":[{"id":289,"type":"product","image_id":372,"image_name":"6033000220554.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-13 23:26:37
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 23:26:44
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 23:27:49
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 23:27:55
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 23:29:15
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-13 23:29:22
+{"method":"getitemintocart","guest_user_id":"298437614d3df14b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

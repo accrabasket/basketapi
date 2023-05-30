@@ -1,0 +1,5 @@
+
+ Request - 2021-06-12 11:29:02
+{"method":"verifyotp","country_code":"+233","mobile_number":"0592489461","otp_type":"register","otp":"3551"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"ab7122d738fdc442e0d8739368f881ef"}}

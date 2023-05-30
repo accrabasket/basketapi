@@ -1,0 +1,5 @@
+
+ Request - 2022-10-01 14:08:21
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"54559956"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23354559956","otp_type":"register","user_id":"0","otp":8603,"expiry_date":"2022-10-01 14:23:21"}}

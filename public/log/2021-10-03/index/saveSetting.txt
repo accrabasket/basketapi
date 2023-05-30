@@ -1,0 +1,9 @@
+
+ Request - 2021-10-03 10:49:04
+{"id":"1","minimum_order":"1","free_delivery":"1000.00","shipping_charges":"17.00","method":"saveSetting"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-10-03 11:19:02
+{"id":"1","minimum_order":"100","free_delivery":"1000.00","shipping_charges":"17.00","method":"saveSetting"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

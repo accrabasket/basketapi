@@ -1,0 +1,5 @@
+
+ Request - 2022-12-29 00:30:41
+{"method":"getCityIdByAddressOrLatLng","address":"7959+3X3، بغداد، العراق","lat":"33.2576743","lng":"44.3694122"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7959+3X3, Baghdad, Iraq"}}

@@ -1,0 +1,13 @@
+
+ Request - 2022-08-30 09:54:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Winneba, Ghana","lat":"5.36406","lng":"-0.5977725"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Winneba, Ghana"}}
+ Request - 2022-08-30 10:15:33
+{"method":"getCityIdByAddressOrLatLng","address":"النعمانية، العراق","lat":"32.3146357","lng":"45.7016316"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8P72+VM Al Mazalim, Iraq"}}
+ Request - 2022-08-30 10:46:59
+{"method":"getCityIdByAddressOrLatLng","address":"FRJQ+RWC, Kariba Cres, Harare, Zimbabwe","lat":"-16.5170491","lng":"28.8387426"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FRJQ+RWC, Kariba Cres, Harare, Zimbabwe"}}

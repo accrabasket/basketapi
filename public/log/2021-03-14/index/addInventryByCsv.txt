@@ -1,0 +1,13 @@
+
+ Request - 2021-03-14 05:04:38
+{"product_id":"1","product_name":"TestProduct","category_name":"Testcategory","atribute_name":["fruit"],"attribute_id":["1"],"store_name":"Test","price":["20"],"stock":["2"],"method":"addInventryByCsv","merchant_id":2}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-03-14 13:18:00
+{"product_id":"1","product_name":"TestProduct","category_name":"Testcategory","atribute_name":["fruit"],"attribute_id":["1"],"store_name":"","price":[""],"stock":[""],"method":"addInventryByCsv","merchant_id":2}
+ Response :- 
+{"status":"fail","msg":"No Record Saved "}
+ Request - 2021-03-14 13:18:00
+{"product_id":"1","product_name":"TestProduct","category_name":"Testcategory","atribute_name":["fruit-500"],"attribute_id":["2"],"store_name":"Test","price":["10"],"stock":["10"],"method":"addInventryByCsv","merchant_id":2}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

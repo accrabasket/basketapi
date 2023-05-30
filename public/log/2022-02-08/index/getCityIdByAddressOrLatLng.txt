@@ -1,0 +1,25 @@
+
+ Request - 2022-02-08 07:09:24
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Côte d'Ivoire","lat":"7.1506259","lng":"-6.8449828"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5524+72 Bobinou, C\u00f4te d'Ivoire"}}
+ Request - 2022-02-08 08:33:00
+{"method":"getCityIdByAddressOrLatLng","address":"63M6+XV9, Uch Sharif, Bahawalpur, Punjab, Pakistan","lat":"29.2353962","lng":"71.0622194"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"63M6+XV9, Uch Sharif, Bahawalpur, Punjab, Pakistan"}}
+ Request - 2022-02-08 08:41:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uganda","lat":"2.5383043","lng":"31.8571505"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GVQ4+8V Purongo, Uganda"}}
+ Request - 2022-02-08 09:20:00
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, الشيخ مسعود، مركز العدوة، المنيا، مصر","lat":"28.6542195","lng":"30.6800303"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u0627\u0644\u0634\u064a\u062e \u0645\u0633\u0639\u0648\u062f\u060c \u0645\u0631\u0643\u0632 \u0627\u0644\u0639\u062f\u0648\u0629\u060c \u0627\u0644\u0645\u0646\u064a\u0627\u060c Egypt"}}
+ Request - 2022-02-08 12:46:26
+{"method":"getCityIdByAddressOrLatLng","address":"HVFP+PHJ, Accra, Ghana","lat":"5.5737487","lng":"-0.113654"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HVFP+PHJ, Accra, Ghana"}}
+ Request - 2022-02-08 22:30:35
+{"method":"getCityIdByAddressOrLatLng","address":"201 Shahrah-e-Quaid-e-Azam, Saiden Shah Colony Upper Mall Scheme, Lahore, Punjab, Pakistan","lat":"31.5404536","lng":"74.3582982"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"201 Shahrah-e-Quaid-e-Azam, Saiden Shah Colony Upper Mall Scheme, Lahore, Punjab, Pakistan"}}

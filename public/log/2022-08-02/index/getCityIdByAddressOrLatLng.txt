@@ -1,0 +1,37 @@
+
+ Request - 2022-08-02 02:00:32
+{"method":"getCityIdByAddressOrLatLng","address":"64HP+8JP, NH2, Dhaurra, Uttar Pradesh 283202, India","lat":"27.2275319","lng":"78.1377361"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"64HP+8JP, NH2, Dhaurra, Uttar Pradesh 283202, India"}}
+ Request - 2022-08-02 06:08:57
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 333117, Usiefrun, Nigeria","lat":"5.5024963","lng":"5.8761118"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GV2G+XC Usiefrun, Nigeria"}}
+ Request - 2022-08-02 06:09:00
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 333117, Usiefrun, Nigeria","lat":"5.5024963","lng":"5.8761118"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GV2G+XC Usiefrun, Nigeria"}}
+ Request - 2022-08-02 08:24:38
+{"method":"getCityIdByAddressOrLatLng","address":"160 Boha, Boha, Punjab 151503, India","lat":"29.8315018","lng":"75.5274213"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"160 Boha, Boha, Punjab 151503, India"}}
+ Request - 2022-08-02 09:20:46
+{"method":"getCityIdByAddressOrLatLng","address":"FVC5+226, Sentul, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810, Indonesia","lat":"-6.5298425","lng":"106.8577305"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FVC5+226, Sentul, Babakan Madang, Bogor Regency, West Java 16810, Indonesia"}}
+ Request - 2022-08-02 11:32:32
+{"method":"getCityIdByAddressOrLatLng","address":"P25C+PQ7, Keeran Wala, Gujrat, Punjab, Pakistan","lat":"32.7096183","lng":"74.0213003"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P25C+PQ7, Keeran Wala, Gujrat, Punjab, Pakistan"}}
+ Request - 2022-08-02 19:09:57
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sierra Leone","lat":"8.3598548","lng":"-12.4701245"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9G5H+WX Ronieta, Sierra Leone"}}
+ Request - 2022-08-02 22:08:36
+{"method":"getCityIdByAddressOrLatLng","address":"X572+2X4, Sector 31 Gulzar E Hijri Scheme 33, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9627989","lng":"67.1525582"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X572+2X4, Sector 31 Gulzar E Hijri Scheme 33, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-08-02 23:09:34
+{"method":"getCityIdByAddressOrLatLng","address":"R99J+CX2, Warna Sari, Kec. Tamban Catur, Kabupaten Kapuas, Kalimantan Tengah 73583, Indonesia","lat":"-3.1826518","lng":"114.3818674"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R99J+CX2, Warna Sari, Tamban Catur, Kapuas Regency, Central Kalimantan 73583, Indonesia"}}

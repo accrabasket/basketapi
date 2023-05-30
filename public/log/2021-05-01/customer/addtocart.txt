@@ -1,0 +1,33 @@
+
+ Request - 2021-05-01 13:42:35
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2530","action":"add","item_name":"Assorted Fruits Flavored Candies(Assorted Fruits Flavored Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 13:43:07
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2904","action":"add","item_name":"Fruit Filled Assorted Candies(Fruit Filled Assorted Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 13:43:46
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2987","action":"add","item_name":"Creme Caramel(Creme Caramel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 19:40:29
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 19:40:34
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"461","action":"delete","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 19:40:37
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"455","action":"delete","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 19:49:12
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-01 19:49:56
+{"method":"addtocart","guest_user_id":"062af5d4e72e6e66","number_of_item":"1","merchant_inventry_id":"514","action":"add","item_name":"OLD NO. 7 - Whisky(OLD NO. 7 - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

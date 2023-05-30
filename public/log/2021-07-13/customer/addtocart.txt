@@ -1,0 +1,45 @@
+
+ Request - 2021-07-13 03:48:05
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"627","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:48:12
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"628","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:48:18
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"628","action":"delete","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:49:11
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"627","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:49:42
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"627","action":"delete","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:50:41
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"306","action":"add","item_name":"Pure Refined Iodised Salt(Pure Refined Iodised Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:50:45
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"306","action":"add","item_name":"Pure Refined Iodised Salt(Pure Refined Iodised Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:51:20
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:51:46
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"627","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:51:49
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"306","action":"delete","item_name":"Pure Refined Iodised Salt(Pure Refined Iodised Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-13 03:51:52
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

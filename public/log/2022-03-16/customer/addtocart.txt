@@ -1,0 +1,29 @@
+
+ Request - 2022-03-16 13:04:06
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"303","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-03-16 16:52:54
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"326","action":"delete","item_name":"Sona Masoori(Sona Masoori)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-16 16:54:10
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"793","action":"add","item_name":"Multi Insect Killer(Multi Insect Killer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-16 16:58:35
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"672","action":"add","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-16 23:34:47
+{"method":"addtocart","guest_user_id":"86ac8da2c96e1a89","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-16 23:34:49
+{"method":"addtocart","guest_user_id":"86ac8da2c96e1a89","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-16 23:35:13
+{"method":"addtocart","guest_user_id":"86ac8da2c96e1a89","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

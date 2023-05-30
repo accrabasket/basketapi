@@ -1,0 +1,25 @@
+
+ Request - 2022-11-07 15:49:55
+{"method":"addtocart","guest_user_id":"f501d483b7b2417a","number_of_item":"1","merchant_inventry_id":"731","action":"add","item_name":"Strawberry Flavoured Milk(Strawberry Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-07 15:50:33
+{"method":"addtocart","guest_user_id":"f501d483b7b2417a","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-07 16:01:23
+{"method":"addtocart","guest_user_id":"f501d483b7b2417a","number_of_item":"1","merchant_inventry_id":"3519","action":"add","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-07 16:01:29
+{"method":"addtocart","guest_user_id":"f501d483b7b2417a","number_of_item":"1","merchant_inventry_id":"3519","action":"add","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-07 16:01:31
+{"method":"addtocart","guest_user_id":"f501d483b7b2417a","number_of_item":"1","merchant_inventry_id":"3519","action":"delete","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-07 16:01:47
+{"method":"addtocart","guest_user_id":"f501d483b7b2417a","number_of_item":"1","merchant_inventry_id":"3519","action":"delete","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

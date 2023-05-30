@@ -1,0 +1,29 @@
+
+ Request - 2021-03-13 12:55:14
+{"method":"getaddresslist","user_id":"2120"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-13 14:59:05
+{"method":"getaddresslist","user_id":"2123"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-13 14:59:10
+{"method":"getaddresslist","user_id":"2123"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-13 14:59:46
+{"method":"getaddresslist","user_id":"2123"}
+ Response :- 
+{"status":"success","data":{"420":{"id":420,"user_id":2123,"address_nickname":"gxvxbdbd","contact_name":"hdgdhdhd","city_id":1,"city_name":"Twifo Praso-Foso, Foso, Ghana","house_number":"54","street_detail":"gxgdhd","landmark":"vxbxbx","zipcode":"1230","area":"","lat":"5.6895859","lng":"","created_date":"2021-03-13 14:59:46","updated_date":"2021-03-13 14:59:46"}}}
+ Request - 2021-03-13 15:02:06
+{"method":"getaddresslist","user_id":"2123"}
+ Response :- 
+{"status":"success","data":{"420":{"id":420,"user_id":2123,"address_nickname":"gxvxbdbd","contact_name":"hdgdhdhd","city_id":1,"city_name":"Twifo Praso-Foso, Foso, Ghana","house_number":"54","street_detail":"gxgdhd","landmark":"vxbxbx","zipcode":"1230","area":"","lat":"5.6895859","lng":"","created_date":"2021-03-13 14:59:46","updated_date":"2021-03-13 14:59:46"}}}
+ Request - 2021-03-13 15:07:03
+{"method":"getaddresslist","user_id":"2123"}
+ Response :- 
+{"status":"success","data":{"420":{"id":420,"user_id":2123,"address_nickname":"gxvxbdbd","contact_name":"hdgdhdhd","city_id":1,"city_name":"Twifo Praso-Foso, Foso, Ghana","house_number":"54","street_detail":"gxgdhd","landmark":"vxbxbx","zipcode":"1230","area":"","lat":"5.6895859","lng":"","created_date":"2021-03-13 14:59:46","updated_date":"2021-03-13 14:59:46"}}}
+ Request - 2021-03-13 15:08:52
+{"method":"getaddresslist","user_id":"2120"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}

@@ -1,0 +1,37 @@
+
+ Request - 2022-07-14 00:25:36
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:25:39
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"704","action":"delete","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:25:55
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"924","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:26:09
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:26:12
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:26:14
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:26:43
+{"method":"addtocart","guest_user_id":"89ec2272edadf095","number_of_item":"1","merchant_inventry_id":"1066","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-14 00:27:42
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3521","action":"add","item_name":"Baby Soft & Smooth Soap(Baby Soft & Smooth Soap)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-07-14 06:08:32
+{"method":"addtocart","guest_user_id":"fcfbbd018cf47d09","number_of_item":"1","merchant_inventry_id":"3774","action":"add","item_name":"GHC 300 Gift Hamper(GHC 300 Gift Hamper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,113 @@
+
+ Request - 2022-06-15 11:53:24
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"734","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 12:19:52
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"734","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 17:04:05
+{"method":"addtocart","guest_user_id":"62ced845eb1a76d6","number_of_item":"1","merchant_inventry_id":"586","action":"add","item_name":"Apple - Fruit Juice(Apple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:11:41
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:13:12
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:13:43
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:13:46
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:13:49
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:14:36
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2838","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:15:08
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2904","action":"add","item_name":"Fruit Filled Assorted Candies(Fruit Filled Assorted Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:15:28
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2916","action":"add","item_name":"Red Grape Juice - Can(Red Grape Juice - Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:15:49
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2832","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:15:58
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2831","action":"add","item_name":"Sardines in Vegetable Oil(Sardines in Vegetable Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:16:02
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:16:43
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"2917","action":"add","item_name":"Secret Valley Juice - Can(Secret Valley Juice - Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:17:31
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 21:17:37
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 21:19:42
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 21:21:19
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:22:04
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 21:24:01
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:24:47
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-15 21:26:12
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:26:16
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:26:19
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:26:22
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:26:25
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-15 21:26:28
+{"method":"addtocart","guest_user_id":"c83ea4e3c8697bb0","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

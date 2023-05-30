@@ -1,0 +1,13 @@
+
+ Request - 2021-04-14 18:14:45
+{"method":"updateOrderstatus","user_id":"1439","order_id":"order_m4_604","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"1439","order_id":"order_m4_604"}}
+ Request - 2021-04-14 18:19:39
+{"method":"updateOrderstatus","user_id":"1439","order_id":"order_m2_743","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"1439","order_id":"order_m2_743"}}
+ Request - 2021-04-14 18:19:49
+{"method":"updateOrderstatus","user_id":"1439","order_id":"order_m4_605","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"1439","order_id":"order_m4_605"}}

@@ -1,0 +1,69 @@
+
+ Request - 2021-08-24 13:14:23
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 13:14:32
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 13:14:39
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 13:14:41
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 13:14:45
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 13:14:57
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:02:35
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"2833","action":"add","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:02:37
+{"method":"addtocart","guest_user_id":"d2848a8e9e9519ed","number_of_item":"1","merchant_inventry_id":"2833","action":"delete","item_name":"Beef Plate(Beef Plate)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:39:27
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:39:32
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:39:38
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:41:00
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"2840","action":"add","item_name":"Egyptian Seeds(Egyptian Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:41:12
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"2840","action":"delete","item_name":"Egyptian Seeds(Egyptian Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:44:52
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"2959","action":"add","item_name":"American Cheese Slices(American Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:45:45
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"1668","action":"add","item_name":"Coconut Milk(Coconut Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:46:58
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"2959","action":"delete","item_name":"American Cheese Slices(American Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-24 16:47:01
+{"method":"addtocart","guest_user_id":"63ecf2e318140002","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

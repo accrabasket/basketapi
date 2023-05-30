@@ -1,0 +1,9 @@
+
+ Request - 2022-02-08 10:20:07
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2022-02-08 10:20:11
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}

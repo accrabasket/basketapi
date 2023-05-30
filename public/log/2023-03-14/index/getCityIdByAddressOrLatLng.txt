@@ -1,0 +1,17 @@
+
+ Request - 2023-03-14 05:22:56
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Am Saterna, تشاد‎","lat":"12.000917","lng":"21.7351956"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-14 05:23:02
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Am Saterna, تشاد‎","lat":"12.000917","lng":"21.7351956"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-14 19:53:12
+{"method":"getCityIdByAddressOrLatLng","address":"R5J4+RJ9, 600211, Maiduguri, Borno, Nigeria","lat":"11.8319889","lng":"13.1579951"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-14 19:53:16
+{"method":"getCityIdByAddressOrLatLng","address":"R5J4+RJ9, 600211, Maiduguri, Borno, Nigeria","lat":"11.8319889","lng":"13.1579951"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

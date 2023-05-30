@@ -1,0 +1,5 @@
+
+ Request - 2022-10-28 04:52:34
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"9758820216"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2339758820216","otp_type":"register","user_id":"0","otp":5606,"expiry_date":"2022-10-28 05:07:33"}}

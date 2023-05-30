@@ -1,0 +1,5 @@
+
+ Request - 2021-02-13 09:24:17
+{"role":"merchant","order_status":"ready_to_dispatch","order_id":"order_m2_683","method":"updateOrderstatus","merchant_id":3}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed"],"merchant_id":3,"order_id":"order_m2_683"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-09-04 10:00:23
+{"method":"getCityIdByAddressOrLatLng","address":"5P4C+R7R, Mazabuka, Zambia","lat":"-15.8434422","lng":"27.7210468"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5P4C+R7R, Mazabuka, Zambia"}}
+ Request - 2022-09-04 16:12:44
+{"method":"getCityIdByAddressOrLatLng","address":"V5FX+5QV, Shaheed Haji Niaz Ahmed Rd, Gulshan-e-Qadri Gulshan E Qadri Ghazi Dawood Brohi Goth, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8728438","lng":"67.1994454"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V5FX+5QV, Shaheed Haji Niaz Ahmed Rd, Gulshan-e-Qadri Gulshan E Qadri Ghazi Dawood Brohi Goth, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-09-04 17:46:55
+{"method":"getCityIdByAddressOrLatLng","address":"MFGM+R27, Dhaka - Narayanganj Rd, Dhaka, Bangladesh","lat":"23.6771223","lng":"90.4826817"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MFGM+R27, Dhaka - Narayanganj Rd, Dhaka, Bangladesh"}}
+ Request - 2022-09-04 22:05:46
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 811105, Nigeria","lat":"10.294189999999999","lng":"8.545581666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7GVW+M6 Rimi, Nigeria"}}

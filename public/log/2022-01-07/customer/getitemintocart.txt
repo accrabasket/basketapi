@@ -1,0 +1,33 @@
+
+ Request - 2022-01-07 00:02:05
+{"method":"getitemintocart","guest_user_id":"67c9452c01584ba6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-07 00:02:08
+{"method":"getitemintocart","guest_user_id":"67c9452c01584ba6"}
+ Response :- 
+{"status":"success","data":{"2068":{"id":19169,"user_id":0,"guest_user_id":"67c9452c01584ba6","merchant_inventry_id":2068,"item_name":"Irish Whiskey(Irish Whiskey)","number_of_item":1,"created_date":"2022-01-07 00:02:07"}},"productDetails":{"status":"success","data":{"2068":{"id":2068,"price":"50.00","product_id":2402,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL513","product_name":"Irish Whiskey","product_desc":"Jameson Irish Whiskey is a blended Irish whiskey. What\u2019s that we hear you say. Well first we take the best of pot still and fine grain whiskeys. Then we triple distil them - not because we have to because we want to as it gives it its signature smoothness. Finally, we age them in oak casks for a minimum of 4 years.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"CL","quantity":35,"tax_value":"3"}},"productImageData":{"2402":[{"id":3480,"type":"product","image_id":2402,"image_name":"AFL511.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-01-07 16:58:28
+{"method":"getitemintocart","guest_user_id":"2717552089445dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-07 16:58:28
+{"method":"getitemintocart","guest_user_id":"2717552089445dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-07 19:31:10
+{"method":"getitemintocart","guest_user_id":"54bd61dfec1d3da9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-07 19:31:59
+{"method":"getitemintocart","guest_user_id":"54bd61dfec1d3da9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-07 19:36:21
+{"method":"getitemintocart","guest_user_id":"29a4aece488b55ae"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-01-07 23:31:20
+{"method":"getitemintocart","guest_user_id":"e0275922a50334fc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

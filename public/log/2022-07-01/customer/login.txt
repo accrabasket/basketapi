@@ -1,0 +1,13 @@
+
+ Request - 2022-07-01 23:37:00
+{"method":"login","email":"1LoGiN","password":"1","fcm_reg_id":"eiQ1x-l6p80:APA91bGSjeh3g2IUBIs6di6MtYoCbgV6wMgrIvQDexCeCY7UalRNOGWPB1xDPuAQmlEBv27KRBhu4D-yiiKBAb9x_Ds42FbxvzF57Bw77NddV0H3E_X-8Dipm4qJbiq3e5fcouiXoxlo"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-07-01 23:37:01
+{"method":"login","email":"1LoGiN","password":"1","fcm_reg_id":"eiQ1x-l6p80:APA91bGSjeh3g2IUBIs6di6MtYoCbgV6wMgrIvQDexCeCY7UalRNOGWPB1xDPuAQmlEBv27KRBhu4D-yiiKBAb9x_Ds42FbxvzF57Bw77NddV0H3E_X-8Dipm4qJbiq3e5fcouiXoxlo"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-07-01 23:37:03
+{"method":"login","email":"1LoGiN","password":"1","fcm_reg_id":"eiQ1x-l6p80:APA91bGSjeh3g2IUBIs6di6MtYoCbgV6wMgrIvQDexCeCY7UalRNOGWPB1xDPuAQmlEBv27KRBhu4D-yiiKBAb9x_Ds42FbxvzF57Bw77NddV0H3E_X-8Dipm4qJbiq3e5fcouiXoxlo"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

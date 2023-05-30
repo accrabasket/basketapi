@@ -1,0 +1,53 @@
+
+ Request - 2021-03-03 03:20:11
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 03:20:43
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 03:20:44
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"430","action":"add","item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 10:02:48
+{"method":"addtocart","guest_user_id":"cf2ea50e448e0a4b","number_of_item":"1","merchant_inventry_id":"632","action":"add","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 10:03:29
+{"method":"addtocart","guest_user_id":"cf2ea50e448e0a4b","number_of_item":"1","merchant_inventry_id":"632","action":"delete","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 10:04:59
+{"method":"addtocart","guest_user_id":"cf2ea50e448e0a4b","number_of_item":"1","merchant_inventry_id":"3159","action":"add","item_name":"Stech - Flash Mifi Router - White(Flash Mifi Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 10:05:02
+{"method":"addtocart","guest_user_id":"cf2ea50e448e0a4b","number_of_item":"1","merchant_inventry_id":"3159","action":"add","item_name":"Stech - Flash Mifi Router - White(Flash Mifi Router - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 14:23:33
+{"method":"addtocart","guest_user_id":"bf605efb6a4e2ba7","number_of_item":"1","merchant_inventry_id":"724","action":"add","item_name":"Sensitive Post Shave Balm(Sensitive Post Shave Balm)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 14:23:42
+{"method":"addtocart","guest_user_id":"bf605efb6a4e2ba7","number_of_item":"1","merchant_inventry_id":"724","action":"add","item_name":"Sensitive Post Shave Balm(Sensitive Post Shave Balm)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 14:23:57
+{"method":"addtocart","guest_user_id":"bf605efb6a4e2ba7","number_of_item":"1","merchant_inventry_id":"891","action":"add","item_name":"Razor with Twin Blades(Razor with Twin Blades)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 14:24:20
+{"method":"addtocart","guest_user_id":"bf605efb6a4e2ba7","number_of_item":"1","merchant_inventry_id":"2416","action":"add","item_name":"Mach 3 Turbo Razor 3 Blades - Cartridges(Mach 3 Turbo Razor 3 Blades - Cartridges)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 14:24:30
+{"method":"addtocart","guest_user_id":"bf605efb6a4e2ba7","number_of_item":"1","merchant_inventry_id":"2440","action":"add","item_name":"Men Sensitive Post Shave Balm(Men Sensitive Post Shave Balm)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-03 14:24:50
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"2440","action":"add","item_name":"Men Sensitive Post Shave Balm(Men Sensitive Post Shave Balm)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

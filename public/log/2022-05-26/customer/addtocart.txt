@@ -1,0 +1,25 @@
+
+ Request - 2022-05-26 02:58:02
+{"method":"addtocart","guest_user_id":"05715e2ac1bba4a0","number_of_item":"1","merchant_inventry_id":"594","action":"add","item_name":"Orange - Fruit Juice(Orange - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-26 02:58:04
+{"method":"addtocart","guest_user_id":"05715e2ac1bba4a0","number_of_item":"1","merchant_inventry_id":"593","action":"add","item_name":"Medley of Fruits - Fruit Juice(Medley of Fruits - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-26 02:58:05
+{"method":"addtocart","guest_user_id":"05715e2ac1bba4a0","number_of_item":"1","merchant_inventry_id":"598","action":"add","item_name":"Pineapple - Fruit Juice(Pineapple - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-26 17:07:49
+{"method":"addtocart","guest_user_id":"5245bf73e214b420","number_of_item":"1","merchant_inventry_id":"1098","action":"add","item_name":"Khara Boondi(Khara Boondi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-26 17:08:02
+{"method":"addtocart","guest_user_id":"5245bf73e214b420","number_of_item":"1","merchant_inventry_id":"1134","action":"add","item_name":"Chekaralu(Chekaralu)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-26 17:08:25
+{"method":"addtocart","guest_user_id":"5245bf73e214b420","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-12-28 08:05:20
+{"method":"getCityIdByAddressOrLatLng","address":"MPXF+WQ2, Arbegona, Ethiopia","lat":"6.6987725","lng":"38.7214773"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MPXC+GH Arbegona, Ethiopia"}}
+ Request - 2022-12-28 19:10:42
+{"method":"getCityIdByAddressOrLatLng","address":"R379+42Q, Sanya Juu, Tanzania","lat":"-3.187048","lng":"37.0677035"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R379+42Q, Sanya Juu, Tanzania"}}

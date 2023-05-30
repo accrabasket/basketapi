@@ -1,0 +1,17 @@
+
+ Request - 2021-11-14 09:24:22
+{"method":"getCityIdByAddressOrLatLng","address":"Q2MQ+FR4, Misraulia, Uttar Pradesh 272175, India","lat":"26.7832695","lng":"83.0393261"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q2MQ+FR4, Misraulia, Uttar Pradesh 272175, India"}}
+ Request - 2021-11-14 13:21:22
+{"method":"getCityIdByAddressOrLatLng","address":"سبها،، سبها، ليبيا","lat":"27.0370141","lng":"14.3978347"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0633\u0628\u0647\u0627\u060c\u060c Sabh\u0101, Libya"}}
+ Request - 2021-11-14 16:48:03
+{"method":"getCityIdByAddressOrLatLng","address":"W8C6+CH5, Ghosbag, Bangladesh","lat":"23.9213746","lng":"90.3126254"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W8C6+CH5, Ghosbag, Bangladesh"}}
+ Request - 2021-11-14 18:02:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Al Qunfidhah 28814, Saudi Arabia","lat":"19.1693627","lng":"41.0760859"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"539G+PC Al Qunfudhah Saudi Arabia"}}

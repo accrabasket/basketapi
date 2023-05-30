@@ -1,0 +1,5 @@
+
+ Request - 2021-03-04 17:18:47
+{"method":"login","email":"1","password":"1","fcm_reg_id":"f-oHiexwVWs:APA91bEPn7Y9g0zCiyj8hTUkwQDxFOviMt9QuewHMJxuH6PF4Ipwl0HR5966FU5CU7t6FpLKk_Wm8Y6eSJanHVmuOKLcoj9zP4uiRziyggItaVvIggqleQoHnXdTRkyA_E81jODZVwcX"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

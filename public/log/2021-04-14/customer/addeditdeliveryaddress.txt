@@ -1,0 +1,9 @@
+
+ Request - 2021-04-14 18:16:32
+{"method":"addeditdeliveryaddress","house_number":"cs33","area":"","street_detail":"cf367","contact_name":"Emmanuel","city_name":"N8, Ghana","city_id":"1","lat":"5.831062","long":"-1.3124332","user_id":"1439","address_nickname":"Bombo","landmark":"fosu","zipcode":"1234","id":"318"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-04-14 18:18:13
+{"method":"addeditdeliveryaddress","house_number":"xfg55","area":"","street_detail":"fh","contact_name":"Emmanuel","city_name":"N8, Ghana","city_id":"1","lat":"5.831062","long":"-1.3124332","user_id":"1439","address_nickname":"dhj","landmark":" by","zipcode":"552233"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":442}}

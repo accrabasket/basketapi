@@ -1,0 +1,17 @@
+
+ Request - 2022-08-01 05:09:49
+{"method":"getCityIdByAddressOrLatLng","address":"XF26+M8, Mogolhat, Bangladesh","lat":"25.951758333333334","lng":"89.46074333333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XF26+M8, Mogolhat, Bangladesh"}}
+ Request - 2022-08-01 05:30:00
+{"method":"getCityIdByAddressOrLatLng","address":"35FG+XVP, Alue Majron, Kec. Syamtalira Bayu, Kabupaten Aceh Utara, Aceh 24374, Indonesia","lat":"5.0741962","lng":"97.177174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"35FG+XVP, Alue Majron, Syamtalira Bayu, North Aceh Regency, Aceh 24374, Indonesia"}}
+ Request - 2022-08-01 05:54:35
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Richera, Madhya Pradesh 473001, India","lat":"24.6858104","lng":"77.4495803"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MCPX+8R Richera, Madhya Pradesh, India"}}
+ Request - 2022-08-01 23:43:58
+{"method":"getCityIdByAddressOrLatLng","address":"Bogampatti - Edayarpalayam Rd, Tamil Nadu 641016, India","lat":"10.9177875","lng":"77.1001524"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W492+43 Chinnakuyili, Tamil Nadu, India"}}

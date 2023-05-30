@@ -1,0 +1,17 @@
+
+ Request - 2021-03-24 10:34:53
+{"method":"login","email":"sammyadu68@gmail.com","password":"Bob2017a.","fcm_reg_id":"fjjmG_C64To:APA91bESnENRtfNTwHVVCsyq46L2aQq7df6SrdUTfExC0q3p2DfHYm1xtyQL9ybxwyrcSrx5JO63qa2dQ2aPxG1a2U2SYE8f2hThagEwAQBnruxRtHer9shwQuGrPJ0zuk21IzqcgcH9"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-03-24 10:35:06
+{"method":"login","email":"sammyadu894@gmail.com","password":"Bob2017a.","fcm_reg_id":"fjjmG_C64To:APA91bESnENRtfNTwHVVCsyq46L2aQq7df6SrdUTfExC0q3p2DfHYm1xtyQL9ybxwyrcSrx5JO63qa2dQ2aPxG1a2U2SYE8f2hThagEwAQBnruxRtHer9shwQuGrPJ0zuk21IzqcgcH9"}
+ Response :- 
+{"status":"success","data":{"1444":{"id":1444,"name":"Sammy Adu","mobile_number":"508243790","email":"Sammyadu894@gmail.com","key":"ed9979fae5ebf1e946c177161bf65702","password":"7d4a38a2f168dd48751ba0877a5f6fd6","fcm_reg_id":"","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2020-12-09 19:28:08","updated_date":"2020-12-09 19:28:08","status":"1"}},"totalNumberOfUser":1,"wallet_key":"7d4a38a2f168dd48751ba0877a5f6fd6"}
+ Request - 2021-03-24 12:57:35
+{"method":"login","email":"mercyshine1324@gmail.com","password":"silvashine1324","fcm_reg_id":"frI-1DqNaSo:APA91bEU3JQlQDlVNep7A-pqQGLXBJw6PNpE4A3t2Fq05KrX__43viNkq--OtiS-CBS_xGUDg32VugjW4TxeJ_linzZn4FXQ2BOzHGLSPSzFIOIa5VSkkKjV1aT2t4DlrcFUwXepUdEJ"}
+ Response :- 
+{"status":"success","data":{"2180":{"id":2180,"name":"Shine","mobile_number":"267134268","email":"mercyshine1324@gmail.com","key":"66418065c04320b93f3ab71891a8197f","password":"fc186e2bccf0435c860493c9f7605acb","fcm_reg_id":"frI-1DqNaSo:APA91bEU3JQlQDlVNep7A-pqQGLXBJw6PNpE4A3t2Fq05KrX__43viNkq--OtiS-CBS_xGUDg32VugjW4TxeJ_linzZn4FXQ2BOzHGLSPSzFIOIa5VSkkKjV1aT2t4DlrcFUwXepUdEJ","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-03-24 12:56:19","updated_date":"2021-03-24 12:56:19","status":"1"}},"totalNumberOfUser":1,"wallet_key":"fc186e2bccf0435c860493c9f7605acb"}
+ Request - 2021-03-24 13:11:47
+{"method":"login","email":"oyetorotofunmi02@gmail.com","password":"oyinlola","fcm_reg_id":"d6lPyNcCmpA:APA91bGgcOJvT7caYLMHwrzurDpef8L_k5GXjieGN5I0gx5XEhgPjlU5nfRM78l_yDEybEfg81dUVoWBH5N4h4HZwljD5mooEaSaupV81O1BQWWcpUp3S4FNZ8IpjTx0WHccmx27n_0H"}
+ Response :- 
+{"status":"success","data":{"2181":{"id":2181,"name":"Oyetoro Jesutofunmi","mobile_number":"208075326","email":"oyetorotofunmi02@gmail.com","key":"eb5e05276f838ac86ee5d954760d708f","password":"4d1de16b0c111f04d784cfaa13aebb0f","fcm_reg_id":"d6lPyNcCmpA:APA91bGgcOJvT7caYLMHwrzurDpef8L_k5GXjieGN5I0gx5XEhgPjlU5nfRM78l_yDEybEfg81dUVoWBH5N4h4HZwljD5mooEaSaupV81O1BQWWcpUp3S4FNZ8IpjTx0WHccmx27n_0H","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-03-24 13:09:49","updated_date":"2021-03-24 13:09:49","status":"1"}},"totalNumberOfUser":1,"wallet_key":"4d1de16b0c111f04d784cfaa13aebb0f"}

@@ -1,0 +1,33 @@
+
+ Request - 2021-01-30 13:46:05
+{"method":"getCityIdByAddressOrLatLng","address":"Nkawkaw - New Abirem Rd, Ghana","lat":"6.4667181","lng":"-0.8915013"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nkawkaw - New Abirem Rd, Ghana"}}
+ Request - 2021-01-30 16:43:03
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.6643642","lng":"-0.0322156"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2021-01-30 16:53:09
+{"method":"getCityIdByAddressOrLatLng","address":"Sixth Ave, Tema, Ghana","lat":"5.6666653","lng":"-0.0319239"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sixth Ave, Tema, Ghana"}}
+ Request - 2021-01-30 17:18:19
+{"method":"getCityIdByAddressOrLatLng","address":"Rana Rd, Tema, Ghana","lat":"5.6669942","lng":"-0.0290074"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rana Rd, Tema, Ghana"}}
+ Request - 2021-01-30 17:18:30
+{"method":"getCityIdByAddressOrLatLng","address":"Sixth Ave, Tema, Ghana","lat":"5.6656791","lng":"-0.0319239"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sixth Ave, Tema, Ghana"}}
+ Request - 2021-01-30 17:19:06
+{"method":"getCityIdByAddressOrLatLng","address":"Sixth Ave, Tema, Ghana","lat":"5.6656791","lng":"-0.0319239"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sixth Ave, Tema, Ghana"}}
+ Request - 2021-01-30 18:52:11
+{"method":"getCityIdByAddressOrLatLng","address":"Malake, Lepangeng, Belawa, Kabupaten Wajo, Sulawesi Selatan, Indonésie","lat":"-3.976186","lng":"119.941597"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Lepangeng, Belawa, Kabupaten Wajo, Sulawesi Selatan 90953, Indonesia"}}
+ Request - 2021-01-30 22:04:39
+{"method":"getCityIdByAddressOrLatLng","address":"Sekondi-Takoradi, Ghana","lat":"4.965765","lng":"-1.7259432"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sekondi-Takoradi, Ghana"}}

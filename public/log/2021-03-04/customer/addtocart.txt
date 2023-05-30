@@ -1,0 +1,21 @@
+
+ Request - 2021-03-04 16:54:35
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"759","action":"add","item_name":"Corn Flakes(Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-04 17:16:17
+{"method":"addtocart","guest_user_id":"5933f152e92d1a41","number_of_item":"1","merchant_inventry_id":"2425","action":"add","item_name":"Even Complexion Beauty Soap(Even Complexion Beauty Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-04 17:25:30
+{"method":"addtocart","guest_user_id":"5933f152e92d1a41","number_of_item":"1","merchant_inventry_id":"1774","action":"add","item_name":" Deodorant Body Spray( Deodorant Body Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-04 17:26:16
+{"method":"addtocart","guest_user_id":"5933f152e92d1a41","number_of_item":"1","merchant_inventry_id":"1774","action":"add","item_name":" Deodorant Body Spray( Deodorant Body Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-04 17:26:19
+{"method":"addtocart","guest_user_id":"5933f152e92d1a41","number_of_item":"1","merchant_inventry_id":"1774","action":"delete","item_name":" Deodorant Body Spray( Deodorant Body Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

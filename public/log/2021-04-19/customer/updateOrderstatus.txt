@@ -1,0 +1,5 @@
+
+ Request - 2021-04-19 07:57:04
+{"method":"updateOrderstatus","user_id":"2263","order_id":"order_P_231","order_status":"cancelled"}
+ Response :- 
+{"status":"success","msg":"Record updated","data":{"order_status":["order_placed","ready_to_dispatch","assigned_to_rider","dispatched"],"user_id":"2263","order_id":"order_P_231"}}

@@ -1,0 +1,25 @@
+
+ Request - 2022-08-12 08:15:12
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Borkhedi, Madhya Pradesh 458110, India","lat":"24.433256","lng":"75.2130819"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C6M7+86 Borkhedi, Madhya Pradesh, India"}}
+ Request - 2022-08-12 10:34:48
+{"method":"getCityIdByAddressOrLatLng","address":"F2GX+HGV, Parumasan, Kec. Sodonghilir, Kabupaten Tasikmalaya, Jawa Barat 46473, Indonesia","lat":"-7.5233276","lng":"108.0488062"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F2GX+HGV, Parumasan, Sodonghilir, Tasikmalaya Regency, West Java 46473, Indonesia"}}
+ Request - 2022-08-12 11:15:05
+{"method":"getCityIdByAddressOrLatLng","address":"7PM4+7JF, Agule, Uganda","lat":"1.2848011","lng":"33.7065378"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7PM4+WJ Agule, Uganda"}}
+ Request - 2022-08-12 18:23:53
+{"method":"getCityIdByAddressOrLatLng","address":"GQMF+8QQ, Accra, Ghana","lat":"5.533348000000001","lng":"-0.2255288"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GQMF+8QQ, Accra, Ghana"}}
+ Request - 2022-08-12 19:36:36
+{"method":"getCityIdByAddressOrLatLng","address":"3RCQ+XH الحنو،، الأردن","lat":"32.0727275","lng":"35.8390729"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3RCQ+XH \u0627\u0644\u062d\u0646\u0648\u060c\u060c Jordan"}}
+ Request - 2022-08-12 19:44:13
+{"method":"getCityIdByAddressOrLatLng","address":"FVJ5+793، الكوت،، الكوت، العراق","lat":"32.4817228","lng":"45.8578415"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FVJ5+793\u060c \u0627\u0644\u0643\u0648\u062a\u060c\u060c Al Kut, Iraq"}}

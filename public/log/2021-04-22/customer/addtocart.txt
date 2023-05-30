@@ -1,0 +1,13 @@
+
+ Request - 2021-04-22 09:52:35
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2696","action":"add","item_name":"Fruit & Cream Berries(Fruit & Cream Berries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-22 09:52:40
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2696","action":"add","item_name":"Fruit & Cream Berries(Fruit & Cream Berries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-22 10:25:20
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2967","action":"add","item_name":"Junior Cheese Slices(Junior Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2021-03-07 00:17:24
+{"start_date":"2021-03-07","end_date":"2021-03-07","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-03-07 05:12:24
+{"start_date":"2021-03-07","end_date":"2021-03-07","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-03-07 10:12:00
+{"start_date":"2021-03-07","end_date":"2021-03-07","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-03-07 13:54:30
+{"start_date":"2021-03-07","end_date":"2021-03-07","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}

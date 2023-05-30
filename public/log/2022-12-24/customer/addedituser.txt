@@ -1,0 +1,5 @@
+
+ Request - 2022-12-24 19:00:32
+{"method":"addedituser","city_id":"1","password":"mukesh12345","name":"Mukesh","email":"mukeshbrr@gmail.com","mobile_number":"9631574725","country_code":"+233","id":"0","fcm_reg_id":"ebivoSD-88g:APA91bFxV_wo8H4eBsJpzMCln8awJ1qmZR3bA6gMCD47RtcnXrl47aMUfFGbmZ-wVWEb8nPidPGLNEfgah1xDCOci15-KAY4XmEnjjQ6pDNq2hrIqq9bm_hyARVsH7sXSoRruddUDe3x"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2339631574725 and registered email id.","data":{"8859":{"id":8859,"name":"Mukesh","mobile_number":"9631574725","email":"mukeshbrr@gmail.com","key":"c319a79059a6b054e428e351fe752ad8","password":"e105d17c9255f9fb1cd831fabfb56aa1","fcm_reg_id":"ebivoSD-88g:APA91bFxV_wo8H4eBsJpzMCln8awJ1qmZR3bA6gMCD47RtcnXrl47aMUfFGbmZ-wVWEb8nPidPGLNEfgah1xDCOci15-KAY4XmEnjjQ6pDNq2hrIqq9bm_hyARVsH7sXSoRruddUDe3x","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-12-24 19:00:32","updated_date":"2022-12-24 19:00:32","status":"1"}}}

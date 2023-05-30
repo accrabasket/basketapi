@@ -1,0 +1,13 @@
+
+ Request - 2021-01-17 09:52:00
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0544104016"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330544104016","otp_type":"register","user_id":"0","otp":2542,"expiry_date":"2021-01-17 10:07:00"}}
+ Request - 2021-01-17 09:52:24
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0544104016"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330544104016","otp_type":"register","user_id":"0","otp":5869,"expiry_date":"2021-01-17 10:07:24"}}
+ Request - 2021-01-17 09:53:30
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0544104016"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330544104016","otp_type":"register","user_id":"0","otp":1934,"expiry_date":"2021-01-17 10:08:30"}}

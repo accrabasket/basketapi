@@ -1,0 +1,5 @@
+
+ Request - 2021-05-29 11:15:15
+{"id":"20","name":"Arthur","email":"arthur@gmail.com","mobile_number":"554114600","location_id":"1","fcm_reg_id":"fnu5MxrYc4g:APA91bELvF5r7yjwyzEJV0DyDPOvYPOaz3_j6oemxd_C1TrXK5Vv_FzoBy3Af39fZvZAQ0TxBM7NTSvKcuClq4vH1JwxWE8Wun24dQWpF7rQx2Lt3_Cyln8Z_fZ9l1Akh0rEG1MTiAsY","status":"1","created_date":"2020-03-30 15:34:30","updated_date":"2020-03-30 15:34:30","location_name":"AfroBaskets","method":"addEditRider"}
+ Response :- 
+{"status":"success","msg":"Record Saved Successfully."}

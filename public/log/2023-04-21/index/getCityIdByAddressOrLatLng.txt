@@ -1,0 +1,17 @@
+
+ Request - 2023-04-21 09:33:24
+{"method":"getCityIdByAddressOrLatLng","address":"Gurunanak Hospital & Research Centre S\/ 341, Gandhi Nagar, near Chetna College, MIG Colony, Bandra East, Mumbai, Maharashtra 400051, India","lat":"19.0596702","lng":"72.8504278"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-21 09:33:24
+{"method":"getCityIdByAddressOrLatLng","address":"Gurunanak Hospital & Research Centre S\/ 341, Gandhi Nagar, near Chetna College, MIG Colony, Bandra East, Mumbai, Maharashtra 400051, India","lat":"19.0596702","lng":"72.8504278"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-21 12:44:39
+{"method":"getCityIdByAddressOrLatLng","address":"FMCM+97M, Myeik, Myanmar (Burma)","lat":"12.4712139","lng":"98.6838488"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-21 12:44:42
+{"method":"getCityIdByAddressOrLatLng","address":"FMCM+97M, Myeik, Myanmar (Burma)","lat":"12.4712139","lng":"98.6838488"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

@@ -1,0 +1,9 @@
+
+ Request - 2022-09-28 10:27:07
+{"method":"getCityIdByAddressOrLatLng","address":"M7GG+2FH, Lusaka, Zambia","lat":"-15.324408333333334","lng":"28.276296666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M7GG+2FH, Lusaka, Zambia"}}
+ Request - 2022-09-28 17:14:55
+{"method":"getCityIdByAddressOrLatLng","address":"5H7F+R2W، الغوصة، مركز قنا، قنا، مصر","lat":"26.164025","lng":"32.571694"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5H7F+R2W, Al Ghosah, Qena, Qena Governorate, Egypt"}}

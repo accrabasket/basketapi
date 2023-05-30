@@ -1,0 +1,29 @@
+
+ Request - 2021-11-27 19:45:07
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":8372,"expiry_date":"2021-11-27 20:00:07"}}
+ Request - 2021-11-27 19:46:52
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":5123,"expiry_date":"2021-11-27 20:01:52"}}
+ Request - 2021-11-27 19:47:38
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":5591,"expiry_date":"2021-11-27 20:02:38"}}
+ Request - 2021-11-27 19:48:12
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":2616,"expiry_date":"2021-11-27 20:03:12"}}
+ Request - 2021-11-27 19:49:15
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":8602,"expiry_date":"2021-11-27 20:04:15"}}
+ Request - 2021-11-27 19:50:21
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":8250,"expiry_date":"2021-11-27 20:05:21"}}
+ Request - 2021-11-27 19:51:17
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"249290466"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233249290466","otp_type":"register","user_id":"0","otp":1496,"expiry_date":"2021-11-27 20:06:17"}}

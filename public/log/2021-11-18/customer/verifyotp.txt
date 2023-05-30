@@ -1,0 +1,41 @@
+
+ Request - 2021-11-18 12:55:06
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"1234"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:55:25
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"8734"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:55:30
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"8734"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:55:53
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"4950"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:56:00
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"4950"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:56:35
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"8734"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:57:25
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"1234"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:58:42
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"4950"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:58:59
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"1997"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-18 12:59:22
+{"method":"verifyotp","country_code":"+233","mobile_number":"7654724950","otp_type":"register","otp":"8734"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

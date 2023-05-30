@@ -1,0 +1,161 @@
+
+ Request - 2022-06-04 05:10:04
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:10:24
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2837","action":"add","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:10:30
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2837","action":"delete","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:10:32
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2837","action":"delete","item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:14
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:22
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"delete","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:23
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:25
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:26
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:27
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:27
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:28
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:12:29
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 05:13:07
+{"method":"addtocart","guest_user_id":"ce467c91ce72ea56","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:55:22
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"251","action":"add","item_name":"Garam Masala - Whole(Garam Masala - Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:55:36
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"261","action":"add","item_name":"Green Cardamom(Green Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:55:45
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"279","action":"add","item_name":"Kashmiri Mirch Powder(Kashmiri Mirch Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:55:54
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"284","action":"add","item_name":"Kitchen King Masala(Kitchen King Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:56:37
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"1041","action":"delete","item_name":"Ground Ginger Jar(Ground Ginger Jar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:56:43
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"311","action":"delete","item_name":"Red Chilli Whole(Red Chilli Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:07
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"244","action":"add","item_name":"Desiccated Coconut(Desiccated Coconut)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:09
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"244","action":"add","item_name":"Desiccated Coconut(Desiccated Coconut)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:21
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"279","action":"delete","item_name":"Kashmiri Mirch Powder(Kashmiri Mirch Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:25
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"284","action":"delete","item_name":"Kitchen King Masala(Kitchen King Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:55
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"294","action":"delete","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:57
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"294","action":"delete","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:57:59
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"294","action":"delete","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 20:58:03
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"294","action":"delete","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:00:21
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"441","action":"delete","item_name":"Sabudana(Sabudana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:01:12
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"367","action":"delete","item_name":"White Flour (Maida)(White Flour (Maida))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:01:14
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"367","action":"delete","item_name":"White Flour (Maida)(White Flour (Maida))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:01:16
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"367","action":"delete","item_name":"White Flour (Maida)(White Flour (Maida))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:01:27
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"1206","action":"add","item_name":"Rice Flour(Rice Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:02:40
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"1044","action":"add","item_name":"Mixed Pickle(Mixed Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:02:42
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"1035","action":"add","item_name":"Hot Chilli Pickle(Hot Chilli Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:02:58
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"217","action":"delete","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:03:06
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"322","action":"delete","item_name":"Salt(Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:03:11
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:03:15
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"621","action":"delete","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-04 21:03:24
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"733","action":"delete","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2021-11-01 10:54:32
+{"method":"verifyotp","country_code":"+233","mobile_number":"244238922","otp_type":"register","otp":"5122"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-11-01 10:54:43
+{"method":"verifyotp","country_code":"+233","mobile_number":"244238922","otp_type":"register","otp":"5122"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

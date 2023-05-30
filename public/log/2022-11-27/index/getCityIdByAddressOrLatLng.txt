@@ -1,0 +1,17 @@
+
+ Request - 2022-11-27 03:02:31
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, République démocratique du Congo","lat":"-3.3896299999999995","lng":"27.869836666666668"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JV69+4W Mukulungu, Democratic Republic of the Congo"}}
+ Request - 2022-11-27 03:02:37
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, République démocratique du Congo","lat":"-3.3896299999999995","lng":"27.869836666666668"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JV69+4W Mukulungu, Democratic Republic of the Congo"}}
+ Request - 2022-11-27 10:42:12
+{"method":"getCityIdByAddressOrLatLng","address":"VX7X+2WQ، دهوك، العراق","lat":"36.8630244","lng":"42.9997871"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VX7X+2WQ, Dihok, Iraq"}}
+ Request - 2022-11-27 10:42:12
+{"method":"getCityIdByAddressOrLatLng","address":"VX7X+2WQ، دهوك، العراق","lat":"36.8630244","lng":"42.9997871"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VX7X+2WQ, Dihok, Iraq"}}

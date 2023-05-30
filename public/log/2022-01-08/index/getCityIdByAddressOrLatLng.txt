@@ -1,0 +1,21 @@
+
+ Request - 2022-01-08 03:30:54
+{"method":"getCityIdByAddressOrLatLng","address":"032007, Utah 84078, USA","lat":"40.4587443","lng":"-109.6838223"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"032007, Naples, UT 84078, USA"}}
+ Request - 2022-01-08 08:38:22
+{"method":"getCityIdByAddressOrLatLng","address":"ST 5, Block 1 Clifton, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8186762","lng":"67.0019882"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"ST 5, Block 1 Clifton, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-01-08 13:49:26
+{"method":"getCityIdByAddressOrLatLng","address":"جكر حسين، Kanizark St, سوسنة، العراق","lat":"36.7552619","lng":"43.8190899"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u062c\u0643\u0631 \u062d\u0633\u064a\u0646\u060c Kanizark St, Susna, Iraq"}}
+ Request - 2022-01-08 17:49:08
+{"method":"getCityIdByAddressOrLatLng","address":"الثوره العربية الكبرى،، الزرقاء، الأردن","lat":"32.0351374","lng":"36.0876709"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0627\u0644\u062b\u0648\u0631\u0647 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0643\u0628\u0631\u0649\u060c\u060c Az-Zarqa, Jordan"}}
+ Request - 2022-01-08 23:15:50
+{"method":"getCityIdByAddressOrLatLng","address":"68MM+99, Mills Center, Liberia","lat":"6.2333557","lng":"-10.6655902"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"68MM+99, Mills Center, Liberia"}}

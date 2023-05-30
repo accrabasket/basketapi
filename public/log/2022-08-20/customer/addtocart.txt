@@ -1,0 +1,141 @@
+
+ Request - 2022-08-20 01:43:21
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:23
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:30
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:35
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:41
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:45
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"458","action":"delete","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:50
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:52
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"459","action":"delete","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:43:56
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:44:09
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"455","action":"delete","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:05
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"1511","action":"add","item_name":"The Ultimate Beer(The Ulyimate Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:10
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"1511","action":"delete","item_name":"The Ultimate Beer(The Ulyimate Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:19
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"2250","action":"add","item_name":"Golden Lager Beer(Golden Lager Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:27
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"2250","action":"delete","item_name":"Golden Lager Beer(Golden Lager Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:30
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"2251","action":"add","item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:38
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"2251","action":"delete","item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:43
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"820","action":"add","item_name":"Anneleen Apple Non-Alcoholic Drink(Anneleen Apple Non-Alcoholic Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:45
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"820","action":"delete","item_name":"Anneleen Apple Non-Alcoholic Drink(Anneleen Apple Non-Alcoholic Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:51
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"1222","action":"add","item_name":"Sweet White Wine(Sweet White Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 01:45:53
+{"method":"addtocart","guest_user_id":"398cf1c705d72ff0","number_of_item":"1","merchant_inventry_id":"1222","action":"delete","item_name":"Sweet White Wine(Sweet White Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:16
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:20
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:24
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"276","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:31
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:33
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:34
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:38
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:39
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder(NIDO Essentia Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:42
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:44
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:49
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:51
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:55
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"3808","action":"add","item_name":"Onion Local(Onion Local)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 06:12:57
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-20 11:28:08
+{"method":"addtocart","guest_user_id":"c1e00559a3a3d622","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

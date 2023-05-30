@@ -1,0 +1,189 @@
+
+ Request - 2022-09-12 09:24:44
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-09-12 09:47:59
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:48:01
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:48:02
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:48:05
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:48:08
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:48:10
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:48:13
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:49:04
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"1870","action":"add","item_name":"Flavoured Yoghurt - Strawberries(Flavoured Yoghurt - Strawberries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:49:10
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"1870","action":"delete","item_name":"Flavoured Yoghurt - Strawberries(Flavoured Yoghurt - Strawberries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:49:12
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"1870","action":"add","item_name":"Flavoured Yoghurt - Strawberries(Flavoured Yoghurt - Strawberries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:50:08
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"2961","action":"add","item_name":"Cook & Bake - Butter(Cook & Bake - Butter)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:51:10
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"3803","action":"add","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:51:12
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"3803","action":"add","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:51:15
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"3804","action":"add","item_name":"Chicken Wings(Chicken Wings)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:51:19
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"3804","action":"add","item_name":"Chicken Wings(Chicken Wings)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:52:21
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"3797","action":"add","item_name":"Chicken Breasts(Chicken Breasts)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:52:23
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"3797","action":"add","item_name":"Chicken Breasts(Chicken Breasts)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:53:02
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"2959","action":"add","item_name":"American Cheese Slices(American Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 09:53:19
+{"method":"addtocart","guest_user_id":"0e003a40aae4ea20","number_of_item":"1","merchant_inventry_id":"408","action":"delete","item_name":"Super 25 % Extra - Basmati Rice(Super 25 % Extra - Basmati Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:09:52
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2676","action":"add","item_name":"Garden Green Peas(Garden Green Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:10:21
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1378","action":"add","item_name":"Biryani Basmati Rice(Biryani Basmati Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:10:34
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1378","action":"add","item_name":"Biryani Basmati Rice(Biryani Basmati Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:10:59
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1177","action":"add","item_name":"Coconut Milk(Coconut Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:11:16
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1120","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:11:27
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"375","action":"add","item_name":"Whole Cloves(Whole Cloves)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:11:36
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"367","action":"add","item_name":"White Flour (Maida)(White Flour (Maida))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:13:19
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:13:32
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"755","action":"add","item_name":"Chocolate Spread(Chocolate Spread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:13:53
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"912","action":"add","item_name":"Chicken Bouillon Tablet(Chicken Bouillon Tablet)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:14:17
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1059","action":"add","item_name":"Spaghettini(Spaghettini)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:14:41
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2059","action":"add","item_name":"Tomato Paste Tin(Tomato Paste Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:18
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2605","action":"add","item_name":"Tomato Mix - Pillow Pack(Tomato Mix - Pillow Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:28
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2695","action":"add","item_name":"Tomato Paste - Pillow Pack(Tomato Paste - Pillow Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:35
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2605","action":"delete","item_name":"Tomato Mix - Pillow Pack(Tomato Mix - Pillow Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:49
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2705","action":"add","item_name":"Onion Chicken Flavor Noodles(Onion Chicken Flavor Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:53
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2705","action":"add","item_name":"Onion Chicken Flavor Noodles(Onion Chicken Flavor Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:54
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2705","action":"add","item_name":"Onion Chicken Flavor Noodles(Onion Chicken Flavor Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:57
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2705","action":"add","item_name":"Onion Chicken Flavor Noodles(Onion Chicken Flavor Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:15:58
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2705","action":"add","item_name":"Onion Chicken Flavor Noodles(Onion Chicken Flavor Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:16:30
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2860","action":"add","item_name":"Refined Iodized Salt(Refined Iodized Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 10:16:31
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2860","action":"add","item_name":"Refined Iodized Salt(Refined Iodized Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 14:50:58
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"336","action":"add","item_name":"Split White Urid Dal(Split White Urid Dal)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 14:51:39
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 15:03:02
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1378","action":"delete","item_name":"Biryani Basmati Rice(Biryani Basmati Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 15:03:03
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"1378","action":"delete","item_name":"Biryani Basmati Rice(Biryani Basmati Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-12 15:03:08
+{"method":"addtocart","user_id":"8758","number_of_item":"1","merchant_inventry_id":"2676","action":"delete","item_name":"Garden Green Peas(Garden Green Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

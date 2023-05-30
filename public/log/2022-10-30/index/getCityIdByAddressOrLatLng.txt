@@ -1,0 +1,13 @@
+
+ Request - 2022-10-30 07:14:42
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Abidjan, Côte d'Ivoire","lat":"5.436855","lng":"-4.075991666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CWPF+PJ Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2022-10-30 13:13:27
+{"method":"getCityIdByAddressOrLatLng","address":"E453 Galley Rd, Tema, Ghana","lat":"5.704154","lng":"-0.0158857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"E453 Galley Rd, Tema, Ghana"}}
+ Request - 2022-10-30 19:09:35
+{"method":"getCityIdByAddressOrLatLng","address":"ش. الأنصار 36، عمّان، الأردن","lat":"31.9322758","lng":"35.9022556"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Al-Ansar St. 36, Amman, Jordan"}}

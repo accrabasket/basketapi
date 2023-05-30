@@ -1,0 +1,273 @@
+
+ Request - 2021-01-21 06:53:20
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":1},"18":{"id":18,"promotion_name":"pr1","type":"percent","value":null,"promotion_sequence":2},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 06:53:25
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":3}},"images":{"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 06:53:33
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"18":{"id":18,"promotion_name":"pr1","type":"percent","value":null,"promotion_sequence":2}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 06:53:43
+{"id":"12","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":1}},"images":{"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 06:53:53
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"18":{"id":18,"promotion_name":"pr1","type":"percent","value":null,"promotion_sequence":2},"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 06:53:56
+{"id":"18","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"18":{"id":18,"promotion_name":"pr1","type":"percent","value":null,"promotion_sequence":2}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:43:54
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":2},"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:49:37
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":2},"12":{"id":12,"promotion_name":"Christmas Hampers","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"12":[{"id":4437,"type":"promotion","image_id":12,"image_name":"12_1608290712.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:51:31
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":2}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:52:58
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:53:47
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:53:50
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:55:03
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:55:10
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:55:15
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:55:19
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:55:57
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:56:25
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:57:00
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:57:29
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:58:19
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:58:21
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:59:00
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 07:59:27
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:00:00
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:00:28
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:00:59
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:01:29
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:01:56
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:02:24
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:02:55
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:03:22
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:03:46
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:04:11
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:04:39
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:05:07
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:05:33
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:06:01
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:06:12
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:06:40
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:07:11
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:07:38
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:08:03
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:08:44
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:10:34
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:11:11
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:12:20
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:12:59
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:15:39
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:15:43
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 08:17:03
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 15:59:32
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:01:18
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:01:55
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:02:58
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:07:02
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:08:13
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:08:49
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:10:12
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:54:17
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:54:22
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1}},"images":{"20":[{"id":4455,"type":"promotion","image_id":20,"image_name":"20_1609996749.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:55:37
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4459,"type":"promotion","image_id":20,"image_name":"20_1611248087.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 16:55:40
+{"id":"20","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1}},"images":{"20":[{"id":4459,"type":"promotion","image_id":20,"image_name":"20_1611248087.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 17:21:00
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 17:21:45
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 17:23:11
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 17:24:47
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-21 17:26:07
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,17 @@
+
+ Request - 2021-01-30 17:14:42
+{"method":"getaddresslist","user_id":"1829"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-01-30 17:19:48
+{"method":"getaddresslist","user_id":"1829"}
+ Response :- 
+{"status":"success","data":{"376":{"id":376,"user_id":1829,"address_nickname":"venky","contact_name":"Venky","city_id":1,"city_name":"Sixth Ave, Tema, Ghana","house_number":" VHC\/B27 TEMA CM 12","street_detail":"sixth ave,Community 12","landmark":"xtan medical ","zipcode":"12","area":"","lat":"5.6656791","lng":"","created_date":"2021-01-30 17:19:47","updated_date":"2021-01-30 17:19:47"}}}
+ Request - 2021-01-30 18:16:43
+{"method":"getaddresslist","user_id":"1829"}
+ Response :- 
+{"status":"success","data":{"376":{"id":376,"user_id":1829,"address_nickname":"venky","contact_name":"Venky","city_id":1,"city_name":"Sixth Ave, Tema, Ghana","house_number":" VHC\/B27 TEMA CM 12","street_detail":"sixth ave,Community 12","landmark":"xtan medical ","zipcode":"12","area":"","lat":"5.6656791","lng":"","created_date":"2021-01-30 17:19:47","updated_date":"2021-01-30 17:19:47"}}}
+ Request - 2021-01-30 18:17:01
+{"method":"getaddresslist","user_id":"1829"}
+ Response :- 
+{"status":"success","data":{"376":{"id":376,"user_id":1829,"address_nickname":"venky","contact_name":"Venky","city_id":1,"city_name":"Sixth Ave, Tema, Ghana","house_number":" VHC\/B27 TEMA CM 12","street_detail":"sixth ave,Community 12","landmark":"SIISIS Boutique ","zipcode":"12","area":"","lat":"5.6656791","lng":"","created_date":"2021-01-30 17:19:47","updated_date":"2021-01-30 17:19:47"}}}

@@ -1,0 +1,81 @@
+
+ Request - 2021-08-30 07:52:47
+{"method":"getitemintocart","guest_user_id":"21af451d6149339b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 07:53:51
+{"method":"getitemintocart","guest_user_id":"21af451d6149339b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 09:22:01
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"success","data":{"737":{"id":16983,"user_id":0,"guest_user_id":"3da53acf2646912f","merchant_inventry_id":737,"item_name":"Tom Brown - Zipper Sachet(Tom Brown - Zipper Sachet)","number_of_item":2,"created_date":"2021-08-26 06:48:16"}},"productDetails":{"status":"success","data":{"737":{"id":737,"price":"34.49","product_id":1021,"merchant_id":4,"store_id":4,"merchant_product_code":"65903","product_name":"Tom Brown - Zipper Sachet","product_desc":"Oxy Industries Ltd is currently leading the Ghanaian Market with our Quality and attractively Packaged Food products under the brand name \u201cSUNNY GOLD\u201d.\r\nOur strength lies in innovation and careful research into quality and attractive food packaging that will Meet the Safety and Convenience of our cherished consumers.","default_discount_type":"","default_discount_value":"0","category_id":52,"custom_info":"{\"Ingredients\":\"Rice, Wheat, Soya Beans and Salt\"}","brand_name":"Sunny Gold","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"0","unit":"kg","quantity":1.5,"tax_value":"3"}},"productImageData":{"1021":[{"id":1593,"type":"product","image_id":1021,"image_name":"65903.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-30 11:02:05
+{"method":"getitemintocart","guest_user_id":"6b5f0abf4a157807"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 11:28:28
+{"method":"getitemintocart","guest_user_id":"c30d6188cedf864c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 11:50:42
+{"method":"getitemintocart","guest_user_id":"3da53acf2646912f"}
+ Response :- 
+{"status":"success","data":{"737":{"id":16983,"user_id":0,"guest_user_id":"3da53acf2646912f","merchant_inventry_id":737,"item_name":"Tom Brown - Zipper Sachet(Tom Brown - Zipper Sachet)","number_of_item":2,"created_date":"2021-08-26 06:48:16"}},"productDetails":{"status":"success","data":{"737":{"id":737,"price":"34.49","product_id":1021,"merchant_id":4,"store_id":4,"merchant_product_code":"65903","product_name":"Tom Brown - Zipper Sachet","product_desc":"Oxy Industries Ltd is currently leading the Ghanaian Market with our Quality and attractively Packaged Food products under the brand name \u201cSUNNY GOLD\u201d.\r\nOur strength lies in innovation and careful research into quality and attractive food packaging that will Meet the Safety and Convenience of our cherished consumers.","default_discount_type":"","default_discount_value":"0","category_id":52,"custom_info":"{\"Ingredients\":\"Rice, Wheat, Soya Beans and Salt\"}","brand_name":"Sunny Gold","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"0","unit":"kg","quantity":1.5,"tax_value":"3"}},"productImageData":{"1021":[{"id":1593,"type":"product","image_id":1021,"image_name":"65903.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-30 11:59:43
+{"method":"getitemintocart","guest_user_id":"45f71c9c2af29443"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 13:02:31
+{"method":"getitemintocart","guest_user_id":"afb692d89526391c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 14:46:49
+{"method":"getitemintocart","guest_user_id":"3c42f98e5e40aedf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 14:48:31
+{"method":"getitemintocart","guest_user_id":"3c42f98e5e40aedf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 15:19:39
+{"method":"getitemintocart","guest_user_id":"12d50d50efdde2e8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 15:22:07
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 15:23:12
+{"method":"getitemintocart","guest_user_id":"12d50d50efdde2e8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 15:28:48
+{"method":"getitemintocart","guest_user_id":"3bf0e4ec6f9c910c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 16:25:08
+{"method":"getitemintocart","guest_user_id":"0fb4a31343235f35"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 17:20:23
+{"method":"getitemintocart","guest_user_id":"6199c4fec57df69e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 18:54:15
+{"method":"getitemintocart","guest_user_id":"6a26f94902014ede"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 20:23:45
+{"method":"getitemintocart","guest_user_id":"944ba59e7c0fcbba"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 21:45:34
+{"method":"getitemintocart","guest_user_id":"5efe5d6c7a21b12b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-30 21:46:05
+{"method":"getitemintocart","guest_user_id":"5efe5d6c7a21b12b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

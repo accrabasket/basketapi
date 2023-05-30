@@ -1,0 +1,13 @@
+
+ Request - 2021-05-27 01:01:03
+{"method":"getCityIdByAddressOrLatLng","address":"33 Shosanya Cl, Oke Odo, Lagos, Nigeria","lat":"6.626454","lng":"3.2839854"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"33 Shosanya Cl, Oke Odo, Lagos, Nigeria"}}
+ Request - 2021-05-27 15:03:58
+{"method":"getCityIdByAddressOrLatLng","address":"Badlapur Rd Navali naka Dhamatam naka, nearby Sai Pragati Service Centre, Dhamtan, Maharashtra 421306, India","lat":"19.1778318","lng":"73.1303504"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Badlapur Rd Navali naka Dhamatam naka, nearby Sai Pragati Service Centre, Dhamtan, Maharashtra 421306, India"}}
+ Request - 2021-05-27 15:41:05
+{"method":"getCityIdByAddressOrLatLng","address":"Voie Express de Bassam, Abidjan, Côte d'Ivoire","lat":"5.2467459","lng":"-3.9415484"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A100, Abidjan, C\u00f4te d'Ivoire"}}

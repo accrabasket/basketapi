@@ -1,0 +1,25 @@
+
+ Request - 2022-04-30 06:05:12
+{"method":"addtocart","guest_user_id":"07281d8815fef2cf","number_of_item":"1","merchant_inventry_id":"473","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-30 06:05:28
+{"method":"addtocart","guest_user_id":"07281d8815fef2cf","number_of_item":"1","merchant_inventry_id":"473","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-30 06:05:31
+{"method":"addtocart","guest_user_id":"07281d8815fef2cf","number_of_item":"1","merchant_inventry_id":"473","action":"delete","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-30 06:05:44
+{"method":"addtocart","guest_user_id":"07281d8815fef2cf","number_of_item":"1","merchant_inventry_id":"504","action":"add","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-30 06:06:15
+{"method":"addtocart","guest_user_id":"07281d8815fef2cf","number_of_item":"1","merchant_inventry_id":"517","action":"add","item_name":"Black Label Whisky(Black Label Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-30 06:06:37
+{"method":"addtocart","guest_user_id":"07281d8815fef2cf","number_of_item":"1","merchant_inventry_id":"588","action":"add","item_name":"Cranberry and Kiwi - Fruit Juice(Cranberry and Kiwi - Fruit Juice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

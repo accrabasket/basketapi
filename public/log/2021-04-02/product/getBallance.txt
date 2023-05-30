@@ -1,0 +1,15 @@
+
+ Request - 2021-04-02 17:08:39
+{"method":"getBallance","user_id":459,"wallet_key":"e947ef190b5a941143f2b8fc643de84d"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}
+ Request - 2021-04-02 17:09:54
+{"method":"getBallance","user_id":459,"wallet_key":"e947ef190b5a941143f2b8fc643de84d"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"No Record Found."}

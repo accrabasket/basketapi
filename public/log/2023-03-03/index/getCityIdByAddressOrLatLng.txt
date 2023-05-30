@@ -1,0 +1,33 @@
+
+ Request - 2023-03-03 04:46:55
+{"method":"getCityIdByAddressOrLatLng","address":"92R9+XG2, Ramdiha, Chakia, Bihar 845412, India","lat":"26.3936005","lng":"85.0179862"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 04:47:17
+{"method":"getCityIdByAddressOrLatLng","address":"92R9+XG2, Ramdiha, Chakia, Bihar 845412, India","lat":"26.3936005","lng":"85.0179862"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 04:47:31
+{"method":"getCityIdByAddressOrLatLng","address":"92R9+XG2, Ramdiha, Chakia, Bihar 845412, India","lat":"26.3936005","lng":"85.0179862"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 08:17:11
+{"method":"getCityIdByAddressOrLatLng","address":"7VV7+V3C, Madanapur, Odisha 756044, India","lat":"21.2939447","lng":"86.8610852"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 11:12:32
+{"method":"getCityIdByAddressOrLatLng","address":"J8C3+GWQ, Mumana Rd, Lusaka, Zambia","lat":"-15.3789465","lng":"28.3043673"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 11:12:36
+{"method":"getCityIdByAddressOrLatLng","address":"J8C3+GWQ, Mumana Rd, Lusaka, Zambia","lat":"-15.3789465","lng":"28.3043673"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 22:41:30
+{"method":"getCityIdByAddressOrLatLng","address":"مسجد، مسجد، کابل، افغانستان","lat":"34.582224","lng":"69.1506382"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-03 22:41:30
+{"method":"getCityIdByAddressOrLatLng","address":"مسجد، مسجد، کابل، افغانستان","lat":"34.582224","lng":"69.1506382"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-04-05 13:53:28
+{"method":"addtocart","guest_user_id":"b131cd0fa50c5dd9","number_of_item":"1","merchant_inventry_id":"650","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-05 13:53:48
+{"method":"addtocart","guest_user_id":"b131cd0fa50c5dd9","number_of_item":"1","merchant_inventry_id":"651","action":"add","item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-05 13:53:51
+{"method":"addtocart","guest_user_id":"b131cd0fa50c5dd9","number_of_item":"1","merchant_inventry_id":"653","action":"add","item_name":"Filled Evaporated Milk - Green(Filled Evaporated Milk - Green)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-05 13:53:54
+{"method":"addtocart","guest_user_id":"b131cd0fa50c5dd9","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

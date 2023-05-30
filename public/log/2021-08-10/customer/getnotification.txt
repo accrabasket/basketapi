@@ -1,0 +1,13 @@
+
+ Request - 2021-08-10 12:16:23
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6655,"subject":"Order placed","msg":"New Order order_m4_705 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-08-09 12:15:06","updated_date":null}],"totalRecord":1}
+ Request - 2021-08-10 12:16:35
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-08-10 12:16:48
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

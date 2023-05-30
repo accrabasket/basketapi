@@ -1,0 +1,9 @@
+
+ Request - 2021-02-04 04:47:07
+{"method":"getCityIdByAddressOrLatLng","address":"Shorkot Rd, Toba Tek Singh, Toba Tek Singh District, Punjab, Pakistan","lat":"30.9542201","lng":"72.4644549"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shorkot Rd, Toba Tek Singh, Toba Tek Singh District, Punjab, Pakistan"}}
+ Request - 2021-02-04 19:16:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road 15858، 15858، 15858، السعودية","lat":"25.5412498","lng":"47.156775"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road 15858\u060c 15858\u060c 15858, Saudi Arabia"}}

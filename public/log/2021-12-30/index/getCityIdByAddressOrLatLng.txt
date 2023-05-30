@@ -1,0 +1,9 @@
+
+ Request - 2021-12-30 19:14:17
+{"method":"getCityIdByAddressOrLatLng","address":"N4, Sénégal","lat":"13.6787224","lng":"-15.6568322"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M8HV+F7 Pakane, Senegal"}}
+ Request - 2021-12-30 23:52:42
+{"method":"getCityIdByAddressOrLatLng","address":"23 I. Adu St, Takoradi, Ghana","lat":"4.9134365","lng":"-1.7719995"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"23 I. Adu St, Takoradi, Ghana"}}

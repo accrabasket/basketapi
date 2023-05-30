@@ -1,0 +1,13 @@
+
+ Request - 2022-04-10 08:37:01
+{"method":"getCityIdByAddressOrLatLng","address":"R295+CJX, Block 6 Clifton, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8185265","lng":"67.0090792"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R295+CJX, Block 6 Clifton, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-04-10 12:56:25
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2022-04-10 17:24:29
+{"method":"getCityIdByAddressOrLatLng","address":"Ngudu, Tanzania","lat":"-2.9588955","lng":"33.3701875"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"29RC+C3 Igoma, Tanzania"}}

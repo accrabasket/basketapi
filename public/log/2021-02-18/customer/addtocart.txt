@@ -1,0 +1,73 @@
+
+ Request - 2021-02-18 08:10:19
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"863","action":"add","item_name":"Membrane Air Freshener Freesia(Membrane Air Freshener Freesia)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:10:28
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"863","action":"delete","item_name":"Membrane Air Freshener Freesia(Membrane Air Freshener Freesia)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:10:30
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"864","action":"add","item_name":"Membrane Air Freshener Cranberry(Membrane Air Freshener Cranberry)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:02
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1070","action":"add","item_name":"Power Bleach(Power Bleach)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:15
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1077","action":"add","item_name":"Fabric Softner - Lavender(Fabric Softner - Lavender)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:33
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1077","action":"delete","item_name":"Fabric Softner - Lavender(Fabric Softner - Lavender)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:34
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1077","action":"delete","item_name":"Fabric Softner - Lavender(Fabric Softner - Lavender)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:38
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1079","action":"add","item_name":"Fabric Softner - Floral(Fabric Softner - Floral)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:46
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1065","action":"delete","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:11:52
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1313","action":"delete","item_name":"Sangria Wine(Sangria Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:12:26
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1741","action":"delete","item_name":"Bleach Pink - Bouquet Scent(Bleach Pink - Bouquet Scent)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:12:44
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1569","action":"delete","item_name":"Lavender Gel - Air Freshener(Lavender Gel - Air Freshener)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:14:54
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1930","action":"add","item_name":"Men Roll On - Quantum Deodorant(Men Roll On - Quantum Deodorant)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:14:57
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1852","action":"add","item_name":"APA Men Deodorant Spray - Quantum(APA Men Deodorant Spray - Quantum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:15:02
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1852","action":"delete","item_name":"APA Men Deodorant Spray - Quantum(APA Men Deodorant Spray - Quantum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 08:17:02
+{"method":"addtocart","user_id":"1808","number_of_item":"1","merchant_inventry_id":"1852","action":"add","item_name":"APA Men Deodorant Spray - Quantum(APA Men Deodorant Spray - Quantum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 10:44:23
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-18 10:55:15
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,41 @@
+
+ Request - 2021-02-15 11:20:36
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"9","delivery_date":"2021-02-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_521"}}
+ Request - 2021-02-15 11:21:48
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"9","delivery_date":"2021-02-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_522"}}
+ Request - 2021-02-15 11:25:43
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"9","delivery_date":"2021-02-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_523"}}
+ Request - 2021-02-15 13:41:43
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_524"}}
+ Request - 2021-02-15 13:41:55
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"Ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-02-15 13:51:31
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_525"}}
+ Request - 2021-02-15 13:51:55
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"Ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_526"}}
+ Request - 2021-02-15 13:53:08
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_527"}}
+ Request - 2021-02-15 14:12:20
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-02-15 14:12:48
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"10","delivery_date":"2021-02-15","payment_type":"COD","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_528"}}

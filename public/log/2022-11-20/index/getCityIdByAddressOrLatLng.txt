@@ -1,0 +1,25 @@
+
+ Request - 2022-11-20 14:29:32
+{"method":"getCityIdByAddressOrLatLng","address":"MF75+53M, Conakry, Guinée","lat":"9.6631894","lng":"-13.542426"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MF75+53M, Conakry, Guinea"}}
+ Request - 2022-11-20 16:25:57
+{"method":"getCityIdByAddressOrLatLng","address":"вулиця Некрасова, 25, Вінниця, Вінницька область, Україна, 21000","lat":"49.2437776","lng":"28.5007941"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nekrasova St, 25, Vinnytsia, Vinnyts'ka oblast, Ukraine, 21000"}}
+ Request - 2022-11-20 16:25:57
+{"method":"getCityIdByAddressOrLatLng","address":"вулиця Некрасова, 25, Вінниця, Вінницька область, Україна, 21000","lat":"49.2437776","lng":"28.5007941"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nekrasova St, 25, Vinnytsia, Vinnyts'ka oblast, Ukraine, 21000"}}
+ Request - 2022-11-20 17:51:08
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، أبشي، تشاد‎","lat":"13.8256856","lng":"20.8599486"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RVG5+7X Abeche, Chad"}}
+ Request - 2022-11-20 17:52:24
+{"method":"getCityIdByAddressOrLatLng","address":"Kayasthwara, FP42+J7, near police chowki, Sikandrabad, Uttar Pradesh 203205, India","lat":"28.4567351","lng":"77.7004637"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kayasthwara, FP42+J7, near police chowki, Sikandrabad, Uttar Pradesh 203205, India"}}
+ Request - 2022-11-20 21:20:41
+{"method":"getCityIdByAddressOrLatLng","address":"QJGW+3QC, Dakar, Sénégal","lat":"14.774718333333333","lng":"-17.353698333333334"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJGW+3QC, Dakar, Senegal"}}

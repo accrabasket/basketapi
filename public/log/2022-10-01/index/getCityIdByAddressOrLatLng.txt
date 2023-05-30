@@ -1,0 +1,9 @@
+
+ Request - 2022-10-01 01:37:14
+{"method":"getCityIdByAddressOrLatLng","address":"7\/102, SRS Puram, Sulur, Tamil Nadu 641402, India","lat":"11.02389","lng":"77.1292004"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7\/102, SRS Puram, Sulur, Tamil Nadu 641402, India"}}
+ Request - 2022-10-01 22:35:48
+{"method":"getCityIdByAddressOrLatLng","address":"369 Main St, Berlin, CT 06023, USA","lat":"41.6078079","lng":"-72.7186862"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"369 Main St, East Berlin, CT 06023, USA"}}

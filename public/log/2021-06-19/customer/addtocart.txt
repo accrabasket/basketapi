@@ -1,0 +1,49 @@
+
+ Request - 2021-06-19 08:28:37
+{"method":"addtocart","guest_user_id":"af17da6f7664207b","number_of_item":"1","merchant_inventry_id":"1099","action":"add","item_name":"Mini Samosa(Mini Samosa)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 08:28:40
+{"method":"addtocart","guest_user_id":"af17da6f7664207b","number_of_item":"1","merchant_inventry_id":"1099","action":"add","item_name":"Mini Samosa(Mini Samosa)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 08:28:41
+{"method":"addtocart","guest_user_id":"af17da6f7664207b","number_of_item":"1","merchant_inventry_id":"1099","action":"add","item_name":"Mini Samosa(Mini Samosa)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 11:05:49
+{"method":"addtocart","user_id":"2715","number_of_item":"1","merchant_inventry_id":"270","action":"delete","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 11:05:54
+{"method":"addtocart","user_id":"2715","number_of_item":"1","merchant_inventry_id":"3288","action":"delete","item_name":"Red Kidney Beans(Red Kidney Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 12:09:53
+{"method":"addtocart","guest_user_id":"8847526c03412151","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 12:10:01
+{"method":"addtocart","guest_user_id":"8847526c03412151","number_of_item":"1","merchant_inventry_id":"276","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 12:10:02
+{"method":"addtocart","guest_user_id":"8847526c03412151","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 13:30:08
+{"method":"addtocart","guest_user_id":"323d7eaa99a8aec4","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 13:30:12
+{"method":"addtocart","guest_user_id":"323d7eaa99a8aec4","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 13:30:15
+{"method":"addtocart","guest_user_id":"323d7eaa99a8aec4","number_of_item":"1","merchant_inventry_id":"430","action":"add","item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-19 16:42:53
+{"method":"addtocart","guest_user_id":"323d7eaa99a8aec4","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

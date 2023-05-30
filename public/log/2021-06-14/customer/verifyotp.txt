@@ -1,0 +1,5 @@
+
+ Request - 2021-06-14 17:09:14
+{"method":"verifyotp","country_code":"+233","mobile_number":"08136972689","otp_type":"register","otp":"6908"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"151cee563b2f8ccf29409d46545b7932"}}

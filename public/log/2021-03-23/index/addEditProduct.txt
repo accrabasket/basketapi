@@ -1,0 +1,9 @@
+
+ Request - 2021-03-23 03:01:20
+{"product_name":"Almond\/Badam","brand_name":"Vinco","nutrition":"","category_id":"47","promotion_id":"","item_code":"6033000220","hotdeals":0,"offers":0,"new_arrival":0,"product_discount_value":"10","product_discount_type":"percent","status":"1","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","tax_id":"3","id":"367","attribute":[{"name":"Almond\/Badam","unit":"gm","quantity":"100","commission_value":"10.0000","commission_type":"percent","id":"407"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"367","attribute":["407"]}}
+ Request - 2021-03-23 03:19:31
+{"product_name":"Cashew Nut Whole","brand_name":"Vinco","nutrition":"","category_id":"47","promotion_id":"","item_code":"6033000221","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\r\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","tax_id":"3","id":"379","attribute":[{"name":"Cashew Nut Whole","unit":"gm","quantity":"100","commission_value":"10.0000","commission_type":"percent","id":"421"},{"name":"Cashew Nut Whole","unit":"gm","quantity":"500","commission_value":"10.0000","commission_type":"percent","id":"422"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"379","attribute":["421","422"]}}

@@ -1,0 +1,21 @@
+
+ Request - 2022-05-03 19:58:47
+{"method":"addedituser","city_id":"1","password":"Stephen1205","name":"Selina Mensah","email":"semundi1205@gmail.com","mobile_number":"276240025","country_code":"+233","id":"0","fcm_reg_id":"eY0I0ooRgVg:APA91bHsrzL_xLnwyjoZa3EEEWhusqlQGLRwcf2MxmmhOEXw5TIJUqRdtEyHhRzWw6M1j3JGf3YrzIM3L43LnIINGBHv5bv62jsfitkPZNlwxto-2PjFrzysKI-6myGgy1mzuZS0XF6H"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233276240025 and registered email id.","data":{"8304":{"id":8304,"name":"Selina Mensah","mobile_number":"276240025","email":"semundi1205@gmail.com","key":"a979b49cd07b9fd4a64f40cdb9794a23","password":"b4dcb1f59f4fb69c333dd99ecbe904d3","fcm_reg_id":"eY0I0ooRgVg:APA91bHsrzL_xLnwyjoZa3EEEWhusqlQGLRwcf2MxmmhOEXw5TIJUqRdtEyHhRzWw6M1j3JGf3YrzIM3L43LnIINGBHv5bv62jsfitkPZNlwxto-2PjFrzysKI-6myGgy1mzuZS0XF6H","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-05-03 19:58:47","updated_date":"2022-05-03 19:58:47","status":"1"}}}
+ Request - 2022-05-03 21:40:39
+{"method":"addedituser","city_id":"1","password":"Debagni@2009","name":"Debo","email":"debojita83@gmail.com","mobile_number":"0256928082","country_code":"+233","id":"0","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-05-03 21:40:58
+{"method":"addedituser","city_id":"1","password":"Debagni@2009","name":"Debo","email":"debojita83@gmail.com","mobile_number":"0502676497","country_code":"+233","id":"0","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-05-03 21:41:02
+{"method":"addedituser","city_id":"1","password":"Debagni@2009","name":"Debo","email":"debojita83@gmail.com","mobile_number":"0502676497","country_code":"+233","id":"0","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-05-03 21:41:39
+{"method":"addedituser","city_id":"1","password":"Debagni@2009","name":"Debo","email":"taishanibiswas@gmail.com","mobile_number":"0256928082","country_code":"+233","id":"0","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233256928082 and registered email id.","data":{"8307":{"id":8307,"name":"Debo","mobile_number":"256928082","email":"taishanibiswas@gmail.com","key":"adcea77937f574c0c1711e709ce85e7a","password":"6ebfb1c19b8ed938af21d90314820fb4","fcm_reg_id":"fJdNVHbdDOs:APA91bF-Rn1NiggFog5hQF7N6O23V3DZMYFmoXJgLBt70cBsZwL3oIYjJvbBCMp8p4O3PQ2s_W6EXtfhlNDFmnip7knoZdr0gRXaBU7JW8-sOpx-huMo1g6AH-iDE7jQfuXlLzxEf0qz","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-05-03 21:41:39","updated_date":"2022-05-03 21:41:39","status":"1"}}}

@@ -1,0 +1,29 @@
+
+ Request - 2021-05-21 02:29:40
+{"method":"getCityIdByAddressOrLatLng","address":"LALIT LAXMIPUR HALT, MADHUBANI, MITHILA DHAM, Thahar, Bihar 847236, India","lat":"26.4348142","lng":"86.1546678"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"LALIT LAXMIPUR HALT, MADHUBANI, MITHILA DHAM, Thahar, Bihar 847236, India"}}
+ Request - 2021-05-21 06:25:01
+{"method":"getCityIdByAddressOrLatLng","address":"Yasir Mirza","lat":"33.0663768","lng":"74.1122857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Yasir Mirza"}}
+ Request - 2021-05-21 15:32:00
+{"method":"getCityIdByAddressOrLatLng","address":"R20, Kaya, Burkina Faso","lat":"13.0875729","lng":"-1.0982881"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R20, Kaya, Burkina Faso"}}
+ Request - 2021-05-21 18:13:51
+{"method":"getCityIdByAddressOrLatLng","address":"45 Okolobu Street, Awka, Nigeria","lat":"6.2120683","lng":"7.0735424"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"45 Okolobu Street, Awka, Nigeria"}}
+ Request - 2021-05-21 18:39:03
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Malawi","lat":"-14.0226508","lng":"33.6736975"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Malawi"}}
+ Request - 2021-05-21 20:19:51
+{"method":"getCityIdByAddressOrLatLng","address":"United States","lat":"37.09024","lng":"-95.712891"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5000 Estate Enighed, Independence, KS 67301, USA"}}
+ Request - 2021-05-21 20:19:54
+{"method":"getCityIdByAddressOrLatLng","address":"United States","lat":"37.09024","lng":"-95.712891"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5000 Estate Enighed, Independence, KS 67301, USA"}}

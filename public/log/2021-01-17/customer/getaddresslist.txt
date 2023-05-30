@@ -1,0 +1,21 @@
+
+ Request - 2021-01-17 09:54:08
+{"method":"getaddresslist","user_id":"1736"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-01-17 09:55:15
+{"method":"getaddresslist","user_id":"1736"}
+ Response :- 
+{"status":"success","data":{"368":{"id":368,"user_id":1736,"address_nickname":"OTF","contact_name":"Mark","city_id":1,"city_name":"202 N8, Foso, Ghana","house_number":"G-50","street_detail":"dwaboronoso atreet","landmark":"assin","zipcode":"1234","area":"","lat":"5.7045732","lng":"","created_date":"2021-01-17 09:55:15","updated_date":"2021-01-17 09:55:15"}}}
+ Request - 2021-01-17 09:56:59
+{"method":"getaddresslist","user_id":"1736"}
+ Response :- 
+{"status":"success","data":{"368":{"id":368,"user_id":1736,"address_nickname":"OTF","contact_name":"Mark","city_id":1,"city_name":"202 N8, Foso, Ghana","house_number":"G-50","street_detail":"dwaboronoso atreet","landmark":"assin","zipcode":"1234","area":"","lat":"5.7045732","lng":"","created_date":"2021-01-17 09:55:15","updated_date":"2021-01-17 09:55:15"}}}
+ Request - 2021-01-17 09:58:53
+{"method":"getaddresslist","user_id":"1736"}
+ Response :- 
+{"status":"success","data":{"368":{"id":368,"user_id":1736,"address_nickname":"OTF","contact_name":"Mark","city_id":1,"city_name":"202 N8, Foso, Ghana","house_number":"G-50","street_detail":"dwaboronoso atreet","landmark":"assin","zipcode":"1234","area":"","lat":"5.7045732","lng":"","created_date":"2021-01-17 09:55:15","updated_date":"2021-01-17 09:55:15"}}}
+ Request - 2021-01-17 10:03:03
+{"method":"getaddresslist","user_id":"1736"}
+ Response :- 
+{"status":"success","data":{"368":{"id":368,"user_id":1736,"address_nickname":"OTF","contact_name":"Mark","city_id":1,"city_name":"202 N8, Foso, Ghana","house_number":"G-50","street_detail":"dwaboronoso atreet","landmark":"assin","zipcode":"1234","area":"","lat":"5.7045732","lng":"","created_date":"2021-01-17 09:55:15","updated_date":"2021-01-17 09:55:15"}}}

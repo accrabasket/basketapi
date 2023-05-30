@@ -1,0 +1,37 @@
+
+ Request - 2021-07-27 04:17:44
+{"method":"getitemintocart","guest_user_id":"b0f52f1c3a67f079"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-27 11:21:45
+{"method":"getitemintocart","guest_user_id":"630f008ef1486744"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-27 13:46:03
+{"method":"getitemintocart","guest_user_id":"71cc8673b208cbfe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-27 16:46:20
+{"method":"getitemintocart","guest_user_id":"7aad0f082c843945"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-27 20:25:46
+{"method":"getitemintocart","guest_user_id":"75a37eb155512f53"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-27 20:26:59
+{"method":"getitemintocart","guest_user_id":"75a37eb155512f53"}
+ Response :- 
+{"status":"success","data":{"504":{"id":16526,"user_id":0,"guest_user_id":"75a37eb155512f53","merchant_inventry_id":504,"item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)","number_of_item":1,"created_date":"2021-07-27 20:26:58"}},"productDetails":{"status":"success","data":{"504":{"id":504,"price":"82.99","product_id":788,"merchant_id":4,"store_id":4,"merchant_product_code":"46735","product_name":"V.S Cognac - Whisky","product_desc":"The world's most popular Cognac, Hennessy V.S is the modern-day equivalent of the original Hennessy 3-Star. It is an expression of expertise and consistency, centuries in the making.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Hennessy","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"788":[{"id":645,"type":"product","image_id":788,"image_name":"46735.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-27 20:27:03
+{"method":"getitemintocart","guest_user_id":"75a37eb155512f53"}
+ Response :- 
+{"status":"success","data":{"504":{"id":16526,"user_id":0,"guest_user_id":"75a37eb155512f53","merchant_inventry_id":504,"item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)","number_of_item":2,"created_date":"2021-07-27 20:26:58"}},"productDetails":{"status":"success","data":{"504":{"id":504,"price":"82.99","product_id":788,"merchant_id":4,"store_id":4,"merchant_product_code":"46735","product_name":"V.S Cognac - Whisky","product_desc":"The world's most popular Cognac, Hennessy V.S is the modern-day equivalent of the original Hennessy 3-Star. It is an expression of expertise and consistency, centuries in the making.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Hennessy","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"788":[{"id":645,"type":"product","image_id":788,"image_name":"46735.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-27 20:27:18
+{"method":"getitemintocart","guest_user_id":"75a37eb155512f53"}
+ Response :- 
+{"status":"success","data":{"504":{"id":16526,"user_id":0,"guest_user_id":"75a37eb155512f53","merchant_inventry_id":504,"item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)","number_of_item":2,"created_date":"2021-07-27 20:26:58"}},"productDetails":{"status":"success","data":{"504":{"id":504,"price":"82.99","product_id":788,"merchant_id":4,"store_id":4,"merchant_product_code":"46735","product_name":"V.S Cognac - Whisky","product_desc":"The world's most popular Cognac, Hennessy V.S is the modern-day equivalent of the original Hennessy 3-Star. It is an expression of expertise and consistency, centuries in the making.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Hennessy","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"788":[{"id":645,"type":"product","image_id":788,"image_name":"46735.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-27 23:52:18
+{"method":"getitemintocart","guest_user_id":"75a37eb155512f53"}
+ Response :- 
+{"status":"success","data":{"504":{"id":16526,"user_id":0,"guest_user_id":"75a37eb155512f53","merchant_inventry_id":504,"item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)","number_of_item":2,"created_date":"2021-07-27 20:26:58"}},"productDetails":{"status":"success","data":{"504":{"id":504,"price":"82.99","product_id":788,"merchant_id":4,"store_id":4,"merchant_product_code":"46735","product_name":"V.S Cognac - Whisky","product_desc":"The world's most popular Cognac, Hennessy V.S is the modern-day equivalent of the original Hennessy 3-Star. It is an expression of expertise and consistency, centuries in the making.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Hennessy","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"788":[{"id":645,"type":"product","image_id":788,"image_name":"46735.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,17 @@
+
+ Request - 2022-03-25 06:44:33
+{"method":"getCityIdByAddressOrLatLng","address":"H24Q+J4G, Gujrat, Punjab, Pakistan","lat":"32.5562346","lng":"74.0382744"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H24Q+J4G, Gujrat, Punjab, Pakistan"}}
+ Request - 2022-03-25 12:07:42
+{"method":"getCityIdByAddressOrLatLng","address":"33G8+CHF، بنغازي، ليبيا","lat":"32.0764137","lng":"20.0672486"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"33G8+CHF, Benghazi, Libya"}}
+ Request - 2022-03-25 14:00:37
+{"method":"getCityIdByAddressOrLatLng","address":"8G3W+W5G, Tripura 799144, India","lat":"23.3057466","lng":"91.5455307"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8G3W+W5G, Tripura 799144, India"}}
+ Request - 2022-03-25 20:03:40
+{"method":"getCityIdByAddressOrLatLng","address":"29 Rafiu Tijani St, Ejigbo 102214, Lagos, Nigeria","lat":"6.5412461","lng":"3.3005785"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"20 Rafiu Tijani St, Ejigbo 102214, Lagos, Nigeria"}}

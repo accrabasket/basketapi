@@ -1,0 +1,9 @@
+
+ Request - 2022-08-30 01:19:41
+{"method":"addtocart","guest_user_id":"ad56b4544c0dbca3","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-30 13:00:51
+{"method":"addtocart","guest_user_id":"2d2e069debe550d2","number_of_item":"1","merchant_inventry_id":"614","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

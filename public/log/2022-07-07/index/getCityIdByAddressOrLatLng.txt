@@ -1,0 +1,29 @@
+
+ Request - 2022-07-07 05:21:01
+{"method":"getCityIdByAddressOrLatLng","address":"Estrada sem nome, Belas, Angola","lat":"-8.9745545","lng":"13.1368789"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"24GP+5Q Belas, Angola"}}
+ Request - 2022-07-07 05:57:55
+{"method":"getCityIdByAddressOrLatLng","address":"Dessi, Burkina Faso","lat":"11.513178333333334","lng":"-3.395765"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GJ73+7M Dessi, Burkina Faso"}}
+ Request - 2022-07-07 11:03:13
+{"method":"getCityIdByAddressOrLatLng","address":"Q349+GVQ, Baldevgarh, Madhya Pradesh 472111, India","lat":"24.7567004","lng":"79.0696252"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q349+GVQ, Baldevgarh, Madhya Pradesh 472111, India"}}
+ Request - 2022-07-07 16:36:18
+{"method":"getCityIdByAddressOrLatLng","address":"Palladan, opposite Avaition, 810106, Zaria, Nigeria","lat":"11.1380498","lng":"7.6892268"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Palladan, opposite Avaition, 810106, Zaria, Nigeria"}}
+ Request - 2022-07-07 17:57:41
+{"method":"getCityIdByAddressOrLatLng","address":"88J9+9MF, Dera, Ethiopia","lat":"8.3303101","lng":"39.3193184"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"88J9+9MF, Dera, Ethiopia"}}
+ Request - 2022-07-07 18:22:36
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Khiriya Rasulpur, Uttar Pradesh 242001, India","lat":"27.9969041","lng":"79.9201446"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XWWC+Q3 Khiriya Rasulpur, Uttar Pradesh, India"}}
+ Request - 2022-07-07 19:18:28
+{"method":"getCityIdByAddressOrLatLng","address":"9CGP+9FH, Pante, Uttar Pradesh 224168, India","lat":"26.3746819","lng":"82.4371895"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9CFP+VV Pante, Uttar Pradesh, India"}}

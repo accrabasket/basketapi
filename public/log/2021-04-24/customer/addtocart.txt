@@ -1,0 +1,9 @@
+
+ Request - 2021-04-24 11:12:22
+{"method":"addtocart","guest_user_id":"883d89434209f4eb","number_of_item":"1","merchant_inventry_id":"430","action":"add","item_name":"Lemon - Multi Surface Cleaner(Lemon - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-24 15:47:46
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2986","action":"add","item_name":"Chantilly Cream - Vanilla(Chantilly Cream - Vanilla)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

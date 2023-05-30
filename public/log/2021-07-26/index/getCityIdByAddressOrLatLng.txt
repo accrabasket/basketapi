@@ -1,0 +1,9 @@
+
+ Request - 2021-07-26 07:06:43
+{"method":"getCityIdByAddressOrLatLng","address":"A3, Côte d'Ivoire","lat":"6.8771531","lng":"-5.2934261"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A3, C\u00f4te d'Ivoire"}}
+ Request - 2021-07-26 23:11:50
+{"method":"getCityIdByAddressOrLatLng","address":"Lunsar-Makeni Highway, Makeni, Sierra Leone","lat":"8.8883318","lng":"-12.0544723"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Lunsar-Makeni Highway, Makeni, Sierra Leone"}}

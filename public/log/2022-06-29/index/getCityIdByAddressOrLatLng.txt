@@ -1,0 +1,33 @@
+
+ Request - 2022-06-29 08:27:55
+{"method":"getCityIdByAddressOrLatLng","address":"QJ69+7GW، غرب الزاوية، ليبيا","lat":"32.7606249","lng":"12.6186495"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJ69+7GW, West Zawiyah, Libya"}}
+ Request - 2022-06-29 12:10:30
+{"method":"getCityIdByAddressOrLatLng","address":"shajavawan 27 number, Kathmandu, काठमाडौँ 44600, Nepal","lat":"27.7070598","lng":"85.3141087"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"shajavawan 27 number, Kathmandu, \u0915\u093e\u0920\u092e\u093e\u0921\u094c\u0901 44600, Nepal"}}
+ Request - 2022-06-29 18:05:31
+{"method":"getCityIdByAddressOrLatLng","address":"M8M6+RHC, Av. Du Marché, Kinshasa, République démocratique du Congo","lat":"-4.3151616","lng":"15.3112107"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M8M6+RHC, Av. Du March\u00e9, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-06-29 19:18:28
+{"method":"getCityIdByAddressOrLatLng","address":"H63W+GMP, Los Angeles Rd, Lusaka, Zambia","lat":"-15.4470007","lng":"28.2470585"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H63W+GMP, Los Angeles Rd, Lusaka, Zambia"}}
+ Request - 2022-06-29 19:57:31
+{"method":"getCityIdByAddressOrLatLng","address":"7 Jaji Rd, Ungwan Shanu 800283, Kaduna, Nigeria","lat":"10.5474111","lng":"7.4337207"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7 Jaji Rd, Ungwan Shanu 800283, Kaduna, Nigeria"}}
+ Request - 2022-06-29 19:57:40
+{"method":"getCityIdByAddressOrLatLng","address":"7 Jaji Rd, Ungwan Shanu 800283, Kaduna, Nigeria","lat":"10.5474111","lng":"7.4337207"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7 Jaji Rd, Ungwan Shanu 800283, Kaduna, Nigeria"}}
+ Request - 2022-06-29 22:09:24
+{"method":"getCityIdByAddressOrLatLng","address":"VHVQ+FV4, Kouto, Côte d'Ivoire","lat":"9.892843","lng":"-6.4092998"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VHVQ+FV4, Kouto, C\u00f4te d'Ivoire"}}
+ Request - 2022-06-29 22:35:52
+{"method":"getCityIdByAddressOrLatLng","address":"Accra, Ghana","lat":"5.6037168","lng":"-0.1869644"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Accra, Ghana"}}

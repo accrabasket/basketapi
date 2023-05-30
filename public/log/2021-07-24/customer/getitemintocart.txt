@@ -1,0 +1,57 @@
+
+ Request - 2021-07-24 01:17:13
+{"method":"getitemintocart","guest_user_id":"2b02fff342d90fe0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 01:21:52
+{"method":"getitemintocart","guest_user_id":"2b02fff342d90fe0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 01:22:35
+{"method":"getitemintocart","guest_user_id":"2b02fff342d90fe0"}
+ Response :- 
+{"status":"success","data":{"2979":{"id":16502,"user_id":0,"guest_user_id":"2b02fff342d90fe0","merchant_inventry_id":2979,"item_name":"Mineral Water Bottle - Carton(Mineral Water Bottle - Carton)","number_of_item":1,"created_date":"2021-07-24 01:22:33"}},"productDetails":{"status":"success","data":{"2979":{"id":2979,"price":"13.75","product_id":3366,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Mineral Water Bottle - Carton","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"ml x 15","quantity":500,"tax_value":"3"}},"productImageData":{"3366":[{"id":4071,"type":"product","image_id":3366,"image_name":"VID080.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-24 01:22:39
+{"method":"getitemintocart","guest_user_id":"2b02fff342d90fe0"}
+ Response :- 
+{"status":"success","data":{"2979":{"id":16502,"user_id":0,"guest_user_id":"2b02fff342d90fe0","merchant_inventry_id":2979,"item_name":"Mineral Water Bottle - Carton(Mineral Water Bottle - Carton)","number_of_item":1,"created_date":"2021-07-24 01:22:33"}},"productDetails":{"status":"success","data":{"2979":{"id":2979,"price":"13.75","product_id":3366,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Mineral Water Bottle - Carton","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"ml x 15","quantity":500,"tax_value":"3"}},"productImageData":{"3366":[{"id":4071,"type":"product","image_id":3366,"image_name":"VID080.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-24 01:22:50
+{"method":"getitemintocart","guest_user_id":"2b02fff342d90fe0"}
+ Response :- 
+{"status":"success","data":{"2979":{"id":16502,"user_id":0,"guest_user_id":"2b02fff342d90fe0","merchant_inventry_id":2979,"item_name":"Mineral Water Bottle - Carton(Mineral Water Bottle - Carton)","number_of_item":1,"created_date":"2021-07-24 01:22:33"},"2981":{"id":16503,"user_id":0,"guest_user_id":"2b02fff342d90fe0","merchant_inventry_id":2981,"item_name":"Mineral Water Bottle - Carton(Mineral Water Bottle - Carton)","number_of_item":1,"created_date":"2021-07-24 01:22:49"}},"productDetails":{"status":"success","data":{"2979":{"id":2979,"price":"13.75","product_id":3366,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Mineral Water Bottle - Carton","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"ml x 15","quantity":500,"tax_value":"3"},"2981":{"id":2981,"price":"14.30","product_id":3368,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Mineral Water Bottle - Carton","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"3366":[{"id":4071,"type":"product","image_id":3366,"image_name":"VID080.jpg"}],"3368":[{"id":4073,"type":"product","image_id":3368,"image_name":"VID080.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-24 02:39:20
+{"method":"getitemintocart","guest_user_id":"2b02fff342d90fe0"}
+ Response :- 
+{"status":"success","data":{"2979":{"id":16502,"user_id":0,"guest_user_id":"2b02fff342d90fe0","merchant_inventry_id":2979,"item_name":"Mineral Water Bottle - Carton(Mineral Water Bottle - Carton)","number_of_item":1,"created_date":"2021-07-24 01:22:33"},"2981":{"id":16503,"user_id":0,"guest_user_id":"2b02fff342d90fe0","merchant_inventry_id":2981,"item_name":"Mineral Water Bottle - Carton(Mineral Water Bottle - Carton)","number_of_item":1,"created_date":"2021-07-24 01:22:49"}},"productDetails":{"status":"success","data":{"2979":{"id":2979,"price":"13.75","product_id":3366,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Mineral Water Bottle - Carton","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"ml x 15","quantity":500,"tax_value":"3"},"2981":{"id":2981,"price":"14.30","product_id":3368,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Mineral Water Bottle - Carton","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":75,"custom_info":"","brand_name":"Belaqua","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"3366":[{"id":4071,"type":"product","image_id":3366,"image_name":"VID080.jpg"}],"3368":[{"id":4073,"type":"product","image_id":3368,"image_name":"VID080.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-07-24 08:01:36
+{"method":"getitemintocart","guest_user_id":"1cf47211f87eb0cf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 09:17:59
+{"method":"getitemintocart","guest_user_id":"8db3bddae1f6f40c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 11:36:02
+{"method":"getitemintocart","guest_user_id":"41caecb1f1ee2524"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 12:54:12
+{"method":"getitemintocart","guest_user_id":"41caecb1f1ee2524"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 16:45:21
+{"method":"getitemintocart","guest_user_id":"78eeef612c12bfb4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 17:49:05
+{"method":"getitemintocart","guest_user_id":"ca181ff8893ff374"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 18:29:14
+{"method":"getitemintocart","guest_user_id":"e6c630d517b37a12"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-24 22:52:16
+{"method":"getitemintocart","user_id":"2575"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

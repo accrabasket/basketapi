@@ -1,0 +1,25 @@
+
+ Request - 2021-12-02 03:02:34
+{"method":"getitemintocart","guest_user_id":"c7b0e2f289ac9bb9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-02 05:38:45
+{"method":"getitemintocart","guest_user_id":"7cac3a589fb6e596"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-02 05:38:48
+{"method":"getitemintocart","guest_user_id":"7cac3a589fb6e596"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-02 08:03:01
+{"method":"getitemintocart","guest_user_id":"8f342e73e9cecfc4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-12-02 08:03:33
+{"method":"getitemintocart","guest_user_id":"8f342e73e9cecfc4"}
+ Response :- 
+{"status":"success","data":{"3159":{"id":18736,"user_id":0,"guest_user_id":"8f342e73e9cecfc4","merchant_inventry_id":3159,"item_name":"Stech - Flash Mifi Router - White(Flash Mifi Router - White)","number_of_item":1,"created_date":"2021-12-02 08:03:33"}},"productDetails":{"status":"success","data":{"3159":{"id":3159,"price":"275.00","product_id":3594,"merchant_id":10,"store_id":14,"merchant_product_code":null,"product_name":"Stech - Flash Mifi Router - White","product_desc":"The Universal Wireless Pocket Mifi Router (FLASH) provides fast Internet access to up to 10 devices at a time. The compact Universal Wireless Pocket Mifi Router has long battery life.\r\n\r\nThe Business travelers will find the Universal 4G Lte mifi an excellent companion thanks to its fast connection, nice set of features, and long-lasting battery. Its plug and play and does not require any complex setup. With any network sim card, you are just power one the device after fully charged for the first time and enter the default password sscz090619 and there you go. Connect to friends, family and business. Without external source of Power, the double capacity battery keeps you connected for 4 to 6 hours.\r\n\r\nSafe Internet, anti-rub network, anti-virus. Powerful chips that support ten people share WiFi. 150 MBPS speed Internet access, have the ability to experience fast network speeds. \r\nCompatible with all network sim cards MTN, Vodfone, Airteltigo, Glo,Surfline & Busy","default_discount_type":"","default_discount_value":"0","category_id":132,"custom_info":"{\"Package Includes\":\"1 x STECH FLASH MIFI\\r\\n1 x 2050 MAH Battery\\r\\n1 x Usb Cable\\r\\n1 x Guideline booklet\",\"Dimensions\":\"Size (L x W x H cm): 10x6.35x1.46\\r\\nWeight (kg): 0.107\"}","brand_name":"","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":1,"tax_value":"3"}},"productImageData":{"3594":[{"id":4355,"type":"product","image_id":3594,"image_name":"3594_1604500405.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-12-02 09:32:47
+{"method":"getitemintocart","guest_user_id":"93f6ab0bf189f6ee"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

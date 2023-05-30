@@ -1,0 +1,25 @@
+
+ Request - 2022-05-30 13:47:11
+{"method":"addtocart","guest_user_id":"5b1e1823f3b17fe3","number_of_item":"1","merchant_inventry_id":"2843","action":"add","item_name":"Extra Nuts(Extra Nuts)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-30 23:24:22
+{"method":"addtocart","guest_user_id":"27864aed5dfe4b6e","number_of_item":"1","merchant_inventry_id":"250","action":"add","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-30 23:24:24
+{"method":"addtocart","guest_user_id":"27864aed5dfe4b6e","number_of_item":"1","merchant_inventry_id":"249","action":"add","item_name":"Garam Masala Powder(Garam Masala Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-30 23:24:25
+{"method":"addtocart","guest_user_id":"27864aed5dfe4b6e","number_of_item":"1","merchant_inventry_id":"251","action":"add","item_name":"Garam Masala - Whole(Garam Masala - Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-30 23:24:27
+{"method":"addtocart","guest_user_id":"27864aed5dfe4b6e","number_of_item":"1","merchant_inventry_id":"252","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-30 23:24:29
+{"method":"addtocart","guest_user_id":"27864aed5dfe4b6e","number_of_item":"1","merchant_inventry_id":"257","action":"add","item_name":"Gram Flour(Gram Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

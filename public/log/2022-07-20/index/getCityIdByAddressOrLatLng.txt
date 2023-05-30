@@ -1,0 +1,29 @@
+
+ Request - 2022-07-20 08:09:52
+{"method":"getCityIdByAddressOrLatLng","address":"69X4+QPV, Magrahat II - Usthi Rd, Magrahat-II, West Bengal 743609, India","lat":"22.2483428","lng":"88.3560798"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"69X4+QPV, Magrahat II - Usthi Rd, Magrahat-II, West Bengal 743609, India"}}
+ Request - 2022-07-20 08:11:12
+{"method":"getCityIdByAddressOrLatLng","address":"69X4+QPV, Magrahat II - Usthi Rd, Magrahat-II, West Bengal 743609, India","lat":"22.2483428","lng":"88.3560798"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"69X4+QPV, Magrahat II - Usthi Rd, Magrahat-II, West Bengal 743609, India"}}
+ Request - 2022-07-20 10:50:06
+{"method":"getCityIdByAddressOrLatLng","address":"68HX+Q53, Chandamari, West Bengal 736157, India","lat":"26.2299138","lng":"89.3480383"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"68HX+Q53, Chandamari, West Bengal 736157, India"}}
+ Request - 2022-07-20 13:40:13
+{"method":"getCityIdByAddressOrLatLng","address":"VG6Q+7H9, Yaoundé, Cameroun","lat":"3.860784","lng":"11.5399026"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VG6Q+7H9, Yaound\u00e9, Cameroon"}}
+ Request - 2022-07-20 13:54:23
+{"method":"getCityIdByAddressOrLatLng","address":"V397+44R, N1, Inkisi, République démocratique du Congo","lat":"-5.1333211","lng":"15.0646917"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V387+MV Kisantu, Democratic Republic of the Congo"}}
+ Request - 2022-07-20 14:06:16
+{"method":"getCityIdByAddressOrLatLng","address":"A3, 441111, Nigeria","lat":"5.9544897","lng":"7.4325582"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XC3M+Q2 Amaoji, Nigeria"}}
+ Request - 2022-07-20 15:21:08
+{"method":"getCityIdByAddressOrLatLng","address":"79, Yogeshwar Nagar, Anjar, Gujarat 370205, India","lat":"23.1185683","lng":"70.0217574"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"79, Yogeshwar Nagar, Anjar, Gujarat 370205, India"}}

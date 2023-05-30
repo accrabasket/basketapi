@@ -1,0 +1,17 @@
+
+ Request - 2021-08-09 05:32:08
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Togo","lat":"9.9885738","lng":"0.79192"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Togo"}}
+ Request - 2021-08-09 12:42:05
+{"method":"getCityIdByAddressOrLatLng","address":"Basti, Uttar Pradesh, India","lat":"26.8139844","lng":"82.7629893"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Basti Khas, Basti, Uttar Pradesh 272002, India"}}
+ Request - 2021-08-09 21:58:49
+{"method":"getCityIdByAddressOrLatLng","address":"San-Pédro, Côte d'Ivoire","lat":"4.7574052","lng":"-6.8054601"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"San Pedro - Tabou Rd, C\u00f4te d'Ivoire"}}
+ Request - 2021-08-09 22:15:42
+{"method":"getCityIdByAddressOrLatLng","address":"Aéroport d'Ouarzazate, Ouarzazate 45000, Maroc","lat":"30.9350475","lng":"-6.9082245"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A\u00e9roport d'Ouarzazate, Ouarzazate 45000, Morocco"}}

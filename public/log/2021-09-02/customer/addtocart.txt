@@ -1,0 +1,17 @@
+
+ Request - 2021-09-02 10:59:38
+{"method":"addtocart","guest_user_id":"296156f1fe9a9108","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-02 10:59:52
+{"method":"addtocart","guest_user_id":"296156f1fe9a9108","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-02 11:00:02
+{"method":"addtocart","guest_user_id":"296156f1fe9a9108","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-02 11:00:04
+{"method":"addtocart","guest_user_id":"296156f1fe9a9108","number_of_item":"1","merchant_inventry_id":"462","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

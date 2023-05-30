@@ -1,0 +1,21 @@
+
+ Request - 2021-05-26 00:01:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Conakry, Guinée","lat":"9.6499686","lng":"-13.567011"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Conakry, Guinea"}}
+ Request - 2021-05-26 15:39:14
+{"method":"getCityIdByAddressOrLatLng","address":"Fatick, Sénégal","lat":"14.5240726","lng":"-16.3870378"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Senegal"}}
+ Request - 2021-05-26 15:46:49
+{"method":"getCityIdByAddressOrLatLng","address":"rue 12.15, Bobo-Dioulasso, Burkina Faso","lat":"11.1904055","lng":"-4.2887073"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"rue 12.15, Bobo-Dioulasso, Burkina Faso"}}
+ Request - 2021-05-26 17:37:48
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 25, Block M Wapda Town Phase 2 WAPDA Town, Lahore, Punjab, Pakistan","lat":"31.435526","lng":"74.2577311"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 25, Block M Wapda Town Phase 2 WAPDA Town, Lahore, Punjab, Pakistan"}}
+ Request - 2021-05-26 18:06:11
+{"method":"getCityIdByAddressOrLatLng","address":"Eku-Obiaruku Rd, Uruoka, Nigeria","lat":"5.8101509","lng":"6.1114534"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Eku-Obiaruku Rd, Uruoka, Nigeria"}}

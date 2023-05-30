@@ -1,0 +1,5 @@
+
+ Request - 2023-04-29 16:18:45
+{"method":"banner","status":"1"}
+ Response :- 
+{"status":"success","data":[{"id":68,"link":"https:\/\/afrobaskets.com\/index.php\/application\/index\/product?id=140","params":" ","image_name":"68.jpg","description":"fathers day","status":1},{"id":70,"link":"https:\/\/afrobaskets.com\/index.php\/application\/index\/product?promotion_id=36","params":" ","image_name":"70.jpg","description":"Household","status":1},{"id":71,"link":"https:\/\/afrobaskets.com\/index.php\/application\/index\/product?promotion_id=20","params":" ","image_name":"71.jpg","description":"Breakfast","status":1},{"id":72,"link":"https:\/\/afrobaskets.com\/index.php\/application\/index\/product?promotion_id=22","params":" ","image_name":"72.png","description":"Min 15% Off","status":1},{"id":73,"link":"https:\/\/afrobaskets.com\/index.php\/application\/index\/product?promotion_id=27","params":" ","image_name":"73.jpg","description":"Lele -1","status":1}],"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images\/banner"}

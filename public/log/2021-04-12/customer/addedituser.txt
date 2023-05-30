@@ -1,0 +1,17 @@
+
+ Request - 2021-04-12 06:07:29
+{"method":"addedituser","city_id":"1","password":"adams23","name":"priscilla","email":"adamspriscilla13@gmail.com","mobile_number":"0201332343","country_code":"+233","id":"0","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233201332343 and registered email id.","data":{"2377":{"id":2377,"name":"priscilla","mobile_number":"201332343","email":"adamspriscilla13@gmail.com","key":"bc8d0c76cb9061bbdb742318eb29911d","password":"8846d82a3ba3c112a2269991a51825f0","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-12 06:07:28","updated_date":"2021-04-12 06:07:28","status":"1"}}}
+ Request - 2021-04-12 11:02:58
+{"method":"addedituser","city_id":"1","password":"adams23","name":"priscilla","email":"adamspriscilla13@gmail.com","mobile_number":"0201332343","id":"2377","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-04-12 11:03:06
+{"method":"addedituser","city_id":"1","password":"adams23","name":"priscilla","email":"adamspriscilla13@gmail.com","mobile_number":"0201332343","id":"2377","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-04-12 11:03:12
+{"method":"addedituser","city_id":"1","password":"adams23","name":"priscilla","email":"adamspriscilla13@gmail.com","mobile_number":"0201332343","id":"2377","fcm_reg_id":"fIZxeAmkuy8:APA91bHgylDN1f4KZAb4F_-oNCkLUZIc6LDdTW4N2cJRxhyDn4UoEzqLqVRzyAByilW4o9uiu2Vje9ENBTLofD3SNzfoFdrdYmSvniPh4X1b8iP7VJhYFsNjNGQ4NlC0AYyVC4IhC-Ck"}
+ Response :- 
+{"status":"success","msg":"User updated"}

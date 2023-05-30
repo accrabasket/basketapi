@@ -1,0 +1,13 @@
+
+ Request - 2022-04-21 05:12:38
+{"method":"getCityIdByAddressOrLatLng","address":"CR2G+MP, Tân Lập, Đồng Phú, Bình Phước, Việt Nam","lat":"11.4018013","lng":"106.8267159"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CR2G+MP, T\u00e2n L\u1eadp, \u0110\u1ed3ng Ph\u00fa District, Binh Phuoc, Vietnam"}}
+ Request - 2022-04-21 13:05:27
+{"method":"getCityIdByAddressOrLatLng","address":"Schmidbauerstraße 10, 81737 München, Deutschland","lat":"48.1033014","lng":"11.627321"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Schmidbauerstra\u00dfe 10, 81737 M\u00fcnchen, Germany"}}
+ Request - 2022-04-21 14:22:24
+{"method":"getCityIdByAddressOrLatLng","address":"RWC8+5GC, 120101, Ijebu Ode, Nigeria","lat":"6.820636","lng":"3.9165233"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RWC8+5GC, 120101, Ijebu Ode, Nigeria"}}

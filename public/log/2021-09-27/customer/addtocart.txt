@@ -1,0 +1,17 @@
+
+ Request - 2021-09-27 09:05:35
+{"method":"addtocart","guest_user_id":"b090f5bf278ea60b","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-27 09:05:39
+{"method":"addtocart","guest_user_id":"b090f5bf278ea60b","number_of_item":"1","merchant_inventry_id":"2065","action":"add","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-27 09:06:13
+{"method":"addtocart","guest_user_id":"b090f5bf278ea60b","number_of_item":"1","merchant_inventry_id":"2065","action":"delete","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-27 09:06:15
+{"method":"addtocart","guest_user_id":"b090f5bf278ea60b","number_of_item":"1","merchant_inventry_id":"2065","action":"delete","item_name":"Anejo 3 Anos White Rum(Anejo 3 Anos White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,85 @@
+
+ Request - 2023-05-04 05:51:29
+{"method":"getCityIdByAddressOrLatLng","address":"Acruti SRA Bldg no.3 shastri nagar co.opp .soc.ltd. Bnadra-East, Government Colony, Bandra East, Mumbai, Maharashtra 400051, India","lat":"19.0596581","lng":"72.8502555"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:18:58
+{"method":"getCityIdByAddressOrLatLng","address":"9 شارع علي ثنيان الاذينة، الكويت‎","lat":"29.2795618","lng":"48.0873304"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:18:59
+{"method":"getCityIdByAddressOrLatLng","address":"9 شارع علي ثنيان الاذينة، الكويت‎","lat":"29.2795618","lng":"48.0873304"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:19:22
+{"method":"getCityIdByAddressOrLatLng","address":"4 شارع 7، الكويت‎","lat":"29.286297","lng":"48.0854696"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:19:33
+{"method":"getCityIdByAddressOrLatLng","address":"4 شارع 7، الكويت‎","lat":"29.286297","lng":"48.0854696"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:16
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:16
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:17
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:21
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:26
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:38
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:42
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:43
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:45
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:48
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:52
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:54:57
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:55:19
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:55:19
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:55:20
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-04 13:55:20
+{"method":"getCityIdByAddressOrLatLng","address":"مركز سلطان السالمية، السالمية،، 83RF+WV9، السالمية، الكويت‎","lat":"29.3423012","lng":"48.0746165"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-09-13 21:19:11
+{"method":"getCityIdByAddressOrLatLng","address":"Juan Pereira &, Pedernales, Ecuador","lat":"0.0711495","lng":"-80.0552966"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Juan Pereira &, Pedernales, Ecuador"}}
+ Request - 2021-09-13 22:24:40
+{"method":"getCityIdByAddressOrLatLng","address":"Qualman Consultants, Drigh Road Drigh Colony Shah Faisal Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8853044","lng":"67.1255846"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Qualman Consultants, Drigh Road Drigh Colony Shah Faisal Colony, Karachi, Karachi City, Sindh, Pakistan"}}

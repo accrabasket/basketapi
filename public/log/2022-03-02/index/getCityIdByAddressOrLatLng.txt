@@ -1,0 +1,13 @@
+
+ Request - 2022-03-02 01:25:42
+{"method":"getCityIdByAddressOrLatLng","address":"424V+75P, Jahangirpur, West Bengal 742159, India","lat":"24.1056475","lng":"88.0431859"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"424V+75P, Jahangirpur, West Bengal 742159, India"}}
+ Request - 2022-03-02 08:16:15
+{"method":"getCityIdByAddressOrLatLng","address":"Road 2, Lasokun Road, Gbakuba, Apata 200131, Ibadan, Nigeria","lat":"7.3850807","lng":"3.8348386"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Road 2, Lasokun Road, Gbakuba, Apata 200131, Ibadan, Nigeria"}}
+ Request - 2022-03-02 14:42:02
+{"method":"getCityIdByAddressOrLatLng","address":"Telangana Odisha bridge, Unnamed Road, Odisha 764087, India","lat":"17.8201957","lng":"81.4033424"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RCC3+38 Motu, Odisha, India"}}

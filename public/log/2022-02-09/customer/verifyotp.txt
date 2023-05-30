@@ -1,0 +1,5 @@
+
+ Request - 2022-02-09 20:59:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"8050934681","otp_type":"register","otp":"1982"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}

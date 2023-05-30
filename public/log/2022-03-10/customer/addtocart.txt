@@ -1,0 +1,9 @@
+
+ Request - 2022-03-10 08:53:59
+{"method":"addtocart","guest_user_id":"b667d5bdb291c1bd","number_of_item":"1","merchant_inventry_id":"3043","action":"add","item_name":"Caffeine Free Energy Drink(Caffeine Free Energy Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-10 08:54:01
+{"method":"addtocart","guest_user_id":"b667d5bdb291c1bd","number_of_item":"1","merchant_inventry_id":"3043","action":"delete","item_name":"Caffeine Free Energy Drink(Caffeine Free Energy Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

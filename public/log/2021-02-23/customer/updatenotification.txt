@@ -1,0 +1,9 @@
+
+ Request - 2021-02-23 09:53:47
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-02-23 14:45:35
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":4}
+ Response :- 
+{"status":"success","data":true}

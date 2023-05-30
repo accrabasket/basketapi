@@ -1,0 +1,17 @@
+
+ Request - 2022-06-15 09:56:17
+{"method":"login","email":"acheampongdianayaa@gmail.com","password":"0546118736","fcm_reg_id":"dbA_DNBKefQ:APA91bE6Ws6moNlJUi3U9z7btNYIg2i2nm-S8q3gfjZlGZ5Dm-WA89Eb87FMpJzzt-e6Jb_dD172lbjxjA1Lf92iXOzv7jSlNhcYF0bpJMmtZMWfG6oSNxRZZBjpcM3ZeO2ZJ_subkDc"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-06-15 09:56:21
+{"method":"login","email":"acheampongdianayaa@gmail.com","password":"0546118736","fcm_reg_id":"dbA_DNBKefQ:APA91bE6Ws6moNlJUi3U9z7btNYIg2i2nm-S8q3gfjZlGZ5Dm-WA89Eb87FMpJzzt-e6Jb_dD172lbjxjA1Lf92iXOzv7jSlNhcYF0bpJMmtZMWfG6oSNxRZZBjpcM3ZeO2ZJ_subkDc"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-06-15 13:05:09
+{"method":"login","email":"acheampongdianayaa@gmail.com","password":"0546118736","fcm_reg_id":"dbA_DNBKefQ:APA91bE6Ws6moNlJUi3U9z7btNYIg2i2nm-S8q3gfjZlGZ5Dm-WA89Eb87FMpJzzt-e6Jb_dD172lbjxjA1Lf92iXOzv7jSlNhcYF0bpJMmtZMWfG6oSNxRZZBjpcM3ZeO2ZJ_subkDc"}
+ Response :- 
+{"status":"success","data":{"8366":{"id":8366,"name":"Acheampong Diana","mobile_number":"","email":"acheampongdianayaa@gmail.com","key":"","password":"f8d6a52950efa2558938664fba81a597","fcm_reg_id":"","city_id":1,"address":"","verified_email":1,"verified_mobile":0,"created_date":"2022-05-25 20:49:50","updated_date":"2022-06-15 12:58:35","status":"1"}},"totalNumberOfUser":1,"wallet_key":"f8d6a52950efa2558938664fba81a597"}
+ Request - 2022-06-15 13:06:22
+{"method":"login","email":"acheampongdianayaa@gmail.com","password":"0546118736","fcm_reg_id":"dbA_DNBKefQ:APA91bE6Ws6moNlJUi3U9z7btNYIg2i2nm-S8q3gfjZlGZ5Dm-WA89Eb87FMpJzzt-e6Jb_dD172lbjxjA1Lf92iXOzv7jSlNhcYF0bpJMmtZMWfG6oSNxRZZBjpcM3ZeO2ZJ_subkDc"}
+ Response :- 
+{"status":"success","data":{"8366":{"id":8366,"name":"Acheampong Diana","mobile_number":"","email":"acheampongdianayaa@gmail.com","key":"","password":"f8d6a52950efa2558938664fba81a597","fcm_reg_id":"dbA_DNBKefQ:APA91bE6Ws6moNlJUi3U9z7btNYIg2i2nm-S8q3gfjZlGZ5Dm-WA89Eb87FMpJzzt-e6Jb_dD172lbjxjA1Lf92iXOzv7jSlNhcYF0bpJMmtZMWfG6oSNxRZZBjpcM3ZeO2ZJ_subkDc","city_id":1,"address":"","verified_email":1,"verified_mobile":0,"created_date":"2022-05-25 20:49:50","updated_date":"2022-06-15 12:58:35","status":"1"}},"totalNumberOfUser":1,"wallet_key":"f8d6a52950efa2558938664fba81a597"}

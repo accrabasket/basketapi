@@ -1,0 +1,5 @@
+
+ Request - 2021-01-27 09:05:18
+{"method":"login","email":"trulink2005@yahoo.com ","password":"sammylove","fcm_reg_id":"dsUIV8r6bp0:APA91bF2vUopwKGvl53ZvmSIBg9XIi5TsVHxAjS4hvTL-IiPLKsD2NCjR64kNyTPBnbUbwnz4MwWZkXLhBvXaoVcvG0PZZbnViKfnYj0J1L6dBtVxcmlxPK_rkBLjnjGSdFvbTKTvJ72"}
+ Response :- 
+{"status":"success","data":{"1808":{"id":1808,"name":"Sam Dadzie","mobile_number":"505885802","email":"trulink2005@yahoo.com","key":"aad7d6861f30ba660f768c52e7a97c73","password":"ba1c7d5a829729b2582609fc72d346c9","fcm_reg_id":"","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2021-01-27 03:34:26","updated_date":"2021-01-27 03:34:26","status":"1"}},"totalNumberOfUser":1,"wallet_key":"ba1c7d5a829729b2582609fc72d346c9"}

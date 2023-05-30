@@ -1,0 +1,29 @@
+
+ Request - 2021-12-20 06:57:04
+{"method":"getCityIdByAddressOrLatLng","address":"RFPC+P65, Yaoundé, Cameroun","lat":"3.8367628","lng":"11.4699418"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RFPC+P65, Yaound\u00e9, Cameroon"}}
+ Request - 2021-12-20 08:02:47
+{"method":"getCityIdByAddressOrLatLng","address":"8VM7+764, Mandhiala Chatta, Gujranwala, Punjab, Pakistan","lat":"32.3333233","lng":"73.8623075"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8VM7+764, Mandhiala Chatta, Gujranwala, Punjab, Pakistan"}}
+ Request - 2021-12-20 10:16:01
+{"method":"getCityIdByAddressOrLatLng","address":"Alick Nkhata Rd, Lusaka, Zambia","lat":"-15.4069471","lng":"28.3234939"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H8VF+69 Lusaka, Zambia"}}
+ Request - 2021-12-20 15:09:10
+{"method":"getCityIdByAddressOrLatLng","address":"Garage Elisé, N27, Bunia, République démocratique du Congo","lat":"1.5628339","lng":"30.2557801"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Garage Elis\u00e9, N27, Bunia, Democratic Republic of the Congo"}}
+ Request - 2021-12-20 15:25:11
+{"method":"getCityIdByAddressOrLatLng","address":"QJC7+73R, Dakar, Sénégal","lat":"14.7707565","lng":"-17.3873331"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJC7+73R, Dakar, Senegal"}}
+ Request - 2021-12-20 22:42:11
+{"method":"getCityIdByAddressOrLatLng","address":"24 Rue du Lac Togo, Lomé, Togo","lat":"6.1268965","lng":"1.2344922"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"24 Rue du Lac Togo, Lom\u00e9, Togo"}}
+ Request - 2021-12-20 23:26:14
+{"method":"getCityIdByAddressOrLatLng","address":"8123، الخالدية، الخرج 16271 3281، السعودية","lat":"24.1239029","lng":"47.2755299"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8123, Al Khalidiyah, Al-Kharj 16271\u00a03281, Saudi Arabia"}}

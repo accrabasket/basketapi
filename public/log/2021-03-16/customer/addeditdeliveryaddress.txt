@@ -1,0 +1,5 @@
+
+ Request - 2021-03-16 12:04:40
+{"method":"addeditdeliveryaddress","house_number":"3rd dade link","area":"","street_detail":"dade link","contact_name":"James","city_name":"13 Dade Link, Accra, Ghana","city_id":"1","lat":"5.575647","long":"-0.1732298","user_id":"2140","address_nickname":"sago","landmark":"Ezipay office","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":425}}

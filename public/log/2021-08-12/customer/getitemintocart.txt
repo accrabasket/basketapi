@@ -1,0 +1,41 @@
+
+ Request - 2021-08-12 10:16:55
+{"method":"getitemintocart","guest_user_id":"90b428b60219a6ac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-12 10:17:36
+{"method":"getitemintocart","guest_user_id":"9f097bb835eda157"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-12 10:37:22
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-08-12 11:30:54
+{"method":"getitemintocart","guest_user_id":"77d964405d5a1af9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-12 11:33:03
+{"method":"getitemintocart","guest_user_id":"77d964405d5a1af9"}
+ Response :- 
+{"status":"success","data":{"2251":{"id":16607,"user_id":0,"guest_user_id":"77d964405d5a1af9","merchant_inventry_id":2251,"item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)","number_of_item":1,"created_date":"2021-08-12 11:33:03"}},"productDetails":{"status":"success","data":{"2251":{"id":2251,"price":"6.49","product_id":2584,"merchant_id":4,"store_id":4,"merchant_product_code":"D677   ","product_name":"Faxe 10% Can Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"{\"Ingredients\":\"Water,Barley malt, Glucose Syrup, Maize,  Hops. \"}","brand_name":"Faxe","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"2584":[{"id":3144,"type":"product","image_id":2584,"image_name":"D677.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-12 11:33:12
+{"method":"getitemintocart","guest_user_id":"77d964405d5a1af9"}
+ Response :- 
+{"status":"success","data":{"2251":{"id":16607,"user_id":0,"guest_user_id":"77d964405d5a1af9","merchant_inventry_id":2251,"item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)","number_of_item":2,"created_date":"2021-08-12 11:33:03"}},"productDetails":{"status":"success","data":{"2251":{"id":2251,"price":"6.49","product_id":2584,"merchant_id":4,"store_id":4,"merchant_product_code":"D677   ","product_name":"Faxe 10% Can Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"{\"Ingredients\":\"Water,Barley malt, Glucose Syrup, Maize,  Hops. \"}","brand_name":"Faxe","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"2584":[{"id":3144,"type":"product","image_id":2584,"image_name":"D677.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-12 11:33:32
+{"method":"getitemintocart","guest_user_id":"77d964405d5a1af9"}
+ Response :- 
+{"status":"success","data":{"2251":{"id":16607,"user_id":0,"guest_user_id":"77d964405d5a1af9","merchant_inventry_id":2251,"item_name":"Faxe 10% Can Beer(Faxe 10% Can Beer)","number_of_item":2,"created_date":"2021-08-12 11:33:03"}},"productDetails":{"status":"success","data":{"2251":{"id":2251,"price":"6.49","product_id":2584,"merchant_id":4,"store_id":4,"merchant_product_code":"D677   ","product_name":"Faxe 10% Can Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"{\"Ingredients\":\"Water,Barley malt, Glucose Syrup, Maize,  Hops. \"}","brand_name":"Faxe","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"}},"productImageData":{"2584":[{"id":3144,"type":"product","image_id":2584,"image_name":"D677.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-08-12 13:49:12
+{"method":"getitemintocart","guest_user_id":"90b428b60219a6ac"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-12 14:34:58
+{"method":"getitemintocart","guest_user_id":"ade2b90f8dd30605"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-08-12 18:02:16
+{"method":"getitemintocart","guest_user_id":"3bbfb0f51a98cc28"}
+ Response :- 
+{"status":"success","data":{"3257":{"id":13839,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":3257,"item_name":"Kula Watermelon - Antioxidant Infusion(Kula Watermelon - Antioxidant Infusion)","number_of_item":1,"created_date":"2021-04-06 07:56:27"},"3300":{"id":13840,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":3300,"item_name":"Pure Natural Honey(Pure Natural Honey)","number_of_item":1,"created_date":"2021-04-06 08:01:46"}},"productDetails":{"status":"success","data":{"3257":{"id":3257,"price":"15.00","product_id":3708,"merchant_id":7,"store_id":10,"merchant_product_code":null,"product_name":"Kula Watermelon - Antioxidant Infusion","product_desc":"The rumors are true. Watermelon is here and it's making a splash. It's the sweet summer blockbuster your taste buds can't stop talking about. They're gushing, really. With just 1 gram of sugar and no artificial sweeteners, we don't blame them. Your tongue is like a red carpet, and the paparazzi are everywhere. Good thing this juicy flavor looks as good on camera as it tastes.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Ingredients\":\"Filtered Water, Erythritol, Watermelon Juice Concentrate, Citric Acid, Tea Extract, Ascorbic Acid (Vitamin C), Stevia Leaf Extract, Malic Acid, Vegetable Juice Concentrate (For Color), Natural Flavors, Coffeefruit Extract, Sodium Citrate.\"}","brand_name":"Bai","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":530,"tax_value":"3"},"3300":{"id":3300,"price":"45.00","product_id":3751,"merchant_id":7,"store_id":10,"merchant_product_code":null,"product_name":"Pure Natural Honey","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":53,"custom_info":"","brand_name":"FarmersHaus","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"3708":[{"id":4724,"type":"product","image_id":3708,"image_name":"Haus_084.png"}],"3751":[{"id":4771,"type":"product","image_id":3751,"image_name":"Haus_309.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

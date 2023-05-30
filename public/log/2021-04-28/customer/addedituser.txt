@@ -1,0 +1,25 @@
+
+ Request - 2021-04-28 01:49:00
+{"method":"addedituser","city_id":"1","password":"12345","name":"Hardik engineering works works","email":"hardikengineeringworksw@gmail.com","mobile_number":"+1918077967884","country_code":"+233","id":"0","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233+1918077967884 and registered email id.","data":{"2475":{"id":2475,"name":"Hardik engineering works works","mobile_number":"+1918077967884","email":"hardikengineeringworksw@gmail.com","key":"1f55a606918b1164d147036ec524aa63","password":"827ccb0eea8a706c4c34a16891f84e7b","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-28 01:49:00","updated_date":"2021-04-28 01:49:00","status":"1"}}}
+ Request - 2021-04-28 01:50:38
+{"method":"addedituser","city_id":"1","password":"12345","name":"Neetu Kumar","email":"hardikengineeringworksw@gmail.com","mobile_number":"+1918077967884","country_code":"+233","id":"0","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-28 01:50:47
+{"method":"addedituser","city_id":"1","password":"12345","name":"Neetu Kumar","email":"hardikengineeringworksw@gmail.com","mobile_number":"+1918077967884","country_code":"+233","id":"0","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-28 01:51:58
+{"method":"addedituser","city_id":"1","password":"12345","name":"Neetu Kumar","email":"hardikengineeringworksw@gmail.com","mobile_number":"+1918077967884","country_code":"+233","id":"0","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-28 01:52:01
+{"method":"addedituser","city_id":"1","password":"12345","name":"Neetu Kumar","email":"hardikengineeringworksw@gmail.com","mobile_number":"+1918077967884","country_code":"+233","id":"0","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-28 01:52:16
+{"method":"addedituser","city_id":"1","password":"12345","name":"Neetu Kumar","email":"hardikengineeringworksw@gmail.com","mobile_number":"8077967884","country_code":"+233","id":"0","fcm_reg_id":"ffkBMlXYuW0:APA91bGkgPk_zl8ml38PKTgkvosVGNc5fWcD2RORQWj6Edz7yIw0DUBYC-RPm00C-_Q1q5SGHUxqQykI64oEz_762q50SJWONxLrn5kbO8LiJwyqO2XKgckyh4yx9PdReA97hQttRRyC"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

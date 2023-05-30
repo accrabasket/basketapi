@@ -1,0 +1,13 @@
+
+ Request - 2023-02-05 07:57:22
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"229","action":"add","item_name":"Cinnamon Powder(Cinnamon Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-02-05 07:57:37
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"235","action":"add","item_name":"Coriander Seeds(Coriander Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-02-05 07:57:47
+{"method":"addtocart","guest_user_id":"25359a9012ab9b1e","number_of_item":"1","merchant_inventry_id":"239","action":"add","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,29 @@
+
+ Request - 2022-04-02 02:39:33
+{"method":"getCityIdByAddressOrLatLng","address":"J254+QP3, Chour Harpal, Rawalpindi, Punjab 46000, Pakistan","lat":"33.6090696","lng":"73.0065174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J254+QP3, Chour Harpal, Rawalpindi, Punjab 46000, Pakistan"}}
+ Request - 2022-04-02 09:49:31
+{"method":"getCityIdByAddressOrLatLng","address":"7636+C3F, Lomé, Togo","lat":"6.2543314","lng":"1.2105791"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7636+C3F, Lom\u00e9, Togo"}}
+ Request - 2022-04-02 11:47:18
+{"method":"getCityIdByAddressOrLatLng","address":"11Bis Kamanda Road, Kinshasa, République démocratique du Congo","lat":"-4.3786043","lng":"15.3625858"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"11Bis Kamanda Road, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-04-02 17:19:07
+{"method":"getCityIdByAddressOrLatLng","address":"X5PR+J8F, Nyamassila, Togo","lat":"7.9884127","lng":"1.1894585"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X5QQ+9Q Nyamassila, Togo"}}
+ Request - 2022-04-02 17:32:41
+{"method":"getCityIdByAddressOrLatLng","address":"Boulevard kamanyola, numéro 147 Référence Arrêt de bus Mivuka, Likasi, République démocratique du Congo","lat":"-10.9875319","lng":"26.7420943"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Boulevard kamanyola, num\u00e9ro 147 R\u00e9f\u00e9rence Arr\u00eat de bus Mivuka, Likasi, Democratic Republic of the Congo"}}
+ Request - 2022-04-02 17:32:43
+{"method":"getCityIdByAddressOrLatLng","address":"Boulevard kamanyola, numéro 147 Référence Arrêt de bus Mivuka, Likasi, République démocratique du Congo","lat":"-10.9875319","lng":"26.7420943"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Boulevard kamanyola, num\u00e9ro 147 R\u00e9f\u00e9rence Arr\u00eat de bus Mivuka, Likasi, Democratic Republic of the Congo"}}
+ Request - 2022-04-02 18:02:43
+{"method":"getCityIdByAddressOrLatLng","address":"طريق بدون اسم، الجزازرة، مركز المراغة، سوهاج، مصر","lat":"26.7190697","lng":"31.544196"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PG9V+JM El Maragha, Egypt"}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-03-31 06:32:52
+{"method":"getCityIdByAddressOrLatLng","address":"ແພມໂພລນາ, Navarre, ສະເປນ","lat":"42.812526","lng":"-1.6457745"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plaza de la Paz, 31002 Pamplona, Navarra, Spain"}}
+ Request - 2021-03-31 11:07:18
+{"method":"getCityIdByAddressOrLatLng","address":"9 Greenlands, Holloway Hill, Ottershaw, Lyne, Chertsey KT16 0RN, UK","lat":"51.3779863","lng":"-0.5282105"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9 Greenlands, Holloway Hill, Ottershaw, Lyne, Chertsey KT16 0RN, UK"}}
+ Request - 2021-03-31 15:18:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ben M'hidi, Algérie","lat":"36.7784642","lng":"7.9107752"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ben M'hidi, Algeria"}}
+ Request - 2021-03-31 19:37:16
+{"method":"getCityIdByAddressOrLatLng","address":"Tema, Ghana","lat":"5.661275199999999","lng":"-0.05002659999999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tema, Ghana"}}
+ Request - 2021-03-31 21:30:29
+{"method":"getCityIdByAddressOrLatLng","address":"Lomé, Togo","lat":"6.1982108","lng":"1.1469975"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Lom\u00e9, Togo"}}

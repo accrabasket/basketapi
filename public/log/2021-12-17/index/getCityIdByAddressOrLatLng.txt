@@ -1,0 +1,9 @@
+
+ Request - 2021-12-17 13:00:32
+{"method":"getCityIdByAddressOrLatLng","address":"1793, 2nd 60 Feet Rd, Main Sabji Mandi, Block C, Molar band Extension, Badarpur, New Delhi, Haryana 110044, India","lat":"28.4898637","lng":"77.3110863"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1793, 2nd 60 Feet Rd, Main Sabji Mandi, Block C, Molar band Extension, Badarpur, New Delhi, Haryana 110044, India"}}
+ Request - 2021-12-17 13:00:44
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bawku, Ghana","lat":"11.050234","lng":"-0.2512537"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bawku, Ghana"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-12-27 09:20:40
+{"method":"getCityIdByAddressOrLatLng","address":"kp tipar tengah, rt02\/rw14, Laksanamekar, Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553, Indonesia","lat":"-6.877973","lng":"107.51298"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"kp tipar tengah, rt02\/rw14, Laksanamekar, Padalarang, Kabupaten Bandung Barat, Jawa Barat 40553, Indonesia"}}
+ Request - 2021-12-27 15:24:59
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nekemte, Ethiopia","lat":"9.0934284","lng":"36.5534991"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3HV3+99 Nekemte, Ethiopia"}}

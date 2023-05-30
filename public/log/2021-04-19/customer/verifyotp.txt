@@ -1,0 +1,5 @@
+
+ Request - 2021-04-19 08:10:53
+{"method":"verifyotp","country_code":"+233","mobile_number":"505175495","otp_type":"register","otp":"2657"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"f45e8794113fcbb68b22fc78504c5c41"}}

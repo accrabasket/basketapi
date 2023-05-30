@@ -1,0 +1,101 @@
+
+ Request - 2021-04-06 07:56:27
+{"method":"addtocart","guest_user_id":"3bbfb0f51a98cc28","number_of_item":"1","merchant_inventry_id":"3257","action":"add","item_name":"Kula Watermelon - Antioxidant Infusion(Kula Watermelon - Antioxidant Infusion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 08:01:46
+{"method":"addtocart","guest_user_id":"3bbfb0f51a98cc28","number_of_item":"1","merchant_inventry_id":"3300","action":"add","item_name":"Pure Natural Honey(Pure Natural Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 12:58:10
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 12:58:14
+{"method":"addtocart","guest_user_id":"1152239cc81b55bd","number_of_item":"1","merchant_inventry_id":"2830","action":"delete","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 14:18:03
+{"method":"addtocart","guest_user_id":"97532b58cacee084","number_of_item":"1","merchant_inventry_id":"3134","action":"add","item_name":"GIZZARD(GIZZARD)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 14:18:06
+{"method":"addtocart","guest_user_id":"97532b58cacee084","number_of_item":"1","merchant_inventry_id":"3134","action":"add","item_name":"GIZZARD(GIZZARD)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 14:18:18
+{"method":"addtocart","guest_user_id":"97532b58cacee084","number_of_item":"1","merchant_inventry_id":"3134","action":"add","item_name":"GIZZARD(GIZZARD)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 14:18:20
+{"method":"addtocart","guest_user_id":"97532b58cacee084","number_of_item":"1","merchant_inventry_id":"3134","action":"add","item_name":"GIZZARD(GIZZARD)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 14:18:57
+{"method":"addtocart","guest_user_id":"97532b58cacee084","number_of_item":"1","merchant_inventry_id":"3141","action":"add","item_name":"COW MEAT (BONELA)(COW MEAT (BONELA))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 15:07:37
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 15:07:40
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2776","action":"add","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 15:08:10
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"3320","action":"delete","item_name":"Cheddar Cheese Chips(Cheddar Cheese Chips)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 15:08:12
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"3110","action":"delete","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 15:08:17
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"3110","action":"delete","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 15:08:17
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"3110","action":"delete","item_name":"FULL CHICKEN(FULL CHICKEN)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 17:39:54
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2776","action":"delete","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 17:39:54
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2776","action":"delete","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 18:04:19
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2198","action":"add","item_name":"Chocolate Cake - Ready to Eat(Chocolate Cake - Ready to Eat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 18:04:26
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2198","action":"add","item_name":"Chocolate Cake - Ready to Eat(Chocolate Cake - Ready to Eat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 18:04:28
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2198","action":"add","item_name":"Chocolate Cake - Ready to Eat(Chocolate Cake - Ready to Eat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 18:04:31
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2198","action":"add","item_name":"Chocolate Cake - Ready to Eat(Chocolate Cake - Ready to Eat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 18:04:38
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2776","action":"delete","item_name":"Banana(Banana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 18:54:38
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2696","action":"add","item_name":"Fruit & Cream Berries(Fruit & Cream Berries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 19:27:30
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2196","action":"add","item_name":"Original Cake - Ready to Eat(Original Cake - Ready to Eat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-06 19:27:35
+{"method":"addtocart","user_id":"2263","number_of_item":"1","merchant_inventry_id":"2196","action":"add","item_name":"Original Cake - Ready to Eat(Original Cake - Ready to Eat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,5 @@
+
+ Request - 2022-08-07 23:54:33
+{"method":"verifyotp","country_code":"+233","mobile_number":"248571756","otp_type":"register","otp":"5490"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"1a2c5419a84aedd3a7fb04755a8a9ff4"}}

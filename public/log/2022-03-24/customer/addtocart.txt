@@ -1,0 +1,9 @@
+
+ Request - 2022-03-24 11:27:42
+{"method":"addtocart","guest_user_id":"910f5c3a94c06987","number_of_item":"1","merchant_inventry_id":"733","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-24 19:15:00
+{"method":"addtocart","guest_user_id":"910f5c3a94c06987","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

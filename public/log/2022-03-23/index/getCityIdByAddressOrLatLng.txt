@@ -1,0 +1,37 @@
+
+ Request - 2022-03-23 06:24:21
+{"method":"getCityIdByAddressOrLatLng","address":"AH2, Jacobabad, Sindh, Pakistan","lat":"28.2309485","lng":"68.4783224"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6FJH+98 Village Sardar Adam Khan Panhwar, Pakistan"}}
+ Request - 2022-03-23 07:18:07
+{"method":"getCityIdByAddressOrLatLng","address":"Gossas, Sénégal","lat":"14.3298912","lng":"-15.9444946"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"83H4+X6 Laloye, Senegal"}}
+ Request - 2022-03-23 11:49:03
+{"method":"getCityIdByAddressOrLatLng","address":"XMCJ+W88, Esiama, Ghana","lat":"4.9733847","lng":"-2.3209223"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XMCJ+W88, Esiama, Ghana"}}
+ Request - 2022-03-23 11:49:03
+{"method":"getCityIdByAddressOrLatLng","address":"XMCJ+W88, Esiama, Ghana","lat":"4.9733847","lng":"-2.3209223"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XMCJ+W88, Esiama, Ghana"}}
+ Request - 2022-03-23 13:44:45
+{"method":"getCityIdByAddressOrLatLng","address":"3FM4+FRX, Putwar Payan, Peshawar, Khyber Pakhtunkhwa, Pakistan","lat":"34.0835825","lng":"71.4585022"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3FM4+FRX, Putwar Payan, Peshawar, Khyber Pakhtunkhwa, Pakistan"}}
+ Request - 2022-03-23 15:50:04
+{"method":"getCityIdByAddressOrLatLng","address":"Shop No. 2 & 3, Leaders Plaza, 3 Aladelola Street, Ikosi Ketu 105102, Lagos, Nigeria","lat":"6.6009359","lng":"3.3809902"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shop No. 2 & 3, Leaders Plaza, 3 Aladelola Street, Ikosi Ketu 105102, Lagos, Nigeria"}}
+ Request - 2022-03-23 21:25:31
+{"method":"getCityIdByAddressOrLatLng","address":"8208 شارع رقم 39, حي الندوة، الرياض 14813 3163، السعودية","lat":"24.8013251","lng":"46.8732127"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8208 \u0634\u0627\u0631\u0639 \u0631\u0642\u0645 39, Al Nadwa, Riyadh 14813\u00a03163, Saudi Arabia"}}
+ Request - 2022-03-23 22:17:51
+{"method":"getCityIdByAddressOrLatLng","address":"JM5G+GPP, Ablekuma New Town, Ghana","lat":"5.6087473","lng":"-0.3244031"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JM5G+GPP, Ablekuma New Town, Ghana"}}
+ Request - 2022-03-23 22:17:52
+{"method":"getCityIdByAddressOrLatLng","address":"JM5G+GPP, Ablekuma New Town, Ghana","lat":"5.6087473","lng":"-0.3244031"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JM5G+GPP, Ablekuma New Town, Ghana"}}

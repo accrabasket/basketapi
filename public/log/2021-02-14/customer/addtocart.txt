@@ -1,0 +1,9 @@
+
+ Request - 2021-02-14 11:04:12
+{"method":"addtocart","guest_user_id":"d8e6c0232de5e9e8","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-14 11:04:19
+{"method":"addtocart","guest_user_id":"d8e6c0232de5e9e8","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

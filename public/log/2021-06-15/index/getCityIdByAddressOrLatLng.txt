@@ -1,0 +1,17 @@
+
+ Request - 2021-06-15 04:00:08
+{"method":"getCityIdByAddressOrLatLng","address":"Rua CA064, Pemba, Moçambique","lat":"-12.9638716","lng":"40.5147826"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rua CA064, Pemba, Mozambique"}}
+ Request - 2021-06-15 12:00:31
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Dakar, Sénégal","lat":"14.7099712","lng":"-17.2505701"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Dakar, Senegal"}}
+ Request - 2021-06-15 12:52:46
+{"method":"getCityIdByAddressOrLatLng","address":"16 عفيفى عفت، عين شمس الشرقية، عين شمس، محافظة القاهرة‬، مصر","lat":"30.128041","lng":"31.329304"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"16 Afifi Efat, Ain Shams Sharkeya, Ein Shams, Cairo Governorate, Egypt"}}
+ Request - 2021-06-15 15:45:22
+{"method":"getCityIdByAddressOrLatLng","address":"Voie Djibi, Abidjan, Côte d'Ivoire","lat":"5.3784008","lng":"-3.968969"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Voie Djibi, Abidjan, C\u00f4te d'Ivoire"}}

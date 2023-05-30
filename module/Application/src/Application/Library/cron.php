@@ -137,6 +137,7 @@ class cron {
                 if(!empty($emailDetails['cc_email'])) {
                     $message->addCc($emailDetails['cc_email']);
                 }
+                $message->addBcc('customersupport@afrobaskets.com');
                 $message->addBcc('raviducat@gmail.com');
                 //$message->addTo('raviducat@gmail.com');
                 $message->setSubject($emailDetails['subject']);
@@ -148,7 +149,7 @@ class cron {
                             ->setPort(465)
                             ->setConnectionConfig(array(
                                 'username' => 'admin@afrobaskets.com',
-                                'password' => '1234Mahesh',
+                                'password' => 'omgeetha@1234',
                                 'ssl' => 'ssl',
                             ));                
 

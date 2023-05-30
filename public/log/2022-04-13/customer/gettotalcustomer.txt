@@ -1,0 +1,5 @@
+
+ Request - 2022-04-13 09:14:00
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":8100}}

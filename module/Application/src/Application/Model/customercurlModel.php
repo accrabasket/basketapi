@@ -32,6 +32,7 @@ class customercurlModel  {
             $query = $this->sql->select('merchant_inventry');
             $query = $query->join('product_master', 'product_master.id = merchant_inventry.product_id',array('product_name', 'product_desc', 'default_discount_type'=>'discount_type', 'default_discount_value'=>'discount_value', 'category_id','custom_info','brand_name'));
             $query = $query->join('product_attribute', 'product_attribute.id = merchant_inventry.attribute_id',array('commission_type', 'commission_value', 'discount_type','discount_value', 'unit', 'quantity'));
+            $query = $query->join('tax_master', 'product_master.tax_id = tax_master.id',array('tax_value'), 'LEFT');
             if(!empty($optional['merchant_inventry_id'])) {
                 $query->columns(array('id'=>'id','price' => 'price', 'product_id' => 'product_id', 'merchant_id', 'store_id','merchant_product_code'));
                 $query = $query->where(array('merchant_inventry.id' => $optional['merchant_inventry_id']));

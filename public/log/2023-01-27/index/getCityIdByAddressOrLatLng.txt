@@ -1,0 +1,37 @@
+
+ Request - 2023-01-27 03:34:14
+{"method":"getCityIdByAddressOrLatLng","address":"94WV+J95, गढ़ी, मध्य प्रदेश 464884, भारत","lat":"23.396968333333334","lng":"78.14337833333335"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 03:34:17
+{"method":"getCityIdByAddressOrLatLng","address":"94WV+J95, गढ़ी, मध्य प्रदेश 464884, भारत","lat":"23.396968333333334","lng":"78.14337833333335"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 03:34:30
+{"method":"getCityIdByAddressOrLatLng","address":"94WV+J95, गढ़ी, मध्य प्रदेश 464884, भारत","lat":"23.396968333333334","lng":"78.14337833333335"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 10:20:06
+{"method":"getCityIdByAddressOrLatLng","address":"18 Springvale Terrace, Middlesbrough TS5 4LU, UK","lat":"54.5590357","lng":"-1.2613215"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 10:20:15
+{"method":"getCityIdByAddressOrLatLng","address":"18 Springvale Terrace, Middlesbrough TS5 4LU, UK","lat":"54.5590357","lng":"-1.2613215"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 16:26:01
+{"method":"getCityIdByAddressOrLatLng","address":"Ront-point, Douala, Cameroun","lat":"4.0642561","lng":"9.7071836"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 16:26:03
+{"method":"getCityIdByAddressOrLatLng","address":"Ront-point, Douala, Cameroun","lat":"4.0642561","lng":"9.7071836"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 16:26:35
+{"method":"getCityIdByAddressOrLatLng","address":"Ront-point, Douala, Cameroun","lat":"4.0642561","lng":"9.7071836"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-27 16:28:52
+{"method":"getCityIdByAddressOrLatLng","address":"Ront-point, Douala, Cameroun","lat":"4.0642561","lng":"9.7071836"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

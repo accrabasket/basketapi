@@ -1,0 +1,37 @@
+
+ Request - 2022-09-18 04:02:52
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:16
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:18
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"753","action":"delete","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:33
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"3615","action":"add","item_name":"Furniture and Wood Cleaner(Furniture and Wood Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:49
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"753","action":"add","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:51
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"753","action":"delete","item_name":"Choco Milo (50 Cubes)(Choco Milo (50 Cubes))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:53
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"3615","action":"add","item_name":"Furniture and Wood Cleaner(Furniture and Wood Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:05:55
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"3615","action":"delete","item_name":"Furniture and Wood Cleaner(Furniture and Wood Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-18 04:06:07
+{"method":"addtocart","guest_user_id":"5a7d8f5f13e8c442","number_of_item":"1","merchant_inventry_id":"632","action":"add","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,97 @@
+
+ Request - 2023-03-04 03:28:51
+{"method":"getCityIdByAddressOrLatLng","address":"Dema Choleko, Ethiopia","lat":"6.8248008","lng":"38.9317408"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 03:28:55
+{"method":"getCityIdByAddressOrLatLng","address":"Dema Choleko, Ethiopia","lat":"6.8248008","lng":"38.9317408"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 03:29:01
+{"method":"getCityIdByAddressOrLatLng","address":"Dema Choleko, Ethiopia","lat":"6.8248008","lng":"38.9317408"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 03:29:08
+{"method":"getCityIdByAddressOrLatLng","address":"Dema Choleko, Ethiopia","lat":"6.8248008","lng":"38.9317408"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:42:49
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:42:51
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:42:52
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:42:54
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:42:59
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:43:07
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:43:14
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:43:17
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:43:18
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:43:46
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:40
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:41
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:41
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:43
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:45
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:53
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:44:57
+{"method":"getCityIdByAddressOrLatLng","address":"10 okiti lane isaleko islad, Lagos Island 102273, Lagos, Nigeria","lat":"6.4649286","lng":"3.3885015"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:57:58
+{"method":"getCityIdByAddressOrLatLng","address":"Tabou, Côte d'Ivoire","lat":"4.8550378","lng":"-7.4924098"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:58:03
+{"method":"getCityIdByAddressOrLatLng","address":"Tabou, Côte d'Ivoire","lat":"4.8550378","lng":"-7.4924098"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-04 15:58:04
+{"method":"getCityIdByAddressOrLatLng","address":"Tabou, Côte d'Ivoire","lat":"4.8550378","lng":"-7.4924098"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

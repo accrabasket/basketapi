@@ -1,0 +1,21 @@
+
+ Request - 2021-12-06 07:26:57
+{"method":"getCityIdByAddressOrLatLng","address":"W69Q+QX6, Rustampur Khurd Shumali, Uttar Pradesh 244225, India","lat":"28.9188644","lng":"78.2396046"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W69Q+QX6, Rustampur Khurd Shumali, Uttar Pradesh 244225, India"}}
+ Request - 2021-12-06 10:34:17
+{"method":"getCityIdByAddressOrLatLng","address":"M57P+8CR, Belkhuri, Uttar Pradesh 231216, India","lat":"24.663236","lng":"83.1858335"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M57P+8CR, Belkhuri, Uttar Pradesh 231216, India"}}
+ Request - 2021-12-06 12:43:29
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Accra, Ghana","lat":"5.599565","lng":"-0.0769855"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Accra, Ghana"}}
+ Request - 2021-12-06 19:55:28
+{"method":"getCityIdByAddressOrLatLng","address":"R90, Tamale, Ghana","lat":"9.4619378","lng":"-0.8301045"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R90, Tamale, Ghana"}}
+ Request - 2021-12-06 19:55:32
+{"method":"getCityIdByAddressOrLatLng","address":"R90, Tamale, Ghana","lat":"9.4619378","lng":"-0.8301045"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R90, Tamale, Ghana"}}

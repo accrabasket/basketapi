@@ -1,0 +1,17 @@
+
+ Request - 2022-05-29 03:45:35
+{"method":"getCityIdByAddressOrLatLng","address":"259G+RWH، محمد حسن، كفر طهرمس، بولاق الدكرور، الجيزة 3710752، مصر","lat":"30.0197136","lng":"31.1775774"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"259G+RWH, Mohammed Hasan, Kafr Tohormos, Bulaq, Giza Governorate 3710752, Egypt"}}
+ Request - 2022-05-29 07:00:23
+{"method":"getCityIdByAddressOrLatLng","address":"Damra-Dambu-Baghmara-Barenggapara Rd, Meghalaya 794103, India","lat":"25.2002155","lng":"90.3326325"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"682M+33 Silbaripara, Meghalaya, India"}}
+ Request - 2022-05-29 07:56:27
+{"method":"getCityIdByAddressOrLatLng","address":"Enyi Bros Avenue, Harbour Industrial L, Onitsha, Nigeria","lat":"6.1146179","lng":"6.7659614"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4Q78+R9 Oyiowa Odekpa, Nigeria"}}
+ Request - 2022-05-29 20:30:33
+{"method":"getCityIdByAddressOrLatLng","address":"MQJJ+C3X, Nairobi, Kenya","lat":"-1.3181234","lng":"36.7800989"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MQJJ+C3X, Nairobi, Kenya"}}

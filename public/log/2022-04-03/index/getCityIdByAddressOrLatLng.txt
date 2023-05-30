@@ -1,0 +1,9 @@
+
+ Request - 2022-04-03 05:53:26
+{"method":"getCityIdByAddressOrLatLng","address":"B7, Kenya","lat":"-1.7751961","lng":"38.1234536"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"64FF+W9 Ikanga, Kenya"}}
+ Request - 2022-04-03 22:51:21
+{"method":"getCityIdByAddressOrLatLng","address":"3rd Bedortse Cl, Gbawe, Ghana","lat":"5.5701996","lng":"-0.3064092"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3rd Bedortse Cl, Gbawe, Ghana"}}

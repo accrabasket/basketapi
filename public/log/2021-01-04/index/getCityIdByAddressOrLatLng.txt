@@ -1,0 +1,13 @@
+
+ Request - 2021-01-04 00:47:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"6.5632703","lng":"-1.8945083"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2021-01-04 01:04:28
+{"method":"getCityIdByAddressOrLatLng","address":"Juaso - Nsawam Rd, Ghana","lat":"5.8007508","lng":"-0.4680773"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Juaso - Nsawam Rd, Ghana"}}
+ Request - 2021-01-04 01:04:29
+{"method":"getCityIdByAddressOrLatLng","address":"Juaso - Nsawam Rd, Ghana","lat":"5.8007508","lng":"-0.4680773"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Juaso - Nsawam Rd, Ghana"}}

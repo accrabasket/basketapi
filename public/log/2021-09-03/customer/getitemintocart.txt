@@ -1,0 +1,89 @@
+
+ Request - 2021-09-03 11:31:04
+{"method":"getitemintocart","guest_user_id":"6f66fe316e9e58aa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 11:31:36
+{"method":"getitemintocart","guest_user_id":"6f66fe316e9e58aa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 11:31:40
+{"method":"getitemintocart","guest_user_id":"6f66fe316e9e58aa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 15:41:03
+{"method":"getitemintocart","guest_user_id":"5b6fb269484b62e3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 15:42:35
+{"method":"getitemintocart","guest_user_id":"5b6fb269484b62e3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 15:43:06
+{"method":"getitemintocart","guest_user_id":"5b6fb269484b62e3"}
+ Response :- 
+{"status":"success","data":{"487":{"id":17061,"user_id":0,"guest_user_id":"5b6fb269484b62e3","merchant_inventry_id":487,"item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)","number_of_item":1,"created_date":"2021-09-03 15:43:05"}},"productDetails":{"status":"success","data":{"487":{"id":487,"price":"3.29","product_id":771,"merchant_id":4,"store_id":4,"merchant_product_code":"X807   ","product_name":"Sprite Can - Soft Drink","product_desc":"SPRITE A 'CLEAR LIME' DRINK Since its launch is 1999, Sprite has not only established itself as a brand which successfully boasts it's 'cut-thru' perspective with an authentic, edgy, irreverent, urban and straight forward style, but has also achieved status of an undisputed youth 'badge' brand. Today Sprite is one of the top two sparkling soft drinks in the country.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Citric Acid, Sweeteners (Acesulfame K, Aspartame), Acidity Regulator (Sodium Citrate), Natural Lemon And Lime Flavourings\"}","brand_name":"Coca-Cola","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"771":[{"id":2779,"type":"product","image_id":771,"image_name":"X807.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 15:44:19
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 16:39:07
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 16:50:09
+{"method":"getitemintocart","guest_user_id":"1d6363931cd45851"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 16:51:37
+{"method":"getitemintocart","guest_user_id":"1d6363931cd45851"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 17:33:55
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 17:34:03
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 17:34:20
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"},"2837":{"id":17068,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":2837,"item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)","number_of_item":1,"created_date":"2021-09-03 17:34:20"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"2837":{"id":2837,"price":"33.00","product_id":3207,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk solids (25%), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476).\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3207":[{"id":3869,"type":"product","image_id":3207,"image_name":"VID120.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 17:34:21
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 17:34:22
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"},"2837":{"id":17069,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":2837,"item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)","number_of_item":1,"created_date":"2021-09-03 17:34:22"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"2837":{"id":2837,"price":"33.00","product_id":3207,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk solids (25%), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476).\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3207":[{"id":3869,"type":"product","image_id":3207,"image_name":"VID120.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 17:34:23
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"},"2837":{"id":17069,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":2837,"item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)","number_of_item":2,"created_date":"2021-09-03 17:34:22"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"2837":{"id":2837,"price":"33.00","product_id":3207,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk solids (25%), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476).\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3207":[{"id":3869,"type":"product","image_id":3207,"image_name":"VID120.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 17:34:24
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"},"2837":{"id":17069,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":2837,"item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)","number_of_item":3,"created_date":"2021-09-03 17:34:22"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"2837":{"id":2837,"price":"33.00","product_id":3207,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk solids (25%), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476).\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3207":[{"id":3869,"type":"product","image_id":3207,"image_name":"VID120.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-09-03 20:42:28
+{"method":"getitemintocart","guest_user_id":"54e03b409570859c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 20:42:49
+{"method":"getitemintocart","guest_user_id":"54e03b409570859c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 20:45:40
+{"method":"getitemintocart","guest_user_id":"54e03b409570859c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 20:46:22
+{"method":"getitemintocart","guest_user_id":"54e03b409570859c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-09-03 21:15:57
+{"method":"getitemintocart","guest_user_id":"54e03b409570859c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

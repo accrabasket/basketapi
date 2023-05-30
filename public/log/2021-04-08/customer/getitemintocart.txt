@@ -1,0 +1,29 @@
+
+ Request - 2021-04-08 13:51:24
+{"method":"getitemintocart","guest_user_id":"7a5acd84d09a4db9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-08 22:12:38
+{"method":"getitemintocart","guest_user_id":"3bbfb0f51a98cc28"}
+ Response :- 
+{"status":"success","data":{"3257":{"id":13839,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":3257,"item_name":"Kula Watermelon - Antioxidant Infusion(Kula Watermelon - Antioxidant Infusion)","number_of_item":1,"created_date":"2021-04-06 07:56:27"},"3300":{"id":13840,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":3300,"item_name":"Pure Natural Honey(Pure Natural Honey)","number_of_item":1,"created_date":"2021-04-06 08:01:46"}},"productDetails":{"status":"success","data":{"3257":{"id":3257,"price":"15.00","product_id":3708,"merchant_id":7,"store_id":10,"merchant_product_code":null,"product_name":"Kula Watermelon - Antioxidant Infusion","product_desc":"The rumors are true. Watermelon is here and it's making a splash. It's the sweet summer blockbuster your taste buds can't stop talking about. They're gushing, really. With just 1 gram of sugar and no artificial sweeteners, we don't blame them. Your tongue is like a red carpet, and the paparazzi are everywhere. Good thing this juicy flavor looks as good on camera as it tastes.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Ingredients\":\"Filtered Water, Erythritol, Watermelon Juice Concentrate, Citric Acid, Tea Extract, Ascorbic Acid (Vitamin C), Stevia Leaf Extract, Malic Acid, Vegetable Juice Concentrate (For Color), Natural Flavors, Coffeefruit Extract, Sodium Citrate.\"}","brand_name":"Bai","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":530,"tax_value":"3"},"3300":{"id":3300,"price":"45.00","product_id":3751,"merchant_id":7,"store_id":10,"merchant_product_code":null,"product_name":"Pure Natural Honey","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":53,"custom_info":"","brand_name":"FarmersHaus","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"3708":[{"id":4724,"type":"product","image_id":3708,"image_name":"Haus_084.png"}],"3751":[{"id":4771,"type":"product","image_id":3751,"image_name":"Haus_309.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-08 22:15:59
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-08 22:22:38
+{"method":"getitemintocart","guest_user_id":"98087bf3ee9baeb8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-08 22:24:53
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-08 22:26:02
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-08 23:09:36
+{"method":"getitemintocart","user_id":"1829"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,33 @@
+
+ Request - 2022-01-02 10:46:48
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 10:47:11
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 10:47:30
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 13:20:36
+{"method":"addtocart","guest_user_id":"85cde8a5a6a3e524","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 13:20:39
+{"method":"addtocart","guest_user_id":"85cde8a5a6a3e524","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 13:20:42
+{"method":"addtocart","guest_user_id":"85cde8a5a6a3e524","number_of_item":"1","merchant_inventry_id":"307","action":"delete","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 13:20:45
+{"method":"addtocart","guest_user_id":"85cde8a5a6a3e524","number_of_item":"1","merchant_inventry_id":"307","action":"delete","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-02 13:21:07
+{"method":"addtocart","guest_user_id":"85cde8a5a6a3e524","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,5 @@
+
+ Request - 2021-09-10 10:06:12
+{"method":"addedituser","city_id":"1","password":"nadir10","name":"M","email":"sidrakatlia@gmail.com","mobile_number":"265371226","country_code":"+233","id":"0","fcm_reg_id":"fMO4cbehdks:APA91bGoYEgxdBjWf1FZDca5FBkgHMZjJNWbPB0lM9y2MrWU_tQODYQEA0KG8E2jFudVLXyTDqNVVHAwbpzjfFEnReTSJE-0iHurMFVl31ZjKsb0j-EC84MUyPa0z2abrN3Q3k3bTl78"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233265371226 and registered email id.","data":{"4305":{"id":4305,"name":"M","mobile_number":"265371226","email":"sidrakatlia@gmail.com","key":"6ee3833389b7d6c9794324e137e85514","password":"d9b01360ee126f1cd723c13c0ca43c5b","fcm_reg_id":"fMO4cbehdks:APA91bGoYEgxdBjWf1FZDca5FBkgHMZjJNWbPB0lM9y2MrWU_tQODYQEA0KG8E2jFudVLXyTDqNVVHAwbpzjfFEnReTSJE-0iHurMFVl31ZjKsb0j-EC84MUyPa0z2abrN3Q3k3bTl78","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-09-10 10:06:11","updated_date":"2021-09-10 10:06:11","status":"1"}}}

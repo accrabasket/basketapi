@@ -1,0 +1,37 @@
+
+ Request - 2021-06-21 03:57:47
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kabala, Sierra Leone","lat":"9.5809035","lng":"-11.5462974"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kabala, Sierra Leone"}}
+ Request - 2021-06-21 03:58:43
+{"method":"getCityIdByAddressOrLatLng","address":"Sierra Leone","lat":"8.460555","lng":"-11.779889"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Bo, Sierra Leone"}}
+ Request - 2021-06-21 04:02:19
+{"method":"getCityIdByAddressOrLatLng","address":"Freetown, Sierra Leone","lat":"8.451431099999999","lng":"-13.172773"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Freetown, Sierra Leone"}}
+ Request - 2021-06-21 06:20:38
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Amanuke, Nigeria","lat":"6.3032022","lng":"7.0399304"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Amanuke, Nigeria"}}
+ Request - 2021-06-21 10:28:22
+{"method":"getCityIdByAddressOrLatLng","address":"3b Spintex Rd, Accra, Ghana","lat":"5.6267411","lng":"-0.1512625"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3b Spintex Rd, Accra, Ghana"}}
+ Request - 2021-06-21 10:28:23
+{"method":"getCityIdByAddressOrLatLng","address":"3b Spintex Rd, Accra, Ghana","lat":"5.6267411","lng":"-0.1512625"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3b Spintex Rd, Accra, Ghana"}}
+ Request - 2021-06-21 11:28:58
+{"method":"getCityIdByAddressOrLatLng","address":"Avenue Petro-Congo, Kinshasa, République démocratique du Congo","lat":"-4.3719674","lng":"15.3758774"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Avenue Petro-Congo, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2021-06-21 15:07:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Nayagaon, Madhya Pradesh 477333, India","lat":"26.432978","lng":"79.0145306"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Nayagaon, Madhya Pradesh 477333, India"}}
+ Request - 2021-06-21 23:18:35
+{"method":"getCityIdByAddressOrLatLng","address":"Max-Brauer-Allee 168, 22767 Hamburg, Germany","lat":"53.5583311","lng":"9.9489332"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Max-Brauer-Allee 168, 22767 Hamburg, Germany"}}

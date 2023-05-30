@@ -1,0 +1,13 @@
+
+ Request - 2021-04-24 11:11:43
+{"method":"getCityIdByAddressOrLatLng","address":"Mahatma Gandhi Rd, Yellappa Chetty Layout, Sivanchetti Gardens, Bengaluru, Karnataka, الهند","lat":"12.9731734","lng":"77.61660730000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8, Mahatma Gandhi Rd, Yellappa Chetty Layout, Whitefield, Bengaluru, Karnataka 560001, India"}}
+ Request - 2021-04-24 17:01:36
+{"method":"getCityIdByAddressOrLatLng","address":"#B 203, 22 4th Mukose link, Accra, Ghana","lat":"5.5900716","lng":"-0.2389785"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"#B 203, 22 4th Mukose link, Accra, Ghana"}}
+ Request - 2021-04-24 21:27:51
+{"method":"getCityIdByAddressOrLatLng","address":"Gujranwala - Hafizabad Rd, Ladhe Wala Warraich, Ladhe Wala Waraich, Gujranwala, Punjab, Pakistan","lat":"32.15732","lng":"74.1291348"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Gujranwala - Hafizabad Rd, Ladhe Wala Warraich, Ladhe Wala Waraich, Gujranwala, Punjab, Pakistan"}}

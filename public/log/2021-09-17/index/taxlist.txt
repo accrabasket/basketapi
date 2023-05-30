@@ -1,0 +1,21 @@
+
+ Request - 2021-09-17 07:27:12
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-09-17 07:27:14
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-09-17 07:29:13
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-09-17 07:29:15
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}
+ Request - 2021-09-17 07:29:17
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":3,"tax_name":"VAT","tax_value":"3"}}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-08-06 03:58:05
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-08-06 09:45:43
+{"method":"getCityIdByAddressOrLatLng","address":"Houston, Texas, États-Unis","lat":"29.7604267","lng":"-95.3698028"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1200 W Walker Tunnel, Houston, TX 77002, USA"}}
+ Request - 2021-08-06 16:31:28
+{"method":"getCityIdByAddressOrLatLng","address":"Madhiya, Bandarjhula, Bihar 843330, India","lat":"26.7705577","lng":"85.5985492"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Madhiya, Bandarjhula, Bihar 843330, India"}}
+ Request - 2021-08-06 17:53:30
+{"method":"getCityIdByAddressOrLatLng","address":"Miya wali bagh, Mehdi Hasan Road, Abdul Bari Rd, Rasulpur, Uttar Pradesh 272189, India","lat":"27.1937412","lng":"82.7116142"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Miya wali bagh, Mehdi Hasan Road, Abdul Bari Rd, Rasulpur, Uttar Pradesh 272189, India"}}
+ Request - 2021-08-06 20:58:04
+{"method":"getCityIdByAddressOrLatLng","address":"Muhammad Ali Bedeir St. 103, Amman, Jordan","lat":"31.9513085","lng":"35.8909391"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Muhammad Ali Bedeir St. 103, Amman, Jordan"}}

@@ -1,0 +1,33 @@
+
+ Request - 2021-09-10 10:07:53
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 10:08:30
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 12:31:27
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 12:33:51
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 13:52:11
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 13:55:25
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 13:56:36
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-09-10 14:00:11
+{"method":"getaddresslist","user_id":"4305"}
+ Response :- 
+{"status":"success","data":{"516":{"id":516,"user_id":4305,"address_nickname":"new town","contact_name":"M","city_id":1,"city_name":"Fifth Link, Accra, Ghana","house_number":"+233265371226","street_detail":"sabun kudi estates roko down opposite presby church, 2nd floor","landmark":"new town","zipcode":"1234","area":"","lat":"5.5886147","lng":"","created_date":"2021-09-10 14:00:10","updated_date":"2021-09-10 14:00:10"}}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-05-11 08:31:33
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2423}}
+ Request - 2021-05-11 10:28:24
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2423}}
+ Request - 2021-05-11 14:33:02
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2424}}
+ Request - 2021-05-11 14:39:55
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2424}}
+ Request - 2021-05-11 17:53:09
+{"method":"gettotalcustomer"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfCustomer":2425}}

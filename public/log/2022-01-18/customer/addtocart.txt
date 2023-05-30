@@ -1,0 +1,9 @@
+
+ Request - 2022-01-18 01:19:18
+{"method":"addtocart","guest_user_id":"8ef2ec6fc63dddd8","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-18 01:20:01
+{"method":"addtocart","guest_user_id":"8ef2ec6fc63dddd8","number_of_item":"1","merchant_inventry_id":"236","action":"add","item_name":"Corn Flour(Corn Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

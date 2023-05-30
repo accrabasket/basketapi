@@ -1,0 +1,13 @@
+
+ Request - 2022-05-16 02:05:03
+{"method":"getCityIdByAddressOrLatLng","address":"GJ SH 8, Danteli, Gujarat 388430, India","lat":"22.4404959","lng":"72.7379781"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CPRQ+55 Danteli, Gujarat, India"}}
+ Request - 2022-05-16 05:40:04
+{"method":"getCityIdByAddressOrLatLng","address":"5P2G+QGM, rue 17.41, Sarfalao, Bobo-Dioulasso, Burkina Faso","lat":"11.1521353","lng":"-4.2732405"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5P2G+QGM, rue 17.41, Sarfalao, Bobo-Dioulasso, Burkina Faso"}}
+ Request - 2022-05-16 05:40:04
+{"method":"getCityIdByAddressOrLatLng","address":"5P2G+QGM, rue 17.41, Sarfalao, Bobo-Dioulasso, Burkina Faso","lat":"11.1521353","lng":"-4.2732405"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5P2G+QGM, rue 17.41, Sarfalao, Bobo-Dioulasso, Burkina Faso"}}

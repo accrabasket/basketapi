@@ -1,0 +1,5 @@
+
+ Request - 2022-12-02 00:03:09
+{"method":"getCityIdByAddressOrLatLng","address":"196 Aguilar, Silang, Cavite, Philippines","lat":"14.2355135","lng":"120.9446529"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"196 Aguilar, Silang, Cavite, Philippines"}}

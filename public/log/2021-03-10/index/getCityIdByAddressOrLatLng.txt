@@ -1,0 +1,13 @@
+
+ Request - 2021-03-10 08:36:00
+{"method":"getCityIdByAddressOrLatLng","address":"Tuba-Kokrobite Road, Kasoa, Ghana","lat":"5.5328219","lng":"-0.3862471"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tuba-Kokrobite Road, Kasoa, Ghana"}}
+ Request - 2021-03-10 17:36:22
+{"method":"getCityIdByAddressOrLatLng","address":"Cassava St, Ghana","lat":"5.6888103","lng":"-0.1460586"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Cassava St, Ghana"}}
+ Request - 2021-03-10 17:46:38
+{"method":"getCityIdByAddressOrLatLng","address":"3705 الاسنة، العريجاء الوسطى، الرياض 12972 7535، السعودية","lat":"24.6025539","lng":"46.63186"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3705 \u0627\u0644\u0627\u0633\u0646\u0629\u060c Al Uraija Al Wusta, Riyadh 12972\u00a07535, Saudi Arabia"}}

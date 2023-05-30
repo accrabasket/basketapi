@@ -1,0 +1,33 @@
+
+ Request - 2022-10-08 06:05:56
+{"method":"getitemintocart","guest_user_id":"39278fec71bb978b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-08 08:47:01
+{"method":"getitemintocart","guest_user_id":"6e5910a40b64704d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-08 08:47:29
+{"method":"getitemintocart","guest_user_id":"6e5910a40b64704d"}
+ Response :- 
+{"status":"success","data":{"233":{"id":22708,"user_id":0,"guest_user_id":"6e5910a40b64704d","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-10-08 08:47:28"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-08 09:52:04
+{"method":"getitemintocart","guest_user_id":"09c4b89ef96e5e38"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-08 10:15:30
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"success","data":{"589":{"id":22633,"user_id":0,"guest_user_id":"855a22280e35a0fe","merchant_inventry_id":589,"item_name":"Guava - Fruit Juice(Guava - Fruit Juice)","number_of_item":1,"created_date":"2022-09-26 09:23:11"}},"productDetails":{"status":"success","data":{"589":{"id":589,"price":"12.99","product_id":873,"merchant_id":4,"store_id":4,"merchant_product_code":"X954   ","product_name":"Guava - Fruit Juice","product_desc":"Retreat from today\u2019s busy lifestyle with pure and refreshing indulgence from Mother Nature. Ceres has enriched 8 flavours in the 100% fruit juice range with fruit cells, letting you savour the moment and experience more of nature\u2019s goodness. Presented in sleek new packaging, the range is an oasis of flavour and texture, providing simplicity and clarity with every sip.","default_discount_type":"","default_discount_value":"0","category_id":78,"custom_info":"{\"Shelf Life\":\"12-month shelf life\"}","brand_name":"Ceres","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"873":[{"id":800,"type":"product","image_id":873,"image_name":"873_1545115275.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-08 10:22:16
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-10-08 12:57:16
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-08 23:31:18
+{"method":"getitemintocart","guest_user_id":"71ec1cacf551b91c"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

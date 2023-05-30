@@ -1,0 +1,13 @@
+
+ Request - 2022-07-13 20:57:17
+{"method":"addtocart","guest_user_id":"e75e43e8144c34e0","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-13 20:57:18
+{"method":"addtocart","guest_user_id":"e75e43e8144c34e0","number_of_item":"1","merchant_inventry_id":"831","action":"add","item_name":"Chocolim(Chocolim)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-13 20:57:19
+{"method":"addtocart","guest_user_id":"e75e43e8144c34e0","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

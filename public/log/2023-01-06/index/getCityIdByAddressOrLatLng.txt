@@ -1,0 +1,5 @@
+
+ Request - 2023-01-06 16:05:43
+{"method":"getCityIdByAddressOrLatLng","address":"9FV2+W8V, Libreville, Gabon","lat":"0.3954761","lng":"9.4500945"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9FV2+W8V, Libreville, Gabon"}}

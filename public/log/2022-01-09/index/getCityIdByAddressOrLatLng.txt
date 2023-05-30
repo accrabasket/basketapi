@@ -1,0 +1,9 @@
+
+ Request - 2022-01-09 14:40:20
+{"method":"getCityIdByAddressOrLatLng","address":"12 Kakramadu Rd, Accra, Ghana","lat":"5.5831611","lng":"-0.1644209"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"12 Kakramadu Rd, Accra, Ghana"}}
+ Request - 2022-01-09 23:53:45
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 672102, Bali, Nigeria","lat":"7.8536525","lng":"10.9734157"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VX3F+F9 Bali, Nigeria"}}

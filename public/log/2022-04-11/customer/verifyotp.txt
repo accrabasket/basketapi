@@ -1,0 +1,5 @@
+
+ Request - 2022-04-11 20:08:30
+{"method":"verifyotp","country_code":"+233","mobile_number":"542259090","otp_type":"register","otp":"6718"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"a359f9d0a840f93de29971202010297c"}}

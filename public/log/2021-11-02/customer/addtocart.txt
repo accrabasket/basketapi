@@ -1,0 +1,13 @@
+
+ Request - 2021-11-02 09:21:39
+{"method":"addtocart","guest_user_id":"d379302ffdabe50d","number_of_item":"1","merchant_inventry_id":"3874","action":"add","item_name":"Kente Multipurpose Soap(Kente Multipurpose Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-02 09:21:47
+{"method":"addtocart","guest_user_id":"d379302ffdabe50d","number_of_item":"1","merchant_inventry_id":"3874","action":"delete","item_name":"Kente Multipurpose Soap(Kente Multipurpose Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-11-02 09:22:53
+{"method":"addtocart","guest_user_id":"d379302ffdabe50d","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

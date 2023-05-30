@@ -1,0 +1,21 @@
+
+ Request - 2021-01-12 16:40:48
+{"method":"addedituser","city_id":"1","password":"123Emma","name":"Emmanuel Ayim ","email":"emmanuelayim11@gmail.com","mobile_number":"0507223004","country_code":"+233","id":"0","fcm_reg_id":"eA6TMWvTmWE:APA91bEPfxCtg4O0xEBftotrqWEugJa-zKGoPD2ZUAdeXLcLUpZkQMQZQUr8234iH1I0BxelwUYQVy9P9lp4ubkjV-mkg5NCXprnpPwHTf0zAKrdOy7CEEc9v2jBxsAGhqEnR8bEJ4ke"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-12 16:40:52
+{"method":"addedituser","city_id":"1","password":"123Emma","name":"Emmanuel Ayim ","email":"emmanuelayim11@gmail.com","mobile_number":"0507223004","country_code":"+233","id":"0","fcm_reg_id":"eA6TMWvTmWE:APA91bEPfxCtg4O0xEBftotrqWEugJa-zKGoPD2ZUAdeXLcLUpZkQMQZQUr8234iH1I0BxelwUYQVy9P9lp4ubkjV-mkg5NCXprnpPwHTf0zAKrdOy7CEEc9v2jBxsAGhqEnR8bEJ4ke"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-12 16:40:59
+{"method":"addedituser","city_id":"1","password":"123Emma","name":"Emmanuel Ayim ","email":"emmanuelayim11@gmail.com","mobile_number":"507223004","country_code":"+233","id":"0","fcm_reg_id":"eA6TMWvTmWE:APA91bEPfxCtg4O0xEBftotrqWEugJa-zKGoPD2ZUAdeXLcLUpZkQMQZQUr8234iH1I0BxelwUYQVy9P9lp4ubkjV-mkg5NCXprnpPwHTf0zAKrdOy7CEEc9v2jBxsAGhqEnR8bEJ4ke"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-01-12 16:41:09
+{"method":"addedituser","city_id":"1","password":"123Emma","name":"Emmanuel Ayim ","email":"emmanuelayim761@gmail.com","mobile_number":"507223004","country_code":"+233","id":"0","fcm_reg_id":"eA6TMWvTmWE:APA91bEPfxCtg4O0xEBftotrqWEugJa-zKGoPD2ZUAdeXLcLUpZkQMQZQUr8234iH1I0BxelwUYQVy9P9lp4ubkjV-mkg5NCXprnpPwHTf0zAKrdOy7CEEc9v2jBxsAGhqEnR8bEJ4ke"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233507223004 and registered email id.","data":{"1691":{"id":1691,"name":"Emmanuel Ayim ","mobile_number":"507223004","email":"emmanuelayim761@gmail.com","key":"8e86bc2cc4dc106cdea6e9f098b21bc8","password":"482ba0bedd41eabd37650249c494f20f","fcm_reg_id":"eA6TMWvTmWE:APA91bEPfxCtg4O0xEBftotrqWEugJa-zKGoPD2ZUAdeXLcLUpZkQMQZQUr8234iH1I0BxelwUYQVy9P9lp4ubkjV-mkg5NCXprnpPwHTf0zAKrdOy7CEEc9v2jBxsAGhqEnR8bEJ4ke","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-12 16:41:09","updated_date":"2021-01-12 16:41:09","status":"1"}}}
+ Request - 2021-01-12 19:25:40
+{"method":"addedituser","city_id":"1","password":"bernard56","name":"Assena Eliezer KOUADIO","email":"assenaeliezerkouadio@gmail.com","mobile_number":"559139989","country_code":"+233","id":"0","fcm_reg_id":"cgyLbv_VdeA:APA91bF687qWnldiqpoS_YYviI13AUVgyMQOrxbB43PZRtK4KS7XFOAU7R6HY7sb0jEu7gOcuBRn5KKBIU9e9ChyhzTWoRe64MiJsfuPQfTgFwAoTuS-6RmMlJ5f7uX-3iZ2s3jI8HSX"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233559139989 and registered email id.","data":{"1693":{"id":1693,"name":"Assena Eliezer KOUADIO","mobile_number":"559139989","email":"assenaeliezerkouadio@gmail.com","key":"087fe3ba89800c3b8ccaa1b50949c73e","password":"9bcaff3b1f88d27a2913cb4ed8dbf579","fcm_reg_id":"cgyLbv_VdeA:APA91bF687qWnldiqpoS_YYviI13AUVgyMQOrxbB43PZRtK4KS7XFOAU7R6HY7sb0jEu7gOcuBRn5KKBIU9e9ChyhzTWoRe64MiJsfuPQfTgFwAoTuS-6RmMlJ5f7uX-3iZ2s3jI8HSX","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-12 19:25:40","updated_date":"2021-01-12 19:25:40","status":"1"}}}

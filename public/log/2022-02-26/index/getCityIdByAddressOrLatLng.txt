@@ -1,0 +1,25 @@
+
+ Request - 2022-02-26 06:49:03
+{"method":"getCityIdByAddressOrLatLng","address":"25GQ+MXM, Bondoukou, Côte d'Ivoire","lat":"8.0252178","lng":"-2.8105107"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"25GQ+3Q Bondoukou, C\u00f4te d'Ivoire"}}
+ Request - 2022-02-26 08:00:43
+{"method":"getCityIdByAddressOrLatLng","address":"MF8P+3Q3, Daru, Kec. Jambe, Kabupaten Tangerang, Banten, Indonesia","lat":"-6.3355632","lng":"106.4874172"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MF8P+3Q3, Daru, Jambe, Tangerang Regency, Banten, Indonesia"}}
+ Request - 2022-02-26 14:48:15
+{"method":"getCityIdByAddressOrLatLng","address":"Faith Primary School Rd, 340110, Akure, Nigeria","lat":"7.2685613","lng":"5.1609645"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Faith Primary School Rd, 340110, Akure, Nigeria"}}
+ Request - 2022-02-26 14:48:21
+{"method":"getCityIdByAddressOrLatLng","address":"Faith Primary School Rd, 340110, Akure, Nigeria","lat":"7.2685613","lng":"5.1609645"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Faith Primary School Rd, 340110, Akure, Nigeria"}}
+ Request - 2022-02-26 15:00:43
+{"method":"getCityIdByAddressOrLatLng","address":"72 Aule Rd, 340110, Akure, Nigeria","lat":"7.2726341","lng":"5.15738"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"72 Aule Rd, 340110, Akure, Nigeria"}}
+ Request - 2022-02-26 23:51:01
+{"method":"getCityIdByAddressOrLatLng","address":"Indian Institute of Management (IIM) Ranchi, Audrey House, Meurs Road, Ranchi University, Morabadi, Ranchi, Jharkhand 834001, India","lat":"23.3830174","lng":"85.3161188"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Indian Institute of Management (IIM) Ranchi, Audrey House, Meurs Road, Ranchi University, Morabadi, Ranchi, Jharkhand 834001, India"}}

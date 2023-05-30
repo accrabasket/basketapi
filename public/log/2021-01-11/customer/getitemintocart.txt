@@ -1,0 +1,33 @@
+
+ Request - 2021-01-11 08:05:11
+{"method":"getitemintocart","guest_user_id":"7efde710e1035cc4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-11 08:40:58
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-11 10:11:53
+{"method":"getitemintocart","guest_user_id":"0b4ccf9880de9a62"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-11 12:05:28
+{"method":"getitemintocart","guest_user_id":"866d2f2f18b8b068"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-11 15:14:31
+{"method":"getitemintocart","guest_user_id":"9993646bb3f4c2b4"}
+ Response :- 
+{"status":"success","data":{"1066":{"id":10878,"user_id":0,"guest_user_id":"9993646bb3f4c2b4","merchant_inventry_id":1066,"item_name":"Hand Sanitizer(Hand Sanitizer)","number_of_item":1,"created_date":"2020-12-23 09:12:15"}},"productDetails":{"status":"success","data":{"1066":{"id":1066,"price":"15.99","product_id":1349,"merchant_id":4,"store_id":4,"merchant_product_code":"57163","product_name":"Hand Sanitizer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":0.35}},"productImageData":{"1349":[{"id":1638,"type":"product","image_id":1349,"image_name":"57162.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-01-11 15:49:46
+{"method":"getitemintocart","guest_user_id":"866d2f2f18b8b068"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-11 18:09:48
+{"method":"getitemintocart","guest_user_id":"8fd44e0e2b38fd4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-01-11 20:12:40
+{"method":"getitemintocart","guest_user_id":"8acd3b027bf724cd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

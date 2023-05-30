@@ -1,0 +1,53 @@
+
+ Request - 2022-10-12 00:32:40
+{"method":"getitemintocart","guest_user_id":"facecc71a76b4917"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 02:13:05
+{"method":"getitemintocart","guest_user_id":"214b8cd43d8e604d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 02:13:06
+{"method":"getitemintocart","guest_user_id":"214b8cd43d8e604d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 04:06:58
+{"method":"getitemintocart","guest_user_id":"4dea8cba3947bda4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 04:10:56
+{"method":"getitemintocart","guest_user_id":"27dd0cee7cf0d0d1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 04:22:35
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-12 05:31:18
+{"method":"getitemintocart","guest_user_id":"2c94fc40bf1612d6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 13:17:34
+{"method":"getitemintocart","guest_user_id":"a9fc9407d4f578b8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 15:48:25
+{"method":"getitemintocart","guest_user_id":"f15f7c0649159c61"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 15:48:59
+{"method":"getitemintocart","guest_user_id":"344f733667ba23c7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 17:26:00
+{"method":"getitemintocart","guest_user_id":"f815576c7c249595"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-12 22:43:57
+{"method":"getitemintocart","guest_user_id":"6892da2ec1c748fc"}
+ Response :- 
+{"status":"success","data":{"214":{"id":22500,"user_id":0,"guest_user_id":"6892da2ec1c748fc","merchant_inventry_id":214,"item_name":"Black Chana(Black Chana)","number_of_item":1,"created_date":"2022-09-11 17:27:58"}},"productDetails":{"status":"success","data":{"214":{"id":214,"price":"15.50","product_id":373,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Chana","product_desc":"Create a memorable Mediterranean dish right in you own kitchen with this Kala Chana. Also know as chickpeas, they are simple to prepare and can make a delightful addition to a variety of meals. They are high in fiber, carbohydrates and protein, making them an optimal addition to your menu. The calcium and iron they provide promotes positive bone health and supports healthy blood.","default_discount_type":"","default_discount_value":"0","category_id":46,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":"3"}},"productImageData":{"373":[{"id":290,"type":"product","image_id":373,"image_name":"6033000220158.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-12 23:33:50
+{"method":"getitemintocart","user_id":"8856"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

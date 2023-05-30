@@ -1,0 +1,9 @@
+
+ Request - 2021-11-11 10:24:19
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Côte d'Ivoire","lat":"6.2125115","lng":"-6.0227628"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6X7G+2V Digboyo, C\u00f4te d'Ivoire"}}
+ Request - 2021-11-11 22:29:31
+{"method":"getCityIdByAddressOrLatLng","address":"J7X3+M59, Banfora, Burkina Faso","lat":"10.6491255","lng":"-4.7469687"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J7X3+M59, Banfora, Burkina Faso"}}

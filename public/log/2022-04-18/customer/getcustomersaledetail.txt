@@ -1,0 +1,5 @@
+
+ Request - 2022-04-18 13:38:30
+{"start_date":"2022-04-18","end_date":"2022-04-18","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2022-04-18":{"count":1,"created_date":"2022-04-18"}},"allOrderByDate":{"2022-04-18":{"count":3,"created_date":"2022-04-18"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":3,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

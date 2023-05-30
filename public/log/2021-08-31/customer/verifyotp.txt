@@ -1,0 +1,5 @@
+
+ Request - 2021-08-31 15:17:43
+{"method":"verifyotp","country_code":"+233","mobile_number":"0552309205","otp_type":"register","otp":"2190"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"40f4d5762c0792912f6f586597fc36e2"}}

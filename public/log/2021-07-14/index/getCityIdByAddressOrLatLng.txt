@@ -1,0 +1,9 @@
+
+ Request - 2021-07-14 00:04:38
+{"method":"getCityIdByAddressOrLatLng","address":"ش. سعد بن الربيع، عمّان، الأردن","lat":"31.9680223","lng":"35.9541111"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Saed Ben Ar Rabih, Amman, Jordan"}}
+ Request - 2021-07-14 13:10:31
+{"method":"getCityIdByAddressOrLatLng","address":"Faridabad, Haryana, Inde","lat":"28.4089123","lng":"77.3177894"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1529a, ADB PWD Colony, Sector 29, Faridabad, Haryana 121008, India"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-02-17 16:25:25
+{"method":"getCityIdByAddressOrLatLng","address":"Than Tha Yar, မြန်မာ","lat":"20.5283497","lng":"93.145813"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Myanmar (Burma)"}}
+ Request - 2021-02-17 22:56:47
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Al Diwaniyah, العراق","lat":"31.9766721","lng":"44.9744935"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Al Diwaniyah, Iraq"}}
+ Request - 2021-02-17 23:49:38
+{"method":"getCityIdByAddressOrLatLng","address":"Mahata Yei, A43, Juba, South Sudan","lat":"4.8391186","lng":"31.5960388"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mahata Yei, A43, Juba, South Sudan"}}

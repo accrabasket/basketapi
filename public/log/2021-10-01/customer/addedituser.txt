@@ -1,0 +1,5 @@
+
+ Request - 2021-10-01 13:14:01
+{"method":"addedituser","city_id":"1","password":"Gla9919","name":"Gladys","email":"fianyogladys3@gmail.com","mobile_number":"557499919","country_code":"+233","id":"0","fcm_reg_id":"crGpjlD62Rk:APA91bEQGSUgVPBmyHBdeJZhXC3vNoB5QIrx97exYJZe6VZC4z2DQQQSxlIt6XHgN7TacYBH9nQqTBedqmHh57Sc_MSwlQXtQsMOsSmB38tyjIiCDi98k-wbWTxS9m418BERxyKqAAFc"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233557499919 and registered email id.","data":{"4757":{"id":4757,"name":"Gladys","mobile_number":"557499919","email":"fianyogladys3@gmail.com","key":"e41f76a1eda0f828ef46f0c84cae0c15","password":"0e2a69a6120a6163860cf87c8fa8e73f","fcm_reg_id":"crGpjlD62Rk:APA91bEQGSUgVPBmyHBdeJZhXC3vNoB5QIrx97exYJZe6VZC4z2DQQQSxlIt6XHgN7TacYBH9nQqTBedqmHh57Sc_MSwlQXtQsMOsSmB38tyjIiCDi98k-wbWTxS9m418BERxyKqAAFc","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-10-01 13:14:00","updated_date":"2021-10-01 13:14:00","status":"1"}}}

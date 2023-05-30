@@ -1,0 +1,41 @@
+
+ Request - 2023-04-17 08:31:52
+{"method":"getCityIdByAddressOrLatLng","address":"Gurunanak Hospital & Research Centre S\/ 341, Gandhi Nagar, near Chetna College, MIG Colony, Bandra East, Mumbai, Maharashtra 400051, India","lat":"19.059619","lng":"72.8504058"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 11:25:13
+{"method":"getCityIdByAddressOrLatLng","address":"P2, Tunisie","lat":"35.4109493","lng":"10.0599188"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 15:04:12
+{"method":"getCityIdByAddressOrLatLng","address":"JMQ8+FX8, Road, Ghodi, Tejpur, Rajasthan 327001, India","lat":"23.6403489","lng":"74.6691356"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 15:04:22
+{"method":"getCityIdByAddressOrLatLng","address":"JMQ8+FX8, Road, Ghodi, Tejpur, Rajasthan 327001, India","lat":"23.6403489","lng":"74.6691356"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 15:04:30
+{"method":"getCityIdByAddressOrLatLng","address":"JMQ8+FX8, Road, Ghodi, Tejpur, Rajasthan 327001, India","lat":"23.6403489","lng":"74.6691356"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 15:04:33
+{"method":"getCityIdByAddressOrLatLng","address":"JMQ8+FX8, Road, Ghodi, Tejpur, Rajasthan 327001, India","lat":"23.6403489","lng":"74.6691356"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 20:49:39
+{"method":"getCityIdByAddressOrLatLng","address":"7, Tiljala, Kolkata, West Bengal 700046, India","lat":"22.5336177","lng":"88.3995377"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 20:49:59
+{"method":"getCityIdByAddressOrLatLng","address":"7, Tiljala, Kolkata, West Bengal 700046, India","lat":"22.5336177","lng":"88.3995377"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 20:50:00
+{"method":"getCityIdByAddressOrLatLng","address":"7, Tiljala, Kolkata, West Bengal 700046, India","lat":"22.5336177","lng":"88.3995377"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-17 20:50:05
+{"method":"getCityIdByAddressOrLatLng","address":"7, Tiljala, Kolkata, West Bengal 700046, India","lat":"22.5336177","lng":"88.3995377"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

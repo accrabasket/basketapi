@@ -1,0 +1,77 @@
+
+ Request - 2022-06-10 04:25:28
+{"method":"getitemintocart","guest_user_id":"b13caf5f8e3526a3"}
+ Response :- 
+{"status":"success","data":{"452":{"id":21583,"user_id":0,"guest_user_id":"b13caf5f8e3526a3","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2022-06-08 14:23:29"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-10 04:30:11
+{"method":"getitemintocart","guest_user_id":"b13caf5f8e3526a3"}
+ Response :- 
+{"status":"success","data":{"452":{"id":21583,"user_id":0,"guest_user_id":"b13caf5f8e3526a3","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2022-06-08 14:23:29"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-10 06:00:39
+{"method":"getitemintocart","guest_user_id":"ae66edc72f004168"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 06:02:48
+{"method":"getitemintocart","guest_user_id":"ae66edc72f004168"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 07:03:01
+{"method":"getitemintocart","guest_user_id":"9bce0efd9c54d7f4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 07:12:53
+{"method":"getitemintocart","guest_user_id":"4569578b97172f30"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 07:14:05
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-06-10 08:36:23
+{"method":"getitemintocart","guest_user_id":"4569578b97172f30"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 10:31:33
+{"method":"getitemintocart","guest_user_id":"aa2b751735f441f7"}
+ Response :- 
+{"status":"success","data":{"502":{"id":16722,"user_id":0,"guest_user_id":"aa2b751735f441f7","merchant_inventry_id":502,"item_name":"Large Beer(Large Beer)","number_of_item":11,"created_date":"2021-08-14 12:46:32"},"452":{"id":16731,"user_id":0,"guest_user_id":"aa2b751735f441f7","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2021-08-14 21:04:29"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"},"502":{"id":502,"price":"8.49","product_id":786,"merchant_id":4,"store_id":4,"merchant_product_code":"26940","product_name":"Large Beer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":123,"custom_info":"","brand_name":"Heineken","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"786":[{"id":643,"type":"product","image_id":786,"image_name":"26940.jpg"}],"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-10 12:29:20
+{"method":"getitemintocart","guest_user_id":"0b4135bf8f2f2aa1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 12:30:14
+{"method":"getitemintocart","guest_user_id":"0b4135bf8f2f2aa1"}
+ Response :- 
+{"status":"success","data":{"704":{"id":21663,"user_id":0,"guest_user_id":"0b4135bf8f2f2aa1","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":1,"created_date":"2022-06-10 12:30:14"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-10 12:30:18
+{"method":"getitemintocart","guest_user_id":"0b4135bf8f2f2aa1"}
+ Response :- 
+{"status":"success","data":{"704":{"id":21663,"user_id":0,"guest_user_id":"0b4135bf8f2f2aa1","merchant_inventry_id":704,"item_name":"Original Washing Powder(Original Washing Powder)","number_of_item":1,"created_date":"2022-06-10 12:30:14"},"3459":{"id":21664,"user_id":0,"guest_user_id":"0b4135bf8f2f2aa1","merchant_inventry_id":3459,"item_name":"Growing Up Milk(Growing Up Milk)","number_of_item":1,"created_date":"2022-06-10 12:30:18"}},"productDetails":{"status":"success","data":{"704":{"id":704,"price":"40.99","product_id":988,"merchant_id":4,"store_id":4,"merchant_product_code":"33052","product_name":"Original Washing Powder","product_desc":"Ariel Washing Powder not only removes tough stains by cleaning deep down into the fibres, but also prevents them setting in, working brilliantly even at 30\u00b0C. Keep your whites bright with Ariel Washing Powder! For an extra boost of freshness, use with Lenor.When you look good and smell good, you feel good. And it all starts with getting the best wash for your clothes. That\u2019s where Ariel Washing Powder comes in. It not only removes tough stains by cleaning deep down in the fibres, but also prevents them setting in. It gets to work brilliantly at 30 Deg C. So, if you want to keep your whites bright, reach for Ariel Washing Powder.","default_discount_type":"","default_discount_value":"0","category_id":64,"custom_info":"{\"Preparation and Usage\":\"Always check dosing instructions on pack\\r\\nPour powder into the drawer\\r\\nLoad your machine\\r\\nAdd Fabric Enhancer to make the most of your wash\"}","brand_name":"ARIEL","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"kg","quantity":2,"tax_value":"3"},"3459":{"id":3459,"price":"110.00","product_id":3923,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Growing Up Milk","product_desc":"Inspired by 40 years of research in early life science, our team of nutricia scientists has developed our patented powder formulation. Aptamil\u00ae first infant milk powder combines our blend of ingredients with our unique process.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Dairy Based Blend (of which 25% is Fermented) [Lactose (from Milk), Skimmed Milk, Vegetable Oils (Palm Oil, Rapeseed Oil, High Oleic Sunflower Oil, Coconut Oil, Sunflower Oil), Whey Products (Demineralised Whey, Whey Concentrate) (from Milk), Calcium Phosphate, Potassium Citrate, Fish Oil, Sodium Citrate, Potassium Chloride, Vitamin C, Emulsifier (Soy Lecithin), Choline Chloride, Inositol, Magnesium Chloride, L-Carnitine, Antioxidant (Ascorbyl Palmitate), Pantothenic Acid, Vitamin E, Calcium Carbonate, Nicotinamide, Riboflavin, Vitamin B6, Thiamin, Potassium Iodide, Folic Acid, Vitamin K1, Biotin, Vitamin B12], Maltodextrin, Galacto-oligosaccharides (GOS) (from Milk), Fructo-oligosaccharides (FOS), Potassium Hydrogen Phosphate, Magnesium Hydrogen Phosphate, Ferrous Sulphate, Zinc Sulphate, Milk Flavouring, Vitamin E, Vitamin A, Vitamin D3.\",\"Allergy Information\":\"Milk, fish and soy.\",\"Directions For Use\":\"Measure 150 ml or 5 fl.oz of boiled, cooled water into a clean beaker.\\r\\nUsing the scoop provided, add 5 levelled scoops of powder into the beaker. Do not press\\\/heap the powder.\\r\\nPlace the clean lid on the beaker and shake immediately, vertically and vigorously for at least 10 seconds, until the powder is dissolved.\\r\\nCheck temperature and drink immediately. \",\"Storage Instructions\":\"Store powder in a cool, dry place. Do not refrigerate.Use powder within 4 weeks of opening.\"}","brand_name":"Aptamil","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":900,"tax_value":null}},"productImageData":{"988":[{"id":833,"type":"product","image_id":988,"image_name":"988_1545121319.jpg"}],"3923":[{"id":5003,"type":"product","image_id":3923,"image_name":"OSU0325.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-10 14:00:51
+{"method":"getitemintocart","guest_user_id":"d8c78c0dc8e7ef52"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 14:00:53
+{"method":"getitemintocart","guest_user_id":"d8c78c0dc8e7ef52"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 14:54:51
+{"method":"getitemintocart","guest_user_id":"7c4df1c5af4505b2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 14:56:21
+{"method":"getitemintocart","guest_user_id":"7c4df1c5af4505b2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 15:02:41
+{"method":"getitemintocart","guest_user_id":"d8c78c0dc8e7ef52"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 18:04:48
+{"method":"getitemintocart","guest_user_id":"4569578b97172f30"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-10 20:49:03
+{"method":"getitemintocart","guest_user_id":"d25d4b00ced6d6a0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,37 @@
+
+ Request - 2021-09-26 08:39:32
+{"method":"getCityIdByAddressOrLatLng","address":"V3JQ+V8R, Chamurchi Tea Garden D, West Bengal, India","lat":"26.8824047","lng":"89.0885228"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V3JQ+V8R, Chamurchi Tea Garden D, West Bengal, India"}}
+ Request - 2021-09-26 09:51:38
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Touba, Sénégal","lat":"14.8724077","lng":"-15.8870857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Touba, Senegal"}}
+ Request - 2021-09-26 09:51:40
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Touba, Sénégal","lat":"14.8724077","lng":"-15.8870857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Touba, Senegal"}}
+ Request - 2021-09-26 14:06:13
+{"method":"getCityIdByAddressOrLatLng","address":"J754+GHQ, Nibra, West Bengal 711409, India","lat":"22.6088597","lng":"88.2558745"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J754+GHQ, Nibra, West Bengal 711409, India"}}
+ Request - 2021-09-26 16:03:11
+{"method":"getCityIdByAddressOrLatLng","address":"3817 Khamis Nasar, Al Jami`ah, Jeddah 22346 6794, Saudi Arabia","lat":"21.4663493","lng":"39.2547937"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3817 Khamis Nasar, Al Jami`ah, Jeddah 22346\u00a06794, Saudi Arabia"}}
+ Request - 2021-09-26 16:50:14
+{"method":"getCityIdByAddressOrLatLng","address":"GCFX+7H5, Unnao, Uttar Pradesh 209862, India","lat":"26.5231701","lng":"80.4493121"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GCFX+7H5, Unnao, Uttar Pradesh 209862, India"}}
+ Request - 2021-09-26 18:43:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bamako, Mali","lat":"12.6444664","lng":"-8.0241892"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bamako, Mali"}}
+ Request - 2021-09-26 19:59:20
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bamako, Mali","lat":"12.6759866","lng":"-7.9562159"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bamako, Mali"}}
+ Request - 2021-09-26 20:04:12
+{"method":"getCityIdByAddressOrLatLng","address":"Rue 495, Porte 235, Badialan III, Bamako, Mali","lat":"12.6526768","lng":"-8.0235075"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue 495, Porte 235, Badialan III, Bamako, Mali"}}

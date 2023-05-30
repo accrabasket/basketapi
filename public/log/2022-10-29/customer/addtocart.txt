@@ -1,0 +1,49 @@
+
+ Request - 2022-10-29 05:51:15
+{"method":"addtocart","guest_user_id":"615ba742e0eeabb2","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 05:51:27
+{"method":"addtocart","guest_user_id":"615ba742e0eeabb2","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 05:51:29
+{"method":"addtocart","guest_user_id":"615ba742e0eeabb2","number_of_item":"1","merchant_inventry_id":"214","action":"delete","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:43:04
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"2110","action":"add","item_name":"Chocolate Wafer(Chocolate Wafer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:43:17
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"2120","action":"add","item_name":"Chocolate Chip Cookies(Chocolate Chip Cookies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:43:25
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"2135","action":"add","item_name":"Chocolate Wafers(Chocolate Wafers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:44:29
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"3083","action":"add","item_name":"Chocolate Wafer Biscuits(Chocolate Wafer Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:44:30
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"3084","action":"add","item_name":"Strawberry Wafer Biscuits(Strawberry Wafer Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:44:37
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"3085","action":"add","item_name":"Chocolate & Vanilla Wafer Biscuits(Chocolate & Vanilla Wafer Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:44:56
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:45:02
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"388","action":"add","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-29 12:46:05
+{"method":"addtocart","guest_user_id":"3d1bcc71f0903c41","number_of_item":"1","merchant_inventry_id":"743","action":"add","item_name":"Zest Lime Fresh - Antibacterial Soap(Zest Lime Fresh - Antibacterial Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

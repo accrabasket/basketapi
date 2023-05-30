@@ -1,0 +1,17 @@
+
+ Request - 2021-06-02 14:09:21
+{"parent_category_id":"11","category_name":"Utensil Cleaners","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-06-02 14:24:56
+{"parent_category_id":"11","category_name":"Detergents & Laundry","category_des":"","category_sequence":"1","id":"64","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-06-02 14:25:20
+{"parent_category_id":"11","category_name":"Utensil Cleaners","category_des":"","category_sequence":"2","id":"139","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-06-02 15:04:54
+{"parent_category_id":"11","category_name":"Cleaners","category_des":"","category_sequence":"3","id":"63","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}

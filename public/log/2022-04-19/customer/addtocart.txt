@@ -1,0 +1,41 @@
+
+ Request - 2022-04-19 02:43:12
+{"method":"addtocart","guest_user_id":"88081e50684b27af","number_of_item":"1","merchant_inventry_id":"630","action":"add","item_name":"Creme(Creme)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 02:43:20
+{"method":"addtocart","guest_user_id":"88081e50684b27af","number_of_item":"1","merchant_inventry_id":"630","action":"add","item_name":"Creme(Creme)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 02:43:27
+{"method":"addtocart","guest_user_id":"88081e50684b27af","number_of_item":"1","merchant_inventry_id":"630","action":"delete","item_name":"Creme(Creme)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 02:43:30
+{"method":"addtocart","guest_user_id":"88081e50684b27af","number_of_item":"1","merchant_inventry_id":"630","action":"delete","item_name":"Creme(Creme)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 04:46:17
+{"method":"addtocart","guest_user_id":"75000a747ce4d9f7","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 13:03:32
+{"method":"addtocart","guest_user_id":"800f7639358d59d0","number_of_item":"1","merchant_inventry_id":"3099","action":"add","item_name":"200 GHC(200 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 13:03:37
+{"method":"addtocart","guest_user_id":"800f7639358d59d0","number_of_item":"1","merchant_inventry_id":"3099","action":"add","item_name":"200 GHC(200 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 13:03:42
+{"method":"addtocart","guest_user_id":"800f7639358d59d0","number_of_item":"1","merchant_inventry_id":"3100","action":"add","item_name":"300 GHC(300 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 13:42:00
+{"method":"addtocart","guest_user_id":"75000a747ce4d9f7","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-19 13:42:05
+{"method":"addtocart","guest_user_id":"75000a747ce4d9f7","number_of_item":"1","merchant_inventry_id":"248","action":"delete","item_name":"Fish Curry Masala(Fish Curry Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

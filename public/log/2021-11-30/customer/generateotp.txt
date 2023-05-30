@@ -1,0 +1,9 @@
+
+ Request - 2021-11-30 08:04:52
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"5580400854"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2335580400854","otp_type":"register","user_id":"0","otp":9483,"expiry_date":"2021-11-30 08:19:52"}}
+ Request - 2021-11-30 08:05:25
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"5580400854"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2335580400854","otp_type":"register","user_id":"0","otp":8940,"expiry_date":"2021-11-30 08:20:25"}}

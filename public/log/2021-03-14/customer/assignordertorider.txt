@@ -1,0 +1,5 @@
+
+ Request - 2021-03-14 05:46:51
+{"order_id":"order_m1_1","rider_id":"1","method":"assignordertorider"}
+ Response :- 
+{"status":"success","msg":"order assigned to rider."}

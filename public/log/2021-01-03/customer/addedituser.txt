@@ -1,0 +1,37 @@
+
+ Request - 2021-01-03 10:45:19
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"Mahesh2","email":"maheshchindi@gmail.com","mobile_number":"234364324","country_code":"+233","id":"800","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 10:45:24
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"Mahesh2","email":"maheshchindi@gmail.com","mobile_number":"234364324","country_code":"+233","id":"800","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 11:01:03
+{"method":"addedituser","city_id":"1","password":"12345678","name":"moc2021","email":"moc2021@gmail.com","mobile_number":"2514436695","country_code":"+233","id":"0","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2332514436695 and registered email id.","data":{"1652":{"id":1652,"name":"moc2021","mobile_number":"2514436695","email":"moc2021@gmail.com","key":"ba34d813a7416497bb01a426920ab771","password":"25d55ad283aa400af464c76d713c07ad","fcm_reg_id":"dzQhlkWipAE:APA91bHnn0LE58eXvbK_wN_lPuOe1_k4PXigu9vpmxEVT6gc9vGwwTnYIx8bABtYYyW8m7iMWqNABbMUBBcJoaXHykKLKXoXWp10fWKMBiYSbyorGMeo0mmmwMNtLG444t_uyks4Bzhd","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-03 11:01:03","updated_date":"2021-01-03 11:01:03","status":"1"}}}
+ Request - 2021-01-03 16:55:36
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"mahesh-new2","email":"ashalatha89@gmail.com","mobile_number":"3355880022","country_code":"+233","id":"1082","fcm_reg_id":"cOcRWKagFTU:APA91bFD-YvqXT_qLqjUnvlLmdaHtLr0ZEpDhHKZc02jpaUGDZRkkBT-g2qUxkQcQf4Y2pohtSkF5Cj2TuGBVcmxH6wIGH14z7fZpWb_axzzEVeR5fKkKXgm1vUd-q8uIibnjM_uyyey"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 16:55:53
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"mahesh-new - new","email":"ashalatha89@gmail.com","mobile_number":"3355880022","country_code":"+233","id":"1082","fcm_reg_id":"cOcRWKagFTU:APA91bFD-YvqXT_qLqjUnvlLmdaHtLr0ZEpDhHKZc02jpaUGDZRkkBT-g2qUxkQcQf4Y2pohtSkF5Cj2TuGBVcmxH6wIGH14z7fZpWb_axzzEVeR5fKkKXgm1vUd-q8uIibnjM_uyyey"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 16:56:05
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"mahesh-new1","email":"ashalatha89@gmail.com","mobile_number":"3355880022","country_code":"+233","id":"1082","fcm_reg_id":"cOcRWKagFTU:APA91bFD-YvqXT_qLqjUnvlLmdaHtLr0ZEpDhHKZc02jpaUGDZRkkBT-g2qUxkQcQf4Y2pohtSkF5Cj2TuGBVcmxH6wIGH14z7fZpWb_axzzEVeR5fKkKXgm1vUd-q8uIibnjM_uyyey"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 16:56:24
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"mahesh-newq","email":"ashalatha89@gmail.com","mobile_number":"3355880022","country_code":"+233","id":"1082","fcm_reg_id":"cOcRWKagFTU:APA91bFD-YvqXT_qLqjUnvlLmdaHtLr0ZEpDhHKZc02jpaUGDZRkkBT-g2qUxkQcQf4Y2pohtSkF5Cj2TuGBVcmxH6wIGH14z7fZpWb_axzzEVeR5fKkKXgm1vUd-q8uIibnjM_uyyey"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 16:56:29
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"mahesh-newq","email":"ashalatha89@gmail.com","mobile_number":"3355880022","country_code":"+233","id":"1082","fcm_reg_id":"cOcRWKagFTU:APA91bFD-YvqXT_qLqjUnvlLmdaHtLr0ZEpDhHKZc02jpaUGDZRkkBT-g2qUxkQcQf4Y2pohtSkF5Cj2TuGBVcmxH6wIGH14z7fZpWb_axzzEVeR5fKkKXgm1vUd-q8uIibnjM_uyyey"}
+ Response :- 
+{"status":"success","msg":"User updated"}
+ Request - 2021-01-03 16:56:33
+{"method":"addedituser","city_id":"1","password":"1234@Mahesh","name":"mahesh-newq","email":"ashalatha89@gmail.com","mobile_number":"3355880022","country_code":"+233","id":"1082","fcm_reg_id":"cOcRWKagFTU:APA91bFD-YvqXT_qLqjUnvlLmdaHtLr0ZEpDhHKZc02jpaUGDZRkkBT-g2qUxkQcQf4Y2pohtSkF5Cj2TuGBVcmxH6wIGH14z7fZpWb_axzzEVeR5fKkKXgm1vUd-q8uIibnjM_uyyey"}
+ Response :- 
+{"status":"success","msg":"User updated"}

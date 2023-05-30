@@ -1,0 +1,21 @@
+
+ Request - 2022-08-15 01:47:32
+{"method":"getCityIdByAddressOrLatLng","address":"43, Kacheri Rd, Vrundavan Colony, Sanjay Nagar, Bhagya Nagar, Jalna, Maharashtra 431213, India","lat":"19.840105","lng":"75.8771778"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"43, Kacheri Rd, Vrundavan Colony, Sanjay Nagar, Bhagya Nagar, Jalna, Maharashtra 431213, India"}}
+ Request - 2022-08-15 03:34:37
+{"method":"getCityIdByAddressOrLatLng","address":"64XP+5F7, Lal Bazar Road Mauranipur, Nakhrali, Roni, Uttar Pradesh 284204, India","lat":"25.2487428","lng":"79.1359791"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"64XP+5F7, Lal Bazar Road Mauranipur, Nakhrali, Roni, Uttar Pradesh 284204, India"}}
+ Request - 2022-08-15 06:31:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tanzania","lat":"-8.6245085","lng":"33.1377887"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"94GQ+54 Ibungu, Tanzania"}}
+ Request - 2022-08-15 16:04:16
+{"method":"getCityIdByAddressOrLatLng","address":"230 Mathews Meyiwa Rd, Greyville, Berea, 4001, South Africa","lat":"-29.8340432","lng":"31.0226042"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"230 Mathews Meyiwa Rd, Greyville, Berea, 4001, South Africa"}}
+ Request - 2022-08-15 21:30:54
+{"method":"getCityIdByAddressOrLatLng","address":"565G+WHW, 212102, Oyo, Nigeria","lat":"8.1592122","lng":"4.2254861"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"565G+WHW, 212102, Oyo, Nigeria"}}

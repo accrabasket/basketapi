@@ -1,0 +1,25 @@
+
+ Request - 2021-05-26 14:35:23
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-26 14:35:36
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-26 14:36:38
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-26 14:36:41
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"831","action":"add","item_name":"Chocolim"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-26 14:36:45
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"1004","action":"add","item_name":"Cassava Flour Kokonte  "}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-26 14:36:51
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"1469","action":"add","item_name":"Special K Original"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

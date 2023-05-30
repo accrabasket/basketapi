@@ -1,0 +1,5 @@
+
+ Request - 2022-08-11 09:17:02
+{"method":"verifyotp","country_code":"+233","mobile_number":"277728755","otp_type":"register","otp":"3482"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"e59475204018328a4ac0d7bc5ed12664"}}

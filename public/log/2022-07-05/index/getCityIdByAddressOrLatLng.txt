@@ -1,0 +1,13 @@
+
+ Request - 2022-07-05 05:58:25
+{"method":"getCityIdByAddressOrLatLng","address":"75VM+JW4, Gadah Marawa, Uttar Pradesh 272206, India","lat":"27.2964855","lng":"83.184159"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"75WM+HM Gadah Marawa, Uttar Pradesh, India"}}
+ Request - 2022-07-05 15:45:12
+{"method":"getCityIdByAddressOrLatLng","address":"1088, Badanpura, Bas Badanpura, Jaipur, Rajasthan 302007, India","lat":"26.93175","lng":"75.8397776"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1088, Badanpura, Bas Badanpura, Jaipur, Rajasthan 302007, India"}}
+ Request - 2022-07-05 21:35:15
+{"method":"getCityIdByAddressOrLatLng","address":"Mutare Rd, Zimbabwe","lat":"-18.1527819","lng":"31.4729607"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RFWF+V5 Marondera, Zimbabwe"}}

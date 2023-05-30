@@ -1,0 +1,13 @@
+
+ Request - 2021-08-24 16:47:28
+{"method":"login","email":"anastashiaparez12@gmail.com","password":"faithieq234","fcm_reg_id":"cDOqzLSNHLE:APA91bG6DxVYBlByDI6qmtlAGkV0wdJfpiBTAlv_kjm52gVNkagkRZwdO4FpsKblsMEcmtatOGXOgdHWmtMk8MrU7xfvXy-6lOqosa82my7YM3AM3Zy49urT7KVTALTwzVODbptYljy3"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-08-24 16:48:19
+{"method":"login","email":"anastashiaparez12@gmail.com","password":"faithieq234","fcm_reg_id":"cDOqzLSNHLE:APA91bG6DxVYBlByDI6qmtlAGkV0wdJfpiBTAlv_kjm52gVNkagkRZwdO4FpsKblsMEcmtatOGXOgdHWmtMk8MrU7xfvXy-6lOqosa82my7YM3AM3Zy49urT7KVTALTwzVODbptYljy3"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2021-08-24 16:48:31
+{"method":"login","email":"anastashiaparez12@gmail.com","password":"faithie1234","fcm_reg_id":"cDOqzLSNHLE:APA91bG6DxVYBlByDI6qmtlAGkV0wdJfpiBTAlv_kjm52gVNkagkRZwdO4FpsKblsMEcmtatOGXOgdHWmtMk8MrU7xfvXy-6lOqosa82my7YM3AM3Zy49urT7KVTALTwzVODbptYljy3"}
+ Response :- 
+{"status":"success","data":{"3898":{"id":3898,"name":"Faith","mobile_number":"561278340","email":"anastashiaparez12@gmail.com","key":"3693cb615c5b72159ebbd6f290678389","password":"5c59627e5bbfb8e760e0a51bc1c6e845","fcm_reg_id":"cDOqzLSNHLE:APA91bG6DxVYBlByDI6qmtlAGkV0wdJfpiBTAlv_kjm52gVNkagkRZwdO4FpsKblsMEcmtatOGXOgdHWmtMk8MrU7xfvXy-6lOqosa82my7YM3AM3Zy49urT7KVTALTwzVODbptYljy3","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-08-24 16:48:04","updated_date":"2021-08-24 16:48:04","status":"1"}},"totalNumberOfUser":1,"wallet_key":"5c59627e5bbfb8e760e0a51bc1c6e845"}

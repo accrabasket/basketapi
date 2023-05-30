@@ -1,0 +1,17 @@
+
+ Request - 2022-03-16 01:50:47
+{"method":"getCityIdByAddressOrLatLng","address":"CC-30, Ansal East End, Trans Delhi Signature City, Pavi Sadakpur, Uttar Pradesh 201102, India","lat":"28.7805499","lng":"77.2781285"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CC-30, Ansal East End, Trans Delhi Signature City, Pavi Sadakpur, Uttar Pradesh 201102, India"}}
+ Request - 2022-03-16 23:06:51
+{"method":"getCityIdByAddressOrLatLng","address":"14 Shibiri Rd, Ojo 102101, Lagos, Nigeria","lat":"6.4590918","lng":"3.1571033"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"14 Shibiri Rd, Ojo 102101, Lagos, Nigeria"}}
+ Request - 2022-03-16 23:06:55
+{"method":"getCityIdByAddressOrLatLng","address":"14 Shibiri Rd, Ojo 102101, Lagos, Nigeria","lat":"6.4590918","lng":"3.1571033"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"14 Shibiri Rd, Ojo 102101, Lagos, Nigeria"}}
+ Request - 2022-03-16 23:32:37
+{"method":"getCityIdByAddressOrLatLng","address":"Dallas, TX, USA","lat":"32.7766642","lng":"-96.79698789999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Las colinas, 1502 Marilla St, Dallas, TX 75201, USA"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-02-13 16:45:05
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"3","delivery_date":"2021-02-14","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-13 16:45:09
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"3","delivery_date":"2021-02-14","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-02-13 16:45:30
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"3","delivery_date":"2021-02-14","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_186"}}

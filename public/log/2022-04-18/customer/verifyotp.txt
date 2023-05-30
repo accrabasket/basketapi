@@ -1,0 +1,5 @@
+
+ Request - 2022-04-18 19:51:22
+{"method":"verifyotp","country_code":"+233","mobile_number":"0553000039","otp_type":"register","otp":"9801"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"729c2941131b7c7d40857361ab3ef79f"}}

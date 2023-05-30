@@ -1,0 +1,61 @@
+
+ Request - 2021-02-06 09:48:18
+{"method":"addtocart","guest_user_id":"acd0021f7024cd1f","number_of_item":"1","merchant_inventry_id":"1906","action":"add","item_name":"Liquor(Liquor)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 11:58:15
+{"method":"addtocart","guest_user_id":"78f6e31ef04f8202","number_of_item":"1","merchant_inventry_id":"774","action":"add","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 11:58:38
+{"method":"addtocart","guest_user_id":"78f6e31ef04f8202","number_of_item":"1","merchant_inventry_id":"2779","action":"add","item_name":"Cabbage(Cabbage)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:10:21
+{"method":"addtocart","user_id":"306","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:10:23
+{"method":"addtocart","user_id":"306","number_of_item":"1","merchant_inventry_id":"385","action":"add","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:13
+{"method":"addtocart","user_id":"306","number_of_item":"1","merchant_inventry_id":"385","action":"delete","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:15
+{"method":"addtocart","user_id":"306","number_of_item":"1","merchant_inventry_id":"385","action":"delete","item_name":"Home Made Paneer(Home Made Paneer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:21
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:21
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:22
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:22
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:22
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:34
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:56
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin/Kishmish"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-02-06 17:21:59
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin/Kishmish"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

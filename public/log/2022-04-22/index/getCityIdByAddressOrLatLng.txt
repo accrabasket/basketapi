@@ -1,0 +1,9 @@
+
+ Request - 2022-04-22 15:58:06
+{"method":"getCityIdByAddressOrLatLng","address":"VGW8+MWG, Kasseh, Ghana","lat":"5.8976503","lng":"0.5170695"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VGW8+MWG, Kasseh, Ghana"}}
+ Request - 2022-04-22 19:07:31
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Guinée","lat":"10.8111328","lng":"-8.5101463"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RF6Q+FW Gbonko, Guinea"}}

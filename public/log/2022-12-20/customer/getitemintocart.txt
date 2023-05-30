@@ -1,0 +1,41 @@
+
+ Request - 2022-12-20 07:58:21
+{"method":"getitemintocart","guest_user_id":"67cd923e67747f6b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 10:03:07
+{"method":"getitemintocart","guest_user_id":"c6a14ce2f2c6ac1e"}
+ Response :- 
+{"status":"success","data":{"213":{"id":22111,"user_id":0,"guest_user_id":"c6a14ce2f2c6ac1e","merchant_inventry_id":213,"item_name":"Black Cardamom(Black Cardamom)","number_of_item":1,"created_date":"2022-07-26 16:09:20"}},"productDetails":{"status":"success","data":{"213":{"id":213,"price":"21.00","product_id":372,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Cardamom","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"372":[{"id":289,"type":"product","image_id":372,"image_name":"6033000220554.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-12-20 11:56:24
+{"method":"getitemintocart","guest_user_id":"dbad756e03e3370d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 12:45:17
+{"method":"getitemintocart","guest_user_id":"bf19f33267eadbd6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 15:28:02
+{"method":"getitemintocart","guest_user_id":"d3b46bece92a8f6f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 15:28:46
+{"method":"getitemintocart","guest_user_id":"f0bb03b9b170c022"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 16:00:23
+{"method":"getitemintocart","guest_user_id":"dbad756e03e3370d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 16:00:30
+{"method":"getitemintocart","guest_user_id":"dbad756e03e3370d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 18:49:38
+{"method":"getitemintocart","guest_user_id":"281a84e4532d41b8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-12-20 21:34:28
+{"method":"getitemintocart","guest_user_id":"ce63dfc0a73fcab8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

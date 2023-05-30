@@ -1,0 +1,21 @@
+
+ Request - 2022-10-10 04:45:40
+{"method":"getCityIdByAddressOrLatLng","address":"6MFM+6VV, Kohalpur 21904, Nepal","lat":"28.2230048","lng":"81.6856875"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6MFM+6VV, Kohalpur 21904, Nepal"}}
+ Request - 2022-10-10 11:58:16
+{"method":"getCityIdByAddressOrLatLng","address":"Saraswati Enclave, Block F160, Radha Sawami, Gurugram NCR Region, Saraswati Enclave, Sector 10B, Sector 37, Gurugram, Haryana 122004, India","lat":"28.4447541","lng":"76.9907675"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Saraswati Enclave, Block F160, Radha Sawami, Gurugram NCR Region, Saraswati Enclave, Sector 10B, Sector 37, Gurugram, Haryana 122004, India"}}
+ Request - 2022-10-10 17:27:40
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kousseri, Cameroon","lat":"12.0813497","lng":"15.0022327"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"32J2+GV Kousseri, Cameroon"}}
+ Request - 2022-10-10 19:39:48
+{"method":"getCityIdByAddressOrLatLng","address":"ያልተሰየመ መንገድ, አዲስ አበባ, ኢትዮጵያ","lat":"9.0506263","lng":"38.6731338"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3M2F+77 Addis Ababa, Ethiopia"}}
+ Request - 2022-10-10 19:39:48
+{"method":"getCityIdByAddressOrLatLng","address":"ያልተሰየመ መንገድ, አዲስ አበባ, ኢትዮጵያ","lat":"9.0506263","lng":"38.6731338"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3M2F+77 Addis Ababa, Ethiopia"}}

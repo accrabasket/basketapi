@@ -1,0 +1,9 @@
+
+ Request - 2022-07-29 14:04:09
+{"method":"getCityIdByAddressOrLatLng","address":"46VC+42X, Ferozwala Road, Nawab Town, Gujranwala, Punjab, Pakistan","lat":"32.1432681","lng":"74.2201635"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"46VC+42X, Ferozwala Road, Nawab Town, Gujranwala, Punjab, Pakistan"}}
+ Request - 2022-07-29 15:24:27
+{"method":"getCityIdByAddressOrLatLng","address":"282W+XC, Kotwalipur, Uttar Pradesh 276403, India","lat":"26.0038659","lng":"83.3453751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"283W+G5 Kotwalipur, Uttar Pradesh, India"}}

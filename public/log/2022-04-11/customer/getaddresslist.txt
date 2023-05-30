@@ -1,0 +1,33 @@
+
+ Request - 2022-04-11 20:08:41
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2022-04-11 20:10:15
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}
+ Request - 2022-04-11 20:20:23
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}
+ Request - 2022-04-11 20:24:29
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}
+ Request - 2022-04-11 20:27:28
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}
+ Request - 2022-04-11 20:28:20
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}
+ Request - 2022-04-11 20:28:28
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}
+ Request - 2022-04-11 20:29:19
+{"method":"getaddresslist","user_id":"8220"}
+ Response :- 
+{"status":"success","data":{"615":{"id":615,"user_id":8220,"address_nickname":"sakora park","contact_name":"Nana Akua","city_id":1,"city_name":"Unnamed Road, Kumasi, Ghana","house_number":"plt5 blkA ","street_detail":"kokoben sakora","landmark":"Deeper life church","zipcode":"2020","area":"","lat":"6.6355654","lng":"","created_date":"2022-04-11 20:10:15","updated_date":"2022-04-11 20:10:15"}}}

@@ -1,0 +1,33 @@
+
+ Request - 2021-04-19 09:49:53
+{"method":"getCityIdByAddressOrLatLng","address":"Tema New Town, Tema, Ghana","lat":"5.6541801","lng":"0.0183772"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tema New Town, Tema, Ghana"}}
+ Request - 2021-04-19 12:04:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uttar Pradesh, भारत","lat":"29.1570819","lng":"77.3405185"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Uttar Pradesh, India"}}
+ Request - 2021-04-19 14:22:59
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Côte d'Ivoire","lat":"6.534511","lng":"-4.4183696"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, C\u00f4te d'Ivoire"}}
+ Request - 2021-04-19 17:00:37
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Cameroun","lat":"9.3790649","lng":"13.4885554"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Cameroon"}}
+ Request - 2021-04-19 18:04:30
+{"method":"getCityIdByAddressOrLatLng","address":"বটতলার মোড়, Nator, Bangladesh","lat":"24.4041267","lng":"88.9887293"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u09ac\u099f\u09a4\u09b2\u09be\u09b0 \u09ae\u09cb\u09dc, Nator, Bangladesh"}}
+ Request - 2021-04-19 20:43:33
+{"method":"getCityIdByAddressOrLatLng","address":"Hse. No 178, Tuba Kasoa, Ngleshi Amanfro, Ghana","lat":"5.5371619","lng":"-0.3841055"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hse. No 178, Tuba Kasoa, Ngleshi Amanfro, Ghana"}}
+ Request - 2021-04-19 20:43:43
+{"method":"getCityIdByAddressOrLatLng","address":"Hse. No 178, Tuba Kasoa, Ngleshi Amanfro, Ghana","lat":"5.5371619","lng":"-0.3841055"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hse. No 178, Tuba Kasoa, Ngleshi Amanfro, Ghana"}}
+ Request - 2021-04-19 20:51:10
+{"method":"getCityIdByAddressOrLatLng","address":"Hse. No 178, Tuba Kasoa, Ngleshi Amanfro, Ghana","lat":"5.5371619","lng":"-0.3841055"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hse. No 178, Tuba Kasoa, Ngleshi Amanfro, Ghana"}}

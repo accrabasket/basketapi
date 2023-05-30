@@ -1,0 +1,13 @@
+
+ Request - 2021-02-24 00:06:04
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}
+ Request - 2021-02-24 09:56:01
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}
+ Request - 2021-02-24 09:57:00
+{"method":"customercarenumber","city_id":"0"}
+ Response :- 
+{"status":"success","customer_care_number":"+233553354848"}

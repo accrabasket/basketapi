@@ -1,0 +1,5 @@
+
+ Request - 2021-03-14 08:11:14
+{"method":"verifyotp","country_code":"+233","mobile_number":"274282523","otp_type":"register","otp":"4688"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"366ceb5a801686d112bd71d84c8a7de5"}}

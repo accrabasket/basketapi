@@ -1,0 +1,13 @@
+
+ Request - 2022-11-08 04:33:05
+{"method":"addtocart","guest_user_id":"5f07cb3da4ea1132","number_of_item":"1","merchant_inventry_id":"2519","action":"add","item_name":"Luxury Pamper (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-08 04:33:09
+{"method":"addtocart","guest_user_id":"5f07cb3da4ea1132","number_of_item":"1","merchant_inventry_id":"2518","action":"add","item_name":"Kids Happy Baskets(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-11-08 04:33:23
+{"method":"addtocart","guest_user_id":"5f07cb3da4ea1132","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,5 @@
+
+ Request - 2021-11-05 12:31:16
+{"method":"verifyotp","country_code":"+233","mobile_number":"0246962914","otp_type":"register","otp":"7558"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"2212226d088b998a79d186d46144c929"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-01-02 11:14:42
+{"method":"verifyotp","country_code":"+233","mobile_number":"123456782","otp_type":"register","otp":"1234"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-01-02 11:25:34
+{"method":"verifyotp","country_code":"+233","mobile_number":"123456782","otp_type":"register","otp":"1234"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-01-02 11:28:45
+{"method":"verifyotp","otp_type":"register","otp":"1234"}
+ Response :- 
+{"status":"fail","msg":"Mobile number not supplied"}

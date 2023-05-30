@@ -1,0 +1,13 @@
+
+ Request - 2021-05-08 05:26:44
+{"start_date":"2021-05-08","end_date":"2021-05-08","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-05-08 07:55:41
+{"start_date":"2021-05-08","end_date":"2021-05-08","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-05-08 11:03:50
+{"start_date":"2021-05-08","end_date":"2021-05-08","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}

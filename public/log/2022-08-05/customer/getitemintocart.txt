@@ -1,0 +1,61 @@
+
+ Request - 2022-08-05 03:36:28
+{"method":"getitemintocart","guest_user_id":"bdd81488a2ebccbc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 03:36:35
+{"method":"getitemintocart","guest_user_id":"bdd81488a2ebccbc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 03:42:44
+{"method":"getitemintocart","guest_user_id":"4bd59ca85569abc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 05:18:22
+{"method":"getitemintocart","guest_user_id":"7787851f3f7a702d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 05:18:59
+{"method":"getitemintocart","guest_user_id":"7787851f3f7a702d"}
+ Response :- 
+{"status":"success","data":{"3101":{"id":22242,"user_id":0,"guest_user_id":"7787851f3f7a702d","merchant_inventry_id":3101,"item_name":"500 GHC(500 GHC)","number_of_item":1,"created_date":"2022-08-05 05:18:58"}},"productDetails":{"status":"success","data":{"3101":{"id":3101,"price":"500.00","product_id":3532,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"500 GHC","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":128,"custom_info":"","brand_name":"Gift Card","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"card","quantity":1,"tax_value":"3"}},"productImageData":{"3532":[{"id":4267,"type":"product","image_id":3532,"image_name":"3532_1602087576.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-05 07:18:39
+{"method":"getitemintocart","guest_user_id":"c38010374b4e18d7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 09:05:37
+{"method":"getitemintocart","guest_user_id":"37859d2d7e753f27"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 10:12:13
+{"method":"getitemintocart","guest_user_id":"dd4a349687a76d38"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 10:29:16
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 10:29:22
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"success","data":{"3479":{"id":22243,"user_id":0,"guest_user_id":"f9bdb3f682132c7b","merchant_inventry_id":3479,"item_name":"Hand Sanitizer(Hand Sanitizer)","number_of_item":1,"created_date":"2022-08-05 10:29:22"}},"productDetails":{"status":"success","data":{"3479":{"id":3479,"price":"26.00","product_id":3943,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Hand Sanitizer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Beak & Skiff","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":150,"tax_value":null}},"productImageData":{"3943":[{"id":5023,"type":"product","image_id":3943,"image_name":"OSU1234.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-05 10:30:20
+{"method":"getitemintocart","guest_user_id":"18f1204b6573eb2e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 10:39:15
+{"method":"getitemintocart","guest_user_id":"bfe32220955062b4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 15:31:35
+{"method":"getitemintocart","guest_user_id":"0aee248784b1afb5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 19:41:12
+{"method":"getitemintocart","guest_user_id":"043a9e2f79c6bb23"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-05 21:03:22
+{"method":"getitemintocart","guest_user_id":"bdd81488a2ebccbc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,5 @@
+
+ Request - 2022-02-24 12:07:31
+{"method":"verifyotp","country_code":"+233","mobile_number":"502676497","otp_type":"register","otp":"1982"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"93723b19cffae886b0852b12b1454ee2"}}

@@ -1,0 +1,25 @@
+
+ Request - 2022-01-08 03:32:01
+{"method":"addtocart","guest_user_id":"ff752b56df19d38c","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-08 03:32:05
+{"method":"addtocart","guest_user_id":"ff752b56df19d38c","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-08 03:32:07
+{"method":"addtocart","guest_user_id":"ff752b56df19d38c","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-08 03:32:19
+{"method":"addtocart","guest_user_id":"ff752b56df19d38c","number_of_item":"1","merchant_inventry_id":"3820","action":"delete","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-08 03:32:20
+{"method":"addtocart","guest_user_id":"ff752b56df19d38c","number_of_item":"1","merchant_inventry_id":"3820","action":"delete","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-01-08 03:32:21
+{"method":"addtocart","guest_user_id":"ff752b56df19d38c","number_of_item":"1","merchant_inventry_id":"3820","action":"delete","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,33 @@
+
+ Request - 2021-06-05 07:14:38
+{"method":"addtocart","guest_user_id":"95b26608bd70322e","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 09:45:11
+{"method":"addtocart","guest_user_id":"22f458ffaf546d2c","number_of_item":"1","merchant_inventry_id":"2746","action":"add","item_name":"Guava(Guava)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 09:45:22
+{"method":"addtocart","guest_user_id":"22f458ffaf546d2c","number_of_item":"1","merchant_inventry_id":"2736","action":"add","item_name":"Frozen Strawberries(Frozen Strawberries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 09:45:23
+{"method":"addtocart","guest_user_id":"22f458ffaf546d2c","number_of_item":"1","merchant_inventry_id":"2736","action":"add","item_name":"Frozen Strawberries(Frozen Strawberries)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 09:52:44
+{"method":"addtocart","guest_user_id":"22f458ffaf546d2c","number_of_item":"1","merchant_inventry_id":"1469","action":"add","item_name":"Special K Original(Special K Original)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 16:15:35
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 16:15:39
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"1066","action":"add","item_name":"Hand Sanitizer"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-05 16:15:55
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

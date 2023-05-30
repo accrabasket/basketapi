@@ -1,0 +1,13 @@
+
+ Request - 2022-03-30 02:42:57
+{"method":"getCityIdByAddressOrLatLng","address":"G5VJ+GRX, Al Wafrah, Kuwait","lat":"28.5443327","lng":"48.1826245"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G5VJ+GRX, Al Wafrah, Kuwait"}}
+ Request - 2022-03-30 05:19:45
+{"method":"getCityIdByAddressOrLatLng","address":"2003 Gali 71, Sector I-10\/1 I 10\/1 I-10, Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.6406114","lng":"73.0394494"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2003 Gali 71, Sector I-10\/1 I 10\/1 I-10, Islamabad, Islamabad Capital Territory, Pakistan"}}
+ Request - 2022-03-30 14:42:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"6.5061319","lng":"-1.8444831"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}

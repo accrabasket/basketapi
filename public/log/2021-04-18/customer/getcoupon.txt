@@ -1,0 +1,9 @@
+
+ Request - 2021-04-18 08:28:05
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-18 16:31:58
+{"method":"getcoupon","user_id":"2419","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

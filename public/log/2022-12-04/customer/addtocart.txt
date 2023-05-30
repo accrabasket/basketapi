@@ -1,0 +1,45 @@
+
+ Request - 2022-12-04 05:59:08
+{"method":"addtocart","guest_user_id":"bd909276edb3effa","number_of_item":"1","merchant_inventry_id":"3101","action":"add","item_name":"500 GHC(500 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 05:59:22
+{"method":"addtocart","guest_user_id":"bd909276edb3effa","number_of_item":"1","merchant_inventry_id":"3101","action":"add","item_name":"500 GHC(500 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 06:01:40
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"3159","action":"add","item_name":"Stech - Flash Mifi Router - White(Flash Mifi Router - White)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-12-04 07:34:38
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"935","action":"add","item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:36:33
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"935","action":"add","item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:36:35
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"935","action":"delete","item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:36:42
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"810","action":"add","item_name":"Soft & Smooth Baby Soap(Soft & Smooth Baby Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:37:11
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"935","action":"add","item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:37:13
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"935","action":"delete","item_name":"Baby Pants Jumbo Pack(Baby Pants Jumbo Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:37:15
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"810","action":"add","item_name":"Soft & Smooth Baby Soap(Soft & Smooth Baby Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-04 07:37:17
+{"method":"addtocart","guest_user_id":"b402183e2d4fdfe3","number_of_item":"1","merchant_inventry_id":"810","action":"delete","item_name":"Soft & Smooth Baby Soap(Soft & Smooth Baby Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

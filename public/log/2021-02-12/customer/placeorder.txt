@@ -1,0 +1,97 @@
+
+ Request - 2021-02-12 11:00:49
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"4","delivery_date":"2021-02-13","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-02-12 11:01:24
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"4","delivery_date":"2021-02-13","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_493","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"800","TransactionId":"df9827349b2e0b9d94d7833c7932c342","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_493","Amount":202.65,"Signature":"c9a1767623fa443a8be584e4fee7bf41a965a715e7a67cfaf61a29e6eb1f3ba0"}}}}
+ Request - 2021-02-12 11:30:29
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_494","tokenResponse":{"StatusCode":"200","TokenId":"c2fb1a76-f0ea-4305-98f4-7c6731bcf9a7","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=c2fb1a76-f0ea-4305-98f4-7c6731bcf9a7&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 11:31:34
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_495"}}
+ Request - 2021-02-12 11:31:55
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_496"}}
+ Request - 2021-02-12 11:32:36
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_497","tokenResponse":{"StatusCode":"200","TokenId":"05fb84be-ec85-4898-9582-1a7d04e2025a","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=05fb84be-ec85-4898-9582-1a7d04e2025a&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:00:47
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_498","tokenResponse":{"StatusCode":"200","TokenId":"ccc18c2d-b94a-4681-aabc-95011fe114df","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=ccc18c2d-b94a-4681-aabc-95011fe114df&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:02:55
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_499","tokenResponse":{"StatusCode":"200","TokenId":"8d715a7b-e46a-4021-90e5-a644a52b43ad","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=8d715a7b-e46a-4021-90e5-a644a52b43ad&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:06:08
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_500","tokenResponse":{"StatusCode":"200","TokenId":"e3998c28-697b-4ed0-bc3b-5f0ea341f74f","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=e3998c28-697b-4ed0-bc3b-5f0ea341f74f&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:06:46
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_501"}}
+ Request - 2021-02-12 12:07:20
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_502","tokenResponse":{"StatusCode":"200","TokenId":"9b025dbb-2f40-4b05-bbbf-3af12654df63","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=9b025dbb-2f40-4b05-bbbf-3af12654df63&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:09:49
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_503","tokenResponse":{"StatusCode":"200","TokenId":"3a478b1e-11b7-4405-8985-c80eba099575","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=3a478b1e-11b7-4405-8985-c80eba099575&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:13:26
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_504","tokenResponse":{"StatusCode":"200","TokenId":"5acbe942-ea91-4ef9-8688-5d1c1828ea66","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=5acbe942-ea91-4ef9-8688-5d1c1828ea66&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 12:14:30
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_505","tokenResponse":{"StatusCode":"200","TokenId":"61a61007-3b0d-4cc5-a8d8-47802197f1a1","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=61a61007-3b0d-4cc5-a8d8-47802197f1a1&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:24:28
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-13","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_506","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"800","TransactionId":"158f1183cc6830f84c6d84044abdeddc","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_506","Amount":225,"Signature":"a349d459bc2a24d392867aa4d08e59cc30841a81186829afef2590a75fc5175f"}}}}
+ Request - 2021-02-12 13:25:38
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_507","tokenResponse":{"StatusCode":"200","TokenId":"d48ef0f3-1c74-40b1-b987-7d39731ef9b1","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=d48ef0f3-1c74-40b1-b987-7d39731ef9b1&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:27:47
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_508","tokenResponse":{"StatusCode":"200","TokenId":"bfcfc89f-353e-4d2d-8dcb-f8a595a33af3","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=bfcfc89f-353e-4d2d-8dcb-f8a595a33af3&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:28:35
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_509","tokenResponse":{"StatusCode":"200","TokenId":"5147101a-dac2-432d-95c3-15d41e2e99f6","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=5147101a-dac2-432d-95c3-15d41e2e99f6&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:29:33
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_510","tokenResponse":{"StatusCode":"200","TokenId":"19ad5503-0218-4f32-9351-925a6a811dcd","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=19ad5503-0218-4f32-9351-925a6a811dcd&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:30:21
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_511","tokenResponse":{"StatusCode":"200","TokenId":"664fcbaa-a520-46a6-ad8a-3c3261fa977e","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=664fcbaa-a520-46a6-ad8a-3c3261fa977e&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:31:43
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_512"}}
+ Request - 2021-02-12 13:32:12
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-12","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_513","tokenResponse":{"StatusCode":"200","TokenId":"ba6327f5-fd80-4975-94bd-87ee2b512170","Message":"SUCCESS","paymentUrl":"https:\/\/payments.ezeepaygh.com\/checkout?token=ba6327f5-fd80-4975-94bd-87ee2b512170&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus?agent=w"}}}
+ Request - 2021-02-12 13:57:13
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-10","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-02-12 13:57:19
+{"method":"placeorder","user_id":"800","shipping_address_id":"337","time_slot_id":"5","delivery_date":"2021-02-10","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}

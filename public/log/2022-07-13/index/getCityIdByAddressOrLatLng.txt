@@ -1,0 +1,29 @@
+
+ Request - 2022-07-13 10:50:42
+{"method":"getCityIdByAddressOrLatLng","address":"C8VW+GVH, Street no.12 Jinnah Town, Jinnah Town, Mian Channu, Khanewal, Punjab, Pakistan","lat":"30.444014999999997","lng":"72.34726333333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C8VW+GVH, Street no.12 Jinnah Town, Jinnah Town, Mian Channu, Khanewal, Punjab, Pakistan"}}
+ Request - 2022-07-13 10:50:42
+{"method":"getCityIdByAddressOrLatLng","address":"C8VW+GVH, Street no.12 Jinnah Town, Jinnah Town, Mian Channu, Khanewal, Punjab, Pakistan","lat":"30.444014999999997","lng":"72.34726333333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C8VW+GVH, Street no.12 Jinnah Town, Jinnah Town, Mian Channu, Khanewal, Punjab, Pakistan"}}
+ Request - 2022-07-13 12:29:55
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Côte d'Ivoire","lat":"5.4130762","lng":"-4.4219064"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CH7H+66 Yassap, C\u00f4te d'Ivoire"}}
+ Request - 2022-07-13 14:57:21
+{"method":"getCityIdByAddressOrLatLng","address":"RFWP+J3W، بيروت، لبنان","lat":"33.8465286","lng":"35.484907"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RFWP+J3W, Beirut, Lebanon"}}
+ Request - 2022-07-13 17:05:50
+{"method":"getCityIdByAddressOrLatLng","address":"129 Itanrin - Ososa Rd, 120101, Ijebu Ode, Nigeria","lat":"6.8181327","lng":"3.9147069"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"129 Itanrin - Ososa Rd, 120101, Ijebu Ode, Nigeria"}}
+ Request - 2022-07-13 20:45:55
+{"method":"getCityIdByAddressOrLatLng","address":"Bénoué, الكاميرون","lat":"9.4195192","lng":"14.0266438"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C29G+RM Gali, Cameroon"}}
+ Request - 2022-07-13 20:56:48
+{"method":"getCityIdByAddressOrLatLng","address":"9MC6+X4, Kampala, Uganda","lat":"0.3732184","lng":"32.6600627"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9MC6+X4, Kampala, Uganda"}}

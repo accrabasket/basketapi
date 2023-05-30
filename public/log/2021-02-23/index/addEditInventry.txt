@@ -1,0 +1,9 @@
+
+ Request - 2021-02-23 14:45:55
+{"product_id":"3623","attribute_id":["3631"],"store_id":["4"],"price":["133.20"],"stock":["30"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}
+ Request - 2021-02-23 14:46:47
+{"product_id":"3622","attribute_id":["3630"],"store_id":["4"],"price":["144.20"],"stock":["30"],"merchant_id":4,"method":"addEditInventry"}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

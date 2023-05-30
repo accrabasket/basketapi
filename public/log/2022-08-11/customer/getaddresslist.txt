@@ -1,0 +1,9 @@
+
+ Request - 2022-08-11 21:56:46
+{"method":"getaddresslist","user_id":"185"}
+ Response :- 
+{"status":"success","data":{"137":{"id":137,"user_id":185,"address_nickname":"Deli Beli","contact_name":"chandan","city_id":1,"city_name":"Sixth Ln, Accra, Ghana","house_number":"osu","street_detail":"6th street","landmark":"opposite chip shop, osu","zipcode":"","area":"","lat":"5.562235","lng":"-0.1869644","created_date":"2020-01-03 22:35:13","updated_date":"2020-01-03 22:35:13"}}}
+ Request - 2022-08-11 22:00:32
+{"method":"getaddresslist","user_id":"185"}
+ Response :- 
+{"status":"success","data":{"137":{"id":137,"user_id":185,"address_nickname":"Deli Beli","contact_name":"chandan","city_id":1,"city_name":"Sixth Ln, Accra, Ghana","house_number":"osu","street_detail":"6th street","landmark":"opposite chip shop, osu","zipcode":"","area":"","lat":"5.562235","lng":"-0.1869644","created_date":"2020-01-03 22:35:13","updated_date":"2020-01-03 22:35:13"}}}

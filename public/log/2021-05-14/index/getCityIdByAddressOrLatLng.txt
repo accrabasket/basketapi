@@ -1,0 +1,17 @@
+
+ Request - 2021-05-14 07:04:00
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-05-14 11:42:28
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tamanrasset, الجزائر","lat":"22.7723355","lng":"5.5516804"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Tamanrasset, Algeria"}}
+ Request - 2021-05-14 14:26:05
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sironj, Madhya Pradesh 464228, India","lat":"24.0992199","lng":"77.6809916"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sironj, Madhya Pradesh 464228, India"}}
+ Request - 2021-05-14 19:14:25
+{"method":"getCityIdByAddressOrLatLng","address":"35 Josiah Chinamano Ave, Harare, Zimbabwe","lat":"-17.8192825","lng":"31.0426268"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"35 Josiah Chinamano Ave, Harare, Zimbabwe"}}

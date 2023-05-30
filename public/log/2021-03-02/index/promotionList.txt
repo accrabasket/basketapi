@@ -1,0 +1,5 @@
+
+ Request - 2021-03-02 04:56:18
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":1},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":2},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":3}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,125 @@
+
+ Request - 2021-05-17 09:15:10
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond/Badam"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:15:14
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:15:21
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:15:25
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:29:13
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:29:29
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:37:03
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:38:00
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:41:55
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:41:58
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:42:00
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"297","action":"add","item_name":"NIDO Essentia Milk Powder"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:42:06
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 09:42:08
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:35:39
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:39:21
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"234","action":"add","item_name":"Coriander Powder(Coriander Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:39:59
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"248","action":"add","item_name":"Fish Curry Masala(Fish Curry Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:40:20
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"267","action":"add","item_name":"Ground Turmeric (Powder)(Ground Turmeric (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:40:50
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"295","action":"add","item_name":"Mustard Seed(Mustard Seed)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:41:18
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:41:59
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"366","action":"add","item_name":"Wheat Flour(Wheat Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:43:14
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"239","action":"add","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:50:20
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"903","action":"add","item_name":"Onion Chicken Flavor Noodles(Onion Chicken Flavor Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:50:58
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:51:45
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"2704","action":"add","item_name":"Chicken Gout Poulet Flavour Noodles(Chicken Gout Poulet Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:52:16
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"237","action":"add","item_name":"Cumin Powder"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:52:22
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"238","action":"add","item_name":"Cumin Seeds"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:52:25
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"236","action":"add","item_name":"Corn Flour"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:52:29
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"240","action":"add","item_name":"Dahi Vada Mix"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:52:34
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"244","action":"add","item_name":"Desiccated Coconut"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 16:52:51
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"2704","action":"add","item_name":"Chicken Gout Poulet Flavour Noodles(Chicken Gout Poulet Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-05-17 17:12:48
+{"method":"addtocart","user_id":"1829","number_of_item":"1","merchant_inventry_id":"366","action":"delete","item_name":"Wheat Flour(Wheat Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

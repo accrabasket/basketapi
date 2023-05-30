@@ -1,0 +1,17 @@
+
+ Request - 2021-04-29 04:22:14
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Niger","lat":"13.9166214","lng":"3.1169971"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Niger"}}
+ Request - 2021-04-29 08:57:23
+{"method":"getCityIdByAddressOrLatLng","address":"Market Rd, Latifabad Unit No. 8 Latifabad Unit 8 Latifabad, Hyderabad, Sindh 71000, Pakistan","lat":"25.3643316","lng":"68.3640058"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Market Rd, Latifabad Unit No. 8 Latifabad Unit 8 Latifabad, Hyderabad, Sindh 71000, Pakistan"}}
+ Request - 2021-04-29 10:09:31
+{"method":"getCityIdByAddressOrLatLng","address":"10\/A MAHAVEER BAGH EXTENSION COLONY, behind PARMESHVARI GARDEN, Motibagh Colony, Pawapuri Colony, Ujjain, Madhya Pradesh 456010, India","lat":"23.1387485","lng":"75.7889266"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10\/A MAHAVEER BAGH EXTENSION COLONY, behind PARMESHVARI GARDEN, Motibagh Colony, Pawapuri Colony, Ujjain, Madhya Pradesh 456010, India"}}
+ Request - 2021-04-29 10:24:40
+{"method":"getCityIdByAddressOrLatLng","address":"10\/A MAHAVEER BAGH EXTENSION COLONY, behind PARMESHVARI GARDEN, Motibagh Colony, Pawapuri Colony, Ujjain, Madhya Pradesh 456010, India","lat":"23.1387485","lng":"75.7889266"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10\/A MAHAVEER BAGH EXTENSION COLONY, behind PARMESHVARI GARDEN, Motibagh Colony, Pawapuri Colony, Ujjain, Madhya Pradesh 456010, India"}}

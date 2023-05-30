@@ -1,0 +1,57 @@
+
+ Request - 2022-07-30 00:23:13
+{"method":"getitemintocart","guest_user_id":"ce03bf71f185b6ad"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 00:23:48
+{"method":"getitemintocart","guest_user_id":"ce03bf71f185b6ad"}
+ Response :- 
+{"status":"success","data":{"2068":{"id":22138,"user_id":0,"guest_user_id":"ce03bf71f185b6ad","merchant_inventry_id":2068,"item_name":"Irish Whiskey(Irish Whiskey)","number_of_item":1,"created_date":"2022-07-30 00:23:47"}},"productDetails":{"status":"success","data":{"2068":{"id":2068,"price":"50.00","product_id":2402,"merchant_id":6,"store_id":6,"merchant_product_code":"AFL513","product_name":"Irish Whiskey","product_desc":"Jameson Irish Whiskey is a blended Irish whiskey. What\u2019s that we hear you say. Well first we take the best of pot still and fine grain whiskeys. Then we triple distil them - not because we have to because we want to as it gives it its signature smoothness. Finally, we age them in oak casks for a minimum of 4 years.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Aged Irish Whiskey, Water, Caramel E150(a)\",\"Warning\":\"Drinking distilled Spirits, Beer, Coolers, Wine and other Alcoholic Beverages may increase cancer risk, and, during pregnancy, can cause birth defects.\"}","brand_name":"Jameson","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"CL","quantity":35,"tax_value":"3"}},"productImageData":{"2402":[{"id":3480,"type":"product","image_id":2402,"image_name":"AFL511.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-30 00:31:54
+{"method":"getitemintocart","guest_user_id":"400640e4c19e6dc6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 10:27:45
+{"method":"getitemintocart","guest_user_id":"0aee248784b1afb5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 10:45:20
+{"method":"getitemintocart","guest_user_id":"14fbcedbcb3ae27a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 10:45:51
+{"method":"getitemintocart","guest_user_id":"14fbcedbcb3ae27a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 10:47:02
+{"method":"getitemintocart","guest_user_id":"14fbcedbcb3ae27a"}
+ Response :- 
+{"status":"success","data":{"452":{"id":22139,"user_id":0,"guest_user_id":"14fbcedbcb3ae27a","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2022-07-30 10:47:02"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-30 10:47:04
+{"method":"getitemintocart","guest_user_id":"14fbcedbcb3ae27a"}
+ Response :- 
+{"status":"success","data":{"452":{"id":22139,"user_id":0,"guest_user_id":"14fbcedbcb3ae27a","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":2,"created_date":"2022-07-30 10:47:02"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-30 10:47:06
+{"method":"getitemintocart","guest_user_id":"14fbcedbcb3ae27a"}
+ Response :- 
+{"status":"success","data":{"452":{"id":22139,"user_id":0,"guest_user_id":"14fbcedbcb3ae27a","merchant_inventry_id":452,"item_name":"Vodka Blue(Vodka Blue)","number_of_item":1,"created_date":"2022-07-30 10:47:02"}},"productDetails":{"status":"success","data":{"452":{"id":452,"price":"88.99","product_id":739,"merchant_id":4,"store_id":4,"merchant_product_code":"14742","product_name":"Vodka Blue","product_desc":"Absolut Vodka is one of the most famous vodkas in the world. Launched in the US in 1979, it completely redefined the premium vodka landscape, becoming synonymous with art, culture and nightlife. By starting a revolution in cocktail creation and launching a range of flavors never before seen on the market, Absolut became an icon in its own right. Here you can discover some of Absolut\u2019s most popular flavors and products, and see for yourself why it is still regarded today as the true taste of vodka around the globe.\r\nAbsolut Vodka was first launched in New York in 1979. It soon became the talk of the town, in the US and eventually of the world. But the recipe behind the clean and natural taste of Absolut is actually older than 30 years. So is the 18th century medicine bottle found in an antique store in Stockholm, Sweden that gave inspiration to the iconic Absolut Vodka bottle.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"{\"Ingredients\":\"Water and Winter Wheat\"}","brand_name":"Absolut","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"739":[{"id":783,"type":"product","image_id":739,"image_name":"739_1545100747.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-07-30 10:47:07
+{"method":"getitemintocart","guest_user_id":"14fbcedbcb3ae27a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 18:56:12
+{"method":"getitemintocart","guest_user_id":"7c2c65facf2bbab8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 19:33:03
+{"method":"getitemintocart","guest_user_id":"81d473d07bb3be3d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 20:24:08
+{"method":"getitemintocart","guest_user_id":"60360667b1f46a73"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-07-30 20:42:32
+{"method":"getitemintocart","guest_user_id":"b2346754f7c7c3cb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

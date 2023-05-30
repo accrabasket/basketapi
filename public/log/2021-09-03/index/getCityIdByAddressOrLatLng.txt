@@ -1,0 +1,17 @@
+
+ Request - 2021-09-03 11:31:03
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Sénégal","lat":"14.716677","lng":"-17.4676861"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"127 Rue SC 93, Dakar, Senegal"}}
+ Request - 2021-09-03 15:41:02
+{"method":"getCityIdByAddressOrLatLng","address":"R. Ermelinda Gomes, Bissau, Guinée-Bissau","lat":"11.8692479","lng":"-15.5893915"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R. Ermelinda Gomes, Bissau, Guinea-Bissau"}}
+ Request - 2021-09-03 16:50:07
+{"method":"getCityIdByAddressOrLatLng","address":"29 Rue DF 273, Sénégal","lat":"14.7393031","lng":"-17.4090928"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"29 Rue DF 273, Senegal"}}
+ Request - 2021-09-03 20:42:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Abidjan, Côte d'Ivoire","lat":"5.4280554","lng":"-4.0530987"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Abidjan, C\u00f4te d'Ivoire"}}

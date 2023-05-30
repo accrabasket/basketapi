@@ -1,0 +1,33 @@
+
+ Request - 2022-08-18 07:19:49
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-18 12:25:23
+{"method":"getitemintocart","guest_user_id":"14620778b44d4df7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-18 13:07:38
+{"method":"getitemintocart","guest_user_id":"277bd7f055f638dc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-18 13:07:49
+{"method":"getitemintocart","guest_user_id":"277bd7f055f638dc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-18 13:07:52
+{"method":"getitemintocart","guest_user_id":"277bd7f055f638dc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-18 15:52:06
+{"method":"getitemintocart","guest_user_id":"9d9d0d9b9c83d07b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-18 22:46:21
+{"method":"getitemintocart","guest_user_id":"12368fd8b4e727c3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-18 22:53:22
+{"method":"getitemintocart","guest_user_id":"81d473d07bb3be3d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

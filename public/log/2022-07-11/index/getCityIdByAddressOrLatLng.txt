@@ -1,0 +1,17 @@
+
+ Request - 2022-07-11 03:21:54
+{"method":"getCityIdByAddressOrLatLng","address":"NH50, Karnataka 585104, India","lat":"17.4630595","lng":"76.9083039"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FW75+68 Ankalga, Karnataka, India"}}
+ Request - 2022-07-11 05:05:42
+{"method":"getCityIdByAddressOrLatLng","address":"QWCR+57F, Karang Ketuan, Kec. Lubuk Linggau Sel. II, Kota Lubuklinggau, Sumatera Selatan 31626, Indonesia","lat":"-3.2299441","lng":"102.9423654"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QWCR+2W Karang Ketuan, Lubuklinggau City, South Sumatra, Indonesia"}}
+ Request - 2022-07-11 09:47:44
+{"method":"getCityIdByAddressOrLatLng","address":"10 Ogoja Rd, 480106, Abakaliki, Nigeria","lat":"6.3226279","lng":"8.1080872"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Ogoja Rd, 480106, Abakaliki, Nigeria"}}
+ Request - 2022-07-11 13:03:23
+{"method":"getCityIdByAddressOrLatLng","address":"9W9V+P4P, Jl. Singkil - Rimo, Tanah Bara, Kec. Gn. Meriah, Kabupaten Aceh Singkil, Aceh 24791, Indonesia","lat":"2.3701792","lng":"97.9429326"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9W9V+P4P, Jl. Singkil - Rimo, Tanah Bara, Kec. Gn. Meriah, Kabupaten Aceh Singkil, Aceh 24791, Indonesia"}}

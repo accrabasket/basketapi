@@ -13,7 +13,7 @@ class ezeepay {
     var $merchantCode;
     var $secretKey;
     public function __construct() {
-        $this->url = 'https://payments.ezeepaygh.com/api';
+        $this->url = 'https://payments.ezipaygh.com/api';
         $this->merchantId = 'f9d844f5-9f1c-4f24-857c-d012a04b5230';
         $this->merchantCode = 'AFRBAS';         
         $this->secretKey = '&3bwa3*ngedSne54$U8u';
@@ -60,10 +60,10 @@ class ezeepay {
             unset($fields['SecretKey']);
             //unset($fields['MerchantId']);
             unset($fields['MerchantCode']);
-            $response['paymentUrl'] = 'https://payments.ezeepaygh.com/mobile/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
+            $response['paymentUrl'] = 'https://payments.ezipaygh.com/mobile/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus';
             $response['paymentDetails'] = $fields;
         }else {
-            $response['paymentUrl'] = 'https://payments.ezeepaygh.com/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus?agent=w';
+            $response['paymentUrl'] = 'https://payments.ezipaygh.com/checkout?token='.$response['TokenId'].'&returnurl=http://172.104.239.54/basketapi/application/cron/updatepaymentstatus?agent=w';
         }
         return $response;
     }

@@ -1,0 +1,9 @@
+
+ Request - 2021-01-03 12:56:36
+{"method":"updateorderbyrider","rider_id":"24","order_id":"order_m4_396","order_status":"dispatched"}
+ Response :- 
+{"status":"success","msg":"order updated successfully."}
+ Request - 2021-01-03 12:56:37
+{"method":"updateorderbyrider","rider_id":"24","order_id":"order_m4_396","order_status":"dispatched"}
+ Response :- 
+{"status":"success","msg":"order updated successfully."}

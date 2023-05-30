@@ -1,0 +1,33 @@
+
+ Request - 2022-02-12 19:35:47
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:35:57
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"766","action":"add","item_name":"First Infant Milk(First Infant Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:36:01
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"769","action":"add","item_name":"Gold Corn Flakes(Gold Corn Flakes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:36:08
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:36:23
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"1066","action":"add","item_name":"Hand Sanitizer(Hand Sanitizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:36:32
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:36:36
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"2830","action":"delete","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-12 19:36:44
+{"method":"addtocart","guest_user_id":"71271ff529352c32","number_of_item":"1","merchant_inventry_id":"3177","action":"add","item_name":"SUNFLOWER OIL 6x1.8L(SUNFLOWER OIL 6x1.8L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

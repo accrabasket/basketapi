@@ -1,0 +1,9 @@
+
+ Request - 2022-02-15 08:34:51
+{"method":"addtocart","guest_user_id":"3f9b892ff8e25e60","number_of_item":"1","merchant_inventry_id":"771","action":"add","item_name":"Kingsbite Milk Chocolate (10 Tabs\/Box)(Kingsbite Milk Chocolate (10 Tabs\/Box))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-02-15 12:39:08
+{"method":"addtocart","guest_user_id":"bb3934c5bc2e75fb","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

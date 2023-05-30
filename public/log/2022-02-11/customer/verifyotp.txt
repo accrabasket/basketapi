@@ -1,0 +1,5 @@
+
+ Request - 2022-02-11 04:02:28
+{"method":"verifyotp","country_code":"+233","mobile_number":"9030303030","otp_type":"register","otp":"7373"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"3da5875a34347303fb45f4ed8e7afab7"}}

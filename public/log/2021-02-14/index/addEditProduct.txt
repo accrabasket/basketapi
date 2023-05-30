@@ -1,0 +1,5 @@
+
+ Request - 2021-02-14 06:26:27
+{"product_name":"Organic Pasta","brand_name":"Garofalo","nutrition":"","category_id":"86","promotion_id":"","item_code":"Haus_331","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3791","attribute":[{"name":"Organic Pasta","unit":"gm","quantity":"500","commission_value":"0.0000","commission_type":"flat","id":"3799"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3791","attribute":["3799"]}}

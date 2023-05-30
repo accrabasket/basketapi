@@ -1,0 +1,41 @@
+
+ Request - 2022-01-20 00:44:41
+{"method":"getCityIdByAddressOrLatLng","address":"1, Jl. Pengantin Ali No.4, RT.1\/RW.6, Ciracas, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13740, Indonesia","lat":"-6.3234175","lng":"106.8841975"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1, Jl. Pengantin Ali No.4, RT.1\/RW.6, Ciracas, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13740, Indonesia"}}
+ Request - 2022-01-20 05:54:21
+{"method":"getCityIdByAddressOrLatLng","address":"4 Samuel Sode St, Egbe 102213, Lagos, Nigeria","lat":"6.5418249","lng":"3.283042"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 Samuel Sode St, Egbe 102213, Lagos, Nigeria"}}
+ Request - 2022-01-20 07:29:29
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Subukia, Kenya","lat":"-0.0231738","lng":"36.195432"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X5GW+P5 Subukia, Kenya"}}
+ Request - 2022-01-20 11:39:38
+{"method":"getCityIdByAddressOrLatLng","address":"Social Science Building, Bangladesh","lat":"22.4734961","lng":"91.7863167"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Social Science Building, Bangladesh"}}
+ Request - 2022-01-20 13:47:42
+{"method":"getCityIdByAddressOrLatLng","address":"C8JP+93M, Chandrāi Chandrai, Lahore, Punjab, Pakistan","lat":"31.430283","lng":"74.3354691"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C8JP+93M, Chandr\u0101i Chandrai, Lahore, Punjab, Pakistan"}}
+ Request - 2022-01-20 14:51:21
+{"method":"getCityIdByAddressOrLatLng","address":"36 Muramba Rd, Lusaka, Zambia","lat":"-15.4493922","lng":"28.3316582"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"36 Muramba Rd, Lusaka, Zambia"}}
+ Request - 2022-01-20 14:53:32
+{"method":"getCityIdByAddressOrLatLng","address":"563C+VG2, Bator Sateh, The Gambia","lat":"13.153105000000002","lng":"-16.778309999999998"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"563C+6M Bator Sateh, The Gambia"}}
+ Request - 2022-01-20 16:06:22
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Burkina Faso","lat":"12.2905038","lng":"-1.4341903"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7HR8+68 Ouagadougou, Burkina Faso"}}
+ Request - 2022-01-20 16:06:23
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Burkina Faso","lat":"12.2905038","lng":"-1.4341903"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7HR8+68 Ouagadougou, Burkina Faso"}}
+ Request - 2022-01-20 22:05:22
+{"method":"getCityIdByAddressOrLatLng","address":"P2, Maroua, Cameroon","lat":"10.603356","lng":"14.3178007"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J839+84 Maroua, Cameroon"}}

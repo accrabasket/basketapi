@@ -1,0 +1,29 @@
+
+ Request - 2021-03-28 08:57:03
+{"method":"getCityIdByAddressOrLatLng","address":"1 Orodu St, Apapa, Lagos, Nigeria","lat":"6.4535369","lng":"3.3510139"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1 Orodu St, Apapa, Lagos, Nigeria"}}
+ Request - 2021-03-28 08:57:09
+{"method":"getCityIdByAddressOrLatLng","address":"1 Orodu St, Apapa, Lagos, Nigeria","lat":"6.4535369","lng":"3.3510139"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1 Orodu St, Apapa, Lagos, Nigeria"}}
+ Request - 2021-03-28 08:57:15
+{"method":"getCityIdByAddressOrLatLng","address":"1 Orodu St, Apapa, Lagos, Nigeria","lat":"6.4535369","lng":"3.3510139"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1 Orodu St, Apapa, Lagos, Nigeria"}}
+ Request - 2021-03-28 08:57:26
+{"method":"getCityIdByAddressOrLatLng","address":"1 Orodu St, Apapa, Lagos, Nigeria","lat":"6.4535369","lng":"3.3510139"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1 Orodu St, Apapa, Lagos, Nigeria"}}
+ Request - 2021-03-28 11:02:09
+{"method":"getCityIdByAddressOrLatLng","address":"Obaakrowa Close, Accra, Ghana","lat":"5.5866746","lng":"-0.2035463"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Obaakrowa Close, Accra, Ghana"}}
+ Request - 2021-03-28 18:52:27
+{"method":"getCityIdByAddressOrLatLng","address":"fass boye, Fas Boue, Sénégal","lat":"15.2635148","lng":"-16.847255"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"fass boye, Fas Boue, Senegal"}}
+ Request - 2021-03-28 18:52:29
+{"method":"getCityIdByAddressOrLatLng","address":"fass boye, Fas Boue, Sénégal","lat":"15.2635148","lng":"-16.847255"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"fass boye, Fas Boue, Senegal"}}

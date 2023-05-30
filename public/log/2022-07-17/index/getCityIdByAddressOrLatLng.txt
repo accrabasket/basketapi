@@ -1,0 +1,17 @@
+
+ Request - 2022-07-17 04:41:01
+{"method":"getCityIdByAddressOrLatLng","address":"R7X8+MVG, Krishna Nagar, Agartala, Tripura 799002, India","lat":"23.8490344","lng":"91.2676385"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R7X8+MVG, Krishna Nagar, Agartala, Tripura 799002, India"}}
+ Request - 2022-07-17 16:21:19
+{"method":"getCityIdByAddressOrLatLng","address":"Chiniot - Ring Rd, Chiniot, Punjab, Pakistan","lat":"31.7424484","lng":"72.9931124"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PXRV+X6 Chiniot, Pakistan"}}
+ Request - 2022-07-17 19:22:04
+{"method":"getCityIdByAddressOrLatLng","address":"5PHQ+92J, Ouezzin Ville, Bobo-Dioulasso, Burkina Faso","lat":"11.1791367","lng":"-4.2616986"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5PHQ+92J, Ouezzin Ville, Bobo-Dioulasso, Burkina Faso"}}
+ Request - 2022-07-17 20:55:29
+{"method":"getCityIdByAddressOrLatLng","address":"8W42+8F2, Gbintiri, Ghana","lat":"10.3053038","lng":"-0.0983849"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8W42+8F2, Gbintiri, Ghana"}}

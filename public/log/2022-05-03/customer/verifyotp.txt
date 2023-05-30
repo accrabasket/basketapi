@@ -1,0 +1,9 @@
+
+ Request - 2022-05-03 19:59:46
+{"method":"verifyotp","country_code":"+233","mobile_number":"276240025","otp_type":"register","otp":"9514"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"9527e2d227aebeccc64d76a16366e60c"}}
+ Request - 2022-05-03 21:43:01
+{"method":"verifyotp","country_code":"+233","mobile_number":"0256928082","otp_type":"register","otp":"9925"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"e0f1a79dcfe41cb0902bc218b32e5ce3"}}

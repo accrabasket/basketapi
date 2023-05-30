@@ -1,0 +1,21 @@
+
+ Request - 2022-07-18 00:25:28
+{"method":"getCityIdByAddressOrLatLng","address":"4397+QXP, Gagnoa, Côte d'Ivoire","lat":"6.1198212","lng":"-5.9335408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4398+WH Gagnoa, C\u00f4te d'Ivoire"}}
+ Request - 2022-07-18 03:17:18
+{"method":"getCityIdByAddressOrLatLng","address":"Atariya, Sardar Nagar, Uttar Pradesh 244104, India","lat":"28.9110122","lng":"78.8685192"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Atariya, Sardar Nagar, Uttar Pradesh 244104, India"}}
+ Request - 2022-07-18 05:50:09
+{"method":"getCityIdByAddressOrLatLng","address":"P6VM+FRQ, Shatgara, Bangladesh","lat":"25.7441115","lng":"89.2340807"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P6VM+FRQ, Shatgara, Bangladesh"}}
+ Request - 2022-07-18 14:12:21
+{"method":"getCityIdByAddressOrLatLng","address":"A9, 820105, Nigeria","lat":"13.1050014","lng":"7.2784135"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"474H+29 U-Kaga, Nigeria"}}
+ Request - 2022-07-18 16:20:08
+{"method":"getCityIdByAddressOrLatLng","address":"9H6X+RJ3, Dang, Odisha 768028, India","lat":"21.3621916","lng":"83.5984199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9H6X+RJ3, Dang, Odisha 768028, India"}}

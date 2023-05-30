@@ -1,0 +1,17 @@
+
+ Request - 2022-02-15 08:32:10
+{"method":"getCityIdByAddressOrLatLng","address":"R558+HVM, 600282, Maiduguri, Nigeria","lat":"11.8106962","lng":"13.1690768"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R569+7J Maiduguri, Nigeria"}}
+ Request - 2022-02-15 11:19:04
+{"method":"getCityIdByAddressOrLatLng","address":"X3CM+Q3R, Sector 11-G Sector 11 G North Karachi Twp, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9719736","lng":"67.0827069"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X3CM+Q3R, Sector 11-G Sector 11 G North Karachi Twp, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-02-15 12:38:54
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Sénégal","lat":"15.6710636","lng":"-15.9871487"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M2C7+C4 Keur Massamba, Senegal"}}
+ Request - 2022-02-15 16:15:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Serrekunda, Serrekunda, جامبيا","lat":"13.4298239","lng":"-16.7036987"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Serrekunda, Serrekunda, The Gambia"}}

@@ -1,0 +1,81 @@
+
+ Request - 2021-03-14 04:43:19
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 04:43:20
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 04:43:45
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 04:55:23
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 04:55:24
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 04:55:32
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 04:55:33
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalNumberOfOrder":0}
+ Request - 2021-03-14 05:04:49
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:05:23
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:05:23
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:05:40
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:05:40
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:05:50
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:06:00
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 05:50:47
+{"page":"1","method":"stockList","out_of_stock":1,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 13:13:35
+{"page":"1","method":"stockList","out_of_stock":1,"merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 13:13:41
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 13:13:42
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 13:17:30
+{"page":1,"pagination":"pagination","method":"stockList","merchant_id":2}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}
+ Request - 2021-03-14 13:17:31
+{"page":"1","method":"stockList","merchant_id":2,"pagination":1}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"merchant_product_code":null,"product_id":1,"attribute_id":1,"store_id":1,"merchant_id":2,"price":"20.00","stock":2,"created_date":"2021-03-14 05:04:38","updated_date":"2021-03-14 05:04:38","name":"fruit","unit":"kg","quantity":1,"product_name":"TestProduct","store_name":"Test"}},"totalNumberOfOrder":1}

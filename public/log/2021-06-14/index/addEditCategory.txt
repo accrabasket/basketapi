@@ -1,0 +1,13 @@
+
+ Request - 2021-06-14 09:07:19
+{"parent_category_id":"67","category_name":"Fathers Day Hamper","category_sequence":"1","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-06-14 09:07:50
+{"parent_category_id":"67","category_name":"Father Christmas Hampers","category_des":"","category_sequence":"2","id":"135","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-06-14 09:08:18
+{"parent_category_id":"67","category_name":"Father Christmas Hampers","category_des":"","category_sequence":"5","id":"135","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}

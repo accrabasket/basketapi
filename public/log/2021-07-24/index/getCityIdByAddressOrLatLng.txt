@@ -1,0 +1,17 @@
+
+ Request - 2021-07-24 08:01:35
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ojudo, Nigeria","lat":"7.6110053","lng":"4.4376642"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ojudo, Nigeria"}}
+ Request - 2021-07-24 16:45:17
+{"method":"getCityIdByAddressOrLatLng","address":"Nii Tetteh Amui Street, Tema, Ghana","lat":"5.6880885","lng":"-0.0306493"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Nii Tetteh Amui Street, Tema, Ghana"}}
+ Request - 2021-07-24 17:49:03
+{"method":"getCityIdByAddressOrLatLng","address":"A. à péage, Dakar, Sénégal","lat":"14.7581357","lng":"-17.3528295"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"A1, Dakar, Senegal"}}
+ Request - 2021-07-24 18:29:12
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Yathrib, العراق","lat":"33.9060345","lng":"44.4342813"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Yathrib, Iraq"}}

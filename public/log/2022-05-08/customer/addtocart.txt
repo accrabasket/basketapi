@@ -1,0 +1,41 @@
+
+ Request - 2022-05-08 18:07:21
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"1097","action":"delete","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:23
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"1035","action":"delete","item_name":"Hot Chilli Pickle(Hot Chilli Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:25
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"225","action":"delete","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:27
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"238","action":"delete","item_name":"Cumin Seeds(Cumin Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:28
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"238","action":"delete","item_name":"Cumin Seeds(Cumin Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:30
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"238","action":"delete","item_name":"Cumin Seeds(Cumin Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:31
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"243","action":"delete","item_name":"Deggi Mirch(Deggi Mirch)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:33
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"243","action":"delete","item_name":"Deggi Mirch(Deggi Mirch)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:35
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"279","action":"delete","item_name":"Kashmiri Mirch Powder(Kashmiri Mirch Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-08 18:07:38
+{"method":"addtocart","user_id":"8307","number_of_item":"1","merchant_inventry_id":"286","action":"delete","item_name":"Madras Curry Powder(Madras Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

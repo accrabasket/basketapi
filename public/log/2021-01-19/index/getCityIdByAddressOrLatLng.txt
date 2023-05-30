@@ -1,0 +1,29 @@
+
+ Request - 2021-01-19 00:41:17
+{"method":"getCityIdByAddressOrLatLng","address":"Assin Fosu, Foso, Ghana","lat":"5.6925708","lng":"-1.2687946"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Assin Fosu, Foso, Ghana"}}
+ Request - 2021-01-19 00:52:44
+{"method":"getCityIdByAddressOrLatLng","address":"Accra - Tema Motorway, Accra, Ghana","lat":"5.6348604","lng":"-0.1437697"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Accra - Tema Motorway, Accra, Ghana"}}
+ Request - 2021-01-19 01:16:42
+{"method":"getCityIdByAddressOrLatLng","address":"86 شارع 26 يوليو، الحمراء الثانية، قسم أول أسيوط، أسيوط، مصر","lat":"27.1800665","lng":"31.1826161"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"86 Youlio Farouk Sbekn 26, Al Hamraa Ath Thaneyah, Asyut First, Assiut Governorate, Egypt"}}
+ Request - 2021-01-19 01:21:02
+{"method":"getCityIdByAddressOrLatLng","address":"GJ SH 25, Gal Kotadi, Gujarat 365435, India","lat":"21.8283003","lng":"71.3540463"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GJ SH 25, Gal Kotadi, Gujarat 365435, India"}}
+ Request - 2021-01-19 11:17:03
+{"method":"getCityIdByAddressOrLatLng","address":"Turkey","lat":"38.963745","lng":"35.243322"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Eski\u00f6merler, Unnamed Road, 38100 Kocasinan\/Kayseri, Turkey"}}
+ Request - 2021-01-19 16:51:04
+{"method":"getCityIdByAddressOrLatLng","address":"Gulzar Jageer Rd, Phool Nagar, Kasur, Punjab, Pakistan","lat":"31.208496","lng":"73.9438809"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Gulzar Jageer Rd, Phool Nagar, Kasur, Punjab, Pakistan"}}
+ Request - 2021-01-19 23:32:11
+{"method":"getCityIdByAddressOrLatLng","address":"5 Dadeban Rd, Accra, Ghana","lat":"5.5780999","lng":"-0.2237097"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Dadeban Rd, Accra, Ghana"}}

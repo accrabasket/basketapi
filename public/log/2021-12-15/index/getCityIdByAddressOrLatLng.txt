@@ -1,0 +1,25 @@
+
+ Request - 2021-12-15 02:11:40
+{"method":"getCityIdByAddressOrLatLng","address":"CH9Q+66W, Naya Bazar, Uttar Pradesh 221409, India","lat":"25.4177242","lng":"82.5887322"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CH9Q+66W, Naya Bazar, Uttar Pradesh 221409, India"}}
+ Request - 2021-12-15 09:54:04
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-12-15 11:57:52
+{"method":"getCityIdByAddressOrLatLng","address":"Tonkolili, Sierra Leone","lat":"8.5773286","lng":"-11.7006026"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H7GX+WQ Makong, Sierra Leone"}}
+ Request - 2021-12-15 12:04:49
+{"method":"getCityIdByAddressOrLatLng","address":"E 46, Abidjan, Côte d'Ivoire","lat":"5.3414705","lng":"-3.9488859"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"83R2+HC Abidjan, C\u00f4te d'Ivoire"}}
+ Request - 2021-12-15 16:23:24
+{"method":"getCityIdByAddressOrLatLng","address":"9PG2+JHG، الزبير، العراق","lat":"30.3768803","lng":"47.7014364"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9PG2+JHG, Az Zubayr, Iraq"}}
+ Request - 2021-12-15 19:43:16
+{"method":"getCityIdByAddressOrLatLng","address":"01 Bp 562 Abidjan 01, Abidjan, Côte d'Ivoire","lat":"5.3777783","lng":"-3.994861"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"01 Bp 562 Abidjan 01, Abidjan, C\u00f4te d'Ivoire"}}

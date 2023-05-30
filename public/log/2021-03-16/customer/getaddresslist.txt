@@ -1,0 +1,25 @@
+
+ Request - 2021-03-16 01:38:05
+{"method":"getaddresslist","user_id":"2123"}
+ Response :- 
+{"status":"success","data":{"420":{"id":420,"user_id":2123,"address_nickname":"gxvxbdbd","contact_name":"hdgdhdhd","city_id":1,"city_name":"Twifo Praso-Foso, Foso, Ghana","house_number":"54","street_detail":"gxgdhd","landmark":"vxbxbx","zipcode":"1230","area":"","lat":"5.6895859","lng":"","created_date":"2021-03-13 14:59:46","updated_date":"2021-03-13 14:59:46"}}}
+ Request - 2021-03-16 10:57:08
+{"method":"getaddresslist","user_id":"2140"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-16 11:25:21
+{"method":"getaddresslist","user_id":"2140"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-16 11:58:58
+{"method":"getaddresslist","user_id":"2140"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-16 12:01:51
+{"method":"getaddresslist","user_id":"2140"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-16 12:04:40
+{"method":"getaddresslist","user_id":"2140"}
+ Response :- 
+{"status":"success","data":{"425":{"id":425,"user_id":2140,"address_nickname":"sago","contact_name":"James","city_id":1,"city_name":"13 Dade Link, Accra, Ghana","house_number":"3rd dade link","street_detail":"dade link","landmark":"Ezipay office","zipcode":"","area":"","lat":"5.575647","lng":"","created_date":"2021-03-16 12:04:40","updated_date":"2021-03-16 12:04:40"}}}

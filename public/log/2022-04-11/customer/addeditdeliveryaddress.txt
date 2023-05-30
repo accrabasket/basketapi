@@ -1,0 +1,5 @@
+
+ Request - 2022-04-11 20:10:15
+{"method":"addeditdeliveryaddress","house_number":"plt5 blkA ","area":"","street_detail":"kokoben sakora","contact_name":"Nana Akua","city_name":"Unnamed Road, Kumasi, Ghana","city_id":"1","lat":"6.6355654","long":"-1.6566663","user_id":"8220","address_nickname":"sakora park","landmark":"Deeper life church","zipcode":"2020"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":615}}

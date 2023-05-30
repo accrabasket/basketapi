@@ -1,0 +1,21 @@
+
+ Request - 2021-02-20 10:32:54
+{"method":"getCityIdByAddressOrLatLng","address":"Ethiopian Highlands, Ethiopia","lat":"12.533333","lng":"41.385556"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Meskana Geleblu, Ethiopia"}}
+ Request - 2021-02-20 10:37:02
+{"method":"getCityIdByAddressOrLatLng","address":"6343، الاندلس، الخرج 16439 4194، السعودية","lat":"24.1441869","lng":"47.3398317"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6343, Al Andalus, Al-Kharj 16439\u00a04194, Saudi Arabia"}}
+ Request - 2021-02-20 17:23:37
+{"method":"getCityIdByAddressOrLatLng","address":"Barbaros Hayrettin Paşa Mah, 11. Cd. No:8, 34520 Beylikdüzü Osb\/Esenyurt\/İstanbul, Türkiye","lat":"41.0173991","lng":"28.6431694"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Barbaros Hayrettin Pa\u015fa Mah, 11. Cd. No:8, 34520 Beylikd\u00fcz\u00fc Osb\/Esenyurt\/\u0130stanbul, Turkey"}}
+ Request - 2021-02-20 19:50:19
+{"method":"getCityIdByAddressOrLatLng","address":"9267 Greenleaf Dr, Spanish Fort, AL 36527, USA","lat":"30.6899395","lng":"-87.8646261"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9267 Greenleaf Dr, Spanish Fort, AL 36527, USA"}}
+ Request - 2021-02-20 20:57:11
+{"method":"getCityIdByAddressOrLatLng","address":"TT Krishnamachari Rd, CIT Colony, Mylapore, Chennai, Tamil Nadu, Inde","lat":"13.0417071","lng":"80.2588483"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Narada Gana Sabha, Teynampet, Chennai, Tamil Nadu 600018, India"}}

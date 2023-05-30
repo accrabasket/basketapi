@@ -1,0 +1,37 @@
+
+ Request - 2022-08-27 09:12:14
+{"method":"getitemintocart","guest_user_id":"20430384d9afc39f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-27 11:32:45
+{"method":"getitemintocart","guest_user_id":"ba667c4266dcc3fc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-27 11:33:11
+{"method":"getitemintocart","guest_user_id":"ba667c4266dcc3fc"}
+ Response :- 
+{"status":"success","data":{"672":{"id":22359,"user_id":0,"guest_user_id":"ba667c4266dcc3fc","merchant_inventry_id":672,"item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)","number_of_item":1,"created_date":"2022-08-27 11:33:10"}},"productDetails":{"status":"success","data":{"672":{"id":672,"price":"11.29","product_id":956,"merchant_id":4,"store_id":4,"merchant_product_code":"70100","product_name":"Lemon - Dishwashing Liquid","product_desc":"With the combined cleaning power of 100 lemons, Sunlight Dishwashing Liquid easily removes tough grease leaving your dishes shining bright and residue free.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Anionic detergents, solubilisers, colourants and perfume\",\"Preparation and Usage\":\"Fill the sink with water and add a teaspoon of Sunlight Dishwashing Liquid under running water.\\r\\nAdd dishes to the foamy water and get washing!\"}","brand_name":"Sunlight","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"956":[{"id":832,"type":"product","image_id":956,"image_name":"956_1545121261.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-27 11:33:17
+{"method":"getitemintocart","guest_user_id":"ba667c4266dcc3fc"}
+ Response :- 
+{"status":"success","data":{"672":{"id":22359,"user_id":0,"guest_user_id":"ba667c4266dcc3fc","merchant_inventry_id":672,"item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)","number_of_item":1,"created_date":"2022-08-27 11:33:10"}},"productDetails":{"status":"success","data":{"672":{"id":672,"price":"11.29","product_id":956,"merchant_id":4,"store_id":4,"merchant_product_code":"70100","product_name":"Lemon - Dishwashing Liquid","product_desc":"With the combined cleaning power of 100 lemons, Sunlight Dishwashing Liquid easily removes tough grease leaving your dishes shining bright and residue free.","default_discount_type":"","default_discount_value":"0","category_id":139,"custom_info":"{\"Ingredients\":\"Anionic detergents, solubilisers, colourants and perfume\",\"Preparation and Usage\":\"Fill the sink with water and add a teaspoon of Sunlight Dishwashing Liquid under running water.\\r\\nAdd dishes to the foamy water and get washing!\"}","brand_name":"Sunlight","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"30","unit":"ml","quantity":750,"tax_value":"3"}},"productImageData":{"956":[{"id":832,"type":"product","image_id":956,"image_name":"956_1545121261.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-27 11:33:28
+{"method":"getitemintocart","guest_user_id":"ba667c4266dcc3fc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-27 11:58:15
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-27 11:58:27
+{"method":"getitemintocart","guest_user_id":"9e23b9a178c6ec00"}
+ Response :- 
+{"status":"success","data":{"2966":{"id":8845,"user_id":0,"guest_user_id":"9e23b9a178c6ec00","merchant_inventry_id":2966,"item_name":"Italian Cheese Slices(Italian Cheese Slices)","number_of_item":2,"created_date":"2020-10-16 03:33:31"}},"productDetails":{"status":"success","data":{"2966":{"id":2966,"price":"13.20","product_id":3350,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Italian Cheese Slices","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Emborg","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"3350":[{"id":4028,"type":"product","image_id":3350,"image_name":"VID316.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-08-27 12:38:58
+{"method":"getitemintocart","guest_user_id":"b8c2cf63d212d303"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-08-27 17:44:59
+{"method":"getitemintocart","guest_user_id":"337e3f59a6637289"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-10-23 16:13:49
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Pointe-Noire, République du Congo","lat":"-4.7890474","lng":"11.9000442"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6W62+92 Pointe-Noire, Republic of the Congo"}}
+ Request - 2022-10-23 16:16:31
+{"method":"getCityIdByAddressOrLatLng","address":"F54M+X8R, Chhatarpur Road, Near Church, Fetehpur Beri, Asola, Fatehpur Beri, New Delhi, Delhi 110074, India","lat":"28.4574963","lng":"77.183204"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F54M+X8R, Chhatarpur Road, Near Church, Fetehpur Beri, Asola, Fatehpur Beri, New Delhi, Delhi 110074, India"}}

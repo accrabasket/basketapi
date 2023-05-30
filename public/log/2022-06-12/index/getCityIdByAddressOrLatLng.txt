@@ -1,0 +1,25 @@
+
+ Request - 2022-06-12 03:32:06
+{"method":"getCityIdByAddressOrLatLng","address":"200 Jln Sultan, Singapore 199018","lat":"1.3036547","lng":"103.8612408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"200 Jln Sultan, Singapore 199018"}}
+ Request - 2022-06-12 09:32:21
+{"method":"getCityIdByAddressOrLatLng","address":"J7VW+MCF, Kinshasa, République démocratique du Congo","lat":"-4.3558678","lng":"15.2959873"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J7VW+MCF, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-06-12 10:18:38
+{"method":"getCityIdByAddressOrLatLng","address":"Повітрофлотський проспект, 18\/2, Київ, Україна, 02000","lat":"50.4379996","lng":"30.4752769"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Povitroflots'kyi Ave, 18\/2, Kyiv, Ukraine, 02000"}}
+ Request - 2022-06-12 12:15:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Zimbabwe","lat":"-19.7122321","lng":"31.1722916"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"75QC+4W Gutu, Zimbabwe"}}
+ Request - 2022-06-12 12:55:01
+{"method":"getCityIdByAddressOrLatLng","address":"Komplek Terminal Lama, JVF2+V5G, Bale Atu, Kec. Lut Tawar, Kabupaten Aceh Tengah, Aceh 24519, Indonesia","lat":"4.6246565","lng":"96.8503167"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Komplek Terminal Lama, JVF2+V5G, Bale Atu, Kec. Lut Tawar, Kabupaten Aceh Tengah, Aceh 24519, Indonesia"}}
+ Request - 2022-06-12 16:12:01
+{"method":"getCityIdByAddressOrLatLng","address":"AI289 Aboaa Boahemaa St, Sunyani, Ghana","lat":"7.3272495","lng":"-2.3324858"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"AI289 Aboaa Boahemaa St, Sunyani, Ghana"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-10-09 10:22:40
+{"method":"gettotalproductandmerchant"}
+ Response :- 
+{"status":"success","data":{"totalNumberOfMerchant":9,"totalNumberOfProduct":3989}}

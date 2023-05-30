@@ -1,0 +1,29 @@
+
+ Request - 2021-05-22 10:36:03
+{"method":"applycoupon","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-05-22 14:37:22
+{"method":"applycoupon","user_id":"800","coupon_name":"AIRTGO100"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-05-22 14:39:54
+{"method":"applycoupon","user_id":"800","coupon_name":"AIRTGO100"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-05-22 14:40:14
+{"method":"applycoupon","user_id":"800","coupon_name":"Deepavali Offer"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-05-22 14:41:14
+{"method":"applycoupon","user_id":"800","coupon_name":"Deepavali Offer"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-05-22 14:42:22
+{"method":"applycoupon","user_id":"800","only_active_coupon":"1","coupon_name":"Deepavali Offer"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}
+ Request - 2021-05-22 15:21:23
+{"method":"applycoupon","user_id":"800","coupon_code":""}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}

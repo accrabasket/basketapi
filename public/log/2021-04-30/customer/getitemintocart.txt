@@ -1,0 +1,13 @@
+
+ Request - 2021-04-30 12:37:13
+{"method":"getitemintocart","guest_user_id":"5454be3c356bf61e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-30 15:01:59
+{"method":"getitemintocart","guest_user_id":"16b9614246ebe572"}
+ Response :- 
+{"status":"success","data":{"337":{"id":14478,"user_id":0,"guest_user_id":"16b9614246ebe572","merchant_inventry_id":337,"item_name":"Sprite Regular(Sprite Regular)","number_of_item":1,"created_date":"2021-04-29 19:26:33"}},"productDetails":{"status":"success","data":{"337":{"id":337,"price":"3.60","product_id":476,"merchant_id":3,"store_id":2,"merchant_product_code":"NEHA001","product_name":"Sprite Regular","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, High Fructose Corn Syrup, Citric Acid, Natural Flavors, Sodium Citrate, Sodium Benzoate (To Protect Taste).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"476":[{"id":410,"type":"product","image_id":476,"image_name":"NEH00108.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-30 22:01:02
+{"method":"getitemintocart","guest_user_id":"5787b7920cc674dc"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

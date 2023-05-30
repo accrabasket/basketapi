@@ -1,0 +1,9 @@
+
+ Request - 2022-09-06 10:03:57
+{"method":"getCityIdByAddressOrLatLng","address":"2WR5+4GV, Fulga Street, 520101, Uyo, Nigeria","lat":"5.0405148","lng":"7.9087333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2WR5+4GV, Fulga Street, 520101, Uyo, Nigeria"}}
+ Request - 2022-09-06 10:05:15
+{"method":"getCityIdByAddressOrLatLng","address":"183 Ikot Ekpene - Uyo Rd, 520251, Uyo, Nigeria","lat":"5.0424824","lng":"7.9060109"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"183 Ikot Ekpene - Uyo Rd, 520251, Uyo, Nigeria"}}

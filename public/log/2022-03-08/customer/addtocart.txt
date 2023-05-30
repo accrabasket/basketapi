@@ -1,0 +1,33 @@
+
+ Request - 2022-03-08 11:59:11
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 11:59:13
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 11:59:16
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 11:59:19
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"461","action":"add","item_name":"Finest Blended Scotch Whisky(Finest Blended Scotch Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 11:59:24
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"473","action":"add","item_name":"Vodka(Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 11:59:27
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"504","action":"add","item_name":"V.S Cognac - Whisky(V.S Cognac - Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 11:59:39
+{"method":"addtocart","guest_user_id":"cf4194df46aa95c7","number_of_item":"1","merchant_inventry_id":"530","action":"add","item_name":"Original Coconut Flavored Rum(Original Coconut Flavored Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-08 12:01:26
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

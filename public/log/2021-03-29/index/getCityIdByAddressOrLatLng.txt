@@ -1,0 +1,21 @@
+
+ Request - 2021-03-29 00:09:10
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Kinshasa, République démocratique du Congo","lat":"-4.4460895","lng":"15.2536744"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2021-03-29 07:09:00
+{"method":"getCityIdByAddressOrLatLng","address":"Mangroves-Maqta Abra Hopper - Al KheeranEastern Mangrove - Abu Dhabi - United Arab Emirates","lat":"24.4462345","lng":"54.4385503"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mangroves-Maqta Abra Hopper - Al KheeranEastern Mangrove - Abu Dhabi - United Arab Emirates"}}
+ Request - 2021-03-29 08:16:37
+{"method":"getCityIdByAddressOrLatLng","address":"Port-Hacourt Rd, New Owerri, Nigeria","lat":"5.4424676","lng":"6.985319"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Port-Hacourt Rd, New Owerri, Nigeria"}}
+ Request - 2021-03-29 18:18:26
+{"method":"getCityIdByAddressOrLatLng","address":"Adenta Municipality, Ghana","lat":"5.7141674","lng":"-0.15418"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Adenta Municipality, Ghana"}}
+ Request - 2021-03-29 21:53:00
+{"method":"getCityIdByAddressOrLatLng","address":"N-29B, Malbaza, Niger","lat":"13.9541157","lng":"5.5162964"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N-29B, Malbaza, Niger"}}

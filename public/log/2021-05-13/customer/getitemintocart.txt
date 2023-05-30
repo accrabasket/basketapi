@@ -1,0 +1,53 @@
+
+ Request - 2021-05-13 00:40:41
+{"method":"getitemintocart","guest_user_id":"3b4b79d3dc0e3620"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 05:58:51
+{"method":"getitemintocart","guest_user_id":"93d83ef60ab1928a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 06:20:12
+{"method":"getitemintocart","guest_user_id":"9409a9f31556694d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 06:20:57
+{"method":"getitemintocart","guest_user_id":"9409a9f31556694d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 08:05:30
+{"method":"getitemintocart","guest_user_id":"93d83ef60ab1928a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 08:05:52
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-05-13 09:02:58
+{"method":"getitemintocart","guest_user_id":"adff6e9553e89ba2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 11:50:00
+{"method":"getitemintocart","guest_user_id":"8b94239d1a1b452f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 15:10:22
+{"method":"getitemintocart","guest_user_id":"6323c28f83759bdf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 15:43:42
+{"method":"getitemintocart","guest_user_id":"42a623d2af00996b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 16:40:26
+{"method":"getitemintocart","guest_user_id":"adff6e9553e89ba2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 20:21:50
+{"method":"getitemintocart","guest_user_id":"3bc64a2be4462db7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-05-13 20:22:05
+{"method":"getitemintocart","guest_user_id":"3bc64a2be4462db7"}
+ Response :- 
+{"status":"success","data":{"232":{"id":14778,"user_id":0,"guest_user_id":"3bc64a2be4462db7","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2021-05-13 20:22:05"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,17 @@
+
+ Request - 2021-06-16 02:49:01
+{"method":"getCityIdByAddressOrLatLng","address":"Calle Gral. Prim, 14, 04740 Roquetas de Mar, Almería, Spain","lat":"36.7637405","lng":"-2.6223308"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Calle Gral. Prim, 14, 04740 Roquetas de Mar, Almer\u00eda, Spain"}}
+ Request - 2021-06-16 18:55:47
+{"method":"getCityIdByAddressOrLatLng","address":"233 5th Ave, New York, NY 10016, USA","lat":"40.7440291","lng":"-73.9872529"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"233 5th Ave, New York, NY 10016, USA"}}
+ Request - 2021-06-16 19:27:15
+{"method":"getCityIdByAddressOrLatLng","address":"4 Sufuratu St, Abule Okuta 100242, Lagos, Nigeria","lat":"6.5484376","lng":"3.3910227"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 Sufuratu St, Abule Okuta 100242, Lagos, Nigeria"}}
+ Request - 2021-06-16 19:37:24
+{"method":"getCityIdByAddressOrLatLng","address":"Route d'Agboville, Côte d'Ivoire","lat":"5.896862","lng":"-4.1904691"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"B 107, C\u00f4te d'Ivoire"}}

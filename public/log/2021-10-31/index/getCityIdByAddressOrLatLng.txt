@@ -1,0 +1,29 @@
+
+ Request - 2021-10-31 10:56:53
+{"method":"getCityIdByAddressOrLatLng","address":"N2, Burkina Faso","lat":"12.6617383","lng":"-1.8966447"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M463+M8 Bouss\u00e9, Burkina Faso"}}
+ Request - 2021-10-31 10:56:54
+{"method":"getCityIdByAddressOrLatLng","address":"N2, Burkina Faso","lat":"12.6617383","lng":"-1.8966447"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M463+M8 Bouss\u00e9, Burkina Faso"}}
+ Request - 2021-10-31 13:50:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 660213, Nigeria","lat":"8.8722148","lng":"11.3922247"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V9CR+VV Jalingo, Nigeria"}}
+ Request - 2021-10-31 14:30:48
+{"method":"getCityIdByAddressOrLatLng","address":"63QQ+253, Badera Gaon, Madhya Pradesh 473670, India","lat":"25.237749","lng":"78.0871216"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"63QQ+253, Badera Gaon, Madhya Pradesh 473670, India"}}
+ Request - 2021-10-31 17:56:04
+{"method":"getCityIdByAddressOrLatLng","address":"8J8W+4P3 - Al Sajaa Industrial - Sharjah - United Arab Emirates","lat":"25.3154269","lng":"55.6473656"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8J8W+4P3 - Al Sajaa Industrial - Sharjah - United Arab Emirates"}}
+ Request - 2021-10-31 20:53:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 312107, Nigeria","lat":"7.2944048","lng":"6.3776282"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"79VH+Q3 Okpella, Nigeria"}}
+ Request - 2021-10-31 21:26:16
+{"method":"getCityIdByAddressOrLatLng","address":"Н03, 7, Чуднів, Житомирська область, Україна, 13200","lat":"50.0553369","lng":"28.1229496"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"344F+45 Chudniv, Zhytomyr Oblast, Ukraine"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-11-28 01:32:50
+{"method":"getCityIdByAddressOrLatLng","address":"7959+3X3، بغداد، العراق","lat":"33.2576723","lng":"44.3693991"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7959+3X3, Baghdad, Iraq"}}
+ Request - 2022-11-28 09:19:20
+{"method":"getCityIdByAddressOrLatLng","address":"Kenedougou, Burkina Faso","lat":"10.9750912","lng":"-4.8826986"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X4G8+2W Orodara, Burkina Faso"}}
+ Request - 2022-11-28 13:10:38
+{"method":"getCityIdByAddressOrLatLng","address":"5QGJ+6PJ, Low Cost Housing Est 434108, Onitsha, Nigeria","lat":"6.176364250000001","lng":"6.781071800000001"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5QGJ+6PJ, Low Cost Housing Est 434108, Onitsha, Nigeria"}}
+ Request - 2022-11-28 20:26:48
+{"method":"getCityIdByAddressOrLatLng","address":"3HP2+V8Q, Nekemte, Ethiopia","lat":"9.0864323","lng":"36.5515032"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3HP2+V8Q, Nekemte, Ethiopia"}}

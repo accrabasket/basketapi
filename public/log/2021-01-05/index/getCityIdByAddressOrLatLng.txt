@@ -1,0 +1,17 @@
+
+ Request - 2021-01-05 03:23:49
+{"method":"getCityIdByAddressOrLatLng","address":"gadag road, Savanur, Karnataka 581118, India","lat":"14.9795317","lng":"75.3421288"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"gadag road, Savanur, Karnataka 581118, India"}}
+ Request - 2021-01-05 11:56:25
+{"method":"getCityIdByAddressOrLatLng","address":"N-110, Mirpur Sakro, Thatta, Sindh, Pakistan","lat":"24.539788","lng":"67.625802"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N-110, Mirpur Sakro, Thatta, Sindh, Pakistan"}}
+ Request - 2021-01-05 18:41:13
+{"method":"getCityIdByAddressOrLatLng","address":"N3, Cameroun","lat":"4.0031395","lng":"9.8528827"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N3, Cameroon"}}
+ Request - 2021-01-05 18:57:29
+{"method":"getCityIdByAddressOrLatLng","address":"Côte d'Ivoire","lat":"7.539988999999999","lng":"-5.547079999999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, C\u00f4te d'Ivoire"}}

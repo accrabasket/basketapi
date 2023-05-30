@@ -1,0 +1,137 @@
+
+ Request - 2021-03-14 03:49:08
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"2616","action":"add","item_name":"Hot & Spicy Chips(Hot & Spicy Chips)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 03:49:17
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"2615","action":"add","item_name":"BBQ Chips(BBQ Chips)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 03:51:33
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"3373","action":"add","item_name":"Oats & Honey Crunchy Granola Bars(Oats & Honey Crunchy Granola Bars)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 05:14:37
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":2}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:14:46
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":2}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:15:02
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":2}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:15:03
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:15:09
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:15:48
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:17:36
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:19:04
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:19:14
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:23:00
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","guest_user_id":"di64uou6model487fome56u793"}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:23:17
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:24:09
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","guest_user_id":"1ffje9vo7f0fd9ngkt25umt262"}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:24:18
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","guest_user_id":"1ffje9vo7f0fd9ngkt25umt262"}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:24:33
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:24:43
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","guest_user_id":"gfjvedttigvfmvb0kckmvsg6v3"}
+ Response :- 
+{"status":"fail","msg":"Nothing to add "}
+ Request - 2021-03-14 05:28:07
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","guest_user_id":"gfjvedttigvfmvb0kckmvsg6v3"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 07:49:27
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"621","action":"add","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-03-14 07:52:11
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"621","action":"add","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 07:55:41
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"3359","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 07:56:38
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"310","action":"add","item_name":"Red Chilli Powder(Red Chilli Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:00:59
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"2533","action":"add","item_name":"Penne Rigate Pasta(Penne Rigate Pasta)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:05:30
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-03-14 08:08:07
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"2830","action":"add","item_name":"Mackerel in Tomato Sauce(Mackerel in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:08:52
+{"method":"addtocart","guest_user_id":"f0daba4a1219b225","number_of_item":"1","merchant_inventry_id":"2871","action":"delete","item_name":"Pipe Rigate - Traditional Short Pastas(Pipe Rigate - Traditional Short Pastas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:14:45
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"757","action":"delete","item_name":"Classic - Coffee(Classic - Coffee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:16:50
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2532","action":"add","item_name":"Mint Chocolate Candy(Mint Chocolate Candy)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:24:42
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2904","action":"add","item_name":"Fruit Filled Assorted Candies(Fruit Filled Assorted Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 08:26:24
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1953","action":"add","item_name":"Citrus Punch Drink(Citrus Punch Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 13:11:03
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","guest_user_id":"0a2cbqke5qo5p6msvfnrucv6h6"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 13:19:16
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"delete","method":"addtocart","guest_user_id":"0a2cbqke5qo5p6msvfnrucv6h6"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-14 19:52:10
+{"merchant_inventry_id":"1","item_name":"TestProduct","number_of_item":"1","action":"add","method":"addtocart","user_id":1}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

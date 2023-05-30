@@ -1,0 +1,5 @@
+
+ Request - 2022-02-28 10:22:07
+{"method":"verifyotp","country_code":"+233","mobile_number":"9366202147","otp_type":"register","otp":"7382"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"0219dca3ec9b122d22498c4b4e20ce50"}}

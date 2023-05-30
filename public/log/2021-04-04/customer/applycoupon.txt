@@ -1,0 +1,5 @@
+
+ Request - 2021-04-04 14:39:18
+{"method":"applycoupon","user_id":"2263"}
+ Response :- 
+{"status":"fail","msg":"Coupon is not valid."}

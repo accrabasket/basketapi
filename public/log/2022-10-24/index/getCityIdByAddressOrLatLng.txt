@@ -1,0 +1,9 @@
+
+ Request - 2022-10-24 07:58:50
+{"method":"getCityIdByAddressOrLatLng","address":"RR26+RCG, Bambilor, Sénégal","lat":"14.8019137","lng":"-17.1892572"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RR26+RCG, Bambilor, Senegal"}}
+ Request - 2022-10-24 15:34:43
+{"method":"getCityIdByAddressOrLatLng","address":"7FCR+JFF, Kolwezi, République démocratique du Congo","lat":"-10.7285102","lng":"25.4920493"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7FCR+JFF, Kolwezi, Democratic Republic of the Congo"}}

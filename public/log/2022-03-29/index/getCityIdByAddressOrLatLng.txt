@@ -1,0 +1,13 @@
+
+ Request - 2022-03-29 05:29:38
+{"method":"getCityIdByAddressOrLatLng","address":"JRHV+6HG، هيت، العراق","lat":"33.6270324","lng":"42.8430711"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JRHV+6HG, Hit, Iraq"}}
+ Request - 2022-03-29 05:31:00
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bir Bangran, Haryana 136044, India","lat":"29.5471312","lng":"76.4978175"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GFWX+V4 Bir Bangran, Haryana, India"}}
+ Request - 2022-03-29 16:45:57
+{"method":"getCityIdByAddressOrLatLng","address":"H9QQ+RM4, Bahir Dar, Ethiopia","lat":"11.5892928","lng":"37.3900024"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H9QQ+RM4, Bahir Dar, Ethiopia"}}

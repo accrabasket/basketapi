@@ -1,0 +1,17 @@
+
+ Request - 2021-04-18 16:26:14
+{"method":"addedituser","city_id":"1","password":"supernana","name":"Abena ","email":"5yeboahabena27@gmail.com","mobile_number":"557792812","country_code":"+233","id":"0","fcm_reg_id":"dIEJKhpJd6Q:APA91bFlFtPtGvxbqvt-gtHS1GQIZCowIZukcvsyF3XJ0HoSIDT2a1W-Q_ko9BMJ4-4U1WkPefBrj_sruX2x0OxI2JgGm_K8nm6xOXH2pTqB11jyxrDfkO2gkBhBe-7K0aBWaD2lmbXG"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233557792812 and registered email id.","data":{"2419":{"id":2419,"name":"Abena ","mobile_number":"557792812","email":"5yeboahabena27@gmail.com","key":"6924814224be882a78ceffb0d06ee621","password":"13bc530f0929ac8c90cee6d332ded537","fcm_reg_id":"dIEJKhpJd6Q:APA91bFlFtPtGvxbqvt-gtHS1GQIZCowIZukcvsyF3XJ0HoSIDT2a1W-Q_ko9BMJ4-4U1WkPefBrj_sruX2x0OxI2JgGm_K8nm6xOXH2pTqB11jyxrDfkO2gkBhBe-7K0aBWaD2lmbXG","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-04-18 16:26:14","updated_date":"2021-04-18 16:26:14","status":"1"}}}
+ Request - 2021-04-18 19:48:08
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brittneybotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"2263","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-18 19:48:20
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway","email":"brittneybotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"2263","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-04-18 19:48:32
+{"method":"addedituser","city_id":"1","password":"kukuwamensah","name":"Brinna Botchway\n","email":"brittneybotchway@gmail.com","mobile_number":"0558241250","country_code":"+233","id":"2263","fcm_reg_id":"dX-Rf7vDxs0:APA91bFGQMwYOuJs3o6DKLcbrfoOKFUv-J80LCWo5wxlYGbysc96Gv61OgHE52i8Foav6h0huRF4WTL-WAlLNRMatf75sYqZUrz9IZMWmxZdP23AcnuKw7jpSJkG0HmhkxAViV8LPela"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

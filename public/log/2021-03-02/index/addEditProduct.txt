@@ -1,0 +1,5 @@
+
+ Request - 2021-03-02 04:57:07
+{"product_name":"THAI JASMINE RICE 20X1KG","brand_name":"Lele","nutrition":"","category_id":"137","promotion_id":"","item_code":"Lele06","hotdeals":"1","offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3632","attribute":[{"name":"THAI JASMINE RICE 20X1KG","unit":"kg","quantity":"20","commission_value":"0.0000","commission_type":"flat","id":"3640"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3632","attribute":["3640"]}}

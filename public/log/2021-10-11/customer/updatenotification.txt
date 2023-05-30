@@ -1,0 +1,9 @@
+
+ Request - 2021-10-11 06:04:54
+{"type":"merchant","method":"updatenotification","user_type":"merchant","user_id":11}
+ Response :- 
+{"status":"success","data":true}
+ Request - 2021-10-11 14:21:39
+{"type":"admin","method":"updatenotification","user_type":"admin"}
+ Response :- 
+{"status":"success","data":true}

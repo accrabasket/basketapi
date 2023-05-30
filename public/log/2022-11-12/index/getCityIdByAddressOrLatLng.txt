@@ -1,0 +1,17 @@
+
+ Request - 2022-11-12 06:58:51
+{"method":"getCityIdByAddressOrLatLng","address":"CC95+J5W, Ouagadougou, Burkina Faso","lat":"12.419619","lng":"-1.592182"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CC95+J5W, Ouagadougou, Burkina Faso"}}
+ Request - 2022-11-12 12:55:47
+{"method":"getCityIdByAddressOrLatLng","address":"P6XW+P8P, Munshipara Road No. 3, Rangpur, Bangladesh","lat":"25.7496961","lng":"89.2459356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P6XW+P8P, Munshipara Road No. 3, Rangpur, Bangladesh"}}
+ Request - 2022-11-12 14:14:12
+{"method":"getCityIdByAddressOrLatLng","address":"MFX4+RXX, Dhaka 1362, Bangladesh","lat":"23.6996006","lng":"90.4575274"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MFX4+RXX, Dhaka 1362, Bangladesh"}}
+ Request - 2022-11-12 15:36:30
+{"method":"getCityIdByAddressOrLatLng","address":"6V7M+JQ، سامراء،، العراق","lat":"34.2138861","lng":"43.8839704"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6V7M+JQ\u060c \u0633\u0627\u0645\u0631\u0627\u0621\u060c\u060c Iraq"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-04-17 14:24:45
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"plot 5 asomfu avenue","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"GhPost","landmark":", Behind,Jesus Grace Academy","zipcode":"0558241250","id":"437"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-04-17 14:25:06
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"plot 5 asomfu avenue","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"GhPost","landmark":", Behind,Jesus Grace Academy","zipcode":"0558241250","id":"437"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-04-17 14:56:29
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"plot 5 asomfu avenue","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"GhPost","landmark":", Behind,Jesus Grace Academy, blue roof, white gate","zipcode":"0558241250","id":"437"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

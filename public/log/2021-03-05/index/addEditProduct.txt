@@ -1,0 +1,141 @@
+
+ Request - 2021-03-05 07:32:04
+{"product_name":"THAI JASMINE RICE - 5KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"Lele107","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3847","attribute":[{"name":"THAI JASMINE RICE - 5KG","unit":"kg","quantity":"5","commission_value":"0.0000","commission_type":"flat","id":"3855"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3847","attribute":["3855"]}}
+ Request - 2021-03-05 07:32:27
+{"product_name":"THAI JASMINE RICE- 10KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"Lele110","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3848","attribute":[{"name":"THAI JASMINE RICE- 10KG","unit":"kg","quantity":"10","commission_value":"0.0000","commission_type":"flat","id":"3856"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3848","attribute":["3856"]}}
+ Request - 2021-03-05 07:38:44
+{"product_name":"SUNFLOWER OIL - 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:16:48
+{"product_name":"SUNFLOWER OIL - 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:17:42
+{"product_name":"SUNFLOWER OIL - 1.8L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele102","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3844","attribute":[{"name":"SUNFLOWER OIL - 1.8L","unit":"liter","quantity":"1.8","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3852"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3844","attribute":["3852"]}}
+ Request - 2021-03-05 08:18:27
+{"product_name":"SUNFLOWER OIL - 3L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele103","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3845","attribute":[{"name":"SUNFLOWER OIL - 3L","unit":"liter","quantity":"3","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"10","id":"3853"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3845","attribute":["3853"]}}
+ Request - 2021-03-05 08:19:15
+{"product_name":"SUNFLOWER OIL - 5L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele104","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3846","attribute":[{"name":"SUNFLOWER OIL - 5L","unit":"liter","quantity":"5","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"12","id":"3854"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3846","attribute":["3854"]}}
+ Request - 2021-03-05 08:22:26
+{"product_name":"THAI JASMINE RICE - 5KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"Lele107","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3847","attribute":[{"name":"THAI JASMINE RICE - 5KG","unit":"kg","quantity":"5","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3855"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3847","attribute":["3855"]}}
+ Request - 2021-03-05 08:23:54
+{"product_name":"THAI JASMINE RICE- 10KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"Lele110","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3848","attribute":[{"name":"THAI JASMINE RICE- 10KG","unit":"kg","quantity":"10","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"25","id":"3856"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3848","attribute":["3856"]}}
+ Request - 2021-03-05 08:31:36
+{"product_name":"Thai Jasmine Rice","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"48802","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"1911","attribute":[{"name":"Thai Jasmine Rice","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"1974"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1911","attribute":["1974"]}}
+ Request - 2021-03-05 08:36:11
+{"product_name":"SUNFLOWER OIL 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:37:12
+{"product_name":"Sunflower Oil 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:40:02
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:41:36
+{"product_name":"SUNFLOWER OIL - 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:44:10
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"44687","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"","id":"1137","attribute":[{"name":"Sunflower Oil","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","id":"1247"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1137","attribute":["1247"]}}
+ Request - 2021-03-05 08:44:45
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"44688","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"","id":"1136","attribute":[{"name":"Sunflower Oil","unit":"gm","quantity":"1.8","commission_value":"0.0000","commission_type":"flat","id":"1246"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1136","attribute":["1246"]}}
+ Request - 2021-03-05 08:45:02
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"44689","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"","id":"1138","attribute":[{"name":"Sunflower Oil","unit":"liter","quantity":"3","commission_value":"0.0000","commission_type":"flat","id":"1248"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1138","attribute":["1248"]}}
+ Request - 2021-03-05 08:45:43
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"19418","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"","id":"3083","attribute":[{"name":"Sunflower Oil","unit":"gm","quantity":"5","commission_value":"0.0000","commission_type":"flat","id":"3128"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3083","attribute":["3128"]}}
+ Request - 2021-03-05 08:48:55
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:50:32
+{"product_name":"Sunflower Oil","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"Sunflower Oil","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:53:53
+{"product_name":"SUNFLOWER OIL - 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 08:56:45
+{"product_name":"Thai Jasmine Rice","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"13476","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"","id":"1191","attribute":[{"name":"Thai Jasmine Rice","unit":"kg","quantity":"5","commission_value":"0.0000","commission_type":"flat","id":"1301"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1191","attribute":["1301"]}}
+ Request - 2021-03-05 09:01:00
+{"product_name":"Thai Jasmine Rice","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"","item_code":"80619","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"","id":"1999","attribute":[{"name":"Thai Jasmine Rice","unit":"kg","quantity":"25","commission_value":"0.0000","commission_type":"flat","id":"2062"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1999","attribute":["2062"]}}
+ Request - 2021-03-05 09:02:24
+{"product_name":"THAI JASMINE RICE 25KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"18","item_code":"Lele08","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3634","attribute":[{"name":"THAI JASMINE RICE 25KG","unit":"kg","quantity":"25","commission_value":"0.0000","commission_type":"flat","id":"3642"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3634","attribute":["3642"]}}
+ Request - 2021-03-05 09:02:51
+{"product_name":"THAI JASMINE RICE 50KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"18","item_code":"Lele09","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3635","attribute":[{"name":"THAI JASMINE RICE 50KG","unit":"gm","quantity":"50","commission_value":"0.0000","commission_type":"flat","id":"3643"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3635","attribute":["3643"]}}
+ Request - 2021-03-05 09:03:02
+{"product_name":"THAI JASMINE RICE 50KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"18","item_code":"Lele09","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3635","attribute":[{"name":"THAI JASMINE RICE 50KG","unit":"kg","quantity":"50","commission_value":"0.0000","commission_type":"flat","id":"3643"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3635","attribute":["3643"]}}
+ Request - 2021-03-05 09:05:58
+{"product_name":"THAI JASMINE RICE 25KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"18","item_code":"Lele08","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3634","attribute":[{"name":"THAI JASMINE RICE 25KG","unit":"kg","quantity":"25","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"12","id":"3642"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3634","attribute":["3642"]}}
+ Request - 2021-03-05 11:28:28
+{"product_name":"SUNFLOWER OIL - 1L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"27","item_code":"Lele101","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3843","attribute":[{"name":"SUNFLOWER OIL - 1L","unit":"liter","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"30","id":"3851"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3843","attribute":["3851"]}}
+ Request - 2021-03-05 11:28:44
+{"product_name":"SUNFLOWER OIL - 1.8L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"27","item_code":"Lele102","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3844","attribute":[{"name":"SUNFLOWER OIL - 1.8L","unit":"liter","quantity":"1.8","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"15","id":"3852"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3844","attribute":["3852"]}}
+ Request - 2021-03-05 11:29:11
+{"product_name":"SUNFLOWER OIL - 3L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"27","item_code":"Lele103","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3845","attribute":[{"name":"SUNFLOWER OIL - 3L","unit":"liter","quantity":"3","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"10","id":"3853"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3845","attribute":["3853"]}}
+ Request - 2021-03-05 11:29:27
+{"product_name":"SUNFLOWER OIL - 5L","brand_name":"Lele","nutrition":"","category_id":"92","promotion_id":"27","item_code":"Lele104","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3846","attribute":[{"name":"SUNFLOWER OIL - 5L","unit":"liter","quantity":"5","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"12","id":"3854"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3846","attribute":["3854"]}}
+ Request - 2021-03-05 11:29:50
+{"product_name":"THAI JASMINE RICE - 5KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"27","item_code":"Lele107","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3847","attribute":[{"name":"THAI JASMINE RICE - 5KG","unit":"kg","quantity":"5","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"3855"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3847","attribute":["3855"]}}
+ Request - 2021-03-05 11:30:08
+{"product_name":"THAI JASMINE RICE- 10KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"27","item_code":"Lele110","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3848","attribute":[{"name":"THAI JASMINE RICE- 10KG","unit":"kg","quantity":"10","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"25","id":"3856"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3848","attribute":["3856"]}}
+ Request - 2021-03-05 11:30:53
+{"product_name":"THAI JASMINE RICE 25KG","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"27","item_code":"Lele08","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"3634","attribute":[{"name":"THAI JASMINE RICE 25KG","unit":"kg","quantity":"25","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"12","id":"3642"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"3634","attribute":["3642"]}}
+ Request - 2021-03-05 11:31:35
+{"product_name":"Thai Jasmine Rice","brand_name":"Lele","nutrition":"","category_id":"82","promotion_id":"27","item_code":"48802","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"","id":"1911","attribute":[{"name":"Thai Jasmine Rice","unit":"kg","quantity":"1","commission_value":"0.0000","commission_type":"flat","attribute_discount_type":"percent","attribute_discount_value":"20","id":"1974"}],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":{"product_id":"1911","attribute":["1974"]}}

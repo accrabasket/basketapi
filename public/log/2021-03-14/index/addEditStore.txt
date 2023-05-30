@@ -1,0 +1,5 @@
+
+ Request - 2021-03-14 04:41:51
+{"status":"1","store_name":"Test","address":"gaur city","location_id":"1","lat":"28.6126295","lng":"77.4254094","method":"addEditStore","merchant_id":2}
+ Response :- 
+{"status":"success","msg":"Record Saved"}

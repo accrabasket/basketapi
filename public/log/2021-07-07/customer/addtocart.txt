@@ -1,0 +1,17 @@
+
+ Request - 2021-07-07 21:35:19
+{"method":"addtocart","guest_user_id":"486cc6948e606f76","number_of_item":"1","merchant_inventry_id":"895","action":"add","item_name":"White Oats(White Oats)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-07 21:35:23
+{"method":"addtocart","guest_user_id":"486cc6948e606f76","number_of_item":"1","merchant_inventry_id":"895","action":"add","item_name":"White Oats(White Oats)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-07 21:35:39
+{"method":"addtocart","guest_user_id":"486cc6948e606f76","number_of_item":"1","merchant_inventry_id":"895","action":"delete","item_name":"White Oats(White Oats)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-07-07 21:35:44
+{"method":"addtocart","guest_user_id":"486cc6948e606f76","number_of_item":"1","merchant_inventry_id":"895","action":"delete","item_name":"White Oats(White Oats)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,13 @@
+
+ Request - 2021-11-01 01:55:06
+{"method":"getCityIdByAddressOrLatLng","address":"B50, Ethiopia","lat":"8.2353023","lng":"35.2479828"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"66PX+45 Sibu, Ethiopia"}}
+ Request - 2021-11-01 10:48:44
+{"method":"getCityIdByAddressOrLatLng","address":"Kumasi, Ghana","lat":"6.6666004","lng":"-1.6162709"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kumasi, Ghana"}}
+ Request - 2021-11-01 20:10:41
+{"method":"getCityIdByAddressOrLatLng","address":"Parakin Rd, 220101, Ife, Nigeria","lat":"7.4942113","lng":"4.5319861"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FGVJ+MQ Ife, Nigeria"}}

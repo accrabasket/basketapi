@@ -1,0 +1,5 @@
+
+ Request - 2023-01-03 19:15:13
+{"method":"getCityIdByAddressOrLatLng","address":"6F7Q+4MJ, Yola 640230, Yola, Adamawa, نيجيريا","lat":"9.2120419","lng":"12.4887594"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6F7Q+4MJ, Yola 640230, Yola, Adamawa, Nigeria"}}

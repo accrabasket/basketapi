@@ -1,0 +1,13 @@
+
+ Request - 2021-02-13 09:51:31
+{"method":"ledgersummery","merchant_id":"4","start_date":"2021-01-13 00:00:00","end_date":"2021-02-13 23:59:59"}
+ Response :- 
+{"status":"success","data":{"0":{"id":222,"order_id":"order_m4_454","merchant_id":4,"total_amount":"509.52","commission_amount":"0.00","discount_amount":"23.96","type":"credit","merchant_amount":"508.48","created_date":"2021-01-25 22:53:59","updated_date":"2021-01-25 22:53:59"},"total_summery":false}}
+ Request - 2021-02-13 09:52:09
+{"method":"ledgersummery","merchant_id":"6","start_date":"2021-01-13 00:00:00","end_date":"2021-02-13 23:59:59"}
+ Response :- 
+{"status":"success","data":{"total_summery":false}}
+ Request - 2021-02-13 09:52:23
+{"method":"ledgersummery","merchant_id":"3","start_date":"2020-10-04 00:00:00","end_date":"2021-02-13 23:59:59"}
+ Response :- 
+{"status":"success","data":{"0":{"id":224,"order_id":"order_m2_691","merchant_id":3,"total_amount":"29.37","commission_amount":"3.05","discount_amount":"1.13","type":"credit","merchant_amount":"27.45","created_date":"2021-01-25 22:53:59","updated_date":"2021-01-25 22:53:59"},"1":{"id":220,"order_id":"order_m2_681","merchant_id":3,"total_amount":"22.10","commission_amount":"2.21","discount_amount":"0.00","type":"credit","merchant_amount":"19.89","created_date":"2021-01-04 01:05:03","updated_date":"2021-01-04 01:05:03"},"total_summery":false}}

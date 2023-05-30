@@ -1,0 +1,17 @@
+
+ Request - 2021-07-16 10:19:06
+{"method":"verifyotp","country_code":"+233","mobile_number":"209504008","otp_type":"register","otp":"6246"}
+ Response :- 
+{"status":"fail","msg":"Otp not valid"}
+ Request - 2021-07-16 10:19:14
+{"method":"verifyotp","country_code":"+233","mobile_number":"209504008","otp_type":"register","otp":"6183"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"16b113b4e92ff6bf17f8a5152bcd6bb4"}}
+ Request - 2021-07-16 10:21:29
+{"method":"verifyotp","country_code":"+233","mobile_number":"561418300","otp_type":"register","otp":"8194"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"fb9d9cb00964a2ad91fa0ba2e71fab49"}}
+ Request - 2021-07-16 10:24:55
+{"method":"verifyotp","country_code":"+233","mobile_number":"505640629","otp_type":"register","otp":"9643"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"ffc0214d0d0be48236ce5dfc928dfc24"}}

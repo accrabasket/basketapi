@@ -1,0 +1,97 @@
+
+ Request - 2021-01-03 05:52:26
+{"method":"addeditdeliveryaddress","house_number":"12","street_detail":"accra","contact_name":"testnew","city_name":"No. 38 Ayaben St, Adenta Municipality, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","landmark":"school"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":339}}
+ Request - 2021-01-03 06:21:44
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street1","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":340}}
+ Request - 2021-01-03 06:24:44
+{"method":"addeditdeliveryaddress","house_number":"34","street_detail":"Street1","contact_name":"Asha","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Ofc","landmark":"Temple"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":341}}
+ Request - 2021-01-03 14:01:33
+{"method":"addeditdeliveryaddress","house_number":"Obaahemaa Ashongman Estates, near Melcom","area":"","street_detail":"yyuu","contact_name":"Customer 5","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"ftgg","landmark":"near Melcom","zipcode":"","id":"338"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-01-03 14:34:26
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street2","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":342}}
+ Request - 2021-01-03 14:34:27
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street2","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":343}}
+ Request - 2021-01-03 14:34:27
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street2","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":344}}
+ Request - 2021-01-03 14:34:28
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street2","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":345}}
+ Request - 2021-01-03 14:34:30
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street2","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":346}}
+ Request - 2021-01-03 14:34:30
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street2","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":347}}
+ Request - 2021-01-03 14:35:26
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street1","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":348}}
+ Request - 2021-01-03 14:40:39
+{"method":"addeditdeliveryaddress","house_number":"12","street_detail":"accra","contact_name":"testnew","city_name":"No. 38 Ayaben St, Adenta Municipality, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"","landmark":"school"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":349}}
+ Request - 2021-01-03 14:40:49
+{"method":"addeditdeliveryaddress","house_number":"12","street_detail":"accra","contact_name":"testnew 2","city_name":"No. 38 Ayaben St, Adenta Municipality, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"","landmark":"school"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":350}}
+ Request - 2021-01-03 14:41:16
+{"method":"addeditdeliveryaddress","house_number":"12","street_detail":"accra","contact_name":"testnew 2","city_name":"No. 38 Ayaben St, Adenta Municipality, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"","landmark":"school"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":351}}
+ Request - 2021-01-03 14:41:26
+{"method":"addeditdeliveryaddress","house_number":"14","street_detail":"Street3","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":352}}
+ Request - 2021-01-03 14:42:23
+{"method":"addeditdeliveryaddress","house_number":"145","street_detail":"Street1","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":353}}
+ Request - 2021-01-03 14:43:28
+{"method":"addeditdeliveryaddress","house_number":"14uuu","street_detail":"Street1","contact_name":"Mahi","city_name":"Accra, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"Home","landmark":"School"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":354}}
+ Request - 2021-01-03 14:44:40
+{"method":"addeditdeliveryaddress","house_number":"12yy","street_detail":"accra","contact_name":"testnew","city_name":"No. 38 Ayaben St, Adenta Municipality, Ghana","city_id":"1","lat":"5.7049544","long":"-0.1481699","user_id":"800","address_nickname":"","landmark":"school"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":355}}
+ Request - 2021-01-03 14:49:13
+{"method":"addeditdeliveryaddress","house_number":"Obaahemaa Ashongman Estates, near Melcom","area":"","street_detail":"yyuu","contact_name":"Customer 50","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"ftgg","landmark":"near Melcom","zipcode":"","id":"338"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-01-03 14:49:28
+{"method":"addeditdeliveryaddress","house_number":"test","area":"","street_detail":"yyuu","contact_name":"Customer 50","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"ftgg","landmark":"near Melcom","zipcode":"","id":"338"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-01-03 14:49:59
+{"method":"addeditdeliveryaddress","house_number":"11","area":"","street_detail":"10th main","contact_name":"Mahesh","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"nri55","landmark":"hotel","zipcode":"","id":"274"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-01-03 14:50:10
+{"method":"addeditdeliveryaddress","house_number":"1155","area":"","street_detail":"10th main","contact_name":"Mahesh","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"nri55","landmark":"hotel","zipcode":"","id":"274"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-01-03 14:50:18
+{"method":"addeditdeliveryaddress","house_number":"11","area":"","street_detail":"10th main","contact_name":"Mahesh3","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"nri55","landmark":"hotel","zipcode":"","id":"274"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-01-03 14:52:39
+{"method":"addeditdeliveryaddress","house_number":"1165","area":"","street_detail":"10th main","contact_name":"Mahesh3","city_name":"Accra, Ghana","city_id":"1","lat":"5.6037168","long":"-0.1869644","user_id":"1082","address_nickname":"nri55","landmark":"hotel","zipcode":"","id":"274"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

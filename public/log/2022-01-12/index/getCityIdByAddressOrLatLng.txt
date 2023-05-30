@@ -1,0 +1,17 @@
+
+ Request - 2022-01-12 04:43:31
+{"method":"getCityIdByAddressOrLatLng","address":"N10, Techiman, Ghana","lat":"7.5995144","lng":"-1.9345082"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N10, Techiman, Ghana"}}
+ Request - 2022-01-12 07:29:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uttar Pradesh, India","lat":"27.9448968","lng":"80.0914775"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W3VR+XH Babra, Uttar Pradesh, India"}}
+ Request - 2022-01-12 09:15:19
+{"method":"getCityIdByAddressOrLatLng","address":"4VWC+FH2, Katogo, Côte d'Ivoire","lat":"10.1473115","lng":"-6.1272956"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4VWF+W3 Katoro, C\u00f4te d'Ivoire"}}
+ Request - 2022-01-12 18:00:04
+{"method":"getCityIdByAddressOrLatLng","address":"MHC5+624، سوران، العراق","lat":"36.6707673","lng":"44.5585715"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MHC5+624, Soran, Iraq"}}

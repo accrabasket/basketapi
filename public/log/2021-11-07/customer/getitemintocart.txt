@@ -1,0 +1,41 @@
+
+ Request - 2021-11-07 06:56:32
+{"method":"getitemintocart","guest_user_id":"216f5055b0b37fc0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 09:28:01
+{"method":"getitemintocart","guest_user_id":"7788e96846f18e69"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 11:06:57
+{"method":"getitemintocart","guest_user_id":"14e907061bddfe9d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 11:13:25
+{"method":"getitemintocart","guest_user_id":"55c74f96334ae7c1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 11:25:56
+{"method":"getitemintocart","guest_user_id":"e896bab25e878066"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 12:23:11
+{"method":"getitemintocart","guest_user_id":"b14f38323847c06a"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 12:30:04
+{"method":"getitemintocart","guest_user_id":"d1e8c5d4465d8325"}
+ Response :- 
+{"status":"success","data":{"275":{"id":15047,"user_id":0,"guest_user_id":"d1e8c5d4465d8325","merchant_inventry_id":275,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2021-05-25 06:55:01"},"650":{"id":15048,"user_id":0,"guest_user_id":"d1e8c5d4465d8325","merchant_inventry_id":650,"item_name":"Evaporated Milk - Regular(Evaporated Milk - Regular)","number_of_item":1,"created_date":"2021-05-25 06:55:07"},"803":{"id":15049,"user_id":0,"guest_user_id":"d1e8c5d4465d8325","merchant_inventry_id":803,"item_name":"Original Classic Soymilk(Original Classic Soymilk)","number_of_item":2,"created_date":"2021-05-25 06:55:21"},"2731":{"id":15050,"user_id":0,"guest_user_id":"d1e8c5d4465d8325","merchant_inventry_id":2731,"item_name":"Carrot(Carrot)","number_of_item":1,"created_date":"2021-05-25 06:55:41"},"2782":{"id":15051,"user_id":0,"guest_user_id":"d1e8c5d4465d8325","merchant_inventry_id":2782,"item_name":"Cauliflower(Cauliflower)","number_of_item":1,"created_date":"2021-05-25 06:55:42"}},"productDetails":{"status":"success","data":{"275":{"id":275,"price":"19.50","product_id":422,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Cowbell Our Milk has become synonymous with quality and value. The vision of providing quality, affordable milk powder to the people of Africa has led Cowbell to be Africa\u2019s number one milk brand in small sachets.\r\nThe regular additions to the Cowbell product range are testament to the Group\u2019s commitment to the provision of innovative and value-added milk products. We have extended the brand into flavoured milks, UHT, condensed and evaporated as well as processed cheese. It is this dedication to service and consistency that has contributed to the continual success of Cowbell as a brand and Promasidor as a whole.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Skimmed Milk and Vegetable Fat Base\",\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\",\"Preparation and Usage\":\"Made with fresh skimmed cows' milk and vegetable fat, our powdered milk products dissolve easily in hot or cold water to instantly create a delicious beverage that contains no cholesterol and are enhanced with Vitarich, a fortified blend of vitamins A, C, D, E and K.\"}","brand_name":"Cowbell","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400,"tax_value":"3"},"650":{"id":650,"price":"8.99","product_id":934,"merchant_id":4,"store_id":4,"merchant_product_code":"X583   ","product_name":"Evaporated Milk - Regular","product_desc":"Peak has been described as \u201ca truly Nigerian iconic brand\u201d as the brand marks its 60 years in the dairy market. Peak is synonymous to Milk and is THE NATION\u2019S FAVOURITE MILK","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Whole Cow\\u2019s Milk, Stabilizer E339, with added Vitamin B12 + Folic Acid, Iodine, Vitamins A, D3, B1 & B6\"}","brand_name":"Peak","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":410,"tax_value":"3"},"803":{"id":803,"price":"5.99","product_id":1087,"merchant_id":4,"store_id":4,"merchant_product_code":"12418","product_name":"Original Classic Soymilk","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"","brand_name":"Lactasoy","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":500,"tax_value":"3"},"2731":{"id":2731,"price":"10.50","product_id":3145,"merchant_id":7,"store_id":7,"merchant_product_code":null,"product_name":"Carrot","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"","commission_type":"","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"Pcs","quantity":3,"tax_value":"3"},"2782":{"id":2782,"price":"12.60","product_id":3146,"merchant_id":7,"store_id":10,"merchant_product_code":null,"product_name":"Cauliflower","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"","commission_type":"","commission_value":"0.0000","discount_type":"percent","discount_value":"10","unit":"Pack","quantity":1,"tax_value":"3"}},"productImageData":{"422":[{"id":346,"type":"product","image_id":422,"image_name":"NEH00003.jpg"}],"934":[{"id":1053,"type":"product","image_id":934,"image_name":"934_1551271328.jpg"}],"1087":[{"id":1079,"type":"product","image_id":1087,"image_name":"1087_1551277115.jpg"}],"3145":[{"id":3802,"type":"product","image_id":3145,"image_name":"FAR009.jpg"}],"3146":[{"id":3803,"type":"product","image_id":3146,"image_name":"FAR010.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-07 15:55:05
+{"method":"getitemintocart","guest_user_id":"d60dd6a71b7c499f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 17:45:58
+{"method":"getitemintocart","guest_user_id":"57b5998e110761e8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-07 19:00:22
+{"method":"getitemintocart","guest_user_id":"e896bab25e878066"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

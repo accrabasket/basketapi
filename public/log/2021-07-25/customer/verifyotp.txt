@@ -1,0 +1,5 @@
+
+ Request - 2021-07-25 19:53:31
+{"method":"verifyotp","country_code":"+233","mobile_number":"548529952","otp_type":"register","otp":"1000"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"84992764c095c35f69ed88d164f6c1df"}}

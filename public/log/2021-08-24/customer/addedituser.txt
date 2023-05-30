@@ -1,0 +1,5 @@
+
+ Request - 2021-08-24 16:48:04
+{"method":"addedituser","city_id":"1","password":"faithie1234","name":"Faith","email":"anastashiaparez12@gmail.com","mobile_number":"561278340","country_code":"+233","id":"0","fcm_reg_id":"cDOqzLSNHLE:APA91bG6DxVYBlByDI6qmtlAGkV0wdJfpiBTAlv_kjm52gVNkagkRZwdO4FpsKblsMEcmtatOGXOgdHWmtMk8MrU7xfvXy-6lOqosa82my7YM3AM3Zy49urT7KVTALTwzVODbptYljy3"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233561278340 and registered email id.","data":{"3898":{"id":3898,"name":"Faith","mobile_number":"561278340","email":"anastashiaparez12@gmail.com","key":"3693cb615c5b72159ebbd6f290678389","password":"5c59627e5bbfb8e760e0a51bc1c6e845","fcm_reg_id":"cDOqzLSNHLE:APA91bG6DxVYBlByDI6qmtlAGkV0wdJfpiBTAlv_kjm52gVNkagkRZwdO4FpsKblsMEcmtatOGXOgdHWmtMk8MrU7xfvXy-6lOqosa82my7YM3AM3Zy49urT7KVTALTwzVODbptYljy3","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-08-24 16:48:04","updated_date":"2021-08-24 16:48:04","status":"1"}}}

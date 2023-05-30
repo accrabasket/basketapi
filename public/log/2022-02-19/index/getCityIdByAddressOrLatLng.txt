@@ -1,0 +1,13 @@
+
+ Request - 2022-02-19 15:31:37
+{"method":"getCityIdByAddressOrLatLng","address":"HMRJ+FVV, Gbawe, Ghana","lat":"5.5906601","lng":"-0.3182723"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HMRJ+FVV, Gbawe, Ghana"}}
+ Request - 2022-02-19 18:06:06
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 601103, Nigeria","lat":"10.6404552","lng":"12.9109973"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JWR6+59 Askira, Nigeria"}}
+ Request - 2022-02-19 19:44:28
+{"method":"getCityIdByAddressOrLatLng","address":"6 Ukpor Street, Iyiowa Layout 431114, Oyiowa Odekpa, Nigeria","lat":"6.1051442","lng":"6.7602729"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4Q46+34 Iyowa Odekpe, Nigeria"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-05-20 07:24:05
+{"method":"getitemintocart","guest_user_id":"1c295953d31b69cc"}
+ Response :- 
+{"status":"success","data":{"3773":{"id":18898,"user_id":0,"guest_user_id":"1c295953d31b69cc","merchant_inventry_id":3773,"item_name":"GHC 225 Gift Hamper(GHC 225 Gift Hamper)","number_of_item":1,"created_date":"2021-12-20 15:25:59"}},"productDetails":{"status":"success","data":{"3773":{"id":3773,"price":"225.00","product_id":4242,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"GHC 225 Gift Hamper","product_desc":"Total No. of Items in the Hamper : 5\r\n\r\n--- JAMESON WHISKEY 40% 100CL x1\r\n--- BALLANTINE'S FINEST WHISKY 40% 100CL x1\r\n--- Fitch & Leedes Club Soda 200ml x2\r\n--- Kingsbite Milk Chocolate 50g x1\r\n\r\n","default_discount_type":"","default_discount_value":"0","category_id":140,"custom_info":"","brand_name":"","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"pcs","quantity":1,"tax_value":null}},"productImageData":{"4242":[{"id":5335,"type":"product","image_id":4242,"image_name":"4242_1623748353.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-20 12:10:44
+{"method":"getitemintocart","guest_user_id":"4d1b66b3c477aad4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-20 15:15:07
+{"method":"getitemintocart","guest_user_id":"62ced845eb1a76d6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-20 17:00:24
+{"method":"getitemintocart","guest_user_id":"8dc2a8d62eca673f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

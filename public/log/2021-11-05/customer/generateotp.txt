@@ -1,0 +1,5 @@
+
+ Request - 2021-11-05 12:31:06
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0246962914"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330246962914","otp_type":"register","user_id":"0","otp":3695,"expiry_date":"2021-11-05 12:46:06"}}

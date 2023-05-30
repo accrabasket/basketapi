@@ -1,0 +1,25 @@
+
+ Request - 2021-04-29 10:12:06
+{"method":"addtocart","guest_user_id":"1ab129289ccae581","number_of_item":"1","merchant_inventry_id":"2808","action":"add","item_name":"Pineapple(Pineapple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-29 10:19:11
+{"method":"addtocart","guest_user_id":"1ab129289ccae581","number_of_item":"1","merchant_inventry_id":"2808","action":"delete","item_name":"Pineapple(Pineapple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-29 10:20:05
+{"method":"addtocart","guest_user_id":"1ab129289ccae581","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-29 10:39:28
+{"method":"addtocart","guest_user_id":"1ab129289ccae581","number_of_item":"1","merchant_inventry_id":"3094","action":"add","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-29 10:39:39
+{"method":"addtocart","guest_user_id":"1ab129289ccae581","number_of_item":"1","merchant_inventry_id":"3094","action":"delete","item_name":"Vegetable Cooking Oil(Vegetable Cooking Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-04-29 19:26:33
+{"method":"addtocart","guest_user_id":"16b9614246ebe572","number_of_item":"1","merchant_inventry_id":"337","action":"add","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

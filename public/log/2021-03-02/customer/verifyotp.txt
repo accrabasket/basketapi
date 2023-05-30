@@ -1,0 +1,5 @@
+
+ Request - 2021-03-02 21:38:12
+{"method":"verifyotp","country_code":"+233","mobile_number":"279790988","otp_type":"register","otp":"3469"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"d1b0a22c27786c32158c106e235c354e"}}

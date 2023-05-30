@@ -1,0 +1,17 @@
+
+ Request - 2021-06-05 07:14:04
+{"method":"getCityIdByAddressOrLatLng","address":"شعبية طرابلس،، ليبيا","lat":"32.6635491","lng":"13.6643115"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0634\u0639\u0628\u064a\u0629 \u0637\u0631\u0627\u0628\u0644\u0633\u060c\u060c Libya"}}
+ Request - 2021-06-05 09:24:01
+{"method":"getCityIdByAddressOrLatLng","address":"Frimps Ave, Ghana","lat":"5.6380626","lng":"-0.054368"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Frimps Ave, Ghana"}}
+ Request - 2021-06-05 10:36:55
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Taman Rosma Cipta Indah No.1, Setiamulya, Kec. Tarumajaya, Bekasi, Jawa Barat 17212, Indonesia","lat":"-6.124326","lng":"106.9910199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Taman Rosma Cipta Indah No.1, Setiamulya, Kec. Tarumajaya, Bekasi, Jawa Barat 17212, Indonesia"}}
+ Request - 2021-06-05 14:35:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Abidjan, Côte d'Ivoire","lat":"5.3411032","lng":"-4.1208346"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Abidjan, C\u00f4te d'Ivoire"}}

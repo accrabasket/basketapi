@@ -1,0 +1,21 @@
+
+ Request - 2021-10-15 06:58:26
+{"method":"getCityIdByAddressOrLatLng","address":"avenuebrd plot 19, Arua, Uganda","lat":"3.0216278","lng":"30.9121466"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"avenuebrd plot 19, Arua, Uganda"}}
+ Request - 2021-10-15 07:39:01
+{"method":"getCityIdByAddressOrLatLng","address":"1 Nana Fijaiba Road, Sekondi-Takoradi, Ghana","lat":"4.9407416","lng":"-1.7537295"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1 Nana Fijaiba Road, Sekondi-Takoradi, Ghana"}}
+ Request - 2021-10-15 09:30:26
+{"method":"getCityIdByAddressOrLatLng","address":"Talchini Sashinara, Kalshi, West Bengal 713146, India","lat":"23.1533442","lng":"88.1247153"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Talchini Sashinara, Kalshi, West Bengal 713146, India"}}
+ Request - 2021-10-15 13:19:33
+{"method":"getCityIdByAddressOrLatLng","address":"T5, Zambia","lat":"-12.2762332","lng":"25.6670843"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PMF8+GR Chilondo, Zambia"}}
+ Request - 2021-10-15 15:48:32
+{"method":"getCityIdByAddressOrLatLng","address":"Guernsey GY2, Guernesey","lat":"49.48281049999999","lng":"-2.5382264"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FFM6+4P Guernsey"}}

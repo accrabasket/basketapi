@@ -1,0 +1,25 @@
+
+ Request - 2022-04-29 04:21:00
+{"method":"getCityIdByAddressOrLatLng","address":"1299, Civil Lines Extension, Sipri Bazar, Jhansi, Uttar Pradesh 284003, India","lat":"25.45322","lng":"78.55451666666666"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1299, Civil Lines Extension, Sipri Bazar, Jhansi, Uttar Pradesh 284003, India"}}
+ Request - 2022-04-29 05:25:17
+{"method":"getCityIdByAddressOrLatLng","address":"Rani Bazar, 3J5Q+7CX, BLOCK 12 Block 12, Dera Ghazi Khan, Punjab, Pakistan","lat":"30.0582054","lng":"70.6388152"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rani Bazar, 3J5Q+7CX, BLOCK 12 Block 12, Dera Ghazi Khan, Punjab, Pakistan"}}
+ Request - 2022-04-29 07:45:21
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ho, Ghana","lat":"6.6147665","lng":"0.463019"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ho, Ghana"}}
+ Request - 2022-04-29 08:57:28
+{"method":"getCityIdByAddressOrLatLng","address":"562M+MQ, Kokkinotrimithia, Cyprus","lat":"35.151517","lng":"33.234345"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"562M+MQ, Kokkinotrimithia, Cyprus"}}
+ Request - 2022-04-29 09:57:30
+{"method":"getCityIdByAddressOrLatLng","address":"5WQF+8Q4, Dammam 34354, Saudi Arabia","lat":"26.1876661","lng":"49.924824"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5WQF+8Q4, Dammam 34354, Saudi Arabia"}}
+ Request - 2022-04-29 18:37:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Dar es Salaam, Tanzania","lat":"-6.8466065","lng":"39.3191647"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5839+9M Dar es Salaam, Tanzania"}}

@@ -1,0 +1,9 @@
+
+ Request - 2022-10-16 06:45:55
+{"method":"getCityIdByAddressOrLatLng","address":"S-3\/165, Kailash Nagar, Vrindavan, Uttar Pradesh 281121, India","lat":"27.5621007","lng":"77.6852858"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"S-3\/165, Kailash Nagar, Vrindavan, Uttar Pradesh 281121, India"}}
+ Request - 2022-10-16 11:44:43
+{"method":"getCityIdByAddressOrLatLng","address":"H7QH+648, Lusaka, Zambia","lat":"-15.4118431","lng":"28.2776945"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H7QH+648, Lusaka, Zambia"}}

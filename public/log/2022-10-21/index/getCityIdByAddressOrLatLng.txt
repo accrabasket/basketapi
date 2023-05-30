@@ -1,0 +1,9 @@
+
+ Request - 2022-10-21 09:20:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bangladesh","lat":"25.0520719","lng":"90.5504542"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3H22+R5 Ghagra, Bangladesh"}}
+ Request - 2022-10-21 16:32:41
+{"method":"getCityIdByAddressOrLatLng","address":"CJRV+CC5، الهاشمية، العراق","lat":"32.4394789","lng":"44.6424915"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CJQR+QX Al Hashimiyah, Iraq"}}

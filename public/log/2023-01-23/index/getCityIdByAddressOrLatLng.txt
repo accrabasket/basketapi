@@ -1,0 +1,13 @@
+
+ Request - 2023-01-23 08:31:42
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Akasia 1 No.A8, RW.2, Sukaresmi, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530, Indonesia","lat":"-6.3208474","lng":"107.125006"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-23 11:07:36
+{"method":"getCityIdByAddressOrLatLng","address":"44Q9+CQX, Afgoye, Somalia","lat":"2.138631","lng":"45.1197845"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-23 11:07:49
+{"method":"getCityIdByAddressOrLatLng","address":"44Q9+CQX, Afgoye, Somalia","lat":"2.138631","lng":"45.1197845"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

@@ -1,0 +1,13 @@
+
+ Request - 2022-10-28 04:49:13
+{"method":"getCityIdByAddressOrLatLng","address":"VV73+PGF, Meerut, Uttar Pradesh, India","lat":"28.8637674","lng":"77.8526291"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VV73+PGF, Meerut, Uttar Pradesh, India"}}
+ Request - 2022-10-28 20:15:52
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 234, Mehran Block Allama Iqbal Town, Lahore, Punjab, Pakistan","lat":"31.501039","lng":"74.2675293"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 234, Mehran Block Allama Iqbal Town, Lahore, Punjab, Pakistan"}}
+ Request - 2022-10-28 20:15:52
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 234, Mehran Block Allama Iqbal Town, Lahore, Punjab, Pakistan","lat":"31.501039","lng":"74.2675293"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 234, Mehran Block Allama Iqbal Town, Lahore, Punjab, Pakistan"}}

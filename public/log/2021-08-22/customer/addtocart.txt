@@ -1,0 +1,25 @@
+
+ Request - 2021-08-22 00:35:49
+{"method":"addtocart","guest_user_id":"25d4b076be7affaf","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-22 00:35:49
+{"method":"addtocart","guest_user_id":"25d4b076be7affaf","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-22 16:52:53
+{"method":"addtocart","guest_user_id":"39dd15c3fb264dc6","number_of_item":"1","merchant_inventry_id":"3177","action":"add","item_name":"SUNFLOWER OIL 6x1.8L(SUNFLOWER OIL 6x1.8L)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-22 22:48:17
+{"method":"addtocart","guest_user_id":"1b6c472900d196c8","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-22 22:48:31
+{"method":"addtocart","guest_user_id":"1b6c472900d196c8","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-22 22:48:33
+{"method":"addtocart","guest_user_id":"1b6c472900d196c8","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

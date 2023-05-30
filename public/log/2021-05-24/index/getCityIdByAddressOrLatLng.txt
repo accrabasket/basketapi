@@ -1,0 +1,9 @@
+
+ Request - 2021-05-24 11:40:20
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, سپین بولدک، Afghanistan","lat":"30.9541589","lng":"66.4317763"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u0633\u067e\u06cc\u0646 \u0628\u0648\u0644\u062f\u06a9\u060c Afghanistan"}}
+ Request - 2021-05-24 17:11:43
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sib, Oman","lat":"23.6497265","lng":"58.0710232"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sib, Oman"}}

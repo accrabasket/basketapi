@@ -1,0 +1,37 @@
+
+ Request - 2023-03-09 03:28:22
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:24
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:26
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:28
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:46
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:49
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:52
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 03:28:54
+{"method":"getCityIdByAddressOrLatLng","address":"36PP+9MV, Nasiriyah, Iraq","lat":"31.0859055","lng":"46.2371463"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-09 15:45:25
+{"method":"getCityIdByAddressOrLatLng","address":"J467+9RP, Sukaragam, Kec. Serang Baru, Kabupaten Bekasi, Jawa Barat 17330, Indonesia","lat":"-6.3890971","lng":"107.1145089"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

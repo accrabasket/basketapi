@@ -1,0 +1,9 @@
+
+ Request - 2021-03-07 15:20:30
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bafou, Cameroun","lat":"5.4819897","lng":"10.1032951"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bafou, Cameroon"}}
+ Request - 2021-03-07 20:55:35
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.708646","lng":"35.3129222"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kenya"}}

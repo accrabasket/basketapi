@@ -1,0 +1,17 @@
+
+ Request - 2022-06-22 05:38:07
+{"method":"getCityIdByAddressOrLatLng","address":"G9F9+7R3, Rajkot - Ahmedabad Hwy, Doliya, Gujarat 363430, ભારત","lat":"22.5232252","lng":"71.3696338"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G9F9+7R3, Rajkot - Ahmedabad Hwy, Doliya, Gujarat 363430, India"}}
+ Request - 2022-06-22 10:07:05
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"-0.3377244","lng":"36.8588318"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MV65+WG Muiga, Kenya"}}
+ Request - 2022-06-22 13:16:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"5.4823262","lng":"-0.4987641"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2022-06-22 13:58:09
+{"method":"getCityIdByAddressOrLatLng","address":"J8PF+M22, Basant Jagjiwan, Bihar 843334, India","lat":"26.6377867","lng":"85.3241097"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J8PF+M22, Basant Jagjiwan, Bihar 843334, India"}}

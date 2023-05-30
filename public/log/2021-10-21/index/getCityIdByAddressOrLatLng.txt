@@ -1,0 +1,13 @@
+
+ Request - 2021-10-21 04:49:35
+{"method":"getCityIdByAddressOrLatLng","address":"SH 133A, Mangalam, Tamil Nadu 606752, India","lat":"12.329699","lng":"79.1825403"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"85HM+V2 Mangalam, Tamil Nadu, India"}}
+ Request - 2021-10-21 08:22:42
+{"method":"getCityIdByAddressOrLatLng","address":"Kachhari Rd, Bansi, Uttar Pradesh 272153, India","lat":"27.1801316","lng":"82.9290005"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5WJH+3J Bansi, Uttar Pradesh, India"}}
+ Request - 2021-10-21 15:32:28
+{"method":"getCityIdByAddressOrLatLng","address":"Oba-Ile, Nigeria","lat":"7.2761318","lng":"5.2627303"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"77G7+F3 Oba Ile, Nigeria"}}

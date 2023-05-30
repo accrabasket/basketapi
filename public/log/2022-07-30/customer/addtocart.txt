@@ -1,0 +1,21 @@
+
+ Request - 2022-07-30 00:23:47
+{"method":"addtocart","guest_user_id":"ce03bf71f185b6ad","number_of_item":"1","merchant_inventry_id":"2068","action":"add","item_name":"Irish Whiskey(Irish Whiskey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-30 10:47:02
+{"method":"addtocart","guest_user_id":"14fbcedbcb3ae27a","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-30 10:47:04
+{"method":"addtocart","guest_user_id":"14fbcedbcb3ae27a","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-30 10:47:05
+{"method":"addtocart","guest_user_id":"14fbcedbcb3ae27a","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-30 10:47:06
+{"method":"addtocart","guest_user_id":"14fbcedbcb3ae27a","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

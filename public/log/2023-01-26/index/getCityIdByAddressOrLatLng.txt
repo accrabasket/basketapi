@@ -1,0 +1,49 @@
+
+ Request - 2023-01-26 04:53:11
+{"method":"getCityIdByAddressOrLatLng","address":"V43P+9VG, Bolori 600282, Maiduguri, Borno, Nigeria","lat":"11.8538777","lng":"13.137453"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 04:53:15
+{"method":"getCityIdByAddressOrLatLng","address":"V43P+9VG, Bolori 600282, Maiduguri, Borno, Nigeria","lat":"11.8538777","lng":"13.137453"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 04:53:18
+{"method":"getCityIdByAddressOrLatLng","address":"V43P+9VG, Bolori 600282, Maiduguri, Borno, Nigeria","lat":"11.8538777","lng":"13.137453"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 04:53:38
+{"method":"getCityIdByAddressOrLatLng","address":"V43P+9VG, Bolori 600282, Maiduguri, Borno, Nigeria","lat":"11.8538777","lng":"13.137453"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:49:35
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sekhui, Uttar Pradesh 274204, India","lat":"26.5316579","lng":"83.6170498"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:49:39
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sekhui, Uttar Pradesh 274204, India","lat":"26.5316579","lng":"83.6170498"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:49:40
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sekhui, Uttar Pradesh 274204, India","lat":"26.5316579","lng":"83.6170498"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:49:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sekhui, Uttar Pradesh 274204, India","lat":"26.5316579","lng":"83.6170498"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:50:09
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sekhui, Uttar Pradesh 274204, India","lat":"26.5316579","lng":"83.6170498"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:50:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uttar Pradesh 274204, India","lat":"26.5383346","lng":"83.6103969"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 05:50:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uttar Pradesh 274204, India","lat":"26.5383346","lng":"83.6103969"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-01-26 19:11:22
+{"method":"getCityIdByAddressOrLatLng","address":"113 Avenida General de Gaulle, Thies, Sénégal","lat":"14.797213333333332","lng":"-16.93133"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

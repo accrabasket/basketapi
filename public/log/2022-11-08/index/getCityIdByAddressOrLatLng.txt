@@ -1,0 +1,9 @@
+
+ Request - 2022-11-08 04:32:15
+{"method":"getCityIdByAddressOrLatLng","address":"Ala, تشاد‎","lat":"9.69297","lng":"19.077276666666666"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M3VG+5W Ala, Chad"}}
+ Request - 2022-11-08 18:37:00
+{"method":"getCityIdByAddressOrLatLng","address":"3WVM+35H, Maputsoe, Lesotho","lat":"-28.9074957","lng":"27.9331382"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3WVM+35H, Maputsoe, Lesotho"}}

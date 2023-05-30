@@ -1,0 +1,57 @@
+
+ Request - 2023-01-01 15:13:21
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"3517","action":"add","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:14:01
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"3517","action":"add","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:14:10
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"3517","action":"delete","item_name":"First Spoons Carrot(First Spoons Carrot)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:17:31
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2960","action":"add","item_name":"Cheddar White - Cheese(Cheddar White - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:18:00
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2838","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:18:24
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2839","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:18:57
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2838","action":"add","item_name":"Dairy Milk Fruit & Nut - Chocolate Bar(Dairy Milk Fruit & Nut - Chocolate Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:19:33
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2902","action":"add","item_name":"Butter & Cream Candies(Butter & Cream Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:19:54
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2855","action":"add","item_name":"Sardine(Sardine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:20:06
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2855","action":"delete","item_name":"Sardine(Sardine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:20:25
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2855","action":"add","item_name":"Sardine(Sardine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:20:27
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2855","action":"delete","item_name":"Sardine(Sardine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:38:57
+{"method":"addtocart","guest_user_id":"d465583b79f706ce","number_of_item":"1","merchant_inventry_id":"2103","action":"add","item_name":"Irish Whiskey(Irish Whiskey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-01-01 15:41:03
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"2068","action":"add","item_name":"Irish Whiskey(Irish Whiskey)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

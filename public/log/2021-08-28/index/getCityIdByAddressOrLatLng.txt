@@ -1,0 +1,73 @@
+
+ Request - 2021-08-28 01:11:56
+{"method":"getCityIdByAddressOrLatLng","address":"MQ48+RF2, Diourbel, Sénégal","lat":"14.6570194","lng":"-16.2343794"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MQ48+RF2, Diourbel, Senegal"}}
+ Request - 2021-08-28 01:45:54
+{"method":"getCityIdByAddressOrLatLng","address":"17, Block E Soan Gardens, Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.5659262","lng":"73.1524779"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"17, Block E Soan Gardens, Islamabad, Islamabad Capital Territory, Pakistan"}}
+ Request - 2021-08-28 07:40:38
+{"method":"getCityIdByAddressOrLatLng","address":"7, Lumley Beach Road Freetown SL, Lumley Beach Rd, Freetown, Sierra Leone","lat":"8.488996","lng":"-13.2896171"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7, Lumley Beach Road Freetown SL, Lumley Beach Rd, Freetown, Sierra Leone"}}
+ Request - 2021-08-28 10:34:44
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sénégal","lat":"15.5243204","lng":"-16.3910857"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Senegal"}}
+ Request - 2021-08-28 13:30:44
+{"method":"getCityIdByAddressOrLatLng","address":"KN 168 St, Kigali, Rwanda","lat":"-1.9750411","lng":"30.0527474"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"KN 168 St, Kigali, Rwanda"}}
+ Request - 2021-08-28 13:33:50
+{"method":"getCityIdByAddressOrLatLng","address":"KN 168 St, Kigali, Rwanda","lat":"-1.9750407","lng":"30.0527469"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"KN 168 St, Kigali, Rwanda"}}
+ Request - 2021-08-28 13:45:11
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sénégal","lat":"14.7872089","lng":"-17.3716366"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Senegal"}}
+ Request - 2021-08-28 13:53:05
+{"method":"getCityIdByAddressOrLatLng","address":"São Tomé e Príncipe","lat":"0.18636","lng":"6.613080999999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"st, S\u00e3o Tom\u00e9 and Pr\u00edncipe"}}
+ Request - 2021-08-28 13:58:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Maharashtra 431116, India","lat":"20.1081416","lng":"74.8709979"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Maharashtra 431116, India"}}
+ Request - 2021-08-28 14:07:24
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, São Tomé, São Tomé e Príncipe","lat":"0.32833999999999997","lng":"6.733433333333333"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, S\u00e3o Tom\u00e9, S\u00e3o Tom\u00e9 and Pr\u00edncipe"}}
+ Request - 2021-08-28 14:30:37
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Kaolack, Sénégal","lat":"14.1559847","lng":"-16.0329755"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Kaolack, Senegal"}}
+ Request - 2021-08-28 14:50:38
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, M'bour, Sénégal","lat":"14.4247086","lng":"-16.9615015"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, M'bour, Senegal"}}
+ Request - 2021-08-28 17:02:53
+{"method":"getCityIdByAddressOrLatLng","address":"5 Rue de Turique, 54000 Nancy, France","lat":"48.6919986","lng":"6.1674264"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Rue de Turique, 54000 Nancy, France"}}
+ Request - 2021-08-28 17:22:34
+{"method":"getCityIdByAddressOrLatLng","address":"VGFX+39P, Daloa, Côte d'Ivoire","lat":"6.8725904","lng":"-6.451554"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VGFX+39P, Daloa, C\u00f4te d'Ivoire"}}
+ Request - 2021-08-28 18:06:12
+{"method":"getCityIdByAddressOrLatLng","address":"Prézégat, 44600 Saint-Nazaire, France","lat":"47.2908293","lng":"-2.2195708"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Pr\u00e9z\u00e9gat, 44600 Saint-Nazaire, France"}}
+ Request - 2021-08-28 20:10:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Praia, Cabo Verde","lat":"14.9100013","lng":"-23.5354626"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Praia, Cape Verde"}}
+ Request - 2021-08-28 20:46:27
+{"method":"getCityIdByAddressOrLatLng","address":"MC9J+8HG, Conakry, Guinée","lat":"9.6693215","lng":"-13.5686795"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MC9J+8HG, Conakry, Guinea"}}
+ Request - 2021-08-28 20:59:39
+{"method":"getCityIdByAddressOrLatLng","address":"MQRF+655, Bargny, Sénégal","lat":"14.690635000000002","lng":"-17.22711"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MQRF+655, Bargny Gouddau, Senegal"}}

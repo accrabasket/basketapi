@@ -1,0 +1,9 @@
+
+ Request - 2021-03-22 17:13:35
+{"id":"2","method":"deletetax"}
+ Response :- 
+{"status":"success","msg":"Tax deleted "}
+ Request - 2021-03-22 17:13:38
+{"id":"1","method":"deletetax"}
+ Response :- 
+{"status":"success","msg":"Tax deleted "}

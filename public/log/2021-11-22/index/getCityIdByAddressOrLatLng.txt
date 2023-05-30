@@ -1,0 +1,13 @@
+
+ Request - 2021-11-22 02:42:22
+{"method":"getCityIdByAddressOrLatLng","address":"भवनाथपुर - केतर - पंचडुमर रोड, Bhawanathpur, Jharkhand 822112, India","lat":"24.387488","lng":"83.5707976"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9HPC+X8 Makri, Jharkhand, India"}}
+ Request - 2021-11-22 06:23:33
+{"method":"getCityIdByAddressOrLatLng","address":"4 Inisa St, 360101, Ado Ekiti, Nigeria","lat":"7.6157186","lng":"5.2300933"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 Inisa St, 360101, Ado Ekiti, Nigeria"}}
+ Request - 2021-11-22 06:23:39
+{"method":"getCityIdByAddressOrLatLng","address":"4 Inisa St, 360101, Ado Ekiti, Nigeria","lat":"7.6157186","lng":"5.2300933"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4 Inisa St, 360101, Ado Ekiti, Nigeria"}}

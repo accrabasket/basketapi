@@ -1,0 +1,9 @@
+
+ Request - 2022-08-27 11:33:10
+{"method":"addtocart","guest_user_id":"ba667c4266dcc3fc","number_of_item":"1","merchant_inventry_id":"672","action":"add","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-27 11:33:28
+{"method":"addtocart","guest_user_id":"ba667c4266dcc3fc","number_of_item":"1","merchant_inventry_id":"672","action":"delete","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

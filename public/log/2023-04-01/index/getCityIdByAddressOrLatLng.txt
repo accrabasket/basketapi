@@ -1,0 +1,53 @@
+
+ Request - 2023-04-01 05:28:55
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:28:58
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:00
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:04
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:12
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:13
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:14
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:15
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 05:29:22
+{"method":"getCityIdByAddressOrLatLng","address":"Dakar, Senegal","lat":"14.777808","lng":"-17.310077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 16:10:54
+{"method":"getCityIdByAddressOrLatLng","address":"8VC3+9PG, Nuapur, Odisha 756044, India","lat":"21.3209934","lng":"86.8545005"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 18:49:21
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 312110, Edo, Nigeria","lat":"7.1147787","lng":"6.4525077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 18:49:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 312110, Edo, Nigeria","lat":"7.1147787","lng":"6.4525077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-01 18:49:38
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 312110, Edo, Nigeria","lat":"7.1147787","lng":"6.4525077"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

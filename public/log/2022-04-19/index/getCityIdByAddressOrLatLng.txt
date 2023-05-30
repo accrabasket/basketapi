@@ -1,0 +1,21 @@
+
+ Request - 2022-04-19 02:36:00
+{"method":"getCityIdByAddressOrLatLng","address":"37 Landhi Rd, Sector 37 D Landhi Town, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8434589","lng":"67.1957736"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"37 Landhi Rd, Sector 37 D Landhi Town, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-04-19 11:16:43
+{"method":"getCityIdByAddressOrLatLng","address":"الحسائيه، سوق الشيوخ،، سوق الشيوخ، العراق","lat":"30.8814743","lng":"46.482246"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0627\u0644\u062d\u0633\u0627\u0626\u064a\u0647\u060c \u0633\u0648\u0642 \u0627\u0644\u0634\u064a\u0648\u062e\u060c\u060c Suq Al-Shuyukh, Iraq"}}
+ Request - 2022-04-19 11:16:47
+{"method":"getCityIdByAddressOrLatLng","address":"الحسائيه، سوق الشيوخ،، سوق الشيوخ، العراق","lat":"30.8814743","lng":"46.482246"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0627\u0644\u062d\u0633\u0627\u0626\u064a\u0647\u060c \u0633\u0648\u0642 \u0627\u0644\u0634\u064a\u0648\u062e\u060c\u060c Suq Al-Shuyukh, Iraq"}}
+ Request - 2022-04-19 15:00:15
+{"method":"getCityIdByAddressOrLatLng","address":"Komo-Mondah, Gabon","lat":"0.3864892","lng":"9.6199116"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9JP9+HX Nkok, Gabon"}}
+ Request - 2022-04-19 19:01:51
+{"method":"getCityIdByAddressOrLatLng","address":"9357+5CP, Abidjan, Côte d'Ivoire","lat":"5.3584051","lng":"-3.9366197"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9357+5CP, Abidjan, C\u00f4te d'Ivoire"}}

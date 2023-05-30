@@ -1,0 +1,13 @@
+
+ Request - 2022-02-18 06:35:38
+{"method":"getCityIdByAddressOrLatLng","address":"4 M22, Lakshmipur, Bangladesh","lat":"22.9445162","lng":"90.822595"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WRVF+R2 Lakshmipur, Bangladesh"}}
+ Request - 2022-02-18 10:42:55
+{"method":"getCityIdByAddressOrLatLng","address":"J2M5+CHG, Dewna Mendi, Gujrat, Punjab, Pakistan","lat":"32.6333963","lng":"74.0088673"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J2M5+CHG, Dewna Mendi, Gujrat, Punjab, Pakistan"}}
+ Request - 2022-02-18 21:20:46
+{"method":"getCityIdByAddressOrLatLng","address":"Enrique Delgado 12-01, El Carmen, Ecuador","lat":"-0.2752657","lng":"-79.4632257"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Enrique Delgado 12-01, El Carmen, Ecuador"}}

@@ -1,0 +1,25 @@
+
+ Request - 2021-03-15 03:45:24
+{"start_date":"2021-03-15","end_date":"2021-03-15","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":[],"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-03-15 13:04:59
+{"start_date":"2021-03-15","end_date":"2021-03-15","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":[],"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-03-15 16:48:37
+{"start_date":"2021-03-15","end_date":"2021-03-15","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-03-15":{"count":3,"created_date":"2021-03-15"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-03-15 17:23:24
+{"start_date":"2021-03-15","end_date":"2021-03-15","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-03-15":{"count":4,"created_date":"2021-03-15"}},"allOrderByDate":{"2021-03-15":{"count":4,"created_date":"2021-03-15"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":4,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-03-15 17:56:00
+{"start_date":"2021-03-15","end_date":"2021-03-15","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-03-15":{"count":4,"created_date":"2021-03-15"}},"allOrderByDate":{"2021-03-15":{"count":4,"created_date":"2021-03-15"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":4,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-03-15 20:11:44
+{"start_date":"2021-03-15","end_date":"2021-03-15","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-03-15":{"count":5,"created_date":"2021-03-15"}},"allOrderByDate":{"2021-03-15":{"count":4,"created_date":"2021-03-15"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":4,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

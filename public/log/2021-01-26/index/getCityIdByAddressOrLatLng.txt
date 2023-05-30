@@ -1,0 +1,9 @@
+
+ Request - 2021-01-26 09:25:12
+{"method":"getCityIdByAddressOrLatLng","address":"City clock, Eastleigh First Ave, Nairobi, Kenya","lat":"-1.2670862","lng":"36.8478362"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"City clock, Eastleigh First Ave, Nairobi, Kenya"}}
+ Request - 2021-01-26 13:07:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kerala 685563, India","lat":"9.9677599","lng":"77.0796503"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kerala 685563, India"}}

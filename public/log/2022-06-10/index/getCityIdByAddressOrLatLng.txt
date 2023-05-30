@@ -1,0 +1,17 @@
+
+ Request - 2022-06-10 06:00:38
+{"method":"getCityIdByAddressOrLatLng","address":"QCFP+V85, Jl. Raya Serang, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610, Indonesia","lat":"-6.2251449","lng":"106.4359861"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QCFP+V85, Jl. Raya Serang, Cangkudu, Kec. Balaraja, Kabupaten Tangerang, Banten 15610, Indonesia"}}
+ Request - 2022-06-10 07:03:00
+{"method":"getCityIdByAddressOrLatLng","address":"H99H+9C9, Seal Lane, Tangra, Kolkata, West Bengal 700015, India","lat":"22.5686247","lng":"88.3787295"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H99H+9C9, Seal Lane, Tangra, Kolkata, West Bengal 700015, India"}}
+ Request - 2022-06-10 07:12:52
+{"method":"getCityIdByAddressOrLatLng","address":"Grand-Lahou, Côte d'Ivoire","lat":"5.7233086","lng":"-4.8299787"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P5FC+82 Broubrou, C\u00f4te d'Ivoire"}}
+ Request - 2022-06-10 20:49:02
+{"method":"getCityIdByAddressOrLatLng","address":"Kinzenzengo, Kinshasa, République démocratique du Congo","lat":"-4.3736446","lng":"15.3103744"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J8G6+G4 Kinshasa, Democratic Republic of the Congo"}}

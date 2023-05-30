@@ -1,0 +1,9 @@
+
+ Request - 2021-03-04 15:50:41
+{"parent_category_id":"65","category_name":"Salt","category_des":"","category_sequence":"9","id":"58","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}
+ Request - 2021-03-04 16:03:26
+{"parent_category_id":"65","category_name":"Oats, Noodles & Pasta","category_des":"","category_sequence":"6","id":"91","method":"addEditCategory"}
+ Response :- 
+{"status":"success","msg":"category Data Saved"}

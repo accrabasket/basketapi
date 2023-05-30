@@ -1,0 +1,9 @@
+
+ Request - 2023-03-12 07:28:40
+{"method":"getCityIdByAddressOrLatLng","address":"Chinakuri P G P T Mess Bus Stand, West Bengal 713333, India","lat":"23.6759874","lng":"86.8588904"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-12 07:28:43
+{"method":"getCityIdByAddressOrLatLng","address":"Chinakuri P G P T Mess Bus Stand, West Bengal 713333, India","lat":"23.6759874","lng":"86.8588904"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

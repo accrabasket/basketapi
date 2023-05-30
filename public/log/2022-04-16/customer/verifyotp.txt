@@ -1,0 +1,5 @@
+
+ Request - 2022-04-16 23:38:05
+{"method":"verifyotp","country_code":"+233","mobile_number":"0274836301","otp_type":"register","otp":"4198"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"76c75060b1d28e77508b2a75a5898207"}}

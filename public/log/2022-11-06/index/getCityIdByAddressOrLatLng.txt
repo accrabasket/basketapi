@@ -1,0 +1,17 @@
+
+ Request - 2022-11-06 02:27:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kaimara Kalan, Madhya Pradesh 476229, India","lat":"26.188489","lng":"77.1882355"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"55QQ+97 Kaimara Kalan, Madhya Pradesh, India"}}
+ Request - 2022-11-06 14:29:54
+{"method":"getCityIdByAddressOrLatLng","address":"N39, République démocratique du Congo","lat":"-10.7525326","lng":"25.8738022"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6VWF+XG Kisamfu, Democratic Republic of the Congo"}}
+ Request - 2022-11-06 17:18:30
+{"method":"getCityIdByAddressOrLatLng","address":"R.P.313,nyamurenza, Ngozi, Burundi","lat":"-2.8996196","lng":"29.8307089"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4R2J+57 Ngozi, Burundi"}}
+ Request - 2022-11-06 22:14:47
+{"method":"getCityIdByAddressOrLatLng","address":"6C75+RF4، بغداد، العراق","lat":"33.2157528","lng":"44.4104555"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6C86+85 Baghdad, Iraq"}}

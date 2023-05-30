@@ -1,0 +1,101 @@
+
+ Request - 2021-03-15 02:28:13
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 02:28:53
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"895","action":"add","item_name":"White Oats(White Oats)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 02:29:46
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"981","action":"add","item_name":"Couscous (Couscous )"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 02:30:05
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1005","action":"add","item_name":"Red Palm Oil(Red Palm Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 02:31:27
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1948","action":"add","item_name":"Infant Cereal-Wheat(Infant Cereal-Wheat)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:37:45
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1487","action":"delete","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:38:15
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2904","action":"delete","item_name":"Fruit Filled Assorted Candies(Fruit Filled Assorted Candies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:38:38
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2374","action":"delete","item_name":"Mango & Papaya Bath & Shower Gel(Mango & Papaya Bath & Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:39:57
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2704","action":"add","item_name":"Chicken Gout Poulet Flavour Noodles(Chicken Gout Poulet Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:03
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:11
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:13
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:17
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1487","action":"add","item_name":"Pepper Chicken Flavor - Instant Noodles(Pepper Chicken Flavor - Instant Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:29
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1289","action":"delete","item_name":"Petit Beurre(Petit Beurre)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:34
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1914","action":"delete","item_name":"Hide&Seek Murano Chocolate Cookies(Hide&Seek Murano Chocolate Cookies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:36
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1928","action":"delete","item_name":"Happy Happy Cookies(Happy Happy Cookies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:40:47
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2063","action":"delete","item_name":"Spaghetti(Spaghetti)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 04:45:47
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1988","action":"add","item_name":"APA Men Deodorant Spray - Invisible Dry(APA Men Deodorant Spray - Invisible Dry)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:09
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"2519","action":"add","item_name":"Luxury Pamper (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:11
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"2521","action":"add","item_name":"The Ladies Hamper(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:13
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"2522","action":"add","item_name":"Obaatanpa(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:14
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"2518","action":"add","item_name":"Kids Happy Baskets(Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:18
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"3100","action":"add","item_name":"300 GHC(300 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:20
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"3101","action":"add","item_name":"500 GHC(500 GHC)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-15 07:47:34
+{"method":"addtocart","guest_user_id":"cc5a423ab12b830e","number_of_item":"1","merchant_inventry_id":"3200","action":"add","item_name":"GHC 350 FRUIT BASKET(GHC 350 FRUIT BASKET)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

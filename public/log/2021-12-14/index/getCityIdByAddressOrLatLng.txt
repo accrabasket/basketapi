@@ -1,0 +1,17 @@
+
+ Request - 2021-12-14 04:13:02
+{"method":"getCityIdByAddressOrLatLng","address":"Badaldi Rd, Dhaka, Bangladesh","lat":"23.8546738","lng":"90.3824777"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V93J+VX Dhaka, Bangladesh"}}
+ Request - 2021-12-14 11:51:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Ghana","lat":"6.2564876","lng":"-0.9444633"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ghana"}}
+ Request - 2021-12-14 19:11:06
+{"method":"getCityIdByAddressOrLatLng","address":"PVP6+J26, Nairobi, Kenya","lat":"-1.2635391","lng":"36.8598787"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PVP6+J26, Nairobi, Kenya"}}
+ Request - 2021-12-14 20:49:58
+{"method":"getCityIdByAddressOrLatLng","address":"Yeniköy, İsimsiz Yol, 48440 Bodrum\/Muğla, Türkiye","lat":"37.0453137","lng":"27.4110539"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2CW6+4C Bodrum\/Mu\u011fla, Turkey"}}

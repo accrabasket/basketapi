@@ -1,0 +1,9 @@
+
+ Request - 2022-08-13 16:18:37
+{"method":"addtocart","guest_user_id":"615ba742e0eeabb2","number_of_item":"1","merchant_inventry_id":"1374","action":"add","item_name":"Traditional Basmati Rice(Traditional Basmati Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-13 16:19:45
+{"method":"addtocart","guest_user_id":"615ba742e0eeabb2","number_of_item":"1","merchant_inventry_id":"308","action":"add","item_name":"Rasmalai Mix(Rasmalai Mix)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

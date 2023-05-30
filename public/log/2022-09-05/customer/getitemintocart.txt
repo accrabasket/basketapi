@@ -1,0 +1,49 @@
+
+ Request - 2022-09-05 03:14:33
+{"method":"getitemintocart","guest_user_id":"6fd98fd82cfa86b9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 05:44:44
+{"method":"getitemintocart","guest_user_id":"d1d964761f34e9c8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 09:07:54
+{"method":"getitemintocart","guest_user_id":"7dc151273aecb03d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 10:01:36
+{"method":"getitemintocart","guest_user_id":"50a7eba552aa9f99"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 10:57:23
+{"method":"getitemintocart","guest_user_id":"9ef42e447e4935a1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 13:10:13
+{"method":"getitemintocart","guest_user_id":"40479942e675b372"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 16:16:22
+{"method":"getitemintocart","guest_user_id":"62a77fba3532b230"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 16:16:39
+{"method":"getitemintocart","guest_user_id":"62a77fba3532b230"}
+ Response :- 
+{"status":"success","data":{"233":{"id":22469,"user_id":0,"guest_user_id":"62a77fba3532b230","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-09-05 16:16:38"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-05 16:17:59
+{"method":"getitemintocart","guest_user_id":"62a77fba3532b230"}
+ Response :- 
+{"status":"success","data":{"233":{"id":22469,"user_id":0,"guest_user_id":"62a77fba3532b230","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-09-05 16:16:38"},"3974":{"id":22470,"user_id":0,"guest_user_id":"62a77fba3532b230","merchant_inventry_id":3974,"item_name":"Baby Diapers 4 Maxi 9-13Kg(Baby Diapers 4 Maxi 9-13Kg)","number_of_item":1,"created_date":"2022-09-05 16:17:59"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"},"3974":{"id":3974,"price":"125.00","product_id":4458,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Baby Diapers 4 Maxi 9-13Kg","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Twinkle","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"PCS","quantity":76,"tax_value":null}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}],"4458":[{"id":5558,"type":"product","image_id":4458,"image_name":"OSU0348.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-05 16:18:09
+{"method":"getitemintocart","guest_user_id":"62a77fba3532b230"}
+ Response :- 
+{"status":"success","data":{"233":{"id":22469,"user_id":0,"guest_user_id":"62a77fba3532b230","merchant_inventry_id":233,"item_name":"Coconut Oil(Coconut Oil)","number_of_item":1,"created_date":"2022-09-05 16:16:38"},"3974":{"id":22470,"user_id":0,"guest_user_id":"62a77fba3532b230","merchant_inventry_id":3974,"item_name":"Baby Diapers 4 Maxi 9-13Kg(Baby Diapers 4 Maxi 9-13Kg)","number_of_item":1,"created_date":"2022-09-05 16:17:59"},"810":{"id":22471,"user_id":0,"guest_user_id":"62a77fba3532b230","merchant_inventry_id":810,"item_name":"Soft & Smooth Baby Soap(Soft & Smooth Baby Soap)","number_of_item":1,"created_date":"2022-09-05 16:18:09"}},"productDetails":{"status":"success","data":{"233":{"id":233,"price":"19.50","product_id":388,"merchant_id":3,"store_id":2,"merchant_product_code":"8901200100","product_name":"Coconut Oil","product_desc":"A market leader in its category and one of our oldest brands, Parachute Coconut Oil today stands for purity and quality. Over the years, the brand has seen a lot of innovations in packaging, sizing and tamper-proofing. Parachute enjoys enormous loyalty in urban, semi-urban and rural market.","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Parachute","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":200,"tax_value":"3"},"810":{"id":810,"price":"2.19","product_id":1094,"merchant_id":4,"store_id":4,"merchant_product_code":"23065","product_name":"Soft & Smooth Baby Soap","product_desc":"Our Soft & Smooth range is formulated to leave your baby\u2019s sensitive skin soft and hydrated. It is important to keep your baby\u2019s skin soft and moisturised as it develops. Our Soft & Smooth Baby Soap is enriched with Almond Milk to gently hydrate your baby\u2019s skin. We've also added Rose Oil to give aromatic calming effect.","default_discount_type":"","default_discount_value":"0","category_id":87,"custom_info":"{\"Preparation and Usage\":\"Lather soap on Mum\\u2019s hand or wash cloth, then gently apply on baby\\u2019s skin. Rinse off.\\r\\nFor added moisture try our Soft & Smooth Baby Lotion, it\\u2019s great for Mum\\u2019s dry skin as well.\"}","brand_name":"Cussons","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":75,"tax_value":"3"},"3974":{"id":3974,"price":"125.00","product_id":4458,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Baby Diapers 4 Maxi 9-13Kg","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":83,"custom_info":"","brand_name":"Twinkle","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"PCS","quantity":76,"tax_value":null}},"productImageData":{"388":[{"id":306,"type":"product","image_id":388,"image_name":"8901200100038.jpg"}],"1094":[{"id":1495,"type":"product","image_id":1094,"image_name":"23065.jpg"}],"4458":[{"id":5558,"type":"product","image_id":4458,"image_name":"OSU0348.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-09-05 16:39:57
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-09-05 20:00:27
+{"method":"getitemintocart","guest_user_id":"e994b059f873457f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,45 @@
+
+ Request - 2023-03-31 16:13:19
+{"method":"getCityIdByAddressOrLatLng","address":"SHIBLI NATIONAL COLLEGE, PANDEY BAZAR, 35GW+X3V, Azamgarh, Uttar Pradesh 276001, India","lat":"26.0777399","lng":"83.1948746"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 16:13:35
+{"method":"getCityIdByAddressOrLatLng","address":"SHIBLI NATIONAL COLLEGE, PANDEY BAZAR, 35GW+X3V, Azamgarh, Uttar Pradesh 276001, India","lat":"26.0777399","lng":"83.1948746"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 16:13:36
+{"method":"getCityIdByAddressOrLatLng","address":"SHIBLI NATIONAL COLLEGE, PANDEY BAZAR, 35GW+X3V, Azamgarh, Uttar Pradesh 276001, India","lat":"26.0777399","lng":"83.1948746"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:22:43
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:22:47
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:22:56
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:23:00
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:23:16
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:23:24
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:23:32
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-31 17:23:36
+{"method":"getCityIdByAddressOrLatLng","address":"57H9+PVG, RN14, Mokko, Niger","lat":"13.179441666666666","lng":"3.27017"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

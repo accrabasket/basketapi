@@ -1,0 +1,17 @@
+
+ Request - 2022-01-14 04:02:30
+{"method":"getCityIdByAddressOrLatLng","address":"देंकनिकोत्तई बस स्टेशन, Yarab Nagar, Denkanikottai, Tamil Nadu 635107, India","lat":"12.5268381","lng":"77.7893976"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0926\u0947\u0902\u0915\u0928\u093f\u0915\u094b\u0924\u094d\u0924\u0908 \u092c\u0938 \u0938\u094d\u091f\u0947\u0936\u0928, Yarab Nagar, Denkanikottai, Tamil Nadu 635107, India"}}
+ Request - 2022-01-14 10:50:16
+{"method":"getCityIdByAddressOrLatLng","address":"6F46+H32, Ben Town, Liberia","lat":"6.2058164","lng":"-10.5403347"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6F46+H32, Ben Town, Liberia"}}
+ Request - 2022-01-14 12:59:38
+{"method":"getCityIdByAddressOrLatLng","address":"Abengourou, Côte d'Ivoire","lat":"6.2634239","lng":"-3.3927616"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7J74+9V Aprompronou, C\u00f4te d'Ivoire"}}
+ Request - 2022-01-14 13:35:04
+{"method":"getCityIdByAddressOrLatLng","address":"C. Sol 3, Verón 23000, República Dominicana","lat":"18.6023919","lng":"-68.4216463"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JH2H+X8 Punta Cana, Dominican Republic"}}

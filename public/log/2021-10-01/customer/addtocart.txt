@@ -1,0 +1,13 @@
+
+ Request - 2021-10-01 13:09:32
+{"method":"addtocart","guest_user_id":"1a8085e0a461edb0","number_of_item":"1","merchant_inventry_id":"2959","action":"add","item_name":"American Cheese Slices(American Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-01 13:09:35
+{"method":"addtocart","guest_user_id":"1a8085e0a461edb0","number_of_item":"1","merchant_inventry_id":"2959","action":"delete","item_name":"American Cheese Slices(American Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-01 13:09:36
+{"method":"addtocart","guest_user_id":"1a8085e0a461edb0","number_of_item":"1","merchant_inventry_id":"2959","action":"add","item_name":"American Cheese Slices(American Cheese Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

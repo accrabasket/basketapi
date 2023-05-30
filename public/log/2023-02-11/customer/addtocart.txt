@@ -1,0 +1,5 @@
+
+ Request - 2023-02-11 11:56:22
+{"method":"addtocart","guest_user_id":"55c74f96334ae7c1","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

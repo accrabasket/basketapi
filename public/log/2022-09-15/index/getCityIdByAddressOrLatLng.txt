@@ -1,0 +1,17 @@
+
+ Request - 2022-09-15 08:19:22
+{"method":"getCityIdByAddressOrLatLng","address":"5J97+CRQ, Por, Gujarat 382421, India","lat":"23.1690435","lng":"72.614018"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5J97+CRQ, Por, Gujarat 382421, India"}}
+ Request - 2022-09-15 08:19:53
+{"method":"getCityIdByAddressOrLatLng","address":"P3WV+GVV, မိုးဗြဲ, မြန်မာ","lat":"19.7469218","lng":"97.0940541"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P3WV+GVV, Moe Bye, Myanmar (Burma)"}}
+ Request - 2022-09-15 15:27:48
+{"method":"getCityIdByAddressOrLatLng","address":"2CPW+FF9, Mahanth Maniari, Bihar 843119, India","lat":"26.0354245","lng":"85.4457775"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2CPW+FF9, Mahanth Maniari, Bihar 843119, India"}}
+ Request - 2022-09-15 17:32:41
+{"method":"getCityIdByAddressOrLatLng","address":"Bangladesh","lat":"23.978858412735494","lng":"88.90658150823288"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XWH4+CHX, Bangladesh"}}

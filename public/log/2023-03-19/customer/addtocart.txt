@@ -1,0 +1,13 @@
+
+ Request - 2023-03-19 13:45:03
+{"method":"addtocart","guest_user_id":"ae66edc72f004168","number_of_item":"1","merchant_inventry_id":"2069","action":"add","item_name":"Especial Coffee Liqueur(Especial Coffee Liqueur)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-03-19 13:45:08
+{"method":"addtocart","guest_user_id":"ae66edc72f004168","number_of_item":"1","merchant_inventry_id":"2073","action":"add","item_name":"Mumm Le Rose(Mumm Le Rose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2023-03-19 13:45:11
+{"method":"addtocart","guest_user_id":"ae66edc72f004168","number_of_item":"1","merchant_inventry_id":"2072","action":"add","item_name":"Cognac VSOP(Cognac VSOP)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

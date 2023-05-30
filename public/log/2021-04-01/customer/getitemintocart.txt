@@ -1,0 +1,29 @@
+
+ Request - 2021-04-01 05:55:37
+{"method":"getitemintocart","guest_user_id":"06c08081d89e322d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-01 09:13:51
+{"method":"getitemintocart","user_id":"459"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-01 17:22:56
+{"method":"getitemintocart","user_id":"800"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-01 21:51:12
+{"method":"getitemintocart","guest_user_id":"ea0b0473d84a84d4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-01 21:52:10
+{"method":"getitemintocart","guest_user_id":"ea0b0473d84a84d4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-01 22:26:11
+{"method":"getitemintocart","guest_user_id":"ea0b0473d84a84d4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-01 22:26:31
+{"method":"getitemintocart","guest_user_id":"ea0b0473d84a84d4"}
+ Response :- 
+{"status":"success","data":{"428":{"id":13798,"user_id":0,"guest_user_id":"ea0b0473d84a84d4","merchant_inventry_id":428,"item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)","number_of_item":1,"created_date":"2021-04-01 22:26:30"}},"productDetails":{"status":"success","data":{"428":{"id":428,"price":"11.30","product_id":593,"merchant_id":3,"store_id":2,"merchant_product_code":"8699415063","product_name":"Floral - Multi Surface Cleaner","product_desc":"Devamax multi surface cleaner provides effective cleaning with special fragrance which refreshes your living area. It cleans all kinds of stains caused by lime, grease, dust, food residue, and more with a special shining effect.","default_discount_type":"","default_discount_value":"0","category_id":63,"custom_info":"","brand_name":"Devamax","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"liter","quantity":1,"tax_value":"3"}},"productImageData":{"593":[{"id":553,"type":"product","image_id":593,"image_name":"8699415063025.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

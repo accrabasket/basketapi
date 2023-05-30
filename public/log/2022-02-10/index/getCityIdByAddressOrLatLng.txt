@@ -1,0 +1,13 @@
+
+ Request - 2022-02-10 04:50:50
+{"method":"getCityIdByAddressOrLatLng","address":"C-1-254, Vinoba Bhave Nagar, Dibiyapur, Phase 2, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445, India","lat":"22.9532424","lng":"72.6385537"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C-1-254, Vinoba Bhave Nagar, Dibiyapur, Phase 2, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445, India"}}
+ Request - 2022-02-10 12:41:23
+{"method":"getCityIdByAddressOrLatLng","address":"M9, Mzimba, Malawi","lat":"-11.899232","lng":"33.594076"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4H2V+8J Mzimba, Malawi"}}
+ Request - 2022-02-10 15:54:21
+{"method":"getCityIdByAddressOrLatLng","address":"Barrack Road, 360101, Ado Ekiti, Nigeria","lat":"7.6263212","lng":"5.2178887"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J6G9+G5 Ado Ekiti, Nigeria"}}

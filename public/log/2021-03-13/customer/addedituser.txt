@@ -1,0 +1,21 @@
+
+ Request - 2021-03-13 12:54:06
+{"method":"addedituser","city_id":"1","password":"nesain84","name":"Vanessa Anane","email":"vanessanane84@gmail.com","mobile_number":"501790244","country_code":"+233","id":"0","fcm_reg_id":"cYpxto1qgqc:APA91bGIDIQh70n81r6UBCKsUJPaX9CnJbNcoSTelflQG4hhodMjgWzHERG4kecHGATP2mwrdG1zSAkF7BCwiqiffoIN_4ZMlfn3NDjlYlts6TUo80Lc9qX94Mij5DJG0SoumNZ2Yc2L"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233501790244 and registered email id.","data":{"2120":{"id":2120,"name":"Vanessa Anane","mobile_number":"501790244","email":"vanessanane84@gmail.com","key":"b96200dcb2bc4bcbe078f3cd1a20b295","password":"c2eacd2b8a3e314748d80e4b107db48e","fcm_reg_id":"cYpxto1qgqc:APA91bGIDIQh70n81r6UBCKsUJPaX9CnJbNcoSTelflQG4hhodMjgWzHERG4kecHGATP2mwrdG1zSAkF7BCwiqiffoIN_4ZMlfn3NDjlYlts6TUo80Lc9qX94Mij5DJG0SoumNZ2Yc2L","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-13 12:54:06","updated_date":"2021-03-13 12:54:06","status":"1"}}}
+ Request - 2021-03-13 14:48:55
+{"method":"addedituser","city_id":"1","password":"Mnbvcxz0","name":"Dgehrhrh","email":"Mnbvcxz@gmail.com","mobile_number":"552012864","country_code":"+233","id":"0","fcm_reg_id":"cLv9_Rdpwn0:APA91bGRjD1hE_PCWNdHodXBXQRJ_6-cYR7q025QzFpQlIrYYHC15Adozakp7TYUEreK53bnOwLqnRhYh6hlzQBJAc79pi5BX6MZOuuXn64DuUftQ9CbrVTolo8XQIKthmW7DT03Qc1F"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-13 14:49:00
+{"method":"addedituser","city_id":"1","password":"Mnbvcxz0","name":"Dgehrhrh","email":"Mnbvcxz@gmail.com","mobile_number":"552012864","country_code":"+233","id":"0","fcm_reg_id":"cLv9_Rdpwn0:APA91bGRjD1hE_PCWNdHodXBXQRJ_6-cYR7q025QzFpQlIrYYHC15Adozakp7TYUEreK53bnOwLqnRhYh6hlzQBJAc79pi5BX6MZOuuXn64DuUftQ9CbrVTolo8XQIKthmW7DT03Qc1F"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-13 14:49:19
+{"method":"addedituser","city_id":"1","password":"Mnbvcxz0","name":"Dgehrhrh","email":"mnbvcxz12@gmail.com","mobile_number":"552012864","country_code":"+233","id":"0","fcm_reg_id":"cLv9_Rdpwn0:APA91bGRjD1hE_PCWNdHodXBXQRJ_6-cYR7q025QzFpQlIrYYHC15Adozakp7TYUEreK53bnOwLqnRhYh6hlzQBJAc79pi5BX6MZOuuXn64DuUftQ9CbrVTolo8XQIKthmW7DT03Qc1F"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233552012864 and registered email id.","data":{"2122":{"id":2122,"name":"Dgehrhrh","mobile_number":"552012864","email":"mnbvcxz12@gmail.com","key":"9b2c660f051751f24c2d9de416bc6377","password":"2a1fbfe87cde9d3f71122487634bf088","fcm_reg_id":"cLv9_Rdpwn0:APA91bGRjD1hE_PCWNdHodXBXQRJ_6-cYR7q025QzFpQlIrYYHC15Adozakp7TYUEreK53bnOwLqnRhYh6hlzQBJAc79pi5BX6MZOuuXn64DuUftQ9CbrVTolo8XQIKthmW7DT03Qc1F","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-13 14:49:19","updated_date":"2021-03-13 14:49:19","status":"1"}}}
+ Request - 2021-03-13 14:56:04
+{"method":"addedituser","city_id":"1","password":"Zxcvbnm0","name":"Ahantanie","email":"Ahantanie@gmail.com","mobile_number":"209529249","country_code":"+233","id":"0","fcm_reg_id":"cLv9_Rdpwn0:APA91bGRjD1hE_PCWNdHodXBXQRJ_6-cYR7q025QzFpQlIrYYHC15Adozakp7TYUEreK53bnOwLqnRhYh6hlzQBJAc79pi5BX6MZOuuXn64DuUftQ9CbrVTolo8XQIKthmW7DT03Qc1F"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233209529249 and registered email id.","data":{"2123":{"id":2123,"name":"Ahantanie","mobile_number":"209529249","email":"Ahantanie@gmail.com","key":"52cc7660d3ff6e46328538f9cb90e773","password":"2bd7dce2e8c8308a1c7d1d5865dc11a4","fcm_reg_id":"cLv9_Rdpwn0:APA91bGRjD1hE_PCWNdHodXBXQRJ_6-cYR7q025QzFpQlIrYYHC15Adozakp7TYUEreK53bnOwLqnRhYh6hlzQBJAc79pi5BX6MZOuuXn64DuUftQ9CbrVTolo8XQIKthmW7DT03Qc1F","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-13 14:56:04","updated_date":"2021-03-13 14:56:04","status":"1"}}}

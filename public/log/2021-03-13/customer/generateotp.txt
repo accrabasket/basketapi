@@ -1,0 +1,25 @@
+
+ Request - 2021-03-13 12:03:05
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"3242260472"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2333242260472","otp_type":"register","user_id":"0","otp":6984,"expiry_date":"2021-03-13 12:18:05"}}
+ Request - 2021-03-13 12:03:17
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"3242260472"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2333242260472","otp_type":"register","user_id":"0","otp":5774,"expiry_date":"2021-03-13 12:18:17"}}
+ Request - 2021-03-13 12:03:22
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"3242260472"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2333242260472","otp_type":"register","user_id":"0","otp":7962,"expiry_date":"2021-03-13 12:18:22"}}
+ Request - 2021-03-13 14:50:27
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"552012864"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233552012864","otp_type":"register","user_id":"0","otp":8421,"expiry_date":"2021-03-13 15:05:27"}}
+ Request - 2021-03-13 14:56:47
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"209529249"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233209529249","otp_type":"register","user_id":"0","otp":4154,"expiry_date":"2021-03-13 15:11:47"}}
+ Request - 2021-03-13 14:57:59
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"209529249"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233209529249","otp_type":"register","user_id":"0","otp":5127,"expiry_date":"2021-03-13 15:12:59"}}

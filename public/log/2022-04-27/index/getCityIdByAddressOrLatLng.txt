@@ -1,0 +1,13 @@
+
+ Request - 2022-04-27 04:49:39
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Kongolo, République démocratique du Congo","lat":"-5.3640421","lng":"27.0093394"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J2P5+9P Kongolo, Democratic Republic of the Congo"}}
+ Request - 2022-04-27 04:49:57
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Kongolo, République démocratique du Congo","lat":"-5.3640421","lng":"27.0093394"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J2P5+9P Kongolo, Democratic Republic of the Congo"}}
+ Request - 2022-04-27 07:32:27
+{"method":"getCityIdByAddressOrLatLng","address":"WJMW+6H2, Chandanathope, Kottamkara, Kerala 691014, India","lat":"8.9331695","lng":"76.6454225"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WJMW+43V, Keralapuram-Poojappura-Mammoodu Rd, Chandanathope, Kottamkara, Kerala 691014, India"}}

@@ -1,0 +1,73 @@
+
+ Request - 2022-04-02 17:20:21
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:20:25
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:00
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"270","action":"add","item_name":"Honey(Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:08
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"292","action":"add","item_name":"Mixed Vegetables with Tomato Sauce(Mixed Vegetables with Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:10
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:14
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:27
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"306","action":"add","item_name":"Pure Refined Iodised Salt(Pure Refined Iodised Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:35
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"858","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:41
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"893","action":"add","item_name":"Thai Jasmine Rice(Thai Jasmine Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:21:42
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"924","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 17:22:58
+{"method":"addtocart","guest_user_id":"1283e867ceae8b16","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:22
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:25
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"452","action":"delete","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:26
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:28
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:34
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"459","action":"add","item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:47
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-04-02 18:03:54
+{"method":"addtocart","guest_user_id":"e7657c8a62932faf","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

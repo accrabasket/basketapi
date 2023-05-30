@@ -1,0 +1,17 @@
+
+ Request - 2021-10-29 11:16:50
+{"method":"getCityIdByAddressOrLatLng","address":"SH 5A, Renukoot, Uttar Pradesh 231208, India","lat":"24.2092306","lng":"83.0370708"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"625P+MR Renukoot, Uttar Pradesh, India"}}
+ Request - 2021-10-29 11:25:13
+{"method":"getCityIdByAddressOrLatLng","address":"V4JM+8J6, Alampur (P), Telangana 509152, India","lat":"15.8806105","lng":"78.1339836"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V4JM+8J6, Alampur (P), Telangana 509152, India"}}
+ Request - 2021-10-29 17:10:23
+{"method":"getCityIdByAddressOrLatLng","address":"4034 جبال طوروس، حي النزلة اليمانية، جدة 22334 6284، السعودية","lat":"21.4586354","lng":"39.2177677"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4034 Jibal Turus, An Nazlah Al Yamaniyah District, Jeddah 22334\u00a06284, Saudi Arabia"}}
+ Request - 2021-10-29 18:37:30
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Taji, العراق","lat":"33.5603647","lng":"44.2638783"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H767+4H Taji, Iraq"}}

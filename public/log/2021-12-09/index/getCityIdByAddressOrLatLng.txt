@@ -1,0 +1,21 @@
+
+ Request - 2021-12-09 00:49:29
+{"method":"getCityIdByAddressOrLatLng","address":"Kpoglu, Ghana","lat":"6.174165599999999","lng":"1.0717842"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kpoglu, Ghana"}}
+ Request - 2021-12-09 00:49:32
+{"method":"getCityIdByAddressOrLatLng","address":"Kpoglu, Ghana","lat":"6.174165599999999","lng":"1.0717842"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kpoglu, Ghana"}}
+ Request - 2021-12-09 01:06:16
+{"method":"getCityIdByAddressOrLatLng","address":"Shop 5 New Ramkrishna Apartments Behind Canara Bank Vishwakarma Nagar, Kalwa West, Budhaji Nagar, Kalwa, Thane, Maharashtra 400605, India","lat":"19.195168","lng":"72.9878143"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shop 5 New Ramkrishna Apartments Behind Canara Bank Vishwakarma Nagar, Kalwa West, Budhaji Nagar, Kalwa, Thane, Maharashtra 400605, India"}}
+ Request - 2021-12-09 08:45:42
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Aiza, Telangana 509127, India","lat":"16.0068295","lng":"77.6727607"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2M4F+P4 Aiza, Telangana, India"}}
+ Request - 2021-12-09 11:36:18
+{"method":"getCityIdByAddressOrLatLng","address":"6FQ957V4+7CXC, 1b Araromi St, 340283, Akure, Nigeria","lat":"7.2556326","lng":"5.1929616"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6FQ957V4+7CXC, 1b Araromi St, 340283, Akure, Nigeria"}}

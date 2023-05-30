@@ -1,0 +1,25 @@
+
+ Request - 2022-01-19 07:45:21
+{"method":"getCityIdByAddressOrLatLng","address":"PVCF+254, Nairobi, Kenya","lat":"-1.2797519","lng":"36.8725996"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PVCF+254, Nairobi, Kenya"}}
+ Request - 2022-01-19 09:41:11
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Kamal Muara IX No.3A, RT.5\/RW.2, Kamal Muara, Kec. Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14470, Indonesia","lat":"-6.1131815","lng":"106.727439"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Kamal Muara IX No.3A, RT.5\/RW.2, Kamal Muara, Kec. Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14470, Indonesia"}}
+ Request - 2022-01-19 15:18:20
+{"method":"getCityIdByAddressOrLatLng","address":"5 إبراهيم حسن، منطي، مركز قليوب، القليوبية، مصر","lat":"30.1401974","lng":"31.247798"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5 Ibrahim Hasan, Manti, Qalyub, Al Qalyubia Governorate, Egypt"}}
+ Request - 2022-01-19 17:08:24
+{"method":"getCityIdByAddressOrLatLng","address":"Kampala-Hoima, Uganda","lat":"1.4123034","lng":"31.3750683"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C96G+W2 Hoima, Uganda"}}
+ Request - 2022-01-19 17:08:24
+{"method":"getCityIdByAddressOrLatLng","address":"Kampala-Hoima, Uganda","lat":"1.4123034","lng":"31.3750683"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"C96G+W2 Hoima, Uganda"}}
+ Request - 2022-01-19 22:15:40
+{"method":"getCityIdByAddressOrLatLng","address":"N 6, Diaoube, Sénégal","lat":"12.9106961","lng":"-14.1613117"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WR6Q+7F Diaoube, Senegal"}}

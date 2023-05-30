@@ -1,0 +1,17 @@
+
+ Request - 2023-01-17 05:23:32
+{"method":"getitemintocart","guest_user_id":"30728a822b72c481"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-01-17 07:44:32
+{"method":"getitemintocart","guest_user_id":"60da4214d314aa73"}
+ Response :- 
+{"status":"success","data":{"766":{"id":22907,"user_id":0,"guest_user_id":"60da4214d314aa73","merchant_inventry_id":766,"item_name":"First Infant Milk(First Infant Milk)","number_of_item":1,"created_date":"2023-01-16 14:34:58"},"3452":{"id":22908,"user_id":0,"guest_user_id":"60da4214d314aa73","merchant_inventry_id":3452,"item_name":"Peach Shampoo(Peach Shampoo)","number_of_item":1,"created_date":"2023-01-16 14:35:23"}},"productDetails":{"status":"success","data":{"766":{"id":766,"price":"55.00","product_id":1050,"merchant_id":4,"store_id":4,"merchant_product_code":null,"product_name":"First Infant Milk","product_desc":"Our expert team at SMA Nutrition is dedicated to understanding the complex structure of breast milk and to applying the learnings from nature to our own products. We have been leading research in baby nutrition for over 100 years and have produced SMA PRO First Infant Milk, a nutritionally complete breast milk substitute, expertly created with nature in mind to support babies\u2019 unique nutritional needs.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Ingredients\":\"Lactose (Milk), Vegetable Oils (Palm, Rapeseed, Coconut, Sunflower), Demineralised Whey (Milk), Skimmed Milk, Galacto-Oligosaccharides (GOS), Potassium Citrate, Calcium Citrate, Emulsifier (Soya Lecithin), Fructo-Oligosaccharides (FOS), Fish Oil (DHA), Magnesium Chloride, L-Phenylalanine, Sodium Chloride, Sodium Citrate, Calcium Phosphate, Vitamin C, Arachidonic Acid-Rich Oil (AA), Choline Bitartrate, Taurine, Ferrous Sulphate, L-Histidine, Inositol, Zinc Sulphate, Antioxidants (Ascorbyl Palmitate, Tocopherol-Rich Extract), Vitamin E, L-Carnitine, Niacin, Pantothenic Acid, Copper Sulphate, Vitamin A, Thiamin, Vitamin B6, Manganese Sulphate, Riboflavin, Folic Acid, Potassium Iodide, Sodium Selenate, Vitamin D, Vitamin K, Vitamin B12, Biotin.\"}","brand_name":"SMA Pro","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"15","unit":"gm","quantity":400,"tax_value":"3"},"3452":{"id":3452,"price":"10.95","product_id":3916,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Peach Shampoo","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":51,"custom_info":"","brand_name":"Amalfi","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":750,"tax_value":null}},"productImageData":{"1050":[{"id":1068,"type":"product","image_id":1050,"image_name":"1050_1551272309.jpg"}],"3916":[{"id":4996,"type":"product","image_id":3916,"image_name":"OSU0570.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2023-01-17 10:53:24
+{"method":"getitemintocart","guest_user_id":"177d7fcf2d852576"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2023-01-17 16:20:13
+{"method":"getitemintocart","guest_user_id":"beeaf91d83752aa3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

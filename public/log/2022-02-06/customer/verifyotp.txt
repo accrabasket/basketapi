@@ -1,0 +1,5 @@
+
+ Request - 2022-02-06 14:16:52
+{"method":"verifyotp","country_code":"+233","mobile_number":"246078133","otp_type":"register","otp":"8795"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"b6441f2fb464c848ded52a4125ff93bd"}}

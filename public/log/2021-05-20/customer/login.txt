@@ -1,0 +1,9 @@
+
+ Request - 2021-05-20 14:45:34
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"ffbf1c5818fe6b9edf8dc72ac463e12e","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"d4gP37DshhE:APA91bH9nukb2vX1rCrfwm5IMI2Q94fb5DsgAjC7WsvY2UA2h15qgEcM_Z1A4kYh7Sz-hYnRNFHTFls_QeI3w93fztTDD05Fya3zKKDJjPV1LbVD8uziNiN83OkB1568AI3W-zQIoKGx","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2021-05-03 16:59:31","status":""}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}
+ Request - 2021-05-20 14:48:52
+{"method":"login","email":"maheshchindi@gmail.com ","password":"1234@Mahesh"}
+ Response :- 
+{"status":"success","data":{"800":{"id":800,"name":"Mahesh2","mobile_number":"234364324","email":"maheshchindi@gmail.com","key":"ffbf1c5818fe6b9edf8dc72ac463e12e","password":"58c9ef183d448f2165b29e87a6f87be4","fcm_reg_id":"d4gP37DshhE:APA91bH9nukb2vX1rCrfwm5IMI2Q94fb5DsgAjC7WsvY2UA2h15qgEcM_Z1A4kYh7Sz-hYnRNFHTFls_QeI3w93fztTDD05Fya3zKKDJjPV1LbVD8uziNiN83OkB1568AI3W-zQIoKGx","city_id":1,"address":"","verified_email":1,"verified_mobile":1,"created_date":"2020-08-15 17:08:38","updated_date":"2021-05-03 16:59:31","status":""}},"totalNumberOfUser":1,"wallet_key":"58c9ef183d448f2165b29e87a6f87be4"}

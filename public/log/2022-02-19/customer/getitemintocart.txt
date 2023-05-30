@@ -1,0 +1,29 @@
+
+ Request - 2022-02-19 02:26:16
+{"method":"getitemintocart","guest_user_id":"14e907061bddfe9d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-19 13:29:59
+{"method":"getitemintocart","guest_user_id":"374e7a4076ca08d0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-19 15:31:38
+{"method":"getitemintocart","guest_user_id":"e347b1d24d5723cb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-19 15:32:05
+{"method":"getitemintocart","guest_user_id":"e347b1d24d5723cb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-19 18:06:07
+{"method":"getitemintocart","guest_user_id":"4215b35b9493fc45"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-19 18:10:45
+{"method":"getitemintocart","user_id":"559"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-19 19:44:29
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

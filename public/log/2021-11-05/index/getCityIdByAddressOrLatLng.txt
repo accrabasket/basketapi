@@ -1,0 +1,21 @@
+
+ Request - 2021-11-05 12:26:32
+{"method":"getCityIdByAddressOrLatLng","address":"Sledge St, Sowutoum, Ghana","lat":"5.614614","lng":"-0.2721373"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sledge St, Sowutoum, Ghana"}}
+ Request - 2021-11-05 15:55:50
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tadzevu, Ghana","lat":"6.1935599","lng":"0.8909051"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Tadzevu, Ghana"}}
+ Request - 2021-11-05 17:26:42
+{"method":"getCityIdByAddressOrLatLng","address":"Baraton - Samoo Rd, Kenya","lat":"0.2539348","lng":"35.0799348"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"733H+HX Kapkoimet, Kenya"}}
+ Request - 2021-11-05 18:32:56
+{"method":"getCityIdByAddressOrLatLng","address":"89XJ+GH8, Winneba, Ghana","lat":"5.3476911","lng":"-0.6181959"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"89XJ+GH8, Winneba, Ghana"}}
+ Request - 2021-11-05 22:15:45
+{"method":"getCityIdByAddressOrLatLng","address":"Street No. 3, Bhara Kahu, Kot Hathyal, Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.747081","lng":"73.180503"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Street No. 3, Bhara Kahu, Kot Hathyal, Islamabad, Islamabad Capital Territory, Pakistan"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-05-19 15:00:39
+{"method":"addeditdeliveryaddress","house_number":"No 11","area":"","street_detail":"Evans Atta Mills Highstreet","contact_name":"Afia Baffour","city_name":"Enterprise House, No 11, Accra Box GP 50, Ghana","city_id":"1","lat":"5.5406078","long":"-0.2063905","user_id":"2575","address_nickname":"Enterprise Group","landmark":"opposite ABSA headoffice","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":460}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-10-01 13:18:47
+{"method":"getaddresslist","user_id":"4757"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-10-01 13:20:01
+{"method":"getaddresslist","user_id":"4757"}
+ Response :- 
+{"status":"success","data":{"522":{"id":522,"user_id":4757,"address_nickname":"nyaho","contact_name":"Gladys","city_id":1,"city_name":"31 Kofi Annan St, Accra, Ghana","house_number":"wienco agriculture","street_detail":"Kofi Annan street","landmark":"Kofi Annan street","zipcode":"43437","area":"","lat":"5.6153348","lng":"","created_date":"2021-10-01 13:20:01","updated_date":"2021-10-01 13:20:01"}}}

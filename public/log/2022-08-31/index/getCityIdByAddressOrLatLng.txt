@@ -1,0 +1,29 @@
+
+ Request - 2022-08-31 09:12:00
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 200132, Ibadan, Nigeria","lat":"7.455187","lng":"3.9937426"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FX4V+3F Akobo, Nigeria"}}
+ Request - 2022-08-31 09:43:52
+{"method":"getCityIdByAddressOrLatLng","address":"QWGH+2FJ, Bishoftu, Ethiopia","lat":"8.7751026","lng":"38.928666"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QWGH+2FJ, Bishoftu, Ethiopia"}}
+ Request - 2022-08-31 12:36:02
+{"method":"getCityIdByAddressOrLatLng","address":"Tandulia, Uttar Pradesh 242407, India","lat":"28.1165323","lng":"79.8105883"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4R86+J6 Tandulia, Uttar Pradesh, India"}}
+ Request - 2022-08-31 13:01:56
+{"method":"getCityIdByAddressOrLatLng","address":"RHVM+J6R, Juba, South Sudan","lat":"4.8437742","lng":"31.5828145"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RHVM+J6R, Juba, South Sudan"}}
+ Request - 2022-08-31 13:25:39
+{"method":"getCityIdByAddressOrLatLng","address":"ຖະຫນົນບໍມີຊື, ลาว","lat":"17.9914129","lng":"102.4231081"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XCRF+H6 Ban Ang, Laos"}}
+ Request - 2022-08-31 18:37:18
+{"method":"getCityIdByAddressOrLatLng","address":"25 Tiamiyu Lawal St, Oke Odo 102213, Lagos, Nigeria","lat":"6.6297532","lng":"3.2893317"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"25 Tiamiyu Lawal St, Oke Odo 102213, Lagos, Nigeria"}}
+ Request - 2022-08-31 23:11:54
+{"method":"getCityIdByAddressOrLatLng","address":"5897+CCW, Baikunthpur Rd, Bihar 845106, India","lat":"27.1667126","lng":"84.3119619"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5886+MQ Ddhanarpa, Bihar, India"}}

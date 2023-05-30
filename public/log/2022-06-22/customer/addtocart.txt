@@ -1,0 +1,17 @@
+
+ Request - 2022-06-22 01:35:33
+{"method":"addtocart","guest_user_id":"0cfe37b77130cef8","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-22 10:08:14
+{"method":"addtocart","guest_user_id":"92fe3d41a048d587","number_of_item":"1","merchant_inventry_id":"2660","action":"add","item_name":"Extra Long Ultra Thin Sanitary Pads(Extra Long Ultra Thin Sanitary Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-22 10:08:18
+{"method":"addtocart","guest_user_id":"92fe3d41a048d587","number_of_item":"1","merchant_inventry_id":"2660","action":"delete","item_name":"Extra Long Ultra Thin Sanitary Pads(Extra Long Ultra Thin Sanitary Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-22 10:08:57
+{"method":"addtocart","guest_user_id":"92fe3d41a048d587","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

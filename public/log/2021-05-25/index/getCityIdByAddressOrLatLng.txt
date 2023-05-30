@@ -1,0 +1,17 @@
+
+ Request - 2021-05-25 06:54:38
+{"method":"getCityIdByAddressOrLatLng","address":"Ogo-Oluwa Street, Ile Oluji, Nigeria","lat":"7.2015438","lng":"4.8703777"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ogo-Oluwa Street, Ile Oluji, Nigeria"}}
+ Request - 2021-05-25 15:24:43
+{"method":"getCityIdByAddressOrLatLng","address":"Om International School Rd, Narwar, Uttar Pradesh 233226, India","lat":"25.7992144","lng":"83.5471592"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Om International School Rd, Narwar, Uttar Pradesh 233226, India"}}
+ Request - 2021-05-25 16:27:07
+{"method":"getCityIdByAddressOrLatLng","address":"N12, Sunyani, Ghana","lat":"7.3453865","lng":"-2.2813529"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N12, Sunyani, Ghana"}}
+ Request - 2021-05-25 16:27:09
+{"method":"getCityIdByAddressOrLatLng","address":"N12, Sunyani, Ghana","lat":"7.3453865","lng":"-2.2813529"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N12, Sunyani, Ghana"}}

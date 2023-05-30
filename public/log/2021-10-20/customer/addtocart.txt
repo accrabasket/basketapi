@@ -1,0 +1,29 @@
+
+ Request - 2021-10-20 13:17:02
+{"method":"addtocart","guest_user_id":"0c27c82bdf4568cb","number_of_item":"1","merchant_inventry_id":"1127","action":"add","item_name":"Mini Bhakarwadi(Mini Bhakarwadi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-20 13:17:05
+{"method":"addtocart","guest_user_id":"0c27c82bdf4568cb","number_of_item":"1","merchant_inventry_id":"1127","action":"add","item_name":"Mini Bhakarwadi(Mini Bhakarwadi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-20 13:17:08
+{"method":"addtocart","guest_user_id":"0c27c82bdf4568cb","number_of_item":"1","merchant_inventry_id":"1127","action":"add","item_name":"Mini Bhakarwadi(Mini Bhakarwadi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-20 13:17:11
+{"method":"addtocart","guest_user_id":"0c27c82bdf4568cb","number_of_item":"1","merchant_inventry_id":"1127","action":"delete","item_name":"Mini Bhakarwadi(Mini Bhakarwadi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-20 17:54:44
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3519","action":"add","item_name":"Baby Powder Mild & Gentle(Baby Powder Mild & Gentle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-20 17:54:46
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3587","action":"add","item_name":"Rose & Honey Long Lasting Soap(Rose & Honey Long Lasting Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-20 17:54:47
+{"method":"addtocart","guest_user_id":"76226632d425dd6a","number_of_item":"1","merchant_inventry_id":"3587","action":"delete","item_name":"Rose & Honey Long Lasting Soap(Rose & Honey Long Lasting Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,9 @@
+
+ Request - 2022-09-29 03:26:48
+{"method":"getCityIdByAddressOrLatLng","address":"P3G3+GM3, Setiadarma, Kec. Tambun Sel., Kabupaten Bekasi, Jawa Barat 17510, Indonesia","lat":"-6.2734801","lng":"107.0542382"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P3G3+GM3, Setiadarma, Tambun Selatan, Bekasi Regency, West Java 17510, Indonesia"}}
+ Request - 2022-09-29 13:57:53
+{"method":"getCityIdByAddressOrLatLng","address":"X672+R4W, Sitarampur, West Bengal 743374, India","lat":"21.96387","lng":"88.2006126"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X672+R4W, Sitarampur, West Bengal 743374, India"}}

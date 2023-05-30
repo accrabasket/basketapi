@@ -1,0 +1,9 @@
+
+ Request - 2022-08-12 18:24:07
+{"method":"addeditdeliveryaddress","house_number":"A479\/1 Ama Badua Road","area":"","street_detail":"Ama Badua Road","contact_name":"Isaac Nii Quaye ","city_name":"GQMF+8QQ, Accra, Ghana","city_id":"1","lat":"5.533348000000001","long":"-0.2255288","user_id":"8598","address_nickname":"Anagkazo Medical Hotel korle gonno","landmark":"Anagkazo Medical Hotel korle gonno","zipcode":"00233"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":653}}
+ Request - 2022-08-12 18:27:53
+{"method":"addeditdeliveryaddress","house_number":"A479\/1 Ama Badua Road","area":"","street_detail":"Ama Badua Road","contact_name":"Isaac Nii Quaye ","city_name":"GQMF+8QQ, Accra, Ghana","city_id":"1","lat":"5.533348000000001","long":"-0.2255288","user_id":"8598","address_nickname":"Anagkazo Medical Hostel korle gonno","landmark":"Anagkazo Medical Hostel korle gonno","zipcode":"00233","id":"653"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

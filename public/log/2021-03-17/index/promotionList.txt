@@ -1,0 +1,57 @@
+
+ Request - 2021-03-17 03:10:01
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:10:05
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:10:05
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:10:40
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:10:41
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:10:42
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:11:34
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:15:42
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:15:44
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:15:44
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:16:13
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:16:14
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 03:16:14
+{"method":"promotionList"}
+ Response :- 
+{"status":"success","data":[],"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-17 08:43:08
+{"categoryHavingNoChild":"1","method":"promotionList"}
+ Response :- 
+{"status":"success","data":{"27":{"id":27,"promotion_name":"Indepe","type":"percent","value":30,"promotion_sequence":1},"20":{"id":20,"promotion_name":"BF","type":"percent","value":20,"promotion_sequence":2},"22":{"id":22,"promotion_name":"Min 15% Off","type":"percent","value":15,"promotion_sequence":3},"18":{"id":18,"promotion_name":"Father christmas promo","type":"percent","value":0,"promotion_sequence":4}},"images":{"18":[{"id":4436,"type":"promotion","image_id":18,"image_name":"18_1608289837.png"}],"22":[{"id":4458,"type":"promotion","image_id":22,"image_name":"22_1611215511.png"}],"20":[{"id":4460,"type":"promotion","image_id":20,"image_name":"20_1611248149.png"}],"27":[{"id":4902,"type":"promotion","image_id":27,"image_name":"27_1614943521.png"}]},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

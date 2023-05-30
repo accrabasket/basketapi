@@ -1,0 +1,37 @@
+
+ Request - 2021-09-20 02:10:47
+{"method":"getCityIdByAddressOrLatLng","address":"Rue NDS-09, Saint-Louis, Sénégal","lat":"16.0198415","lng":"-16.4884883"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue NDS-09, Saint-Louis, Senegal"}}
+ Request - 2021-09-20 05:46:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uttarakhand 246167, India","lat":"29.9768266","lng":"78.7980869"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Uttarakhand 246167, India"}}
+ Request - 2021-09-20 09:22:21
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bhadokhara, Bihar 805123, India","lat":"24.9394546","lng":"85.5259786"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bhadokhara, Bihar 805123, India"}}
+ Request - 2021-09-20 10:30:49
+{"method":"getCityIdByAddressOrLatLng","address":"10 Sq. Rameau, 94500 Champigny-sur-Marne, France","lat":"48.8053079","lng":"2.5486513"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Sq. Rameau, 94500 Champigny-sur-Marne, France"}}
+ Request - 2021-09-20 12:23:55
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, مدينة الشلاتين، قسم الشلاتين، البحر الأحمر،، مدينة الشلاتين، قسم الشلاتين، البحر الأحمر، مصر","lat":"23.130773","lng":"35.5933106"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u0645\u062f\u064a\u0646\u0629 \u0627\u0644\u0634\u0644\u0627\u062a\u064a\u0646\u060c \u0642\u0633\u0645 \u0627\u0644\u0634\u0644\u0627\u062a\u064a\u0646\u060c \u0627\u0644\u0628\u062d\u0631 \u0627\u0644\u0623\u062d\u0645\u0631\u060c\u060c Al Shalateen City, Shalateen, Red Sea Governorate, Egypt"}}
+ Request - 2021-09-20 13:10:44
+{"method":"getCityIdByAddressOrLatLng","address":"815, Model Town, Rohtak, Haryana 124001, India","lat":"28.8944401","lng":"76.611946"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"815, Model Town, Rohtak, Haryana 124001, India"}}
+ Request - 2021-09-20 19:18:35
+{"method":"getCityIdByAddressOrLatLng","address":"Lekki Free Trade Zone Rd, 105101, Lekki, Nigeria","lat":"6.4384298","lng":"3.9338174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Lekki Free Trade Zone Rd, 105101, Lekki, Nigeria"}}
+ Request - 2021-09-20 19:18:35
+{"method":"getCityIdByAddressOrLatLng","address":"Lekki Free Trade Zone Rd, 105101, Lekki, Nigeria","lat":"6.4384298","lng":"3.9338174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Lekki Free Trade Zone Rd, 105101, Lekki, Nigeria"}}
+ Request - 2021-09-20 20:06:07
+{"method":"getCityIdByAddressOrLatLng","address":"Angola","lat":"-11.202692","lng":"17.873887"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QVWF+WHC Santa Eul\u00e1lia, Chaunlundo, Angola"}}

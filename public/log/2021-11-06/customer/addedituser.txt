@@ -1,0 +1,41 @@
+
+ Request - 2021-11-06 16:59:19
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2338060489584 and registered email id.","data":{"5833":{"id":5833,"name":"Angel Ifeoma","mobile_number":"8060489584","email":"ifeomaa061@gmail.com","key":"fefdc94ef5810b153427164624e05696","password":"d88615bc81687174dc30e0992f8b46a1","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-11-06 16:59:19","updated_date":"2021-11-06 16:59:19","status":"1"}}}
+ Request - 2021-11-06 17:03:01
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:03:06
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:03:08
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:03:09
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:03:11
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:03:15
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:03:58
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"angel   ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:04:02
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"angel   ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-11-06 17:04:27
+{"method":"addedituser","city_id":"1","password":"ifeoma44?","name":"Angel Ifeoma","email":"ifeomaa061@gmail.com","mobile_number":"08060489584","country_code":"+233","id":"0","fcm_reg_id":"eBxCSFkJGfo:APA91bGY4FjLrMigCRaihzPcz7I-Jjt82BxhnEiLYsFfOHP2FWOqCTXnJkp8_RfLltQP7bElPO3HKHOQ-Bzfl-f1l0A050Z9EpdEzWD7qT3gM-j-M40pTcSbpBziM7haEWMBJIT3MbEG"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

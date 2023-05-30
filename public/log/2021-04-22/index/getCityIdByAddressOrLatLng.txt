@@ -1,0 +1,25 @@
+
+ Request - 2021-04-22 01:56:31
+{"method":"getCityIdByAddressOrLatLng","address":"rue, Conakry, Guinée","lat":"9.6872007","lng":"-13.5543564"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"rue, Conakry, Guinea"}}
+ Request - 2021-04-22 04:15:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kpando, Ghana","lat":"6.9881083","lng":"0.2970821"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Kpando, Ghana"}}
+ Request - 2021-04-22 11:04:05
+{"method":"getCityIdByAddressOrLatLng","address":"N6, Anyinam, Ghana","lat":"6.3859813","lng":"-0.5531144"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N6, Anyinam, Ghana"}}
+ Request - 2021-04-22 12:51:55
+{"method":"getCityIdByAddressOrLatLng","address":"Ayanfuri - Bogoso Rd, Akropong, Ghana","lat":"5.7828746","lng":"-2.0896557"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ayanfuri - Bogoso Rd, Akropong, Ghana"}}
+ Request - 2021-04-22 16:35:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unterm Feist 34, 66869 Kusel, Germany","lat":"49.5378722","lng":"7.4193158"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unterm Feist 34, 66869 Kusel, Germany"}}
+ Request - 2021-04-22 17:25:10
+{"method":"getCityIdByAddressOrLatLng","address":"Sakumono, Ghana","lat":"5.622095900000001","lng":"-0.06806379999999998"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sakumono, Ghana"}}

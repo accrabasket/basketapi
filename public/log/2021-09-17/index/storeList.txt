@@ -1,0 +1,25 @@
+
+ Request - 2021-09-17 07:27:11
+{"method":"storeList","merchant_id":6}
+ Response :- 
+{"status":"success","data":{"6":{"id":6,"store_name":"Parangon1","location_id":3,"address":"Cantonments, Accra, Ghana","lat":"5.57423","lng":"-0.18423","status":"1","merchant_id":6,"created_on":"2020-06-12 13:04:22","updated_on":null}}}
+ Request - 2021-09-17 07:27:13
+{"method":"storeList","merchant_id":6}
+ Response :- 
+{"status":"success","data":{"6":{"id":6,"store_name":"Parangon1","location_id":3,"address":"Cantonments, Accra, Ghana","lat":"5.57423","lng":"-0.18423","status":"1","merchant_id":6,"created_on":"2020-06-12 13:04:22","updated_on":null}}}
+ Request - 2021-09-17 07:28:19
+{"method":"storeList","merchant_id":null}
+ Response :- 
+{"status":"success","data":{"2":{"id":2,"store_name":"Neha Supermarket","location_id":1,"address":"55, Dadeban Rd Ext, Accra, Ghana","lat":"5.6009594","lng":"-0.19569990000002","status":"1","merchant_id":3,"created_on":"2018-09-21 06:30:42","updated_on":null},"4":{"id":4,"store_name":"Melcom1","location_id":2,"address":"Melcom-achimota","lat":"5.6256047","lng":"-0.2384347","status":"1","merchant_id":4,"created_on":"2018-12-01 06:46:48","updated_on":null},"6":{"id":6,"store_name":"Parangon1","location_id":3,"address":"Cantonments, Accra, Ghana","lat":"5.57423","lng":"-0.18423","status":"1","merchant_id":6,"created_on":"2020-06-12 13:04:22","updated_on":null},"12":{"id":12,"store_name":"vidamart","location_id":5,"address":"La Galette Grill","lat":"5.5902866","lng":"-0.2303381","status":"1","merchant_id":8,"created_on":"2020-08-26 10:41:13","updated_on":null},"14":{"id":14,"store_name":"Stech","location_id":7,"address":"dade link","lat":"5.5749846","lng":"-0.1747842","status":"1","merchant_id":10,"created_on":"2020-11-02 14:35:39","updated_on":null},"15":{"id":15,"store_name":"Lara Mart OSu","location_id":8,"address":"Osu","lat":"5.5570305","lng":"-0.1762717","status":"1","merchant_id":11,"created_on":"2021-06-01 13:42:59","updated_on":null}}}
+ Request - 2021-09-17 07:29:13
+{"method":"storeList","merchant_id":4}
+ Response :- 
+{"status":"success","data":{"4":{"id":4,"store_name":"Melcom1","location_id":2,"address":"Melcom-achimota","lat":"5.6256047","lng":"-0.2384347","status":"1","merchant_id":4,"created_on":"2018-12-01 06:46:48","updated_on":null}}}
+ Request - 2021-09-17 07:29:15
+{"method":"storeList","merchant_id":4}
+ Response :- 
+{"status":"success","data":{"4":{"id":4,"store_name":"Melcom1","location_id":2,"address":"Melcom-achimota","lat":"5.6256047","lng":"-0.2384347","status":"1","merchant_id":4,"created_on":"2018-12-01 06:46:48","updated_on":null}}}
+ Request - 2021-09-17 07:29:17
+{"method":"storeList","merchant_id":4}
+ Response :- 
+{"status":"success","data":{"4":{"id":4,"store_name":"Melcom1","location_id":2,"address":"Melcom-achimota","lat":"5.6256047","lng":"-0.2384347","status":"1","merchant_id":4,"created_on":"2018-12-01 06:46:48","updated_on":null}}}

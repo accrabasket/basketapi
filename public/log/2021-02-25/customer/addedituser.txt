@@ -1,0 +1,5 @@
+
+ Request - 2021-02-25 20:23:15
+{"method":"addedituser","city_id":"1","password":"esinam3042","name":"esinam","email":"enam3002@gmail.com ","mobile_number":"554107511","country_code":"+233","id":"0","fcm_reg_id":"c-TAx8DFT8U:APA91bFWb6QPSmGWhPoyBhx0zM_iTqUdiHKyG2ihHb6vqAUGsY7PMvaf6rwYkhHofP_g5pJL-d5OoxE5T8-6CL9uO_owU6BEa80T9Hf2XSBv4k1RJm6mGLsw_bX88x8ZNofcp8MJ3523"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233554107511 and registered email id.","data":{"2021":{"id":2021,"name":"esinam","mobile_number":"554107511","email":"enam3002@gmail.com ","key":"f254d9063ad78c7caf7c76a2d7607a5e","password":"99ae9783d01f75b256a1f8d20408b334","fcm_reg_id":"c-TAx8DFT8U:APA91bFWb6QPSmGWhPoyBhx0zM_iTqUdiHKyG2ihHb6vqAUGsY7PMvaf6rwYkhHofP_g5pJL-d5OoxE5T8-6CL9uO_owU6BEa80T9Hf2XSBv4k1RJm6mGLsw_bX88x8ZNofcp8MJ3523","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-02-25 20:23:15","updated_date":"2021-02-25 20:23:15","status":"1"}}}

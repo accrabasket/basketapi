@@ -1,0 +1,5 @@
+
+ Request - 2021-04-09 17:45:49
+{"method":"addtocart","user_id":"2344","number_of_item":"1","merchant_inventry_id":"2890","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

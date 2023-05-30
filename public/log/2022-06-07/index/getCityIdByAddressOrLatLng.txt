@@ -1,0 +1,17 @@
+
+ Request - 2022-06-07 06:53:43
+{"method":"getCityIdByAddressOrLatLng","address":"PM3R+GHV, Amasaman, Ghana","lat":"5.7044008","lng":"-0.3088308"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PM3R+GHV, Amasaman, Ghana"}}
+ Request - 2022-06-07 08:21:36
+{"method":"getCityIdByAddressOrLatLng","address":"Makambako Bus Station, Njombe - Makambako Rd, Makambako, Tanzania","lat":"-8.8541154","lng":"34.8247225"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Makambako Bus Station, Njombe - Makambako Rd, Makambako, Tanzania"}}
+ Request - 2022-06-07 09:02:26
+{"method":"getCityIdByAddressOrLatLng","address":"J44P+PV9, Street 4, Haroonabad, Bahawalnagar, Punjab, Pakistan","lat":"29.6067601","lng":"73.136784"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J44P+PV9, Street 4, Haroonabad, Bahawalnagar, Punjab, Pakistan"}}
+ Request - 2022-06-07 09:24:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.0576817","lng":"34.6892796"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3M5Q+3P Kitulu, Kenya"}}

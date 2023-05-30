@@ -1,0 +1,5 @@
+
+ Request - 2022-07-29 22:12:40
+{"method":"login","email":"1","password":"1"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

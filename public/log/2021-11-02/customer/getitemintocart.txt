@@ -1,0 +1,57 @@
+
+ Request - 2021-11-02 00:17:42
+{"method":"getitemintocart","guest_user_id":"4ce4f3ae4c08c8c0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 03:47:50
+{"method":"getitemintocart","guest_user_id":"929dbdca29f47f4f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 09:15:21
+{"method":"getitemintocart","guest_user_id":"797def86792617d5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 09:18:07
+{"method":"getitemintocart","guest_user_id":"797def86792617d5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 09:20:41
+{"method":"getitemintocart","guest_user_id":"d379302ffdabe50d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 09:21:39
+{"method":"getitemintocart","guest_user_id":"d379302ffdabe50d"}
+ Response :- 
+{"status":"success","data":{"3874":{"id":17845,"user_id":0,"guest_user_id":"d379302ffdabe50d","merchant_inventry_id":3874,"item_name":"Kente Multipurpose Soap(Kente Multipurpose Soap)","number_of_item":1,"created_date":"2021-11-02 09:21:39"}},"productDetails":{"status":"success","data":{"3874":{"id":3874,"price":"3.50","product_id":4348,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Kente Multipurpose Soap","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Obolo","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"g","quantity":290,"tax_value":null}},"productImageData":{"4348":[{"id":5441,"type":"product","image_id":4348,"image_name":"OSU0507.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-02 09:21:48
+{"method":"getitemintocart","guest_user_id":"d379302ffdabe50d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 09:22:54
+{"method":"getitemintocart","guest_user_id":"d379302ffdabe50d"}
+ Response :- 
+{"status":"success","data":{"459":{"id":17846,"user_id":0,"guest_user_id":"d379302ffdabe50d","merchant_inventry_id":459,"item_name":"Carta Blanca Superior White Rum(Carta Blanca Superior White Rum)","number_of_item":1,"created_date":"2021-11-02 09:22:53"}},"productDetails":{"status":"success","data":{"459":{"id":459,"price":"99.99","product_id":742,"merchant_id":4,"store_id":4,"merchant_product_code":"14737","product_name":"Carta Blanca Superior White Rum","product_desc":"Don Facundo spent ten years perfecting his BACARDI Carta Blanca. Smooth and subtle with notes of almond and vanilla, it doesnt dominate like gin or disappear like vodka. Perfect for classic rum cocktails like the Mojito.","default_discount_type":"","default_discount_value":"0","category_id":76,"custom_info":"","brand_name":"Bacardi","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"L","quantity":1,"tax_value":"3"}},"productImageData":{"742":[{"id":2658,"type":"product","image_id":742,"image_name":"14737.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-02 12:15:55
+{"method":"getitemintocart","guest_user_id":"3bbfb0f51a98cc28"}
+ Response :- 
+{"status":"success","data":{"229":{"id":17027,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":229,"item_name":"Cinnamon Powder(Cinnamon Powder)","number_of_item":1,"created_date":"2021-08-31 13:31:00"},"772":{"id":17028,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":772,"item_name":"Kingsbite Milk Chocolate (10 Tabs\/Box)(Kingsbite Milk Chocolate (10 Tabs\/Box))","number_of_item":2,"created_date":"2021-08-31 13:32:07"},"207":{"id":17029,"user_id":0,"guest_user_id":"3bbfb0f51a98cc28","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-08-31 13:46:45"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"229":{"id":229,"price":"15.50","product_id":385,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Cinnamon Powder","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":54,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"772":{"id":772,"price":"6.60","product_id":1056,"merchant_id":4,"store_id":4,"merchant_product_code":"N159   ","product_name":"Kingsbite Milk Chocolate (10 Tabs\/Box)","product_desc":"Kingsbite is a milk chocolate designed to melt delightfully in the mouth with a smooth release of all the rich goodness of cocoa and milk. Ghana has a rich traditional heritage of Kingship and Kings in Ghana are the custodians of historical information, especially the history of cocoa in Ghana.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Goldentree","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"385":[{"id":303,"type":"product","image_id":385,"image_name":"6033000220516.jpg"}],"1056":[{"id":958,"type":"product","image_id":1056,"image_name":"1056_1545143566.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-02 13:03:56
+{"method":"getitemintocart","guest_user_id":"f4c2fbf330cd654f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 13:04:35
+{"method":"getitemintocart","guest_user_id":"f4c2fbf330cd654f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 13:05:03
+{"method":"getitemintocart","guest_user_id":"f4c2fbf330cd654f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 14:39:35
+{"method":"getitemintocart","guest_user_id":"a5e45e292fec4b46"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-02 18:22:47
+{"method":"getitemintocart","guest_user_id":"f3566d21abe310bf"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

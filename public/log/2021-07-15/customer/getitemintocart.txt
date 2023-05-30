@@ -1,0 +1,13 @@
+
+ Request - 2021-07-15 14:28:42
+{"method":"getitemintocart","guest_user_id":"a27ff21a2a2bfcec"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-15 17:29:30
+{"method":"getitemintocart","guest_user_id":"4b18ab3d3daa849e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-07-15 17:29:45
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

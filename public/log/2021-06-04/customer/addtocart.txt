@@ -1,0 +1,9 @@
+
+ Request - 2021-06-04 22:53:13
+{"method":"addtocart","guest_user_id":"59382d97e3d6c869","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-04 22:53:18
+{"method":"addtocart","guest_user_id":"59382d97e3d6c869","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

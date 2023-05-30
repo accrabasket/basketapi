@@ -1,0 +1,17 @@
+
+ Request - 2021-01-04 08:36:24
+{"method":"addtocart","guest_user_id":"d5a5a69677daf77c","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-04 08:36:35
+{"method":"addtocart","guest_user_id":"d5a5a69677daf77c","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-04 13:49:52
+{"method":"addtocart","user_id":"477","number_of_item":"1","merchant_inventry_id":"229","action":"add","item_name":"Cinnamon Powder(Cinnamon Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-04 13:51:21
+{"method":"addtocart","user_id":"477","number_of_item":"1","merchant_inventry_id":"2567","action":"add","item_name":"Pure Honey(Pure Honey)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,5 @@
+
+ Request - 2022-09-10 13:56:27
+{"method":"getCityIdByAddressOrLatLng","address":"V59W+7H7, Gohar Green City Bagh e Ibrahim Society Shah Faisal Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8677017","lng":"67.1968254"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V59W+7H7, Gohar Green City Bagh e Ibrahim Society Shah Faisal Colony, Karachi, Karachi City, Sindh, Pakistan"}}

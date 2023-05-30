@@ -1,0 +1,9 @@
+
+ Request - 2021-03-11 03:20:48
+{"product_name":"TestProduct","brand_name":"","nutrition":"","category_id":"2","promotion_id":"","item_code":"test123","hotdeals":0,"offers":0,"new_arrival":0,"status":"0","product_desc":"test","attribute":[],"method":"addEditProduct"}
+ Response :- 
+[]
+ Request - 2021-03-11 03:21:38
+{"product_name":"TestProduct","brand_name":"","nutrition":"","category_id":"2","promotion_id":"","item_code":"test123","hotdeals":0,"offers":0,"new_arrival":0,"status":"1","product_desc":"test","id":"1","attribute":[],"method":"addEditProduct"}
+ Response :- 
+{"status":"success","data":null}

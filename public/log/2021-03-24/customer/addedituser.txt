@@ -1,0 +1,21 @@
+
+ Request - 2021-03-24 10:33:16
+{"method":"addedituser","city_id":"1","password":"Bob2017a.","name":"yaw popping ","email":"eammya11@gnail.com","mobile_number":"508243790","country_code":"+233","id":"0","fcm_reg_id":"fjjmG_C64To:APA91bESnENRtfNTwHVVCsyq46L2aQq7df6SrdUTfExC0q3p2DfHYm1xtyQL9ybxwyrcSrx5JO63qa2dQ2aPxG1a2U2SYE8f2hThagEwAQBnruxRtHer9shwQuGrPJ0zuk21IzqcgcH9"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-24 10:33:43
+{"method":"addedituser","city_id":"1","password":"Bob2017a.","name":"yaw popping ","email":"eammya11@gnail.com","mobile_number":"504091886","country_code":"+233","id":"0","fcm_reg_id":"fjjmG_C64To:APA91bESnENRtfNTwHVVCsyq46L2aQq7df6SrdUTfExC0q3p2DfHYm1xtyQL9ybxwyrcSrx5JO63qa2dQ2aPxG1a2U2SYE8f2hThagEwAQBnruxRtHer9shwQuGrPJ0zuk21IzqcgcH9"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-03-24 10:33:57
+{"method":"addedituser","city_id":"1","password":"Bob2017a.","name":"yaw popping ","email":"eammya11@gnail.com","mobile_number":"201159592","country_code":"+233","id":"0","fcm_reg_id":"fjjmG_C64To:APA91bESnENRtfNTwHVVCsyq46L2aQq7df6SrdUTfExC0q3p2DfHYm1xtyQL9ybxwyrcSrx5JO63qa2dQ2aPxG1a2U2SYE8f2hThagEwAQBnruxRtHer9shwQuGrPJ0zuk21IzqcgcH9"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233201159592 and registered email id.","data":{"2178":{"id":2178,"name":"yaw popping ","mobile_number":"201159592","email":"eammya11@gnail.com","key":"ca4745d3ba11472f37adfff6c69c6b43","password":"7d4a38a2f168dd48751ba0877a5f6fd6","fcm_reg_id":"fjjmG_C64To:APA91bESnENRtfNTwHVVCsyq46L2aQq7df6SrdUTfExC0q3p2DfHYm1xtyQL9ybxwyrcSrx5JO63qa2dQ2aPxG1a2U2SYE8f2hThagEwAQBnruxRtHer9shwQuGrPJ0zuk21IzqcgcH9","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-24 10:33:57","updated_date":"2021-03-24 10:33:57","status":"1"}}}
+ Request - 2021-03-24 12:56:19
+{"method":"addedituser","city_id":"1","password":"silvashine1324","name":"Shine","email":"mercyshine1324@gmail.com","mobile_number":"0267134268","country_code":"+233","id":"0","fcm_reg_id":"frI-1DqNaSo:APA91bEU3JQlQDlVNep7A-pqQGLXBJw6PNpE4A3t2Fq05KrX__43viNkq--OtiS-CBS_xGUDg32VugjW4TxeJ_linzZn4FXQ2BOzHGLSPSzFIOIa5VSkkKjV1aT2t4DlrcFUwXepUdEJ"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233267134268 and registered email id.","data":{"2180":{"id":2180,"name":"Shine","mobile_number":"267134268","email":"mercyshine1324@gmail.com","key":"66418065c04320b93f3ab71891a8197f","password":"fc186e2bccf0435c860493c9f7605acb","fcm_reg_id":"frI-1DqNaSo:APA91bEU3JQlQDlVNep7A-pqQGLXBJw6PNpE4A3t2Fq05KrX__43viNkq--OtiS-CBS_xGUDg32VugjW4TxeJ_linzZn4FXQ2BOzHGLSPSzFIOIa5VSkkKjV1aT2t4DlrcFUwXepUdEJ","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-24 12:56:19","updated_date":"2021-03-24 12:56:19","status":"1"}}}
+ Request - 2021-03-24 13:09:50
+{"method":"addedituser","city_id":"1","password":"oyinlola","name":"Oyetoro Jesutofunmi","email":"oyetorotofunmi02@gmail.com","mobile_number":"208075326","country_code":"+233","id":"0","fcm_reg_id":"d6lPyNcCmpA:APA91bGgcOJvT7caYLMHwrzurDpef8L_k5GXjieGN5I0gx5XEhgPjlU5nfRM78l_yDEybEfg81dUVoWBH5N4h4HZwljD5mooEaSaupV81O1BQWWcpUp3S4FNZ8IpjTx0WHccmx27n_0H"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233208075326 and registered email id.","data":{"2181":{"id":2181,"name":"Oyetoro Jesutofunmi","mobile_number":"208075326","email":"oyetorotofunmi02@gmail.com","key":"eb5e05276f838ac86ee5d954760d708f","password":"4d1de16b0c111f04d784cfaa13aebb0f","fcm_reg_id":"d6lPyNcCmpA:APA91bGgcOJvT7caYLMHwrzurDpef8L_k5GXjieGN5I0gx5XEhgPjlU5nfRM78l_yDEybEfg81dUVoWBH5N4h4HZwljD5mooEaSaupV81O1BQWWcpUp3S4FNZ8IpjTx0WHccmx27n_0H","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-03-24 13:09:49","updated_date":"2021-03-24 13:09:49","status":"1"}}}

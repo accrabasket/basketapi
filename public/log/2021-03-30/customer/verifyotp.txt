@@ -1,0 +1,5 @@
+
+ Request - 2021-03-30 16:27:14
+{"method":"verifyotp","country_code":"+233","mobile_number":"0247629924","otp_type":"register","otp":"6589"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"0663a0475688961a75ddb20ace07baf7"}}

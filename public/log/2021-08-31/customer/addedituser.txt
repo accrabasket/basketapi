@@ -1,0 +1,17 @@
+
+ Request - 2021-08-31 15:17:25
+{"method":"addedituser","city_id":"1","password":"Henr6Amega","name":"Henry","email":"peggywalker5@gmail.com","mobile_number":"0552309205","country_code":"+233","id":"0","fcm_reg_id":"cjXmLYMDmeA:APA91bGHiRGVIqQCMLDJPlXeJWhQI2eyXX6S4JqsKrXvfn9uJzx27Iis-sccMGRUNjpLOhim0NwSZRNPlHLin51JJQCfJAC31alnD93iZKJTTRqNE56rFXlv7Tgkh8B1_SGemShX0PBt"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233552309205 and registered email id.","data":{"4028":{"id":4028,"name":"Henry","mobile_number":"552309205","email":"peggywalker5@gmail.com","key":"dd08022436cf6eecff0a010b39125e37","password":"c7b21596e4d31c7fad2b961707698c8e","fcm_reg_id":"cjXmLYMDmeA:APA91bGHiRGVIqQCMLDJPlXeJWhQI2eyXX6S4JqsKrXvfn9uJzx27Iis-sccMGRUNjpLOhim0NwSZRNPlHLin51JJQCfJAC31alnD93iZKJTTRqNE56rFXlv7Tgkh8B1_SGemShX0PBt","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-08-31 15:17:25","updated_date":"2021-08-31 15:17:25","status":"1"}}}
+ Request - 2021-08-31 15:20:20
+{"method":"addedituser","city_id":"1","password":"Amegadoe","name":"henry","email":"peggywalker05@gmail.com","mobile_number":"0552309205","country_code":"+233","id":"0","fcm_reg_id":"cjXmLYMDmeA:APA91bGHiRGVIqQCMLDJPlXeJWhQI2eyXX6S4JqsKrXvfn9uJzx27Iis-sccMGRUNjpLOhim0NwSZRNPlHLin51JJQCfJAC31alnD93iZKJTTRqNE56rFXlv7Tgkh8B1_SGemShX0PBt"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-08-31 15:20:25
+{"method":"addedituser","city_id":"1","password":"Amegadoe","name":"henry","email":"peggywalker05@gmail.com","mobile_number":"0552309205","country_code":"+233","id":"0","fcm_reg_id":"cjXmLYMDmeA:APA91bGHiRGVIqQCMLDJPlXeJWhQI2eyXX6S4JqsKrXvfn9uJzx27Iis-sccMGRUNjpLOhim0NwSZRNPlHLin51JJQCfJAC31alnD93iZKJTTRqNE56rFXlv7Tgkh8B1_SGemShX0PBt"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2021-08-31 15:20:31
+{"method":"addedituser","city_id":"1","password":"Amegadoe","name":"henry","email":"peggywalker05@gmail.com","mobile_number":"0552309205","country_code":"+233","id":"0","fcm_reg_id":"cjXmLYMDmeA:APA91bGHiRGVIqQCMLDJPlXeJWhQI2eyXX6S4JqsKrXvfn9uJzx27Iis-sccMGRUNjpLOhim0NwSZRNPlHLin51JJQCfJAC31alnD93iZKJTTRqNE56rFXlv7Tgkh8B1_SGemShX0PBt"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

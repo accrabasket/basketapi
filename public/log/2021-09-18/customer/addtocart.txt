@@ -1,0 +1,45 @@
+
+ Request - 2021-09-18 23:51:48
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3821","action":"add","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:52:23
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3820","action":"add","item_name":"Orange(Orange)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:52:33
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3807","action":"add","item_name":"Lemon Loose(Lemon Loose)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:52:39
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:05
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"625","action":"add","item_name":"Chocolate Flavoured Milk(Chocolate Flavoured Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:17
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3801","action":"add","item_name":"Chicken Livers(Chicken Livers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:22
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3799","action":"add","item_name":"Chicken Drumsticks(Chicken Drumsticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:27
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3799","action":"add","item_name":"Chicken Drumsticks(Chicken Drumsticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:29
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3799","action":"add","item_name":"Chicken Drumsticks(Chicken Drumsticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:40
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3799","action":"add","item_name":"Chicken Drumsticks(Chicken Drumsticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-18 23:53:43
+{"method":"addtocart","guest_user_id":"6a8018fe6393ad28","number_of_item":"1","merchant_inventry_id":"3799","action":"add","item_name":"Chicken Drumsticks(Chicken Drumsticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

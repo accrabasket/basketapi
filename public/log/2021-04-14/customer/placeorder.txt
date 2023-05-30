@@ -1,0 +1,81 @@
+
+ Request - 2021-04-14 08:28:32
+{"method":"placeorder","user_id":"2377","shipping_address_id":"441","time_slot_id":"1","delivery_date":"2021-04-14","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 08:28:33
+{"method":"placeorder","user_id":"2377","shipping_address_id":"441","time_slot_id":"1","delivery_date":"2021-04-14","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 08:28:45
+{"method":"placeorder","user_id":"2377","shipping_address_id":"441","time_slot_id":"1","delivery_date":"2021-04-14","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 08:28:56
+{"method":"placeorder","user_id":"2377","shipping_address_id":"441","time_slot_id":"1","delivery_date":"2021-04-14","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 16:51:14
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"3","delivery_date":"2021-04-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 16:55:45
+{"method":"placeorder","user_id":"2263","shipping_address_id":"438","time_slot_id":"3","delivery_date":"2021-04-15","payment_type":"cash_on_delivery","use_wallet_amount":false}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 18:11:21
+{"method":"placeorder","user_id":"1439","shipping_address_id":"318","time_slot_id":"1","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_604","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1439","TransactionId":"1948362b3945b932d27eeac570b5fcee","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_604","Amount":246.42,"Signature":"f1a20a5874bbd7a8647a845b892dd4a8a14323f267b129e85db254d8a3a6afbf"}}}}
+ Request - 2021-04-14 18:15:38
+{"method":"placeorder","user_id":"1439","shipping_address_id":"318","time_slot_id":"3","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_605","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1439","TransactionId":"1bf439bfa352d5114f8797e376dd2fcd","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_605","Amount":319.12,"Signature":"602f3cc827b490a5a02e058c4ae371b7533f449f07ecd617702ef4edb1696313"}}}}
+ Request - 2021-04-14 18:15:55
+{"method":"placeorder","user_id":"1439","shipping_address_id":"318","time_slot_id":"3","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-04-14 18:16:17
+{"method":"placeorder","user_id":"1439","shipping_address_id":"318","time_slot_id":"3","delivery_date":"2021-04-15","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-04-14 18:18:29
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"2","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m2_743","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1439","TransactionId":"266853ccac0d34bb366df44d493251ab","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m2_743","Amount":239.22,"Signature":"fc42b5b6782450cc879284032c6737c7bc2e51c7f16062ce353eb1eed5e1eff5"}}}}
+ Request - 2021-04-14 18:18:45
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"2","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-04-14 18:18:48
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"2","delivery_date":"2021-04-15","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-04-14 18:18:49
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"2","delivery_date":"2021-04-15","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-04-14 18:18:54
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"2","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}
+ Request - 2021-04-14 18:20:45
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"1","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 18:20:52
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"1","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 18:21:01
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"1","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 18:21:12
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"1","delivery_date":"2021-04-15","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}
+ Request - 2021-04-14 18:21:21
+{"method":"placeorder","user_id":"1439","shipping_address_id":"442","time_slot_id":"1","delivery_date":"2021-04-15","payment_type":"cash_on_delivery","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00 GHC."}

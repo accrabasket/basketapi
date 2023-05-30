@@ -1,0 +1,29 @@
+
+ Request - 2022-07-15 07:38:15
+{"method":"addtocart","guest_user_id":"014d52043a951d88","number_of_item":"1","merchant_inventry_id":"232","action":"add","item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-15 07:38:20
+{"method":"addtocart","guest_user_id":"014d52043a951d88","number_of_item":"1","merchant_inventry_id":"246","action":"add","item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-15 07:38:28
+{"method":"addtocart","guest_user_id":"014d52043a951d88","number_of_item":"1","merchant_inventry_id":"337","action":"add","item_name":"Sprite Regular(Sprite Regular)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-15 07:38:40
+{"method":"addtocart","guest_user_id":"014d52043a951d88","number_of_item":"1","merchant_inventry_id":"480","action":"add","item_name":"Coke Pet - Soft Drink(Coke Pet - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-15 07:38:42
+{"method":"addtocart","guest_user_id":"014d52043a951d88","number_of_item":"1","merchant_inventry_id":"487","action":"add","item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-15 14:41:09
+{"method":"addtocart","guest_user_id":"68e7dc37580b7d48","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-07-15 14:41:16
+{"method":"addtocart","guest_user_id":"68e7dc37580b7d48","number_of_item":"1","merchant_inventry_id":"258","action":"delete","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

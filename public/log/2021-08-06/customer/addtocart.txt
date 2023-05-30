@@ -1,0 +1,33 @@
+
+ Request - 2021-08-06 03:58:45
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"306","action":"add","item_name":"Pure Refined Iodised Salt(Pure Refined Iodised Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 03:58:49
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"627","action":"add","item_name":"Cocoa Butter - Body Lotion(Cocoa Butter - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 03:59:54
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 04:00:06
+{"method":"addtocart","guest_user_id":"682bc29d2951abb0","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 15:22:08
+{"method":"addtocart","guest_user_id":"1d19e2773835db9b","number_of_item":"1","merchant_inventry_id":"794","action":"add","item_name":"Nido 1+ Prebio Powdered Milk(Nido 1+ Prebio Powdered Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 16:32:04
+{"method":"addtocart","guest_user_id":"46c3b4b63ef14faa","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 16:32:08
+{"method":"addtocart","guest_user_id":"46c3b4b63ef14faa","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-06 16:32:10
+{"method":"addtocart","guest_user_id":"46c3b4b63ef14faa","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,53 @@
+
+ Request - 2021-04-17 11:39:21
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:12:39
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:17:17
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:25:31
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:27:26
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:27:35
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:27:41
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:56:39
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:57:24
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:58:14
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 14:58:38
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 15:27:03
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-04-17 20:33:41
+{"method":"getcoupon","user_id":"2263","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

@@ -1,0 +1,73 @@
+
+ Request - 2021-09-10 05:34:15
+{"method":"addtocart","guest_user_id":"2e54586e4e4d2e64","number_of_item":"1","merchant_inventry_id":"788","action":"add","item_name":"Morning Fresh Zesty Lemon dishwashing liquid(Morning Fresh Zesty Lemon dishwashing liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:39:14
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"226","action":"add","item_name":"Chick Peas(Chick Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:39:36
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"312","action":"add","item_name":"Red Kidney Beans(Red Kidney Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:47:00
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"721","action":"add","item_name":"Rich Tea - Biscuits(Rich Tea - Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:47:01
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"721","action":"add","item_name":"Rich Tea - Biscuits(Rich Tea - Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:47:12
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1099","action":"add","item_name":"Mini Samosa(Mini Samosa)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:48:51
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1127","action":"add","item_name":"Mini Bhakarwadi(Mini Bhakarwadi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:49:05
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1269","action":"add","item_name":"Good Morning Chocolate Flavour Biscuits(Good Morning Chocolate Flavour Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:49:38
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1911","action":"add","item_name":"Hide&Seek Caffe Mocha Biscuit(Hide&Seek Caffe Mocha Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:49:53
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1928","action":"add","item_name":"Happy Happy Cookies(Happy Happy Cookies)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:50:01
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"2113","action":"add","item_name":"Original Gluco Biscuits(Original Gluco Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:50:19
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"2113","action":"add","item_name":"Original Gluco Biscuits(Original Gluco Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 09:53:25
+{"method":"addtocart","guest_user_id":"e56dd580c3c16d7d","number_of_item":"1","merchant_inventry_id":"1187","action":"add","item_name":"Small Farfar Tube(Small Farfar Tube)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 12:24:44
+{"method":"addtocart","guest_user_id":"15f28a105f66d867","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 12:24:48
+{"method":"addtocart","guest_user_id":"15f28a105f66d867","number_of_item":"1","merchant_inventry_id":"233","action":"delete","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 12:25:02
+{"method":"addtocart","guest_user_id":"15f28a105f66d867","number_of_item":"1","merchant_inventry_id":"388","action":"add","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 12:26:15
+{"method":"addtocart","guest_user_id":"15f28a105f66d867","number_of_item":"1","merchant_inventry_id":"388","action":"delete","item_name":"Pink\/Rosa Beauty Bathing Bar(Pink\/Rosa Beauty Bathing Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-09-10 13:51:04
+{"method":"addtocart","user_id":"4305","number_of_item":"1","merchant_inventry_id":"2143","action":"add","item_name":"Rusk(Rusk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

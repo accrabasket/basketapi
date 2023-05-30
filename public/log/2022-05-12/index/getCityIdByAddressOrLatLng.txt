@@ -1,0 +1,17 @@
+
+ Request - 2022-05-12 06:43:45
+{"method":"getCityIdByAddressOrLatLng","address":"شارع السوق، نفر،،، 344R+MJ3، نفر، العراق","lat":"32.0560689","lng":"45.1425803"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0634\u0627\u0631\u0639 \u0627\u0644\u0633\u0648\u0642\u060c \u0646\u0641\u0631\u060c\u060c\u060c 344R+MJ3\u060c \u0646\u0641\u0631\u060c Iraq"}}
+ Request - 2022-05-12 10:09:49
+{"method":"getCityIdByAddressOrLatLng","address":"Accra - Cape Coast Rd, Kasoa, Ghana","lat":"5.5475455","lng":"-0.3808738"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Accra - Cape Coast Rd, Kasoa, Ghana"}}
+ Request - 2022-05-12 11:37:07
+{"method":"getCityIdByAddressOrLatLng","address":"W5P4+87Q, Block 7 Gulistan-e-Johar, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9354137","lng":"67.1558341"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W5P4+87Q, Block 7 Gulistan-e-Johar, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-05-12 14:02:45
+{"method":"getCityIdByAddressOrLatLng","address":"Yanfolila, Mali","lat":"10.6151584","lng":"-8.2139501"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JQ8P+3C Sadiouroula, Mali"}}

@@ -1,0 +1,9 @@
+
+ Request - 2022-08-11 21:55:09
+{"method":"addtocart","guest_user_id":"d0bb0d29676f07e5","number_of_item":"1","merchant_inventry_id":"517","action":"add","item_name":"Black Label Whisky(Black Label Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-11 21:55:11
+{"method":"addtocart","guest_user_id":"d0bb0d29676f07e5","number_of_item":"1","merchant_inventry_id":"517","action":"add","item_name":"Black Label Whisky(Black Label Whisky)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

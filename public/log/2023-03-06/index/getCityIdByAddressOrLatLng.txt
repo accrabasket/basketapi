@@ -1,0 +1,13 @@
+
+ Request - 2023-03-06 15:49:40
+{"method":"getCityIdByAddressOrLatLng","address":"J86P+C36, T374, Dedza, Malawi","lat":"-14.3881533","lng":"34.3346798"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-06 15:49:47
+{"method":"getCityIdByAddressOrLatLng","address":"J86P+C36, T374, Dedza, Malawi","lat":"-14.3881533","lng":"34.3346798"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-03-06 15:50:04
+{"method":"getCityIdByAddressOrLatLng","address":"J86P+C36, T374, Dedza, Malawi","lat":"-14.3881533","lng":"34.3346798"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

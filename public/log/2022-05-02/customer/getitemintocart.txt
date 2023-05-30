@@ -1,0 +1,25 @@
+
+ Request - 2022-05-02 09:25:24
+{"method":"getitemintocart","guest_user_id":"7a3104f70a825314"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-02 10:42:05
+{"method":"getitemintocart","guest_user_id":"a43614944579ccb1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-02 12:47:52
+{"method":"getitemintocart","guest_user_id":"50a7eba552aa9f99"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-02 18:11:46
+{"method":"getitemintocart","guest_user_id":"39f6f0377f0109f5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-02 19:10:02
+{"method":"getitemintocart","guest_user_id":"3291cafe0adb82f8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-02 22:10:46
+{"method":"getitemintocart","guest_user_id":"2a151ebf479bc068"}
+ Response :- 
+{"status":"success","data":{"288":{"id":20166,"user_id":0,"guest_user_id":"2a151ebf479bc068","merchant_inventry_id":288,"item_name":"Masala Tea(Masala Tea)","number_of_item":2,"created_date":"2022-03-13 10:48:16"}},"productDetails":{"status":"success","data":{"288":{"id":288,"price":"58.50","product_id":433,"merchant_id":3,"store_id":2,"merchant_product_code":"8901095900","product_name":"Masala Tea","product_desc":"Fortified with spices that are proven to have excellent antioxidant properties and great, robust flavour, Society Masala Tea is meant to be. Brew yourself a cup or two of this elixir, and feel your troubles, stresses and qualms, just melt away. Piquant and beautifully balanced, this tea is a 10 on the Richter scale in terms of taste.","default_discount_type":"","default_discount_value":"0","category_id":59,"custom_info":"","brand_name":"Society","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"8","unit":"gm","quantity":450,"tax_value":"3"}},"productImageData":{"433":[{"id":360,"type":"product","image_id":433,"image_name":"8901095900034.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

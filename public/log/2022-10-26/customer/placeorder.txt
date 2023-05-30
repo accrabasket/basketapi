@@ -1,0 +1,5 @@
+
+ Request - 2022-10-26 01:32:16
+{"method":"placeorder","user_id":"8856","shipping_address_id":"666","time_slot_id":"1","delivery_date":"2022-10-27","payment_type":"ezeepay","use_wallet_amount":false}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_P_334","tokenResponse":{"paymentUrl":"https:\/\/payments.ezipaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"8856","TransactionId":"e13e3c8875ab8c25ea06d204abc65e5c","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_P_334","Amount":670.44,"Signature":"c50e8a190e2c64647bbf138b345bc742772edb68e752ccf6eccc3bc8281001c7"}}}}

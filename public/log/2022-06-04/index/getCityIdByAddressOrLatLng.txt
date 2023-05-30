@@ -1,0 +1,17 @@
+
+ Request - 2022-06-04 04:49:47
+{"method":"getCityIdByAddressOrLatLng","address":"W342+Q7G, Laloo Khait Block 10 Liaquatabad Town, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9067342","lng":"67.0506214"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W342+Q7G, Laloo Khait Block 10 Liaquatabad Town, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-06-04 12:19:35
+{"method":"getCityIdByAddressOrLatLng","address":"2PQX+V5V, Addis Ababa, Ethiopia","lat":"9.0398872","lng":"38.7484265"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2PQX+V5V, Addis Ababa, Ethiopia"}}
+ Request - 2022-06-04 17:03:32
+{"method":"getCityIdByAddressOrLatLng","address":"J98F+589, Bujumbura, Burundi","lat":"-3.384384","lng":"29.3734867"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J98F+589, Bujumbura, Burundi"}}
+ Request - 2022-06-04 20:39:49
+{"method":"getCityIdByAddressOrLatLng","address":"P7X6+743, 112104, Ijoko, Nigeria","lat":"6.7486441","lng":"3.2599871"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P7X6+743, 112104, Ijoko, Nigeria"}}

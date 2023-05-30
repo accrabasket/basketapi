@@ -1,0 +1,69 @@
+
+ Request - 2022-10-14 00:02:54
+{"method":"getitemintocart","guest_user_id":"d2a7456118f6a2c6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 00:22:32
+{"method":"getitemintocart","guest_user_id":"d2a7456118f6a2c6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 00:22:53
+{"method":"getitemintocart","guest_user_id":"d2a7456118f6a2c6"}
+ Response :- 
+{"status":"success","data":{"207":{"id":22744,"user_id":0,"guest_user_id":"d2a7456118f6a2c6","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2022-10-14 00:22:53"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-14 00:59:32
+{"method":"getitemintocart","guest_user_id":"ed1b72c51b992ed9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 01:40:15
+{"method":"getitemintocart","guest_user_id":"27dd0cee7cf0d0d1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 03:50:54
+{"method":"getitemintocart","guest_user_id":"d8df4e19731961b1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 04:11:05
+{"method":"getitemintocart","guest_user_id":"693d546896dd6471"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 11:28:36
+{"method":"getitemintocart","guest_user_id":"0ce6ca1bad7058e0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 12:34:28
+{"method":"getitemintocart","guest_user_id":"653803e6894eb0f6"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 13:14:13
+{"method":"getitemintocart","guest_user_id":"4f1fb6a5cf761d21"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 14:40:21
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"success","data":{"3479":{"id":22243,"user_id":0,"guest_user_id":"f9bdb3f682132c7b","merchant_inventry_id":3479,"item_name":"Hand Sanitizer(Hand Sanitizer)","number_of_item":1,"created_date":"2022-08-05 10:29:22"}},"productDetails":{"status":"success","data":{"3479":{"id":3479,"price":"26.00","product_id":3943,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Hand Sanitizer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Beak & Skiff","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":150,"tax_value":null}},"productImageData":{"3943":[{"id":5023,"type":"product","image_id":3943,"image_name":"OSU1234.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-14 15:06:58
+{"method":"getitemintocart","guest_user_id":"a80a826a1286536f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 16:12:58
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"success","data":{"3479":{"id":22243,"user_id":0,"guest_user_id":"f9bdb3f682132c7b","merchant_inventry_id":3479,"item_name":"Hand Sanitizer(Hand Sanitizer)","number_of_item":1,"created_date":"2022-08-05 10:29:22"}},"productDetails":{"status":"success","data":{"3479":{"id":3479,"price":"26.00","product_id":3943,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Hand Sanitizer","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":62,"custom_info":"","brand_name":"Beak & Skiff","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":150,"tax_value":null}},"productImageData":{"3943":[{"id":5023,"type":"product","image_id":3943,"image_name":"OSU1234.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-10-14 16:13:13
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-10-14 16:41:29
+{"method":"getitemintocart","guest_user_id":"0ce6ca1bad7058e0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 18:19:57
+{"method":"getitemintocart","user_id":"8856"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-10-14 23:50:48
+{"method":"getitemintocart","guest_user_id":"27dd0cee7cf0d0d1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

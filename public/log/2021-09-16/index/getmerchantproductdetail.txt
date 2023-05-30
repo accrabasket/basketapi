@@ -1,0 +1,9 @@
+
+ Request - 2021-09-16 06:43:16
+{"start_date":"2021-09-16","end_date":"2021-09-16","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}
+ Request - 2021-09-16 09:44:20
+{"start_date":"2021-09-16","end_date":"2021-09-16","report":"day","method":"getmerchantproductdetail"}
+ Response :- 
+{"status":"success","data":{"merchantByDate":[]}}

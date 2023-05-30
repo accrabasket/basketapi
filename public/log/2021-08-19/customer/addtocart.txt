@@ -1,0 +1,17 @@
+
+ Request - 2021-08-19 08:59:22
+{"method":"addtocart","guest_user_id":"b3db1718a4f766f9","number_of_item":"1","merchant_inventry_id":"732","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-19 08:59:30
+{"method":"addtocart","guest_user_id":"b3db1718a4f766f9","number_of_item":"1","merchant_inventry_id":"305","action":"add","item_name":"Processed Peas(Processed Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-19 08:59:37
+{"method":"addtocart","guest_user_id":"b3db1718a4f766f9","number_of_item":"1","merchant_inventry_id":"305","action":"delete","item_name":"Processed Peas(Processed Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-19 08:59:48
+{"method":"addtocart","guest_user_id":"b3db1718a4f766f9","number_of_item":"1","merchant_inventry_id":"305","action":"add","item_name":"Processed Peas(Processed Peas)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

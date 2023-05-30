@@ -1,0 +1,17 @@
+
+ Request - 2021-03-20 04:09:26
+{"method":"addtocart","guest_user_id":"af6348360b277569","number_of_item":"1","merchant_inventry_id":"252","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-20 12:32:21
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"1953","action":"delete","item_name":"Citrus Punch Drink(Citrus Punch Drink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-20 12:32:59
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2146","action":"delete","item_name":"Assorted Biscuits(Assorted Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-20 20:37:22
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"2669","action":"add","item_name":"Vietnam Rice(Vietnam Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,13 @@
+
+ Request - 2022-02-25 07:12:17
+{"method":"getCityIdByAddressOrLatLng","address":"Niagara Falls, ON, Canada","lat":"43.0895577","lng":"-79.0849436"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5879-5899 Stanley Ave, Niagara Falls, ON L2G 3Y1, Canada"}}
+ Request - 2022-02-25 08:11:47
+{"method":"getCityIdByAddressOrLatLng","address":"Mbora Estate Opposite Citec, 1st Gate, Utako 900108, Abuja, Nigeria","lat":"9.048868","lng":"7.4117373"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mbora Estate Opposite Citec, 1st Gate, Utako 900108, Abuja, Nigeria"}}
+ Request - 2022-02-25 14:41:46
+{"method":"getCityIdByAddressOrLatLng","address":"9th St, Gujrat, Punjab, Pakistan","lat":"32.8742315","lng":"73.7688176"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"VQF9+MG Sarai Alamgir, Pakistan"}}

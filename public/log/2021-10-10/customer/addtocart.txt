@@ -1,0 +1,25 @@
+
+ Request - 2021-10-10 11:16:11
+{"method":"addtocart","guest_user_id":"dc61022cbccaff52","number_of_item":"1","merchant_inventry_id":"233","action":"add","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-10 11:16:16
+{"method":"addtocart","guest_user_id":"dc61022cbccaff52","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-10 11:17:05
+{"method":"addtocart","guest_user_id":"dc61022cbccaff52","number_of_item":"1","merchant_inventry_id":"233","action":"delete","item_name":"Coconut Oil(Coconut Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-10 11:17:08
+{"method":"addtocart","guest_user_id":"dc61022cbccaff52","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-10 11:17:11
+{"method":"addtocart","guest_user_id":"dc61022cbccaff52","number_of_item":"1","merchant_inventry_id":"387","action":"add","item_name":"Original Beauty Cream Bar(Original Beauty Cream Bar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-10-10 11:18:34
+{"method":"addtocart","guest_user_id":"dc61022cbccaff52","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

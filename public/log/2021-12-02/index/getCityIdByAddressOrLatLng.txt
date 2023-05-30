@@ -1,0 +1,9 @@
+
+ Request - 2021-12-02 03:02:33
+{"method":"getCityIdByAddressOrLatLng","address":"461120, Orodo, Nigeria","lat":"5.6165948","lng":"7.0364022"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J28P+JH Orodo, Nigeria"}}
+ Request - 2021-12-02 09:32:40
+{"method":"getCityIdByAddressOrLatLng","address":"Aboisso, Côte d'Ivoire","lat":"5.462269","lng":"-2.9130941"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F36P+WQ Kouakro, C\u00f4te d'Ivoire"}}

@@ -1,0 +1,13 @@
+
+ Request - 2021-08-21 05:21:19
+{"method":"getCityIdByAddressOrLatLng","address":"QV96+QW8, 930101, Bukuru, Nigeria","lat":"9.7691692","lng":"8.8619499"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QV96+QW8, 930101, Bukuru, Nigeria"}}
+ Request - 2021-08-21 10:16:33
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Dakar, Sénégal","lat":"14.7742069","lng":"-17.4033622"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Dakar, Senegal"}}
+ Request - 2021-08-21 13:16:25
+{"method":"getCityIdByAddressOrLatLng","address":"Goni School Rd, Chandpur, Bangladesh","lat":"23.2323725","lng":"90.6544874"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Goni School Rd, Chandpur, Bangladesh"}}

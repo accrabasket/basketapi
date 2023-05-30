@@ -1,0 +1,9 @@
+
+ Request - 2022-06-14 16:09:49
+{"method":"addtocart","guest_user_id":"cb3d18bbb1479dc4","number_of_item":"1","merchant_inventry_id":"458","action":"add","item_name":"Gold Rum(Gold Rum)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-14 18:35:10
+{"method":"addtocart","guest_user_id":"6976b666db740762","number_of_item":"1","merchant_inventry_id":"634","action":"add","item_name":"Digestives – Milk Chocolate Biscuits(Digestives – Milk Chocolate Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2021-01-18 15:19:12
+{"method":"placeorder","user_id":"1736","shipping_address_id":"368","time_slot_id":"6","delivery_date":"2021-01-18","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"Minimum order Must Be Greater than 100.00"}
+ Request - 2021-01-18 15:20:25
+{"method":"placeorder","user_id":"1736","shipping_address_id":"368","time_slot_id":"6","delivery_date":"2021-01-18","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_447","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1736","TransactionId":"c38e712a480acce780d4b9eeed76e8c9","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_447","Amount":185.99,"Signature":"6b38a5bf41565fc9107b6fcaf7223a7c309c93d9bfa1a398491e0e8b0f056b7d"}}}}
+ Request - 2021-01-18 15:23:20
+{"method":"placeorder","user_id":"1736","shipping_address_id":"368","time_slot_id":"6","delivery_date":"2021-01-18","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"success","msg":"order placed successfully.","data":{"order_id":"order_m4_448","tokenResponse":{"paymentUrl":"https:\/\/payments.ezeepaygh.com\/mobile\/checkout?token=&returnurl=http:\/\/172.104.239.54\/basketapi\/application\/cron\/updatepaymentstatus","paymentDetails":{"Customer":"1736","TransactionId":"817b04e1a131fd3ea7f378f1787267f8","MerchantId":"8FF5F6D6-E9B6-4120-AB58-515CBD81BC46","Description":"Payment For order order_m4_448","Amount":159.99,"Signature":"a09ebdf4102509e827a328a137a692f86f536877bedbfa38ea34b4c2e7ff19fc"}}}}
+ Request - 2021-01-18 15:23:23
+{"method":"placeorder","user_id":"1736","shipping_address_id":"368","time_slot_id":"6","delivery_date":"2021-01-18","payment_type":"ezeepay","use_wallet_amount":true}
+ Response :- 
+{"status":"fail","msg":"No Item found in cart"}

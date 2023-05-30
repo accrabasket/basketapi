@@ -1,0 +1,505 @@
+
+ Request - 2022-03-13 10:48:16
+{"method":"addtocart","guest_user_id":"2a151ebf479bc068","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 10:48:19
+{"method":"addtocart","guest_user_id":"2a151ebf479bc068","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:14:56
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"276","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:14:59
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"276","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:15:00
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"276","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:15:05
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3821","action":"delete","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:16:31
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"327","action":"add","item_name":"Sona Masoori(Sona Masoori)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:34:40
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"236","action":"add","item_name":"Corn Flour(Corn Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:35:05
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1050","action":"add","item_name":"Semolina Coarse(Semolina Coarse)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:35:10
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1206","action":"add","item_name":"Rice Flour(Rice Flour)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:37:27
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"294","action":"add","item_name":"Kurmura-Puffed Rice(Murmura-Puffed Rice)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:38:08
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"329","action":"add","item_name":"Soya Chunk(Soya Chunk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:38:30
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"336","action":"add","item_name":"Split White Urid Dal(Split White Urid Dal)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:38:50
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1205","action":"add","item_name":"Polished Red Lentils(Polished Red Lentils)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:15
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"235","action":"add","item_name":"Coriander Seeds(Coriander Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:20
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"237","action":"add","item_name":"Cumin Powder(Cumin Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:23
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"238","action":"add","item_name":"Cumin Seeds(Cumin Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"239","action":"add","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:28
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"239","action":"add","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:31
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"239","action":"add","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:33
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"239","action":"delete","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:35
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"239","action":"delete","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:37
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"239","action":"delete","item_name":"Curry Powder(Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:39:42
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"243","action":"add","item_name":"Deggi Mirch(Deggi Mirch)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:40:07
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"266","action":"add","item_name":"Ground Black Pepper (Powder)(Ground Black Pepper (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:40:15
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"282","action":"add","item_name":"Kasuri Methi(Kasuri Methi)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:40:22
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"267","action":"add","item_name":"Ground Turmeric (Powder)(Ground Turmeric (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:40:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"267","action":"add","item_name":"Ground Turmeric (Powder)(Ground Turmeric (Powder))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:40:30
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"289","action":"add","item_name":"Meat Ka Masala(Meat Ka Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:40:33
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"286","action":"add","item_name":"Madras Curry Powder(Madras Curry Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:41:01
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"325","action":"add","item_name":"Shahi Biryani Masala(Shahi Biryani Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:41:06
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"375","action":"add","item_name":"Whole Cloves(Whole Cloves)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:41:22
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1183","action":"add","item_name":"Black Cumin Seeds(Black Cumin Seeds)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:41:59
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1097","action":"add","item_name":"Ghee(Ghee)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:21
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"320","action":"add","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:24
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"320","action":"add","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:26
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"320","action":"add","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:29
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"320","action":"delete","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:31
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"320","action":"delete","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:33
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"320","action":"delete","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:37
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"321","action":"add","item_name":"Sabji Masala(Sabji Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:43:39
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"323","action":"add","item_name":"Sambhar Masala(Sambhar Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:44:24
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"343","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:45:15
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:45:17
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"356","action":"add","item_name":"UHT Milk-Full Cream(UHT Milk-Full Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:45:58
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:46:00
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:47:30
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"428","action":"add","item_name":"Floral - Multi Surface Cleaner(Floral - Multi Surface Cleaner)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:48:11
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"608","action":"add","item_name":"2in1 Summer Sensations - Handwash Washing Powder(2 in 1 Summer Sensations - Handwash Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:48:21
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"671","action":"add","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:48:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"671","action":"add","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:48:27
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"671","action":"delete","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:48:30
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"672","action":"add","item_name":"Lemon - Dishwashing Liquid(Lemon - Dishwashing Liquid)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:49:15
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1087","action":"add","item_name":"Decorated Paper Napkin(Decorated Paper Napkin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:49:26
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1089","action":"add","item_name":"Multi Purpose Towel(Multi Purpose Towel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:49:49
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3052","action":"add","item_name":"Strong Kitchen Towel(Strong Kitchen Towel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:50:01
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1089","action":"delete","item_name":"Multi Purpose Towel(Multi Purpose Towel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:50:17
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"445","action":"add","item_name":"Rajnighandha Incense Sticks(Rajnighandha Incense Sticks)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:51:34
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"438","action":"add","item_name":"Tropical - Hand Soap(Tropical - Hand Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:52:41
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3027","action":"add","item_name":"Ultra Thin Long Pads(Ultra Thin Long Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:52:59
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3022","action":"add","item_name":"Maxi Thick Pads(Maxi Thick Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:53:04
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3023","action":"add","item_name":"Maxi Thick Extra Long Pads(Maxi Thick Extra Long Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:53:10
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3027","action":"add","item_name":"Ultra Thin Long Pads(Ultra Thin Long Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:53:13
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3027","action":"delete","item_name":"Ultra Thin Long Pads(Ultra Thin Long Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:53:15
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3027","action":"delete","item_name":"Ultra Thin Long Pads(Ultra Thin Long Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:54:41
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1428","action":"add","item_name":"Men + Care Cool Fresh Dry Antiperspirant Spray(Men + Care Cool Fresh Dry Antiperspirant Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:55:22
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1428","action":"add","item_name":"Men + Care Cool Fresh Dry Antiperspirant Spray(Men + Care Cool Fresh Dry Antiperspirant Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:55:24
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1428","action":"delete","item_name":"Men + Care Cool Fresh Dry Antiperspirant Spray(Men + Care Cool Fresh Dry Antiperspirant Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:55:26
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1428","action":"delete","item_name":"Men + Care Cool Fresh Dry Antiperspirant Spray(Men + Care Cool Fresh Dry Antiperspirant Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:55:34
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1431","action":"add","item_name":"Men+Care Extra Fresh Dry Spray Antiperspirant(Men+Care Extra Fresh Dry Spray Antiperspirant)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:56:21
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3009","action":"add","item_name":"Citrus Fresh Anti-Dandruff Shampoo(Citrus Fresh Anti-Dandruff Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:56:49
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"916","action":"add","item_name":"Medicated Soap - Pink(Medicated Soap - Pink)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:58:16
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2564","action":"add","item_name":"Herbal Antibacterial Toilet Soap(Herbal Antibacterial Toilet Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:58:17
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2564","action":"add","item_name":"Herbal Antibacterial Toilet Soap(Herbal Antibacterial Toilet Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 17:59:23
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3422","action":"add","item_name":"Rosehip Liquid Soap(Rosehip Liquid Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:00:35
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3839","action":"add","item_name":"Shake Me Up - Beauty Bar Soap(Shake Me Up - Beauty Bar Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:01:31
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"303","action":"add","item_name":"Premium Tea(Premium Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:33
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:38
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:40
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:42
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:45
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:47
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:49
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:51
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:04:53
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"902","action":"add","item_name":"Chicken Flavour Noodles(Chicken Flavour Noodles)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:05:48
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"913","action":"add","item_name":"Shrimp Bouillon Tablet(Shrimp Bouillon Tablet)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:07:14
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1541","action":"add","item_name":"Orange Marmalade Jam(Orange Marmalade Jam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:07:31
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2605","action":"add","item_name":"Tomato Mix - Pillow Pack(Tomato Mix - Pillow Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:07:36
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2605","action":"delete","item_name":"Tomato Mix - Pillow Pack(Tomato Mix - Pillow Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:07:53
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2717","action":"add","item_name":"Tomato Ketchup(Tomato Ketchup)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:08:41
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"621","action":"add","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:08:44
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"621","action":"add","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:08:47
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"621","action":"add","item_name":"Brown Sugar - Jar Bottle(Brown Sugar - Jar Bottle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:10:03
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2891","action":"add","item_name":"Brown Sugar Cubes(Brown Sugar Cubes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:10:16
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:10:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:11:16
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"608","action":"add","item_name":"2in1 Summer Sensations - Handwash Washing Powder(2 in 1 Summer Sensations - Handwash Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:11:18
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:02
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1141","action":"add","item_name":"Concentrated Fabric Softner - Nature(Concentrated Fabric Softner - Nature)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:23
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1141","action":"add","item_name":"Concentrated Fabric Softner - Nature(Concentrated Fabric Softner - Nature)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:26
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1141","action":"delete","item_name":"Concentrated Fabric Softner - Nature(Concentrated Fabric Softner - Nature)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:28
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1141","action":"delete","item_name":"Concentrated Fabric Softner - Nature(Concentrated Fabric Softner - Nature)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:46
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2578","action":"add","item_name":"Fabric Softener Purity(Fabric Softener Purity)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:50
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2578","action":"delete","item_name":"Fabric Softener Purity(Fabric Softener Purity)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:12:53
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2577","action":"add","item_name":"Fabric Softener Nature(Fabric Softener Nature)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:15:21
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2113","action":"add","item_name":"Original Gluco Biscuits(Original Gluco Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:15:25
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2111","action":"add","item_name":"Digestive Biscuits(Digestive Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:16:34
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2147","action":"add","item_name":"Bakesmith Marie Biscuits(Bakesmith Marie Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:16:58
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2147","action":"add","item_name":"Bakesmith Marie Biscuits(Bakesmith Marie Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:17:04
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2147","action":"add","item_name":"Bakesmith Marie Biscuits(Bakesmith Marie Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:17:08
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"2147","action":"add","item_name":"Bakesmith Marie Biscuits(Bakesmith Marie Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:33
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3821","action":"delete","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:35
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3821","action":"delete","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:38
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"3821","action":"delete","item_name":"Potatoes(Potatoes)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:41
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"721","action":"delete","item_name":"Rich Tea - Biscuits(Rich Tea - Biscuits)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:44
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1924","action":"delete","item_name":"Top Biscuit(Top Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:46
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1924","action":"delete","item_name":"Top Biscuit(Top Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:49
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1924","action":"delete","item_name":"Top Biscuit(Top Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:52
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1924","action":"delete","item_name":"Top Biscuit(Top Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:55
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1924","action":"delete","item_name":"Top Biscuit(Top Biscuit)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:28:57
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"217","action":"delete","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:29:00
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"261","action":"delete","item_name":"Green Cardamom(Green Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:29:02
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1044","action":"delete","item_name":"Mixed Pickle(Mixed Pickle)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:29:05
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"1104","action":"delete","item_name":"Bikaneri Papad Spicy(Bikaneri Papad Spicy)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-13 18:29:09
+{"method":"addtocart","user_id":"7999","number_of_item":"1","merchant_inventry_id":"225","action":"delete","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

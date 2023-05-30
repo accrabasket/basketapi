@@ -1,0 +1,9 @@
+
+ Request - 2022-09-11 01:33:50
+{"method":"addtocart","guest_user_id":"40479942e675b372","number_of_item":"1","merchant_inventry_id":"774","action":"add","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-11 17:27:58
+{"method":"addtocart","guest_user_id":"6892da2ec1c748fc","number_of_item":"1","merchant_inventry_id":"214","action":"add","item_name":"Black Chana(Black Chana)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

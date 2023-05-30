@@ -1,0 +1,33 @@
+
+ Request - 2022-07-26 02:00:00
+{"method":"getCityIdByAddressOrLatLng","address":"QR5F+MVQ, Govindpura Rd, Chokhi Dhani, Sukhdeopura Nohara, Asawala, Rajasthan 302022, India","lat":"26.7590834","lng":"75.8248874"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QR5F+MVQ, Govindpura Rd, Chokhi Dhani, Sukhdeopura Nohara, Asawala, Rajasthan 302022, India"}}
+ Request - 2022-07-26 05:39:52
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Mongbwalu, République démocratique du Congo","lat":"1.9358181","lng":"30.0433994"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W2PV+89 Mongbwalu, Democratic Republic of the Congo"}}
+ Request - 2022-07-26 08:31:08
+{"method":"getCityIdByAddressOrLatLng","address":"4C67+HXV, Girimukti, Kec. Batujajar, Kabupaten Bandung Barat, Jawa Barat 40561, Indonesia","lat":"-6.8893521","lng":"107.4146903"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4C67+HXV, Girimukti, Batujajar, West Bandung Regency, West Java 40561, Indonesia"}}
+ Request - 2022-07-26 09:49:29
+{"method":"getCityIdByAddressOrLatLng","address":"MW3X+QHJ, Bangladesh","lat":"24.6568824","lng":"89.9488749"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MW4X+QG Dhanbari, Bangladesh"}}
+ Request - 2022-07-26 12:26:18
+{"method":"getCityIdByAddressOrLatLng","address":"Off Edo Street,Marko Road,Ekosodin Benin Cityect Collection, Oka 300102, Benin City, Nigeria","lat":"6.3230021","lng":"5.6255882"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Off Edo Street,Marko Road,Ekosodin Benin Cityect Collection, Oka 300102, Benin City, Nigeria"}}
+ Request - 2022-07-26 16:08:56
+{"method":"getCityIdByAddressOrLatLng","address":"86RG+FH4, Yagoua, Cameroun","lat":"10.3413249","lng":"15.2244174"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"86RF+GQ Yagoua, Cameroon"}}
+ Request - 2022-07-26 19:09:34
+{"method":"getCityIdByAddressOrLatLng","address":"19, Central Jacob Lines Karachi, Karachi City, Sindh, Pakistan","lat":"24.8678101","lng":"67.0317199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"19, Central Jacob Lines Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-07-26 20:26:22
+{"method":"getCityIdByAddressOrLatLng","address":"P24X+Q4W, F 8\/4 F-8, Islamabad, Islamabad Capital Territory, Pakistan","lat":"33.7070964","lng":"73.0477222"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P24X+Q4W, F 8\/4 F-8, Islamabad, Islamabad Capital Territory, Pakistan"}}

@@ -1,0 +1,17 @@
+
+ Request - 2021-02-02 00:51:25
+{"method":"getCityIdByAddressOrLatLng","address":"Rue 1366, Cotonou, Bénin","lat":"6.3679895","lng":"2.4924138"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue 1366, Cotonou, Benin"}}
+ Request - 2021-02-02 03:29:07
+{"method":"getCityIdByAddressOrLatLng","address":"Plot 13\/21\/22, Morar Industrial Estate, Jaspur Rd, Industrial Area, Padra, Gujarat 391440, India","lat":"22.25272166666667","lng":"73.08278"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Plot 13\/21\/22, Morar Industrial Estate, Jaspur Rd, Industrial Area, Padra, Gujarat 391440, India"}}
+ Request - 2021-02-02 11:41:22
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Mallpora, 193502","lat":"34.345066","lng":"74.4871812"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Mallpora, 193502"}}
+ Request - 2021-02-02 12:17:57
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Touba, Sénégal","lat":"14.8364499","lng":"-15.8721502"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Touba, Senegal"}}

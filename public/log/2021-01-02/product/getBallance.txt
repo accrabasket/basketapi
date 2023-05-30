@@ -1,0 +1,8 @@
+
+ Request - 2021-01-02 11:20:15
+{"method":"getBallance","user_id":0,"wallet_key":"0"}
+
+ Response :- 
+
+
+{"status":"fail","msg":"user_id not supplied"}

@@ -1,0 +1,9 @@
+
+ Request - 2021-03-20 04:08:36
+{"method":"getCityIdByAddressOrLatLng","address":"محمد حسني مبارك، الزهور، المناخ، بور سعيد، مصر","lat":"31.2635041","lng":"32.2655724"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mohammed Housny Mobarak, Al Zehour, Al Manakh, Port Said Governorate, Egypt"}}
+ Request - 2021-03-20 12:00:13
+{"method":"getCityIdByAddressOrLatLng","address":"Ado Ekiti-Igede-Aramoko Rd, Iyin, Nigeria","lat":"7.6584499","lng":"5.159661"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ado Ekiti-Igede-Aramoko Rd, Iyin, Nigeria"}}

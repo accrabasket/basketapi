@@ -1,0 +1,29 @@
+
+ Request - 2022-06-19 11:47:45
+{"method":"getitemintocart","guest_user_id":"09e4b74c8542af5f"}
+ Response :- 
+{"status":"success","data":{"3821":{"id":21248,"user_id":0,"guest_user_id":"09e4b74c8542af5f","merchant_inventry_id":3821,"item_name":"Potatoes(Potatoes)","number_of_item":1,"created_date":"2022-05-21 21:01:32"},"3808":{"id":21249,"user_id":0,"guest_user_id":"09e4b74c8542af5f","merchant_inventry_id":3808,"item_name":"Onion Local(Onion Local)","number_of_item":1,"created_date":"2022-05-21 21:01:34"}},"productDetails":{"status":"success","data":{"3808":{"id":3808,"price":"8.00","product_id":4278,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Onion Local","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Eden Tree","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null},"3821":{"id":3821,"price":"13.00","product_id":4293,"merchant_id":11,"store_id":15,"merchant_product_code":null,"product_name":"Potatoes","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":121,"custom_info":"","brand_name":"Timens","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"Kg","quantity":1,"tax_value":null}},"productImageData":{"4278":[{"id":5371,"type":"product","image_id":4278,"image_name":"OSU4876.jpg"}],"4293":[{"id":5386,"type":"product","image_id":4293,"image_name":"OSU4915.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-19 13:57:38
+{"method":"getitemintocart","guest_user_id":"11ab055b06f126a4"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-19 13:58:26
+{"method":"getitemintocart","guest_user_id":"11ab055b06f126a4"}
+ Response :- 
+{"status":"success","data":{"270":{"id":21809,"user_id":0,"guest_user_id":"11ab055b06f126a4","merchant_inventry_id":270,"item_name":"Honey(Honey)","number_of_item":1,"created_date":"2022-06-19 13:58:24"}},"productDetails":{"status":"success","data":{"270":{"id":270,"price":"24.80","product_id":420,"merchant_id":3,"store_id":2,"merchant_product_code":"8901207035","product_name":"Honey","product_desc":"As the largest player in the branded honey market, Dabur has the back-up of widely spread sourcing and stringent quality control measures. Dabur honey sourced selectively from the Himalayas, the Nilgiris and the Sunderbans forests. Collection process follows stringent quality checks to ensure even raw unfiltered honey is of best quality. Raw honey is filtered and cleaned of impurities such as dust, pollen and wax at state-of-the-art facilities. Entire process is mechanized and untouched by hands to ensure hygienic conditions.","default_discount_type":"","default_discount_value":"0","category_id":53,"custom_info":"{\"Ingredients\":\"Honey\",\"Allergy Information\":\"It should not be used by people allergic to BEE products and thus, should not be consumed in case of BEE sting allergies.\"}","brand_name":"Dabur","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"2.30","unit":"gm","quantity":250,"tax_value":"3"}},"productImageData":{"420":[{"id":343,"type":"product","image_id":420,"image_name":"8901207035364.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-19 13:58:29
+{"method":"getitemintocart","guest_user_id":"11ab055b06f126a4"}
+ Response :- 
+{"status":"success","data":{"270":{"id":21809,"user_id":0,"guest_user_id":"11ab055b06f126a4","merchant_inventry_id":270,"item_name":"Honey(Honey)","number_of_item":1,"created_date":"2022-06-19 13:58:24"}},"productDetails":{"status":"success","data":{"270":{"id":270,"price":"24.80","product_id":420,"merchant_id":3,"store_id":2,"merchant_product_code":"8901207035","product_name":"Honey","product_desc":"As the largest player in the branded honey market, Dabur has the back-up of widely spread sourcing and stringent quality control measures. Dabur honey sourced selectively from the Himalayas, the Nilgiris and the Sunderbans forests. Collection process follows stringent quality checks to ensure even raw unfiltered honey is of best quality. Raw honey is filtered and cleaned of impurities such as dust, pollen and wax at state-of-the-art facilities. Entire process is mechanized and untouched by hands to ensure hygienic conditions.","default_discount_type":"","default_discount_value":"0","category_id":53,"custom_info":"{\"Ingredients\":\"Honey\",\"Allergy Information\":\"It should not be used by people allergic to BEE products and thus, should not be consumed in case of BEE sting allergies.\"}","brand_name":"Dabur","commission_type":"percent","commission_value":"10.0000","discount_type":"flat","discount_value":"2.30","unit":"gm","quantity":250,"tax_value":"3"}},"productImageData":{"420":[{"id":343,"type":"product","image_id":420,"image_name":"8901207035364.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-06-19 16:43:36
+{"method":"getitemintocart","guest_user_id":"62d3e27cc4b8c099"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-19 20:30:01
+{"method":"getitemintocart","guest_user_id":"89bcbcf2e0de7ff1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-06-19 21:14:51
+{"method":"getitemintocart","guest_user_id":"b049f380cdb2d21d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

@@ -1,0 +1,5 @@
+
+ Request - 2021-02-03 14:49:23
+{"method":"addtocart","user_id":"800","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

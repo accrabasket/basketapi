@@ -1,0 +1,5 @@
+
+ Request - 2021-01-17 09:51:50
+{"method":"addedituser","city_id":"1","password":"nice2020","name":"Mark","email":"meloveu8080@gmail.com","mobile_number":"0544104016","country_code":"+233","id":"0","fcm_reg_id":"fZFJ4JnDL-E:APA91bHGBPZq97olCAEAwMK-2l9h0uM5iSwM_5TxBjJ5rNZcAerp6GLIN6PqgcwQeQfT1qOO4c0wtbWq7i38yCv7kh9AOwoOYZQ-zaU9mC8Lh5kjW14Qnezqq-SyLeU6koSAPc1SjtuC"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233544104016 and registered email id.","data":{"1736":{"id":1736,"name":"Mark","mobile_number":"544104016","email":"meloveu8080@gmail.com","key":"03bcec82a9bfdb0b3c2e17265bf98fd5","password":"4c841c267870b4b8d7e09504f619a0cd","fcm_reg_id":"fZFJ4JnDL-E:APA91bHGBPZq97olCAEAwMK-2l9h0uM5iSwM_5TxBjJ5rNZcAerp6GLIN6PqgcwQeQfT1qOO4c0wtbWq7i38yCv7kh9AOwoOYZQ-zaU9mC8Lh5kjW14Qnezqq-SyLeU6koSAPc1SjtuC","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-01-17 09:51:50","updated_date":"2021-01-17 09:51:50","status":"1"}}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-07-18 17:47:47
+{"method":"getaddresslist","user_id":"3223"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-07-18 17:49:13
+{"method":"getaddresslist","user_id":"3223"}
+ Response :- 
+{"status":"success","data":{"489":{"id":489,"user_id":3223,"address_nickname":"ghana rubber","contact_name":"Okine","city_id":1,"city_name":"32 Adjuma Cres, Accra, Ghana","house_number":"32","street_detail":"adjuma cresent","landmark":"near STC","zipcode":"1069","area":"","lat":"5.5615213","lng":"","created_date":"2021-07-18 17:49:13","updated_date":"2021-07-18 17:49:13"}}}

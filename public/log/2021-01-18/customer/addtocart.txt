@@ -1,0 +1,29 @@
+
+ Request - 2021-01-18 15:18:32
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"613","action":"add","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-18 15:19:32
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"613","action":"delete","item_name":"All Butter Shortbread(All Butter Shortbread)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-18 15:20:01
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"467","action":"add","item_name":"London Dry Gin(London Dry Gin)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-18 15:22:28
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-18 16:05:51
+{"method":"addtocart","guest_user_id":"18a0fb3d6d7a468c","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-18 16:06:10
+{"method":"addtocart","guest_user_id":"18a0fb3d6d7a468c","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-18 16:06:20
+{"method":"addtocart","guest_user_id":"18a0fb3d6d7a468c","number_of_item":"1","merchant_inventry_id":"275","action":"delete","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,17 @@
+
+ Request - 2021-10-26 13:08:54
+{"method":"getCityIdByAddressOrLatLng","address":"Umuntu, 440102, Itaja, Nigeria","lat":"5.4782612","lng":"7.4990917"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Umuntu, 440102, Itaja, Nigeria"}}
+ Request - 2021-10-26 16:21:34
+{"method":"getCityIdByAddressOrLatLng","address":"Kheda-Sihunj Rd, Sihunj, Gujarat 387430, India","lat":"22.7989198","lng":"72.8609635"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QVX6+H9 Kesra, Gujarat, India"}}
+ Request - 2021-10-26 16:27:27
+{"method":"getCityIdByAddressOrLatLng","address":"Greenwich Meridian Rd, Tema, Ghana","lat":"5.6410302","lng":"4.371E-4"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Greenwich Meridian Rd, Tema, Ghana"}}
+ Request - 2021-10-26 19:43:13
+{"method":"getCityIdByAddressOrLatLng","address":"Ntan, Nigeria","lat":"5.8616998","lng":"8.1391223"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V46Q+MJ Ekori, Nigeria"}}

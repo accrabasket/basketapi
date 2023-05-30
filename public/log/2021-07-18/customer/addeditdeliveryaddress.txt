@@ -1,0 +1,5 @@
+
+ Request - 2021-07-18 17:49:13
+{"method":"addeditdeliveryaddress","house_number":"32","area":"","street_detail":"adjuma cresent","contact_name":"Okine","city_name":"32 Adjuma Cres, Accra, Ghana","city_id":"1","lat":"5.5615213","long":"-0.2246127","user_id":"3223","address_nickname":"ghana rubber","landmark":"near STC","zipcode":"1069"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":489}}

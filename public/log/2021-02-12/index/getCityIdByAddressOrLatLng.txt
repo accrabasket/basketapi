@@ -1,0 +1,9 @@
+
+ Request - 2021-02-12 15:05:28
+{"method":"getCityIdByAddressOrLatLng","address":"العبور، النهضة، أول السلام، محافظة القاهرة‬، مصر","lat":"30.1697681","lng":"31.4431448"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"El-Obour, El-Nahda, Al Salam First, Cairo Governorate, Egypt"}}
+ Request - 2021-02-12 21:40:40
+{"method":"getCityIdByAddressOrLatLng","address":"5, Rawalpindi, Punjab 46000, Pakistan","lat":"33.5571521","lng":"73.0660916"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5, Rawalpindi, Punjab 46000, Pakistan"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-07-28 06:12:11
+{"method":"login","email":"1","password":"1"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-07-28 06:12:12
+{"method":"login","email":"1","password":"1"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-07-28 06:12:14
+{"method":"login","email":"1","password":"1"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-07-28 06:12:16
+{"method":"login","email":"1","password":"1"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

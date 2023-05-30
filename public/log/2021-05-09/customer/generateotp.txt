@@ -1,0 +1,5 @@
+
+ Request - 2021-05-09 20:45:42
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"03221914451"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23303221914451","otp_type":"register","user_id":"0","otp":6795,"expiry_date":"2021-05-09 21:00:42"}}

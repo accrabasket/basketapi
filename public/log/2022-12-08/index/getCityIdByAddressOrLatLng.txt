@@ -1,0 +1,9 @@
+
+ Request - 2022-12-08 06:50:36
+{"method":"getCityIdByAddressOrLatLng","address":"96MG+9W4, Таш-Кумыр, Кыргызстан","lat":"41.3833158","lng":"72.2258304"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"96MG+9W4, Ta\u015fkomur, Kyrgyzstan"}}
+ Request - 2022-12-08 08:55:16
+{"method":"getCityIdByAddressOrLatLng","address":"Q4GG+65X, उमरिया, मध्य प्रदेश 484665, भारत","lat":"23.775146","lng":"81.1252958"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q4GG+65X, Umaria, Madhya Pradesh 484665, India"}}

@@ -1,0 +1,29 @@
+
+ Request - 2021-12-10 20:41:01
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"649","action":"delete","item_name":"Energy Fresh - Anti-Perspirant Deodorant Spray(Energy Fresh - Anti-Perspirant Deodorant Spray)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-10 20:41:19
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"748","action":"delete","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-10 20:41:21
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"748","action":"add","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-10 20:42:02
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"1348","action":"delete","item_name":"Peppermint Fresh Mouthwash(Peppermint Fresh Mouthwash)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-10 20:42:20
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"1735","action":"delete","item_name":"Natural Fairness Body Lotion(Natural Fairness Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-10 20:42:53
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"2467","action":"delete","item_name":"Alata Samina Lemon Soap(Alata Samina Lemon Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-10 20:43:20
+{"method":"addtocart","guest_user_id":"10415e14211c9396","number_of_item":"1","merchant_inventry_id":"3022","action":"delete","item_name":"Maxi Thick Pads(Maxi Thick Pads)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

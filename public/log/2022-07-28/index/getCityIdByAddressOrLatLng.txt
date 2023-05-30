@@ -1,0 +1,25 @@
+
+ Request - 2022-07-28 04:17:55
+{"method":"getCityIdByAddressOrLatLng","address":"4WP7+4Q9, Bangladesh","lat":"24.1350827","lng":"90.9141612"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4WP7+4Q9, Bangladesh"}}
+ Request - 2022-07-28 06:09:34
+{"method":"getCityIdByAddressOrLatLng","address":"Al Khurtum, Sudan","lat":"15.550107862631405","lng":"32.559420793371714"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HH25+2QR, Khartoum, Sudan"}}
+ Request - 2022-07-28 16:51:04
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Chakwal, Punjab, Pakistan","lat":"33.1750495","lng":"72.661497"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5MG6+2H Chak Koka, Pakistan"}}
+ Request - 2022-07-28 17:51:31
+{"method":"getCityIdByAddressOrLatLng","address":"Вулиця без назви, Київська обл., Украина","lat":"50.359235000000005","lng":"31.208171666666665"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9655+M7 Morozivka, Kyiv Oblast, Ukraine"}}
+ Request - 2022-07-28 18:30:57
+{"method":"getCityIdByAddressOrLatLng","address":"N3, Guinée","lat":"10.8219115","lng":"-14.3739175"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RJCG+QC Tambouni, Guinea"}}
+ Request - 2022-07-28 20:44:04
+{"method":"getCityIdByAddressOrLatLng","address":"JCGQ+PC2, Esereso Adagya Rd, Kumasi, Ghana","lat":"6.6269814","lng":"-1.5613718"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JCGQ+PC2, Esereso Adagya Rd, Kumasi, Ghana"}}

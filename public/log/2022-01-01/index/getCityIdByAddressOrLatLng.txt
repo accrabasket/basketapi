@@ -1,0 +1,17 @@
+
+ Request - 2022-01-01 07:24:18
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Duékoué, Côte d'Ivoire","lat":"6.7361431","lng":"-7.3477735"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Du\u00e9kou\u00e9, C\u00f4te d'Ivoire"}}
+ Request - 2022-01-01 07:25:56
+{"method":"getCityIdByAddressOrLatLng","address":"Botulu, Kinshasa, République démocratique du Congo","lat":"-4.3754398","lng":"15.3286688"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J8FH+RF Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2022-01-01 19:38:07
+{"method":"getCityIdByAddressOrLatLng","address":"GCR8+RVG, Kanakapura, Karnataka 562117, India","lat":"12.541609","lng":"77.4165856"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GCR8+RVG, Kanakapura, Karnataka 562117, India"}}
+ Request - 2022-01-01 21:37:53
+{"method":"getCityIdByAddressOrLatLng","address":"V455+VFW, Libya","lat":"32.8598796","lng":"13.1082674"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V455+VFW, Libya"}}

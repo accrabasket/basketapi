@@ -1,0 +1,9 @@
+
+ Request - 2021-04-08 22:22:30
+{"method":"getCityIdByAddressOrLatLng","address":"Abura Asebu Kwamankese, Ghana","lat":"5.133823","lng":"-1.2192829"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Abura Asebu Kwamankese, Ghana"}}
+ Request - 2021-04-08 22:22:34
+{"method":"getCityIdByAddressOrLatLng","address":"Abura Asebu Kwamankese, Ghana","lat":"5.133823","lng":"-1.2192829"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Abura Asebu Kwamankese, Ghana"}}

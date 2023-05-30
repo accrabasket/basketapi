@@ -1,0 +1,13 @@
+
+ Request - 2022-05-27 11:14:46
+{"method":"getitemintocart","guest_user_id":"c64857efeabd8ddb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-27 16:58:08
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-27 20:14:22
+{"method":"getitemintocart","guest_user_id":"39f6f0377f0109f5"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

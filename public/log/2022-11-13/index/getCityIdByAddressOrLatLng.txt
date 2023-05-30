@@ -1,0 +1,5 @@
+
+ Request - 2022-11-13 05:40:50
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Pandan No.1, RT.1\/RW.11, Cibubur, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13720, Indonesia","lat":"-6.3520572","lng":"106.8845176"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Pandan No.1, RT.1\/RW.11, Cibubur, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13720, Indonesia"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-10-19 10:46:33
+{"method":"getCityIdByAddressOrLatLng","address":"Amir Saeed Shaeed Rd, Block 10 Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan","lat":"24.913149","lng":"67.1015634"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W472+7J Gulshan-e-Iqbal, Karachi, Pakistan"}}
+ Request - 2021-10-19 19:37:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Sunyani, Ghana","lat":"7.3864771","lng":"-2.2964404"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sunyani, Ghana"}}

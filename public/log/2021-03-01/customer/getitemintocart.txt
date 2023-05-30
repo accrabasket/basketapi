@@ -1,0 +1,37 @@
+
+ Request - 2021-03-01 02:55:24
+{"method":"getitemintocart","guest_user_id":"eafc6acf657d8e5d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 02:56:15
+{"method":"getitemintocart","guest_user_id":"eafc6acf657d8e5d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 12:07:17
+{"method":"getitemintocart","guest_user_id":"8c7a772bae96cf9b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 12:48:43
+{"method":"getitemintocart","guest_user_id":"9308309fe2ce2434"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 15:10:36
+{"method":"getitemintocart","guest_user_id":"83bf0c690385d513"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 15:33:59
+{"method":"getitemintocart","guest_user_id":"2ca0cd965a21cac7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 15:37:44
+{"method":"getitemintocart","guest_user_id":"2ca0cd965a21cac7"}
+ Response :- 
+{"status":"success","data":{"276":{"id":12902,"user_id":0,"guest_user_id":"2ca0cd965a21cac7","merchant_inventry_id":276,"item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)","number_of_item":1,"created_date":"2021-03-01 15:37:44"}},"productDetails":{"status":"success","data":{"276":{"id":276,"price":"14.00","product_id":423,"merchant_id":3,"store_id":2,"merchant_product_code":"6008155000","product_name":"Instant Filled Milk Powder","product_desc":"Miksi has a marginally higher fat content yet still contains all the essential vitamins and minerals needed to keep you and your family healthy. With a smooth and creamy taste, our milk powder is as delicious as it is nutritious.\r\nEnriched with nourishing vitamins, Promasidor\u2019s second fat-filled milk powder Miksi boasts a rich and creamy taste.\r\nContaining the right amount of protein, calcium, vitamins and minerals necessary for good health, Miksi fat-filled milk powder has also been enriched with vitamins A and D to ensure optimal nutritional benefits. This powdered milk has a marginally higher fat content which gives it its milky smooth taste, yet it contains no cholesterol.","default_discount_type":"","default_discount_value":"0","category_id":45,"custom_info":"{\"Allergy Information\":\"Milk & Milk Products (Incl. Lactose)\"}","brand_name":"MIKSI","commission_type":"percent","commission_value":"10.0000","discount_type":"percent","discount_value":"10","unit":"gm","quantity":400}},"productImageData":{"423":[{"id":347,"type":"product","image_id":423,"image_name":"NEH00002.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-01 15:37:51
+{"method":"getitemintocart","guest_user_id":"2ca0cd965a21cac7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-03-01 15:51:43
+{"method":"getitemintocart","guest_user_id":"83bf0c690385d513"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

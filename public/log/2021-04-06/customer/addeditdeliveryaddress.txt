@@ -1,0 +1,21 @@
+
+ Request - 2021-04-06 17:40:36
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"Appiadu-Kokoben,KNUST-Kumasi","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"Botchway house","landmark":"behind Jesus Grace Academy, ","zipcode":"2000","id":"430"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}
+ Request - 2021-04-06 18:10:25
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"Appiadu-Kokoben Junction","contact_name":"Brinna","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"GH Post","landmark":"Behind Jesus Grace Academy","zipcode":"100"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":433}}
+ Request - 2021-04-06 19:58:07
+{"method":"addeditdeliveryaddress","house_number":"AK-901-9058","area":"","street_detail":"plot 5 asomfu avenue","contact_name":"Brinna Esi","city_name":"Kumasi, Ghana","city_id":"1","lat":"6.6614703","long":"-1.5146696","user_id":"2263","address_nickname":"AK host","landmark":"behind Jesus Grace Academy","zipcode":"0509"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":434}}
+ Request - 2021-04-06 21:21:49
+{"method":"addeditdeliveryaddress","house_number":"33","area":"","street_detail":"ghj","contact_name":"test1","city_name":"222, Road, Jinkethimmanahalli, Ramamurthy Nagar, Bengaluru, Karnataka 560043, India","city_id":"1","lat":"13.0294419","long":"77.6823068","user_id":"800","address_nickname":"ghy","landmark":"ggg","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":435}}
+ Request - 2021-04-06 21:27:12
+{"method":"addeditdeliveryaddress","house_number":"33","area":"","street_detail":"ghj","contact_name":"test1","city_name":"Osu, Accra, Ghana","city_id":"1","lat":"5.5570305","long":"-0.1762717","user_id":"800","address_nickname":"ghy","landmark":"ggg","zipcode":"","id":"435"}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":[]}

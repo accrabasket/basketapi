@@ -1,0 +1,13 @@
+
+ Request - 2022-05-31 12:10:37
+{"method":"getCityIdByAddressOrLatLng","address":"H39G+X3، كربلاء، العراق","lat":"32.569245","lng":"44.0760749"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H39G+X3, Karbala, Iraq"}}
+ Request - 2022-05-31 12:41:52
+{"method":"getCityIdByAddressOrLatLng","address":"dubai alawir showroom no 316 - منطقة رأس الخور الصناعية - منطقة رأس الخور الصناعية - ٣ - دبي - United Arab Emirates","lat":"25.1698241","lng":"55.3702389"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"dubai alawir showroom no 316 - \u0645\u0646\u0637\u0642\u0629 \u0631\u0623\u0633 \u0627\u0644\u062e\u0648\u0631 \u0627\u0644\u0635\u0646\u0627\u0639\u064a\u0629 - \u0645\u0646\u0637\u0642\u0629 \u0631\u0623\u0633 \u0627\u0644\u062e\u0648\u0631 \u0627\u0644\u0635\u0646\u0627\u0639\u064a\u0629 - \u0663 - \u062f\u0628\u064a - United Arab Emirates"}}
+ Request - 2022-05-31 17:23:59
+{"method":"getCityIdByAddressOrLatLng","address":"2\/3 Pakoto Street Ogun, 112104, Ifo, Nigeria","lat":"6.7922811","lng":"3.1988374"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2\/3 Pakoto Street Ogun, 112104, Ifo, Nigeria"}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-01-12 16:41:22
+{"method":"verifyotp","country_code":"+233","mobile_number":"507223004","otp_type":"register","otp":"2009"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"4bb7104a702ba00bc1c8104b6e917896"}}
+ Request - 2021-01-12 19:25:56
+{"method":"verifyotp","country_code":"+233","mobile_number":"559139989","otp_type":"register","otp":"2456"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"9d2ad04e62b5cc16f21beaf717d895b1"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-06-29 22:36:39
+{"method":"addtocart","guest_user_id":"5e0744f9b4046338","number_of_item":"1","merchant_inventry_id":"2847","action":"add","item_name":"Chicken Breast(Chicken Breast)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-29 22:36:57
+{"method":"addtocart","guest_user_id":"5e0744f9b4046338","number_of_item":"1","merchant_inventry_id":"3800","action":"add","item_name":"Chicken Gizzards(Chicken Gizzards)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-29 22:37:13
+{"method":"addtocart","guest_user_id":"5e0744f9b4046338","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-29 22:40:16
+{"method":"addtocart","guest_user_id":"5e0744f9b4046338","number_of_item":"1","merchant_inventry_id":"3803","action":"add","item_name":"Chicken Thighs(Chicken Thighs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

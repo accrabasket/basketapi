@@ -1,0 +1,5 @@
+
+ Request - 2021-05-09 20:41:48
+{"method":"addedituser","city_id":"1","password":"0000","name":"w","email":"e","mobile_number":"03221914451","country_code":"+233","id":"0","fcm_reg_id":"dDf3uOOMfAU:APA91bHF30W7sy-bI0vqH0f7FAv5lNLJsjt2WbnKsTj98WQ3mlWtkk_GaKUK3nhOtgegTkWrdMO7ZCLbSwDHEkvjHSXilIrlY_U1oGMaBBaUbr4Cyzy2EeSlMo-KyCUHvm0DFgQttlrm"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2333221914451 and registered email id.","data":{"2540":{"id":2540,"name":"w","mobile_number":"3221914451","email":"e","key":"a79d1d7d4de666994fc5ae6105162a79","password":"4a7d1ed414474e4033ac29ccb8653d9b","fcm_reg_id":"dDf3uOOMfAU:APA91bHF30W7sy-bI0vqH0f7FAv5lNLJsjt2WbnKsTj98WQ3mlWtkk_GaKUK3nhOtgegTkWrdMO7ZCLbSwDHEkvjHSXilIrlY_U1oGMaBBaUbr4Cyzy2EeSlMo-KyCUHvm0DFgQttlrm","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-05-09 20:41:47","updated_date":"2021-05-09 20:41:47","status":"1"}}}

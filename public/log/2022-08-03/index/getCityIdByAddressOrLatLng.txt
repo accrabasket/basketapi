@@ -1,0 +1,13 @@
+
+ Request - 2022-08-03 07:06:00
+{"method":"getCityIdByAddressOrLatLng","address":"PJPM+M6R, Palackattumala, Kerala 686635, India","lat":"9.737138","lng":"76.6331798"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PJPM+M6R, Palackattumala, Kerala 686635, India"}}
+ Request - 2022-08-03 08:56:16
+{"method":"getCityIdByAddressOrLatLng","address":"Maroua PB:951, Maroua, Cameroun","lat":"10.6054582","lng":"14.3331805"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Maroua PB:951, Maroua, Cameroon"}}
+ Request - 2022-08-03 19:04:32
+{"method":"getCityIdByAddressOrLatLng","address":"مخمور، بیرداود، العراق","lat":"36.0258142","lng":"43.9231199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2WGF+86 Du Sara Fatah, Iraq"}}

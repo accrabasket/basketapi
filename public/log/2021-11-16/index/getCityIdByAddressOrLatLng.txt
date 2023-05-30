@@ -1,0 +1,17 @@
+
+ Request - 2021-11-16 06:46:35
+{"method":"getCityIdByAddressOrLatLng","address":"W2H5+46X, Azad Nagar Pathan Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9278971","lng":"67.0083951"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W2H5+46X, Azad Nagar Pathan Colony, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2021-11-16 08:17:27
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2021-11-16 11:00:26
+{"method":"getCityIdByAddressOrLatLng","address":"Emmanuel Mbaka Blvd, Lugbe 900109, Abuja, Nigeria","lat":"8.9553041","lng":"7.364029"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X947+4J Abuja, Nigeria"}}
+ Request - 2021-11-16 19:49:21
+{"method":"getCityIdByAddressOrLatLng","address":"Chukwu Onova Street, Awada Layout 431104, Onitsha, Nigeria","lat":"6.1278823","lng":"6.7905199"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4QHR+56 Onitsha, Nigeria"}}

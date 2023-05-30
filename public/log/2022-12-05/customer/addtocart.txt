@@ -1,0 +1,13 @@
+
+ Request - 2022-12-05 13:36:50
+{"method":"addtocart","guest_user_id":"b17c7996c9ed4b78","number_of_item":"1","merchant_inventry_id":"3773","action":"add","item_name":"GHC 225 Gift Hamper(GHC 225 Gift Hamper)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-05 13:37:12
+{"method":"addtocart","guest_user_id":"b17c7996c9ed4b78","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-05 13:37:16
+{"method":"addtocart","guest_user_id":"b17c7996c9ed4b78","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,13 @@
+
+ Request - 2021-12-04 13:38:26
+{"method":"getCityIdByAddressOrLatLng","address":"91 Lower Churchill Dr, Gulu, Uganda","lat":"2.7813243","lng":"32.3006027"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"91 Lower Churchill Dr, Gulu, Uganda"}}
+ Request - 2021-12-04 14:30:14
+{"method":"getCityIdByAddressOrLatLng","address":"A701, Côte d'Ivoire","lat":"6.5484633","lng":"-7.8719899"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G4XH+96 Banhiei, C\u00f4te d'Ivoire"}}
+ Request - 2021-12-04 17:13:05
+{"method":"getCityIdByAddressOrLatLng","address":"V5XJ+G56, Tiassalé, Côte d'Ivoire","lat":"5.8992316","lng":"-4.8182064"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V5XJ+MP Tiassale, C\u00f4te d'Ivoire"}}

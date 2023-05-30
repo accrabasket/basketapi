@@ -1,0 +1,41 @@
+
+ Request - 2021-10-12 14:13:50
+{"method":"getitemintocart","guest_user_id":"4b18ab3d3daa849e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-12 15:47:25
+{"method":"getitemintocart","guest_user_id":"0984ada958623866"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-12 18:14:26
+{"method":"getitemintocart","guest_user_id":"aaf5286db31b2df2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-12 19:28:27
+{"method":"getitemintocart","guest_user_id":"79f032c76422b738"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-12 20:01:18
+{"method":"getitemintocart","guest_user_id":"f50abe85d5f104a3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-12 20:03:15
+{"method":"getitemintocart","guest_user_id":"f50abe85d5f104a3"}
+ Response :- 
+{"status":"success","data":{"2517":{"id":17552,"user_id":0,"guest_user_id":"f50abe85d5f104a3","merchant_inventry_id":2517,"item_name":"Clean & Shave (Gift Hampers)","number_of_item":1,"created_date":"2021-10-12 20:03:14"}},"productDetails":{"status":"success","data":{"2517":{"id":2517,"price":"280.00","product_id":2876,"merchant_id":4,"store_id":4,"merchant_product_code":"HAMP08","product_name":"Clean & Shave ","product_desc":"Get a clean and shave  delightful scent  gifts for him to show your love . Leave that man smelling absolutely fantastic fresh with signature scents  ","default_discount_type":"","default_discount_value":"0","category_id":114,"custom_info":"{\"Details\":\"Total No. of Items in the Hamper : 14\\r\\n-- DRY IMPACT - ANTI-PERSPIRANT DEODORANT:50ml x2\\r\\n-- IRRESISTIBLY SMOOTH - BODY LOTION (NIVEA):400ml x1   \\r\\n-- MEN COOL KICK - ANTI-PERSPIRANT DEODORANT :50ml x 2 \\r\\n-- MEN COOL KICK - SHOWER GEL (NIVEA) :500ml x 1  \\r\\n-- MEN ENERGY - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SENSITIVE - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SILVER PROTECT - ANTI-PERSPIRANT :50ml x2  \\r\\n-- PROTECT & CARE - SHAVING FOAM (NIVEA) :200ml x1\\r\\n-- SENSITIVE POST SHAVE BALM (NIVEA) :100ml x1   \\r\\n-- RICH NOURISHING - BODY LOTION (NIVEA):250ml x1  \\r\\n-- SOFT - LIGHT MOISTURISER (NIVEA) :200ml x1\"}","brand_name":"Gift hamper","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"pcs","quantity":1,"tax_value":"3"}},"productImageData":{"2876":[{"id":3514,"type":"product","image_id":2876,"image_name":"clean_shave_hamper.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-12 20:03:18
+{"method":"getitemintocart","guest_user_id":"f50abe85d5f104a3"}
+ Response :- 
+{"status":"success","data":{"2517":{"id":17552,"user_id":0,"guest_user_id":"f50abe85d5f104a3","merchant_inventry_id":2517,"item_name":"Clean & Shave (Gift Hampers)","number_of_item":1,"created_date":"2021-10-12 20:03:14"}},"productDetails":{"status":"success","data":{"2517":{"id":2517,"price":"280.00","product_id":2876,"merchant_id":4,"store_id":4,"merchant_product_code":"HAMP08","product_name":"Clean & Shave ","product_desc":"Get a clean and shave  delightful scent  gifts for him to show your love . Leave that man smelling absolutely fantastic fresh with signature scents  ","default_discount_type":"","default_discount_value":"0","category_id":114,"custom_info":"{\"Details\":\"Total No. of Items in the Hamper : 14\\r\\n-- DRY IMPACT - ANTI-PERSPIRANT DEODORANT:50ml x2\\r\\n-- IRRESISTIBLY SMOOTH - BODY LOTION (NIVEA):400ml x1   \\r\\n-- MEN COOL KICK - ANTI-PERSPIRANT DEODORANT :50ml x 2 \\r\\n-- MEN COOL KICK - SHOWER GEL (NIVEA) :500ml x 1  \\r\\n-- MEN ENERGY - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SENSITIVE - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SILVER PROTECT - ANTI-PERSPIRANT :50ml x2  \\r\\n-- PROTECT & CARE - SHAVING FOAM (NIVEA) :200ml x1\\r\\n-- SENSITIVE POST SHAVE BALM (NIVEA) :100ml x1   \\r\\n-- RICH NOURISHING - BODY LOTION (NIVEA):250ml x1  \\r\\n-- SOFT - LIGHT MOISTURISER (NIVEA) :200ml x1\"}","brand_name":"Gift hamper","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"pcs","quantity":1,"tax_value":"3"}},"productImageData":{"2876":[{"id":3514,"type":"product","image_id":2876,"image_name":"clean_shave_hamper.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-10-12 21:37:36
+{"method":"getitemintocart","guest_user_id":"d8c78c0dc8e7ef52"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-10-12 21:38:48
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-10-12 21:38:55
+{"method":"getitemintocart","guest_user_id":"d8c78c0dc8e7ef52"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

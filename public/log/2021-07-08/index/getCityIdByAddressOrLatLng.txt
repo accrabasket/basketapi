@@ -1,0 +1,5 @@
+
+ Request - 2021-07-08 20:46:01
+{"method":"getCityIdByAddressOrLatLng","address":"Cameroun","lat":"7.369721999999999","lng":"12.354722"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Molyko Opposite Burj Khalifa, Cameroon"}}

@@ -1,0 +1,5 @@
+
+ Request - 2021-09-18 17:30:35
+{"start_date":"2021-09-18","end_date":"2021-09-18","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-09-18":{"count":13,"created_date":"2021-09-18"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

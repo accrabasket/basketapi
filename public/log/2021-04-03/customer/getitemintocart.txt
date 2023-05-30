@@ -1,0 +1,133 @@
+
+ Request - 2021-04-03 05:50:12
+{"method":"getitemintocart","guest_user_id":"d1cc322dc2cef56d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 07:12:31
+{"method":"getitemintocart","guest_user_id":"d1cc322dc2cef56d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 07:28:15
+{"method":"getitemintocart","guest_user_id":"439e921bb1ac31c1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 08:05:44
+{"method":"getitemintocart","guest_user_id":"8b4fae571b20a415"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 08:35:16
+{"method":"getitemintocart","guest_user_id":"439e921bb1ac31c1"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 12:03:13
+{"method":"getitemintocart","guest_user_id":"d81ba9b45da0f93d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 12:47:21
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 13:16:52
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-03 13:26:41
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-03 13:28:51
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-04-03 13:52:27
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 14:00:01
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 14:00:39
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:02:50
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":4,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:03:25
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":4,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:03:42
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:03:43
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:16:49
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:21:40
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:34:22
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:45:08
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 14:45:09
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 15:58:53
+{"method":"getitemintocart","guest_user_id":"506f41978706ab3e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 16:00:09
+{"method":"getitemintocart","guest_user_id":"506f41978706ab3e"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-04-03 17:25:42
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 17:25:47
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 17:36:18
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 17:40:03
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 17:40:03
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 17:47:32
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 17:47:42
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 20:48:19
+{"method":"getitemintocart","guest_user_id":"7f1fb89622e2ebd8"}
+ Response :- 
+{"status":"success","data":{"3110":{"id":13822,"user_id":0,"guest_user_id":"7f1fb89622e2ebd8","merchant_inventry_id":3110,"item_name":"FULL CHICKEN(FULL CHICKEN)","number_of_item":2,"created_date":"2021-04-03 14:00:34"}},"productDetails":{"status":"success","data":{"3110":{"id":3110,"price":"20.00","product_id":3541,"merchant_id":9,"store_id":13,"merchant_product_code":null,"product_name":"FULL CHICKEN","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":125,"custom_info":"","brand_name":"HOLLAND","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":500,"tax_value":"3"}},"productImageData":{"3541":[{"id":4281,"type":"product","image_id":3541,"image_name":"Full chicken.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-04-03 23:16:55
+{"method":"getitemintocart","guest_user_id":"469cb6f9360ba855"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

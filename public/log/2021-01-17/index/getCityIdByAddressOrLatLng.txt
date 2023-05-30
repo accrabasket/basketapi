@@ -1,0 +1,17 @@
+
+ Request - 2021-01-17 06:05:15
+{"method":"getCityIdByAddressOrLatLng","address":"Kotoku Station Main Rd, Medie, Ghana","lat":"5.7580991","lng":"-0.3303024"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kotoku Station Main Rd, Medie, Ghana"}}
+ Request - 2021-01-17 09:41:41
+{"method":"getCityIdByAddressOrLatLng","address":"202 N8, Foso, Ghana","lat":"5.7045732","lng":"-1.2854571"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"202 N8, Foso, Ghana"}}
+ Request - 2021-01-17 12:47:11
+{"method":"getCityIdByAddressOrLatLng","address":"Thangeval Nagar Bus Stop, Indirani Nagar, Varadharajapuram, Tamil Nadu 600048, India","lat":"12.8946023","lng":"80.0604362"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Thangeval Nagar Bus Stop, Indirani Nagar, Varadharajapuram, Tamil Nadu 600048, India"}}
+ Request - 2021-01-17 14:58:19
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bobo-Dioulasso, Burkina Faso","lat":"11.1710994","lng":"-4.2306121"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bobo-Dioulasso, Burkina Faso"}}

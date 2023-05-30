@@ -1,0 +1,13 @@
+
+ Request - 2022-05-06 03:03:50
+{"method":"addtocart","guest_user_id":"f06903d8c9761380","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-06 03:04:04
+{"method":"addtocart","guest_user_id":"f06903d8c9761380","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-05-06 13:27:11
+{"method":"addtocart","guest_user_id":"cbd382636939d775","number_of_item":"1","merchant_inventry_id":"608","action":"add","item_name":"2in1 Summer Sensations - Handwash Washing Powder(2 in 1 Summer Sensations - Handwash Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

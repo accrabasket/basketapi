@@ -1,0 +1,33 @@
+
+ Request - 2022-03-23 07:19:06
+{"method":"addtocart","guest_user_id":"32219cd329102e9a","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 07:19:11
+{"method":"addtocart","guest_user_id":"32219cd329102e9a","number_of_item":"1","merchant_inventry_id":"210","action":"add","item_name":"Baked Beans in Tomato Sauce(Baked Beans in Tomato Sauce)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 07:19:18
+{"method":"addtocart","guest_user_id":"32219cd329102e9a","number_of_item":"1","merchant_inventry_id":"217","action":"add","item_name":"Black Salt(Black Salt)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 07:19:21
+{"method":"addtocart","guest_user_id":"32219cd329102e9a","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 07:19:25
+{"method":"addtocart","guest_user_id":"32219cd329102e9a","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 07:19:35
+{"method":"addtocart","guest_user_id":"32219cd329102e9a","number_of_item":"1","merchant_inventry_id":"843","action":"add","item_name":"Maize(Maize)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 11:50:51
+{"method":"addtocart","guest_user_id":"2e444c2e28b8bef4","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-03-23 11:50:53
+{"method":"addtocart","guest_user_id":"2e444c2e28b8bef4","number_of_item":"1","merchant_inventry_id":"288","action":"add","item_name":"Masala Tea(Masala Tea)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

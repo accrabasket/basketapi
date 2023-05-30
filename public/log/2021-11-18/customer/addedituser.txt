@@ -1,0 +1,5 @@
+
+ Request - 2021-11-18 12:54:52
+{"method":"addedituser","city_id":"1","password":"20031997","name":"Rahul Kumar soni","email":"rk3331768@gmail.com","mobile_number":"7654724950","country_code":"+233","id":"0","fcm_reg_id":"c-TFc0Gn4is:APA91bHM-mQKax9gBFB7XQ7LVm6lJ9eysmHyoZCkR0yuzV-n-Nv8DSTCVmBV5kkx5C1exxxbWzBXMOzxxeYlgEfn0-t6lD8QerMr4CcPPRDDrMDX2TAZ4v_z0nLZxhqzFT9Rf6Q0ievz"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2337654724950 and registered email id.","data":{"6098":{"id":6098,"name":"Rahul Kumar soni","mobile_number":"7654724950","email":"rk3331768@gmail.com","key":"a596dcb93007966b6edd8729172281b3","password":"6ff58ca5942cd6641d555a36f1ff6699","fcm_reg_id":"c-TFc0Gn4is:APA91bHM-mQKax9gBFB7XQ7LVm6lJ9eysmHyoZCkR0yuzV-n-Nv8DSTCVmBV5kkx5C1exxxbWzBXMOzxxeYlgEfn0-t6lD8QerMr4CcPPRDDrMDX2TAZ4v_z0nLZxhqzFT9Rf6Q0ievz","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-11-18 12:54:52","updated_date":"2021-11-18 12:54:52","status":"1"}}}

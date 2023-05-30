@@ -1,0 +1,13 @@
+
+ Request - 2022-09-15 08:21:03
+{"method":"addtocart","guest_user_id":"9fe00eda737682a7","number_of_item":"1","merchant_inventry_id":"525","action":"add","item_name":"Chardonnay Wine(Chardonnay Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-15 08:21:08
+{"method":"addtocart","guest_user_id":"9fe00eda737682a7","number_of_item":"1","merchant_inventry_id":"525","action":"add","item_name":"Chardonnay Wine(Chardonnay Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-09-15 08:21:10
+{"method":"addtocart","guest_user_id":"9fe00eda737682a7","number_of_item":"1","merchant_inventry_id":"525","action":"delete","item_name":"Chardonnay Wine(Chardonnay Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,25 @@
+
+ Request - 2021-06-23 04:47:33
+{"method":"addtocart","guest_user_id":"546e6fc3fea58755","number_of_item":"1","merchant_inventry_id":"774","action":"add","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-23 04:49:14
+{"method":"addtocart","guest_user_id":"546e6fc3fea58755","number_of_item":"1","merchant_inventry_id":"774","action":"delete","item_name":"La Vache qui rit - Cheese(La Vache qui rit - Cheese)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-23 04:49:29
+{"method":"addtocart","guest_user_id":"546e6fc3fea58755","number_of_item":"1","merchant_inventry_id":"1668","action":"add","item_name":"Coconut Milk(Coconut Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-23 04:49:32
+{"method":"addtocart","guest_user_id":"546e6fc3fea58755","number_of_item":"1","merchant_inventry_id":"1668","action":"add","item_name":"Coconut Milk(Coconut Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-23 04:49:40
+{"method":"addtocart","guest_user_id":"546e6fc3fea58755","number_of_item":"1","merchant_inventry_id":"1957","action":"add","item_name":"Flavoured Yoghurt - Pineapple(Flavoured Yoghurt - Pineapple)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-06-23 04:49:56
+{"method":"addtocart","guest_user_id":"546e6fc3fea58755","number_of_item":"1","merchant_inventry_id":"1798","action":"add","item_name":"Chocolate Flavour Soya Milk(Chocolate Flavour Soya Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

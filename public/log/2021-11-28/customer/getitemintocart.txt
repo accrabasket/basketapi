@@ -1,0 +1,77 @@
+
+ Request - 2021-11-28 00:32:51
+{"method":"getitemintocart","guest_user_id":"fde3ec7d829029f0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 08:01:37
+{"method":"getitemintocart","guest_user_id":"368efe93a97cc65f"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 08:45:31
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 08:50:26
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"success","data":{"1502":{"id":18478,"user_id":0,"guest_user_id":"9cc5e9daba9566a7","merchant_inventry_id":1502,"item_name":"Original Coffee Candy(Original Coffee Candy)","number_of_item":1,"created_date":"2021-11-28 08:50:26"}},"productDetails":{"status":"success","data":{"1502":{"id":1502,"price":"4.99","product_id":1835,"merchant_id":4,"store_id":4,"merchant_product_code":"22279","product_name":"Original Coffee Candy","product_desc":"Kopiko candy from the real coffee extract to keeps you awake. Real pocket coffee anytime, anywhere.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Kopiko","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":150,"tax_value":"3"}},"productImageData":{"1835":[{"id":1943,"type":"product","image_id":1835,"image_name":"22279.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 08:52:22
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"success","data":{"1502":{"id":18478,"user_id":0,"guest_user_id":"9cc5e9daba9566a7","merchant_inventry_id":1502,"item_name":"Original Coffee Candy(Original Coffee Candy)","number_of_item":1,"created_date":"2021-11-28 08:50:26"}},"productDetails":{"status":"success","data":{"1502":{"id":1502,"price":"4.99","product_id":1835,"merchant_id":4,"store_id":4,"merchant_product_code":"22279","product_name":"Original Coffee Candy","product_desc":"Kopiko candy from the real coffee extract to keeps you awake. Real pocket coffee anytime, anywhere.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Kopiko","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":150,"tax_value":"3"}},"productImageData":{"1835":[{"id":1943,"type":"product","image_id":1835,"image_name":"22279.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 08:52:44
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"success","data":{"1502":{"id":18478,"user_id":0,"guest_user_id":"9cc5e9daba9566a7","merchant_inventry_id":1502,"item_name":"Original Coffee Candy(Original Coffee Candy)","number_of_item":1,"created_date":"2021-11-28 08:50:26"}},"productDetails":{"status":"success","data":{"1502":{"id":1502,"price":"4.99","product_id":1835,"merchant_id":4,"store_id":4,"merchant_product_code":"22279","product_name":"Original Coffee Candy","product_desc":"Kopiko candy from the real coffee extract to keeps you awake. Real pocket coffee anytime, anywhere.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Kopiko","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":150,"tax_value":"3"}},"productImageData":{"1835":[{"id":1943,"type":"product","image_id":1835,"image_name":"22279.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 08:53:41
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"success","data":{"1502":{"id":18478,"user_id":0,"guest_user_id":"9cc5e9daba9566a7","merchant_inventry_id":1502,"item_name":"Original Coffee Candy(Original Coffee Candy)","number_of_item":1,"created_date":"2021-11-28 08:50:26"}},"productDetails":{"status":"success","data":{"1502":{"id":1502,"price":"4.99","product_id":1835,"merchant_id":4,"store_id":4,"merchant_product_code":"22279","product_name":"Original Coffee Candy","product_desc":"Kopiko candy from the real coffee extract to keeps you awake. Real pocket coffee anytime, anywhere.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Kopiko","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":150,"tax_value":"3"}},"productImageData":{"1835":[{"id":1943,"type":"product","image_id":1835,"image_name":"22279.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 08:54:10
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"success","data":{"1502":{"id":18478,"user_id":0,"guest_user_id":"9cc5e9daba9566a7","merchant_inventry_id":1502,"item_name":"Original Coffee Candy(Original Coffee Candy)","number_of_item":1,"created_date":"2021-11-28 08:50:26"}},"productDetails":{"status":"success","data":{"1502":{"id":1502,"price":"4.99","product_id":1835,"merchant_id":4,"store_id":4,"merchant_product_code":"22279","product_name":"Original Coffee Candy","product_desc":"Kopiko candy from the real coffee extract to keeps you awake. Real pocket coffee anytime, anywhere.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Kopiko","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":150,"tax_value":"3"}},"productImageData":{"1835":[{"id":1943,"type":"product","image_id":1835,"image_name":"22279.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 08:54:44
+{"method":"getitemintocart","guest_user_id":"9cc5e9daba9566a7"}
+ Response :- 
+{"status":"success","data":{"1502":{"id":18478,"user_id":0,"guest_user_id":"9cc5e9daba9566a7","merchant_inventry_id":1502,"item_name":"Original Coffee Candy(Original Coffee Candy)","number_of_item":1,"created_date":"2021-11-28 08:50:26"}},"productDetails":{"status":"success","data":{"1502":{"id":1502,"price":"4.99","product_id":1835,"merchant_id":4,"store_id":4,"merchant_product_code":"22279","product_name":"Original Coffee Candy","product_desc":"Kopiko candy from the real coffee extract to keeps you awake. Real pocket coffee anytime, anywhere.","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"","brand_name":"Kopiko","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":150,"tax_value":"3"}},"productImageData":{"1835":[{"id":1943,"type":"product","image_id":1835,"image_name":"22279.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 08:56:53
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2021-11-28 11:50:05
+{"method":"getitemintocart","guest_user_id":"fde3ec7d829029f0"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 12:26:28
+{"method":"getitemintocart","guest_user_id":"b6c6d3f8c27b7ff0"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17823,"user_id":0,"guest_user_id":"b6c6d3f8c27b7ff0","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-10-31 20:53:38"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 13:50:31
+{"method":"getitemintocart","guest_user_id":"f9bdb3f682132c7b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 15:57:12
+{"method":"getitemintocart","guest_user_id":"976007ef02aea8fd"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 15:57:58
+{"method":"getitemintocart","guest_user_id":"976007ef02aea8fd"}
+ Response :- 
+{"status":"success","data":{"487":{"id":18479,"user_id":0,"guest_user_id":"976007ef02aea8fd","merchant_inventry_id":487,"item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)","number_of_item":1,"created_date":"2021-11-28 15:57:57"}},"productDetails":{"status":"success","data":{"487":{"id":487,"price":"3.29","product_id":771,"merchant_id":4,"store_id":4,"merchant_product_code":"X807   ","product_name":"Sprite Can - Soft Drink","product_desc":"SPRITE A 'CLEAR LIME' DRINK Since its launch is 1999, Sprite has not only established itself as a brand which successfully boasts it's 'cut-thru' perspective with an authentic, edgy, irreverent, urban and straight forward style, but has also achieved status of an undisputed youth 'badge' brand. Today Sprite is one of the top two sparkling soft drinks in the country.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Citric Acid, Sweeteners (Acesulfame K, Aspartame), Acidity Regulator (Sodium Citrate), Natural Lemon And Lime Flavourings\"}","brand_name":"Coca-Cola","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"771":[{"id":2779,"type":"product","image_id":771,"image_name":"X807.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 15:58:43
+{"method":"getitemintocart","guest_user_id":"976007ef02aea8fd"}
+ Response :- 
+{"status":"success","data":{"487":{"id":18479,"user_id":0,"guest_user_id":"976007ef02aea8fd","merchant_inventry_id":487,"item_name":"Sprite Can - Soft Drink(Sprite Can - Soft Drink)","number_of_item":1,"created_date":"2021-11-28 15:57:57"}},"productDetails":{"status":"success","data":{"487":{"id":487,"price":"3.29","product_id":771,"merchant_id":4,"store_id":4,"merchant_product_code":"X807   ","product_name":"Sprite Can - Soft Drink","product_desc":"SPRITE A 'CLEAR LIME' DRINK Since its launch is 1999, Sprite has not only established itself as a brand which successfully boasts it's 'cut-thru' perspective with an authentic, edgy, irreverent, urban and straight forward style, but has also achieved status of an undisputed youth 'badge' brand. Today Sprite is one of the top two sparkling soft drinks in the country.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Citric Acid, Sweeteners (Acesulfame K, Aspartame), Acidity Regulator (Sodium Citrate), Natural Lemon And Lime Flavourings\"}","brand_name":"Coca-Cola","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"}},"productImageData":{"771":[{"id":2779,"type":"product","image_id":771,"image_name":"X807.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-28 17:16:28
+{"method":"getitemintocart","guest_user_id":"5ee3597355aefc85"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 17:16:29
+{"method":"getitemintocart","guest_user_id":"5ee3597355aefc85"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-28 18:15:35
+{"method":"getitemintocart","guest_user_id":"fb447ebc83470a19"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

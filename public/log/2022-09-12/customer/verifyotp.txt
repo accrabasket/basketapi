@@ -1,0 +1,5 @@
+
+ Request - 2022-09-12 09:54:38
+{"method":"verifyotp","country_code":"+233","mobile_number":"244135805","otp_type":"register","otp":"4946"}
+ Response :- 
+{"status":"success","msg":"Otp verify","data":{"auth_key":"a2a1de2af0d550a4ee9375106e50c9a7"}}

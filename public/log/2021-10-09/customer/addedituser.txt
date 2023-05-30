@@ -1,0 +1,5 @@
+
+ Request - 2021-10-09 06:08:26
+{"method":"addedituser","city_id":"1","password":"lody2021?","name":"Flora Hammond ","email":"hammondflora100@gmail.com","mobile_number":"0241293008","country_code":"+233","id":"0","fcm_reg_id":"dC-QdNAgacc:APA91bGCzS9Pat5eBQ296JqukvMcq9jUCOqTY_vxgogpOOrvO8CtOFMIuQdM-5--v2sJeEb3-9KRhH9SZwsZuiQ7SpPkznuzWDCEEWfhLPudtjMRtyPYD52wnr1DD8Z0VJXQqXm19-sb"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233241293008 and registered email id.","data":{"5074":{"id":5074,"name":"Flora Hammond ","mobile_number":"241293008","email":"hammondflora100@gmail.com","key":"8d5b9936e535a35b93cbffe09716447f","password":"31a81b1b42624188fc60b96653b69ef6","fcm_reg_id":"dC-QdNAgacc:APA91bGCzS9Pat5eBQ296JqukvMcq9jUCOqTY_vxgogpOOrvO8CtOFMIuQdM-5--v2sJeEb3-9KRhH9SZwsZuiQ7SpPkznuzWDCEEWfhLPudtjMRtyPYD52wnr1DD8Z0VJXQqXm19-sb","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-10-09 06:08:26","updated_date":"2021-10-09 06:08:26","status":"1"}}}

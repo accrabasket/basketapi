@@ -1,0 +1,37 @@
+
+ Request - 2022-04-04 01:58:06
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bangladesh","lat":"23.9045695","lng":"90.2901518"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"W73R+R3 Gazirchat, Bangladesh"}}
+ Request - 2022-04-04 06:35:15
+{"method":"getCityIdByAddressOrLatLng","address":"73VQ+GQJ, Ratan Pur, Uttar Pradesh 228118, India","lat":"26.293646","lng":"82.0888648"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"73VQ+GQJ, Ratan Pur, Uttar Pradesh 228118, India"}}
+ Request - 2022-04-04 06:35:38
+{"method":"getCityIdByAddressOrLatLng","address":"73VQ+GQJ, Ratan Pur, Uttar Pradesh 228118, India","lat":"26.293646","lng":"82.0888648"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"73VQ+GQJ, Ratan Pur, Uttar Pradesh 228118, India"}}
+ Request - 2022-04-04 11:31:10
+{"method":"getCityIdByAddressOrLatLng","address":"5MCJ+867, Krajan, Ketindan, Kec. Lawang, Kabupaten Malang, Jawa Timur 65214, Indonesia","lat":"-7.829153","lng":"112.6805548"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"5MCJ+867, Krajan, Ketindan, Kec. Lawang, Kabupaten Malang, Jawa Timur 65214, Indonesia"}}
+ Request - 2022-04-04 14:10:09
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road 86645, البياطرية، أحد المسارحة 86641، السعودية","lat":"16.7215799","lng":"42.9828558"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road 86645, \u0627\u0644\u0628\u064a\u0627\u0637\u0631\u064a\u0629\u060c \u0623\u062d\u062f \u0627\u0644\u0645\u0633\u0627\u0631\u062d\u0629 86641, Saudi Arabia"}}
+ Request - 2022-04-04 14:41:44
+{"method":"getCityIdByAddressOrLatLng","address":"Shop no. D1\/33,Gali no. 1 Behind M.I.G flats East of loni road chitrakoot, gokalpur Shahdara delhi, West Jyoti Nagar, Ashok Nagar, Shahdara, Delhi, 110093, India","lat":"28.6985794","lng":"77.2957396"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Shop no. D1\/33,Gali no. 1 Behind M.I.G flats East of loni road chitrakoot, gokalpur Shahdara delhi, West Jyoti Nagar, Ashok Nagar, Shahdara, Delhi, 110093, India"}}
+ Request - 2022-04-04 19:15:46
+{"method":"getCityIdByAddressOrLatLng","address":"Jesus Ave, 322101, Umusedeli, Nigeria","lat":"5.7006098","lng":"6.4248751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PC2F+6X Umusedeli, Nigeria"}}
+ Request - 2022-04-04 21:35:58
+{"method":"getCityIdByAddressOrLatLng","address":"حلوان القبلية، قسم حلوان،، حلوان القبلية، قسم حلوان، محافظة القاهرة‬،، حلوان القبلية، قسم حلوان، محافظة القاهرة‬، مصر","lat":"29.825676","lng":"31.3517939"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u062d\u0644\u0648\u0627\u0646 \u0627\u0644\u0642\u0628\u0644\u064a\u0629\u060c \u0642\u0633\u0645 \u062d\u0644\u0648\u0627\u0646\u060c\u060c \u062d\u0644\u0648\u0627\u0646 \u0627\u0644\u0642\u0628\u0644\u064a\u0629\u060c \u0642\u0633\u0645 \u062d\u0644\u0648\u0627\u0646\u060c \u0645\u062d\u0627\u0641\u0638\u0629 \u0627\u0644\u0642\u0627\u0647\u0631\u0629\u202c\u060c\u060c Helwan El Qebleya, Helwan, Cairo Governorate, Egypt"}}
+ Request - 2022-04-04 23:40:11
+{"method":"getCityIdByAddressOrLatLng","address":"2XQ3+3GG, Fès, Maroc","lat":"34.0373812","lng":"-5.0462427"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2XQ3+3GG, Fes, Morocco"}}

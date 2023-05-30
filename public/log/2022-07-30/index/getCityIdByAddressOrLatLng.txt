@@ -1,0 +1,17 @@
+
+ Request - 2022-07-30 00:23:12
+{"method":"getCityIdByAddressOrLatLng","address":"Masiaka-Yonibana Highway, Sierra Leone","lat":"8.4860232","lng":"-12.7819387"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F6P9+C6 Masiaka, Sierra Leone"}}
+ Request - 2022-07-30 10:45:20
+{"method":"getCityIdByAddressOrLatLng","address":"HPX6+F43، راس سدر، جنوب سيناء،، راس سدر، جنوب سيناء 8745373، مصر","lat":"29.5992664","lng":"32.711992"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"HPX6+F43\u060c \u0631\u0627\u0633 \u0633\u062f\u0631\u060c \u062c\u0646\u0648\u0628 \u0633\u064a\u0646\u0627\u0621\u060c\u060c Ras Sidr, South Sinai Governorate 8745373, Egypt"}}
+ Request - 2022-07-30 20:24:07
+{"method":"getCityIdByAddressOrLatLng","address":"26-railway road near hamza centre gawalmandi lahore, Gawalmandi, Lahore, Punjab 54000, Pakistan","lat":"31.572264","lng":"74.3210346"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"26-railway road near hamza centre gawalmandi lahore, Gawalmandi, Lahore, Punjab 54000, Pakistan"}}
+ Request - 2022-07-30 20:42:30
+{"method":"getCityIdByAddressOrLatLng","address":"93 Oyoh Road Ebrumede, Effurun, Okuokoko 330102, Warri, Nigeria","lat":"5.5701722","lng":"5.8126928"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"93 Oyoh Road Ebrumede, Effurun, Okuokoko 330102, Warri, Nigeria"}}

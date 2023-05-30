@@ -1,0 +1,17 @@
+
+ Request - 2021-11-06 15:53:14
+{"method":"getCityIdByAddressOrLatLng","address":"54 Mfantse St, Takoradi, Ghana","lat":"4.9300111","lng":"-1.7628573"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"54 Mfantse St, Takoradi, Ghana"}}
+ Request - 2021-11-06 16:52:34
+{"method":"getCityIdByAddressOrLatLng","address":"Hanuman Mandir, Mukti ,Taq, Mukti, Maharashtra 424301, India","lat":"20.8715747","lng":"74.9433224"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Hanuman Mandir, Mukti ,Taq, Mukti, Maharashtra 424301, India"}}
+ Request - 2021-11-06 16:55:24
+{"method":"getCityIdByAddressOrLatLng","address":"32 Baale Rd, Ijegun 102213, Ije Ododo, Nigeria","lat":"6.4997492","lng":"3.2519197"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"32 Baale Rd, Ijegun 102213, Lagos, Nigeria"}}
+ Request - 2021-11-06 19:40:51
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, République démocratique du Congo","lat":"-4.8524388","lng":"28.7433045"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4PXV+28 Kigulu-Mabwe, Democratic Republic of the Congo"}}

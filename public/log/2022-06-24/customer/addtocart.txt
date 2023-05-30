@@ -1,0 +1,21 @@
+
+ Request - 2022-06-24 05:45:10
+{"method":"addtocart","guest_user_id":"3a63a4a05bd795f5","number_of_item":"1","merchant_inventry_id":"472","action":"add","item_name":"Pineapple Vodka(Pineapple Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-24 05:45:10
+{"method":"addtocart","guest_user_id":"3a63a4a05bd795f5","number_of_item":"1","merchant_inventry_id":"472","action":"delete","item_name":"Pineapple Vodka(Pineapple Vodka)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-24 19:16:00
+{"method":"addtocart","guest_user_id":"f6ec8ee2a7531161","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-24 19:16:18
+{"method":"addtocart","guest_user_id":"f6ec8ee2a7531161","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-24 19:16:22
+{"method":"addtocart","guest_user_id":"f6ec8ee2a7531161","number_of_item":"1","merchant_inventry_id":"3452","action":"add","item_name":"Peach Shampoo(Peach Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

@@ -1,0 +1,13 @@
+
+ Request - 2021-01-27 03:54:34
+{"method":"getCityIdByAddressOrLatLng","address":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana","lat":"5.7217982","lng":"-0.1553779"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana"}}
+ Request - 2021-01-27 03:54:37
+{"method":"getCityIdByAddressOrLatLng","address":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana","lat":"5.7217982","lng":"-0.1553779"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Mensah Kwao Osantro Rd, Adenta Municipality, Ghana"}}
+ Request - 2021-01-27 05:38:20
+{"method":"getCityIdByAddressOrLatLng","address":"12 أحمد رمضان، الزاوية الحمراء، قسم الزاوية الحمراء، محافظة القاهرة‬، مصر","lat":"30.1036997","lng":"31.265845"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"12 Ahmed Ramadan, El-Zawya El-Hamraa, El Zawya El Hamra, Cairo Governorate, Egypt"}}

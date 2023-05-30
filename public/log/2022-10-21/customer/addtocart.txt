@@ -1,0 +1,37 @@
+
+ Request - 2022-10-21 16:33:07
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:33:11
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:33:13
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:34:06
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:34:53
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:34:57
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:35:32
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:40:01
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"207","action":"delete","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-10-21 16:41:55
+{"method":"addtocart","guest_user_id":"276330b72a6afc53","number_of_item":"1","merchant_inventry_id":"213","action":"add","item_name":"Black Cardamom(Black Cardamom)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

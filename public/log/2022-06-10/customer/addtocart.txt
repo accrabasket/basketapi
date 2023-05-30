@@ -1,0 +1,9 @@
+
+ Request - 2022-06-10 12:30:14
+{"method":"addtocart","guest_user_id":"0b4135bf8f2f2aa1","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-10 12:30:18
+{"method":"addtocart","guest_user_id":"0b4135bf8f2f2aa1","number_of_item":"1","merchant_inventry_id":"3459","action":"add","item_name":"Growing Up Milk(Growing Up Milk)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

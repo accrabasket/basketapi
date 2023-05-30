@@ -1,0 +1,21 @@
+
+ Request - 2021-05-29 08:40:01
+{"method":"getCityIdByAddressOrLatLng","address":"Sandikuna - Rentitola Rd, Bangladesh","lat":"24.7154451","lng":"90.7769042"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sandikuna - Rentitola Rd, Bangladesh"}}
+ Request - 2021-05-29 14:26:51
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Diourbel, Sénégal","lat":"14.6571914","lng":"-16.2170976"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Diourbel, Senegal"}}
+ Request - 2021-05-29 19:01:45
+{"method":"getCityIdByAddressOrLatLng","address":"Tuy, Burkina Faso","lat":"11.5322506","lng":"-3.5444263"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"D 40, Burkina Faso"}}
+ Request - 2021-05-29 19:05:11
+{"method":"getCityIdByAddressOrLatLng","address":"Pharma, Shashemene, Ethiopia","lat":"7.2097557","lng":"38.6029923"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Pharma, Shashemene, Ethiopia"}}
+ Request - 2021-05-29 19:13:45
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Babat - Jombang No.14, Dradah, Dradah Blumbang, Kedungpring, Kabupaten Lamongan, Jawa Timur 62272, Indonesia","lat":"-7.2227946","lng":"112.179721"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Babat - Jombang No.14, Dradah, Dradah Blumbang, Kedungpring, Kabupaten Lamongan, Jawa Timur 62272, Indonesia"}}

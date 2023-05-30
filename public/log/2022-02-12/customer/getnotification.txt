@@ -1,0 +1,161 @@
+
+ Request - 2022-02-12 04:26:13
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7032,"subject":"Order cancelled","msg":"Order order_m14_17 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-02-11 22:59:36","updated_date":null},{"id":7030,"subject":"Order placed","msg":"New Order order_m14_17 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-02-11 22:54:59","updated_date":null}],"totalRecord":2}
+ Request - 2022-02-12 04:26:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7032,"subject":"Order cancelled","msg":"Order order_m14_17 has been cancelled. \r\nreason-{{reason}}","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-02-11 22:59:36","updated_date":null},{"id":7030,"subject":"Order placed","msg":"New Order order_m14_17 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2022-02-11 22:54:59","updated_date":null}],"totalRecord":2}
+ Request - 2022-02-12 04:26:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:26:43
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:27:43
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:28:05
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:28:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:29:20
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:29:56
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:30:03
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:31:04
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:31:38
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:32:39
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:32:45
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:33:45
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:34:45
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:35:17
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:36:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:37:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:38:18
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:38:47
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:39:00
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7029,"subject":"Order placed","msg":"New Order order_m4_814 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-02-07 15:42:37","updated_date":null},{"id":7027,"subject":"Order placed","msg":"New Order order_m4_813 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-02-05 19:32:34","updated_date":null},{"id":7025,"subject":"Order placed","msg":"New Order order_m4_812 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-02-05 19:29:21","updated_date":null},{"id":7019,"subject":"Order placed","msg":"New Order order_m4_811 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-28 06:16:12","updated_date":null},{"id":7006,"subject":"Order placed","msg":"New Order order_m4_806 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-10 22:54:57","updated_date":null},{"id":6988,"subject":"Order placed","msg":"New Order order_P_296 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-12-18 09:39:38","updated_date":null},{"id":6985,"subject":"Order placed","msg":"New Order order_P_295 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-12-01 12:26:37","updated_date":null},{"id":6980,"subject":"Order placed","msg":"New Order order_m4_796 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-18 21:34:55","updated_date":null},{"id":6978,"subject":"Order placed","msg":"New Order order_m4_795 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-18 21:31:33","updated_date":null},{"id":6960,"subject":"Order placed","msg":"New Order order_m4_793 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-14 18:23:36","updated_date":null}],"totalRecord":65}
+ Request - 2022-02-12 04:39:13
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:39:13
+{"type":"admin","all_notification":"1","page":"1","method":"getnotification","user_type":"merchant","user_id":4,"pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7029,"subject":"Order placed","msg":"New Order order_m4_814 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-02-07 15:42:37","updated_date":"2022-02-12 04:39:05"},{"id":7027,"subject":"Order placed","msg":"New Order order_m4_813 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-02-05 19:32:34","updated_date":"2022-02-12 04:39:05"},{"id":7025,"subject":"Order placed","msg":"New Order order_m4_812 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-02-05 19:29:21","updated_date":"2022-02-12 04:39:05"},{"id":7019,"subject":"Order placed","msg":"New Order order_m4_811 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-28 06:16:12","updated_date":"2022-02-12 04:39:05"},{"id":7006,"subject":"Order placed","msg":"New Order order_m4_806 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-10 22:54:57","updated_date":"2022-02-12 04:39:05"},{"id":6988,"subject":"Order placed","msg":"New Order order_P_296 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-12-18 09:39:38","updated_date":"2022-02-12 04:39:05"},{"id":6985,"subject":"Order placed","msg":"New Order order_P_295 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-12-01 12:26:37","updated_date":"2022-02-12 04:39:05"},{"id":6980,"subject":"Order placed","msg":"New Order order_m4_796 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-18 21:34:55","updated_date":"2022-02-12 04:39:05"},{"id":6978,"subject":"Order placed","msg":"New Order order_m4_795 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-18 21:31:33","updated_date":"2022-02-12 04:39:05"},{"id":6960,"subject":"Order placed","msg":"New Order order_m4_793 has been placed.","response":"","user_id":4,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-14 18:23:36","updated_date":"2022-02-12 04:39:05"}],"totalRecord":1029}
+ Request - 2022-02-12 04:39:23
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7023,"subject":"Order placed","msg":"New Order order_m15_92 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-28 11:38:38","updated_date":null},{"id":7021,"subject":"Order placed","msg":"New Order order_m15_91 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-28 11:34:42","updated_date":null},{"id":7009,"subject":"Order placed","msg":"New Order order_P_304 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-11 21:03:08","updated_date":null},{"id":7004,"subject":"Order placed","msg":"New Order order_P_303 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-10 22:39:44","updated_date":null},{"id":6976,"subject":"Order placed","msg":"New Order order_m15_84 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-18 17:32:52","updated_date":null},{"id":6867,"subject":"Order placed","msg":"New Order order_m15_83 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-08 11:36:22","updated_date":null},{"id":6864,"subject":"Order placed","msg":"New Order order_P_291 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-02 14:51:50","updated_date":null},{"id":6852,"subject":"Order placed","msg":"New Order order_m15_81 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-11 12:44:14","updated_date":null}],"totalRecord":8}
+ Request - 2022-02-12 04:39:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:39:49
+{"type":"admin","all_notification":"1","page":"1","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":7023,"subject":"Order placed","msg":"New Order order_m15_92 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-28 11:38:38","updated_date":"2022-02-12 04:39:26"},{"id":7021,"subject":"Order placed","msg":"New Order order_m15_91 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-28 11:34:42","updated_date":"2022-02-12 04:39:26"},{"id":7009,"subject":"Order placed","msg":"New Order order_P_304 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-11 21:03:08","updated_date":"2022-02-12 04:39:26"},{"id":7004,"subject":"Order placed","msg":"New Order order_P_303 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2022-01-10 22:39:44","updated_date":"2022-02-12 04:39:26"},{"id":6976,"subject":"Order placed","msg":"New Order order_m15_84 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-18 17:32:52","updated_date":"2022-02-12 04:39:26"},{"id":6867,"subject":"Order placed","msg":"New Order order_m15_83 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-08 11:36:22","updated_date":"2022-02-12 04:39:26"},{"id":6864,"subject":"Order placed","msg":"New Order order_P_291 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-11-02 14:51:50","updated_date":"2022-02-12 04:39:26"},{"id":6852,"subject":"Order placed","msg":"New Order order_m15_81 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-11 12:44:14","updated_date":"2022-02-12 04:39:26"},{"id":6850,"subject":"Order placed","msg":"New Order order_m15_80 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-08 14:56:47","updated_date":"2021-10-11 06:04:54"},{"id":6848,"subject":"Order placed","msg":"New Order order_m15_79 has been placed.","response":"","user_id":11,"user_type":"merchant","notification_type":"mobile","status":"0","created_date":"2021-10-08 14:52:40","updated_date":"2021-10-11 06:04:54"}],"totalRecord":80}
+ Request - 2022-02-12 04:40:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:41:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:42:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:43:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:44:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:45:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:46:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:47:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:48:50
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:49:51
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:50:52
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 04:51:49
+{"type":"merchant","method":"getnotification","user_type":"merchant","user_id":11,"pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2022-02-12 16:58:25
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

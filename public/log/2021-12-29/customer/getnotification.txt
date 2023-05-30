@@ -1,0 +1,13 @@
+
+ Request - 2021-12-29 13:14:42
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[{"id":6996,"subject":"Order placed","msg":"New Order order_P_300 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-12-28 14:19:36","updated_date":null},{"id":6994,"subject":"Order placed","msg":"New Order order_P_299 has been placed.","response":"","user_id":0,"user_type":"admin","notification_type":"mobile","status":"0","created_date":"2021-12-28 02:45:52","updated_date":null}],"totalRecord":2}
+ Request - 2021-12-29 13:14:51
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}
+ Request - 2021-12-29 13:15:51
+{"type":"admin","method":"getnotification","user_type":"admin","pagination":1}
+ Response :- 
+{"status":"success","data":[],"totalRecord":0}

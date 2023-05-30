@@ -1,0 +1,37 @@
+
+ Request - 2022-09-30 20:03:39
+{"method":"addedituser","city_id":"1","password":"Famenla31","name":"OHPAR ","email":"oquashie@ymail.com","mobile_number":"54559956","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +23354559956 and registered email id.","data":{"8855":{"id":8855,"name":"OHPAR ","mobile_number":"54559956","email":"oquashie@ymail.com","key":"eab527e360d412d5e343ea7d5bc3e4bf","password":"9cf2701f3b1bf3b5b42dbe8d5b3aae82","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-09-30 20:03:39","updated_date":"2022-09-30 20:03:39","status":"1"}}}
+ Request - 2022-09-30 22:49:47
+{"method":"addedituser","city_id":"1","password":"Famenla31","name":"Ohpar ","email":"oquashie@ymail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:50:04
+{"method":"addedituser","city_id":"1","password":"Famenla31","name":"Ohpar Adzo Quashie ","email":"oquashie@ymail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:50:09
+{"method":"addedituser","city_id":"1","password":"Famenla31","name":"Ohpar Adzo Quashie ","email":"oquashie@ymail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:50:15
+{"method":"addedituser","city_id":"1","password":"Famenla31","name":"Ohpar Adzo Quashie ","email":"oquashie@ymail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:53:55
+{"method":"addedituser","city_id":"1","password":"Domani31","name":"OHPAR ADZO QUASHIE ","email":"adzo2745@gmail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:53:57
+{"method":"addedituser","city_id":"1","password":"Domani31","name":"OHPAR ADZO QUASHIE ","email":"adzo2745@gmail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:53:59
+{"method":"addedituser","city_id":"1","password":"Domani31","name":"OHPAR ADZO QUASHIE ","email":"adzo2745@gmail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}
+ Request - 2022-09-30 22:54:03
+{"method":"addedituser","city_id":"1","password":"Domani31","name":"OHPAR ADZO QUASHIE ","email":"adzo2745@gmail.com","mobile_number":"545599561","country_code":"+233","id":"0","fcm_reg_id":"fI_d4MB5_qE:APA91bF55esWjHud3sAaSjBDy83Xx_nF78YnFvi9WkHZ4iHOqrA_cwzINHvBEzkaM4kVSfsnNN1Zuo6IbuuEuBlEWx5IWbZ037bX1GGzMX-iSLU83C5xk9eHEzPFM83h3F9Wyd3iBlL3"}
+ Response :- 
+{"status":"fail","msg":"mobile number\/Email Already in use."}

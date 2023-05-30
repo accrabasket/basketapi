@@ -1,0 +1,17 @@
+
+ Request - 2022-02-03 01:44:57
+{"method":"getCityIdByAddressOrLatLng","address":"Tambacounda, Sénégal","lat":"14.2740376","lng":"-13.9900047"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"72F5+JX Gourel Samba Abou, Senegal"}}
+ Request - 2022-02-03 13:11:40
+{"method":"getCityIdByAddressOrLatLng","address":"D557, Zambia","lat":"-14.395287","lng":"23.2478195"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J63X+V4 Lukulu, Zambia"}}
+ Request - 2022-02-03 16:43:33
+{"method":"getCityIdByAddressOrLatLng","address":"3 حارة العفيفي، الأميرية الشمالية، قسم الزيتون، محافظة القاهرة‬، مصر","lat":"30.1136632","lng":"31.3025428"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3 Haret Al Afifi, Al Amireyah Ash Shamaleyah, Zeitoun, Cairo Governorate, Egypt"}}
+ Request - 2022-02-03 17:45:54
+{"method":"getCityIdByAddressOrLatLng","address":"Umer Park Rd, Imamia Colony Lahore, Sheikhupura, Punjab, Pakistan","lat":"31.6511912","lng":"74.269807"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M729+FW Ferozewala, Pakistan"}}

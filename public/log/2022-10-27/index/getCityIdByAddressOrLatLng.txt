@@ -1,0 +1,13 @@
+
+ Request - 2022-10-27 01:52:51
+{"method":"getCityIdByAddressOrLatLng","address":"7XRG+3JX, Kp. Bhakti, Kec. Babul Makmur, Kabupaten Aceh Tenggara, Aceh 24673, Indonesia","lat":"3.2903113","lng":"97.9767202"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7XRG+3JX, Kampung Bhakti, Babul Makmur, Southeast Aceh, Aceh 24673, Indonesia"}}
+ Request - 2022-10-27 03:23:26
+{"method":"getCityIdByAddressOrLatLng","address":"Carretera Morelia - Salamanca Km. 45.3, 58840 Cuitzeo Michoacán de Ocampo, Mich., Mexico","lat":"20.0701325","lng":"-101.1571349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3RCV+34 Cuaracurio, Mich., Mexico"}}
+ Request - 2022-10-27 21:34:08
+{"method":"getCityIdByAddressOrLatLng","address":"0000, Cochabamba, Bolivia","lat":"-17.3994075","lng":"-66.1573161"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"0000, Cochabamba, Bolivia"}}

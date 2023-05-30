@@ -1,0 +1,25 @@
+
+ Request - 2021-03-24 10:35:13
+{"method":"getaddresslist","user_id":"1444"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-24 10:35:33
+{"method":"getaddresslist","user_id":"1444"}
+ Response :- 
+{"status":"success","data":{"427":{"id":427,"user_id":1444,"address_nickname":"Accra ","contact_name":"aaaa","city_id":1,"city_name":"Accra, Ghana","house_number":"a22","street_detail":"Accra ","landmark":"Accra ","zipcode":"2634","area":"","lat":"5.6037168","lng":"","created_date":"2021-03-24 10:35:33","updated_date":"2021-03-24 10:35:33"}}}
+ Request - 2021-03-24 10:36:45
+{"method":"getaddresslist","user_id":"1444"}
+ Response :- 
+{"status":"success","data":{"427":{"id":427,"user_id":1444,"address_nickname":"Accra ","contact_name":"aaaa","city_id":1,"city_name":"Accra, Ghana","house_number":"a22","street_detail":"Accra ","landmark":"Accra ","zipcode":"2634","area":"","lat":"5.6037168","lng":"","created_date":"2021-03-24 10:35:33","updated_date":"2021-03-24 10:35:33"}}}
+ Request - 2021-03-24 12:58:21
+{"method":"getaddresslist","user_id":"2180"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-24 13:00:42
+{"method":"getaddresslist","user_id":"2180"}
+ Response :- 
+{"status":"fail","msg":"No record Found"}
+ Request - 2021-03-24 13:01:53
+{"method":"getaddresslist","user_id":"2180"}
+ Response :- 
+{"status":"success","data":{"428":{"id":428,"user_id":2180,"address_nickname":"shining beach","contact_name":"Shine","city_id":1,"city_name":"Unnamed Road, Accra, Ghana","house_number":"beach road","street_detail":"Coco Beach road","landmark":"sea","zipcode":"","area":"","lat":"5.5868299","lng":"","created_date":"2021-03-24 13:01:52","updated_date":"2021-03-24 13:01:52"}}}

@@ -1,0 +1,33 @@
+
+ Request - 2022-08-16 08:16:41
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:16:43
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:16:44
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:16:50
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:16:52
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"225","action":"delete","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:17:10
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:17:12
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"225","action":"add","item_name":"Chhole Masala(Chhole Masala)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-08-16 08:17:20
+{"method":"addtocart","guest_user_id":"18f1204b6573eb2e","number_of_item":"1","merchant_inventry_id":"215","action":"add","item_name":"Black Eye Beans(Black Eye Beans)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

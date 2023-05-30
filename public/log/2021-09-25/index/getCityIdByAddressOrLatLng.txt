@@ -1,0 +1,21 @@
+
+ Request - 2021-09-25 02:48:10
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Niamey, Niger","lat":"13.541572","lng":"2.1298055"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Niamey, Niger"}}
+ Request - 2021-09-25 03:10:16
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Serrekunda, The Gambia","lat":"13.4366325","lng":"-16.6692764"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Serrekunda, The Gambia"}}
+ Request - 2021-09-25 03:14:53
+{"method":"getCityIdByAddressOrLatLng","address":"PG39+JQ4, Ramgarh, Uttar Pradesh 206250, India","lat":"26.7039179","lng":"79.5194181"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PG39+JQ4, Ramgarh, Uttar Pradesh 206250, India"}}
+ Request - 2021-09-25 17:44:38
+{"method":"getCityIdByAddressOrLatLng","address":"المنية، لبنان","lat":"34.4640337","lng":"35.9138924"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Al Minieh, Lebanon"}}
+ Request - 2021-09-25 18:44:17
+{"method":"getCityIdByAddressOrLatLng","address":"NH 67, Toranagallu, Karnataka 583123, India","lat":"15.1942396","lng":"76.6851244"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"NH 67, Toranagallu, Karnataka 583123, India"}}

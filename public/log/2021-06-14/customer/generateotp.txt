@@ -1,0 +1,5 @@
+
+ Request - 2021-06-14 17:08:24
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"08136972689"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+23308136972689","otp_type":"register","user_id":"0","otp":5305,"expiry_date":"2021-06-14 17:23:24"}}

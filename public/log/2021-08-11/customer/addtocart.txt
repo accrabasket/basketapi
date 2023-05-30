@@ -1,0 +1,9 @@
+
+ Request - 2021-08-11 09:33:44
+{"method":"addtocart","guest_user_id":"e138414b741edcb1","number_of_item":"1","merchant_inventry_id":"3406","action":"add","item_name":"Pure Game Relaxing 3in1 Shower Gel(Pure Game Relaxing 3in1 Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-08-11 09:35:39
+{"method":"addtocart","number_of_item":"1","merchant_inventry_id":"275","action":"add","item_name":"Instant Filled Milk Powder(Instant Filled Milk Powder)"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}

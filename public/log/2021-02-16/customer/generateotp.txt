@@ -1,0 +1,9 @@
+
+ Request - 2021-02-16 17:31:41
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"592030767"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233592030767","otp_type":"register","user_id":"0","otp":8710,"expiry_date":"2021-02-16 17:46:41"}}
+ Request - 2021-02-16 17:43:20
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0762474818"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330762474818","otp_type":"register","user_id":"0","otp":5994,"expiry_date":"2021-02-16 17:58:20"}}

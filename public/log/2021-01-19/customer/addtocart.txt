@@ -1,0 +1,25 @@
+
+ Request - 2021-01-19 00:42:00
+{"method":"addtocart","guest_user_id":"62c6b13e6b510d14","number_of_item":"1","merchant_inventry_id":"477","action":"add","item_name":"Sauvignon Blanc Wine(Sauvignon Blanc Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-19 00:54:12
+{"method":"addtocart","user_id":"1751","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-19 00:56:51
+{"method":"addtocart","user_id":"1751","number_of_item":"1","merchant_inventry_id":"704","action":"delete","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-19 00:57:04
+{"method":"addtocart","user_id":"1751","number_of_item":"1","merchant_inventry_id":"477","action":"add","item_name":"Sauvignon Blanc Wine(Sauvignon Blanc Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-19 00:58:33
+{"method":"addtocart","user_id":"1751","number_of_item":"1","merchant_inventry_id":"477","action":"add","item_name":"Sauvignon Blanc Wine(Sauvignon Blanc Wine)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-01-19 14:17:59
+{"method":"addtocart","user_id":"1736","number_of_item":"1","merchant_inventry_id":"455","action":"add","item_name":"Original Irish Cream(Original Irish Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

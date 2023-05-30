@@ -1,0 +1,25 @@
+
+ Request - 2021-08-14 02:42:38
+{"method":"getCityIdByAddressOrLatLng","address":"Rasakhowa - Dhantola Rd, Dakshin Sahapur, West Bengal 733201, India","lat":"25.9919149","lng":"88.0714097"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rasakhowa - Dhantola Rd, Dakshin Sahapur, West Bengal 733201, India"}}
+ Request - 2021-08-14 06:18:10
+{"method":"getCityIdByAddressOrLatLng","address":"QJ76+5JC, पुणतांबा, महाराष्ट्र 413707, भारत","lat":"19.7632901","lng":"74.6096207"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"QJ76+5JC, Puntamba, Maharashtra 413707, India"}}
+ Request - 2021-08-14 12:39:51
+{"method":"getCityIdByAddressOrLatLng","address":"Dar Bouazza, Tamaris, Maroc","lat":"33.524034","lng":"-7.825917399999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G5FF+JJ8, Tamaris, Morocco"}}
+ Request - 2021-08-14 14:26:55
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, سبها، ليبيا","lat":"27.0304001","lng":"14.4403989"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Sabh\u0101, Libya"}}
+ Request - 2021-08-14 15:36:27
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 110113, Nigeria","lat":"6.861664","lng":"3.4219178"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, 110113, Nigeria"}}
+ Request - 2021-08-14 19:51:01
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Tchad","lat":"8.526386","lng":"16.2238641"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Chad"}}

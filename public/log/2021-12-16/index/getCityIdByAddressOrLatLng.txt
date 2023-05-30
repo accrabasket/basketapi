@@ -1,0 +1,17 @@
+
+ Request - 2021-12-16 00:45:40
+{"method":"getCityIdByAddressOrLatLng","address":"Erode, Tamil Nadu, India","lat":"11.3410364","lng":"77.7171642"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"66P, Municipal Colony, Edayankattuvalasu, Sampath Nagar, Tamil Nadu 638011, India"}}
+ Request - 2021-12-16 05:45:30
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Asawati, Madhya Pradesh 457336, India","lat":"23.8222834","lng":"75.3024055"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R8C2+WX Asawati, Madhya Pradesh, India"}}
+ Request - 2021-12-16 08:08:04
+{"method":"getCityIdByAddressOrLatLng","address":"Rajouri Marble Market, Block C, Sharda Puri, Ramesh Nagar, Block C, Rajouri Garden, New Delhi, Delhi 110015, India","lat":"28.6450152","lng":"77.1269077"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rajouri Marble Market, Block C, Sharda Puri, Ramesh Nagar, Block C, Rajouri Garden, New Delhi, Delhi 110015, India"}}
+ Request - 2021-12-16 17:28:02
+{"method":"getCityIdByAddressOrLatLng","address":"XPQR+XFC, Malawi","lat":"-14.0095463","lng":"33.740422"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"XPQR+XFC, Malawi"}}

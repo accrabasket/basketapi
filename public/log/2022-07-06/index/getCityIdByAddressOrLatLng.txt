@@ -1,0 +1,33 @@
+
+ Request - 2022-07-06 00:49:34
+{"method":"getCityIdByAddressOrLatLng","address":"MGW6+Q7Q, Jl. Lkr. Kluntung Barat dan Kluntung Timur, Dusun III, Sumampir, Kec. Rembang, Kabupaten Purbalingga, Jawa Tengah 53356, Indonesia","lat":"-7.3025844","lng":"109.5101356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MGW6+Q7Q, Jl. Lkr. Kluntung Barat dan Kluntung Timur, Dusun III, Sumampir, Kec. Rembang, Kabupaten Purbalingga, Jawa Tengah 53356, Indonesia"}}
+ Request - 2022-07-06 03:18:51
+{"method":"getCityIdByAddressOrLatLng","address":"Kaduna, Nigeria","lat":"10.519247","lng":"7.420695"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"39 Enugu Road, Old Panteka Market Kaduna, Tudun Nupawa 800282, Tudun Wada, Nigeria"}}
+ Request - 2022-07-06 03:23:02
+{"method":"getCityIdByAddressOrLatLng","address":"151 Townsend St, San Francisco, CA 94107, USA","lat":"37.779564","lng":"-122.391617"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"151 Townsend St, San Francisco, CA 94107, USA"}}
+ Request - 2022-07-06 11:56:41
+{"method":"getCityIdByAddressOrLatLng","address":"G4H4+8M3, Niamey, Niger","lat":"13.5282432","lng":"2.106658"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G4H4+8M3, Niamey, Niger"}}
+ Request - 2022-07-06 14:23:25
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, The Gambia","lat":"13.5455549","lng":"-14.4827026"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"GGW8+6W Sami, The Gambia"}}
+ Request - 2022-07-06 18:31:32
+{"method":"getCityIdByAddressOrLatLng","address":"R2X8+FX8, City Centre 500102, Port Harcourt, Nigeria","lat":"4.8485236","lng":"7.0174568"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R2X8+FX8, City Centre 500102, Port Harcourt, Nigeria"}}
+ Request - 2022-07-06 19:40:47
+{"method":"getCityIdByAddressOrLatLng","address":"V243+VPM, Nanak Wara Adhumal Oodharam Quarter, Karachi, Karachi City, Sindh, Pakistan","lat":"24.8571561","lng":"67.0043307"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V243+VPM, Nanak Wara Adhumal Oodharam Quarter, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-07-06 20:30:52
+{"method":"getCityIdByAddressOrLatLng","address":"PW2G+Q27, opp. White Leaf School, Ashok Nagar, New Basti, Bahadurgarh, Haryana 124507, India","lat":"28.7015389","lng":"76.9243106"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PW2G+Q27, opp. White Leaf School, Ashok Nagar, New Basti, Bahadurgarh, Haryana 124507, India"}}

@@ -1,0 +1,77 @@
+
+ Request - 2022-12-01 16:56:25
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:56:49
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"2517","action":"delete","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:56:57
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3952","action":"add","item_name":"Medicated Soap - White(Medicated Soap - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:57:13
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3951","action":"add","item_name":"Medicated Soap - Red(Medicated Soap - Red)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:57:16
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3951","action":"add","item_name":"Medicated Soap - Red(Medicated Soap - Red)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:57:22
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3952","action":"delete","item_name":"Medicated Soap - White(Medicated Soap - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:57:24
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3951","action":"delete","item_name":"Medicated Soap - Red(Medicated Soap - Red)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:57:34
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3951","action":"delete","item_name":"Medicated Soap - Red(Medicated Soap - Red)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:57:43
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3952","action":"add","item_name":"Medicated Soap - White(Medicated Soap - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:58:21
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"748","action":"add","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:58:23
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"612","action":"add","item_name":"All Around Protection Fresh Mint Toothpaste(All Around Protection Fresh Mint Toothpaste)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:58:29
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3952","action":"delete","item_name":"Medicated Soap - White(Medicated Soap - White)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 16:59:51
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3951","action":"add","item_name":"Medicated Soap - Red(Medicated Soap - Red)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 17:00:08
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"748","action":"add","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 17:00:11
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"3951","action":"delete","item_name":"Medicated Soap - Red(Medicated Soap - Red)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 17:00:13
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"748","action":"delete","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 17:00:14
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"748","action":"add","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 17:00:16
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"612","action":"delete","item_name":"All Around Protection Fresh Mint Toothpaste(All Around Protection Fresh Mint Toothpaste)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-12-01 17:00:17
+{"method":"addtocart","guest_user_id":"3772ea0c1e9ddcba","number_of_item":"1","merchant_inventry_id":"748","action":"add","item_name":"123 Classic Care Medium Toothbrush(123 Classic Care Medium Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

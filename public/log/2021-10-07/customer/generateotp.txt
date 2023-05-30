@@ -1,0 +1,5 @@
+
+ Request - 2021-10-07 18:16:35
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0935100687"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330935100687","otp_type":"register","user_id":"0","otp":2032,"expiry_date":"2021-10-07 18:31:35"}}

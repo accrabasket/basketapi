@@ -1,0 +1,25 @@
+
+ Request - 2021-11-12 05:16:29
+{"method":"getitemintocart","guest_user_id":"60b9dc022f80eade"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-12 05:35:58
+{"method":"getitemintocart","guest_user_id":"430a9fc766eddb93"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-12 10:04:02
+{"method":"getitemintocart","guest_user_id":"33f43c93608277c4"}
+ Response :- 
+{"status":"success","data":{"615":{"id":17979,"user_id":0,"guest_user_id":"33f43c93608277c4","merchant_inventry_id":615,"item_name":"All Butter Shortbread(All Butter Shortbread)","number_of_item":1,"created_date":"2021-11-08 14:58:07"}},"productDetails":{"status":"success","data":{"615":{"id":615,"price":"22.49","product_id":896,"merchant_id":4,"store_id":4,"merchant_product_code":"57960","product_name":"All Butter Shortbread","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":95,"custom_info":"{\"Ingredients\":\"Flour (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Butter (31%)(Milk), Sugar, Salt, Wheat Starch.\",\"Allergy Information\":\"Sesame Seeds, Soya, Wheat & Milk\"}","brand_name":"McVitie\u2019s","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":280,"tax_value":"3"}},"productImageData":{"896":[{"id":954,"type":"product","image_id":896,"image_name":"896_1545143438.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-11-12 10:10:31
+{"method":"getitemintocart","guest_user_id":"1f29cd7c1b441c00"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-12 10:10:32
+{"method":"getitemintocart","guest_user_id":"1f29cd7c1b441c00"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2021-11-12 21:39:37
+{"method":"getitemintocart","guest_user_id":"6eb8f294eb5fbb48"}
+ Response :- 
+{"status":"success","data":{"207":{"id":17067,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":207,"item_name":"Almond\/Badam(Almond\/Badam)","number_of_item":1,"created_date":"2021-09-03 17:34:02"},"2837":{"id":17069,"user_id":0,"guest_user_id":"6eb8f294eb5fbb48","merchant_inventry_id":2837,"item_name":"Dairy Milk - Chocolate Bar(Dairy Milk - Chocolate Bar)","number_of_item":3,"created_date":"2021-09-03 17:34:22"}},"productDetails":{"status":"success","data":{"207":{"id":207,"price":"14.80","product_id":367,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Almond\/Badam","product_desc":"Almonds are the most alkaline of all nuts. They are also amongst the most nutritionally balanced foods. Rich in Vit E, the B-Group Vitamins, Potassium, Calcium and Magnesium. As such, they counteract stress and promote healthy nerve function.","default_discount_type":"percent","default_discount_value":"10","category_id":47,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"},"2837":{"id":2837,"price":"33.00","product_id":3207,"merchant_id":8,"store_id":12,"merchant_product_code":null,"product_name":"Dairy Milk - Chocolate Bar","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":96,"custom_info":"{\"Ingredients\":\"Sugar, Milk solids (25%), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476).\"}","brand_name":"Cadbury","commission_type":"","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"367":[{"id":283,"type":"product","image_id":367,"image_name":"6033000220479.jpg"}],"3207":[{"id":3869,"type":"product","image_id":3207,"image_name":"VID120.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}

@@ -1,0 +1,9 @@
+
+ Request - 2021-10-20 07:39:27
+{"method":"getCityIdByAddressOrLatLng","address":"Bilaspur Village Amsena Bilaspur Chhattisgarh 495220 Amsy, Amsena, Chhattisgarh 495220, India","lat":"22.0276131","lng":"82.0490565"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"22HX+2J Amsena, Chhattisgarh, India"}}
+ Request - 2021-10-20 13:15:44
+{"method":"getCityIdByAddressOrLatLng","address":"1235 Wilson Ave, Toronto, ON M3M 3G8, कनाडा","lat":"43.7237804","lng":"-79.4887557"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1235 Wilson Ave, North York, ON M3M 3G7, Canada"}}

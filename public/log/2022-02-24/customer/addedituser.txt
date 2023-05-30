@@ -1,0 +1,5 @@
+
+ Request - 2022-02-24 12:07:09
+{"method":"addedituser","city_id":"1","password":"Taishani@2010","name":"Taishani Biswas","email":"debojita83@gmail.com","mobile_number":"502676497","country_code":"+233","id":"0","fcm_reg_id":"dLfabIb69GM:APA91bHR78BeEY6T2Y2NaMMVw1cdu3dwyyhcnzvUiuUyAr0KbMwksj__QbOVUnD4Ixy9jXphL4JWPdMhm96Mj_uhJ_MNBV-IX4W3PGpOwql0jk56YooU28lu4U5kk5Un6_7DxXJs7SBi"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233502676497 and registered email id.","data":{"7999":{"id":7999,"name":"Taishani Biswas","mobile_number":"502676497","email":"debojita83@gmail.com","key":"4a11955c1fd8a4cf2edd65c4e51f0c7a","password":"15dd0a76fbd3a0c684cfac2b15b6a52d","fcm_reg_id":"dLfabIb69GM:APA91bHR78BeEY6T2Y2NaMMVw1cdu3dwyyhcnzvUiuUyAr0KbMwksj__QbOVUnD4Ixy9jXphL4JWPdMhm96Mj_uhJ_MNBV-IX4W3PGpOwql0jk56YooU28lu4U5kk5Un6_7DxXJs7SBi","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-02-24 12:07:09","updated_date":"2022-02-24 12:07:09","status":"1"}}}

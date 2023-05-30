@@ -1,0 +1,29 @@
+
+ Request - 2021-05-21 14:24:38
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-05-21 14:26:26
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}
+ Request - 2021-05-21 14:27:02
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-21 14:27:06
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-21 14:27:21
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-21 14:31:35
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}
+ Request - 2021-05-21 14:31:45
+{"method":"getcoupon","user_id":"800","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":{"3":{"id":3,"user_id":800,"coupon_name":"Deepavali Offer","discount_value":10,"minumum_order_price":200,"discount_type":"percent","max_discount_value":100,"desc":"Minimum Order:200, Max Discount :100","start_date":"2018-11-01","end_date":"2021-11-02","show_coupon":"1"}},"totalRecords":{"count":1}}

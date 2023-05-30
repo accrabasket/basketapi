@@ -1,0 +1,5 @@
+
+ Request - 2021-01-16 09:33:15
+{"method":"addeditdeliveryaddress","house_number":"22 opp good news mission church","area":"","street_detail":"comm 12","contact_name":"vaibhav joshi","city_name":"Hospital Rd Link Ext, Tema, Ghana","city_id":"1","lat":"5.6735372","long":"-0.0327407","user_id":"307","address_nickname":"tema ","landmark":"Good news mission church ","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":367}}

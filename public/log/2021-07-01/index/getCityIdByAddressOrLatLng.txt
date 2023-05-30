@@ -1,0 +1,17 @@
+
+ Request - 2021-07-01 02:23:21
+{"method":"getCityIdByAddressOrLatLng","address":"60a, المسطومة، سوريا","lat":"35.8717303","lng":"36.6310718"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"60a, Almastumah, Syria"}}
+ Request - 2021-07-01 10:14:45
+{"method":"getCityIdByAddressOrLatLng","address":"Ehsan Pur Railway Station, Ehsan Pur, Muzaffargarh, Punjab, Pakistan","lat":"30.649278","lng":"70.9504075"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ehsan Pur Railway Station, Ehsan Pur, Muzaffargarh, Punjab, Pakistan"}}
+ Request - 2021-07-01 18:02:23
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Lomé, Togo","lat":"6.1419114","lng":"1.279232"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Lom\u00e9, Togo"}}
+ Request - 2021-07-01 18:16:57
+{"method":"getCityIdByAddressOrLatLng","address":"rue naba Bilgo, Kalgondin, Ouagadougou, Burkina Faso","lat":"12.3435572","lng":"-1.5089349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"rue naba Bilgo, Kalgondin, Ouagadougou, Burkina Faso"}}

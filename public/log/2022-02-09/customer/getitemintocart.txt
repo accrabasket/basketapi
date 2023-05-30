@@ -1,0 +1,73 @@
+
+ Request - 2022-02-09 06:32:51
+{"method":"getitemintocart","guest_user_id":"eb3ad7134629b7bf"}
+ Response :- 
+{"status":"success","data":{"232":{"id":19721,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2022-02-08 08:33:10"},"246":{"id":19722,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2022-02-08 08:33:13"},"613":{"id":19723,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":613,"item_name":"All Butter Shortbread(All Butter Shortbread)","number_of_item":1,"created_date":"2022-02-08 08:33:28"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"613":{"id":613,"price":"17.49","product_id":894,"merchant_id":4,"store_id":4,"merchant_product_code":"X724   ","product_name":"All Butter Shortbread","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":95,"custom_info":"{\"Ingredients\":\"Flour (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Butter (31%)(Milk), Sugar, Salt, Wheat Starch.\",\"Allergy Information\":\"Sesame Seeds, Soya, Wheat & Milk\"}","brand_name":"McVitie\u2019s","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}],"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}],"894":[{"id":950,"type":"product","image_id":894,"image_name":"894_1545143370.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-09 06:33:04
+{"method":"getitemintocart","guest_user_id":"eb3ad7134629b7bf"}
+ Response :- 
+{"status":"success","data":{"232":{"id":19721,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":232,"item_name":"Classic Soft Drink-Tin(Classic Soft Drink-Tin)","number_of_item":1,"created_date":"2022-02-08 08:33:10"},"246":{"id":19722,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":246,"item_name":"Fanta Orange Regular Can(Fanta Orange Regular Can)","number_of_item":1,"created_date":"2022-02-08 08:33:13"},"613":{"id":19723,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":613,"item_name":"All Butter Shortbread(All Butter Shortbread)","number_of_item":1,"created_date":"2022-02-08 08:33:28"},"2517":{"id":19726,"user_id":0,"guest_user_id":"eb3ad7134629b7bf","merchant_inventry_id":2517,"item_name":"Clean & Shave (Gift Hampers)","number_of_item":1,"created_date":"2022-02-09 06:33:04"}},"productDetails":{"status":"success","data":{"232":{"id":232,"price":"3.20","product_id":387,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000000","product_name":"Classic Soft Drink-Tin","product_desc":"Coca-Cola Classic is the world\u2019s favourite soft drink and has been enjoyed since 1886. Whether you want a small 250 ml can or a large 1.75 litre bottle for sharing, you can find Coca-Cola Classic in a variety of sizes to suit every lifestyle and occassion.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Colour (Caramel E150d), Phosphoric Acid, Natural Flavourings Including Caffeine.\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"246":{"id":246,"price":"3.60","product_id":401,"merchant_id":3,"store_id":2,"merchant_product_code":"5449000011","product_name":"Fanta Orange Regular Can","product_desc":"Bright, bubbly and a popular favourite, Fanta Orange is a soft drink with a tingly, fruity taste. It\u2019s made with five per cent juice.\nAs part of our commitment to reduce the calories in some of our most popular drinks Coca-Cola European Partners changed the recipe for Fanta Orange in 2006 - it now contains 33% less sugar and calories than the previous recipe. They also use vegetable extracts from carrot and pumpkin to enhance the orange colour.","default_discount_type":"","default_discount_value":"0","category_id":49,"custom_info":"{\"Ingredients\":\"Carbonated Water, Sugar, Orange Juice from Concentrate (3.7%), Citrus Fruit from Concentrate (1.3%), Citric Acid, Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Malic Acid, Acidity Regulator (Sodium Citrate), Stabiliser (Guar Gum), Natural Orange Flavourings with Other Natural Flavourings, Antioxidant (Ascorbic Acid).\",\"Allergy Information\":\"This product does not contain any allergens\"}","brand_name":"Coca Cola","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"ml","quantity":330,"tax_value":"3"},"613":{"id":613,"price":"17.49","product_id":894,"merchant_id":4,"store_id":4,"merchant_product_code":"X724   ","product_name":"All Butter Shortbread","product_desc":"","default_discount_type":"","default_discount_value":"0","category_id":95,"custom_info":"{\"Ingredients\":\"Flour (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Butter (31%)(Milk), Sugar, Salt, Wheat Starch.\",\"Allergy Information\":\"Sesame Seeds, Soya, Wheat & Milk\"}","brand_name":"McVitie\u2019s","commission_type":"flat","commission_value":"0.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":200,"tax_value":"3"},"2517":{"id":2517,"price":"280.00","product_id":2876,"merchant_id":4,"store_id":4,"merchant_product_code":"HAMP08","product_name":"Clean & Shave ","product_desc":"Get a clean and shave  delightful scent  gifts for him to show your love . Leave that man smelling absolutely fantastic fresh with signature scents  ","default_discount_type":"","default_discount_value":"0","category_id":114,"custom_info":"{\"Details\":\"Total No. of Items in the Hamper : 14\\r\\n-- DRY IMPACT - ANTI-PERSPIRANT DEODORANT:50ml x2\\r\\n-- IRRESISTIBLY SMOOTH - BODY LOTION (NIVEA):400ml x1   \\r\\n-- MEN COOL KICK - ANTI-PERSPIRANT DEODORANT :50ml x 2 \\r\\n-- MEN COOL KICK - SHOWER GEL (NIVEA) :500ml x 1  \\r\\n-- MEN ENERGY - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SENSITIVE - SHOWER GEL (NIVEA) :500ml x1 \\r\\n-- MEN SILVER PROTECT - ANTI-PERSPIRANT :50ml x2  \\r\\n-- PROTECT & CARE - SHAVING FOAM (NIVEA) :200ml x1\\r\\n-- SENSITIVE POST SHAVE BALM (NIVEA) :100ml x1   \\r\\n-- RICH NOURISHING - BODY LOTION (NIVEA):250ml x1  \\r\\n-- SOFT - LIGHT MOISTURISER (NIVEA) :200ml x1\"}","brand_name":"Gift hamper","commission_type":"flat","commission_value":"0.0000","discount_type":"percent","discount_value":"5","unit":"pcs","quantity":1,"tax_value":"3"}},"productImageData":{"387":[{"id":305,"type":"product","image_id":387,"image_name":"5449000000996.jpg"}],"401":[{"id":321,"type":"product","image_id":401,"image_name":"5449000011527.jpg"}],"894":[{"id":950,"type":"product","image_id":894,"image_name":"894_1545143370.jpg"}],"2876":[{"id":3514,"type":"product","image_id":2876,"image_name":"clean_shave_hamper.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-02-09 09:21:13
+{"method":"getitemintocart","guest_user_id":"50a7eba552aa9f99"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 09:43:07
+{"method":"getitemintocart","guest_user_id":"8f6a072b4fe60d30"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 09:46:12
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-02-09 09:47:34
+{"method":"getitemintocart","guest_user_id":"8f6a072b4fe60d30"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 10:17:25
+{"method":"getitemintocart","guest_user_id":"677c944d4d160b6d"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 11:46:52
+{"method":"getitemintocart","guest_user_id":"8d6b8fb3e1c382bb"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 14:04:21
+{"method":"getitemintocart","guest_user_id":"428a49d8161de044"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 14:27:18
+{"method":"getitemintocart","guest_user_id":"8ed18de392021ef2"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 14:57:52
+{"method":"getitemintocart","guest_user_id":"5c0749bf99d48a31"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 14:57:56
+{"method":"getitemintocart"}
+ Response :- 
+{"status":"fail","msg":"user Id not supplied"}
+ Request - 2022-02-09 15:49:20
+{"method":"getitemintocart","guest_user_id":"9dd390f507f729ba"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 19:44:27
+{"method":"getitemintocart","guest_user_id":"180c2266fb333c97"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 20:48:45
+{"method":"getitemintocart","guest_user_id":"1ea8f2fe1ea32f28"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 20:48:48
+{"method":"getitemintocart","guest_user_id":"1ea8f2fe1ea32f28"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 20:49:01
+{"method":"getitemintocart","guest_user_id":"1ea8f2fe1ea32f28"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-02-09 23:27:44
+{"method":"getitemintocart","guest_user_id":"70a5d8211a5f91d9"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

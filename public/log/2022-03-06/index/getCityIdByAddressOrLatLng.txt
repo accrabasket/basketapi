@@ -1,0 +1,21 @@
+
+ Request - 2022-03-06 02:36:17
+{"method":"getCityIdByAddressOrLatLng","address":"M3Q7+98, Bou Tenfit, Maroc","lat":"31.687676","lng":"-4.9366783"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M3Q7+98, Bou Tenfit, Morocco"}}
+ Request - 2022-03-06 07:01:45
+{"method":"getCityIdByAddressOrLatLng","address":"RP5M+7F7, Dodoma, Tanzania","lat":"-6.1905586","lng":"35.7326688"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RP5M+Q3 Dodoma, Tanzania"}}
+ Request - 2022-03-06 12:15:14
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Uparbanda, West Bengal 722203, India","lat":"23.2559497","lng":"87.1602418"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"7546+93 Teleghra, West Bengal, India"}}
+ Request - 2022-03-06 12:50:02
+{"method":"getCityIdByAddressOrLatLng","address":"بهتيم، قسم ثان شبرا الخيمة،، بهتيم، قسم ثان شبرا الخيمة، القليوبية، مصر","lat":"30.1188522","lng":"31.2663114"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0628\u0647\u062a\u064a\u0645\u060c \u0642\u0633\u0645 \u062b\u0627\u0646 \u0634\u0628\u0631\u0627 \u0627\u0644\u062e\u064a\u0645\u0629\u060c\u060c Bahtim, Shubra El Kheima 2, Al Qalyubia Governorate, Egypt"}}
+ Request - 2022-03-06 15:37:38
+{"method":"getCityIdByAddressOrLatLng","address":"RR38+52H, Aburi, Ghana","lat":"5.8032362","lng":"-0.1852664"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RR38+52H, Aburi, Ghana"}}

@@ -1,0 +1,21 @@
+
+ Request - 2021-05-12 00:37:51
+{"method":"getCityIdByAddressOrLatLng","address":"Tv. do Jogo da Bola, 6215-093 Barco, Portugal","lat":"40.17312039999999","lng":"-7.6093267"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tv. do Jogo da Bola 2, 6215-061 Barco, Portugal"}}
+ Request - 2021-05-12 09:06:48
+{"method":"getCityIdByAddressOrLatLng","address":"Tema, Ghana","lat":"5.7348119","lng":"0.0302354"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Tema, Ghana"}}
+ Request - 2021-05-12 10:34:23
+{"method":"getCityIdByAddressOrLatLng","address":"50 mètre du commissariat Agla, Cotonou, Bénin","lat":"6.3795373","lng":"2.3682513"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"50 m\u00e8tre du commissariat Agla, Cotonou, Benin"}}
+ Request - 2021-05-12 13:43:08
+{"method":"getCityIdByAddressOrLatLng","address":"P3001, Maroc","lat":"33.4661673","lng":"-7.798026"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"P3001, Morocco"}}
+ Request - 2021-05-12 16:24:02
+{"method":"getCityIdByAddressOrLatLng","address":"12, Narayan Nagar, Pali Gam, Sachin, Surat, Gujarat 394230, India","lat":"21.075451","lng":"72.8665019"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"12, Narayan Nagar, Pali Gam, Sachin, Surat, Gujarat 394230, India"}}

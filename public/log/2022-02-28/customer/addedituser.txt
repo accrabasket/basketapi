@@ -1,0 +1,5 @@
+
+ Request - 2022-02-28 10:20:59
+{"method":"addedituser","city_id":"1","password":"Bijoy Das1234","name":"Bijoy Das","email":"dasbijoy1p@gmail.com","mobile_number":"9366202147","country_code":"+233","id":"0","fcm_reg_id":"cQTMQvG91cc:APA91bH8bcgBocM2macLUGmn9dFSyfPU29N0-ApxLeIxdhmyyyRsB2FINR-RqGi64fFsAs5ZZ2RsJMaM4C-uqbnqNq9p7rD5VTVRzYGSbwjORCQp6ZZtO1qBt-E-iX4ZL5IXCjjWH4KX"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +2339366202147 and registered email id.","data":{"8047":{"id":8047,"name":"Bijoy Das","mobile_number":"9366202147","email":"dasbijoy1p@gmail.com","key":"404b241060f4c2545deba86e5c6a8ad2","password":"2e9d92b71e1945f31f7ad7a5d821ab15","fcm_reg_id":"cQTMQvG91cc:APA91bH8bcgBocM2macLUGmn9dFSyfPU29N0-ApxLeIxdhmyyyRsB2FINR-RqGi64fFsAs5ZZ2RsJMaM4C-uqbnqNq9p7rD5VTVRzYGSbwjORCQp6ZZtO1qBt-E-iX4ZL5IXCjjWH4KX","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2022-02-28 10:20:59","updated_date":"2022-02-28 10:20:59","status":"1"}}}

@@ -1,0 +1,9 @@
+
+ Request - 2021-03-21 00:41:24
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"989","action":"add","item_name":"Tagliolini n. 83(Tagliolini n. 83)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-03-21 00:41:46
+{"method":"addtocart","user_id":"2130","number_of_item":"1","merchant_inventry_id":"623","action":"add","item_name":"Brown Sugar - Zipper Sachet Pack(Brown Sugar - Zipper Sachet Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

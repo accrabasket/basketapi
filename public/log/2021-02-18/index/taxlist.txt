@@ -1,0 +1,13 @@
+
+ Request - 2021-02-18 09:50:20
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-02-18 09:50:23
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}
+ Request - 2021-02-18 09:50:24
+{"method":"taxlist"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"tax_name":"GST","tax_value":"18"},"2":{"id":2,"tax_name":"Shiping Charge","tax_value":"5"}}}

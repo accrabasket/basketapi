@@ -1,0 +1,5 @@
+
+ Request - 2021-06-14 17:09:29
+{"method":"login","email":"atolani.damilare@yahoo.com","password":"08145501942","fcm_reg_id":"eHq1jh3HH00:APA91bHdRDSzvesjeZE7vZEYdlaQ05oUPLSp17VVi5WIH3CZfVcjY0ySBkURIqhp5hKfm5FmuKqMg5orNGDwnHcW9dSrqHvVv5YDxkAguqfkc5RepRdTQgQqpPkoCXuMaEf9taNsBgeh"}
+ Response :- 
+{"status":"success","data":{"2733":{"id":2733,"name":"Atolani Damilare ","mobile_number":"8136972689","email":"atolani.damilare@yahoo.com","key":"ab6cbc5953c347b9fd04967ee85d1c7e","password":"0e1edb985fe264bf708846896d62c8cd","fcm_reg_id":"eHq1jh3HH00:APA91bHdRDSzvesjeZE7vZEYdlaQ05oUPLSp17VVi5WIH3CZfVcjY0ySBkURIqhp5hKfm5FmuKqMg5orNGDwnHcW9dSrqHvVv5YDxkAguqfkc5RepRdTQgQqpPkoCXuMaEf9taNsBgeh","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2021-06-14 17:07:34","updated_date":"2021-06-14 17:07:34","status":"1"}},"totalNumberOfUser":1,"wallet_key":"0e1edb985fe264bf708846896d62c8cd"}

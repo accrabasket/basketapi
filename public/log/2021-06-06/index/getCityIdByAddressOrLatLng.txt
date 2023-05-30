@@ -1,0 +1,25 @@
+
+ Request - 2021-06-06 10:35:54
+{"method":"getCityIdByAddressOrLatLng","address":"NH10, Sikkim 737135, India","lat":"27.2761053","lng":"88.5847627"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"NH10, Sikkim 737135, India"}}
+ Request - 2021-06-06 10:43:54
+{"method":"getCityIdByAddressOrLatLng","address":"Densuano Rd, Koforidua, Ghana","lat":"6.0762844","lng":"-0.2847499"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Densuano Rd, Koforidua, Ghana"}}
+ Request - 2021-06-06 10:48:21
+{"method":"getCityIdByAddressOrLatLng","address":"سهواج، أشمون،، سهواج، أشمون، المنوفية، مصر","lat":"30.2740964","lng":"31.0873316"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0633\u0647\u0648\u0627\u062c\u060c \u0623\u0634\u0645\u0648\u0646\u060c\u060c Sehwag, Ashmoun, Menofia Governorate, Egypt"}}
+ Request - 2021-06-06 13:17:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Erbil, العراق","lat":"36.1859297","lng":"44.0458028"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Erbil, Iraq"}}
+ Request - 2021-06-06 17:31:42
+{"method":"getCityIdByAddressOrLatLng","address":"25, إسرائيل","lat":"31.2086758","lng":"34.8978751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"25, Israel"}}
+ Request - 2021-06-06 18:22:28
+{"method":"getCityIdByAddressOrLatLng","address":"Kampala–Jinja Hwy, Uganda","lat":"0.5836755","lng":"33.0245526"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Kampala\u2013Jinja Hwy, Uganda"}}

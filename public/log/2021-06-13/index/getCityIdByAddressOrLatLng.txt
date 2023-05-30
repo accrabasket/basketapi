@@ -1,0 +1,13 @@
+
+ Request - 2021-06-13 00:06:13
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, EHANIA, Côte d'Ivoire","lat":"5.2939877","lng":"-3.0531984"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, EHANIA, C\u00f4te d'Ivoire"}}
+ Request - 2021-06-13 08:27:48
+{"method":"getCityIdByAddressOrLatLng","address":"Kaédi, Mauritanie","lat":"16.1711005","lng":"-13.496075"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Ka\u00e9di, Mauritania"}}
+ Request - 2021-06-13 15:22:44
+{"method":"getCityIdByAddressOrLatLng","address":"Astkuma- Boso Rd, Anum, Ghana","lat":"6.4931235","lng":"0.1525708"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Astkuma- Boso Rd, Anum, Ghana"}}

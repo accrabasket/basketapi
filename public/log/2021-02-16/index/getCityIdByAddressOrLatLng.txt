@@ -1,0 +1,29 @@
+
+ Request - 2021-02-16 07:53:11
+{"method":"getCityIdByAddressOrLatLng","address":"200 Jln Sultan, Singapore 199018","lat":"1.3036547","lng":"103.8612408"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"200 Jln Sultan, Singapore 199018"}}
+ Request - 2021-02-16 12:59:30
+{"method":"getCityIdByAddressOrLatLng","address":"17 Nmetsobu St, Accra, Ghana","lat":"5.5550867","lng":"-0.1777735"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"17 Nmetsobu St, Accra, Ghana"}}
+ Request - 2021-02-16 12:59:42
+{"method":"getCityIdByAddressOrLatLng","address":"17 Nmetsobu St, Accra, Ghana","lat":"5.5550867","lng":"-0.1777735"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"17 Nmetsobu St, Accra, Ghana"}}
+ Request - 2021-02-16 15:11:54
+{"method":"getCityIdByAddressOrLatLng","address":"206 Benin Sapele Rd, behind Notre dame table water, Oka, Benin City, Nigeria","lat":"6.2789083","lng":"5.6347872"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"206 Benin Sapele Rd, behind Notre dame table water, Oka, Benin City, Nigeria"}}
+ Request - 2021-02-16 17:25:10
+{"method":"getCityIdByAddressOrLatLng","address":"8 Bubuashie Rd, Accra, Ghana","lat":"5.5747073","lng":"-0.2311263"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"8 Bubuashie Rd, Accra, Ghana"}}
+ Request - 2021-02-16 17:39:17
+{"method":"getCityIdByAddressOrLatLng","address":"Viktoriagatan, Halmstad, Sweden","lat":"56.6720962","lng":"12.8632269"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Viktoriagatan 8, 302 45 Halmstad, Sweden"}}
+ Request - 2021-02-16 19:47:16
+{"method":"getCityIdByAddressOrLatLng","address":"Via Magazzini Anteriori, 29, 48122 Ravenna RA, Italy","lat":"44.4174648","lng":"12.2103682"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Via Magazzini Anteriori, 29, 48122 Ravenna RA, Italy"}}

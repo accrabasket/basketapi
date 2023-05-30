@@ -1,0 +1,17 @@
+
+ Request - 2022-06-05 08:52:08
+{"method":"getCityIdByAddressOrLatLng","address":"G8MW+PQ4, Thua, Haryana 126125, India","lat":"29.5332923","lng":"76.3479167"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"G8MW+PQ4, Thua, Haryana 126125, India"}}
+ Request - 2022-06-05 09:43:14
+{"method":"getCityIdByAddressOrLatLng","address":"WXPH+93J, Qaim Khani Colony, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9362443","lng":"66.9770246"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WXPH+93J, Qaim Khani Colony, Karachi, Karachi City, Sindh, Pakistan"}}
+ Request - 2022-06-05 10:31:46
+{"method":"getCityIdByAddressOrLatLng","address":"4237+MCJ, Senkanse, Togo","lat":"11.1041773","lng":"0.0136843"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4237+MCJ, Senkase, Togo"}}
+ Request - 2022-06-05 20:09:59
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Bénin","lat":"8.4785242","lng":"2.6041986"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"FJH3+CM Agborro, Benin"}}

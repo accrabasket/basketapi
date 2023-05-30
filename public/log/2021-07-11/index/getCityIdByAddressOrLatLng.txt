@@ -1,0 +1,37 @@
+
+ Request - 2021-07-11 02:54:55
+{"method":"getCityIdByAddressOrLatLng","address":"1043 Abubakar Koko Ave, Abuja, Nigeria","lat":"9.0882498","lng":"7.3899838"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1043 Abubakar Koko Ave, Abuja, Nigeria"}}
+ Request - 2021-07-11 02:55:02
+{"method":"getCityIdByAddressOrLatLng","address":"1043 Abubakar Koko Ave, Abuja, Nigeria","lat":"9.0882498","lng":"7.3899838"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1043 Abubakar Koko Ave, Abuja, Nigeria"}}
+ Request - 2021-07-11 02:55:08
+{"method":"getCityIdByAddressOrLatLng","address":"1043 Abubakar Koko Ave, Abuja, Nigeria","lat":"9.0882498","lng":"7.3899838"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1043 Abubakar Koko Ave, Abuja, Nigeria"}}
+ Request - 2021-07-11 02:55:09
+{"method":"getCityIdByAddressOrLatLng","address":"1043 Abubakar Koko Ave, Abuja, Nigeria","lat":"9.0882498","lng":"7.3899838"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"1043 Abubakar Koko Ave, Abuja, Nigeria"}}
+ Request - 2021-07-11 08:08:32
+{"method":"getCityIdByAddressOrLatLng","address":"San Antonio, TX, USA","lat":"29.4241219","lng":"-98.49362819999999"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"156-100 Dolorosa, San Antonio, TX 78205, USA"}}
+ Request - 2021-07-11 08:27:03
+{"method":"getCityIdByAddressOrLatLng","address":"10 Bisi Olatunji St, Ojodu, Lagos, Nigeria","lat":"6.6562091","lng":"3.3727469"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"10 Bisi Olatunji St, Ojodu, Lagos, Nigeria"}}
+ Request - 2021-07-11 12:10:48
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Drobo, Ghana","lat":"7.5992097","lng":"-2.7841247"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Drobo, Ghana"}}
+ Request - 2021-07-11 12:27:49
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Cotonou, Bénin","lat":"6.3855494","lng":"2.3503813"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Cotonou, Benin"}}
+ Request - 2021-07-11 16:35:51
+{"method":"getCityIdByAddressOrLatLng","address":"बेलदौर - तिलाठी - आलमनगर मार्ग, बेलदौर, बिहार 852161, भारत","lat":"25.5850815","lng":"86.7750997"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Beldour - Tilathi - Alamnagar Rd, Beldour, Bihar 852161, India"}}

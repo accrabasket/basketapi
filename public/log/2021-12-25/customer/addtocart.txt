@@ -1,0 +1,69 @@
+
+ Request - 2021-12-25 09:06:33
+{"method":"addtocart","guest_user_id":"6a26d053c6695b81","number_of_item":"1","merchant_inventry_id":"704","action":"add","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:21:42
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"1898","action":"add","item_name":"Wet Wipes - Daisy(Wet Wipes - Daisy)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:21:48
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"1898","action":"delete","item_name":"Wet Wipes - Daisy(Wet Wipes - Daisy)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:21:56
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"1961","action":"add","item_name":"Olive Oil Hair Moisturizer(Olive Oil Hair Moisturizer)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:00
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"1971","action":"add","item_name":"Women Invisible Black&White Clothes Compressed Antiperspirant Deodorant(Women Invisible Black&White Clothes Compressed Ant)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:03
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"1988","action":"add","item_name":"APA Men Deodorant Spray - Invisible Dry(APA Men Deodorant Spray - Invisible Dry)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:04
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"1997","action":"add","item_name":"Body Mist - Lilac(Body Mist - Lilac)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:37
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2451","action":"add","item_name":"Q10 + Vitamin C Firming - Body Lotion(Q10 + Vitamin C Firming - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:39
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2452","action":"add","item_name":"Oil in Lotion Rose & Argan Oil - Body Lotion(Oil in Lotion Rose & Argan Oil - Body Lotion)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:47
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2462","action":"add","item_name":"Alata Samina Black Soap Aloe Vera Shower Gel(Alata Samina Black Soap Aloe Vera Shower Gel)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:50
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2464","action":"add","item_name":"Alata Samina Aloe Vera Soap(Alata Samina Aloe Vera Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:22:52
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2466","action":"add","item_name":"Alata Samina Coco Soap(Alata Samina Coco Soap)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:23:01
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2482","action":"add","item_name":"Smartclean Toothbrush(Smartclean Toothbrush)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:23:05
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2490","action":"add","item_name":"Aloe Vera Cream(Aloe Vera Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:23:06
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2491","action":"add","item_name":"Cocoa Butter Cream(Cocoa Butter Cream)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:23:07
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2495","action":"add","item_name":"Daily Heat & Sun Protection Hair Creme(Daily Heat & Sun Protection Hair Creme)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2021-12-25 12:23:10
+{"method":"addtocart","guest_user_id":"66816111ed0df82d","number_of_item":"1","merchant_inventry_id":"2497","action":"add","item_name":"Hydrating & Strengthening Shampoo(Hydrating & Strengthening Shampoo)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

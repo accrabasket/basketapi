@@ -1,0 +1,13 @@
+
+ Request - 2022-02-28 10:22:22
+{"method":"login","email":"dasbijoy1p@gmail.com","password":"Bijoy Das1234","fcm_reg_id":"cQTMQvG91cc:APA91bH8bcgBocM2macLUGmn9dFSyfPU29N0-ApxLeIxdhmyyyRsB2FINR-RqGi64fFsAs5ZZ2RsJMaM4C-uqbnqNq9p7rD5VTVRzYGSbwjORCQp6ZZtO1qBt-E-iX4ZL5IXCjjWH4KX"}
+ Response :- 
+{"status":"success","data":{"8047":{"id":8047,"name":"Bijoy Das","mobile_number":"9366202147","email":"dasbijoy1p@gmail.com","key":"404b241060f4c2545deba86e5c6a8ad2","password":"2e9d92b71e1945f31f7ad7a5d821ab15","fcm_reg_id":"cQTMQvG91cc:APA91bH8bcgBocM2macLUGmn9dFSyfPU29N0-ApxLeIxdhmyyyRsB2FINR-RqGi64fFsAs5ZZ2RsJMaM4C-uqbnqNq9p7rD5VTVRzYGSbwjORCQp6ZZtO1qBt-E-iX4ZL5IXCjjWH4KX","city_id":1,"address":"","verified_email":0,"verified_mobile":1,"created_date":"2022-02-28 10:20:59","updated_date":"2022-02-28 10:20:59","status":"1"}},"totalNumberOfUser":1,"wallet_key":"2e9d92b71e1945f31f7ad7a5d821ab15"}
+ Request - 2022-02-28 16:00:42
+{"method":"login","email":"sidrakatlia@gmail.com","password":"su6tegn","fcm_reg_id":"fMX4EK8JSSc:APA91bF6M2ugTq9Ze3mdOf5n6jIhiQ4uzotFUt-D5bf6jMSHm0WOOY4Mp3KNPIG8UsEf8GgDotOYzOobfViKyrz7u_JMamwU0SaxbVoIdmKqfSG-KRZe2wmSD8rp2osQKOM0wMb2_4Wy"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}
+ Request - 2022-02-28 16:00:46
+{"method":"login","email":"sidrakatlia@gmail.com","password":"su6tegn10","fcm_reg_id":"fMX4EK8JSSc:APA91bF6M2ugTq9Ze3mdOf5n6jIhiQ4uzotFUt-D5bf6jMSHm0WOOY4Mp3KNPIG8UsEf8GgDotOYzOobfViKyrz7u_JMamwU0SaxbVoIdmKqfSG-KRZe2wmSD8rp2osQKOM0wMb2_4Wy"}
+ Response :- 
+{"status":"fail","msg":"Invalid credentials"}

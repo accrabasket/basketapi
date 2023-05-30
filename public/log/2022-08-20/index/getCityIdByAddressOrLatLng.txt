@@ -1,0 +1,21 @@
+
+ Request - 2022-08-20 06:11:50
+{"method":"getCityIdByAddressOrLatLng","address":"PF4G+W67, Dhaka 1361, Bangladesh","lat":"23.7074922","lng":"90.4755539"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PF4G+W67, Dhaka 1361, Bangladesh"}}
+ Request - 2022-08-20 06:11:51
+{"method":"getCityIdByAddressOrLatLng","address":"PF4G+W67, Dhaka 1361, Bangladesh","lat":"23.7074922","lng":"90.4755539"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PF4G+W67, Dhaka 1361, Bangladesh"}}
+ Request - 2022-08-20 09:26:38
+{"method":"getCityIdByAddressOrLatLng","address":"2Q88+R35, Douala, Cameroun","lat":"4.016743333333333","lng":"9.764531666666667"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"2Q88+R35, Douala, Cameroon"}}
+ Request - 2022-08-20 11:27:36
+{"method":"getCityIdByAddressOrLatLng","address":"Q9MW+MHF, Soubré, Côte d'Ivoire","lat":"5.7839149","lng":"-6.6039751"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Q9MW+MHF, Soubre, C\u00f4te d'Ivoire"}}
+ Request - 2022-08-20 15:49:26
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Myanmar (Burma)","lat":"20.886723333333332","lng":"93.00923333333334"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"V2P5+MM Alegyun, Myanmar (Burma)"}}

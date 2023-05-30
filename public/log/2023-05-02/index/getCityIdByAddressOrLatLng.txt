@@ -1,0 +1,37 @@
+
+ Request - 2023-05-02 00:20:40
+{"method":"getCityIdByAddressOrLatLng","address":"PMH2+8Q6, Duékoué, Côte d'Ivoire","lat":"6.7285106","lng":"-7.3474359"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 00:20:40
+{"method":"getCityIdByAddressOrLatLng","address":"PMH2+8Q6, Duékoué, Côte d'Ivoire","lat":"6.7285106","lng":"-7.3474359"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 00:20:50
+{"method":"getCityIdByAddressOrLatLng","address":"PMH2+8Q6, Duékoué, Côte d'Ivoire","lat":"6.7285106","lng":"-7.3474359"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 01:27:08
+{"method":"getCityIdByAddressOrLatLng","address":"V7GQ+2F, Tahoua, Niger","lat":"14.8742835","lng":"5.2875232"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 01:32:33
+{"method":"getCityIdByAddressOrLatLng","address":"ALAB7749، 7749 شارع الرياض، 2466، حي الفهد، بيشة 67711، السعودية","lat":"20.0098575","lng":"42.6056151"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 04:51:42
+{"method":"getCityIdByAddressOrLatLng","address":"Araplar, Araplar Çeşmesi, Büyükşehir Toplu Konutları No:25, 06270 Mamak\/Ankara, Türkiye","lat":"39.9262606","lng":"32.9449673"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 04:52:27
+{"method":"getCityIdByAddressOrLatLng","address":"Araplar, Araplar Çeşmesi, Büyükşehir Toplu Konutları No:25, 06270 Mamak\/Ankara, Türkiye","lat":"39.9262606","lng":"32.9449673"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 04:52:30
+{"method":"getCityIdByAddressOrLatLng","address":"Araplar, Araplar Çeşmesi, Büyükşehir Toplu Konutları No:25, 06270 Mamak\/Ankara, Türkiye","lat":"39.9262606","lng":"32.9449673"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-02 04:52:45
+{"method":"getCityIdByAddressOrLatLng","address":"Araplar, Araplar Çeşmesi, Büyükşehir Toplu Konutları No:25, 06270 Mamak\/Ankara, Türkiye","lat":"39.9262606","lng":"32.9449673"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

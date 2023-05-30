@@ -1,0 +1,5 @@
+
+ Request - 2021-10-03 16:00:14
+{"method":"addtocart","guest_user_id":"b090f5bf278ea60b","number_of_item":"1","merchant_inventry_id":"704","action":"delete","item_name":"Original Washing Powder(Original Washing Powder)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

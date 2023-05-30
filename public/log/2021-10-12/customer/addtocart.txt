@@ -1,0 +1,5 @@
+
+ Request - 2021-10-12 20:03:14
+{"method":"addtocart","guest_user_id":"f50abe85d5f104a3","number_of_item":"1","merchant_inventry_id":"2517","action":"add","item_name":"Clean & Shave (Gift Hampers)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

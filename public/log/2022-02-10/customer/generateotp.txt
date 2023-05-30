@@ -1,0 +1,13 @@
+
+ Request - 2022-02-10 04:45:54
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"8038897169"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2338038897169","otp_type":"register","user_id":"0","otp":2638,"expiry_date":"2022-02-10 05:00:54"}}
+ Request - 2022-02-10 04:47:45
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"8050934681"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2338050934681","otp_type":"register","user_id":"0","otp":8203,"expiry_date":"2022-02-10 05:02:45"}}
+ Request - 2022-02-10 04:48:29
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"8050934681"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2338050934681","otp_type":"register","user_id":"0","otp":8764,"expiry_date":"2022-02-10 05:03:29"}}

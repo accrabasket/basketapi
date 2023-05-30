@@ -1,0 +1,17 @@
+
+ Request - 2022-03-24 04:19:13
+{"method":"getCityIdByAddressOrLatLng","address":"WWPH+GM3, Ruangwa, Tanzania","lat":"-10.0636031","lng":"38.9294568"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WWPH+GM3, Ruangwa, Tanzania"}}
+ Request - 2022-03-24 11:20:34
+{"method":"getCityIdByAddressOrLatLng","address":"Route sans nom, Bamako, Mali","lat":"12.5750873","lng":"-7.9946243"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"H2G4+25 Bamako, Mali"}}
+ Request - 2022-03-24 21:55:56
+{"method":"getCityIdByAddressOrLatLng","address":"Gumel-Ringim Rd, 732103، نيجيريا","lat":"12.4318607","lng":"9.4987034"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"CFJX+PF Gagarawa, Nigeria"}}
+ Request - 2022-03-24 22:14:52
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 471107, Agbaja-Isu, Nigeria","lat":"5.6810994","lng":"7.1404808"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M4JR+C5 Agbaja-Isu, Nigeria"}}

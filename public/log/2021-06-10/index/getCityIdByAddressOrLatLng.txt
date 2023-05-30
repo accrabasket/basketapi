@@ -1,0 +1,25 @@
+
+ Request - 2021-06-10 05:56:16
+{"method":"getCityIdByAddressOrLatLng","address":"Terminal Cijulang, Kondangjajar, Cijulang, Pangandaran, Jawa Barat, Indonesia","lat":"-7.729805","lng":"108.473653"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Terminal Cijulang, Kondangjajar, Cijulang, Pangandaran, Jawa Barat, Indonesia"}}
+ Request - 2021-06-10 14:05:09
+{"method":"getCityIdByAddressOrLatLng","address":"Yaseen Wala Rasta, Yasin Kalan, Attock, Punjab, Pakistan","lat":"33.9516032","lng":"72.5057344"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Yaseen Wala Rasta, Yasin Kalan, Attock, Punjab, Pakistan"}}
+ Request - 2021-06-10 14:40:36
+{"method":"getCityIdByAddressOrLatLng","address":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India","lat":"12.6006729","lng":"77.73108"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India"}}
+ Request - 2021-06-10 14:40:39
+{"method":"getCityIdByAddressOrLatLng","address":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India","lat":"12.6006729","lng":"77.73108"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India"}}
+ Request - 2021-06-10 14:40:46
+{"method":"getCityIdByAddressOrLatLng","address":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India","lat":"12.6006729","lng":"77.73108"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India"}}
+ Request - 2021-06-10 14:40:47
+{"method":"getCityIdByAddressOrLatLng","address":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India","lat":"12.6006729","lng":"77.73108"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Madhagondahally-Kakkadasam Rd, Kodiyalam, Tamil Nadu 635114, India"}}

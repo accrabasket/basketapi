@@ -1,0 +1,5 @@
+
+ Request - 2021-07-25 19:53:18
+{"method":"addedituser","city_id":"1","password":"34seth34","name":"Qweku Suspect","email":"qwekususpect@gmail.com","mobile_number":"548529952","country_code":"+233","id":"0","fcm_reg_id":"fIdkQm0gsE4:APA91bE6eLBkvqfXdlIiIDP8dp79XwWkbKwsDL_RqFw4WUGmR4GMCwAa09QPMgcafNhERY0NJ_e7SWcUHkKCj8n108T8obRfSfIVhiZkOSrrvlNkRnhZRO2-DKeYah5JJNg7smcRsGhR"}
+ Response :- 
+{"status":"success","msg":"User created successfully. Otp send on your mobile number +233548529952 and registered email id.","data":{"3331":{"id":3331,"name":"Qweku Suspect","mobile_number":"548529952","email":"qwekususpect@gmail.com","key":"83ea901eb636344ad87b66ab45748806","password":"ce0f208179b22944de361a4762a93eaf","fcm_reg_id":"fIdkQm0gsE4:APA91bE6eLBkvqfXdlIiIDP8dp79XwWkbKwsDL_RqFw4WUGmR4GMCwAa09QPMgcafNhERY0NJ_e7SWcUHkKCj8n108T8obRfSfIVhiZkOSrrvlNkRnhZRO2-DKeYah5JJNg7smcRsGhR","city_id":1,"address":"","verified_email":0,"verified_mobile":0,"created_date":"2021-07-25 19:53:18","updated_date":"2021-07-25 19:53:18","status":"1"}}}

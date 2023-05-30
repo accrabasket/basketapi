@@ -1,0 +1,13 @@
+
+ Request - 2021-03-29 08:11:02
+{"method":"featurecategoryList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"category_id":2,"category_name":"Grocery","category_sequence":1}},"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-29 08:11:12
+{"method":"featurecategoryList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"category_id":2,"category_name":"Grocery","category_sequence":1}},"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2021-03-29 08:11:14
+{"method":"featurecategoryList"}
+ Response :- 
+{"status":"success","data":{"1":{"id":1,"category_id":2,"category_name":"Grocery","category_sequence":1}},"images":[],"imageRootPath":"https:\/\/172.104.239.54\/basketapi\/public\/images"}

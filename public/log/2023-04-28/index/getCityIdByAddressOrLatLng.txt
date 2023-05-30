@@ -1,0 +1,53 @@
+
+ Request - 2023-04-28 04:22:07
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.52018","lng":"35.30614166666667"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 04:22:14
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.52018","lng":"35.30614166666667"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 04:22:33
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.52018","lng":"35.30614166666667"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 04:22:34
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Kenya","lat":"0.52018","lng":"35.30614166666667"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 06:27:42
+{"method":"getCityIdByAddressOrLatLng","address":"3P3Q+WP5, Eldama Ravine, Kenya","lat":"0.0538609","lng":"35.7377876"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 06:27:44
+{"method":"getCityIdByAddressOrLatLng","address":"3P3Q+WP5, Eldama Ravine, Kenya","lat":"0.0538609","lng":"35.7377876"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 10:44:08
+{"method":"getCityIdByAddressOrLatLng","address":"G7H8+PCV, Eldoret, Kenya","lat":"0.5302816666666667","lng":"35.26705833333333"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 10:44:12
+{"method":"getCityIdByAddressOrLatLng","address":"G7H8+PCV, Eldoret, Kenya","lat":"0.5302816666666667","lng":"35.26705833333333"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 15:37:51
+{"method":"getCityIdByAddressOrLatLng","address":"Kuştepe, Karkuyusu Sk. No:12, 34387 Şişli\/İstanbul, Türkiye","lat":"41.0682858","lng":"28.9923417"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 15:37:54
+{"method":"getCityIdByAddressOrLatLng","address":"Kuştepe, Karkuyusu Sk. No:12, 34387 Şişli\/İstanbul, Türkiye","lat":"41.0682858","lng":"28.9923417"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 15:38:06
+{"method":"getCityIdByAddressOrLatLng","address":"Kuştepe Mh., Şht. Ahmet Sok. 1\/1, 34381 Şişli\/İstanbul, Türkiye","lat":"41.0687711","lng":"28.9923797"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 15:38:10
+{"method":"getCityIdByAddressOrLatLng","address":"Kuştepe Mh., Şht. Ahmet Sok. 1\/1, 34381 Şişli\/İstanbul, Türkiye","lat":"41.0687711","lng":"28.9923797"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-04-28 20:21:35
+{"method":"getCityIdByAddressOrLatLng","address":"M9GM+7FF, Nhyiaeso, Ghana","lat":"6.6757145","lng":"-1.6161331"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"M9GM+7FF, Nhyiaeso, Ghana"}}

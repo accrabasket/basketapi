@@ -1,0 +1,121 @@
+
+ Request - 2023-05-05 11:08:29
+{"method":"getCityIdByAddressOrLatLng","address":"A373, Boz, O`zbekiston","lat":"40.685505","lng":"71.91245166666666"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 11:08:40
+{"method":"getCityIdByAddressOrLatLng","address":"A373, Boz, O`zbekiston","lat":"40.68935","lng":"71.927335"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:46:49
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:08
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:29
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:30
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:33
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:37
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:47
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:47:48
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:48:12
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:48:15
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:48:28
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:48:30
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:48:41
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:48:44
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:05
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:13
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:17
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:19
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:22
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:24
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:27
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:36
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:38
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:42
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:46
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:47
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:48
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}
+ Request - 2023-05-05 19:49:49
+{"method":"getCityIdByAddressOrLatLng","address":"2H5H+QG2, Jl. Sawun, Sawon, Jedong, Kec. Wagir, Kabupaten Malang, Jawa Timur 65158, Indonesia","lat":"-7.9902301","lng":"112.5789813"}
+ Response :- 
+{"status":"fail","msg":"service not available in this city","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":""}}

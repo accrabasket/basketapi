@@ -1,0 +1,5 @@
+
+ Request - 2021-04-18 16:26:34
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"557792812"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+233557792812","otp_type":"register","user_id":"0","otp":4363,"expiry_date":"2021-04-18 16:41:34"}}

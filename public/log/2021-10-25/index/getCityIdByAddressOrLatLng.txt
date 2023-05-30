@@ -1,0 +1,25 @@
+
+ Request - 2021-10-25 08:25:53
+{"method":"getCityIdByAddressOrLatLng","address":"Zone 51, Nevada, États-Unis","lat":"37.2430548","lng":"-115.7930198"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"859666V4+6Q"}}
+ Request - 2021-10-25 13:52:29
+{"method":"getCityIdByAddressOrLatLng","address":"مركزاليسا للعناية بالبشرة، النجف، العراق","lat":"32.025931","lng":"44.3359119"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"\u0645\u0631\u0643\u0632\u0627\u0644\u064a\u0633\u0627 \u0644\u0644\u0639\u0646\u0627\u064a\u0629 \u0628\u0627\u0644\u0628\u0634\u0631\u0629\u060c Najaf, Iraq"}}
+ Request - 2021-10-25 18:16:39
+{"method":"getCityIdByAddressOrLatLng","address":"4484 Ngafani, Kinshasa, République démocratique du Congo","lat":"-4.3601655","lng":"15.2503899"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"4484 Ngafani, Kinshasa, Democratic Republic of the Congo"}}
+ Request - 2021-10-25 19:10:33
+{"method":"getCityIdByAddressOrLatLng","address":"J7HG+WCP, Ghogarwadi, Maharashtra 431804, India","lat":"19.6275508","lng":"78.2773349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"J7HG+2W Ghogarwadi, Maharashtra, India"}}
+ Request - 2021-10-25 22:13:42
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Moçambique","lat":"-16.0948866","lng":"35.7657657"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WQ48+28 Milange, Mozambique"}}
+ Request - 2021-10-25 22:13:42
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Moçambique","lat":"-16.0948866","lng":"35.7657657"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"WQ48+28 Milange, Mozambique"}}

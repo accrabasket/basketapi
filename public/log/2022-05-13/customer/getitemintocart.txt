@@ -1,0 +1,49 @@
+
+ Request - 2022-05-13 03:53:20
+{"method":"getitemintocart","guest_user_id":"265086e785ff674b"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 04:51:08
+{"method":"getitemintocart","guest_user_id":"5a6ae8c59d655011"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 06:28:22
+{"method":"getitemintocart","guest_user_id":"0dd500a62ee845a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 06:28:22
+{"method":"getitemintocart","guest_user_id":"0dd500a62ee845a7"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 06:52:54
+{"method":"getitemintocart","guest_user_id":"6f86e6e892270753"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 07:14:56
+{"method":"getitemintocart","guest_user_id":"8f4fcaab14a450f3"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 09:45:42
+{"method":"getitemintocart","guest_user_id":"e2cfbca2534b08aa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 09:45:43
+{"method":"getitemintocart","guest_user_id":"e2cfbca2534b08aa"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 18:10:35
+{"method":"getitemintocart","guest_user_id":"29a4aece488b55ae"}
+ Response :- 
+{"status":"success","data":{"217":{"id":20100,"user_id":0,"guest_user_id":"29a4aece488b55ae","merchant_inventry_id":217,"item_name":"Black Salt(Black Salt)","number_of_item":1,"created_date":"2022-03-05 21:06:34"}},"productDetails":{"status":"success","data":{"217":{"id":217,"price":"7.50","product_id":376,"merchant_id":3,"store_id":2,"merchant_product_code":"6033000220","product_name":"Black Salt","product_desc":"Our Brand has varieties of items, all these are process in Ghana. We provide good quality food to our customers.\nAs it said the familiar saying \u201cDon\u2019t judge a book by its cover, people do judge a shop by its \u201ccover\u201d, we have made constant effort for outstanding visual merchandising to make our departments look more approachable. Vinco Foods has different variety","default_discount_type":"","default_discount_value":"0","category_id":58,"custom_info":"","brand_name":"Vinco","commission_type":"percent","commission_value":"10.0000","discount_type":"","discount_value":"0","unit":"gm","quantity":100,"tax_value":"3"}},"productImageData":{"376":[{"id":293,"type":"product","image_id":376,"image_name":"6033000220561.jpg"}]}},"imageRootPath":"http:\/\/172.104.239.54\/basketapi\/public\/images"}
+ Request - 2022-05-13 19:33:48
+{"method":"getitemintocart","guest_user_id":"06d93a947df8f592"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 19:44:49
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}
+ Request - 2022-05-13 19:44:52
+{"method":"getitemintocart","guest_user_id":"855a22280e35a0fe"}
+ Response :- 
+{"status":"fail","msg":"No Record found"}

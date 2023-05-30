@@ -1,0 +1,29 @@
+
+ Request - 2022-01-15 03:26:37
+{"method":"getCityIdByAddressOrLatLng","address":"F8RX+G67, Korhogo, Côte d'Ivoire","lat":"9.4931418","lng":"-5.6518748"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"F8VX+77 Korhogo, C\u00f4te d'Ivoire"}}
+ Request - 2022-01-15 04:37:22
+{"method":"getCityIdByAddressOrLatLng","address":"3MPC+46Q, Sargodha, Punjab, Pakistan","lat":"32.085444","lng":"72.6704655"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3MPC+46Q, Sargodha, Punjab, Pakistan"}}
+ Request - 2022-01-15 12:43:12
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, 810101, Dan Jaba, Nigeria","lat":"10.8368339","lng":"7.857706"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"RVP5+P3 Dan Jaba, Nigeria"}}
+ Request - 2022-01-15 16:46:52
+{"method":"getCityIdByAddressOrLatLng","address":"6M7H+RMW, Avagou, Côte d'Ivoire","lat":"5.2146473","lng":"-4.3226427"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6M7G+VW Avagou, C\u00f4te d'Ivoire"}}
+ Request - 2022-01-15 17:56:06
+{"method":"getCityIdByAddressOrLatLng","address":"MF6P+J46, Kumasi, Ghana","lat":"6.6610153","lng":"-1.514404"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"MF6P+J46, Kumasi, Ghana"}}
+ Request - 2022-01-15 18:32:11
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Darul Quran No.317, RT.01\/RW.10, Loji, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16117, Indonesia","lat":"-6.5839937","lng":"106.7741341"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Darul Quran No.317, RT.01\/RW.10, Loji, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16117, Indonesia"}}
+ Request - 2022-01-15 22:42:24
+{"method":"getCityIdByAddressOrLatLng","address":"16 Loreley Close, Harare, Zimbabwe","lat":"-17.8482555","lng":"31.1357502"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"16 Loreley Close, Harare, Zimbabwe"}}

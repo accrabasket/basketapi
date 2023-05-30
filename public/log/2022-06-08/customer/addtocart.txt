@@ -1,0 +1,73 @@
+
+ Request - 2022-06-08 14:23:29
+{"method":"addtocart","guest_user_id":"b13caf5f8e3526a3","number_of_item":"1","merchant_inventry_id":"452","action":"add","item_name":"Vodka Blue(Vodka Blue)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:53:31
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"207","action":"add","item_name":"Almond\/Badam(Almond\/Badam)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:53:36
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"219","action":"add","item_name":"Cashew Nut Broken(Cashew Nut Broken)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:53:42
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"221","action":"add","item_name":"Cashew Nut Whole(Cashew Nut Whole)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:53:52
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"258","action":"add","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:54:01
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"307","action":"add","item_name":"Raisin\/Kishmish(Raisin\/Kishmish)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:55:47
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"735","action":"add","item_name":"Sunflower Oil(Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:56:44
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"992","action":"add","item_name":"Tagliatelle Spinaci n. 80(Tagliatelle Spinaci n. 80)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:57:43
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"2158","action":"add","item_name":"Tuna Chunks in Sunflower Oil(Tuna Chunks in Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:57:45
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"2158","action":"add","item_name":"Tuna Chunks in Sunflower Oil(Tuna Chunks in Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:57:49
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"2158","action":"add","item_name":"Tuna Chunks in Sunflower Oil(Tuna Chunks in Sunflower Oil)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 17:57:54
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"2161","action":"add","item_name":"Mushrooms Slices(Mushrooms Slices)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 20:00:51
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"895","action":"add","item_name":"White Oats(White Oats)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 20:02:25
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"2605","action":"add","item_name":"Tomato Mix - Pillow Pack(Tomato Mix - Pillow Pack)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 20:03:48
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"659","action":"add","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 20:03:52
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"659","action":"add","item_name":"Full Cream UHT Milk (Full-Fat)(Full Cream UHT Milk (Full-Fat))"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 20:05:53
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"258","action":"delete","item_name":"Granulated Sugar(Granulated Sugar)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}
+ Request - 2022-06-08 20:06:15
+{"method":"addtocart","guest_user_id":"fc3827ce349a6999","number_of_item":"1","merchant_inventry_id":"2722","action":"add","item_name":"Mayonnaise with Fresh Eggs(Mayonnaise with Fresh Eggs)"}
+ Response :- 
+{"status":"success","msg":"Cart Updated"}

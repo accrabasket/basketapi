@@ -1,0 +1,5 @@
+
+ Request - 2022-10-26 01:31:26
+{"method":"getaddresslist","user_id":"8856"}
+ Response :- 
+{"status":"success","data":{"666":{"id":666,"user_id":8856,"address_nickname":"SNCOS","contact_name":"Alexandra Sagoe ","city_id":1,"city_name":"Accra, Ghana","house_number":"block A ","street_detail":"Bruma Camp ","landmark":"Air Force ","zipcode":"","area":"","lat":"5.6037168","lng":"","created_date":"2022-10-04 16:30:17","updated_date":"2022-10-04 16:30:17"}}}

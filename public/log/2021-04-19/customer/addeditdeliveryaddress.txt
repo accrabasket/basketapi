@@ -1,0 +1,5 @@
+
+ Request - 2021-04-19 08:19:00
+{"method":"addeditdeliveryaddress","house_number":"6 Baiden Ave 1st st","area":"","street_detail":"westlands ","contact_name":"ohemaa Baffour ","city_name":"6 Baiden Ave 1st St, Accra, Ghana","city_id":"1","lat":"5.6452883","long":"-0.2094525","user_id":"2422","address_nickname":"villa Victoria ","landmark":"villa Victoria executive lodge ","zipcode":""}
+ Response :- 
+{"status":"success","msg":"Address Saved","data":{"id":446}}

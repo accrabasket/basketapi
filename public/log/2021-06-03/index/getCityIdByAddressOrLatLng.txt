@@ -1,0 +1,9 @@
+
+ Request - 2021-06-03 03:33:22
+{"method":"getCityIdByAddressOrLatLng","address":"Rue 1200, Cotonou, Bénin","lat":"6.3651932","lng":"2.451607"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Rue 1200, Cotonou, Benin"}}
+ Request - 2021-06-03 18:15:50
+{"method":"getCityIdByAddressOrLatLng","address":"N1, Conakry, Guinée","lat":"9.6652851","lng":"-13.5263814"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N1, Conakry, Guinea"}}

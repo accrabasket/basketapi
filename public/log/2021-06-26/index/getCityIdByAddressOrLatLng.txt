@@ -1,0 +1,25 @@
+
+ Request - 2021-06-26 07:39:58
+{"method":"getCityIdByAddressOrLatLng","address":"N14, Bénin","lat":"10.4204505","lng":"2.4330704"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"N14, Benin"}}
+ Request - 2021-06-26 10:45:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Bunia, République démocratique du Congo","lat":"1.595132","lng":"30.2611886"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Bunia, Democratic Republic of the Congo"}}
+ Request - 2021-06-26 12:15:54
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, ድሬዳዋ, Ethiopia","lat":"9.5917224","lng":"41.8522558"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u12f5\u122c\u12f3\u12cb, Ethiopia"}}
+ Request - 2021-06-26 12:15:56
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, ድሬዳዋ, Ethiopia","lat":"9.5917224","lng":"41.8522558"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, \u12f5\u122c\u12f3\u12cb, Ethiopia"}}
+ Request - 2021-06-26 13:57:23
+{"method":"getCityIdByAddressOrLatLng","address":"Vijayawada, Andhra Pradesh, Inde","lat":"16.5061743","lng":"80.6480153"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"9, Mogalrajapuram, Journalist Colony, Christurajupuram, Vijayawada, Andhra Pradesh 520010, India"}}
+ Request - 2021-06-26 17:40:57
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, جريبة الشقيري 84852، السعودية","lat":"17.1418814","lng":"42.8149744"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Joribah 84852, Saudi Arabia"}}

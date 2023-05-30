@@ -1,0 +1,9 @@
+
+ Request - 2022-11-16 15:28:28
+{"method":"getCityIdByAddressOrLatLng","address":"PQP4+5MC, Nairobi, Kenya","lat":"-1.2657118","lng":"36.7566495"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"PQP4+5MC, Nairobi, Kenya"}}
+ Request - 2022-11-16 16:12:37
+{"method":"getCityIdByAddressOrLatLng","address":"6MPJ+642, Chandpur, Bangladesh","lat":"23.2345485","lng":"90.6809776"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"6MPJ+642, Chandpur, Bangladesh"}}

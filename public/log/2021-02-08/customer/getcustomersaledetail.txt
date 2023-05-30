@@ -1,0 +1,21 @@
+
+ Request - 2021-02-08 04:28:05
+{"start_date":"2021-02-08","end_date":"2021-02-08","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-02-08":{"count":1,"created_date":"2021-02-08"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-02-08 10:04:53
+{"start_date":"2021-02-08","end_date":"2021-02-08","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-02-08":{"count":2,"created_date":"2021-02-08"}},"allOrderByDate":[],"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":0,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-02-08 13:25:38
+{"start_date":"2021-02-08","end_date":"2021-02-08","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-02-08":{"count":2,"created_date":"2021-02-08"}},"allOrderByDate":{"2021-02-08":{"count":19,"created_date":"2021-02-08"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":19,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-02-08 14:14:57
+{"start_date":"2021-02-08","end_date":"2021-02-08","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-02-08":{"count":2,"created_date":"2021-02-08"}},"allOrderByDate":{"2021-02-08":{"count":3,"created_date":"2021-02-08"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":3,"totalConfirmedOrder":0,"totalCancelledOrder":0}}
+ Request - 2021-02-08 14:43:13
+{"start_date":"2021-02-08","end_date":"2021-02-08","report":"day","method":"getcustomersaledetail"}
+ Response :- 
+{"status":"success","data":{"customerByDate":{"2021-02-08":{"count":4,"created_date":"2021-02-08"}},"allOrderByDate":{"2021-02-08":{"count":3,"created_date":"2021-02-08"}},"completedOrderByDate":[],"cancelledOrderByDate":[],"totalOrder":3,"totalConfirmedOrder":0,"totalCancelledOrder":0}}

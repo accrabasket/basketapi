@@ -1,0 +1,5 @@
+
+ Request - 2021-03-30 16:27:01
+{"method":"generateotp","user_id":"0","otp_type":"register","country_code":"+233","mobile_number":"0247629924"}
+ Response :- 
+{"status":"success","msg":"Otp send","data":{"mobile_number":"+2330247629924","otp_type":"register","user_id":"0","otp":7122,"expiry_date":"2021-03-30 16:41:58"}}

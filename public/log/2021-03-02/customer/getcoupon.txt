@@ -1,0 +1,5 @@
+
+ Request - 2021-03-02 20:15:20
+{"method":"getcoupon","user_id":"90","only_active_coupon":"1","pagination":"false"}
+ Response :- 
+{"status":"success","data":[],"totalRecords":{"count":0}}

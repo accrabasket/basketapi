@@ -1,0 +1,33 @@
+
+ Request - 2022-06-30 03:08:17
+{"method":"getCityIdByAddressOrLatLng","address":"JVJF+GRW, Swaraj Colony, Shri Ganesh Colony, Dighi, Pimpri-Chinchwad, Maharashtra 411015, India","lat":"18.6312487","lng":"73.8746411"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JVJF+GRW, Swaraj Colony, Shri Ganesh Colony, Dighi, Pimpri-Chinchwad, Maharashtra 411015, India"}}
+ Request - 2022-06-30 09:35:05
+{"method":"getCityIdByAddressOrLatLng","address":"Jl. Kiara Payung No.11, Cihideung, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559, Indonesia","lat":"-6.8449714","lng":"107.5892417"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Jl. Kiara Payung No.11, Cihideung, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559, Indonesia"}}
+ Request - 2022-06-30 10:20:58
+{"method":"getCityIdByAddressOrLatLng","address":"996R+832, Canal Colony Pākpattan, Pakpattan, Punjab, Pakistan","lat":"30.3612099","lng":"73.3906613"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"996R+832, Canal Colony P\u0101kpattan, Pakpattan, Punjab, Pakistan"}}
+ Request - 2022-06-30 11:29:05
+{"method":"getCityIdByAddressOrLatLng","address":"B6003, ফতুল্লা, Bangladesh","lat":"23.6456292","lng":"90.4878536"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"B6003, \u09ab\u09a4\u09c1\u09b2\u09cd\u09b2\u09be, Bangladesh"}}
+ Request - 2022-06-30 15:22:15
+{"method":"getCityIdByAddressOrLatLng","address":"Balaju Kharibot Chwock, काठमाडौँ 44600, Nepal","lat":"27.7313436","lng":"85.2938705"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Balaju Kharibot Chwock, \u0915\u093e\u0920\u092e\u093e\u0921\u094c\u0901 44600, Nepal"}}
+ Request - 2022-06-30 18:34:28
+{"method":"getCityIdByAddressOrLatLng","address":"64F6+V8M, C82, La Chebba, Tunisie","lat":"35.2254357","lng":"11.1098473"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"64F6+V8M, C82, La Chebba, Tunisia"}}
+ Request - 2022-06-30 19:25:03
+{"method":"getCityIdByAddressOrLatLng","address":"JRXX+24C, La-Bawaleshi Rd, Accra, Ghana","lat":"5.647627","lng":"-0.1525584"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"JRXX+24C, La-Bawaleshi Rd, Accra, Ghana"}}
+ Request - 2022-06-30 22:37:57
+{"method":"getCityIdByAddressOrLatLng","address":"X39R+5RV, Sweepers Colony Scheme 33 Gulzar E Hijri Scheme 33, Karachi, Karachi City, Sindh, Pakistan","lat":"24.9680302","lng":"67.0919628"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"X39R+5RV, Sweepers Colony Scheme 33 Gulzar E Hijri Scheme 33, Karachi, Karachi City, Sindh, Pakistan"}}

@@ -1,0 +1,17 @@
+
+ Request - 2022-03-19 05:10:09
+{"method":"getCityIdByAddressOrLatLng","address":"R6V3+928, Landhi Town, Karachi, Pakistan","lat":"24.8438397","lng":"67.2026914"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"R6V3+928, Landhi Town, Karachi, Pakistan"}}
+ Request - 2022-03-19 13:57:12
+{"method":"getCityIdByAddressOrLatLng","address":"R508, Kindu, République démocratique du Congo","lat":"-2.9495511","lng":"25.9155703"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3W28+56 Kindu, Democratic Republic of the Congo"}}
+ Request - 2022-03-19 13:57:15
+{"method":"getCityIdByAddressOrLatLng","address":"R508, Kindu, République démocratique du Congo","lat":"-2.9495511","lng":"25.9155703"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"3W28+56 Kindu, Democratic Republic of the Congo"}}
+ Request - 2022-03-19 16:20:18
+{"method":"getCityIdByAddressOrLatLng","address":"Sancaktar, 1074. Sk. No:16, 63040 Şanlıurfa Merkez\/Şanlıurfa, Türkiye","lat":"37.1516568","lng":"38.8015349"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Sancaktar, 1074. Sk. No:16, 63040 \u015eanl\u0131urfa Merkez\/\u015eanl\u0131urfa, Turkey"}}

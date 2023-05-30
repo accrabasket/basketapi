@@ -1,0 +1,17 @@
+
+ Request - 2021-06-19 06:40:54
+{"method":"getCityIdByAddressOrLatLng","address":"Ghulam Ghaus Hazarwi Rd, Mansehra, Khyber Pakhtunkhwa 21300, Pakistan","lat":"34.342291","lng":"73.2112582"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Ghulam Ghaus Hazarwi Rd, Mansehra, Khyber Pakhtunkhwa 21300, Pakistan"}}
+ Request - 2021-06-19 08:23:36
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Anza 80000, Maroc","lat":"30.4579085","lng":"-9.6507685"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Agadir 80000, Morocco"}}
+ Request - 2021-06-19 10:48:03
+{"method":"getCityIdByAddressOrLatLng","address":"Viraj Tower, Parsik Rd, Parsik Nagar, Kalwa, Thane, Maharashtra 400605, India","lat":"19.2078591","lng":"73.0058356"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Viraj Tower, Parsik Rd, Parsik Nagar, Kalwa, Thane, Maharashtra 400605, India"}}
+ Request - 2021-06-19 12:09:39
+{"method":"getCityIdByAddressOrLatLng","address":"Unnamed Road, Chathan Wala, Chathian Wala, Kasur, Punjab, Pakistan","lat":"31.2918155","lng":"74.5124194"}
+ Response :- 
+{"status":"success","data":{"id":1,"city_name":"Accra","city_synonym":"Accra, tema, Ghana","country_id":4,"customer_care_number":"233553354848","created_on":"2018-05-26 11:47:48","updated_on":"2020-02-26 08:47:48","city":"Unnamed Road, Chathan Wala, Chathian Wala, Kasur, Punjab, Pakistan"}}
